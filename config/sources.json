@@ -1,0 +1,25 @@
+{
+  "appid": 730,
+  "cs2_start_utc": "2023-09-27T00:00:00Z",
+  "github": {
+    "name": "steamreviews",
+    "repository": "https://github.com/woctezuma/download-steam-reviews",
+    "commit": "27adb12737b2169117dfddd9092e3dc6f5934307",
+    "path": "external/download-steam-reviews",
+    "license": "MIT"
+  },
+  "research": {
+    "catalog": "https://cseweb.ucsd.edu/~jmcauley/datasets.html#steam_data",
+    "base_url": "https://mcauleylab.ucsd.edu/public_datasets/data/steam/",
+    "files": {
+      "reviews": "australian_user_reviews.json.gz",
+      "items": "australian_users_items.json.gz",
+      "metadata": "steam_games.json.gz"
+    },
+    "citations": [
+      "Kang and McAuley. Self-attentive sequential recommendation. ICDM 2018.",
+      "Wan and McAuley. Item recommendation on monotonic behavior chains. RecSys 2018.",
+      "Pathak, Gupta and McAuley. Generating and personalizing bundle recommendations on Steam. SIGIR 2017."
+    ]
+  }
+}
