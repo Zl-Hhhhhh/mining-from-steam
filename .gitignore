@@ -6,3 +6,4 @@ external/
 data/
 !.gitkeep
 %SystemDrive%/
+.zcodeignore
