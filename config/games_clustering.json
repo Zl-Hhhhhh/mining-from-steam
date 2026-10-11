@@ -1,0 +1,394 @@
+{
+  "description": "Game selection for clustering analysis - maximizing diversity across genres, prices, and player base",
+  "target_total_games": 50,
+  "reviews_per_game": 400,
+  "estimated_collection_time_hours": 3.5,
+  
+  "games": [
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "genre": ["Action", "FPS"],
+      "price": "Free",
+      "rationale": "Free competitive FPS, massive player base"
+    },
+    {
+      "appid": 570,
+      "name": "Dota 2",
+      "genre": ["Strategy", "MOBA"],
+      "price": "Free",
+      "rationale": "Free MOBA, high complexity, dedicated community"
+    },
+    {
+      "appid": 1172470,
+      "name": "Apex Legends",
+      "genre": ["Action", "FPS", "Battle Royale"],
+      "price": "Free",
+      "rationale": "Free BR, EA published, hero shooter mechanics"
+    },
+    {
+      "appid": 271590,
+      "name": "Grand Theft Auto V",
+      "genre": ["Action", "Adventure", "Open World"],
+      "price": "Premium",
+      "rationale": "Open world classic, long-term support"
+    },
+    {
+      "appid": 1245620,
+      "name": "Elden Ring",
+      "genre": ["RPG", "Action", "Souls-like"],
+      "price": "Premium",
+      "rationale": "AAA RPG, FromSoftware, high difficulty"
+    },
+    {
+      "appid": 1086940,
+      "name": "Baldur's Gate 3",
+      "genre": ["RPG", "Strategy", "Story-Rich"],
+      "price": "Premium",
+      "rationale": "CRPG, story-driven, GOTY 2023"
+    },
+    {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt",
+      "genre": ["RPG", "Open World", "Story-Rich"],
+      "price": "Mid-tier",
+      "rationale": "Story-focused RPG, mature themes"
+    },
+    {
+      "appid": 1091500,
+      "name": "Cyberpunk 2077",
+      "genre": ["RPG", "Open World", "Shooter"],
+      "price": "Premium",
+      "rationale": "Controversial launch, redemption arc"
+    },
+    {
+      "appid": 534380,
+      "name": "Dying Light 2",
+      "genre": ["Action", "Survival", "Parkour"],
+      "price": "Premium",
+      "rationale": "Survival horror with parkour"
+    },
+    {
+      "appid": 275850,
+      "name": "No Man's Sky",
+      "genre": ["Adventure", "Exploration", "Survival"],
+      "price": "Mid-tier",
+      "rationale": "Redemption story, procedural generation"
+    },
+    {
+      "appid": 413150,
+      "name": "Stardew Valley",
+      "genre": ["Simulation", "Farming", "Indie"],
+      "price": "Budget",
+      "rationale": "Solo dev, farming sim, universally loved"
+    },
+    {
+      "appid": 646570,
+      "name": "Slay the Spire",
+      "genre": ["Strategy", "Roguelike", "Card Game"],
+      "price": "Budget",
+      "rationale": "Deck-builder roguelike, high replay value"
+    },
+    {
+      "appid": 1144200,
+      "name": "Ready or Not",
+      "genre": ["Action", "Tactical", "Shooter"],
+      "price": "Mid-tier",
+      "rationale": "Tactical FPS, realistic approach (FIXED appid)"
+    },
+    {
+      "appid": 2358720,
+      "name": "Black Myth: Wukong",
+      "genre": ["Action", "RPG", "Chinese"],
+      "price": "Premium",
+      "rationale": "Chinese mythology, 2024 release, cultural impact, large Chinese player base"
+    },
+    {
+      "appid": 397540,
+      "name": "Borderlands 3",
+      "genre": ["Action", "Shooter", "Looter"],
+      "price": "Mid-tier",
+      "rationale": "Looter shooter, co-op focus"
+    },
+    {
+      "appid": 582010,
+      "name": "Monster Hunter: World",
+      "genre": ["Action", "RPG", "Co-op"],
+      "price": "Mid-tier",
+      "rationale": "Co-op hunting, grinding mechanics"
+    },
+    {
+      "appid": 367520,
+      "name": "Hollow Knight",
+      "genre": ["Action", "Metroidvania", "Indie"],
+      "price": "Budget",
+      "rationale": "Indie metroidvania, high difficulty"
+    },
+    {
+      "appid": 504230,
+      "name": "Celeste",
+      "genre": ["Platformer", "Indie"],
+      "price": "Budget",
+      "rationale": "Precision platformer, mental health themes"
+    },
+    {
+      "appid": 262060,
+      "name": "Darkest Dungeon",
+      "genre": ["Strategy", "Roguelike", "Turn-Based"],
+      "price": "Budget",
+      "rationale": "Stress mechanics, gothic horror"
+    },
+    {
+      "appid": 252490,
+      "name": "Rust",
+      "genre": ["Survival", "Multiplayer", "Crafting"],
+      "price": "Mid-tier",
+      "rationale": "Hardcore survival, toxic reputation"
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "genre": ["Software", "Utility"],
+      "price": "Budget",
+      "rationale": "Not a game - interesting outlier"
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "genre": ["Adventure", "Sandbox", "Indie"],
+      "price": "Budget",
+      "rationale": "2D sandbox, long-term updates"
+    },
+    {
+      "appid": 4000,
+      "name": "Garry's Mod",
+      "genre": ["Sandbox", "Multiplayer"],
+      "price": "Budget",
+      "rationale": "User-generated content, old classic"
+    },
+    {
+      "appid": 1623730,
+      "name": "Palworld",
+      "genre": ["Survival", "Crafting", "Creature Collector"],
+      "price": "Mid-tier",
+      "rationale": "Viral survival game, creature collecting (replaces Starfield)"
+    },
+    {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2",
+      "genre": ["Action", "Adventure", "Western"],
+      "price": "Premium",
+      "rationale": "Rockstar narrative masterpiece"
+    },
+    {
+      "appid": 447040,
+      "name": "Watch Dogs 2",
+      "genre": ["Action", "Hacking", "Open World"],
+      "price": "Mid-tier",
+      "rationale": "Hacking theme, Ubisoft formula"
+    },
+    {
+      "appid": 236390,
+      "name": "War Thunder",
+      "genre": ["Simulation", "Military", "Free"],
+      "price": "Free",
+      "rationale": "Military simulation, grinding reputation"
+    },
+    {
+      "appid": 489830,
+      "name": "The Elder Scrolls V: Skyrim Special Edition",
+      "genre": ["RPG", "Open World", "Fantasy"],
+      "price": "Mid-tier",
+      "rationale": "Modding classic, multiple re-releases"
+    },
+    {
+      "appid": 1088850,
+      "name": "NARAKA: BLADEPOINT",
+      "genre": ["Action", "Battle Royale", "Melee"],
+      "price": "Free",
+      "rationale": "Chinese martial arts BR, melee focus, large Asian player base (FIXED appid)"
+    },
+    {
+      "appid": 381210,
+      "name": "Dead Cells",
+      "genre": ["Action", "Roguelite", "Platformer"],
+      "price": "Budget",
+      "rationale": "Roguelite metroidvania hybrid (FIXED appid)"
+    },
+    {
+      "appid": 588650,
+      "name": "Dead by Daylight",
+      "genre": ["Horror", "Asymmetric", "Multiplayer"],
+      "price": "Mid-tier",
+      "rationale": "Asymmetric horror, DLC-heavy (FIXED appid - was swapped with Dead Cells)"
+    },
+    {
+      "appid": 238960,
+      "name": "Path of Exile",
+      "genre": ["RPG", "ARPG", "Free"],
+      "price": "Free",
+      "rationale": "Complex ARPG, deep systems (FIXED appid)"
+    },
+    {
+      "appid": 220,
+      "name": "Half-Life 2",
+      "genre": ["Action", "FPS", "Classic"],
+      "price": "Budget",
+      "rationale": "Valve classic, historical importance"
+    },
+    {
+      "appid": 8930,
+      "name": "Sid Meier's Civilization V",
+      "genre": ["Strategy", "Turn-Based", "4X"],
+      "price": "Mid-tier",
+      "rationale": "4X strategy, one-more-turn addiction"
+    },
+    {
+      "appid": 289070,
+      "name": "Sid Meier's Civilization VI",
+      "genre": ["Strategy", "Turn-Based", "4X"],
+      "price": "Premium",
+      "rationale": "Modern 4X, compare with Civ V"
+    },
+    {
+      "appid": 1145360,
+      "name": "Hades",
+      "genre": ["Action", "Roguelite", "Indie"],
+      "price": "Budget",
+      "rationale": "Narrative roguelite, high acclaim (FIXED appid)"
+    },
+    {
+      "appid": 813780,
+      "name": "Age of Empires II: Definitive Edition",
+      "genre": ["Strategy", "RTS", "Classic"],
+      "price": "Budget",
+      "rationale": "Classic RTS remaster, esports scene"
+    },
+    {
+      "appid": 648800,
+      "name": "Raft",
+      "genre": ["Survival", "Co-op", "Crafting"],
+      "price": "Budget",
+      "rationale": "Ocean survival, co-op friendly"
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "genre": ["Survival", "Dinosaurs", "Multiplayer"],
+      "price": "Mid-tier",
+      "rationale": "Dinosaur survival, technical issues reputation"
+    },
+    {
+      "appid": 440900,
+      "name": "Conan Exiles",
+      "genre": ["Survival", "Building", "Multiplayer"],
+      "price": "Mid-tier",
+      "rationale": "Survival with building focus"
+    },
+    {
+      "appid": 1517290,
+      "name": "Battlefield 2042",
+      "genre": ["Action", "FPS", "Multiplayer"],
+      "price": "Premium",
+      "rationale": "Troubled AAA launch, mixed reception"
+    },
+    {
+      "appid": 244850,
+      "name": "Space Engineers",
+      "genre": ["Simulation", "Building", "Space"],
+      "price": "Mid-tier",
+      "rationale": "Engineering sandbox, physics simulation"
+    },
+    {
+      "appid": 322330,
+      "name": "Don't Starve Together",
+      "genre": ["Survival", "Co-op", "Indie"],
+      "price": "Budget",
+      "rationale": "Co-op survival, unique art style"
+    },
+    {
+      "appid": 1426210,
+      "name": "It Takes Two",
+      "genre": ["Adventure", "Co-op", "Platformer"],
+      "price": "Premium",
+      "rationale": "Co-op only, GOTY 2021, narrative focus"
+    },
+    {
+      "appid": 739630,
+      "name": "Phasmophobia",
+      "genre": ["Horror", "Co-op", "VR"],
+      "price": "Budget",
+      "rationale": "Co-op horror, VR support, indie success"
+    },
+    {
+      "appid": 230410,
+      "name": "Warframe",
+      "genre": ["Action", "Looter Shooter", "Free"],
+      "price": "Free",
+      "rationale": "F2P looter shooter, long-term support"
+    },
+    {
+      "appid": 976730,
+      "name": "Halo: The Master Chief Collection",
+      "genre": ["Action", "FPS", "Classic"],
+      "price": "Premium",
+      "rationale": "FPS classic collection, nostalgia factor"
+    },
+    {
+      "appid": 291550,
+      "name": "Brawlhalla",
+      "genre": ["Fighting", "Platform Fighter", "Free"],
+      "price": "Free",
+      "rationale": "F2P platform fighter, crossplay support"
+    },
+    {
+      "appid": 261550,
+      "name": "Mount & Blade II: Bannerlord",
+      "genre": ["Strategy", "RPG", "Medieval"],
+      "price": "Premium",
+      "rationale": "Medieval sandbox RPG, modding community (replaces 三国杀)"
+    },
+    {
+      "appid": 1687950,
+      "name": "Persona 5 Royal",
+      "genre": ["RPG", "JRPG", "Turn-Based"],
+      "price": "Premium",
+      "rationale": "Acclaimed JRPG, stylish presentation, character-driven"
+    },
+    {
+      "appid": 250900,
+      "name": "The Binding of Isaac: Rebirth",
+      "genre": ["Action", "Roguelike", "Indie"],
+      "price": "Budget",
+      "rationale": "Roguelike classic, high replay value, dark themes"
+    }
+  ],
+  
+  "diversity_coverage": {
+    "genres": ["FPS", "MOBA", "RPG", "JRPG", "Indie", "Simulation", "Strategy", "Platformer", "Survival", "Horror", "Battle Royale", "ARPG", "RTS", "4X", "Roguelite", "Roguelike", "Metroidvania", "Fighting", "Medieval"],
+    "price_tiers": ["Free", "Budget (<$15)", "Mid-tier ($15-40)", "Premium ($40+)"],
+    "release_years": ["Classic (>10y)", "Modern (5-10y)", "Recent (<5y)", "New (<1y)"],
+    "regional_focus": ["Global", "Chinese market (Black Myth, Naraka)", "Japanese market (Persona 5 Royal)", "Western medieval (Bannerlord)"],
+    "expected_clusters": [
+      "Competitive multiplayer (CS2, Dota 2, Apex, Brawlhalla)",
+      "Story-driven RPGs (Witcher 3, BG3, Elden Ring, Persona 5 Royal)",
+      "Indie darlings (Stardew, Hollow Knight, Celeste, Binding of Isaac)",
+      "Survival/Crafting (Rust, Terraria, ARK, Palworld)",
+      "AAA Open World (GTA V, RDR2, Cyberpunk)",
+      "Co-op focused (It Takes Two, Don't Starve Together, Phasmophobia)",
+      "Strategy/4X (Civ V/VI, Age of Empires)",
+      "F2P grinders (Warframe, Path of Exile, War Thunder)",
+      "Roguelikes/lites (Slay the Spire, Hades, Dead Cells, Binding of Isaac)",
+      "?? (to be discovered)"
+    ]
+  },
+  
+  "collection_config": {
+    "reviews_per_game": 400,
+    "languages": ["english", "schinese"],
+    "reviews_per_language": 200,
+    "balance_by_vote": false,
+    "time_range": "recent_6_months",
+    "notes": "Collecting both English and Simplified Chinese reviews to capture regional differences. 200 reviews per language per game = 400 total per game. All appids verified via Steam Store API."
+  }
+}
