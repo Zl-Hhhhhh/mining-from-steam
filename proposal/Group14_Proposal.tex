@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage[preprint,nonatbib]{neurips_2026}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[hidelinks]{hyperref}
+
+% Fill the four member fields before submission. There are exactly two members.
+\newcommand{\GroupNumber}{14}
+\newcommand{\MemberOneName}{Lin Zihan}
+\newcommand{\MemberOneID}{50027371}
+\newcommand{\MemberTwoName}{[Member 2 Full Name]}
+\newcommand{\MemberTwoID}{[Student ID 2]}
+
+% Retain the official NeurIPS layout, but identify this as a course proposal.
+\makeatletter
+\renewcommand{\@noticestring}{AIAA 3111 Course Project Proposal. Group \GroupNumber. Draft for group review.}
+\makeatother
+
+\title{Mining Steam Data:\\Player Experiences and Game Insights}
+\author{%
+  \MemberOneName\\
+  Student ID: \MemberOneID\\
+  AIAA 3111, Group \GroupNumber
+  \And
+  \MemberTwoName\\
+  Student ID: \MemberTwoID\\
+  AIAA 3111, Group \GroupNumber
+}
+
+\begin{document}
+\maketitle
+
+\section{Background and Problem Statement}
+Steam contains player reviews, playtime-related records, game descriptions, and news that can reveal how players experience games. Store genres and overall recommendation rates summarize only part of this information. Mining text together with structured data may uncover recurring concerns, differences between reviewer groups, and changes in feedback over time.
+
+The project aims to \textbf{mine interpretable patterns from Steam data}. We ask: (1) What themes recur in player feedback? (2) How do these themes relate to recommendations, playtime, and game characteristics? (3) How do patterns differ by review language or around selected updates? Units of analysis may include individual reviews, reviewer activity records, games, and time periods. Clustering is one possible method alongside topic discovery and association analysis. The final focus will follow data coverage and pilot results, with exploratory claims limited to the selected sample.
+
+\section{Proposed Methodology and Technical Approach}
+\paragraph{Data acquisition and sampling.}
+The reviewed repository manifest provides an initial sample of 50 games spanning several genres. We will start with \textbf{up to 200 clean English and 200 Simplified Chinese reviews per game}, targeting 20,000 reviews through Steam's public review API~\cite{steam}. A frozen six-month window and weekly stratified sampling will support comparisons; shortfalls and achieved counts will be reported. Recommendation labels, creation dates, helpful/funny votes, purchase flags, and available playtime-at-review fields will accompany the text.
+
+We will also collect available store metadata, including genres, descriptions, release dates, developers/publishers, and price/free-to-play status. Snapshot dates, currency, and region will be recorded. News and update announcements~\cite{news} may support a focused temporal case study, with additional reviews collected if event-window coverage is insufficient. Player-count snapshots and existing research datasets are possible extensions after checking availability, provenance, and compatibility.
+
+\paragraph{Preprocessing and representations.}
+We will deduplicate review IDs and repeated text within each game and language, normalize whitespace and URLs, and flag empty or low-information text while preserving negation and Chinese content. Missing structured fields will be recorded explicitly. English TF-IDF with truncated SVD will provide a lexical baseline; multilingual Sentence-BERT~\cite{sbert,multilingual} will provide semantic embeddings. Numeric features will be transformed and scaled as appropriate. Review vectors can support theme discovery, while aggregated theme frequencies or embeddings can describe games and reviewer activity. Text-only and combined representations will be compared where coverage permits.
+
+\paragraph{Mining and evaluation.}
+Initial experiments will compare lexical topic discovery using non-negative matrix factorization with embedding-based review clustering using KMeans or agglomerative clustering. Candidate themes will be checked using representative terms and approximately 20 reviews per theme. Silhouette scores, cluster sizes, and resampling stability will supplement manual interpretation. Game-level clustering may summarize similarities, with model complexity constrained by the 50-game sample. Recommendation labels will remain separate from unsupervised text features when describing theme associations.
+
+We will examine theme prevalence and recommendations across playtime ranges, game characteristics, and languages, using within-game comparisons and game-aware bootstrap intervals. Language comparisons will use matched games with adequate coverage. A temporal case study will compare feedback before and after documented updates if sufficient dated reviews are available.
+
+\paragraph{Interpretation and reproducibility.}
+We will report representative examples, theme profiles, association plots, and suitable similarity or time-series visualizations. Raw responses, source versions, sampling manifests, and random seeds will support reproduction. Public outputs will omit author identifiers. Results will distinguish completed analyses from extensions that data coverage could not support.
+
+\section{Expected Outcomes}
+Expected outputs include a documented Steam dataset linking reviews with available contextual data, a reproducible mining pipeline, and evidence-based findings about player concerns and their associations with reviewer or game characteristics. Possible themes include optimization complaints or praise for replayability; these remain hypotheses. Findings will include uncertainty, sensitivity checks, and unsuccessful approaches. Limitations include purposive game selection, humorous reviews, missing fields, unequal language coverage, and sparse event data. The final report will document AIGC use after the draft and analysis are reviewed.
+
+\section{Timeline}
+\begin{center}
+\small
+\begin{tabular}{@{}p{0.24\linewidth}p{0.71\linewidth}@{}}
+\toprule
+Dates (2026) & Milestones and deliverables \\
+\midrule
+Oct 11 to 15 & Review proposal; fill names/IDs; confirm Canvas group; submit by Oct 15, 23:59. \\
+Oct 16 to 25 & Incorporate feedback through Oct 22; audit sources; collect and clean reviews and metadata. \\
+Oct 26 to Nov 8 & Build representations; run pilot mining; select analyses and supplementary data. \\
+Nov 9 to 20 & Evaluate themes, associations, and feasible extensions; check sensitivity and limitations. \\
+Nov 21 to 27 & Prepare figures and poster; submit Poster.pdf by Nov 27, 23:59. \\
+Dec 4 & Present at the poster session, 15:00 to 16:20. \\
+Dec 5 to 11 & Finalize report, disclosures, code, and data instructions; submit final ZIP by Dec 11, 23:59. \\
+\bottomrule
+\end{tabular}
+\end{center}
+\begin{thebibliography}{9}
+\small
+\bibitem{steam} Valve. \emph{IUserReviewsService: GetAppReviews}. \href{https://partner.steamgames.com/doc/webapi/IUserReviewsService}{Steamworks Documentation}, accessed October 2026.
+\bibitem{news} Valve. \emph{ISteamNews: GetNewsForApp}. \href{https://partner.steamgames.com/doc/webapi/ISteamNews}{Steamworks Documentation}, accessed October 2026.
+\bibitem{sbert} N. Reimers and I. Gurevych. Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. \emph{EMNLP-IJCNLP}, 2019. \href{https://aclanthology.org/D19-1410/}{doi:10.18653/v1/D19-1410}.
+\bibitem{multilingual} N. Reimers and I. Gurevych. Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation. \emph{EMNLP}, 2020. \href{https://aclanthology.org/2020.emnlp-main.365/}{doi:10.18653/v1/2020.emnlp-main.365}.
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,5686 @@
+{
+  "reviewed_at": "2026-10-11T07:10:48.000579+00:00",
+  "original_config": "config/games_clustering.json",
+  "original_sha256": "12c42e383a81fb90456a8258f77fe59f8ca9f60cd12c6b0f771f2a9a2e262e21",
+  "original_entries": 51,
+  "excluded": [
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "reason": "Software utility; excluded from the 50-game study"
+    }
+  ],
+  "corrections": [
+    "Dead Cells: appid corrected from 381210 to 588650",
+    "Dead by Daylight: appid corrected from 588650 to 381210",
+    "NARAKA: BLADEPOINT: appid corrected from 1088850 to 1203220"
+  ],
+  "games_count": 50,
+  "collection_config": {
+    "reviews_per_game": 400,
+    "languages": [
+      "english",
+      "schinese"
+    ],
+    "reviews_per_language": 200,
+    "balance_by_vote": false,
+    "time_range": "recent_6_months",
+    "notes": "Collecting both English and Simplified Chinese reviews to capture regional differences. 200 reviews per language per game = 400 total per game. All appids verified via Steam Store API."
+  },
+  "games": [
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "genre": [
+        "Action",
+        "FPS"
+      ],
+      "price": "Free",
+      "rationale": "Free competitive FPS, massive player base",
+      "verified_store_name": "Counter-Strike 2",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": true,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 51,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 8,
+            "description": "Valve Anti-Cheat enabled"
+          },
+          {
+            "id": 15,
+            "description": "Stats"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 63,
+            "description": "Steam Timeline"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 21, 2012"
+        },
+        "price_overview": null,
+        "developers": [
+          "Valve"
+        ],
+        "publishers": [
+          "Valve"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 570,
+      "name": "Dota 2",
+      "genre": [
+        "Strategy",
+        "MOBA"
+      ],
+      "price": "Free",
+      "rationale": "Free MOBA, high complexity, dedicated community",
+      "verified_store_name": "Dota 2",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": true,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 40,
+            "description": "SteamVR Collectibles"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 8,
+            "description": "Valve Anti-Cheat enabled"
+          },
+          {
+            "id": 63,
+            "description": "Steam Timeline"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2013"
+        },
+        "price_overview": null,
+        "developers": [
+          "Valve"
+        ],
+        "publishers": [
+          "Valve"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1172470,
+      "name": "Apex Legends",
+      "genre": [
+        "Action",
+        "FPS",
+        "Battle Royale"
+      ],
+      "price": "Free",
+      "rationale": "Free BR, EA published, hero shooter mechanics",
+      "verified_store_name": "Apex Legends™",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": true,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 72,
+            "description": "Chat Speech-to-text"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 4, 2020"
+        },
+        "price_overview": null,
+        "developers": [
+          "Respawn"
+        ],
+        "publishers": [
+          "Electronic Arts"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 271590,
+      "name": "Grand Theft Auto V",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Open World"
+      ],
+      "price": "Premium",
+      "rationale": "Open world classic, long-term support",
+      "verified_store_name": "Grand Theft Auto V Legacy",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 13, 2015"
+        },
+        "price_overview": null,
+        "developers": [
+          "Rockstar North"
+        ],
+        "publishers": [
+          "Rockstar Games"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1245620,
+      "name": "Elden Ring",
+      "genre": [
+        "RPG",
+        "Action",
+        "Souls-like"
+      ],
+      "price": "Premium",
+      "rationale": "AAA RPG, FromSoftware, high difficulty",
+      "verified_store_name": "ELDEN RING",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 24, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$59.99"
+        },
+        "developers": [
+          "FromSoftware, Inc."
+        ],
+        "publishers": [
+          "FromSoftware, Inc.",
+          "Bandai Namco Entertainment"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1086940,
+      "name": "Baldur's Gate 3",
+      "genre": [
+        "RPG",
+        "Strategy",
+        "Story-Rich"
+      ],
+      "price": "Premium",
+      "rationale": "CRPG, story-driven, GOTY 2023",
+      "verified_store_name": "Baldur's Gate 3",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 48,
+            "description": "LAN Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 65,
+            "description": "Subtitle Options"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 3, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$59.99"
+        },
+        "developers": [
+          "Larian Studios"
+        ],
+        "publishers": [
+          "Larian Studios"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt",
+      "genre": [
+        "RPG",
+        "Open World",
+        "Story-Rich"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Story-focused RPG, mature themes",
+      "verified_store_name": "The Witcher 3: Wild Hunt — Remastered",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 61,
+            "description": "HDR available"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 18, 2015"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$49.99"
+        },
+        "developers": [
+          "CD PROJEKT RED"
+        ],
+        "publishers": [
+          "CD PROJEKT RED"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1091500,
+      "name": "Cyberpunk 2077",
+      "genre": [
+        "RPG",
+        "Open World",
+        "Shooter"
+      ],
+      "price": "Premium",
+      "rationale": "Controversial launch, redemption arc",
+      "verified_store_name": "Cyberpunk 2077",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 65,
+            "description": "Subtitle Options"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 61,
+            "description": "HDR available"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 9, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$59.99"
+        },
+        "developers": [
+          "CD PROJEKT RED"
+        ],
+        "publishers": [
+          "CD PROJEKT RED"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 534380,
+      "name": "Dying Light 2",
+      "genre": [
+        "Action",
+        "Survival",
+        "Parkour"
+      ],
+      "price": "Premium",
+      "rationale": "Survival horror with parkour",
+      "verified_store_name": "Dying Light 2 Stay Human: Reloaded Edition",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 3, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$59.99"
+        },
+        "developers": [
+          "Techland"
+        ],
+        "publishers": [
+          "Techland"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 275850,
+      "name": "No Man's Sky",
+      "genre": [
+        "Adventure",
+        "Exploration",
+        "Survival"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Redemption story, procedural generation",
+      "verified_store_name": "No Man's Sky",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 52,
+            "description": "Tracked Controller Support"
+          },
+          {
+            "id": 53,
+            "description": "VR Supported"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 72,
+            "description": "Chat Speech-to-text"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 59,
+            "description": "Steam Input API Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 65,
+            "description": "Subtitle Options"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 61,
+            "description": "HDR available"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 12, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$59.99"
+        },
+        "developers": [
+          "Hello Games"
+        ],
+        "publishers": [
+          "Hello Games"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 413150,
+      "name": "Stardew Valley",
+      "genre": [
+        "Simulation",
+        "Farming",
+        "Indie"
+      ],
+      "price": "Budget",
+      "rationale": "Solo dev, farming sim, universally loved",
+      "verified_store_name": "Stardew Valley",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 48,
+            "description": "LAN Co-op"
+          },
+          {
+            "id": 39,
+            "description": "Shared/Split Screen Co-op"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 26, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$14.99"
+        },
+        "developers": [
+          "ConcernedApe"
+        ],
+        "publishers": [
+          "ConcernedApe"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 646570,
+      "name": "Slay the Spire",
+      "genre": [
+        "Strategy",
+        "Roguelike",
+        "Card Game"
+      ],
+      "price": "Budget",
+      "rationale": "Deck-builder roguelike, high replay value",
+      "verified_store_name": "Slay the Spire",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 77,
+            "description": "Touch Only Option"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 15,
+            "description": "Stats"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 23, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$24.99"
+        },
+        "developers": [
+          "Mega Crit"
+        ],
+        "publishers": [
+          "Mega Crit"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1144200,
+      "name": "Ready or Not",
+      "genre": [
+        "Action",
+        "Tactical",
+        "Shooter"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Tactical FPS, realistic approach (FIXED appid)",
+      "verified_store_name": "Ready or Not",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 13, 2023"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$49.99"
+        },
+        "developers": [
+          "VOID Interactive"
+        ],
+        "publishers": [
+          "VOID Interactive"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 2358720,
+      "name": "Black Myth: Wukong",
+      "genre": [
+        "Action",
+        "RPG",
+        "Chinese"
+      ],
+      "price": "Premium",
+      "rationale": "Chinese mythology, 2024 release, cultural impact, large Chinese player base",
+      "verified_store_name": "Black Myth: Wukong",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 60,
+            "description": "Gamepad Recommended"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 19, 2024"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$59.99"
+        },
+        "developers": [
+          "Game Science"
+        ],
+        "publishers": [
+          "Game Science"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 397540,
+      "name": "Borderlands 3",
+      "genre": [
+        "Action",
+        "Shooter",
+        "Looter"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Looter shooter, co-op focus",
+      "verified_store_name": "Borderlands 3",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 48,
+            "description": "LAN Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 13, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$59.99"
+        },
+        "developers": [
+          "Gearbox Software"
+        ],
+        "publishers": [
+          "2K"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 582010,
+      "name": "Monster Hunter: World",
+      "genre": [
+        "Action",
+        "RPG",
+        "Co-op"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Co-op hunting, grinding mechanics",
+      "verified_store_name": "Monster Hunter: World",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 15,
+            "description": "Stats"
+          },
+          {
+            "id": 25,
+            "description": "Steam Leaderboards"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 61,
+            "description": "HDR available"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 8, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$29.99"
+        },
+        "developers": [
+          "CAPCOM Co., Ltd."
+        ],
+        "publishers": [
+          "CAPCOM Co., Ltd."
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 367520,
+      "name": "Hollow Knight",
+      "genre": [
+        "Action",
+        "Metroidvania",
+        "Indie"
+      ],
+      "price": "Budget",
+      "rationale": "Indie metroidvania, high difficulty",
+      "verified_store_name": "Hollow Knight",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 24, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$14.99"
+        },
+        "developers": [
+          "Team Cherry"
+        ],
+        "publishers": [
+          "Team Cherry"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 504230,
+      "name": "Celeste",
+      "genre": [
+        "Platformer",
+        "Indie"
+      ],
+      "price": "Budget",
+      "rationale": "Precision platformer, mental health themes",
+      "verified_store_name": "Celeste",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 25, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 499,
+          "discount_percent": 75,
+          "initial_formatted": "$19.99",
+          "final_formatted": "$4.99"
+        },
+        "developers": [
+          "Maddy Makes Games Inc.",
+          "Extremely OK Games, Ltd."
+        ],
+        "publishers": [
+          "Maddy Makes Games Inc."
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 262060,
+      "name": "Darkest Dungeon",
+      "genre": [
+        "Strategy",
+        "Roguelike",
+        "Turn-Based"
+      ],
+      "price": "Budget",
+      "rationale": "Stress mechanics, gothic horror",
+      "verified_store_name": "Darkest Dungeon®",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jan 19, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 374,
+          "discount_percent": 85,
+          "initial_formatted": "$24.99",
+          "final_formatted": "$3.74"
+        },
+        "developers": [
+          "Red Hook Studios"
+        ],
+        "publishers": [
+          "Red Hook Studios"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 252490,
+      "name": "Rust",
+      "genre": [
+        "Survival",
+        "Multiplayer",
+        "Crafting"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Hardcore survival, toxic reputation",
+      "verified_store_name": "Rust",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "29",
+            "description": "Massively Multiplayer"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 20,
+            "description": "MMO"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 65,
+            "description": "Subtitle Options"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 8,
+            "description": "Valve Anti-Cheat enabled"
+          },
+          {
+            "id": 15,
+            "description": "Stats"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 8, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$39.99"
+        },
+        "developers": [
+          "Facepunch Studios"
+        ],
+        "publishers": [
+          "Facepunch Studios"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "genre": [
+        "Adventure",
+        "Sandbox",
+        "Indie"
+      ],
+      "price": "Budget",
+      "rationale": "2D sandbox, long-term updates",
+      "verified_store_name": "Terraria",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 16, 2011"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 499,
+          "discount_percent": 50,
+          "initial_formatted": "$9.99",
+          "final_formatted": "$4.99"
+        },
+        "developers": [
+          "Re-Logic"
+        ],
+        "publishers": [
+          "Re-Logic"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 4000,
+      "name": "Garry's Mod",
+      "genre": [
+        "Sandbox",
+        "Multiplayer"
+      ],
+      "price": "Budget",
+      "rationale": "User-generated content, old classic",
+      "verified_store_name": "Garry's Mod",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "4",
+            "description": "Casual"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 47,
+            "description": "LAN PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 48,
+            "description": "LAN Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 13,
+            "description": "Captions available"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 8,
+            "description": "Valve Anti-Cheat enabled"
+          },
+          {
+            "id": 17,
+            "description": "Includes level editor"
+          },
+          {
+            "id": 16,
+            "description": "Includes Source SDK"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 29, 2006"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$9.99"
+        },
+        "developers": [
+          "Facepunch Studios"
+        ],
+        "publishers": [
+          "Valve"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1623730,
+      "name": "Palworld",
+      "genre": [
+        "Survival",
+        "Crafting",
+        "Creature Collector"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Viral survival game, creature collecting (replaces Starfield)",
+      "verified_store_name": "Palworld",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jul 9, 2026"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2099,
+          "discount_percent": 30,
+          "initial_formatted": "$29.99",
+          "final_formatted": "$20.99"
+        },
+        "developers": [
+          "Pocketpair"
+        ],
+        "publishers": [
+          "Pocketpair"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Western"
+      ],
+      "price": "Premium",
+      "rationale": "Rockstar narrative masterpiece",
+      "verified_store_name": "Red Dead Redemption 2",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 5, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 1499,
+          "discount_percent": 75,
+          "initial_formatted": "$59.99",
+          "final_formatted": "$14.99"
+        },
+        "developers": [
+          "Rockstar Games"
+        ],
+        "publishers": [
+          "Rockstar Games"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 447040,
+      "name": "Watch Dogs 2",
+      "genre": [
+        "Action",
+        "Hacking",
+        "Open World"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Hacking theme, Ubisoft formula",
+      "verified_store_name": "Watch_Dogs® 2",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 28, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$49.99"
+        },
+        "developers": [
+          "Ubisoft"
+        ],
+        "publishers": [
+          "Ubisoft"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 236390,
+      "name": "War Thunder",
+      "genre": [
+        "Simulation",
+        "Military",
+        "Free"
+      ],
+      "price": "Free",
+      "rationale": "Military simulation, grinding reputation",
+      "verified_store_name": "War Thunder",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": true,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "29",
+            "description": "Massively Multiplayer"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 20,
+            "description": "MMO"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 53,
+            "description": "VR Supported"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 59,
+            "description": "Steam Input API Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 15, 2013"
+        },
+        "price_overview": null,
+        "developers": [
+          "Gaijin Entertainment"
+        ],
+        "publishers": [
+          "Gaijin Network Ltd"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 489830,
+      "name": "The Elder Scrolls V: Skyrim Special Edition",
+      "genre": [
+        "RPG",
+        "Open World",
+        "Fantasy"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Modding classic, multiple re-releases",
+      "verified_store_name": "The Elder Scrolls V: Skyrim Special Edition",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 27, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$39.99"
+        },
+        "developers": [
+          "Bethesda Game Studios"
+        ],
+        "publishers": [
+          "Bethesda Softworks"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1203220,
+      "name": "NARAKA: BLADEPOINT",
+      "genre": [
+        "Action",
+        "Battle Royale",
+        "Melee"
+      ],
+      "price": "Free",
+      "rationale": "Chinese martial arts BR, melee focus, large Asian player base (FIXED appid)",
+      "verified_store_name": "NARAKA: BLADEPOINT",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": true,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "29",
+            "description": "Massively Multiplayer"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 61,
+            "description": "HDR available"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 11, 2021"
+        },
+        "price_overview": null,
+        "developers": [
+          "24 Entertainment"
+        ],
+        "publishers": [
+          "NetEase Games "
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 588650,
+      "name": "Dead Cells",
+      "genre": [
+        "Action",
+        "Roguelite",
+        "Platformer"
+      ],
+      "price": "Budget",
+      "rationale": "Roguelite metroidvania hybrid (FIXED appid)",
+      "verified_store_name": "Dead Cells",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 6, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$24.99"
+        },
+        "developers": [
+          "Motion Twin"
+        ],
+        "publishers": [
+          "Motion Twin"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 381210,
+      "name": "Dead by Daylight",
+      "genre": [
+        "Horror",
+        "Asymmetric",
+        "Multiplayer"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Asymmetric horror, DLC-heavy (FIXED appid - was swapped with Dead Cells)",
+      "verified_store_name": "Dead by Daylight",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          }
+        ],
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 59,
+            "description": "Steam Input API Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 65,
+            "description": "Subtitle Options"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 14, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$19.99"
+        },
+        "developers": [
+          "Behaviour Interactive Inc."
+        ],
+        "publishers": [
+          "Behaviour Interactive Inc."
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 238960,
+      "name": "Path of Exile",
+      "genre": [
+        "RPG",
+        "ARPG",
+        "Free"
+      ],
+      "price": "Free",
+      "rationale": "Complex ARPG, deep systems (FIXED appid)",
+      "verified_store_name": "Path of Exile",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": true,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "29",
+            "description": "Massively Multiplayer"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 20,
+            "description": "MMO"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 23, 2013"
+        },
+        "price_overview": null,
+        "developers": [
+          "Grinding Gear Games"
+        ],
+        "publishers": [
+          "Grinding Gear Games"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 220,
+      "name": "Half-Life 2",
+      "genre": [
+        "Action",
+        "FPS",
+        "Classic"
+      ],
+      "price": "Budget",
+      "rationale": "Valve classic, historical importance",
+      "verified_store_name": "Half-Life 2",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 13,
+            "description": "Captions available"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 59,
+            "description": "Steam Input API Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 65,
+            "description": "Subtitle Options"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 16,
+            "description": "Includes Source SDK"
+          },
+          {
+            "id": 14,
+            "description": "Commentary available"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          },
+          {
+            "id": 63,
+            "description": "Steam Timeline"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 16, 2004"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 999,
+          "final": 999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$9.99"
+        },
+        "developers": [
+          "Valve"
+        ],
+        "publishers": [
+          "Valve"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 8930,
+      "name": "Sid Meier's Civilization V",
+      "genre": [
+        "Strategy",
+        "Turn-Based",
+        "4X"
+      ],
+      "price": "Mid-tier",
+      "rationale": "4X strategy, one-more-turn addiction",
+      "verified_store_name": "Sid Meier's Civilization® V",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 21, 2010"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2999,
+          "final": 2999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$29.99"
+        },
+        "developers": [
+          "Firaxis Games",
+          "Aspyr (Mac)",
+          "Aspyr (Linux)"
+        ],
+        "publishers": [
+          "2K",
+          "Aspyr (Mac)",
+          "Aspyr (Linux)"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 289070,
+      "name": "Sid Meier's Civilization VI",
+      "genre": [
+        "Strategy",
+        "Turn-Based",
+        "4X"
+      ],
+      "price": "Premium",
+      "rationale": "Modern 4X, compare with Civ V",
+      "verified_store_name": "Sid Meier’s Civilization® VI",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 47,
+            "description": "LAN PvP"
+          },
+          {
+            "id": 37,
+            "description": "Shared/Split Screen PvP"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 32,
+            "description": "Steam Turn Notifications"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$59.99"
+        },
+        "developers": [
+          "Firaxis Games",
+          "Aspyr (Mac)",
+          "Aspyr (Linux)"
+        ],
+        "publishers": [
+          "2K",
+          "Aspyr (Mac)",
+          "Aspyr (Linux)"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1145360,
+      "name": "Hades",
+      "genre": [
+        "Action",
+        "Roguelite",
+        "Indie"
+      ],
+      "price": "Budget",
+      "rationale": "Narrative roguelite, high acclaim (FIXED appid)",
+      "verified_store_name": "Hades",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 13,
+            "description": "Captions available"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 17, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 2499,
+          "final": 2499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$24.99"
+        },
+        "developers": [
+          "Supergiant Games"
+        ],
+        "publishers": [
+          "Supergiant Games"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 813780,
+      "name": "Age of Empires II: Definitive Edition",
+      "genre": [
+        "Strategy",
+        "RTS",
+        "Classic"
+      ],
+      "price": "Budget",
+      "rationale": "Classic RTS remaster, esports scene",
+      "verified_store_name": "Age of Empires II: Definitive Edition",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 47,
+            "description": "LAN PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 48,
+            "description": "LAN Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 71,
+            "description": "Narrated Game Menus"
+          },
+          {
+            "id": 80,
+            "description": "#category_playable_at_your_own_pace"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 17,
+            "description": "Includes level editor"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 14, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3499,
+          "final": 3499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$34.99"
+        },
+        "developers": [
+          "World's Edge",
+          "Forgotten Empires",
+          "CaptureAge",
+          "Tantalus Media",
+          "Wicked Witch",
+          "Feral Interactive"
+        ],
+        "publishers": [
+          "Xbox Game Studios"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 648800,
+      "name": "Raft",
+      "genre": [
+        "Survival",
+        "Co-op",
+        "Crafting"
+      ],
+      "price": "Budget",
+      "rationale": "Ocean survival, co-op friendly",
+      "verified_store_name": "Raft",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Jun 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$19.99"
+        },
+        "developers": [
+          "Redbeet Interactive"
+        ],
+        "publishers": [
+          "Axolot Games"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "genre": [
+        "Survival",
+        "Dinosaurs",
+        "Multiplayer"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Dinosaur survival, technical issues reputation",
+      "verified_store_name": "ARK: Survival Evolved",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "29",
+            "description": "Massively Multiplayer"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 20,
+            "description": "MMO"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 8,
+            "description": "Valve Anti-Cheat enabled"
+          },
+          {
+            "id": 17,
+            "description": "Includes level editor"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Aug 27, 2017"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$14.99"
+        },
+        "developers": [
+          "Studio Wildcard",
+          "Instinct Games",
+          "Efecto Studios",
+          "Virtual Basement LLC"
+        ],
+        "publishers": [
+          "Studio Wildcard",
+          "Snail Games USA"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 440900,
+      "name": "Conan Exiles",
+      "genre": [
+        "Survival",
+        "Building",
+        "Multiplayer"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Survival with building focus",
+      "verified_store_name": "Conan Exiles Enhanced",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "29",
+            "description": "Massively Multiplayer"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "May 8, 2018"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 1999,
+          "discount_percent": 50,
+          "initial_formatted": "$39.99",
+          "final_formatted": "$19.99"
+        },
+        "developers": [
+          "Funcom",
+          "Inflexion Games"
+        ],
+        "publishers": [
+          "Funcom"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1517290,
+      "name": "Battlefield 2042",
+      "genre": [
+        "Action",
+        "FPS",
+        "Multiplayer"
+      ],
+      "price": "Premium",
+      "rationale": "Troubled AAA launch, mixed reception",
+      "verified_store_name": "Battlefield™ 2042",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "4",
+            "description": "Casual"
+          }
+        ],
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 61,
+            "description": "HDR available"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 19, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$59.99"
+        },
+        "developers": [
+          "DICE"
+        ],
+        "publishers": [
+          "Electronic Arts"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 244850,
+      "name": "Space Engineers",
+      "genre": [
+        "Simulation",
+        "Building",
+        "Space"
+      ],
+      "price": "Mid-tier",
+      "rationale": "Engineering sandbox, physics simulation",
+      "verified_store_name": "Space Engineers",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 17,
+            "description": "Includes level editor"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Feb 28, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$19.99"
+        },
+        "developers": [
+          "Keen Software House"
+        ],
+        "publishers": [
+          "Keen Software House"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 322330,
+      "name": "Don't Starve Together",
+      "genre": [
+        "Survival",
+        "Co-op",
+        "Indie"
+      ],
+      "price": "Budget",
+      "rationale": "Co-op survival, unique art style",
+      "verified_store_name": "Don't Starve Together",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 47,
+            "description": "LAN PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 48,
+            "description": "LAN Co-op"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 64,
+            "description": "Adjustable Text Size"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 75,
+            "description": "Keyboard Only Option"
+          },
+          {
+            "id": 76,
+            "description": "Mouse Only Option"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 79,
+            "description": "Save Anytime"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Apr 21, 2016"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$14.99"
+        },
+        "developers": [
+          "Klei Entertainment"
+        ],
+        "publishers": [
+          "Klei Entertainment"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1426210,
+      "name": "It Takes Two",
+      "genre": [
+        "Adventure",
+        "Co-op",
+        "Platformer"
+      ],
+      "price": "Premium",
+      "rationale": "Co-op only, GOTY 2021, narrative focus",
+      "verified_store_name": "It Takes Two",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          }
+        ],
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 39,
+            "description": "Shared/Split Screen Co-op"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 25, 2021"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$39.99"
+        },
+        "developers": [
+          "Hazelight Studios"
+        ],
+        "publishers": [
+          "Electronic Arts"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 739630,
+      "name": "Phasmophobia",
+      "genre": [
+        "Horror",
+        "Co-op",
+        "VR"
+      ],
+      "price": "Budget",
+      "rationale": "Co-op horror, VR support, indie success",
+      "verified_store_name": "Phasmophobia",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "70",
+            "description": "Early Access"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 52,
+            "description": "Tracked Controller Support"
+          },
+          {
+            "id": 53,
+            "description": "VR Supported"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 78,
+            "description": "Adjustable Difficulty"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Sep 18, 2020"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1999,
+          "final": 1999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$19.99"
+        },
+        "developers": [
+          "Kinetic Games"
+        ],
+        "publishers": [
+          "Kinetic Games"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 230410,
+      "name": "Warframe",
+      "genre": [
+        "Action",
+        "Looter Shooter",
+        "Free"
+      ],
+      "price": "Free",
+      "rationale": "F2P looter shooter, long-term support",
+      "verified_store_name": "Warframe",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": true,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 67,
+            "description": "Camera Comfort"
+          },
+          {
+            "id": 66,
+            "description": "Color Alternatives"
+          },
+          {
+            "id": 68,
+            "description": "Custom Volume Controls"
+          },
+          {
+            "id": 74,
+            "description": "Playable without Timed Input"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 59,
+            "description": "Steam Input API Support"
+          },
+          {
+            "id": 69,
+            "description": "Stereo Sound"
+          },
+          {
+            "id": 70,
+            "description": "Surround Sound"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 61,
+            "description": "HDR available"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Mar 25, 2013"
+        },
+        "price_overview": null,
+        "developers": [
+          "Digital Extremes"
+        ],
+        "publishers": [
+          "Digital Extremes"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 976730,
+      "name": "Halo: The Master Chief Collection",
+      "genre": [
+        "Action",
+        "FPS",
+        "Classic"
+      ],
+      "price": "Premium",
+      "rationale": "FPS classic collection, nostalgia factor",
+      "verified_store_name": "Halo: The Master Chief Collection",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 47,
+            "description": "LAN PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 48,
+            "description": "LAN Co-op"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Dec 3, 2019"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 3999,
+          "final": 3999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$39.99"
+        },
+        "developers": [
+          "343 Industries",
+          "Splash Damage",
+          "Ruffian Games",
+          "Bungie",
+          "Saber Interactive"
+        ],
+        "publishers": [
+          "Xbox Game Studios"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 291550,
+      "name": "Brawlhalla",
+      "genre": [
+        "Fighting",
+        "Platform Fighter",
+        "Free"
+      ],
+      "price": "Free",
+      "rationale": "F2P platform fighter, crossplay support",
+      "verified_store_name": "Brawlhalla",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": true,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 37,
+            "description": "Shared/Split Screen PvP"
+          },
+          {
+            "id": 9,
+            "description": "Co-op"
+          },
+          {
+            "id": 38,
+            "description": "Online Co-op"
+          },
+          {
+            "id": 39,
+            "description": "Shared/Split Screen Co-op"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 27,
+            "description": "Cross-Platform Multiplayer"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 55,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 56,
+            "description": "DualShock Controller Support"
+          },
+          {
+            "id": 57,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 58,
+            "description": "DualSense Controller Support"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 41,
+            "description": "Remote Play on Phone"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 17, 2017"
+        },
+        "price_overview": null,
+        "developers": [
+          "Blue Mammoth Games"
+        ],
+        "publishers": [
+          "Ubisoft"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 261550,
+      "name": "Mount & Blade II: Bannerlord",
+      "genre": [
+        "Strategy",
+        "RPG",
+        "Medieval"
+      ],
+      "price": "Premium",
+      "rationale": "Medieval sandbox RPG, modding community (replaces 三国杀)",
+      "verified_store_name": "Mount & Blade II: Bannerlord",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "23",
+            "description": "Indie"
+          },
+          {
+            "id": "3",
+            "description": "RPG"
+          },
+          {
+            "id": "28",
+            "description": "Simulation"
+          },
+          {
+            "id": "2",
+            "description": "Strategy"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 30,
+            "description": "Steam Workshop"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 17,
+            "description": "Includes level editor"
+          },
+          {
+            "id": 42,
+            "description": "Remote Play on Tablet"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 25, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 4999,
+          "final": 4999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$49.99"
+        },
+        "developers": [
+          "TaleWorlds Entertainment"
+        ],
+        "publishers": [
+          "TaleWorlds Entertainment"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 1687950,
+      "name": "Persona 5 Royal",
+      "genre": [
+        "RPG",
+        "JRPG",
+        "Turn-Based"
+      ],
+      "price": "Premium",
+      "rationale": "Acclaimed JRPG, stylish presentation, character-driven",
+      "verified_store_name": "Persona 5 Royal",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "3",
+            "description": "RPG"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Oct 20, 2022"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 5999,
+          "final": 5999,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$59.99"
+        },
+        "developers": [
+          "ATLUS"
+        ],
+        "publishers": [
+          "SEGA"
+        ]
+      },
+      "name_match": true
+    },
+    {
+      "appid": 250900,
+      "name": "The Binding of Isaac: Rebirth",
+      "genre": [
+        "Action",
+        "Roguelike",
+        "Indie"
+      ],
+      "price": "Budget",
+      "rationale": "Roguelike classic, high replay value, dark themes",
+      "verified_store_name": "The Binding of Isaac: Rebirth",
+      "verified_type": "game",
+      "verification_status": "ok",
+      "store_metadata": {
+        "is_free": false,
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          }
+        ],
+        "categories": [
+          {
+            "id": 2,
+            "description": "Single-player"
+          },
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 24,
+            "description": "Shared/Split Screen"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 28,
+            "description": "Full controller support"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 23,
+            "description": "Steam Cloud"
+          },
+          {
+            "id": 43,
+            "description": "Remote Play on TV"
+          },
+          {
+            "id": 44,
+            "description": "Remote Play Together"
+          },
+          {
+            "id": 62,
+            "description": "Family Sharing"
+          }
+        ],
+        "release_date": {
+          "coming_soon": false,
+          "date": "Nov 4, 2014"
+        },
+        "price_overview": {
+          "currency": "USD",
+          "initial": 1499,
+          "final": 1499,
+          "discount_percent": 0,
+          "initial_formatted": "",
+          "final_formatted": "$14.99"
+        },
+        "developers": [
+          "Nicalis, Inc.",
+          "Edmund McMillen"
+        ],
+        "publishers": [
+          "Nicalis, Inc."
+        ]
+      },
+      "name_match": true
+    }
+  ]
+}
