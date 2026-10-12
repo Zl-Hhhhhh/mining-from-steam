@@ -1,0 +1,317 @@
+{
+  "fetched_at": "2026-10-12T07:04:41.403397+00:00",
+  "endpoint": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/",
+  "data": {
+    "appnews": {
+      "appid": 730,
+      "newsitems": [
+        {
+          "gid": "1846018067932423",
+          "title": "Valve ускорила перезарядку AUG в Counter-Strike 2 и исправила ошибки на картах Rush в свежем обновлении",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846018067932423",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/98mRQB8laACN8ppsCnBa5g.jpeg\"/>\n              <br />\n                                                                                <p>Valve выпустила небольшое обновление для Counter-Strike 2 от 9 октября. Патч затронул баланс оружия, звуковые эффекты и геометрию карт, а также принёс несколько технических исправлений. Размер загрузки составил около 539 МБ.</p>                                                        <p>Главное изменение касается AUG: время перезарядки винтовки сократили на полсекунды. Такая корректировка может повлиять на поведение оружия в перестрелках, хотя сама по себе не означает масштабного пересмотра его баланса. Кроме того, разработчики добавили специальный значок для выброшенных наборов сапёра, чтобы их было проще заметить на карте.</p>                                                        <p>Valve также исправила ошибку со звуковым событием при бесшумной перезарядке Desert Eagle. Ещё одно исправление касается просмотра демок: теперь не должны возникать гудящие фоновые звуки. Помимо этого, разработчики продолжили устранять проблемы с геометрией на картах режима Rush, обновили локализацию и внесли улучшения в стабильность игры.</p>                                                        <p>Предыдущий небольшой патч для CS2 вышел 6 октября. Тогда Valve добавила кнопки управления загруженными картами из Мастерской, обновила локализованные элементы фотокниги питомцев и скорректировала параметры кэша шейдеров VK. Новое обновление продолжает серию точечных улучшений без крупных изменений игрового процесса.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1791530925,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 730
+        },
+        {
+          "gid": "1846018067931597",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067931597",
+          "is_external_url": true,
+          "author": "Vitaliy",
+          "contents": "[p]\\[ MISC ][/p][list][*][p]Added a ping icon for dropped defuse kits[/p][/*][*][p]Reduced the time for AUG reload by half second[/p][/*][*][p]Fixed the sound event during silent reload for Desert Eagle[/p][/*][*][p]Fixed a case of buzzing soundscape sounds during demo playback[/p][/*][*][p]Clipping fixes for Rush maps[/p][/*][*][p]Localization updates[/p][/*][*][p]Stability updates[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1791499009,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1846018067925017",
+          "title": "Игрок в Counter-Strike 2 написал магистерскую диссертацию о том, как выследить и навсегда избавиться от читера",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846018067925017",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/155mCndbo3atGoks2ODsgw.png\"/>\n              <br />\n                                                      <p>Простой студент и заядлый игрок в Counter-Strike 2 под ником magga_ защитил целую магистерскую диссертацию в Норвежском университете естественных и технических наук, предложив новый подход к борьбе с нечестными пользователями. Его работа посвящена системе поведенческой биометрии, которая позволяет вычислять реальную личность игрока по микромоторике рук и связывать баны с человеком, а не с его учетной записью Steam.</p>                                                                                  <p>Главной уязвимостью современных античитов геймер назвал блокировку конкретных аккаунтов. Получив бан, реальный нарушитель просто покупает или регистрирует новый аккаунт и возвращается на серверы со своими читами. Разработанный алгоритм анализирует обычные записи матчей, которые игра уже сохраняет, и формирует персональный «цифровой отпечаток» на основе индивидуальных привычек ввода:</p>                                                        <p>В соревновательном шутере игроки тысячи раз повторяют одни и те же действия под давлением фактора времени: флики, контр-стрейфы, контроль отдачи и броски гранат. Со временем эти движения переходят на уровень подсознательной мышечной памяти. Вы можете сменить ник, звание, аккаунт, оружие и даже общий стиль игры. Но изменить собственные руки куда сложнее.</p>                                                        <p>— объяснил автор диссертации.</p>                                                        <p>В ходе испытаний на выборке из более чем тысячи игроков система показала свою эффективность:</p>                                                        <p>анализ движений мыши безошибочно определил пользователя во всех 100% случаев;</p>                                                        <p>паттерны нажатий клавиатуры показали точность в 98%;</p>                                                        <p>комбинация двух метрик безошибочно подтвердила все 13 известных исследователю тестовых пар аккаунтов одного и того же человека.</p>                                                                                                                                      <p>Что еще более интересно, в процессе тестирования система попутно разоблачила скрытых смурфов: несколько совпадений, которые автор сперва посчитал ложным срабатыванием, но при детальной проверке оказались дополнительными твинками игроков из базы данных. По замыслу создателя, данная технология могла бы работать в связке с VAC и системой «Фактора доверия». Это позволило бы античиту распознавать заблокированного игрока сразу же, как только тот садится за новую учетную запись.</p>                                                        <p>Впрочем, исследователь признал и текущие ограничения проекта: метод пока не проходил испытания на миллионной аудитории серверов Valve, а также может давать сбои, если за одним компьютером поочередно играют несколько членов семьи. По этой причине автор рекомендует на первых порах использовать биометрический отпечаток как весомую улику для системы патруля, а не как повод для мгновенного бана. Разработчик надеется, что представители Valve или соревновательных платформ вроде FACEIT обратят внимание на исследование и помогут протестировать технологию в реальных условиях.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1791350338,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 730
+        },
+        {
+          "gid": "1845383656394875",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656394875",
+          "is_external_url": true,
+          "author": "Vitaliy",
+          "contents": "[p]\\[ MISC ][/p][list][*][p]Pet photobook pages now have localized text art.[/p][/*][*][p]Added play menu buttons to manage downloaded Workshop maps.[/p][/*][*][p]Adjusted VK shader cache extension flags.[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1791243583,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1845383656387875",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656387875",
+          "is_external_url": true,
+          "author": "Vitaliy",
+          "contents": "[p]\\[ MISC ][/p][list][*][p]Agents now wear their equipped gloves during the photobooth photography sessions and in buy menu[/p][/*][*][p]Fixed grenade crosshair rendering when crosshair thickness is set to 3 pixels[/p][/*][*][p]Fixed formatting of titles in commend and report dialogs[/p][/*][*][p]Improved lighting in the Warehouse map[/p][/*][*][p]Updated workshop convars whitelist with the new crosshair settings[/p][/*][*][p]Stability improvements[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1790979853,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1845383656379136",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656379136",
+          "is_external_url": true,
+          "author": "Vitaliy",
+          "contents": "[p]\\[ MISC ][/p][list][*][p]Various clipping fixes in Rush maps[/p][/*][/list][p]\\[ CROSSHAIR ][/p][list][*][p]Fixed visualization of weapon inaccuracy + spread[/p][/*][*][p]Added crosshair outline color option[/p][/*][*][p]Added a new style \"Static Quadrant\"[/p][/*][*][p]Enabled grenade crosshairs in freeze time for insta-smokes (just hold any grenade attack button)[/p][/*][*][p]Allowed negative gaps for classic dynamic crosshair style[/p][/*][*][p]Changed the classic dynamic crosshair alpha increments to 0.01[/p][/*][*][p]Scope dot scale and color preferences are now included in the new crosshair share code[/p][/*][*][p]Changed the format of the crosshair share code to accommodate newly included crosshair settings[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1790808379,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1844751498232642",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498232642",
+          "is_external_url": true,
+          "author": "Vitaliy",
+          "contents": "[p]\\[ MISC ][/p][list][*][p]Fixed pixel-gaps in various Rush rooms.[/p][/*][*][p]Clipping adjustments in T/CT Castle rooms.[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1790635105,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1844751498226015",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498226015",
+          "is_external_url": true,
+          "author": "jo",
+          "contents": "[p]\\[ RUSH ][/p][list][*][p]Various gap fixes and clipping adjustments.[/p][/*][/list][p][/p][p]\\[ GAMEPLAY ][/p][list][*][p]Fixed some cases where loud reloads would persist while trying to stealth reload.[/p][/*][/list][p][/p][p]\\[ MISC ][/p][list][*][p]Added sv_clantags_enabled option so custom servers can disable clan tags.[/p][/*][*][p]The eggs of background players in main menu lobbies now rest in nests.[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1790373294,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1844751498222773",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498222773",
+          "is_external_url": true,
+          "author": "jo",
+          "contents": "[p]\\[ RUSH ][/p][list][*][p]Added a better description of the rules to the loading screen.[/p][/*][*][p]Adjusted rules for determining when to kick players due to team damage.[/p][/*][*][p]Various clipping adjustments.[/p][/*][/list][p][/p][p]\\[ GAMEPLAY ][/p][list][*][p]Fixed a case where it was possible to get a slightly faster silent reload by tapping the reload button before holding it.[/p][/*][*][p]Fixed a case where it was possible to use silent reload to fire shotguns faster than normal.[/p][/*][/list][p][/p][p]\\[ MISC ][/p][list][*][p]Fixed a case where the AK-47 inspect animation sometimes popped.[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1790286698,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1844751498219795",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498219795",
+          "is_external_url": true,
+          "author": "jo",
+          "contents": "[p]\\[ RUSH ][/p][list][*][p]Increased the maximum countdown-after-elimination time from 7 seconds to 14 seconds on end rooms and Convoy.[/p][/*][*][p]The countdown-after-elimination time does not activate in cases where an entire team dies to suicides, team kills, and/or disconnects.[/p][/*][*][p]Warmup time once all players have connected, freeze time, and technical timeout time are all reduced.[/p][/*][*][p]Various gap fixes and clipping adjustments.[/p][/*][/list][p][/p][p]\\[ CROSSHAIR ][/p][list][*][p]Some additional information about the new crosshair system:[/p][list][*][p]The new crosshair thickness and length units are in pixels. In the past, the values were defined with an arbitrary scale and converted to pixels based on display resolution so the same value would result in different pixel counts at different resolutions. With the new settings, if you want a 1-pixel wide crosshair with a bar length of 8 pixels and a gap of 4 pixels, then you would set: thickness = 1, length = 8, and gap = 4. [/p][/*][*][p]Please be aware that the new crosshair system automatically rescales pixel counts when the display resolution changes. For example, if a crosshair was configured at display resolution 1280x720 with a thickness of 2 pixels and then the display resolution changes to 2560x1440, it will now automatically rescale the thickness to 4 pixels so that it remains proportionally the same as when it was configured.[/p][/*][/list][/*][/list][list][*][p]Added option to draw half-outlines. This will only draw the top-left portions of the outline for a crosshair.[/p][/*][*][p]Fixed a bug preventing 0 gap width from being respected.[/p][/*][*][p]Added a static square crosshair style[/p][/*][*][p]Reduced the minimum dynamic spread distance to 64 pixels. The new dynamic crosshair styles will show you the real weapon spread and inaccuracy and the 'Dynamic Spread Limit' setting is a limit on how far the crosshair will spread at maximum inaccuracy and spread. There is a baseline spread distance of 64 pixels which covers the weapons with the largest spread so that players can better understand how accurate they actually are with their equipped weapon.[/p][/*][/list][p][/p][p]\\[ MISC ][/p][list][*][p]Fixed a case where left-handed viewmodels would animate incorrectly while silent reloading.[/p][/*][*][p]Fixed a case where thirdperson player models would animate too fast while silent reloading.[/p][/*][*][p]Fixed a case where firstperson Dual Berettas would animate incorrectly while reloading.[/p][/*][*][p]Clan tags now appear in death notices.[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1790204844,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1844751498218029",
+          "title": "Counter-Strike 2 adds an intense fast-paced 3v3 'Rush' game mode",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/GamingOnLinux/1844751498218029",
+          "is_external_url": true,
+          "author": "",
+          "contents": "This new Rush mode might be my favourite way to play Counter-Strike 2, giving you a faster-paced experience with shorter matches.<p><img src=\"https://www.gamingonlinux.com/uploads/articles/tagline_images/558215747id29826gol.webp\" alt /></p><p>Read the full article here: https://www.gamingonlinux.com/2026/09/counter-strike-2-adds-an-intense-fast-paced-3v3-rush-game-mode/</p>",
+          "feedlabel": "GamingOnLinux",
+          "date": 1790159109,
+          "feedname": "GamingOnLinux",
+          "feed_type": 0,
+          "appid": 730
+        },
+        {
+          "gid": "1844751498217397",
+          "title": "Большое обновление для Counter-Strike 2 принесло в игру новый режим, бесшумную перезарядку и яйца",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1844751498217397",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/fjWNcZHyjWFPvbzrT18CeA.png\"/>\n              <br />\n                                                      <p>Тактический шутер Counter-Strike 2 получил очередной апдейт. В отличие от предыдущих балансных патчей, в этот раз разработчики из Valve решили удивить игроков, и обновление получилось действительно масштабным на нововведения. Апдейт весом 4,7 ГБ не только принес новый контент в игру, но и изменил привычные моменты, которые многие пользователи уже посчитали кардинально ломающими привычный соревновательный процесс.</p>                                                                                  <p>Главные споры в сообществе вызвали нововведения в механике скрытности:</p>                                                        <p>Теперь игроки могут сменить магазин оружия без звука. Для этого необходимо зажать и удерживать клавишу перезарядки, однако за скрытность придется платить заметно увеличенным временем анимации.</p>                                                        <p>: Выход из снайперского зума на винтовках больше не издает щелчка и стал абсолютно неслышным для противников.</p>                                                        <p>Команда ammo_grenade_limit_total теперь жестко ограничивает общее число гранат, которое один игрок может приобрести за раунд.</p>                                                        <p>Курицы на картах теперь получают урон от электрошокера Zeus x27.</p>                                                        <p>Крупным контентным добавлением стал соревновательный режим «Rush» в формате 3v3. Команды продвигаются через череду случайно сменяющихся боевых арен, сражаясь за контроль над центральной башней и пытаясь добраться до базы противника. Для нового режима добавлена отдельная таблица рекордов среди друзей.</p>                                                        <p>Существенной переработке подверглась стадия выбора карт в режиме «Премьер». Система банов уступила место выбору. Теперь команды суммарно выбирают четыре карты, после чего игра случайным образом запускает одну из них.</p>                                                        <p>Вместе с этим патч обновил движок до свежей версии Source 2, улучшил отображение брызг крови и следов от пуль, вернул клан-теги из групп Steam, ввел возможность клеить стикеры на бомбу C4 и переработал настройки прицелов, сделав их независимыми от разрешения экрана. Также разработчики устранили пиксельные щели и ошибки геометрии на картах Mirage, Ancient, Train и Cache. Ну а в качестве бонуса в еженедельных наградах появились куриные яйца.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1790139805,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 730
+        },
+        {
+          "gid": "1844751498216926",
+          "title": "Rush Hour",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498216926",
+          "is_external_url": true,
+          "author": "brianlev",
+          "contents": "[video webm=\"https://clan.fastly.steamstatic.com/images/3381077/7aba6949917c9a837b3ef43fff369ea019bea6b6.webm\" mp4=\"https://clan.fastly.steamstatic.com/images/3381077/c3484d6cdc68181fdc58a543cc746baea975c2de.mp4\" poster=\"https://clan.fastly.steamstatic.com/images/3381077/f020505dfd64884805558c64ec15691154469e0a.png\" autoplay=\"true\" controls=\"false\"][/video]\nPut your foot on the gas and floor it. Welcome to Rush, a new fast-paced 3v3 queued mode for CS2. Experience the push and pull as you advance through a gauntlet of randomly-selected battle arenas, and dominate your opponent to win the match!\n\nMake the most of your limited budget and precious time to clear the objective. Control the tower when you eliminate the enemy team (or time expires) to win the round.\n\n[img]https://clan.fastly.steamstatic.com/images/3381077/4ccfe4f44119ac6ddd5cd39d24c907dd11f4c70a.png[/img]\nRun the gauntlet of battle arenas to capture the enemy castle and win the match. The battle arenas are randomly selected each time you play, so no two matches are the same.\n\nKeep track of your wins and compete for bragging rights with the Rush friends leaderboard!\n\n[h3]Pick, Pick Pick, Pick[/h3]\n[video webm=\"https://clan.fastly.steamstatic.com/images/3381077/332c9f95f6e825649d2db55d15bff8a7d7c7b82a.webm\" mp4=\"https://clan.fastly.steamstatic.com/images/3381077/a26282d4460f972b036a9873a3f1ed5a98fe989a.mp4\" poster=\"https://clan.fastly.steamstatic.com/images/3381077/ab74e99b6fa25b35a355bc110a65e81906b3b22f.png\" autoplay=\"true\" controls=\"false\"][/video]\nWe think that if you spend a lot of time developing strategies on a map, you should have a chance to benefit from that investment. So today we're changing the process for getting into a map in Premier--instead of banning down to a single map, teams will vote to pick two maps each. After all four maps are picked, a single map will be randomly selected and the match will begin.\n\n[h3]Change You Can See[/h3]\n[video webm=\"https://clan.fastly.steamstatic.com/images/3381077/5341ed2d42a633c39e6aedb7342f26f3db78a418.webm\" mp4=\"https://clan.fastly.steamstatic.com/images/3381077/6f5bc36b20be7f069115b6bb1ea22e75ed4734e4.mp4\" poster=\"https://clan.fastly.steamstatic.com/images/3381077/924591876f9ac3a56b658770ca6945b6fa9096c7.png\" autoplay=\"true\" controls=\"false\"][/video]\nToday's update also includes several quality of life improvements, starting with blood and bullet impact visiblity. Blood is now much more bloody, and bullet impacts are far more impacty.\n\n[img]https://clan.fastly.steamstatic.com/images/3381077/22559f46380abfdad669fbbebfb02f50149fb1a2.png[/img]\nBut wait, there's more! Crosshairs have gotten a significant upgrade with new shapes and other features, so check out the new Crosshair/Scopes settings and create the custom crosshair of your dreams. Also, Clan Tags are back! Select one of your Steam Groups in your player profile and you'll see your clan tag appear next to your name wherever you play.\n\n[h3]Change You Can't See (or Hear)[/h3]\nThere are some gameplay adjustments in today's update to add a bit of stealth to your game-time decisions. Reloading can now be performed silently (by holding the reload key), but with a cost--silent reloads take quite a bit longer. And for those of you who love scoping your scoped weapons, you'll now be perfectly silent when you unscope, as nature intended.\n\n[h3]Starjunk 95[/h3]\n[img]https://clan.fastly.steamstatic.com/images/3381077/602718694f8ef8a7d4adce9f2db208286af6b37f.png[/img]\nThere's a new Music Kit in town, featuring the sounds of Starjunk 95. Experience music from the grooviest station in the galaxy, available now!",
+          "feedlabel": "Community Announcements",
+          "date": 1790120317,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730
+        },
+        {
+          "gid": "1844751498216924",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498216924",
+          "is_external_url": true,
+          "author": "brianlev",
+          "contents": "[p]\\[ PREMIER ][/p][list][*][p]Updated the map selection process to give players more opportunities to play maps they've been learning.[/p][/*][*][p]Map selection process:[/p][list][*][p]Team 1 picks one map[/p][/*][*][p]Team 2 picks two maps[/p][/*][*][p]Team 1 picks a final map. [/p][/*][*][p]One of the four maps will be randomly selected and the match will begin.[/p][/*][/list][/*][/list][p][/p][p]\\[ RUSH ][/p][list][*][p]Rush is a fast-paced queued 3v3 game mode. [/p][/*][*][p]Players battle through a series of battle arenas to reach the opponent's castle and win the match.[/p][/*][*][p]Battle arenas are randomly selected for each match, so no two matches are the same.[/p][/*][*][p]Control the tower when you eliminate the enemy team (or time expires) to win the round.[/p][/*][/list][p][/p][p]\\[ GAMEPLAY ][/p][list][*][p]Players can now reload silently (but slowly) by pressing and holding the reload key.[/p][/*][*][p]Un-scoping a sniper weapon no longer produces a sound.[/p][/*][*][p]Globally increased visual clarity and improved fidelity of bullet impact decals.[/p][/*][*][p]ammo_grenade_limit_total setting now also enforces the total number of grenades a player is allowed to purchase in a round.[/p][/*][*][p]Chickens now take damage from the Zeus x27.\n[/p][/*][/list][p]\\[ SETTINGS ][/p][list][*][p]Crosshairs have been updated to be resolution independent.[/p][list][*][p]A new \"Crosshair/Scopes\" tab is available in the Settings menu, and includes updated crosshair settings.[/p][/*][*][p]Added new crosshair styles[/p][/*][*][p]Updated the default crosshair to \"Dynamic Quad,\" which better represents weapon accuracy.[/p][/*][/list][/*][/list][p][/p][p]\\[ ENGINE ][/p][list][*][p]Updated engine code to the latest version of Source 2.[/p][/*][/list][p][/p][p]\\[ MAPS ][/p][p]Ancient[/p][list][*][p]Fixed holes in world in Long A Main Hall.[/p][/*][*][p]Adjusted door geometry and grenade clipping inside Jaguar.[/p][/*][/list][p]Cache[/p][list][*][p]Some gap fixes and clipping adjustments around the blue doors in Mid.[/p][/*][/list][p]Mirage[/p][list][*][p]Reinforced scaffolding by balcony in A site.[/p][/*][/list][p]Train[/p][list][*][p]Blocked pixel gap in crates on bombsite A.[/p][/*][/list][p][/p][p]\\[ MISC ][/p][list][*][p]Added ability to set a \"Clan Tag\" for players who are members of Steam Community Groups. You can adjust your Clan Tag from your Player Profile.[/p][/*][*][p]Added support for applying stickers to C4.[/p][/*][*][p]The Starjunk 95, Industrial Sunset Memories Music Kit is now available for purchase in standard and StatTrak versions through the STORE tab.[/p][/*][*][p]Halftime scoreboard stats should now fully reflect the results of the previous round.[/p][/*][*][p]Fixed a case where players could avoid a kick ban.[/p][/*][*][p]Players can now adjust music volume per game-mode.[/p][/*][/list][p][/p][p]\\[ WORKSHOP ] [/p][list][*][p]Added \"minimap_volume\" entity which enables a custom minimap image when a player is within the volume.[/p][/*][*][p]Added \"sky_camera_volume\" and \"sky_camera_volume_target\", which enable custom location-specific skybox rendering.[/p][/*][*][p]Added \"point_deathcam_bounds\" entity that constrains the player death camera.[/p][/*][*][p]Added \"env_shake_volume\" entity that allows camera shake only within a specified volume.[/p][/*][/list][p][/p][p]\\[ SCRIPTING ][/p][list][*][p]Added CSRadarPoint entity.[/p][/*][*][p]Added CSObservablePoint entity.[/p][/*][*][p]Added AddTeamMoney API method.[/p][/*][*][p]Added OnPlayerTeamChanged callback.[/p][/*][*][p]SetDialogVariableString now accepts a localization string.[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1790120256,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1844115010499298",
+          "title": "Создатель Counter-Strike объяснил исчезновение классического режима со спасением заложников из-за киберспорта",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1844115010499298",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/QjoU8pvWU6yD1hp9c0Hp5A.png\"/>\n              <br />\n                                                                                <p>Соавтор оригинальной Counter-Strike Мин Ли рассказал о причинах постепенного заката классического режима со спасением заложников, который стоял у истоков культовой франшизы. В рамках интервью независимому блогеру разработчик отметил, что стремительное развитие соревновательной сцены вынесло приговор сценариям с префиксом cs_, сместив весь фокус компании Valve и игрового сообщества на разминирование бомбы.</p>                                                        <p>Изначальная концепция командного шутера в 1999 году строилась именно вокруг спецопераций по освобождению пленных, вдохновленных тактическим проектом Rainbow Six и реальными операциями отряда специального назначения SAS вроде штурма захваченного террористами посольства в Лондоне. Первые бета-версии сетевого боевика обрели популярность именно благодаря локациям cs_siege и cs_assault, где бойцы спецназа были обязаны штурмовать укрепленные позиции противника.</p>                                                        <p>Главным изъяном сценариев с заложниками разработчик назвал структурный дисбаланс, который не поддается выравниванию. В отличие от карт с закладкой взрывчатки, где 2 стороны борются за контроль над нейтральными точками, локации по спасению пленных изначально дают огромное позиционное преимущество обороняющимся террористам. Попытки адаптировать эти уровни под равное состязание регулярно терпели крах, поскольку штурмующей команде приходится преодолевать узкие коридоры под перекрестным огнем без возможности гибкого тактического маневра.</p>                                                        <p>С ростом профессиональной киберспортивной сцены компания Valve сосредоточила усилия на сценариях обезвреживания бомбы, где строгая геометрия и симметрия таймингов обеспечили понятный спортивный регламент. По воспоминаниям Мина Ли, создатели игры всегда проявляли предельную осторожность в отношении базовых механик, опасаясь отпугнуть профессиональных игроков и турнирных операторов непредсказуемыми условиями матчей.</p>                                                        <p>Ориентация индустрии на турниры повлекла за собой охлаждение интереса со стороны авторов пользовательских модификаций. Картоделы быстро перестали создавать локации с заложниками, поскольку игроки не проявляли к ним интереса и предпочитали тренироваться на соревновательных полигонах вроде de_dust2. В результате классический режим полностью исчез из турнирного пула, превратившись в нишевую забаву для случайных матчей на казуальных серверах.</p>                                                        <p>Несмотря на наличие обновленных карт cs_office и cs_italy в актуальной версии Counter-Strike 2, соревновательный базис игры окончательно закрепился за сценариями с деактивацией взрывчатки, оставив исторический режим в статусе ретро-развлечения.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1789841729,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 730
+        },
+        {
+          "gid": "1843481262690556",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262690556",
+          "is_external_url": true,
+          "author": "tomd",
+          "contents": "[p]\\[ MAPS ][/p][p]Cache[/p][list][*][p]Fixed various gaps in map.[/p][/*][*][p]Fixed a wallbang spot on B site.[/p][/*][*][p]Added a missing competitive CT spawn point.[/p][/*][*][p]Added additional T spawn points.[/p][/*][/list][p]\\[ MAP SCRIPTING ][/p][list][*][p]Reworked CSPlayerCamera:[/p][list][*][p]Renamed it to CustomPlayerCamera.[/p][/*][*][p]Added GetPlayer, GetMode, SetMode, and SetFollowConfig.[/p][/*][*][p]Deprecated IsEnabled, SetEnabled, and SetIsControllingAngles.[/p][/*][/list][/*][*][p]Added an 'observable' property to custom_hud_layout that controls whether an observer sees the UI as the spectated player sees it. Defaults to false.[/p][/*][*][p]Fixed several bugs related to stale custom_hud_layout state when changing spectator targets.[/p][/*][*][p]Added top-level custom_hud_layout classes driven by client state:[/p][list][*][p]HUD_BUYMENU_VISIBLE[/p][/*][*][p]HUD_SCOREBOARD_VISIBLE[/p][/*][/list][/*][*][p]custom_hud_layout now always draws on top of the base HUD.[/p][/*][/list][p]\\[ MISC ][/p][list][*][p]Chat is now encrypted in demo files using the same rules as CS:GO :[/p][list][*][p]Team chat is no longer readable when playing back demo files.[/p][/*][*][p]Global chat is only readable in demo files when played back via the in-game watch UI.[/p][/*][/list][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1788994268,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes",
+            "mod_reviewed",
+            "ModAct_487176015_1788994844_0",
+            "mod_require_rereview"
+          ]
+        },
+        {
+          "gid": "1841579228676851",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228676851",
+          "is_external_url": true,
+          "author": "tomd",
+          "contents": "[p]\\[ MAP SCRIPTING ][/p][list][*][p]Added custom_hud_layout entity:[/p][list][*][p]custom_hud_layouts are the entry point for scripted maps to provide custom UI.[/p][/*][*][p]Panel, Label, Image, and Button panel types are supported.[/p][/*][*][p]Styling with css is supported.[/p][/*][*][p]Events and client side scripting are not supported.[/p][/*][*][p]Maintains state during tools mode reloads.[/p][/*][/list][/*][*][p]Added cs_player_camera entity:[/p][list][*][p]Gives control of a player's view without moving their pawn.[/p][/*][*][p]Can be configured to let the player look around from the scripted position.[/p][/*][/list][/*][*][p]Added Instance.Delay[/p][/*][*][p]Added Instance.OnBombPlantStart[/p][/*][*][p]Added Instance.OnBombPlantAbort[/p][/*][*][p]Added Instance.OnBombDefuseStart[/p][/*][*][p]Added Instance.OnBombDefuseAbort[/p][/*][*][p]Added Instance.OnCustomHudClicked[/p][/*][*][p]Added Instance.IsDedicatedServer[/p][/*][*][p]Added Entity.Move[/p][/*][*][p]Added Entity.GetMoveType[/p][/*][*][p]Added Entity.SetMoveType[/p][/*][*][p]Added CSPlayerPawn.GetC4[/p][/*][*][p]Added CSPlayerPawn.GetDefuseTarget[/p][/*][*][p]Added CSPlayerPawn.IsBuyMenuOpen[/p][/*][*][p]Added CSPlayerPawn.GetCamera[/p][/*][*][p]Added C4.GetPlantStartTime[/p][/*][*][p]Added C4.GetPlantFinishTime[/p][/*][*][p]Added C4.AbortPlant[/p][/*][*][p]Added CustomHudLayout.SetHasClass[/p][/*][*][p]Added CustomHudLayout.SetHasClassForPlayer[/p][/*][*][p]Added CustomHudLayout.SetDialogVariableString[/p][/*][*][p]Added CustomHudLayout.SetDialogVariableStringForPlayer[/p][/*][*][p]Added CustomHudLayout.SetInputCaptureEnabled[/p][/*][*][p]Added CustomHudLayout.IsInputCaptureEnabled[/p][/*][*][p]Added CSPlayerCamera.IsEnabled[/p][/*][*][p]Added CSPlayerCamera.SetEnabled[/p][/*][*][p]Added CSPlayerCamera.SetIsControllingAngles[/p][/*][*][p]Added enum CSMoveType[/p][/*][*][p]Corrected types for some events where parameters were maybe undefined.[/p][/*][*][p]Errors encountered during initial script run are now logged to the console.[/p][/*][*][p]Unhandled promise rejections are now logged to the console.[/p][/*][*][p]Added the column number to errors caught during the CompileModule step of script loading.[/p][/*][*][p]Deprecated planter from Instance.OnBombPlant event[/p][/*][*][p]Deprecated defuser from Instance.OnBombDefuse event[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1787614760,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1841579228663932",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228663932",
+          "is_external_url": true,
+          "author": "tomd",
+          "contents": "[p]\\[ MAPS ][/p][p]Boulder[/p][list][*][p]Updated to the latest version from the Community Workshop ([url=\"https://steamcommunity.com/sharedfiles/filedetails/changelog/3663186989\"]Update Notes[/url])[/p][/*][/list][p]Poseidon[/p][list][*][p]Updated to the latest version from the Community Workshop ([url=\"https://steamcommunity.com/sharedfiles/filedetails/changelog/3522144043\"]Update Notes[/url])[/p][/*][/list][p]\\[ GAMEPLAY ][/p][list][*][p]Fixed a case where player speed was too high when moving against walls.[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1787182593,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1840944183775194",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183775194",
+          "is_external_url": true,
+          "author": "tomd",
+          "contents": "[p]\\[ MAPS ][/p][p]Fachwerk[/p][list][*][p]Updated to the latest version from the Community Workshop ([url=\"https://steamcommunity.com/sharedfiles/filedetails/changelog/3442040035\"]Update Notes[/url])[/p][/*][/list][p]Shelter[/p][list][*][p]Updated to the latest version from the Community Workshop ([url=\"https://steamcommunity.com/sharedfiles/filedetails/changelog/3737179295\"]Update Notes[/url])[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1786575047,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1839676055895877",
+          "title": "Counter-Strike 2 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055895877",
+          "is_external_url": true,
+          "author": "jo",
+          "contents": "[p]\\[ GAMEPLAY ][/p][list][*][p]Fixed a case where grenades could be thrown through level geometry[/p][/*][/list][p][/p][p]\\[ MAPS ][/p][p]Cache[/p][list][*][p]Fixed various gaps in map[/p][/*][*][p]Fixed collision in various spots across map[/p][/*][*][p]Fixed flickering on some assets[/p][/*][*][p]Removed boost spot in Outside A[/p][/*][/list][p]Shelter[/p][list][*][p]Updated to the latest version from the Community Workshop ([url=\"https://steamcommunity.com/sharedfiles/filedetails/changelog/3737179295\"]Update Notes[/url])[/p][/*][/list][p][/p][p]\\[ MAP SCRIPTING ][/p][list][*][p]Added Instance.TracePlayer[/p][/*][*][p]Added Instance.OnWeaponPickup[/p][/*][*][p]Added Instance.OnBombExplode[/p][/*][*][p]Added Instance.SpawnGrenadeProjectile[/p][/*][*][p]Added dropper to Instance.OnWeaponDrop event[/p][/*][*][p]Added hitEntity to Instance.OnGrenadeBounce event[/p][/*][*][p]Added normal to Instance.OnGrenadeBounce event[/p][/*][*][p]Added CSGrenadeProjectileBase.GetGrenadeType[/p][/*][*][p]Added CSGrenadeProjectileBase.GetThrower[/p][/*][*][p]Added CSGrenadeProjectileBase.Detonate[/p][/*][*][p]Added CSPlantedC4.IsBombsiteA[/p][/*][*][p]Added CSPlantedC4.IsBombsiteB[/p][/*][*][p]Added CSPlantedC4.GetPlanter[/p][/*][*][p]Added CSPlantedC4.GetDefuser[/p][/*][*][p]Added CSPlantedC4.IsActive[/p][/*][*][p]Added CSPlantedC4.IsExploded[/p][/*][*][p]Added CSPlantedC4.IsDefused[/p][/*][*][p]Added CSPlantedC4.GetPlantTime[/p][/*][*][p]Added CSPlantedC4.GetExplodeTime[/p][/*][*][p]Added CSPlantedC4.GetDefuseStartTime[/p][/*][*][p]Added CSPlantedC4.GetDefuseFinishTime[/p][/*][*][p]Added CSPlayerPawn.HasDefuser[/p][/*][*][p]Added CSPlayerPawn.SetHasDefuser[/p][/*][*][p]Added CSGrenadeType enum[/p][/*][*][p]Fixed a bug where Instance.RegisterCheatCommand would not work on script reload.[/p][/*][*][p]Deprecated bounces from Instance.OnGrenadeBounce event.[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1785791934,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 730,
+          "tags": [
+            "patchnotes"
+          ]
+        }
+      ],
+      "count": 1771
+    }
+  }
+}

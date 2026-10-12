@@ -1,0 +1,292 @@
+{
+  "fetched_at": "2026-10-12T07:09:45.953336+00:00",
+  "endpoint": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/",
+  "data": {
+    "appnews": {
+      "appid": 4000,
+      "newsitems": [
+        {
+          "gid": "1844115010489360",
+          "title": "September 2026 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010489360",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/742793/120e1cb51f658c7a2c50f342af33d12e1524fb99.jpg\"][/img]Artwork showcase: [url=\"https://steamcommunity.com/sharedfiles/filedetails/?id=3794324720\"]\"Just one more thing!\"[/url][/p][p][/p][p]The September 2026 Update is now live.[/p][p][/p][h2][b]64-bit binaries on Windows[/b][/h2][p]This update brings 64-bit binaries for the Windows game client, dedicated servers and most developer tools, such as Hammer, to every version of the game.[/p][p][/p][p]This means that there's now less risk of running out of the 32-bit memory address space and subsequently crashing when playing on heavy servers or with a lot of addons installed.[/p][p][/p][p]The 64-bit game client can be selected from Steam launch options.[/p][p][/p][h2][b]Content Updates[/b][/h2][p]New NPC variation was added to the spawnmenu - Hacked Manhacks. In addition to that, the Dropship NPC can now take damage and is no longer invulnerable when spawned in Sandbox.[/p][p][/p][p]Spawnmenu got a few tweaks - content tabs can now have sub categories, which should help find what you are looking for faster. Naturally this system is open for addons to take advantage of.[/p][p][img src=\"{STEAM_CLAN_IMAGE}/742793/778242a61c92f6b8c1475fe89bf0c9f9ab0ae908.png\"][/img][/p][p]The player model selector menu has also been overhauled with categories, increased size and improved model rendering that better represents how the player model would actually appear in the game world.[/p][p][img src=\"{STEAM_CLAN_IMAGE}/742793/a8a727c25db438232578d956443f021cd37c93fd.png\"][/img][/p][p]Finally, there's now a new mountable game - standalone Insurgency (2014) game.[/p][p][/p][h2][b]Smaller stuff[/b][/h2][p]As usual this update also brings a huge amount of smaller fixes, optimizations and other improvements as well, to both the game client and the developer tools.[/p][p][/p][p]You can find the full change list for this update in our blog post:[/p][p][url=\"https://gmod.facepunch.com/news/september-2026-update\"]https://gmod.facepunch.com/news/september-2026-update[/url][/p][p][/p][h3]17 September 2026 Hotfix:[/h3][list][*][p]Re-enabled ability to override suit/health charger entities & combine mines with Lua entities[/p][/*][*][p]Added solution steps to \"Failed to init Steamworks\" crash dialog[/p][/*][*][p]Fixed certain addons with weird file names refusing to be mounted on Linux dedicated servers[/p][/*][*][p]Added some fallbacks in panel code to account for certain community addons and prevent Lua errors[/p][/*][*][p]Fixed crash on start up on native 32-bit Linux client - Changed images format of _rt_ResolvedFullFrameDepth to RGBA8888[/p][/*][/list][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1789570808,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000,
+          "tags": [
+            "mod_reviewed",
+            "ModAct_1607812438_1789572025_0",
+            "mod_require_rereview"
+          ]
+        },
+        {
+          "gid": "1843481262690370",
+          "title": "September 2026 Update is coming soon",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262690370",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "[p]Hello everyone, [/p][p][/p][p]The next Garry's Mod update is coming soon.[/p][p]The current plan is to release the next Garry's Mod update on 16th of September at 3PM GMT.[/p][p][/p][p]This update will be backwards compatible with existing servers, so servers will not need immediate updating and players can still join old servers, but it is still [b]highly[/b] recommended to update as soon as the update releases to get all the new features and fixes.[/p][p][/p][p]You can preview the list of upcoming changes here:[/p][p][url=\"https://wiki.facepunch.com/gmod/Update_Preview_Changelog\"]https://wiki.facepunch.com/gmod/Update_Preview_Changelog[/url][/p][p](Please note this list is still work in progress and is subject to change.)[/p][p][/p][h2]Please help us test the update[/h2][p]We kindly ask anyone willing to help us, players, modders and server owners alike, to test this update before it releases, to minimize any potential problems on release day.[/p][p][/p][p]Just run your game or your (development/test) server on one of the beta versions briefly to see if any new issues crop up compared to the non-beta version of the game.[/p][p][/p][p]The Pre-Release Steam beta branch for Garry's Mod has been updated and contains all the changes that will be included in the next update. The \"dev\" and \"x86-64\" betas also contain all the upcoming changes.[/p][p][/p][p]You can report any found issues preferably on our official bug tracking repository on GitHub: (be sure to search before posting)[/p][p][url=\"https://github.com/Facepunch/garrysmod-issues\"]https://github.com/Facepunch/garrysmod-issues[/url][/p][p][/p][p]Or at the very least in the comments below, or on our official Discord server:  [/p][p][url=\"https://discord.com/invite/gmod\"]https://discord.com/invite/gmod[/url][/p][p][/p][p]If you wish to set up a dedicated server instance using any of the beta branches, please see this article: [/p][p][url=\"https://wiki.facepunch.com/gmod/Downloading_a_Dedicated_Server\"]https://wiki.facepunch.com/gmod/Downloading_a_Dedicated_Server[/url][/p][p][/p][p][b]How to switch game branches:[/b][/p][list][*][p]Exit the game[/p][/*][*][p]Right click on [b]Garry's Mod[/b] in Steam and select [b]Properties[/b][/p][/*][*][p]Go to the [b]Betas[/b] tab and select your desired branch[/p][list][*][p][b]None[/b] - This is the normal version of the game[/p][/*][*][p][b]Pre-Release[/b] - This is the next update[/p][/*][*][p][b]Dev[/b] - This is a bleeding edge version of the game, expect it to contain more bugs than usual [/p][/*][/list][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1788986654,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000
+        },
+        {
+          "gid": "1831432155565440",
+          "title": "April 2026 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155565440",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "[h2][b]New mountable games[/b][/h2][p]With community effort and permission from the respective game developers, 2 new games are now available to be mounted in Garry's Mod: Black Mesa and Military Conflict: Vietnam![/p][p][dynamiclink href=\"https://store.steampowered.com/app/362890/Black_Mesa/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/1012110/Military_Conflict_Vietnam/\"][/dynamiclink]As with other mountable games, you will need to own them on Steam first, which will enable players to use maps and models from these games in Sandbox and other gamemodes.[/p][h2][b]HUD Improvements[/b][/h2][p]Some default HUD elements received some polish - the weapon selector, damage indicators, health and ammo displays.[/p][p]The ammo HUD now correctly displays ammo for certain modded weapon types that use secondary clips, the default weapon selector can now display more slots and scroll weapon selection when there are too many weapons equipped to fit on the screen.[/p][p]\n[img src=\"{STEAM_CLAN_IMAGE}/742793/10c2707dd8d1559165107ae3620b6a9ddbe6fd16.gif\"][/img][/p][p]The HUD now also scales better at 4K resolution, preventing certain elements such as Sandbox notifications and voice chat from overlapping the ammo HUD.[/p][h2][b]New content & content fixes[/b][/h2][p]The Combine APC is now a built-in vehicle, right in the spawnmenu, fully driveable by the player.[/p][p][img src=\"{STEAM_CLAN_IMAGE}/742793/4b24236a833a8abe6cf1f476f6f59aae18c6c77a.jpg\"][/img][/p][p]There are also numerous bug fixes to existing models for various issues such as props becoming pitch black when resting on ground, fire effects not displaying correctly and spawning wrong gib models when broken.[/p][h2][b]Network protocol changes[/b][/h2][p]This update brings significant under-the-hood changes to the game's networking, enabling faster network transfer speeds to reduce server join times, and removing a whole host of unnecessary networking done by various entities, hopefully reducing overall bandwidth usage, especially on initial player spawn.[/p][p]This update also switches many game systems to use double precision time, which should help servers to not need to restart or change maps as often and improve overall game feel after playing for a while on the same map.[/p][h2][b]Smaller stuff[/b][/h2][p]As usual this update also brings a huge amount of fixes and other smaller changes. Some optimizations to performance and memory usage as well.[/p][p][/p][p align=\"start\"]You can find the full change list for this update in our blog post:[/p][p][url=\"https://gmod.facepunch.com/news/april-2026-update\"]https://gmod.facepunch.com/news/april-2026-update[/url][/p][p][/p][h3]April 30th Hotfix[/h3][list][*][p]Disable physics scaling optimizations - too unstable[/p][/*][*][p]Disable static prop physics scaling - too unstable[/p][/*][*][p]Remove \"invalid sequence ack nr\" check - gives false positives[/p][/*][*][p]Fixed some ragdolls becoming pitch black when on ground post update[/p][/*][*][p]Prevent Entity:Spawn() on already spawned vehicles - This fixes a graceful exit which fixed a memory leak[/p][/*][*][p]Fixed APC gun effects not working for driver in multiplayer[/p][/*][*][p]Made APC gun use airboat muzzleflash for player drivers so its not as blinding in first person view[/p][/*][*][p]Fixed regression with Entity PhysicsCollide hooks[/p][/*][*][p]Double FIELD_ types support for internal variable entity Lua functions[/p][/*][*][p]Fixed a crash with ragdolls when spawning them in teleport triggers[/p][/*][/list][h3]May 8th Hotfix[/h3][list][*][p]Potential speculative fixes for Peer 2 Peer connection issues[/p][/*][*][p]Slightly lowered default value of net_maxfragments (28000=>24576)[/p][/*][*][p]Fixed re-selecting ragdoll with Faceposer corrupting flex values[/p][/*][*][p]Fixed crashes when using physics gun or the gravity gun on Linux 32bit clients[/p][/*][*][p]Fixed workshop support when Steam throws errors during subscription info gathering[/p][/*][*][p]Prevent corruption of the net channel due to fragment counts being out of safe bounds[/p][/*][*][p]Make concommand.Add errors non halting[/p][/*][*][p]Fixed ammo HUD positioning due to SWEP:CustomAmmoDisplay[/p][/*][*][p]Added support for \"SecondaryClip\" in SWEP:CustomAmmoDisplay table.[/p][/*][/list][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1777474770,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000
+        },
+        {
+          "gid": "1830797770245874",
+          "title": "Garry's Mod devs Facepunch will be taking action to \"push obviously AI-created slop off\" sequel S&box's main page, Garry Newman confirms",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/Rock, Paper, Shotgun/1830797770245874",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://assetsio.gnwcdn.com/sandbox-garrys-mod-out-black-mesa-mounting-support-01.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p><strong>Update:</strong> \"Low quality, obvious AI-created slop is going to be a growing problem in every creative outlet,\" Facepunch founder Garry Newman said in response on RPS' reachout about S&box being plagued by such things out of the gate. \"We don't encourage using AI to be creative. We don't encourage using AI to create games for you. But we do acknowledge that it's a good learning tool and it's a good productivity tool. We'll be taking action to promote human creativity and push obviously AI-created slop off the main page.\"</p>\n<p>Original story follows:</p>\n<p>S&box, the open source game development platform/game about vaguely minion-looking cartoon blokes messing about with objects that's serving as spiritual successor to <a href=\"https://www.rockpapershotgun.com/games/garrys-mod\">Garry's Mod</a>, has released today, April 28th. Sadly, it seems to be heavy on AI-filled user-created games early doors, with developers Facepunch having already admitted they'll \"have to deal with people using AI in obvious, low quality ways\".</p>\n<p>Thankfully, in the meantime the original's still very much kicking, with an update arriving on April 29th set to see fan-made <a href=\"https://www.rockpapershotgun.com/games/half-life\">Half-Life</a> remake <a href=\"https://www.rockpapershotgun.com/games/black-mesa\">Black Mesa</a> grafted onto it.</p>\n <p><a href=\"https://www.rockpapershotgun.com/garrys-mod-sequel-sbox-is-already-having-to-deal-with-people-using-ai-in-obvious-low-quality-ways-confess-developers-facepunch\">Read more</a></p>",
+          "feedlabel": "Rock, Paper, Shotgun",
+          "date": 1777389533,
+          "feedname": "Rock, Paper, Shotgun",
+          "feed_type": 0,
+          "appid": 4000
+        },
+        {
+          "gid": "1830797770243593",
+          "title": "The Valve-approved Half-Life remake is joining the Garry's Mod family 'by popular demand'",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1830797770243593",
+          "is_external_url": true,
+          "author": "Morgan Park",
+          "contents": "<img src=\"https://cdn.mos.cms.futurecdn.net/pMdagYk4XbWFuoqaCLMikg-1280-80.jpg\"/><br><br>\n                Sandbox fun times simulator Garry's Mod has gobbled up pretty much every official Valve Source game into its toybox at this point, but there is land yet to conquer. Facepunch announced this week that the 20-year-old game's next patch, planned for April 29, will finally bring <a href=\"https://www.pcgamer.com/black-mesa-review/\">Black Mesa</a> into the fold...\n                <a href=\"https://www.pcgamer.com/games/fps/the-valve-approved-half-life-remake-is-joining-the-garrys-mod-family-by-popular-demand/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+          "feedlabel": "PC Gamer",
+          "date": 1777320693,
+          "feedname": "PC Gamer",
+          "feed_type": 0,
+          "appid": 4000
+        },
+        {
+          "gid": "1830797770233792",
+          "title": "April 2026 Update is coming soon",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770233792",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "[p]Hello everyone, [/p][p][/p][p]The next Garry's Mod update is coming soon.[/p][p]The current plan is to release the next Garry's Mod update on 29th of April at 3PM GMT.[/p][p][/p][p][b]This update will require existing servers to update before they can be joined[/b], so servers owners are advised to take notice of the date and test their servers on the pre-release beta beforehand to ensure smoothest update experience. [/p][p][/p][p]This update will contain many under the hood changes that may break existing binary modules.[/p][p][/p][p]You can preview the list of upcoming changes here:[/p][p][url=\"https://wiki.facepunch.com/gmod/Update_Preview_Changelog\"]https://wiki.facepunch.com/gmod/Update_Preview_Changelog[/url][/p][p](Please note this list is still work in progress and is subject to change.)[/p][p][/p][h2]Garry's Mod x Black Mesa[/h2][p]By popular demand and with approval from its developers, this update will be adding mounting support for Black Mesa in Garry's Mod.[/p][p] [/p][p]We've partnered with Crowbar Collective to offer both our fans this limited time bundle to buy both games at one discounted price:[/p][p][dynamiclink href=\"https://store.steampowered.com/bundle/72825/Garrys_Mod_x_Black_Mesa/\"][/dynamiclink][/p][h2]Please help us test the update[/h2][p]We kindly ask anyone willing to help us, players, modders and server owners alike, to test this update before it releases, to minimize any potential problems on release day.[/p][p][/p][p]Just run your game or your (development/test) server on one of the beta versions briefly to see if any new issues crop up compared to the non-beta version of the game.[/p][p][/p][p]The Pre-Release Steam beta branch for Garry's Mod has been updated and contains all the changes that will be included in the next update. The \"dev\" and \"x86-64\" betas also contain all the upcoming changes.[/p][p][/p][p]You can report any found issues preferably on our official bug tracking repository on GitHub: (be sure to search before posting)[/p][p][url=\"https://github.com/Facepunch/garrysmod-issues\"]https://github.com/Facepunch/garrysmod-issues[/url][/p][p][/p][p]Or at the very least in the comments below, or on our official Discord server or:  [/p][p][url=\"https://discord.com/invite/gmod\"]https://discord.com/invite/gmod[/url][/p][p][/p][p]If you wish to set up a dedicated server instance using any of the beta branches, please see this article: [/p][p][url=\"https://wiki.facepunch.com/gmod/Downloading_a_Dedicated_Server\"]https://wiki.facepunch.com/gmod/Downloading_a_Dedicated_Server[/url][/p][p][/p][p][b]How to switch game branches:[/b][/p][list][*][p]Exit the game[/p][/*][*][p]Right click on [b]Garry's Mod[/b] in Steam and select [b]Properties[/b][/p][/*][*][p]Go to the [b]Betas[/b] tab and select your desired branch[/p][list][*][p][b]None[/b] - This is the normal version of the game[/p][/*][*][p][b]Pre-Release[/b] - This is the next update[/p][/*][*][p][b]Dev[/b] - This is a bleeding edge version of the game, expect it to contain more bugs than usual [/p][/*][/list][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1776963986,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000
+        },
+        {
+          "gid": "1826992588592484",
+          "title": "Garry's Mod creator says programmers over-relying on AI is like using too much porn: 'You lose your ability to ejaculate using your imagination'",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1826992588592484",
+          "is_external_url": true,
+          "author": "Christopher Livingston",
+          "contents": "<img src=\"https://cdn.mos.cms.futurecdn.net/6Tah728iZR9crB5vABbv5V-1280-80.jpg\"/><br><br>\n                I got the rare chance this week to sit down with Garry's Mod creator and Facepunch Studios founder Garry Newman, whose next project, game creation platform s&box, is preparing for launch in April...\n                <a href=\"https://www.pcgamer.com/software/ai/garrys-mod-creator-says-programmers-over-relying-on-ai-is-like-using-too-much-porn-you-lose-your-ability-to-ejaculate-using-your-imagination/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+          "feedlabel": "PC Gamer",
+          "date": 1773323759,
+          "feedname": "PC Gamer",
+          "feed_type": 0,
+          "appid": 4000
+        },
+        {
+          "gid": "1826362059933414",
+          "title": "Garry Newman says he originally expected Garry's Mod to make 'about $30,000' as a 'best case scenario'",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1826362059933414",
+          "is_external_url": true,
+          "author": "Christopher Livingston",
+          "contents": "<img src=\"https://cdn.mos.cms.futurecdn.net/rafeyGheTmbWQStA5zdvhg-1280-80.jpg\"/><br><br>\n                It's been 20 years since Garry's Mod launched on Steam, and it's hard to think of a bigger success. The physics sandbox is the top-selling PC exclusive on Steam, is still one of the platforms most-played games daily, and even holds a Guinness World Record—it's the \"<a href=\"https://www.guinnessworldrecords.com/world-records/479881-most-liked-indie-videogame-on-steam\">Most Liked Indie Videogame on Steam</a>.\"..\n                <a href=\"https://www.pcgamer.com/gaming-industry/garry-newman-says-he-originally-expected-garrys-mod-to-make-about-usd30-000-as-a-best-case-scenario/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+          "feedlabel": "PC Gamer",
+          "date": 1773160417,
+          "feedname": "PC Gamer",
+          "feed_type": 0,
+          "appid": 4000
+        },
+        {
+          "gid": "1818752592121223",
+          "title": "December 2025 Patch",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1818752592121223",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "[p]Hello everyone,[/p][p][/p][p]A new small patch has been released.[/p][p][/p][p]This one contains mostly fixes for regressions introduced by the November Update, as well as some other minor fixes.[/p][p]Sandbox servers and clients are recommended to update at their earliest convenience. [/p][p][/p][p]The change list is as follows:[/p][list][*][p]Fixed decals not rendering in Hammer[/p][/*][*][p]Re-added model scale to prop_dynamic in Hammer[/p][/*][*][p]Limit physics rescaling to prop_physics and sent_anim[/p][/*][*][p]Fixed server Lua error when using \"\" for rope material[/p][/*][*][p]Make Resistance Mine have proper name in killfeed[/p][/*][*][p]Added Cable_DX8 to rope shader whitelist which is used by some default materials[/p][/*][*][p]Combine Mine relationship adjustments[/p][list][*][p]Respects Ignore Player and Disable AI settings[/p][/*][*][p]Doesn't attack Combine Gunship, Manhacks, Stalkers[/p][/*][*][p]Always attacks Barnacles and Xen Aliens from Half-Life 1[/p][/*][/list][/*][*][p]Fixed client D.O.G. ragdolls leaving behind ropes on removal[/p][/*][*][p]Set default m_flUseLookAtAngle for func_button to 0.8 (was 0) in engine[/p][/*][*][p]Set min_use_angle to 0.8 (was 0) for func_button in Hammer[/p][/*][*][p]Fixed certain NPCs (such as Alyx and Citizens) firing 2 bullets per pistol shot[/p][/*][*][p]Fixed Alyx firing the .357 Magnum also spawning reload shells[/p][/*][*][p]Fixed crashing on loading a Source Engine saves when Nextbots are present in the save file[/p][/*][*][p]Fixed map load crashes to do with corrupted maps (corrupted overlays)[/p][/*][*][p]Fixed prop gibs stopping spawning after the 300th in multiplayer[/p][/*][*][p]Fixed func_proprrespawnzone not being tracked properly clientside[/p][/*][*][p]Prevent recreating tool GhostEntity every tick with some tools (Community Contribution)[/p][/*][*][p]Fixed Motor tool torque axis being wrong if the motor was rotated after creation and before first activation (Community Contribution)[/p][/*][*][p]Fixed Lua errors when trying to open spawnmenu in Sandbox derived gamemodes with Spawnmenu disabled[/p][/*][*][p]Fixed main menu Lua errors when starting certain maps[/p][/*][*][p]Reimplemented kickid console command from scratch to hopefully resolve corrupted kick reasons issue[/p][/*][*][p]Reworked internals of Player:Kick and game.KickID to be consistent with each other[/p][/*][*][p]Fixed a regression with CBasePlayer::Kick that resulted in weird kick reasons[/p][/*][*][p]Fixed floating addons failing to mount on Linux systems[/p][/*][*][p]Don't try to load save files from mountable games[/p][/*][*][p]Fixed a regression with Entity:CreateParticleEffect when using tables[/p][/*][*][p]Fixed models/cs_fix.mdl not loading due to it being corrupted[/p][/*][*][p]Updated Zombine and Combine Soldier without armor player models to fix their animations [/p][/*][/list][p][/p][p]The entire change list can also be found on our website:[/p][p] [url=\"https://gmod.facepunch.com/news/december-2025-patch\"]https://gmod.facepunch.com/news/december-2025-patch[/url] \n\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1765383355,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1816307528968273",
+          "title": "Almost 20 years since it hit Steam, Garry's Mod finally addresses 'lackluster support for weapons used by NPCs' and gives Dr Kleiner his gun license",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1816307528968273",
+          "is_external_url": true,
+          "author": "Rick Lane",
+          "contents": "<img src=\"https://cdn.mos.cms.futurecdn.net/jsmYPJwQaWaCDZkqJTp75R-1280-80.jpg\"/><br><br>\n                I'm always taken by surprise when<a href=\"https://www.pcgamer.com/uk/garry-s-mod/\"> Garry's Mod</a> receives a new update. Since it came out when I was still a teenager, I just assume it's ancient history. Yet in reality, Facepunch's anarchic toolbox remains very much a going concern. With over 22,000 players in the last 24 hours, Garry's Mod is the 62<sup>nd</sup> most popular game on Steam by daily active users (according to<a href=\"https://steamdb.info/stats/dailyactiveusers/\" target=\"_blank\"> SteamDB</a>). That makes it more popular than<a href=\"https://www.pcgamer.com/uk/monster-hunter-wilds/\"> Monster Hunter Wilds</a> and<a href=\"https://www.pcgamer.com/uk/elden-ring-nightreign/\"> Elden Ring Nightreign</a>—at least as far as Steam is concerned...\n                <a href=\"https://www.pcgamer.com/games/almost-20-years-since-it-hit-steam-garrys-mods-finally-addresses-lackluster-support-for-weapons-used-by-npcs-and-gives-dr-kleiner-his-gun-license/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+          "feedlabel": "PC Gamer",
+          "date": 1763298000,
+          "feedname": "PC Gamer",
+          "feed_type": 0,
+          "appid": 4000
+        },
+        {
+          "gid": "1816215235353907",
+          "title": "November 2025 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816215235353907",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "[p]The November 2025 Update is now live.[/p][p][/p][h2][b]New water visuals[/b][/h2][p]This update adds new water rendering features from newer Source Engine games to Garry's Mod. Here's a comparison:[/p][p][img src=\"{STEAM_CLAN_IMAGE}/742793/57246deafa39c3a60a42568ecd976cad412fc945.gif\"][/img][/p][p]This includes flow maps, lightmaps and ability to reflect 3D skybox. This both improves compatibility with mountable games, as well as enables map makers to use these new features in their maps.[/p][p]It must be noted that these changes may unexpectedly affect a small amount of existing maps. The issue here is that some map makers are using (modified) water materials from other Source Engine  games which have parameters that did not previously work, but do work correctly now, causing unexpected changes in water appearance. This is unfortunately unavoidable from our end, and will need to be individually fixed by map makers by editing their water materials. No map recompilation needed.[/p][h2][b]4-way blends[/b][/h2][p]Another port from newer Source Engine games is the 4-way blend shader.[/p][p][img src=\"{STEAM_CLAN_IMAGE}/742793/f697d6532245c23ed81608d16bb63a70deaa59df.gif\"][/img][/p][p]This is also going to help map makers make better looking maps, easier.[/p][h2][b]Built-in NPC improvements[/b][/h2][p]A long standing issue from the very inception of Garry's Mod was the lackluster support for weapons used by NPCs, especially when NPCs use weapons that they never used in Half-Life 2. This update finally addresses these issues.[/p][p]NPCs no longer T-pose when trying to use non default weapons, such as Metrocops using RPGs or AR2s, Combine Soldiers can not only use all the built-in weapons without issue, but also run around and chase the player with no weapons. Citizens no longer stand up to shoot when crouched.[/p][p]More NPCs can now use weapons as well, providing more options than ever.[/p][p][img src=\"{STEAM_CLAN_IMAGE}/742793/7be44c4188c63471ca9d74ba57f4366c77fe8caf.png\"][/img][/p][p]With improvements to duplicator support for Half-Life 2 entities, Resistance-hacked Combine Mines are now available from the spawnmenu, and both it and the Flechette Gun are now available for all players, regardless of what games are mounted.[/p][p][img src=\"{STEAM_CLAN_IMAGE}/742793/45e8bc196ef5c11be042df7cfa6b38d0aa4e692d.png\"][/img][/p][h2][b]Sandbox improvements[/b][/h2][p]Faceposer got some minor improvements with the ability to randomize or clear only a specific category of sliders:[/p][p][img src=\"{STEAM_CLAN_IMAGE}/742793/2604c60e549f0bee0e7f264c425ef94e0aac5426.png\"][/img][/p][p]And an option for Spawn Menu and Context Menu keys to act as a toggle has been added to the Utilities panel:[/p][p][img src=\"{STEAM_CLAN_IMAGE}/742793/b5540450f59e7202d93d426428023fd1fe82e5cf.png\"][/img][/p][h2][b]Other stuff[/b][/h2][p]As per usual, this update also brings a set of under the hood fixes and optimizations, and of course a number of new Lua API features have been added.[/p][p][/p][p align=\"start\"]You can find the full change list for this update in our blog post:[/p][p][url=\"https://gmod.facepunch.com/news/november-2025-update\" buttoncolor=\"#0077ff\"]https://gmod.facepunch.com/news/november-2025-update[/url][/p][p align=\"start\"][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1762959563,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000
+        },
+        {
+          "gid": "1815580768232239",
+          "title": "November 2025 Update is coming soon",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815580768232239",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "[p]Hello everyone, [/p][p][/p][p]The next Garry's Mod update is coming soon.[/p][p]The current plan is to release the next Garry's Mod update on 12th of November at 3PM GMT.[/p][p][/p][p]This update will be backwards compatible with existing servers, so servers will not need immediate updating and players can still join old servers, but it is still highly recommended to update as soon as the update releases to get all the new features and fixes.[/p][p][/p][p]You can preview the list of upcoming changes here:[/p][p][url=\"https://wiki.facepunch.com/gmod/Update_Preview_Changelog\"]https://wiki.facepunch.com/gmod/Update_Preview_Changelog[/url][/p][p]Please note this list is still work in progress and is subject to change.[/p][p][/p][h2]Please help us test the update[/h2][p]We kindly ask anyone willing to help us, players, modders and server owners alike, to test this update before it releases, to minimize any potential problems on release day.[/p][p][/p][p]Just run your game or your (development/test) server on one of the beta versions briefly to see if any new issues crop up compared to the non-beta version of the game.[/p][p][/p][p]The Pre-Release Steam beta branch for Garry's Mod has been updated and contains all the changes that will be included in the next update. The \"dev\" and \"x86-64\" betas also contain all the upcoming changes.[/p][p][/p][p]You can report any found issues preferably on our official bug tracking repository on GitHub: (be sure to search before posting)[/p][p][url=\"https://github.com/Facepunch/garrysmod-issues\"]https://github.com/Facepunch/garrysmod-issues[/url][/p][p]Or at the very least in the comments below, or on our official Discord server or:  [/p][p][url=\"https://discord.com/invite/gmod\"]https://discord.com/invite/gmod[/url][/p][p][/p][p]If you wish to set up a dedicated server instance using any of the beta branches, please see this article: [/p][p][url=\"https://wiki.facepunch.com/gmod/Downloading_a_Dedicated_Server\"]https://wiki.facepunch.com/gmod/Downloading_a_Dedicated_Server[/url][/p][p][/p][p][b]How to switch game branches:[/b][/p][list][*][p]Exit the game[/p][/*][*][p]Right click on [b]Garry's Mod[/b] in Steam and select [b]Properties[/b][/p][/*][*][p]Go to the [b]Betas[/b] tab and select your desired branch[/p][list][*][p][b]None[/b] - This is the normal version of the game[/p][/*][*][p][b]Pre-Release[/b] - This is the next update[/p][/*][*][p][b]Dev[/b] - This is a bleeding edge version of the game, expect it to contain more bugs than usual [/p][/*][/list][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1762358042,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000,
+          "tags": [
+            "hide_store"
+          ]
+        },
+        {
+          "gid": "1808061939468280",
+          "title": "Why the skibidi are you adding skibidi to the Cambridge Dictionary? We think it has \"staying power\", answer word boffins",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/rps/1808061939468280",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://assetsio.gnwcdn.com/skibidi-word-added-to-cambridge-dictionary-01.jpg?width=1920&height=1920&fit=bounds&quality=70&format=jpg&auto=webp\" /> <p>Skibidi. Dop, dop, dop. Yes, yes. Skibidi. Double u. Neem, neem. This is the clarion call of the modern age, the infernal message brought unto our virgin ears by the Skibidi Toilets. No, wait, keep reading! It'll be worth it. Probably. After all, the word skibidi has now been added to the Cambridge Dictionary, and this is a reality we've all got to reckon with. </p>\n<p>Skibidi Toilet, in case you've been living somewhere free from the influence of vertically-framed surrealism, is a long-running series of 3D animations by <a href=\"https://www.youtube.com/@DaFuqBoom\">YouTuber Alexey 'DaFuq!?Boom!' Gerasimov</a>. It generally conveys the tale of a great war between a legion of heads protruding from loos and an army of folks with cameras for heads, with help from <a href=\"https://www.rockpapershotgun.com/games/half-life-2\">Half-Life 2</a> assets and inspiration from the annals of <a href=\"https://www.rockpapershotgun.com/games/garrys-mod\">Garry's Mod</a> machinima. Any 12 year olds you know probably can't get enough of it. Or think it's lame because they've already moved on to the next <em>thing</em>.</p>\n <p><a href=\"https://www.rockpapershotgun.com/why-the-skibidi-are-you-adding-skibidi-to-the-cambridge-dictionary-we-think-it-has-staying-power-answer-word-boffins\">Read more</a></p>",
+          "feedlabel": "Rock, Paper, Shotgun",
+          "date": 1755518118,
+          "feedname": "rps",
+          "feed_type": 0,
+          "appid": 4000
+        },
+        {
+          "gid": "1806064758647103",
+          "title": "Garry's Mod now has lots of Counter-Strike: Source and Half-Life 2 content included",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/GamingOnLinux/1806064758647103",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<p><p>Valve have given special permission to Garry's Mod from Facepunch to include a whole bunch of extra content for the popular physics sandbox.</p><p><img src=\"https://www.gamingonlinux.com/uploads/articles/tagline_images/1616099792id27248gol.jpg\" alt /></p><p>Read the full article here: https://www.gamingonlinux.com/2025/07/garrys-mod-now-has-lots-of-counter-strike-source-and-half-life-2-content-included/</p></p>",
+          "feedlabel": "GamingOnLinux",
+          "date": 1753458931,
+          "feedname": "GamingOnLinux",
+          "feed_type": 0,
+          "appid": 4000
+        },
+        {
+          "gid": "1806064758588853",
+          "title": "At long last and 'with gracious permission from Valve,' Garry's Mod now contains 'most of Counter-Strike: Source and Half-Life 2 Episodic content' even if you don't own those games",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1806064758588853",
+          "is_external_url": true,
+          "author": "Christopher Livingston",
+          "contents": "<img src=\"https://cdn.mos.cms.futurecdn.net/rafeyGheTmbWQStA5zdvhg-1280-80.jpg\"/><br><br>\n                So long, pink checkerboards that represent missing textures! Adiós, pitch-black skies that signify an absent skybox! Don't let the door hit you on the way out, enormous 3D model that says ERROR where a car should be!..\n                <a href=\"https://www.pcgamer.com/games/fps/at-long-last-and-with-gracious-permission-from-valve-garrys-mod-now-contains-most-of-counter-strike-source-and-half-life-2-episodic-content-even-if-you-dont-own-those-games/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+          "feedlabel": "PC Gamer",
+          "date": 1753305802,
+          "feedname": "PC Gamer",
+          "feed_type": 0,
+          "appid": 4000
+        },
+        {
+          "gid": "1806064758579742",
+          "title": "July 2025 Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1806064758579742",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/742793/362a31567985d47284c76704ea97e5ebc21db8a1.jpg\"][/img][url=\"https://steamcommunity.com/sharedfiles/filedetails/?id=3525680271\"]Artwork Showcase - \"The Construction\"[/url][/p][p][/p][p]The July 2025 Update is now live.[/p][h1]Update Highlights[/h1][p]The biggest user-facing change in this update brings most of Counter-Strike: Source and Half-Life 2 Episodic content to Garry's Mod by default, with gracious permission from Valve. This means that you no longer need to own those games and have them installed to play on community maps that expect you to have this content.[/p][p]\n[img src=\"{STEAM_CLAN_IMAGE}/742793/2558f5ab3c1c6b620efecf094e5a9072b701f53c.png\"][/img][/p][p]Please do note that maps from those games are not included, so you'll still need to install those games to use their maps, and neither are voice over files and music, due to licensing issues.[/p][p]This won't eliminate all instances of missing content (missing textures and ERROR models), but it will address a majority of instances of this issue. The remainder would just be addon authoring or installation errors.[/p][p]This also means that Half-Life 2: Episode 2 content is now available in the spawnmenu for every player by default.[/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/742793/84cfe4fd3035e404aab74dfce0cda6a961ff8828.png\"][/img][/p][p][/p][p]As usual, there is a large number of smaller changes - crash fixes, optimizations, additions, as well as other miscellaneous improvements for modders as well as players.[/p][p][/p][p]You can find the full change list for this update in our blog post: [/p][p][url=\"https://gmod.facepunch.com/news/july-2025-update\"]https://gmod.facepunch.com/news/july-2025-update[/url][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1753282824,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000
+        },
+        {
+          "gid": "1805065414374664",
+          "title": "July 2025 Update is coming soon",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1805065414374664",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "[p]Hello everyone,\n[/p][p]The next Garry's Mod update is coming soon.[/p][p]The current plan is to release the next Garry's Mod update on 23rd of July at 3PM GMT.[/p][p][/p][p]This update will be backwards compatible with existing servers, so servers will not need immediate updating and players can still join old servers, but it is still highly recommended to update as soon as the update releases to get all the new features and fixes.[/p][p][/p][p]You can preview the list of upcoming changes here:[/p][p][url=\"https://wiki.facepunch.com/gmod/Update_Preview_Changelog\"]https://wiki.facepunch.com/gmod/Update_Preview_Changelog[/url][/p][p]Please note this list is still work in progress and is subject to change.[/p][p][/p][h2]Please help us test the update[/h2][p]We kindly ask anyone willing to help us, players, modders and server owners alike, to test this update before it releases, to minimize any potential problems on release day.[/p][p][/p][p]Just run your game or your (development/test) server on one of the beta versions briefly to see if any new issues crop up compared to the non-beta version of the game.[/p][p][/p][p]The Pre-Release Steam beta branch for Garry's Mod has been updated and contains all the changes that will be included in the next update. The \"dev\" and \"x86-64\" betas also contain all the upcoming changes.[/p][p][/p][p]You can report any found issues preferably on our official bug tracking repository on GitHub: (be sure to search before posting)[/p][p][url=\"https://github.com/Facepunch/garrysmod-issues\"]https://github.com/Facepunch/garrysmod-issues[/url][/p][p]Or at the very least in the comments below, or on our official Discord server or:  [url=\"https://discord.com/invite/gmod\"]https://discord.com/invite/gmod[/url][/p][p][/p][p]If you wish to set up a dedicated server instance using any of the beta branches, please see this article: [url=\"https://wiki.facepunch.com/gmod/Downloading_a_Dedicated_Server\"]https://wiki.facepunch.com/gmod/Downloading_a_Dedicated_Server[/url][/p][p][/p][p][b]How to switch game branches:[/b][/p][list][*][p]Exit the game[/p][/*][*][p]Right click on [b]Garry's Mod[/b] in Steam and select [b]Properties[/b][/p][/*][*][p]Go to the [b]Betas[/b] tab and select your desired branch[/p][list][*][p][b]None[/b] - This is the normal version of the game[/p][/*][*][p][b]Pre-Release[/b] - This is the next update[/p][/*][*][p][b]Dev[/b] - This is a bleeding edge version of the game, expect it to contain more bugs than usual\n[/p][/*][/list][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1752607059,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000
+        },
+        {
+          "gid": "1799088287869119",
+          "title": "May 2025 Patch",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1799088287869119",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "Hello everyone,\n\nA new patch has been released. This one contains mostly stability and security fixes.\n\nServers and clients are recommended to update as soon as possible.\nThe change list is as follows:\n\n[list]\n[*]Throw a non halting Lua error when hitting Lua file limit, to let players know that they have hit the limit\n[*]Fixed a regression crash on Linux when almost finished loading a map\n[*]Prevent crashes with steamworks library when used too early on dedicated servers\n[*]Fixed console spam about invalid sprite orientation when the sprite material is simply missing\n[*]Fixed HLTV clients being kicked due to mismatching SteamID\n[*]Fixed a crash to do with env_projected_texture's texture\n[*]Fixed some security issues reported on HackerOne\n[*]Remove unnecessary return value in WorldPickerMouseDisable hook so GM:VGUIMousePressAllowed hook works more reliably for addons (Community Contribution)\n[*]Fixed Lua error with creator tool when trying to spawn NPCs that do not exist on the server (Community Contribution)\n[*]Blocked .vdf and specific .cfg files from being accessible by the Lua file library\n[*]Added one more known Lua backdoor URL to HTTP blacklist\n[*]Increased default value of mem_max_heapsize to 512, and block it from being changed by Lua API\n[*]Block datacachesize convar from being changed by Lua API, to prevent crashes when set to invalid values\n[*]Fixed monitor (and potentially other) materials in Hammer acting strangely when using \"Fit\" option in texture application tool.\n[/list]\n\nThe entire change list can also be found on our website:\nhttps://gmod.facepunch.com/news/may-2025-patch\n\nEdit: For people still experiencing crashes when pressing \"Start Game\" - delete your bin/ and garrysmod/bin/ folders and verify game cache integrity through Steam. Some 3rd party files/programs that may have been put into the game's folder by the player are causing issues, such as graphics modifications. Updating those files might also work.",
+          "feedlabel": "Community Announcements",
+          "date": 1746804820,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1798454487577511",
+          "title": "April 2025 Patch",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1798454487577511",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "Hello everyone,\n\nA new patch has been released. This one contains mostly fixes, some for regressions introduced by previous update, as well as some crash fixes, security improvements and a number of under the hood changes.\n\nServers and clients are recommended to update as soon as possible.\n\nThe entire changelist can be found on our website:\nhttps://gmod.facepunch.com/news/april-2025-patch",
+          "feedlabel": "Community Announcements",
+          "date": 1746034435,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1795283637859595",
+          "title": "March 2025 Hotfix",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1795283637859595",
+          "is_external_url": true,
+          "author": "Rubat",
+          "contents": "Hello everyone,\n\nWe are releasing a small patch today with some fixes for issues introduced in the previous update, as well as some extra fixes.\n\nServers and clients are recommended to update as soon as possible.\n\n[h2]Change list[/h2]\n[list]\n[*] Fixed bone manipulations not working clientside if ever set serverside on the same entity (Regression)\n[*] Fixed regression with TTT team colors while spectating\n[*] Fixed a regressive server crash to do with keyvalues\n[*] Fixed some small memory leaks in dedicated server workshop handling\n[*] Added `-noconclr` launch parameter to disable dedicated server console colors\n[*] Partially implemented missing mat_ambient_light convars used by one of the newly added entities\n[*] Fixed Half-Life: Source shotgun right click pump sounds desync\n[*] Made zoom_sensitivity_ratio save across sessions\n[*] Micro optimization for how C++ retrieves entities from Lua \n[*] Made PLAYER:AddCleanup server only (Community Contribution)\n[*] Added some new entities to Hammer (FGD) that were missed from the main update\n[*] Fixed ELF_KEEP_ON_RECREATE_ENTITIES sharing value with another flag, resulting in unexpected behavior\n[*] ContentIcon.Copy & SpawnIcon.Copy also copies the tooltip\n[/list]\n\nMain update post can be found here:\nhttps://store.steampowered.com/news/app/4000/view/521961040610590764",
+          "feedlabel": "Community Announcements",
+          "date": 1743185064,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 4000,
+          "tags": [
+            "patchnotes"
+          ]
+        }
+      ],
+      "count": 350
+    }
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "fetched_at": "2026-10-12T07:13:10.668226+00:00",
+  "endpoint": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/",
+  "data": {
+    "appnews": {
+      "appid": 648800,
+      "newsitems": [
+        {
+          "gid": "1826992588592889",
+          "title": "Raft 1.1.01 Hotfix",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826992588592889",
+          "is_external_url": true,
+          "author": "SVEN BENGT",
+          "contents": "[p]Hey everyone! \n\nWe just now pushed a small hotfix patch for the default branch;\n[/p][list][*][p]Fixed save/load issue related to naming a world with a . at the end[/p][/*][*][p]PlayFab voice chat is now disabled by default for new users. The option to turn it on/off can be found in the Pause Menu/Socal/Lobby UI[/p][/*][*][p]Social UI can now be closed when pressing Escape[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1773331039,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1826362059932435",
+          "title": "Raft 1.1: Cross-play sails to the default branch!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059932435",
+          "is_external_url": true,
+          "author": "SVEN BENGT",
+          "contents": "[p]Hey Rafters![/p][p]Since we released Raft on Xbox Series X/S and Playstation 5 last year there has been a Beta Branch here on Steam that enables cross-play, letting Rafters who chose to opt in play with their friends who might play on Xbox or Playstation. See, when we built the support for cross play into the PC version, quite a bit of code and systems had to be overhauled and rewritten, and we knew there could be a few issues that arose once we launched. This is why we let it sit on its own branch on Steam, so that players who wanted to try cross-play could choose to do so, knowing there might be a bug here and there. During the time since it landed on the beta branch, and thanks to everyone who has played and supplied us with logs and bug reports, we have updated the cross-play version to where it is now in a state where we feel comfortable moving it over to the default branch. So now, everyone on the default branch will have access to not only cross-play, but also full controller support, in-game voice chat, bug fixes, optimized performance in many areas of the game and a whole bunch of quality of life changes.[/p][p][/p][p]However, seeing as there are going to be a lot more players sailing the cross-play waters now that it is out on the default branch, we want to cover all angles and provide a backup solution for those who might encounter a stray bug. To this end, if you for some reason want to go back to the previous version of Raft, you can do so by simply switching over to the \"1.09_precrossplayupdate\" branch. This will NOT cause worlds that are saved in the new version to be unplayable. More instructions below. [/p][p][/p][p]As always, if you encounter any issue, please head over to our [url=\"https://discord.com/invite/raft\"]Discord[/url] and let us know![/p][p][/p][p]We hope you have a great time sailing the seas, maybe even with some new cross platform friends?[/p][p][/p][p]How to switch to the \"1.09_precrossplayupdate\" branch:[/p][p]1. Go to your Steam Library, right click Raft and choose Properties.[/p][p]2. In the new window, navigate to Game Versions & Betas on the left hand panel.[/p][p]3. Choose '1.09_precrossplayupdate'.[/p][p]4. Restart Steam to make sure the game updates.[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1773137218,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1823825466508700",
+          "title": "Raft Beta Branch 1.1.08",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823825466508700",
+          "is_external_url": true,
+          "author": "SVEN BENGT",
+          "contents": "[p]Hey Rafters![/p][p][/p][p]As some of you know, we have a Beta branch for the PC version of Raft here on Steam which, among some other quality of life changes, lets you cross-play together with rafters on PlayStation and/or Xbox. We just released a small patch for the Beta branch which fixes a few bugs and adds some more voice chat options.[/p][p]We are currently trying to pinpoint an annoying bug that has been popping up among some of the players on the Beta branch and we would love if you could give us a hand in trying to find the issue! So, what do you need to do? Easy, just hop over to the Beta branch, play as you normally would, and let us know over at our discord if you encounter any issues.  It's especially interesting for us if you get an error message when trying to join a friends world, saying \"error 63\". [/p][p][/p][p]If you want to try the Beta branch, please follow these steps;[/p][p][/p][p]1. Go to your Steam Library, right click Raft and choose Properties.[/p][p]2. In the new window, navigate to Betas on the left hand panel.[/p][p]3. In the Beta Participation drop-down menu, choose 'beta'.[/p][p]4. Restart Steam to make sure the game updates.[/p][p][/p][p]Thank you![/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1770736475,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1808061939379421",
+          "title": "Raft Juicer recipes and how to craft it",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1808061939379421",
+          "is_external_url": true,
+          "author": "editor@pcgamesn.com",
+          "contents": "<img width=\"900\" height=\"507\" src=\"https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/06/raft-juicer-recipes-1-900x506.jpg\"/><p>If you're playing this open-water survival game, you need to make sure you get a Raft Juicer. Why? Because it greatly quenches your thirst, it gives you an anti-thirst bonus, and it's a fun way to display your fruit collection. If you manage to get your hands on the Spicy Pineberry or Redbeet Shot recipes, you can even get a swimming speed bonus or health bonus respectively.</p>\n<p>The basics are simple: place up to four types of fruit on the <strong>Raft Juicer</strong> table, and press 'start cooking' to create a drink. When the drink is done (this takes a few seconds), equip a Drinking Glass and fill it up. Of course, make sure the Juicer has a battery, but beware: don't use random fruit. You can find most of the Juicer recipes in loot boxes, but the Spicy Pineberry and Redbeet Shot are bought from the Trading Post using <a href=\"https://www.pcgamesn.com/raft/trash-cubes\">Raft Trash Cubes</a>. Want to try crafting in another game? Turn your attention to the <a href=\"https://www.pcgamesn.com/grow-a-garden/recipes-list\">Grow a Garden recipes list</a> to get started in a similarly delicious Roblox adventure.</p>\n<p><a href=\"https://www.pcgamesn.com/raft/juicer-recipes\">Read the rest of the story...</a></p>\n<p>RELATED LINKS:<br />\n<a href=\"https://www.pcgamesn.com/raft/steam-discount\">93% rated survival game blows up on Steam thanks to huge discount</a><br />\n<a href=\"https://www.pcgamesn.com/raft/varuna-point-walkthrough\">Raft Varuna Point walkthrough</a><br />\n<a href=\"https://www.pcgamesn.com/raft/temperance-walkthrough\">Raft Temperance walkthrough</a></p>",
+          "feedlabel": "PCGamesN",
+          "date": 1755278164,
+          "feedname": "PCGamesN",
+          "feed_type": 0,
+          "appid": 648800
+        },
+        {
+          "gid": "1792116353358969",
+          "title": "Beta Branch Update 1.1.02",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1792116353358969",
+          "is_external_url": true,
+          "author": "SVEN BENGT",
+          "contents": "Hello Rafters!\n\nVersion 1.1.02 is now live on the Beta branch! Here is a list of what has been fixed!\n\n[list]\n[*] Fixed issues that can occur when connecting to hosts\n[*] Fixed scroll issue in the load world UI\n[*] Fixed visual issues in chat and crafting menu UI\n[*] Improved handling of invalid network messages\n[*] Restored the way items are loaded to how it used to work in version 1.09\n[/list]\n\n",
+          "feedlabel": "Community Announcements",
+          "date": 1740494230,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1785321795635143",
+          "title": "Cross-play fixes!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1785321795635143",
+          "is_external_url": true,
+          "author": "SVEN BENGT",
+          "contents": "There's now a small update out on the Beta Branch that should fix most connection issues in cross-play between PC and Consoles.\n\n",
+          "feedlabel": "Community Announcements",
+          "date": 1733481860,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1784506359211426",
+          "title": "Playstation® 5, XBOX and Cross-Play!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1784506359211426",
+          "is_external_url": true,
+          "author": "SVEN BENGT",
+          "contents": "The survival classic Raft is officially setting sail on the PS5 and XBOX SERIES X/S this December 4th as a surprise release!\nConsole players can now experience the thrill of survival at sea from the comfort of their couches. Build, scavenge, and explore the vast open ocean with all the immersive features that the PS5 and XBOX SERIES X/S has to offer.\n\n[h1]Steam Version Updates![/h1]\nThere is also some great news for all you PC players! A new version of the game is available on the Raft Beta Branch that lets you enjoy the open ocean in new ways!\n\n[h2]Cross-play[/h2]\nSurvival is better with friends! Crossplay ensures that you can join forces with players across platforms, uniting the entire community in the quest for survival.\n\n[h2]Controller Support[/h2]\nIf you want to enjoy Raft on the big screen, or simply just put your mouse and keyboard to the side, you can finally lean back and enjoy full controller support!\n\n[h2]In Game Voice Chat[/h2]\nCommunication is key when venturing out onto the great seas! That is why we have now added crisply clear voice chat support, directly in Raft! \n\n[h2]Opt in![/h2]\nAdding all these features means shuffling around a bit in the good ol’ code base. To be on the safe side, all these new features will currently only be available on our Beta branch here on Steam. This lets us stress test the new features, gather your feedback and make sure everything is as it should once we release it to the masses.   \n\nSo, if you want to try the new version follow these steps;\n\n[olist]\n[*] Go to your Steam Library, right click Raft and choose Properties.\n[*] In the new window, navigate to Betas on the left hand panel.\n[*] In the Beta Participation drop-down menu, choose 'beta'.\n[*] Restart Steam to make sure the game updates.\n[/olist]\n\n[b]WARNING![/b]\nThe Beta branch is a test version of the update. Please back up your save files before proceeding, as this version may contain bugs that could corrupt game data.\n",
+          "feedlabel": "Community Announcements",
+          "date": 1733321988,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800
+        },
+        {
+          "gid": "5766372999962743723",
+          "title": "93% rated survival game blows up on Steam thanks to huge discount",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/5766372999962743723",
+          "is_external_url": true,
+          "author": "editor@pcgamesn.com",
+          "contents": "<img width=\"900\" height=\"507\" src=\"https://www.pcgamesn.com/wp-content/sites/pcgamesn/2024/05/raft-steam-discount-players-900x506.jpg\"/><p>There are a handful of very big names in the survival game genre: Rust, Minecraft, DayZ, Subnautica, and, more recently, Palworld, Enshrouded, and Sons of the Forest. There's also <strong>Raft</strong>, which has plenty in common with the games listed above, and has continued to attract interest over the years since it was in and out of Steam Early Access thanks to its aquatic setting, multiplayer features, and narrative. Recently, its already healthy player numbers have shot up even further, too, as the result of it receiving a hefty limited time discount on Steam.</p>\n<p><a href=\"https://www.pcgamesn.com/raft/steam-discount\">Read the rest of the story...</a></p>\n<p>RELATED LINKS:<br />\n<a href=\"https://www.pcgamesn.com/raft/varuna-point-walkthrough\">Raft Varuna Point walkthrough</a><br />\n<a href=\"https://www.pcgamesn.com/raft/juicer-recipes\">Raft Juicer recipes and how to craft it</a><br />\n<a href=\"https://www.pcgamesn.com/raft/temperance-walkthrough\">Raft Temperance walkthrough</a></p>",
+          "feedlabel": "PCGamesN",
+          "date": 1715109092,
+          "feedname": "PCGamesN",
+          "feed_type": 0,
+          "appid": 648800
+        },
+        {
+          "gid": "5140340943322907255",
+          "title": "Discord Birthday Event",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5140340943322907255",
+          "is_external_url": true,
+          "author": "SVEN BENGT",
+          "contents": "Today, Raft celebrates 5 years on Steam! Head over to our Discord to join in the celebrations! The event continues until June 11! Join [url=https://discord.com/invite/raft]here![/url]\n\n[img]{STEAM_CLAN_IMAGE}/30560232/535a815d78f7c7f5d7988f4f296769aa573fe08f.png[/img]",
+          "feedlabel": "Community Announcements",
+          "date": 1684835128,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800
+        },
+        {
+          "gid": "5035620840542423898",
+          "title": "Steam Global Top Sellers for the Week ending 15 January 2023",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/5035620840542423898",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2023W02/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2023W02.png\"></a><ol><li><a href=\"https://steamdb.info/app/1675200/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/990080/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Hogwarts Legacy</a></li><li><a href=\"https://steamdb.info/sub/783410/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare® II</a></li><li><a href=\"https://steamdb.info/app/648800/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Raft</a></li><li><a href=\"https://steamdb.info/app/1245620/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ELDEN RING</a></li><li><a href=\"https://steamdb.info/app/814000/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ONE PIECE ODYSSEY</a></li><li><a href=\"https://steamdb.info/sub/54029/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">CS:GO Prime Status Upgrade</a></li><li><a href=\"https://steamdb.info/sub/354231/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Valve Index VR Kit</a></li><li><a href=\"https://steamdb.info/app/1583230/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">High On Life</a></li><li><a href=\"https://steamdb.info/app/108600/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Project Zomboid</a></li></ol><br><a href=\"https://steamdb.info/topsellers/2023W02/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View more information and data on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1673798400,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 108600
+        },
+        {
+          "gid": "5000716037442320483",
+          "title": "1.09 - Update to network code",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5000716037442320483",
+          "is_external_url": true,
+          "author": "SVEN BENGT",
+          "contents": "Hey there Rafters!\n\nWe just wanted to let you know that we have just now pushed a small update containing a rework of the multiplayer network code, to increase security for hosts and clients.\n\nIf you notice any bugs or desync of objects, please let us know through our [url=https://support.redbeetinteractive.com/hc/en-us/]support page![/url]\n\n",
+          "feedlabel": "Community Announcements",
+          "date": 1671713092,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "4732747437205849124",
+          "title": "Plushies and Consoles?",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4732747437205849124",
+          "is_external_url": true,
+          "author": "SVEN BENGT",
+          "contents": "Hey Rafters! It has been a while since Raft left Early Access and the Final Chapter was released! It has been amazing to see all the great feedback, your reactions to the finale of the story and the incredible rafts you all have been building. Please keep them coming! \n\nWe are happy to announce that we have partnered up with Makeship to release a one time limited edition set of plushies! Up until November 15, you can get yourself a cuddly version of the Raft Shark, Maya or the Pufferfish! Or perhaps all three? You can find the storepage right [url=https://www.makeship.com/shop/creator/raft]here![/url]\n \n[img]{STEAM_CLAN_IMAGE}/30560232/c77a7364d3bd0700cd133e049f2f94e923bae229.png[/img]\n\n\n[h2]Consoles?[/h2]\nAnd for even more exciting news, we can finally announce that we are actively working on getting Raft onto consoles! We strive to be able to release it on as many platforms as possible and hope we can give as many players as possible the chance to build their own raft! We want the console experience to be just as good as the PC game, and make sure that everything looks and feels as good as possible, and that takes a bit of time. Therefore it is too early to give you a time of release, but we will let you know as soon as we can! Many of you have asked for it and we hope you are as excited as we are!\n\nWe will let you know as soon as we have more to share!\n\nUntil next time!\n\n//Raft HQ\n",
+          "feedlabel": "Community Announcements",
+          "date": 1667573714,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800
+        },
+        {
+          "gid": "4598757090466635608",
+          "title": "Steam Global Top Sellers for the Week ending 7 August 2022",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/4598757090466635608",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2022W31/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2022W31.png\"></a><ol><li><a href=\"https://steamdb.info/app/1675200/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/1332010/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Stray</a></li><li><a href=\"https://steamdb.info/app/1817070/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Marvel’s Spider-Man Remastered</a></li><li><a href=\"https://steamdb.info/app/252490/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Rust</a></li><li><a href=\"https://steamdb.info/app/648800/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Raft</a></li><li><a href=\"https://steamdb.info/app/242760/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">The Forest</a></li><li><a href=\"https://steamdb.info/app/1245620/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ELDEN RING</a></li><li><a href=\"https://steamdb.info/sub/354231/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Valve Index VR Kit</a></li><li><a href=\"https://steamdb.info/app/108600/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Project Zomboid</a></li><li><a href=\"https://steamdb.info/app/271590/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Grand Theft Auto V</a></li></ol><br><a href=\"https://steamdb.info/topsellers/2022W31/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View more information and data on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1659888000,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 108600
+        },
+        {
+          "gid": "4587497456695006300",
+          "title": "Steam Global Top Sellers for the Week ending 31 July 2022",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/4587497456695006300",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2022W30/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2022W30.png\"></a><ol><li><a href=\"https://steamdb.info/app/1675200/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/1332010/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Stray</a></li><li><a href=\"https://steamdb.info/app/871980/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Digimon Survive</a></li><li><a href=\"https://steamdb.info/app/275850/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">No Man's Sky</a></li><li><a href=\"https://steamdb.info/app/1817070/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Marvel’s Spider-Man Remastered</a></li><li><a href=\"https://steamdb.info/sub/354231/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Valve Index VR Kit</a></li><li><a href=\"https://steamdb.info/app/1245620/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ELDEN RING</a></li><li><a href=\"https://steamdb.info/app/1174180/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li><li><a href=\"https://steamdb.info/app/648800/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Raft</a></li><li><a href=\"https://steamdb.info/app/271590/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Grand Theft Auto V</a></li></ol><br><a href=\"https://steamdb.info/topsellers/2022W30/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View more information and data on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1659283200,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 271590
+        },
+        {
+          "gid": "4598755821859399346",
+          "title": "Steam Global Top Sellers for the Week ending 17 July 2022",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/4598755821859399346",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2022W28/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2022W28.png\"></a><ol><li><a href=\"https://steamdb.info/app/1675200/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/648800/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Raft</a></li><li><a href=\"https://steamdb.info/app/1332010/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Stray</a></li><li><a href=\"https://steamdb.info/app/1245620/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ELDEN RING</a></li><li><a href=\"https://steamdb.info/app/1144200/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Ready or Not</a></li><li><a href=\"https://steamdb.info/app/1692250/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">F1® 22</a></li><li><a href=\"https://steamdb.info/sub/354231/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Valve Index VR Kit</a></li><li><a href=\"https://steamdb.info/app/1880360/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Monster Hunter Rise: Sunbreak</a></li><li><a href=\"https://steamdb.info/sub/704817/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Monster Hunter Rise + Sunbreak</a></li><li><a href=\"https://steamdb.info/sub/54029/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">CS:GO Prime Status Upgrade</a></li></ol><br><a href=\"https://steamdb.info/topsellers/2022W28/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View more information and data on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1658073600,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 648800
+        },
+        {
+          "gid": "4539082035578709750",
+          "title": "Steam Global Top Sellers for the Week ending 10 July 2022",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/4539082035578709750",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2022W27/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2022W27.png\"></a><ol><li><a href=\"https://steamdb.info/app/1675200/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/648800/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Raft</a></li><li><a href=\"https://steamdb.info/app/1880360/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Monster Hunter Rise: Sunbreak</a></li><li><a href=\"https://steamdb.info/app/1692250/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">F1® 22</a></li><li><a href=\"https://steamdb.info/app/1144200/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Ready or Not</a></li><li><a href=\"https://steamdb.info/sub/704817/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Monster Hunter Rise + Sunbreak</a></li><li><a href=\"https://steamdb.info/app/1446780/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">MONSTER HUNTER RISE</a></li><li><a href=\"https://steamdb.info/app/252490/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Rust</a></li><li><a href=\"https://steamdb.info/app/1426210/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">It Takes Two</a></li><li><a href=\"https://steamdb.info/app/1174180/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li></ol><br><a href=\"https://steamdb.info/topsellers/2022W27/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View more information and data on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1657468800,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 252490
+        },
+        {
+          "gid": "4474904295780793491",
+          "title": "Hotfix - Raft 1.08",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4474904295780793491",
+          "is_external_url": true,
+          "author": "SVEN BENGT",
+          "contents": "[h2]CHANGELOG[/h2]\n[list]\n[*] Rhino shark will now go to the next level as soon as one pillar is destroyed, instead of waiting for the player to go to the next level\n[*] Added Sort into Storage button in storag UI. This button will check for items in your inventory that matches items in the storage and move those items to the storage. Does not move items that have durability or consume stacks\n[/list]\n\n[h2]BUG FIXES[/h2]\n[list]\n[*] Issue where Varuna Point Rhino Shark disappears\n[*] Issue where removing Rhino Shark trophy would destroy nearby blocks\n[*] issue where Engines disappeared randomly\n[*] Rouhi had no visuals for certain equippables\n[/list]\n",
+          "feedlabel": "Community Announcements",
+          "date": 1657199414,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "4474904295779000148",
+          "title": "Raft review",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/4474904295779000148",
+          "is_external_url": true,
+          "author": "Christopher Livingston",
+          "contents": "<img src=\"https://cdn.mos.cms.futurecdn.net/ApQttvjye6F5JbiMwnpLWT.jpg\"/><br><br>\n                Our oceans are clogged with plastic trash, but here&apos;s a small silver lining: All that garbage is keeping me alive. In open world survival game Raft, which spent four years in early access before hitting 1.0 in June, I turned a collection of floating trash into a floating base&#x2014;a big, cluttered, ugly floating base, but it&apos;s packed with life-saving amenities and I&apos;ve slowly come to love it like a home...\n                <a href=\"https://www.pcgamer.com/raft-review?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+          "feedlabel": "PC Gamer",
+          "date": 1657155419,
+          "feedname": "PC Gamer",
+          "feed_type": 0,
+          "appid": 648800
+        },
+        {
+          "gid": "4474904295777562760",
+          "title": "Hotfix - Raft 1.07",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4474904295777562760",
+          "is_external_url": true,
+          "author": "Trassan",
+          "contents": "[h1]Bugfixes[/h1]\n[list]\n[*]Domestic animals (Llama, Goat, Clucker) would walk in air or snap their position to islands when your raft was close to an island\n[*]Domestic animals (Llama, Goat, Clucker) was hovering a bit above raft floor when walking\n[/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1657122796,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "4474904295776993484",
+          "title": "Hotfix - Raft 1.06",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4474904295776993484",
+          "is_external_url": true,
+          "author": "Trassan",
+          "contents": "[h1]Changelog[/h1]\n[list]\n[*]Improved hitbox on recycler to prevent placing an unwanted item into the recycler instead of picking up a trash cube\n[*]Domestic animals (Llama, Goat, Clucker) can no longer walk off the edge of your raft.\n[/list]\n\n[h1]Bug fixes[/h1]\n\n[list]\n[*]Domestic animals (Llama, Goat, Clucker) disappearing and/or being pulled down by waves (We believe this is fixed but weren't able to reproduce the bug ourselves)\n[*]Duplicate windturbine by holding X while placing it\n[*]Unreachable metal detector treasure (in air or inside mountains)\n[/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1657109296,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 648800,
+          "tags": [
+            "patchnotes"
+          ]
+        }
+      ],
+      "count": 132
+    }
+  }
+}

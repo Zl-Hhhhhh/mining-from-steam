@@ -1,0 +1,302 @@
+{
+  "fetched_at": "2026-10-12T07:14:21.366839+00:00",
+  "endpoint": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/",
+  "data": {
+    "appnews": {
+      "appid": 322330,
+      "newsitems": [
+        {
+          "gid": "1845383656383054",
+          "title": "Steam Autumn Sale, Login Reward, and Beta Info!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656383054",
+          "is_external_url": true,
+          "author": "Klei-JoeW",
+          "contents": "[p]Hey everybody!\n\nWe've put together a login reward for players during the Steam Autumn Sale. [/p][p] [img]{STEAM_CLAN_IMAGE}/6835324/5f5245bb68080c711895f482112be0ca16c4a3a1.png[/img][/p][p] [/p][p]For a limited time[url=\"https://accounts.klei.com/link/AutumnSale2026\"],[/url] simply login to the game and get yours![/p][p]Cursed Confrontations Part 2, the conclusion of the From Beyond story arc is currently in beta. This has been a long beta, but we also have a bunch of backend tech work included in this beta, so we'd like to invite all players interested to come check it out. [url=\"https://kleiforums.com/forums/forum/208-dont-starve-together-beta-branch/\"]You can find details over on our forums here[/url].\n\nWe will have more information about the launch of Cursed Confrontation Part 2 soon!\n [/p][previewyoutube=\"MfYieMQt548;full\"][/previewyoutube][p]Rotwood also launched a big update \"[url=\"https://store.steampowered.com/app/2015270/Rotwood/\"]Blight's Out[/url]\" along with a new DLC the \"Drakin Armoury Pack\" that owners can get for free for a limited time. [/p][p][/p][p][url=\"https://store.steampowered.com/app/5067220/Rotwood_Drakin_Armoury_Pack/\"]https://store.steampowered.com/app/5067220/Rotwood_Drakin_Armoury_Pack/[/url][/p][p align=\"center\"][/p][p] ​[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790874876,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330
+        },
+        {
+          "gid": "1840944183777459",
+          "title": "Intermission: [No Day at the Beach] - Animated Short, Login Reward and More!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183777459",
+          "is_external_url": true,
+          "author": "Klei-JoeW",
+          "contents": "[p][/p][previewyoutube=\"sJk64-V0uX0;full\"][/previewyoutube][p]\n[b][u]Don't Starve Together: No Day at the Beach[/u][/b][url=\"https://accounts.klei.com/link/BeachMaxxing\"] [/url][b][u]\\[Animated Short][/u][/b]\nThe days grow warm, the nights turn lively, and friends gather together. But can a little summer joy melt even the coldest of hearts?\n\n[b][u]Streaming Drops![/u][/b][/p][p] [/p][p align=\"center\"][img src=\"{STEAM_CLAN_IMAGE}/6835324/8f381d4ea987d76128adfc93ec9fdb0a0504af14.png\"][/img][/p][p]“Put out fires with a splashy splat. The “Bugburst Waterballoon” has been added to the Chitinous Collection. [url=\"http://klei.gg/currentdrop\"]Check out this post for more info[/url]![/p][p] [/p][p][b][u]Free Login Reward![/u][/b][/p][p] [/p][p align=\"center\"][img src=\"{STEAM_CLAN_IMAGE}/6835324/db0275e2af177508d612783444f51e22826ea7ad.jpg\"][/img] [/p][p]We're adding a whole set of aquatic attire to the game in three different styles. For a limited time, just log into the game, and receive the \"Beach Day Chest\" which contains a random selection of 5 swimsuits from the Seaside Collection. [/p][p] [/p][p][b][u]Don't Starve Together: Pocket Edition[/u][/b][/p][p] [/p][previewyoutube=\"seItRG5c4y8;full\"][/previewyoutube][p]Just in case you missed it, Playdigious released Don't Starve Together: Pocket Edition on Android and iOS. Check it out over on their site: [/p][p][url=\"https://playdigious.com/games/dont-starve-together\"]https://playdigious.com/games/dont-starve-together[/url][/p][p] [/p][p][b][u]Up Next[/u][/b]\nThe team is deep into the next update and the conclusion of the shadow arc. We're not quite ready for beta yet, but it's not too far away either. So for now, we hope you enjoy this brief intermission, and we'll see you again soon. \n [/p][p] ​[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1786641380,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330
+        },
+        {
+          "gid": "1836506165576869",
+          "title": "Hotfix 740477",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165576869",
+          "is_external_url": true,
+          "author": "JesseB_Klei",
+          "contents": "[b]Changes[/b]\n[list]\n[*] The Tesla Coil Helm skin is now called the Arc Welded Helm.\n[/list]\n\n[b]Bug Fixes[/b]\n[list]\n[*] Fixed the icon in the Belongings for the Arc Welded Helm skin.\n[*] Fixed an issue with Klei Account linked items not being able to be used on dedicated servers.\n[/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1783378705,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1836506165569331",
+          "title": "Hotfix 740256",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165569331",
+          "is_external_url": true,
+          "author": "KleiFish",
+          "contents": "[b]Changes[/b]\n[list]\n[*] Desiccant Pouch/Sacks now dries off from high heat instead of uncontrolled sources of fire.  (e.g. Fire Pits and Scaled Furnaces will dry off Desiccants now.)\n[*] The Caddy Cap skins may now be applied to the Tam o' Shanter.\n[*] Improved Mini-Golf obstacle visuals to better match their physics.\n[*] Added new states for Eets critter.\n[/list]\n[b]Bug Fixes[/b]\n[list]\n[*] Fixed a crash from the Gilded Knights.\n[*] Fixed a crash from the Lurking Nightmare when hitting a player riding a Beefalo.\n[*] Fixed crash when using Cannons with a controller.\n[*] Coals will properly revert to item form when a Dock underneath is destroyed.\n[*] Mini-Golf courses built over Docks can now be removed properly.\n[*] Fixed bug causing Sick Mini Worm Holes to not reset properly.\n[*] Pirate Boats will properly persist after defeating all its crew members.\n[*] Fixed bug causing Ickers to spawn inside the Sanctum.\n[*] Fixed bug causing Beefalo to sometimes be duplicated when exiting the Sanctum.\n[*] Fixed items like B.U.D.D.Y. and items from linked accounts being unable to be crafted when going into or out of the caves.\n[*] Fixed various animation bugs with skirts and Sweater Vests.\n[/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1783039915,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1836506165552238",
+          "title": "Hotfix 739495",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165552238",
+          "is_external_url": true,
+          "author": "KleiFish",
+          "contents": "[b]Changes[/b]\n[list]\n[*] The Mini-Golf Ball Dropper will refund your Cawnival Token at the end of the round on custom courses.\n[*] Mouse aiming the Putter now has lowered accuracy when your pointer is entirely outside the reticule range.\n[/list]\n[b]Bug Fixes[/b]\n[list]\n[*] Fixed missing animations for Mini Worm Holes on a server without Caves.\n[*] Fixed incorrect rotations for some Golf structures when placing a course at certain orientations.\n[*] Fixed a client crash when closing the minimap at the same time it was opened for an action on the map.\n[*] Fixed bug causing Wandering Trader to repeatedly flip their hood up and down when near a Survivor interacting with any research station.\n[*] Fixed a crash when peeking inside a Bundling Wrap which let Mimics loose.\n[*] Fixed a softlock case on one of the Standard Mini-Golf course variations.\n[*] Fixed a crash when trying to play other Cawnival games besides the Mini Golf.\n[/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1782434282,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1836506165551438",
+          "title": "Midsummer Cawnival is Back!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165551438",
+          "is_external_url": true,
+          "author": "Klei-JoeW",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/6835324/f2235dc2833f2f21ec170f2c7e51971e21b7a36a.gif\"][/img][/p][p]\nThe Cawnival is back in the Constant! Our survivors are once again greeted by the festive feathered Corvus Goodfeather and his crow compatriots. Decorate, try your luck at the Cawnival games, and maybe even win some prizes!\n\nThis year's star attraction is Mini-golf! Take a swing and one of several pre-built courses for your chance at some tickets, or build your own course for some added fun.\n[/p][p][b]Highlights:[/b][/p][list][*][p]Start of the annual Midsummer Cawnival event.[/p][/*][*][p]The master of ceremonies, Corvus Goodfeather can be found near the Florid Postern.[/p][/*][*][p]Mini-golf! New decorations and Prebuilt Cawnival courses.[/p][/*][*][p]Build your own golf courses with placeable course parts.[/p][/*][*][p]Buy the Cawnival Tree, games and Game Tokens from Corvus Goodfeather.[/p][/*][*][p]Earn Prize Tickets from playing games and exchange them for decorations and other goods at the Prize Booth.[/p][/*][*][p]Place decorations near the Cawnival Tree and more feathered spectators will come join the festivities.[/p][/*][/list][p][b]New Skins:[/b][/p][p align=\"center\"][img]{STEAM_CLAN_IMAGE}/6835324/ed456a94d5028022d6a85a6b70bb2d4053f4c987.png[/img][/p][p]\n[b]“Cawnival Mini-Golf Chest”[/b] ($5.99usd)\n\n“This Cawnival Mini-Golf Chest contains the following skin items: Cawnival Putter's Pack, Tee Time Sweater Vest, Par None Sweater Vest, Fairway Sweater Vest, Mulligan Sweater Vest, Chipper Sweater Vest, Lucky Stroke Sweater Vest, Black Birdie Pants, Plum Birdie Pants, Red Birdie Pants, Black Mini-Golf Skirt, Green Mini-Golf Skirt, Red Mini-Golf Skirt, Egg Caddy Cap, Bow Caddy Cap, Flag Caddy Cap, Cawnival Torch, Cawnival Plaque, and Cawnival Egg Lamp.”\n\nSome people take Mini-golf way too seriously. Look. We had to do it. You gotta look the part right?\n\nWe want to make sure the login drops and streaming drops have proper time for people to pick them up so we're going to continue running the current sets.\n\n[b]Login Bonus:[/b]\n[img src=\"{STEAM_CLAN_IMAGE}/6835324/9fa11f37710024d55e3c91da34b6d8f9959031ea.png\"][/img][/p][p]Log in to Don't Starve Together to receive the \"Thank You Box\" containing the Klei Fest 2026 Clay-potted Succulent as well as Eets, The Bee-Stealthy Cowl, The Hermetic, Duplicate Dungarees, and an assortment of Space-age Sweaters.[/p][p]\n[b]Streaming Drops:[/b]\n [img src=\"{STEAM_CLAN_IMAGE}/6835324/0bf2bdf98d02adb624620b6485634d0fbbe38269.png\"][/img] [/p][p]The “Butterflute\" skin for the Pan Flute has been added to the Chitinous Collection. [url=\"http://klei.gg/currentdrop\"]Check out this post for details[/url].[/p][p]\n[b]That's all for now![/b] [/p][p]\nWe just dropped the big Klei Fest Publisher sale and we're rolling into the Steam Summer Sale, but we wanted surprise you with something fun for you this year's [url=\"https://accounts.klei.com/link/PuttPuttPoints\"]Midsummer Cawnival[/url]. We're back to working on the next update and we're also working separately on the next intermission.\n\nIf you haven't had the chance to check out the [url=\"https://store.steampowered.com/sale/kleifest2026\"]Klei Publisher sale[/url], you still have time as the sale has been extended through the Steam Summer sale.\n  [img src=\"{STEAM_CLAN_IMAGE}/6835324/abb578efc59189f93dab9918ce781039aa987bcc.jpg\"][/img][/p][p]\nHere's to another great summer! Till next time!\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1782412661,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330
+        },
+        {
+          "gid": "1835871199309401",
+          "title": "Don't Starve Together peaks at 122k players",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1835871199309401",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/app/322330/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/app/322330.png?_=1057271349\"></a><br>Don't Starve Together has peaked at 122,662 concurrent players on 21 June 2026 which is 10 years after release.<br>View charts and more statistics on our website.",
+          "feedlabel": "SteamDB",
+          "date": 1781962803,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 322330
+        },
+        {
+          "gid": "1835236783561228",
+          "title": "Don't Starve Together: From Beyond - Cursed Confrontation Pt. 1 & Klei Fest 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783561228",
+          "is_external_url": true,
+          "author": "Klei-JoeW",
+          "contents": "[p][/p][previewyoutube=\"P3xxrGa5xqs;full\"][/previewyoutube][p] [/p][p][b]Don't Starve Together: From Beyond - Cursed Confrontation Part 1 is Now Available for all players![/b][/p][p] [/p][p]Celebrating 20 years of Klei Entertainment and 10 years of Don't Starve Together, we've got a bunch of stuff for you today![/p][p] [/p][p]Walk a forbidden path. Cross a warded threshold. Accept a fate long sealed. Choices of unimaginable consequence await.[/p][p] [/p][p][b]Highlights[/b][/p][p] [/p][list][*][p]New boss and loot drops from the Sanctum.[/p][/*][*][p]Added Waymark Compass to help navigate the Sanctum rooms.[/p][/*][*][p]A rope can be used on the Sanctum Chasm to provide a way back up from the Ancient Archives.[/p][/*][/list][p] [/p][p][b]Other Additions[/b][/p][p] [/p][list][*][p]Added Heat Gland that drops from Geothermites, used in new crafts.[/p][/*][*][p]Added Thermic Tools.[/p][/*][*][p]Added Coals, a new trap type.[/p][/*][*][p]Added Thermal Balm, a new healing salve.[/p][/*][/list][p] [/p][p][b]Changes[/b][/p][p] [/p][list][*][p]Added a method of mass unravelling duplicate Curios in the Item Collection screen.[/p][/*][*][p]The Ancient Key is no longer destroyed, but instead pops out when the Ancient Gateway destabilizes and resets the ruins.[/p][/*][*][p]Like Wormwood, all other plant-like creatures now also burn for longer and take more fire damage[/p][/*][*][p]Shadow Hands will no longer target Night Lights.[/p][/*][/list][p] [/p][p][b]Thank You for 20 Years Together - Login Bonus ![/b][/p][p] [/p][p align=\"center\"][img src=\"{STEAM_CLAN_IMAGE}/6835324/d51e5b48415cea0e9f1c3ea64324557c3cc954f2.png\"][/img][/p][p] [/p][p]We whipped up a special surprise for you as a thanks for all your support. Log in to Don't Starve Together to receive the \"Thank You Box\" containing the Klei Fest 2026 Clay-potted Succulent as well as Eets, The Bee-Stealthy Cowl, The Hermetic, Duplicate Dungarees, and an assortment of Space-age Sweaters. \n\n[b]New Skins![/b][/p][p align=\"center\"] [img src=\"{STEAM_CLAN_IMAGE}/6835324/6ee7e77d02983b0ba22edb56c915d77d24c5f76e.png\"][/img][/p][p][b]“Rosy Roaring Stampeder Chest” [/b]($12.99usd)\n“This Rosy Roaring Stampeder Chest contains the Rosy Furniture Chest, Rosy Furnishings Chest, Rosy Decor Chest, Roarer Chest, and the Stampeder Duds Chest Part II.”\n\n[b]Interactive Lore Conclusion[/b]\nWe've just reached the conclusion to our first \"Interactive Lore\" story arc. If you want some fun rewards, Grab a shovel and a probably a guide for some of that deep lore. [url=\"https://forums.kleientertainment.com/forums/forum/331-dont-starve-together-interactive-lore/\"]You'll need 'em[/url].  \n\n[b]And That's it for Now![/b]\nThe team is moving on to the second part of the Cursed Confrontation update and completing the \"From Beyond\" story arc. We've got some fun things planned, and we're really looking forward to sharing. We'll see you soon!\n [/p][previewyoutube=\"Ndt61Ozsu0g;full\"][/previewyoutube][h3]Our annual publisher sale is back! [/h3][p] [/p][p]Klei Fest is our annual celebration of all things Klei. [url=\"https://store.steampowered.com/developer/klei/sale/kleifest2026\"]https://store.steampowered.com/developer/klei/sale/kleifest2026[/url][/p][p]\n[/p][p]This year, we've got a ton of updates, discounts, and freebies for you.[/p][list][*][p]To commemorate 20 years as a studio, we've made our very first game, [b]Eets [/b][url=\"https://store.steampowered.com/app/6100\"]free for everybody[/url], forever.\n[/p][/*][*][p]A [url=\"https://klei.gg/ONIKleiFest26\"]free game update[/url] for Oxygen Not Included with new buildings, bug fixes, and QOL!\n[/p][/*][*][p]The [b]Rotwood [/b][url=\"https://klei.gg/RotwoodKleiFest26\"]Powers-A-Plenty Update[/url] adds a new \"Weapon Power\" power type, QOL, and bug fixes.\n[/p][/*][*][p]The Release of [url=\"https://klei.gg/ONIKleiFest26\"]Aquatic Planet Pack DLC[/url] for [b]Oxygen Not Included[/b].\n[/p][/*][*][p]The Lowest prices ever for many Klei Entertainment games\n[/p][/*][*][p]10 Years of [b]Don't Starve Together[/b] - [b]90% off[/b] and a ton of Free exclusive [url=\"https://klei.gg/DSTKleiFest26\"]Klei Fest Skins[/url][/p][/*][*][p][url=\"https://store.steampowered.com/developer/klei/sale/kleifest2026\"][u]A bunch of great bundles[/u][/url] with additional [b]discounts up to 50% off[/b]!\n[/p][/*][*][p]The [b]Klei Shop[/b] has a big [url=\"https://klei.gg/ShopKleiFest26\"]Klei Fest sale[/url].\n[/p][/*][*][p]The conclusion of our DST [url=\"https://exspectamus.dontstarvetogether.com\"]Interactive Lore[/url] story arc\n[/p][/*][*][p]And [url=\"https://klei.gg/DSTMobileKleiFest26\"]DST Mobile[/url] is coming July, 21st![/p][/*][/list][h3]We've also got more news from our published titles![/h3][list][*][p][b]Rift of the NecroDancer [/b][url=\"https://store.steampowered.com/app/4706330\"]OST Vol. 2 Music Pack[/url] is out now!\n[/p][/*][*][p][b]Beastieball [/b][url=\"https://store.steampowered.com/app/1864950/Beastieball/\"]has a new update[/url], including workshop support and Portuguese localization\n[/p][/*][*][p][b]Fretless[/b] is now [url=\"https://store.steampowered.com/app/2429050/Fretless__The_Wrath_of_Riffson/\"]Steam Deck verified[/url]! Check out the new Accolades Trailer!\n[/p][/*][*][p][b]U.V.S. Nirmana[/b] has released[url=\"https://store.steampowered.com/app/2536720/UVS_Nirmana/\"] a free bonus campaign[/url] update![/p][/*][/list][p]\n[/p][p]Check out more games published by Klei![/p][p]\n[url=\"https://store.steampowered.com/developer/klei/sale/kleifest2026\"]\n\n[/url][img src=\"{STEAM_CLAN_IMAGE}/112393/beb9ddacaf8be12d8628f89c128d10f1083b856c.png\"][/img][url=\"https://store.steampowered.com/developer/klei/sale/kleifest2026\"]\n[/url]\n\n\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1781197224,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330
+        },
+        {
+          "gid": "1834602721188708",
+          "title": "Klei Fest & Cursed Confrontation Part 1 Coming June 11th!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721188708",
+          "is_external_url": true,
+          "author": "Klei-Mod",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/6835324/907e974a039914a9a25c0ac06bf91e96734bc4da.png\"][/img][/p]\n\n[p][b]Don't Starve Together: From Beyond - Cursed Confrontation Part 1 is coming June 11th![/b][/p]\n\n[p]We spent a bit more time on WX-78 skill spotlight than anticipated, so the Shadow arc will be released in two parts. The focus of this update will be on the final room in the Sanctum, where you can obtain the Keystone. For now, taking the Keystone to the Ancient Gateway will just reset the Sanctum.[/p]\n\n[h3][b]Highlights[/b][/h3][list][*]New boss and loot drops from the Sanctum.\n[*]Added Waymark Compass to help navigate the Sanctum rooms.\n[*]A rope can be used on the Sanctum Chasm to provide a way back up from the Ancient Archives.[/list]\n[h3][b]Other Additions[/b][/h3][list][*]Added Heat Gland that drops from Geothermites, used in new crafts.\n[*]Added Thermic Tools.\n[*]Added Coals, a new trap type.\n[*]Added Thermal Balm, a new healing salve.[/list]\n[h3][b]Changes[/b][/h3][list][*]Added a method of mass unravelling duplicate Curios in the Item Collection screen.\n[*]The Ancient Key is no longer destroyed, but instead pops out when the Ancient Gateway destabilizes and resets the ruins.\n[*]Like Wormwood, all other plant-like creatures now also burn for longer and take more fire damage\n[*]Shadow Hands will no longer target Night Lights.[/list]\n[p]The update is currently in Beta right now. If you’d like to check it out, [url=\"https://forums.kleientertainment.com/forums/topic/171762-game-update-732975/\"]head over to the official forums[/url] for more information.[/p]\n\n[p][img src=\"{STEAM_CLAN_IMAGE}/6835324/f44ad80d642ff6ee3b02f42e36e9ca44df463854.jpg\"][/img][/p]\n\n[h3][b]Klei Fest Starts Thursday, June 11th![/b]\n[/h3]\n[p]Summer is right around the corner, and that means the return of Klei Fest! We’re getting ready for our annual celebration with big discounts, releases, game updates, and miscellaneous happenings across the Klei universe.[/p]\n\n[p]This year, you can look forward to updates for Rotwood, Oxygen Not Included, and Don't Starve Together. We’re also releasing the Aquatic Planet Pack DLC for Oxygen Not Included, the conclusion of our current interactive lore story arc, and some other surprises![/p]\n\n[p]If you haven’t already, be sure to follow our [url=\"https://store.steampowered.com/developer/klei\"]Steam developer page[/url] so you don’t miss a thing![/p]\n\n[p][url=\"https://store.steampowered.com/developer/klei/\"][img src=\"{STEAM_CLAN_IMAGE}/6835324/391b821f4c1a77cb7eee45edf01d7aab3e1887a9.png\"][/img][/url][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1780605374,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330
+        },
+        {
+          "gid": "1832700592785192",
+          "title": "Hotfix 728321",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592785192",
+          "is_external_url": true,
+          "author": "JesseB_Klei",
+          "contents": "Small hotfix to address some concerns that have cropped up.\n\n[b]Bug Fixes[/b]\n\n[list]\n[*] Fixed certain projectiles getting stuck on physics and staying around longer than intended.\n[*] Fixed an issue with server side handling of slash commands.\n[/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1778638976,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1832065502810673",
+          "title": "Hotfix 727204",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502810673",
+          "is_external_url": true,
+          "author": "JesseB_Klei",
+          "contents": "[b]Changes[/b]\n[list]\n[*] WX-78 may now Transfer Consciousness in and out of the Sanctum and the Sanctum Lobby.\n[/list]\n\n[b]Bug Fixes[/b]\n[list]\n[*] Fixed Mimicked items never reverting over time after being dropped in a container.\n[*] Fixed WX-78 Backup Chassis losing ownership when being cursed into Wonkey.\n[*] Fixed Powder Monkeys not disengaging from fighting a player transitioning to or from Wonkey.\n[*] Fixed not dropping Implanted items when turning into Wonkey.\n[*] Fixed a crash sometimes when burning Evergreens are destroyed after going off-screen.\n[/list]\n",
+          "feedlabel": "Community Announcements",
+          "date": 1778119706,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1832065502807638",
+          "title": "Hotfix 726875",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502807638",
+          "is_external_url": true,
+          "author": "KleiFish",
+          "contents": "[b]Bug Fixes[/b]\n[list]\n[*] Fixed creatures like Chester that follow a carried item still following the holder of the item when the item is dropped from a distance.\n[*] Fixed crash when using shift-click to transfer items out of containers like Expansive Storage Unit, Ammo Pouch, Battle Call Canister, Picnic Casket, etc.\n[*] Fixed client prediction sometimes failing after transforming into Wonkey.\n[*] Fixed Exploiterators and Auto-Grabbers stopping from following WX-78 after minigames.\n[*] Fixed mutating Puffins being invisible.\n[*] Fixed Possessed Chassis getting stuck when they’re unable to find a suitable spot to attack.\n[*] Fixed Possessed Chassis trying to use Zaptrocuter on creatures that can’t be hit by its projectile.\n[/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1778025207,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1831432155579264",
+          "title": "Hotfix 726747",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155579264",
+          "is_external_url": true,
+          "author": "KleiFish",
+          "contents": "[b]Changes[/b]\n[list]\n[*] Auto-Grabber can now deposit matching items into Expansive Storage Units (activated via Spatializer Circuits).\n[*] Expansive Storage Units now inherit WX-78’s preserver rates from active Refrigerant and Thermal Circuits.\n[*] Blocking Circuit ability will protect against thief sources such as Frogs, Bearger, Powder Monkey, Otter, etc.\n[*] Other players’ Exploiterators will now appear faded out if there are too many WX-78 players using them on your screen.\n[/list]\n[b]Bug Fixes[/b]\n[list]\n[*] Fixed Auto-Grabber’s range boost needing Warm Standby even when following WX-78.\n[*] Fixed Possessed Chassis trying to walk forward to its target when waiting for projectiles to return to the Gloomerang.\n[*] Fixed Possessed Chassis sometimes crashing when their leader tries to row.\n[*] Fixed Cookie Cutters phasing through a boat when electrocuted as they land.\n[*] Fixed WX-78s Electrification Circuit skill perk electric attack being able to arc to other players when PVP is not enabled.\n[*] Fixed Shadow-Aligned WX-78 unable to Implant or Consume shadow items while riding a Beefalo.\n[*] Fixed Possessed Chassis being stunned by the Tail o’ Three Cats super crack.\n[*] Fixed Possessed Chassis weapons reverting to full (instead of half) durability cost after spinning.\n[*] Fixed Possessed Chassis not reaching their target when spinning.\n[*] Fixed Transfer Consciousness action being shown to characters other than WX-78.\n[*] Fixed equipped items on a Backup Chassis reverting back to a Mimicreep when reloading.\n[*] Fixed items reverting back to Mimicreeps automatically after some time even when a Possessed Shadow Atrium is Implanted.\n[*] Fixed inconsistent drain when using either Winona’s Generator or G.E.M.erator to recharge WX-78.\n[*] Fixed Zaptrocuter projectiles sometimes getting stuck in the air.\n[/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1777963328,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1831432155569732",
+          "title": "The WX-78 Skill Spotlight Follow-up is Now Available!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155569732",
+          "is_external_url": true,
+          "author": "Klei-JoeW",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/6835324/25006ca6025ba1d6d95c14c2e010599347d770db.png\"][/img]\nHey Everybody![/p][p]Today we have a small Follow-Up Shadow Affinity update for the WX[url=\"https://accounts.klei.com/link/ElectricBoogaloo\"]-[/url]78 Skill spotlight.[/p][p][b]Highlights Include:[/b][/p][list][*][p]Added a new Chessmaster Circuit.[/p][/*][*][p]Added the Shadow Servitor skill for WX-78.[/p][/*][*][p]Replaced Field Survey II skill with Signal Booster skill, which boosts all drone ranges in general.[/p][/*][*][p]Roto-Mapper now also functions similar to Ocuvigil, but only revealed to the owner.[/p][/*][*][p]Additional behaviour and interactions for the Possessed Chassis.[/p][/*][/list][p][b]Login Rewards[/b][/p][p align=\"center\"][img src=\"{STEAM_CLAN_IMAGE}/6835324/c99a96d0fce387a81b04a882fc38bb78ee101849.png\"][/img][/p][p]We're also including some login rewards for you. Get the Ominous Exploiterator, Gloomy Auto-Grabber, Elegant Exploiterator, Opulent Auto-Grabber and Pengull Ice Cube just by logging into the game for a limited time. The drone skins will later be purchasable in-game. \n\n[b]Until Next time![/b]\nAs mentioned in the WX-Spotlight update, we're moving on to the next batch of content for you. Note that this update is not on the previously released roadmap and is considered part of the WX-78 Spotlight update. So we still have quite a bit coming up. See you next time!\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1777584853,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330
+        },
+        {
+          "gid": "1830163047258114",
+          "title": "The WX-78 Skill Spotlight Update is Now Available!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047258114",
+          "is_external_url": true,
+          "author": "Klei-JoeW",
+          "contents": "[p][/p][previewyoutube=\"z8X0qdsETfk;full\"][/previewyoutube][p]Everyone's favorite soulless automaton is due for an upgrade to ensure their reign of terror over the innocent organics of the Constant continues.[/p][p][b]WX-78 Skill Spotlight[/b]\n\nThe WX-78 skill spotlight is now available on Steam. We aren't quite happy with Shadow Affinity, so we decided to lock that part of the tree, and we'll hotfix it in as soon as we have it ready for you. We'll need a few more days for console since we need a new build for console that holds off the shadow affinity portion of the tree. We expect this to be released for console on Monday. We apologize for the inconvenience here, but we think it's worth it for us to make sure Shadow Affinity meets our expectations.   \n[b]Highlights[/b][/p][p] [/p][p]\n- WX-78 Skill Tree added.\n- WX-78 base Circuit system expanded to 3 bars.\n- Added several new Circuits.\n- Now that Year of the Clockwork Knight is over, players will be limited to 2 (or 3 for WX-78) of each type of Clockwork followers at a time.[/p][p] [/p][p][b]New Skins![/b][/p][p align=\"center\"][img src=\"{STEAM_CLAN_IMAGE}/6835324/dd169c1cb0b708470f7e41cd295deb7d34565407.png\"][/img][/p][p] [/p][p][b]“WX-78 Pretty Dark Idolatry Chest” [/b]($5.99usd)\nThis Chest contains the WX-78 Pretty Dark Things Chest, and WX-78's complete set of Archaic skin items.[/p][p] [/p][p][b]New Streaming Drops[/b][/p][p] [/p][p align=\"center\"][img src=\"{STEAM_CLAN_IMAGE}/6835324/f93e94aed018c59d97bfea81aa9b3814d868f62a.png\"][/img][/p][p] The “Butterbee\" skin for the Beebox has been added to the Chitinous Collection. [url=\"http://klei.gg/currentdrop\"]Check out this post for details[/url]. “Mixing honey and butter, who would have thought?”[/p][p][/p][p]Our [url=\"https://forums.kleientertainment.com/ambassador-list/\"]Ambassadors[/url] have also been given a bunch of new codes to give away. Including Starter Packs, and two new Resurrected skins, the Resurrected All-Chemical Engine and Nightmarish Magician's Chest![/p][p][/p][p][b]Login Reward[/b][/p][p] [/p][p align=\"center\"][img src=\"{STEAM_CLAN_IMAGE}/6835324/036cd9b904936fc0733fbefffe78e6637762b9f1.png\"][/img][/p][p]If you missed it, we added the Pantomimed Backpack as a login reward on April 1st. Just log in to the game to get yours![/p][p][/p][p][b]Roadmap![/b]\nIf you haven't seen it yet, our 2026 roadmap [url=\"https://klei.gg/Roadmap2026\"]can be found here[/url]. \n\n[b]And that's it for now![/b][/p][p]We're finishing up WX-78 and moving on to the Shadow Arc Finale that will be released with our 10 years of DST / 20th Anniversary celebration during Klei Fest in June. [url=\"https://accounts.klei.com/link/DontStarveForever\"]See you next time[/url]! [/p][p] ​[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1776359619,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330
+        },
+        {
+          "gid": "1829528821307566",
+          "title": "Announcing: Don't Starve Elsewhere + WX-78 Skill Spotlight & Roadmap Next Week!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821307566",
+          "is_external_url": true,
+          "author": "Klei-JoeW",
+          "contents": "Hey everybody, \n\nThe WX-78 Skill Spotlight update and content update plan (Roadmap) is coming next Thursday, April 16th!\n\nOf course, we'll also have new skins and a new set of streaming drops for everybody as well. \n\nIf you missed it, we also just officially announced Don't Starve Elsewhere during the Triple-i Initiative Showcase. Check that out below!\n\n[previewyoutube=pcOD7AYM67I;full][/previewyoutube]\n\nAnd if you're Interested, make sure to wishlist the game on Steam. We won't be posting about it much in DST areas, so if you want to keep up on news and announcements, your best bet is to wishlist and/or sign up for the Klei Newsletter at https://klei.gg/newsletter\n\nhttps://store.steampowered.com/app/2239770",
+          "feedlabel": "Community Announcements",
+          "date": 1775753347,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330
+        },
+        {
+          "gid": "1827626365754698",
+          "title": "Don't Starve Together: Intermission - Animated Short, Login Reward and More!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365754698",
+          "is_external_url": true,
+          "author": "Klei-JoeW",
+          "contents": "Hey all, it's time for Intermission! This time, we've got a new entry in the Tales from the Constant series of animated shorts, a new login reward, streaming drops, and a skill update beta that you might be interested in. [previewyoutube=\"irydl4MnjJg;full\"][/previewyoutube]\n\n[b]Tales from the Constant: Birds of a Feather \\[Animated Short][/b]\nYou never know who life will place along your path. Some walk with you for a moment, others for a lifetime, yet each leaves something behind.\n\n[b]It's Beta Time![/b]\nThe WX-78 Skill spotlight will be released to beta later today. This first part of beta is being released a bit earlier than usual so that we have more time to take in feedback and adjust before the scheduled update mid-April. More features of the skill update will release through the beta period. You will also notice that this update focuses on a single character and does not include additional content or features, so that we can focus on making this a great skill update, rather than spreading out resources across multiple tasks. We hope that you agree this focus on quality rather than quantity is the right choice, but this is how we're going to be doing things for a while. More info will come with the roadmap.... soon. \n\nTo join us on the beta branch, [url=\"https://forums.kleientertainment.com/forums/topic/106156-how-to-opt-in-to-the-beta-branch-for-dont-starve-together/\"][u]follow the directions in this post[/u][/url]. \n\n[b]Streaming Drops![/b][p align=\"center\"][img src=\"{STEAM_CLAN_IMAGE}/6835324/859fb5ead2bb2b46f3813fc02e073187781af873.png\"][/img][/p][p align=\"start\"]The Wriggly Eyebrella has been added to the Chitinous Collection. [url=\"http://klei.gg/currentdrop\"][u]Check out this post for details[/u][/url].\n\"Just try to ignore the itching on your scalp.\"\n\n[b]Login Rewards[/b][/p][p align=\"center\"][img src=\"{STEAM_CLAN_IMAGE}/6835324/cb494f7f4a8c57fe3dca985d14de2a5ec8d77ffc.png\"][/img][/p][p align=\"start\"][b]Klei Rewards[/b][/p][p align=\"center\"][img src=\"{STEAM_CLAN_IMAGE}/6835324/dbfd489dc94e14df69317ed06d2623ac0b0af783.png\"][/img][/p][p align=\"start\"]The Bulbin critter has been added to the game as well. Just head over to Klei Rewards page and claim it for 1200 points to unlock it in the game. \n\n[b]Interactive Lore[/b]\nWe've got an interesting update for you today. If you're unfamiliar with our DST interactive lore, head on over to the official Discord or the Interactive Lore section [url=\"https://forums.kleientertainment.com/forums/forum/331-dont-starve-together-interactive-lore/\"][u]here on the forums[/u][/url]. \n\n[b]Up Next[/b]\nWe need some time to work through this beta, and then we'll have a roadmap in early April. We can't put it out yet[url=\"https://accounts.klei.com/link/soonTM\"],[/url] for reasons that will be apparent soon. But for now, we hope you all enjoy the beta and interactive lore.[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1773940901,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330
+        },
+        {
+          "gid": "1825093633195970",
+          "title": "Hotfix 714014",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825093633195970",
+          "is_external_url": true,
+          "author": "KleiFish",
+          "contents": "[b]Bug Fixes[/b]\n[list]\n[*] Fixed a crash related to the Deck Of Cards.\n[*] Fixed networking exploit with tripping while galloping on clients.\n[*] Fixed world settings incorrectly affecting Nightmare Light and Nightmare Fissure creature spawns.\n[/list]\n",
+          "feedlabel": "Community Announcements",
+          "date": 1771891721,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1825093633186482",
+          "title": "Hotfix 713564",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825093633186482",
+          "is_external_url": true,
+          "author": "KleiFish",
+          "contents": "[b]Bug Fixes[/b]\n[list]\n[*] Shtick Horse will no longer slow you down if you were already faster than its speed boost.\n[*] Fixed cases where repaired or previously befriended Clockworks did not follow you sometimes.\n[*] Fixed Chester, Glommer, Polly Rogers, and others from getting detached from their items when attacked.\n[*] Fixed bug with Spiders attacking a Chester that is following Webber.\n[*] Fixed bug related to unlucky players’ effects on Hound waves.\n[*] Fixed bug with Lightning Strikes incorrectly affecting nearby Torches and Morning Stars.\n[*] Fixed crashes related to Crystal-Crested Buzzard.\n[*] Fixed art bugs with Glommer's Fairy Glom and Marble Impact Armor skins.\n[*] Fixed Bishop scrapbook entries showing incorrect damage values.\n[*] Fixed Gobbler scrapbook entry showing incorrect image.\n[/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1771541161,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1824644522841267",
+          "title": "Hotfix 712852",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1824644522841267",
+          "is_external_url": true,
+          "author": "KleiFish",
+          "contents": "[p][b]Changes[/b][/p][list][*][p]Clockworks can now only be befriended when they are stunned, and the action string has been changed to “Repair”.[/p][/*][/list][p][b]Bug Fixes[/b][/p][list][*][p]Fixed bug where a Rook and a Player with damage reflect could stunlock each other indefinitely.[/p][/*][*][p]Fixed Mockingbirds blocking placement and sticking around in an invisible state when the Knight Shrine is destroyed.[/p][/*][*][p]Fixed certain entities that are in a non-workable state, being worked anyways from collision with the Shtick Horse.[/p][/*][*][p]Fixed Gloombell’s manure disappearing and reviving functionalities not working.[/p][/*][*][p]Fixed Wilson's Equinor beard side view having some of the Rosette beard art.[/p][/*][*][p]Fixed Sky Lantern’s global map icons not working properly for other players.[/p][/*][*][p]Fixed Batilisks not engaging in combat.[/p][/*][*][p]Fixed Spider Warriors spawning out of their dens immediately going back inside.[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1771049171,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 322330,
+          "tags": [
+            "patchnotes"
+          ]
+        }
+      ],
+      "count": 686
+    }
+  }
+}

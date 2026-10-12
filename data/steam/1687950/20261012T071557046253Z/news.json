@@ -1,0 +1,284 @@
+{
+  "fetched_at": "2026-10-12T07:15:57.869742+00:00",
+  "endpoint": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/",
+  "data": {
+    "appnews": {
+      "appid": 1687950,
+      "newsitems": [
+        {
+          "gid": "1845383656387273",
+          "title": "По данным Sega серия игр Persona в основном продается за пределами Японии",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1845383656387273",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/60edpyqFS0lzUoUs9pnqhw.jpeg\"/>\n              <br />\n                                                                                <p>Из общего объема продаж игр серии за всю историю 80% приходится на другие страны. Таковы данные отчета для инвесторов Sega Sammy.</p>                                                        <p>На Северную Америку приходится примерно 40% продаж, в то время как на Японию, Европу и Азиатский регион по 20%. По структуре продаж можно понять, в каких странах популярность франшизы выросла. К июню 2026 г. всего было продано более 30 млн. копий.</p>                                                        <p>Данные об общем объеме продаж игр серии ранее уже публиковались, но в этом последнем отчете были раскрыты цифры по регионам и конкретным играм. Persona 5 на первом месте с 13 млн. проданных копий.</p>                                                                                  <p>Диаграмма из отчета Sega Sammy. Черным цветом — Северная Америка (около 40%), красным — Япония (около 20%), Европа — зеленый цвет (около 20%), Азия — голубой (около 20%).</p>                                                        <p>Объем продаж Persona 5 включает в себя всю линейку, а не только оригинальную RPG, что отражает стратегию Atlus по расширению франшизы за счет дополнительных игр и перезапусков.</p>                                                        <p>На семейство игр Persona 4 пришлось 5,7 млн. проданных копий. В цифру входят Golden, игры-файтинги Arena и Dancing All Night. Общий объем продаж игр Persona 3 — 5 млн., из них 3 млн. - Persona 3 Reload.</p>                                                        <p>Согласно данным отчета общий объем продаж франшизы почти удвоился за период с 2020 по 2024 гг., в том числе благодаря выпуску игр на разных платформах и локализациям. В итоге доля Северной Америки теперь почти в два раза выше доли Японии, и это говорит о большом коммерческом успехе игр Persona за пределами домашнего рынка.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1790962506,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 1687950
+        },
+        {
+          "gid": "1840310314352081",
+          "title": "Persona Anime Broadcast Sale",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314352081",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/37895402/7a6466b5903924b75c331d7d604e7e4e24c5970e.png\"][/img][/p][p]Don't miss this chance to celebrate the broadcast of the Persona Anime with these great offers! Save 70% off Persona 5 Royal, 50% off Persona 4 Golden, or 65% off Persona 3 Reload![/p][p][/p][p][b]On Promotion![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2161700/3/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/1687950/5/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/app/1113000/4/\"][/dynamiclink][/p][p][b]Pre-order Now![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2963950/4/\"][/dynamiclink][/p][p][b]Wishlist Now![/b][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2649560/6/\"][/dynamiclink][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1786381208,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950
+        },
+        {
+          "gid": "1835871199304864",
+          "title": "Persona 6 Wishlist is Now Open!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835871199304864",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "[p]Wish listing for Persona 6 is officially open![/p][p][/p][p]While staying true to the distinctive atmosphere and innovative gameplay experience that have made the series beloved for years, Persona 6 introduces an entirely new setting and story. [/p][p]Each mainline title features a self-contained narrative with no story ties to previous games — so if this is your first Persona experience, jump right in![/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/42950193/b917af79a607e7a2c20d9208d0ddb41a1fee3324.jpg\"][/img][/p][p][/p][p]Check out the Teaser Trailer![/p][p][/p][p][dynamiclink href=\"https://youtu.be/CL-q0HgfMOY?si=E8H0XGLk608c-uwn\"][/dynamiclink][/p][p][u]About the Persona Series[/u][/p][p]■A Legacy of Over 30 Years[/p][p]The Persona series is one of Atlus's flagship RPG franchises. Born as a spin-off of the Shin Megami Tensei series, it began with the release of Revelations: Persona in 1996 and has continued to captivate players for over 30 years.[/p][p] [/p][p]■Harness the Power of Persona and the Bonds You Share[/p][p]Those who awaken to their \"Persona\" - a manifestation of their inner self - come together, forge deep bonds, and grow through countless trials and hardships.[/p][p] [/p][p]■Live a Year Alongside Unforgettable Companions in Modern-Day Japan[/p][p]Set against the backdrop of contemporary Japanese cities, the series follows young men and women navigating the everyday experiences of school life, friendship, and romance — while confronting occult mysteries rooted in strange rumors and urban legends.[/p][p] [/p][p]Wishlist Now![/p][p]©ATLUS. ©SEGA.[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1781800446,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950
+        },
+        {
+          "gid": "1835236783559152",
+          "title": "Persona 4 Revival launches February 18, 2027 – Pre-order Available Now!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783559152",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "[p]Hello Investigation Teams, [/p][p]We’re thrilled to announce that [b]pre-orders for [i]Persona 4 Revival[/i][/b] are officially live! Whether you’re returning to reach out to the truth once more or stepping into this unforgettable journey for the first time, now is your chance to experience a beloved classic reborn. [/p][p] [/p][p align=\"center\"][img src=\"{STEAM_CLAN_IMAGE}/45703712/72e600eda74bf7ce4190d5f175eb53602efa5c54.jpg\"][/img] [/p][p][b]Watch the new Pre-order Trailer![/b] [/p][p][/p][p][dynamiclink href=\"https://youtu.be/1osdiOAkBKc\"][/dynamiclink][/p][p][b]Who’s on Air?[/b]  Legend has it that a mysterious broadcast known as the “Midnight Channel” appears only on rainy nights. The day after it airs, a corpse is found in Inaba, a quiet and peaceful town in rural Japan suddenly thrown into turmoil. [/p][p]To uncover the truth behind these chilling mysteries, you and your friends form an investigation team to unravel the secrets of the Midnight Channel and the bizarre murders. As your adventure unfolds, you face off against “Shadows,” eerie manifestations of individuals’ darker selves. Together, you awaken a hidden power called “Persona” and embark on a journey to prevent more tragedies while uncovering the truth behind the chaos. [/p][p] [/p][p][b]Key Features[/b] [/p][p][b]■ Discover the Thrilling Midnight Channel[/b]  Immerse yourself in a dual-layered narrative set in the peaceful yet unsettling town of Inaba. Investigate supernatural occurrences, solve murders, and unravel the secrets of the Midnight Channel alongside your teammates in a story-driven gameplay experience. [/p][p][b]■ Exhilarating Turn-Based Battles[/b]  Exploit enemy weaknesses, unleash powerful “All-Out Attacks,” and master the strategic use of Personas to overcome formidable foes. Acquire or fuse new Personas and develop your unique battle style as you uncover the secrets behind the Midnight Channel. [/p][p][b]■ Shape Your Year and Your Destiny[/b]  Immerse yourself in the life of a teenager, where every day is filled with new choices. Balance sports, part-time jobs, school life, and friendships, all while preparing to confront the mysteries of the Midnight Channel. Every decision you make shapes your journey, leading to unique and unforgettable experiences and endings. [/p][p][b]■ Anime Cutscenes & Memorable Characters[/b]  Experience beautifully updated anime-style and 3D cutscenes and strengthen bonds with irreplaceable characters. Every heartfelt connection impacts your journey and shapes the story. [/p][p][b]■ A Beloved Remake for Fans and Newcomers[/b]  Rediscover the iconic Persona adventure with enhanced visuals, improved gameplay, modern aesthetics, and exciting new quality-of-life updates that bring the classic to life like never before. [img src=\"{STEAM_CLAN_IMAGE}/45703712/38ca219048e780e37af31d1348c441dd5fce26a6.png\"][/img][/p][p] [/p][p][b]Pre-Order Bonus[/b] [/p][p]Pre-order now and receive exclusive bonuses that will elevate your Persona 4 Revival experience! [/p][p][b]Persona 4 Revival: P3R & P5R Extra BGM Set[/b] [/p][p][b]P3R Extra BGMs include:[/b] [/p][list][*][p]Dungeon BGM: Basement (P3R ver.) [/p][/*][/list][list][*][p]Boss Battle BGM: Heartful Cry [/p][/*][/list][list][*][p]Result BGM: After the Battle (P3R ver.) [/p][/*][/list][p][b]P5R Extra  BGMs include:[/b] [/p][list][*][p]Dungeon BGM: The Whims of Fate [/p][/*][/list][list][*][p]Normal Battle BGM: Will Power [/p][/*][/list][list][*][p]Result BGM: Triumph [/p][/*][/list][p][i]This add-on is available to those who pre-order by February 17, 2027 @ 23:59.[/i]  [i]A separately sold base game is required to access the bonus content. Please ensure the game is updated to the latest patch if applicable.[/i]  [i]Note: Some overlapping content may occur.[/i] [/p][p] [/p][p]Return to the quiet town of Inaba—where peaceful days hide something far more unsettling beneath the surface. [/p][p]Whether you’re returning to Inaba or stepping into this story for the first time, we’re excited to have you join the investigation. [/p][p] [/p][p][b]Pre-order now![/b] [/p][p]©ATLUS. ©SEGA.[/p][p][/p][p][dynamiclink href=\"https://store.steampowered.com/app/2963950/Persona_4_Revival/\"][/dynamiclink][/p][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1781147961,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950
+        },
+        {
+          "gid": "1830797770234322",
+          "title": "Get 80% Off Persona 5 Royal During the SEGA/ATLUS Golden Week Sale!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770234322",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "[p]Share this with a friend who hasn’t played yet! There’s no better time than now to play one of the most celebrated JRPGs of all time.[/p][p][/p][p][dynamiclink href=\"https://store.steampowered.com/app/1687950/Persona_5_Royal/\"][/dynamiclink][/p][p]Discover even more games in the Persona universe on sale: [url=\"https://store.steampowered.com/publisher/Sega/sale/P30\"]https://store.steampowered.com/publisher/Sega/sale/P30[/url][/p][p][/p][p]Don’t forget to check out all the other hot deals from the SEGA/ATLUS family, with up to 75% savings on your favorite titles![/p][p][url=\"https://store.steampowered.com/publisher/Sega/sale/SEGAGoldenWeekSale2026\"]https://store.steampowered.com/publisher/Sega/sale/SEGAGoldenWeekSale2026[/url][/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/42950193/c3aeda648772c5ad5cb4a87870053176da37787b.jpg\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1776979453,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950
+        },
+        {
+          "gid": "1827626365754608",
+          "title": "ATLUS Game-Themed Avatar Frames Now Available In Persona 5: The Phantom X!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365754608",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "[p]Blooming deals await at the SEGA Steam Spring Sale![/p][p]Sale Period: 19 March, 2026, 5:00 PM - 26 March, 2026, 4:59 PM. (UTC)[/p][p][/p][p]Don't miss this chance to save 50% on Metaphor: ReFantazio, up to 60% on Persona 3 Reload, or 70% on Persona 5 Royal![/p][p]Celebrate the sale with exclusive limited-time avatar frames featuring Metaphor: ReFantazio, Persona 3 Reload, and Persona 5 Royal – now available for download in Persona 5: The Phantom X![/p][p]Head to Persona 5: The Phantom X for the SEGA Steam Spring Sale Exclusive ATLUS Game-Themed Avatar Frames Giveaway*[/p][p][/p][p]◆SEGA Steam Spring Sale Exclusive ATLUS Game-Themed Avatar Frames Giveaway*[/p][p]Claim by: 2 April, 2026 1:59AM (UTC)[/p][p]Contents:[/p][p]Limited-Time Metaphor: ReFantazio Avatar Frame - Hero's Awakening[/p][p]Limited-Time Persona 3 Reload Avatar Frame - Evoked Awakening[/p][p]Limited-Time Persona 5 Royal Avatar Frame - Mask of Faith[/p][p][i]*no purchase required to claim gifts[/i][/p][p][/p][p][u][b]◆ Persona5: The Phantom X[/b][/u] [/p][p][img src=\"{STEAM_CLAN_IMAGE}/42950193/f38facbcede6f9896dc4a95dffcdff546cb66da4.png\"][/img][/p][p]Jump into the thrilling double life of a seemingly ordinary high school student in Tokyo. Make the most of student life in Japan by hitting the bustling cities of Shibuya, Shinjuku, and Kichijoji. Once the bell rings, don the mask of a Phantom Thief and infiltrate the hidden realm of the Metaverse to take on the dark beings that lie within... [/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1773940308,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950
+        },
+        {
+          "gid": "1809869180065245",
+          "title": "New Version of Persona5: The Phantom X Now Available",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1809869180065245",
+          "is_external_url": true,
+          "author": "P5X_EN",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/45621326/e64aa008d7ba4a2d21b5eb56f010917071a3cb1b.png\"][/img][/p][p]SEGA Corporation has released Version 2.0 of Persona5: The Phantom X (\"P5X\"). To celebrate our first major update, we’re giving away items including Meta Jewels, which can be used for Contracts (gacha) and more.[/p][p] [/p][p][dynamiclink href=\"https://youtu.be/J-TPzn6V8Ow?si=mSsAsbwtI0Fo0eIe\"][/dynamiclink][/p][p][dynamiclink href=\"https://youtu.be/Z1EGITqqK68?si=RMbwaCJpMu6ZdhzY\"][/dynamiclink][/p][p]We've also got some brand-new promotional videos showing off the charm of this ultimate　school-life RPG. Take a look![/p][p] [/p][p][u][b]◆ Synopsis of Chapter 3: Unconditional Love[/b][/u][/p][p]“When did I abandon my true self?”[/p][p]The Protagonist has awakened the power of his other self, his Persona, and become a Phantom Thief.  He forms a band of Phantom Thieves who are also Persona users to save innocent people from evildoers who evade justice, stealing their distorted desires and changing their hearts.  As the Phantom Thieves grow increasingly famous among the public, a mysterious new teacher is appointed at the Protagonist’s school. The group remains on high alert as this figure lurks the school grounds and manipulates the students.  Meanwhile, Riko Tanemura of the Disciplinary Committee begins to notice the school's gradual distortions and questions what is truly happening...[/p][p] [img src=\"https://prcdn.freetls.fastly.net/release_image/5397/6758/5397-6758-2ec015b53ceebfadc55c7daa6403d03a-1500x844.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff\"][/img][/p][p][img src=\"https://prcdn.freetls.fastly.net/release_image/5397/6758/5397-6758-c32be5d4351835a7948735e379a38078-1500x844.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff\"][/img][/p][p][img src=\"https://prcdn.freetls.fastly.net/release_image/5397/6758/5397-6758-c5a0bb1f48e98fc7f998bf34b4c68205-1500x844.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff\"][/img][/p][p][img src=\"https://prcdn.freetls.fastly.net/release_image/5397/6758/5397-6758-10ea6cecef485c1fd5f0d45c0fb28a89-1500x844.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff\"][/img][/p][p][u][b]◆Special Website for Ver. 2.0 Now Live![/b][/u][/p][p]　The special site is jam-packed with information on exciting new content, including the latest addition to the Main Story and the new neighborhood, Kichijoji. That’s not all! Information about the “Real Kichijoji (Tokyo, Japan) Collabs” and other real-world events will be released on the site in the future. Give it a read now, and keep it bookmarked for future updates![/p][p] [/p][p][b]Ver.2.0 Special Site[/b] [/p][p][url=\"https://persona5x.com/lp/\"]https://persona5x.com/lp/[/url][/p][p][/p][p][u][b]New version now available (with lots of loot to celebrate)![/b][/u][/p][p][b] [/b][img src=\"{STEAM_CLAN_IMAGE}/45621326/a5b5efec9a3a5a461eafad22b7b84fd0fe2c3a71.png\"][/img][/p][p]Log in to the game for 7 days by Oct 22, 2025 6:59 PM (PDT) to receive 20 Platinum Tickets (usable for certain Contracts/gacha) and 20 Platinum Milicoins (usable for certain Arms Deals). In addition, you’ll also receive 60 Phantom Thief Cognitite Shards, a new item that can Awaken 5★ Phantom Thieves such as Ren Amamiya, Yui, and Minami Miyashita, along with 1,000 Meta Jewels.[/p][p] [/p][p] [/p][p][u][b]◆Comeback: 5★ Phantom Thief Ren Amamiya Returns![/b][/u][/p][p][img src=\"{STEAM_CLAN_IMAGE}/45621326/e9a5ce898fe5ef44a1dd721abb608ede52fc2286.png\"][/img]The 5★ Phantom Thief Ren Amamiya makes a Comeback to Most Wanted Phantom Idol Contracts: The Phantom Magician, and the Ren Amamiya-only 5★ weapon Phoenix Dagger will be featured again in Most Wanted for Arms Deals: Silent Pistol. Don’t miss this chance to recruit Ren Amamiya to your team![/p][p] [/p][p] [/p][p][u][b]◆Main Story Chapter 3: Unconditional Love Phase 1 released![/b][/u][/p][p][img src=\"{STEAM_CLAN_IMAGE}/45621326/1a5ed4dcb6d77944dfe62825f8185947cb647b57.jpg\"][/img][/p][p][u][b]Main Story Chapter 3: Unconditional Love Synopsis[/b][/u][/p][p]At Kokatsu Academy, where the protagonist is enrolled, an educational consultant arrives with plans to reform the school’s policies.[/p][p]Advocating a modern sense of “righteousness,” the consultant sets about improving the academy, but over time, the relationship between teachers and students begins to warp, and the school slowly transforms into something unsettling.[/p][p]Riko Tanemura, an exceptional student and chair of the disciplinary committee, while being swept up in the “distortions born of righteousness” brought about by these reforms, gradually starts to perceive the strange changes taking hold.[/p][p] [/p][p]How will the protagonist, Riko, and their allies stand against the “false righteousness” of an enemy who no one else recognizes as evil...?[/p][p][b] [/b][/p][p][b]▼Riko Tanemura (Code name: Wind) joins the group in Chapter 3.[/b][/p][p][img src=\"{STEAM_CLAN_IMAGE}/45621326/9577400f0f7e4786e9cfbbb1756ba58f8d7b9e08.jpg\"][/img][/p][p] A support character who acts as the party’s commander and strategist, leading them to land flashy All-Out Attacks.[/p][p]Even when not targeting an enemy’s Weakness, she can lower the enemy’s Down Points, and at the start of battle, she boosts the entire party’s HP, Attack, and Defense. She also possesses the ability to increase All-Out Attack damage by as much as 60%.[/p][p] [/p][p] [/p][p][b]▼Character Introduction Movie[/b][/p][p][dynamiclink href=\"https://www.youtube.com/watch?v=gC8onJHoaEs\"][/dynamiclink][/p][p][b]▼Character Skills Spotlight Movie[/b][/p][p][dynamiclink href=\"https://www.youtube.com/watch?v=ZVevRsWS_Zk\"][/dynamiclink][/p][p][u][b]◆Chapter 3: Unconditional Love Release Event![/b][/u][/p][p][img src=\"{STEAM_CLAN_IMAGE}/45621326/071d8abd0a3df4a4a705c74b9bafd9cdd67ed394.png\"][/img][/p][p]Play the new content added in Ver. 2.0 and complete goals to earn up to 1,280 Meta Jewels, as well as the event-exclusive item Mizuhiki Knots and other rewards. Collect Mizuhiki Knots to get the Riko Tanemura-only 4★ weapon Red Plum Blossom as well as the materials needed to fully upgrade it.[/p][p] [/p][p][b]Duration: Until 6:59 PM on Oct 22, 2025 (PDT)[/b][/p][p] [/p][p][u][b]◆Addition of Kichijoji Area[/b][/u]  [img src=\"{STEAM_CLAN_IMAGE}/45621326/872d7760ab5fd7774a2018d9ab8b8f778c1eed7a.png\"][/img][/p][p]A new area called Kichijoji has been added alongside Chapter 3 of the Main Story. This new area brings more ways to enjoy city life, such as new part-time jobs, as well as the chance to meet new characters and learn their stories.[/p][p][/p][p][u][b]◆New 5★ Phantom Thief: Ayaka Sakai![/b][/u][/p][p][img src=\"{STEAM_CLAN_IMAGE}/45621326/3b7a2d538f66babd416a67a65a093f5406de14ca.jpg\"][/img][/p][p]The new 5 ★Phantom Thief Ayaka Sakai will be featured in Most Wanted Phantom Idol Contracts, where the appearance rate for certain Phantom Thieves is increased. An exclusive weapon can be obtained through Arms Deals: Silent Pistol.[/p][p] [/p][p][b]Most Wanted Phantom Idol Contracts: Dazzling Encore[/b][/p][p][b]Duration: Until 6:59 PM on Oct 8, 2025 (PDT)[/b][/p][p][b] [/b][/p][p][b]▼Most Wanted Phantom Thief: 5★ Ayaka Sakai (Code Name: Chord)[/b][/p][p]Specializing in single-target buffs, she can turn an ally into a Costar, granting them an attack power boost, as well as significantly strengthening that ally’s Highlight effect. She's able to instantly activate an ally's Highlight, ignoring the Highlight Gauge and cooldown times, and significantly increase the damage dealt by that Highlight.[/p][p]Plus, she can pump up the Gauge's fill rate, allowing Highlights to be activated at a quicker tempo.[/p][p] [/p][p] [/p][p][b]▼Character Introduction Movie[/b][/p][p][dynamiclink href=\"https://www.youtube.com/watch?v=OtHae_5vj8k\"][/dynamiclink][/p][p][b]▼Character Skills Spotlight Movie[/b][/p][p][dynamiclink href=\"https://www.youtube.com/watch?v=pLdgp2uOp1g\"][/dynamiclink][/p][p][b]▼Ayaka Sakai's Synergy Story added![/b]  [img src=\"{STEAM_CLAN_IMAGE}/45621326/78b3a94097f4abcb5a5aaf91ded8d1833e50d606.png\"][/img][/p][p]The Synergy character interaction feature has been updated with a new story for Ayaka Sakai. Depending on your choices, you might even have a chance to date her! We hope you enjoy the story.[/p][p][b] [/b][/p][p][u][b]◆New Feature to Earn Items: Tasks[/b][/u][/p][p][img src=\"{STEAM_CLAN_IMAGE}/45621326/eea0ae2ea1586362f94339fad8d2b70809cdae28.png\"][/img][/p][p]Once your Player Level reaches 20, you’ll be able to use the Tasks feature, where you can send eligible allies to complete Tasks and receive rewards after a set amount of time. There are different types of requests, such as daily and weekly, with different time requirements and rewards. Use this feature to get Meta Jewels, Thief's Cognitite Shards, and maybe even something special from an exclusive Task... [/p][p][/p][p][b]Official Site:[/b] [/p][p][url=\"https://persona5x.com/\"]https://persona5x.com/[/url][/p][p][b]Official X:[/b] [/p][p][url=\"https://x.com/P5XOfficialWest\"]https://x.com/P5XOfficialWest[/url][/p][p][b]Official Instagram:[/b] [/p][p][url=\"https://www.instagram.com/P5XOfficialWest/\"]https://www.instagram.com/P5XOfficialWest/[/url][/p][p][b]Official Facebook: [/b][/p][p][url=\"https://www.facebook.com/P5XOfficialWest\"]https://www.facebook.com/P5XOfficialWest[/url][/p][p][b]Official YouTube: [/b][/p][p][dynamiclink href=\"https://www.youtube.com/@P5XOfficialWest\"][/dynamiclink][/p][p][b]Official Discord Server:[/b] [/p][p][url=\"https://discord.gg/cVDycxxmCK\"]discord.gg/cVDycxxmCK[/url][/p][p][/p][p][dynamiclink href=\"https://store.steampowered.com/app/3061570\"][/dynamiclink]🄫Perfect World Adapted from Persona5 🄫ATLUS. 🄫SEGA.[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1757073117,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950
+        },
+        {
+          "gid": "1799817379470779",
+          "title": "Experience a New Phantom Journey in Persona5: The Phantom X",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1799817379470779",
+          "is_external_url": true,
+          "author": "akihisa.yamaoka",
+          "contents": "[h3]Dive deeper into the shadows of the Metaverse and unmask the story of P5X! The latest anime style JRPG in the Persona franchise by ATLUS is launching on Steam in June 26, 2025![/h3]\n\n[img]{STEAM_CLAN_IMAGE}/44538637/3cd2d5a4bc51814ee2ca24bc78812a327e1b287e.png[/img]\n\n[h3]Watch the special trailer video here, featuring all-new stories and in-game footages.[/h3]\n[previewyoutube=kyUw2oNGqBQ;leftthumb][/previewyoutube]\n\n[h3]Wishlist here:[/h3]\nhttps://store.steampowered.com/app/3061570/Persona5_The_Phantom_X\n\n[h3]To celebrate reaching 200,000 pre-registrations, we are giving away special gift 'Athleisure Outfit'![/h3]\nNext, let's aim for the special gifts for 300,000 pre-registrations: the 'Avatar Frame' and 'Profile Card'!\n\n[img]{STEAM_CLAN_IMAGE}/44538637/8dd16208ee1d732a83a83734e93a6ce40abed071.png[/img]\n\n[h3]Anime Expo 2025 Exhibition Confirmed![/h3]\nP5X will appear at the SEGA ATLUS booth at Anime Expo 2025 from July 3rd to 5th, featuring numerous guests and giveaways.\nPlus, you can enjoy a special live performance by Lyn Inaizumi during our panel event!\n\n[img]{STEAM_CLAN_IMAGE}/44538637/7d245a74199d176d93cf04963ff7a09c70bcd2a8.png[/img]\n\n[h3]For more information on Persona5: The Phantom X, check our website and social media.[/h3]\nOfficial Website - https://persona5x.com\nOfficial X Account - https://www.x.com/P5XOfficialWest \nOfficial Facebook Account - https://www.facebook.com/P5XOfficialWest\nOfficial Instagram Account - https://www.instagram.com/P5XOfficialWest",
+          "feedlabel": "Community Announcements",
+          "date": 1747320947,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950
+        },
+        {
+          "gid": "1795917897491015",
+          "title": "Persona 3 Reload Demo Now Available!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1795917897491015",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "[img]{STEAM_CLAN_IMAGE}/42950193/9b7ec3ca0e5d49b8dffcc985fe7123bea7f10c39.png[/img]\nHello Persona fans, \n\nA free demo of Persona 3 Reload, the latest title from the studio that produced Persona 5 Royal, is now available on Steam! Persona 3 Reload has delighted countless fans since its release last year, and now all players can experience the title for themselves! \n\nStep into the shoes of a transfer student who is thrusted into an unexpected fate. Awaken an incredible power and chase the mysteries of the Dark Hour, fight for your friends, and leave a mark on their memories forever. The demo allows you to play through the story’s opening, leading up to the first major boss battle against a formidable, large Shadow. \n\n[img]{STEAM_CLAN_IMAGE}/42950193/e6246ac9dafc28f676b70e5ce66b86abeaa3cec5.gif[/img]\n\n[img]{STEAM_CLAN_IMAGE}/42950193/c584aa09bb9773f018e0892e6a0abe30d570fa4b.gif[/img]\n\nAfter playing the demo, you can carry over all progress to the full game upon purchase. Download the demo today!\n\nhttps://store.steampowered.com/app/3358440/Persona_3_Reload_Demo/",
+          "feedlabel": "Community Announcements",
+          "date": 1744129728,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950
+        },
+        {
+          "gid": "6931694080295673150",
+          "title": "Metaphor: ReFantazio Out Now!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6931694080295673150",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "The creative minds behind Persona 3, Persona 4, and Persona 5 proudly present ATLUS' latest fantasy RPG: [b]Metaphor: ReFantazio[/b]!\n\nJoin the Protagonist on a journey alongside his fairy companion, Gallica, to lift the curse from the kingdom’s lost prince. Control your destiny, face your fears, and awaken magical \"Archetype\" powers that lie dormant in your heart.\n\nhttps://store.steampowered.com/app/2679460/Metaphor_ReFantazio/\n\n[previewyoutube=HnRzo99OqxU;full][/previewyoutube]--\n[h2]Try the Prologue Demo![/h2]\nDownload and play the free Prologue Demo! The demo allows you to experience the beginning of the game, including exploring the first four dungeons, the ability to unlock seven Archetypes classes, and the opportunity to meet six followers. Best yet, your demo save data carries over to the full version.\n\nhttps://store.steampowered.com/app/3130330/Metaphor_ReFantazio__Prologue_Demo/",
+          "feedlabel": "Community Announcements",
+          "date": 1728666049,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950
+        },
+        {
+          "gid": "6242640076598367138",
+          "title": "Persona 5 Royal Ver. 1.04",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6242640076598367138",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "Thank you for playing Persona 5 Royal! Please see release notes for Persona 5 Royal version 1.04:\n\n[list]\n[*] Fixed an issue that could cause the game to crash at the start of the game or during gameplay\n[*] Fixed an issue that caused a significant drop in FPS when switching screens\n[/list]\nThe patch will automatically be applied when the game is launched.\n\nThank you again for your continued support of Persona 5 Royal!",
+          "feedlabel": "Community Announcements",
+          "date": 1725580814,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "6909171012613485252",
+          "title": "Steam Global Top Sellers for week of 13 Aug — 20 August 2024",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/6909171012613485252",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2024W34/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2024W34.png\"></a><ol><li><a href=\"https://steamdb.info/app/2358720/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Black Myth: Wukong</a></li><li><a href=\"https://steamdb.info/app/1675200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/1575940/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Sins of a Solar Empire II</a></li><li><a href=\"https://steamdb.info/app/1091500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cyberpunk 2077</a></li><li><a href=\"https://steamdb.info/app/2183900/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Warhammer 40,000: Space Marine 2</a></li><li><a href=\"https://steamdb.info/app/1313140/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cult of the Lamb</a></li><li><a href=\"https://steamdb.info/app/2162800/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">shapez 2</a></li><li><a href=\"https://steamdb.info/app/1040200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Crime Scene Cleaner</a></li><li><a href=\"https://steamdb.info/app/1245620/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ELDEN RING</a></li><li><a href=\"https://steamdb.info/app/1687950/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Persona 5 Royal</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2024W34/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1724144400,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 1040200
+        },
+        {
+          "gid": "5070528176560206450",
+          "title": "Persona 5 Royal Ver. 1.03B",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5070528176560206450",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "Thank you for playing Persona 5 Royal! This release is Persona 5 Royal, version 1.03B. \n\n A full list of changes can be found below: \n\n[list] \n\n[*]Minor bug fixes.[/list] \n\n \nThank you again for your continued support of Persona 5 Royal!",
+          "feedlabel": "Community Announcements",
+          "date": 1677717012,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "5035620840525394980",
+          "title": "Persona 5 Royal Ver. 1.03",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5035620840525394980",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "Thank you for playing Persona 5 Royal! This release is Persona 5 Royal, version 1.03.\n\nA full list of changes can be found below: \n\n[list]\n[*] Enables players to reattempt Steam Achievements that did not unlock despite fulfilling the requirements.\n[/list]\n\n*This patch will automatically be applied when the game is launched. \n\nThank you again for your continued support of Persona 5 Royal!",
+          "feedlabel": "Community Announcements",
+          "date": 1673395215,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "4836332027666785441",
+          "title": "Steam Global Top Sellers for the Week ending 27 November 2022",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/4836332027666785441",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2022W47/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2022W47.png\"></a><ol><li><a href=\"https://steamdb.info/app/1675200/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/sub/783411/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare® II</a></li><li><a href=\"https://steamdb.info/app/1174180/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li><li><a href=\"https://steamdb.info/app/1361210/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Warhammer 40,000: Darktide</a></li><li><a href=\"https://steamdb.info/app/1091500/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cyberpunk 2077</a></li><li><a href=\"https://steamdb.info/app/1593500/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">God of War</a></li><li><a href=\"https://steamdb.info/app/1811260/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">EA SPORTS™ FIFA 23</a></li><li><a href=\"https://steamdb.info/app/1687950/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Persona 5 Royal</a></li><li><a href=\"https://steamdb.info/app/1426210/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">It Takes Two</a></li><li><a href=\"https://steamdb.info/app/1238810/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Battlefield™ V</a></li></ol><br><a href=\"https://steamdb.info/topsellers/2022W47/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View more information and data on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1669564800,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 1091500
+        },
+        {
+          "gid": "4789043687475976417",
+          "title": "Persona 5 Royal Ver. 1.02",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4789043687475976417",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "Thank you for playing Persona 5 Royal! This release is Persona 5 Royal, version 1.02. \n\n A full list of changes can be found below: \n\nFixed several issues related to Windows display settings. \n\nFixed other minor issues. \n\n*This patch will automatically be applied when the game is launched. \n\n\nThank you again for your continued support of Persona 5 Royal!",
+          "feedlabel": "Community Announcements",
+          "date": 1668736830,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "6368680725419446821",
+          "title": "Steam Global Top Sellers for the Week ending 6 November 2022",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/6368680725419446821",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2022W44/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2022W44.png\"></a><ol><li><a href=\"https://steamdb.info/app/1938090/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare® II</a></li><li><a href=\"https://steamdb.info/app/1675200/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/1938090/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare® II</a></li><li><a href=\"https://steamdb.info/app/1938090/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare® II</a></li><li><a href=\"https://steamdb.info/app/1091500/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cyberpunk 2077</a></li><li><a href=\"https://steamdb.info/app/1238840/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Battlefield™ 1</a></li><li><a href=\"https://steamdb.info/app/1904540/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Football Manager 2023</a></li><li><a href=\"https://steamdb.info/app/529340/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Victoria 3</a></li><li><a href=\"https://steamdb.info/app/1687950/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Persona 5 Royal</a></li><li><a href=\"https://steamdb.info/app/1063730/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">New World</a></li></ol><br><a href=\"https://steamdb.info/topsellers/2022W44/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View more information and data on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1667750400,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 529340
+        },
+        {
+          "gid": "4732747437196758072",
+          "title": "Steam Global Top Sellers for the Week ending 30 October 2022",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/4732747437196758072",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2022W43/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2022W43.png\"></a><ol><li><a href=\"https://steamdb.info/app/1938090/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare® II</a></li><li><a href=\"https://steamdb.info/app/1675200/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/1938090/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare® II</a></li><li><a href=\"https://steamdb.info/app/529340/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Victoria 3</a></li><li><a href=\"https://steamdb.info/app/1091500/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cyberpunk 2077</a></li><li><a href=\"https://steamdb.info/app/1687950/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Persona 5 Royal</a></li><li><a href=\"https://steamdb.info/app/529340/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Victoria 3</a></li><li><a href=\"https://steamdb.info/sub/754116/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Victoria 3 Grand Edition</a></li><li><a href=\"https://steamdb.info/app/1826140/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">RimWorld - Biotech</a></li><li><a href=\"https://steamdb.info/app/1904540/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Football Manager 2023</a></li></ol><br><a href=\"https://steamdb.info/topsellers/2022W43/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View more information and data on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1667145600,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 529340
+        },
+        {
+          "gid": "4714731755429675567",
+          "title": "Steam Global Top Sellers for the Week ending 23 October 2022",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/4714731755429675567",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2022W42/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2022W42.png\"></a><ol><li><a href=\"https://steamdb.info/app/1675200/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/1938090/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare® II</a></li><li><a href=\"https://steamdb.info/app/1687950/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Persona 5 Royal</a></li><li><a href=\"https://steamdb.info/app/1938090/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare® II</a></li><li><a href=\"https://steamdb.info/app/1826140/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">RimWorld - Biotech</a></li><li><a href=\"https://steamdb.info/app/1904540/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Football Manager 2023</a></li><li><a href=\"https://steamdb.info/app/1659420/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">UNCHARTED™: Legacy of Thieves Collection</a></li><li><a href=\"https://steamdb.info/app/1496790/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Gotham Knights</a></li><li><a href=\"https://steamdb.info/app/1174180/graphs/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li><li><a href=\"https://steamdb.info/sub/714333/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Gotham Knights</a></li></ol><br><a href=\"https://steamdb.info/topsellers/2022W42/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View more information and data on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1666540800,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 1174180
+        },
+        {
+          "gid": "4714731755414451965",
+          "title": "Persona 5 Royal is Out Now!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4714731755414451965",
+          "is_external_url": true,
+          "author": "ATLUS West",
+          "contents": "The Phantom Thieves of Hearts are ready for their latest conquest – PC!  \n\n[img]{STEAM_CLAN_IMAGE}/42950193/84932051d0532fc3f1b2de243219103f3bf1060a.png[/img]\n\nDon the mask and join the Phantom Thieves of Hearts as they stage grand heists, infiltrate the minds of the corrupt, and make them change their ways! \n\nPrepare for the award-winning RPG experience in this definitive edition of Persona 5 Royal, featuring a treasure trove of downloadable content included! \n\nKey Features: \n[list]\n[*] Explore Tokyo, unlock Personas, customize your own personal Thieves Den, experience alternate endings, and more \n[*] Become the ultimate Phantom Thief and defy conventions, discover the power within, and fight for justice in the definitive version of Persona 5 Royal \n[*] Includes over 40 items of previously released downloadable content \n[*] Choose between Japanese and English VO \n[/list]\n\nPersona 5 Royal is now available on Steam!   \n\nhttps://store.steampowered.com/app/1687950/Persona_5_Royal/",
+          "feedlabel": "Community Announcements",
+          "date": 1666324940,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1687950
+        }
+      ],
+      "count": 20
+    }
+  }
+}

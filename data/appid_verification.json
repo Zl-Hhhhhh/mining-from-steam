@@ -1,0 +1,234 @@
+{
+  "valid": [
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2"
+    },
+    {
+      "appid": 570,
+      "name": "Dota 2"
+    },
+    {
+      "appid": 1172470,
+      "name": "Apex Legends™"
+    },
+    {
+      "appid": 271590,
+      "name": "Grand Theft Auto V Legacy"
+    },
+    {
+      "appid": 1245620,
+      "name": "ELDEN RING"
+    },
+    {
+      "appid": 1086940,
+      "name": "Baldur's Gate 3"
+    },
+    {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt — Remastered"
+    },
+    {
+      "appid": 1091500,
+      "name": "Cyberpunk 2077"
+    },
+    {
+      "appid": 534380,
+      "name": "Dying Light 2 Stay Human: Reloaded Edition"
+    },
+    {
+      "appid": 275850,
+      "name": "No Man's Sky"
+    },
+    {
+      "appid": 413150,
+      "name": "Stardew Valley"
+    },
+    {
+      "appid": 646570,
+      "name": "Slay the Spire"
+    },
+    {
+      "appid": 2358720,
+      "name": "Black Myth: Wukong"
+    },
+    {
+      "appid": 397540,
+      "name": "Borderlands 3"
+    },
+    {
+      "appid": 582010,
+      "name": "Monster Hunter: World"
+    },
+    {
+      "appid": 367520,
+      "name": "Hollow Knight"
+    },
+    {
+      "appid": 504230,
+      "name": "Celeste"
+    },
+    {
+      "appid": 262060,
+      "name": "Darkest Dungeon®"
+    },
+    {
+      "appid": 252490,
+      "name": "Rust"
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine"
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria"
+    },
+    {
+      "appid": 4000,
+      "name": "Garry's Mod"
+    },
+    {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2"
+    },
+    {
+      "appid": 236390,
+      "name": "War Thunder"
+    },
+    {
+      "appid": 489830,
+      "name": "The Elder Scrolls V: Skyrim Special Edition"
+    },
+    {
+      "appid": 220,
+      "name": "Half-Life 2"
+    },
+    {
+      "appid": 813780,
+      "name": "Age of Empires II: Definitive Edition"
+    },
+    {
+      "appid": 648800,
+      "name": "Raft"
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved"
+    },
+    {
+      "appid": 440900,
+      "name": "Conan Exiles Enhanced"
+    },
+    {
+      "appid": 244850,
+      "name": "Space Engineers"
+    },
+    {
+      "appid": 322330,
+      "name": "Don't Starve Together"
+    },
+    {
+      "appid": 1426210,
+      "name": "It Takes Two"
+    },
+    {
+      "appid": 739630,
+      "name": "Phasmophobia"
+    },
+    {
+      "appid": 230410,
+      "name": "Warframe"
+    },
+    {
+      "appid": 976730,
+      "name": "Halo: The Master Chief Collection"
+    },
+    {
+      "appid": 291550,
+      "name": "Brawlhalla"
+    },
+    {
+      "appid": 1687950,
+      "name": "Persona 5 Royal"
+    },
+    {
+      "appid": 250900,
+      "name": "The Binding of Isaac: Rebirth"
+    }
+  ],
+  "invalid": [
+    {
+      "appid": 1250410,
+      "expected": "Ready or Not",
+      "actual": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
+      "reason": "Name mismatch"
+    },
+    {
+      "appid": 1966720,
+      "expected": "Starfield",
+      "actual": "Lethal Company",
+      "reason": "Name mismatch"
+    },
+    {
+      "appid": 447040,
+      "expected": "Watch Dogs 2",
+      "actual": "Watch_Dogs® 2",
+      "reason": "Name mismatch"
+    },
+    {
+      "appid": 1938090,
+      "expected": "Naraka: Bladepoint",
+      "actual": "Call of Duty®",
+      "reason": "Name mismatch"
+    },
+    {
+      "appid": 588650,
+      "expected": "Dead by Daylight",
+      "actual": "Dead Cells",
+      "reason": "Name mismatch"
+    },
+    {
+      "appid": 552990,
+      "expected": "Path of Exile",
+      "actual": "World of Warships",
+      "reason": "Name mismatch"
+    },
+    {
+      "appid": 381210,
+      "expected": "Dead Cells",
+      "actual": "Dead by Daylight",
+      "reason": "Name mismatch"
+    },
+    {
+      "appid": 8930,
+      "expected": "Sid Meier's Civilization V",
+      "actual": "Sid Meier's Civilization® V",
+      "reason": "Name mismatch"
+    },
+    {
+      "appid": 289070,
+      "expected": "Sid Meier's Civilization VI",
+      "actual": "Sid Meier’s Civilization® VI",
+      "reason": "Name mismatch"
+    },
+    {
+      "appid": 1240440,
+      "expected": "Hades",
+      "actual": "Halo Infinite",
+      "reason": "Name mismatch"
+    },
+    {
+      "appid": 1517290,
+      "expected": "Battlefield 2042",
+      "actual": "Battlefield™ 2042",
+      "reason": "Name mismatch"
+    },
+    {
+      "appid": 1888930,
+      "expected": "三国杀",
+      "actual": "The Last of Us™ Part I",
+      "reason": "Name mismatch"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "started_at": "2026-10-12T07:07:57.098745+00:00",
+  "appid": 397540,
+  "directory": "data\\steam\\397540\\20261012T070757098745Z",
+  "requested_per_language": 200,
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "sampling": "latest reviews, chronological; not a random sample",
+  "cs2_boundary_utc": "2023-09-27T00:00:00Z",
+  "endpoints": {
+    "players": {
+      "status": "ok"
+    },
+    "news": {
+      "status": "ok"
+    },
+    "store": {
+      "status": "ok"
+    }
+  },
+  "reviews": {
+    "english": {
+      "status": "ok",
+      "backend": "official",
+      "pages": 2,
+      "requested": 200,
+      "query_summary": {
+        "num_reviews": 100,
+        "review_score": 8,
+        "review_score_desc": "Very Positive",
+        "total_positive": 62214,
+        "total_negative": 14932,
+        "total_reviews": 77146
+      },
+      "total_matching": 77146,
+      "count": 200,
+      "positive": 157
+    },
+    "schinese": {
+      "status": "ok",
+      "backend": "official",
+      "pages": 2,
+      "requested": 200,
+      "query_summary": {
+        "num_reviews": 100,
+        "review_score": 6,
+        "review_score_desc": "Mostly Positive",
+        "total_positive": 37272,
+        "total_negative": 10395,
+        "total_reviews": 47667
+      },
+      "total_matching": 47667,
+      "count": 200,
+      "positive": 158
+    }
+  },
+  "finished_at": "2026-10-12T07:08:07.632569+00:00",
+  "review_count": 400
+}

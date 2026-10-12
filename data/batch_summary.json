@@ -1,0 +1,325 @@
+{
+  "collection_type": "batch",
+  "started_at": "2026-10-12T07:04:40.329295+00:00",
+  "finished_at": "2026-10-12T07:16:19.211647+00:00",
+  "total_games": 51,
+  "successful": 51,
+  "failed": 0,
+  "elapsed_seconds": 698.8823528289795,
+  "config_file": "config/games_clustering.json",
+  "reviews_per_language": 200,
+  "languages": [
+    "english",
+    "schinese"
+  ],
+  "completed_games": [
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "collected_at": "2026-10-12T07:04:55.776775+00:00",
+      "elapsed_seconds": 15.44748067855835
+    },
+    {
+      "appid": 570,
+      "name": "Dota 2",
+      "collected_at": "2026-10-12T07:05:09.724443+00:00",
+      "elapsed_seconds": 10.906626224517822
+    },
+    {
+      "appid": 1172470,
+      "name": "Apex Legends",
+      "collected_at": "2026-10-12T07:05:23.175153+00:00",
+      "elapsed_seconds": 10.43801736831665
+    },
+    {
+      "appid": 271590,
+      "name": "Grand Theft Auto V",
+      "collected_at": "2026-10-12T07:05:36.617295+00:00",
+      "elapsed_seconds": 10.43113899230957
+    },
+    {
+      "appid": 1245620,
+      "name": "Elden Ring",
+      "collected_at": "2026-10-12T07:05:50.061062+00:00",
+      "elapsed_seconds": 10.432526588439941
+    },
+    {
+      "appid": 1086940,
+      "name": "Baldur's Gate 3",
+      "collected_at": "2026-10-12T07:06:03.813667+00:00",
+      "elapsed_seconds": 10.736755847930908
+    },
+    {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt",
+      "collected_at": "2026-10-12T07:06:17.265393+00:00",
+      "elapsed_seconds": 10.44468879699707
+    },
+    {
+      "appid": 1091500,
+      "name": "Cyberpunk 2077",
+      "collected_at": "2026-10-12T07:06:30.653308+00:00",
+      "elapsed_seconds": 10.37747049331665
+    },
+    {
+      "appid": 534380,
+      "name": "Dying Light 2",
+      "collected_at": "2026-10-12T07:06:44.500950+00:00",
+      "elapsed_seconds": 10.842542171478271
+    },
+    {
+      "appid": 275850,
+      "name": "No Man's Sky",
+      "collected_at": "2026-10-12T07:06:59.510465+00:00",
+      "elapsed_seconds": 12.002856731414795
+    },
+    {
+      "appid": 413150,
+      "name": "Stardew Valley",
+      "collected_at": "2026-10-12T07:07:13.040600+00:00",
+      "elapsed_seconds": 10.511910438537598
+    },
+    {
+      "appid": 646570,
+      "name": "Slay the Spire",
+      "collected_at": "2026-10-12T07:07:26.395047+00:00",
+      "elapsed_seconds": 10.338202476501465
+    },
+    {
+      "appid": 1144200,
+      "name": "Ready or Not",
+      "collected_at": "2026-10-12T07:07:40.654394+00:00",
+      "elapsed_seconds": 11.244730949401855
+    },
+    {
+      "appid": 2358720,
+      "name": "Black Myth: Wukong",
+      "collected_at": "2026-10-12T07:07:54.083420+00:00",
+      "elapsed_seconds": 10.42096209526062
+    },
+    {
+      "appid": 397540,
+      "name": "Borderlands 3",
+      "collected_at": "2026-10-12T07:08:07.648212+00:00",
+      "elapsed_seconds": 10.549466848373413
+    },
+    {
+      "appid": 582010,
+      "name": "Monster Hunter: World",
+      "collected_at": "2026-10-12T07:08:21.099343+00:00",
+      "elapsed_seconds": 10.44572377204895
+    },
+    {
+      "appid": 367520,
+      "name": "Hollow Knight",
+      "collected_at": "2026-10-12T07:08:34.163451+00:00",
+      "elapsed_seconds": 10.05273175239563
+    },
+    {
+      "appid": 504230,
+      "name": "Celeste",
+      "collected_at": "2026-10-12T07:08:47.594775+00:00",
+      "elapsed_seconds": 10.417052745819092
+    },
+    {
+      "appid": 262060,
+      "name": "Darkest Dungeon",
+      "collected_at": "2026-10-12T07:09:01.002812+00:00",
+      "elapsed_seconds": 10.394498586654663
+    },
+    {
+      "appid": 252490,
+      "name": "Rust",
+      "collected_at": "2026-10-12T07:09:14.915212+00:00",
+      "elapsed_seconds": 10.903306722640991
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "collected_at": "2026-10-12T07:09:28.352800+00:00",
+      "elapsed_seconds": 10.416507005691528
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "collected_at": "2026-10-12T07:09:41.879653+00:00",
+      "elapsed_seconds": 10.51624083518982
+    },
+    {
+      "appid": 4000,
+      "name": "Garry's Mod",
+      "collected_at": "2026-10-12T07:09:55.163290+00:00",
+      "elapsed_seconds": 10.270295858383179
+    },
+    {
+      "appid": 1623730,
+      "name": "Palworld",
+      "collected_at": "2026-10-12T07:10:08.554681+00:00",
+      "elapsed_seconds": 10.386872291564941
+    },
+    {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2",
+      "collected_at": "2026-10-12T07:10:21.753805+00:00",
+      "elapsed_seconds": 10.192553758621216
+    },
+    {
+      "appid": 447040,
+      "name": "Watch Dogs 2",
+      "collected_at": "2026-10-12T07:10:34.524807+00:00",
+      "elapsed_seconds": 9.75969386100769
+    },
+    {
+      "appid": 236390,
+      "name": "War Thunder",
+      "collected_at": "2026-10-12T07:10:48.902615+00:00",
+      "elapsed_seconds": 11.365662813186646
+    },
+    {
+      "appid": 489830,
+      "name": "The Elder Scrolls V: Skyrim Special Edition",
+      "collected_at": "2026-10-12T07:11:03.659939+00:00",
+      "elapsed_seconds": 11.7478666305542
+    },
+    {
+      "appid": 1088850,
+      "name": "NARAKA: BLADEPOINT",
+      "collected_at": "2026-10-12T07:11:17.407851+00:00",
+      "elapsed_seconds": 10.736674785614014
+    },
+    {
+      "appid": 381210,
+      "name": "Dead Cells",
+      "collected_at": "2026-10-12T07:11:31.247144+00:00",
+      "elapsed_seconds": 10.833425521850586
+    },
+    {
+      "appid": 588650,
+      "name": "Dead by Daylight",
+      "collected_at": "2026-10-12T07:11:44.252437+00:00",
+      "elapsed_seconds": 9.984016418457031
+    },
+    {
+      "appid": 238960,
+      "name": "Path of Exile",
+      "collected_at": "2026-10-12T07:11:57.037772+00:00",
+      "elapsed_seconds": 9.778377294540405,
+      "note": "partial_success"
+    },
+    {
+      "appid": 220,
+      "name": "Half-Life 2",
+      "collected_at": "2026-10-12T07:12:09.969027+00:00",
+      "elapsed_seconds": 9.9230215549469
+    },
+    {
+      "appid": 8930,
+      "name": "Sid Meier's Civilization V",
+      "collected_at": "2026-10-12T07:12:23.212377+00:00",
+      "elapsed_seconds": 10.235621213912964
+    },
+    {
+      "appid": 289070,
+      "name": "Sid Meier's Civilization VI",
+      "collected_at": "2026-10-12T07:12:36.676985+00:00",
+      "elapsed_seconds": 10.447393894195557
+    },
+    {
+      "appid": 1145360,
+      "name": "Hades",
+      "collected_at": "2026-10-12T07:12:51.230101+00:00",
+      "elapsed_seconds": 11.545063495635986
+    },
+    {
+      "appid": 813780,
+      "name": "Age of Empires II: Definitive Edition",
+      "collected_at": "2026-10-12T07:13:06.487021+00:00",
+      "elapsed_seconds": 12.248127222061157
+    },
+    {
+      "appid": 648800,
+      "name": "Raft",
+      "collected_at": "2026-10-12T07:13:19.899463+00:00",
+      "elapsed_seconds": 10.4048752784729
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "collected_at": "2026-10-12T07:13:36.117710+00:00",
+      "elapsed_seconds": 13.201881647109985
+    },
+    {
+      "appid": 440900,
+      "name": "Conan Exiles",
+      "collected_at": "2026-10-12T07:13:50.270731+00:00",
+      "elapsed_seconds": 11.122533559799194
+    },
+    {
+      "appid": 1517290,
+      "name": "Battlefield 2042",
+      "collected_at": "2026-10-12T07:14:03.723342+00:00",
+      "elapsed_seconds": 10.433187484741211
+    },
+    {
+      "appid": 244850,
+      "name": "Space Engineers",
+      "collected_at": "2026-10-12T07:14:17.332850+00:00",
+      "elapsed_seconds": 10.592688798904419
+    },
+    {
+      "appid": 322330,
+      "name": "Don't Starve Together",
+      "collected_at": "2026-10-12T07:14:30.802769+00:00",
+      "elapsed_seconds": 10.45646357536316
+    },
+    {
+      "appid": 1426210,
+      "name": "It Takes Two",
+      "collected_at": "2026-10-12T07:14:44.441599+00:00",
+      "elapsed_seconds": 10.631202936172485
+    },
+    {
+      "appid": 739630,
+      "name": "Phasmophobia",
+      "collected_at": "2026-10-12T07:14:58.020061+00:00",
+      "elapsed_seconds": 10.56277322769165
+    },
+    {
+      "appid": 230410,
+      "name": "Warframe",
+      "collected_at": "2026-10-12T07:15:12.379715+00:00",
+      "elapsed_seconds": 11.34411096572876
+    },
+    {
+      "appid": 976730,
+      "name": "Halo: The Master Chief Collection",
+      "collected_at": "2026-10-12T07:15:27.780068+00:00",
+      "elapsed_seconds": 12.393679857254028
+    },
+    {
+      "appid": 291550,
+      "name": "Brawlhalla",
+      "collected_at": "2026-10-12T07:15:40.813784+00:00",
+      "elapsed_seconds": 10.019141912460327
+    },
+    {
+      "appid": 261550,
+      "name": "Mount & Blade II: Bannerlord",
+      "collected_at": "2026-10-12T07:15:54.033817+00:00",
+      "elapsed_seconds": 10.214497089385986
+    },
+    {
+      "appid": 1687950,
+      "name": "Persona 5 Royal",
+      "collected_at": "2026-10-12T07:16:06.770679+00:00",
+      "elapsed_seconds": 9.724425554275513
+    },
+    {
+      "appid": 250900,
+      "name": "The Binding of Isaac: Rebirth",
+      "collected_at": "2026-10-12T07:16:19.200130+00:00",
+      "elapsed_seconds": 9.410250902175903
+    }
+  ],
+  "failed_games": []
+}

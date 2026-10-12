@@ -1,0 +1,536 @@
+﻿appid,recommendationid,steamid,language,review,voted_up,timestamp_created,timestamp_updated,created_utc,votes_up,votes_funny,playtime_forever,playtime_at_review,game_era,source
+238960,237521771,76561198266492897,english,Best game for people with autism! Thumbs up,True,1791778615,1791778615,2026-10-12T04:16:55+00:00,0,0,4830,4830,other,official
+238960,237487200,76561198451955036,english,"⠀⠀⢀⣠⠤⠶⠖⠒⠒⠶⠦⠤⣄⠀⠀⠀⣀⡤⠤⠤⠤⠤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⣴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⣦⠞⠁⠀⠀⠀⠀⠀⠀⠉⠳⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⡾⠁⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⣀⣘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⡴⠚⠉⠁⠀⠀⠀⠀⠈⠉⠙⠲⣄⣤⠤⠶⠒⠒⠲⠦⢤⣜⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⡄⠀⠀⠀⠀⠀⠀⠀⠉⠳⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⠹⣆⠀⠀⠀⠀⠀⠀⣀⣀⣀⣹⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣠⠞⣉⣡⠤⠴⠿⠗⠳⠶⣬⣙⠓⢦⡈⠙⢿⡀⠀⠀⢀⣼⣿⣿⣿⣿⣿⡿⣷⣤⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣾⣡⠞⣁⣀⣀⣀⣠⣤⣤⣤⣄⣭⣷⣦⣽⣦⡀⢻⡄⠰⢟⣥⣾⣿⣏⣉⡙⠓⢦⣻⠃⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠉⠉⠙⠻⢤⣄⣼⣿⣽⣿⠟⠻⣿⠄⠀⠀⢻⡝⢿⡇⣠⣿⣿⣻⣿⠿⣿⡉⠓⠮⣿⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠙⢦⡈⠛⠿⣾⣿⣶⣾⡿⠀⠀⠀⢀⣳⣘⢻⣇⣿⣿⣽⣿⣶⣾⠃⣀⡴⣿⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠙⠲⠤⢄⣈⣉⣙⣓⣒⣒⣚⣉⣥⠟⠀⢯⣉⡉⠉⠉⠛⢉⣉⣡⡾⠁⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣠⣤⡤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⡿⠋⠀⠀⠀⠀⠈⠻⣍⠉⠀⠺⠿⠋⠙⣦⠀⠀⠀⠀⠀⠀⠀
+⠀⣀⣥⣤⠴⠆⠀⠀⠀⠀⠀⠀⠀⣀⣠⠤⠖⠋⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠀⠀⠀⠀⠀⢸⣧⠀⠀⠀⠀⠀⠀
+⠸⢫⡟⠙⣛⠲⠤⣄⣀⣀⠀⠈⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠏⣨⠇⠀⠀⠀⠀⠀
+⠀⠀⠻⢦⣈⠓⠶⠤⣄⣉⠉⠉⠛⠒⠲⠦⠤⠤⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣠⠴⢋⡴⠋⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠉⠓⠦⣄⡀⠈⠙⠓⠒⠶⠶⠶⠶⠤⣤⣀⣀⣀⣀⣀⣉⣉⣉⣉⣉⣀⣠⠴⠋⣿⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠉⠓⠦⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡼⠁⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠙⠛⠒⠒⠒⠒⠒⠤⠤⠤⠒⠒⠒⠒⠒⠒⠚⢉⡇⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠴⠚⠛⠳⣤⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠚⠁⠀⠀⠀⠀⠘⠲⣄⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⠋⠙⢷⡋⢙⡇⢀⡴⢒⡿⢶⣄⡴⠀⠙⠳⣄⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢦⡀⠈⠛⢻⠛⢉⡴⣋⡴⠟⠁⠀⠀⠀⠀⠈⢧⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄⠀⠘⣶⢋⡞⠁⠀⠀⢀⡴⠂⠀⠀⠀⠀⠹⣄⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠈⠻⢦⡀⠀⣰⠏⠀⠀⢀⡴⠃⢀⡄⠙⣆⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡾⢷⡄⠀⠀⠀⠀⠉⠙⠯⠀⠀⡴⠋⠀⢠⠟⠀⠀⢹⡄",True,1791742278,1791742278,2026-10-11T18:11:18+00:00,0,0,1422,1418,other,official
+238960,237477189,76561198072548975,english,"One of the best Action RPGs ever made, what made the genre what it is today.",True,1791734844,1791734844,2026-10-11T16:07:24+00:00,0,0,212770,212770,other,official
+238960,237466690,76561198332804152,english,great game,True,1791727628,1791727628,2026-10-11T14:07:08+00:00,2,0,1821461,1820441,other,official
+238960,237447816,76561199085612355,english,is good,True,1791710854,1791710854,2026-10-11T09:27:34+00:00,0,0,2233,2233,other,official
+238960,237435208,76561199528155746,english,Pretty fun and addictive,True,1791696283,1791696283,2026-10-11T05:24:43+00:00,0,0,56692,56692,other,official
+238960,237418192,76561198281907851,english,"Path Of Exiles biggest issue isnt the degree level education you need just to understand Gearing and Crafting...
+It isnt the lack of QoL features they give the Asian community but not the diehard Western players either...
+
+Its the damn need to redo Acts 1 through 10 every single damn league. Its unrelenting and tiresome. I would rather stick needles into my eyeballs and smash my face into a river to try catch fish than go through this every time i want to play a league.",True,1791675768,1791675768,2026-10-10T23:42:48+00:00,0,0,164907,164907,other,official
+238960,237359579,76561198118957822,english,"What is there not to like? To much content 
+
+seriously, a dev team that isnt relying on nostalgia every 2seconds (bliztard) 
+you can enjoy it without buying the microtransactions, I mean ive spent around 40 bucks on the game, with about 350hrs, ive spent more on just the base version of diablo 4, then you also Have to buy the dlc to play the newest season they added, which was abit of fun, but not the price they put it at, seeing as they didnt need to put any creative thought into it, since its all just based on d2 and d3... Poe on the otherhand, has countless unique systems, a Proper Skill Tree with endless imagination and combinations, you dont even need to use a Build guide to have fun in endgame, unlike diablo, where no build guide = hell",True,1791629174,1791629174,2026-10-10T10:46:14+00:00,0,0,21178,21178,other,official
+238960,237345798,76561197989664018,english,Love this game :),True,1791612870,1791612870,2026-10-10T06:14:30+00:00,0,1,125,125,other,official
+238960,237338497,76561198137533436,english,"Complex game, it requires a lot of analysis and strategy. It's enjoyable but you need guides at the beginning (and later). There is new content with frequency so there is always something to do",True,1791603467,1791603467,2026-10-10T03:37:47+00:00,0,0,107877,107877,other,official
+238960,237325950,76561199292605291,english,"It's everything you wish Diablo 3 would've been and so much more.  Diablo 3 looks like a silly arcade game comparatively. And the way endgame content is handled will keep you playing long after the story is done. Like, for me the story is something to just get thru to get your character level up into the 60's, where the real challenge begins.  And until you're in the 90's its still relatively easy.  The performance is very stable, GUI is well designed, and new game content and mechanics come out all the time. The skill tree is second only to PoE 2 in terms of size and complexity, and the way you can customize your character build gives you nearly infinite replayability.  Trust me, I've played 1477 hours of the game.  And the base game is free.  All you have to buy is more inventory space.  Which you will, sooner or later, because this game is ADDICTIVE.",True,1791588236,1791588236,2026-10-09T23:23:56+00:00,0,0,88667,88667,other,official
+238960,237311682,76561199164986132,english,"HOW THE FUCK ARE WE SUPPOSED TO PLAY THIS GAME WITH NO MAP BUTTON ARE WE DEAD ASS GUYS????? ALL WE GOT IS A STUPID TRANSPARENT OVERLAY MAP AND THIS IS DUMBER THAN THE MFS TYPING IN GLOBAL CHAT OH AND BTW THEY IGNORE THE FUCK OUTTA YOU EVEN IF YOU THRETAHEN THEM OF HARMING MYSELF HOLY INSENSITIVE VETERANS;;; DO NOT PLAY THIS GAME? IF THE PRODUCT IS FREE YOU ARE THE PRODUCT ALSO OMG WTF DOES THAT FOLLOWING SENTENCE MEAN ""PLACE INTO AN ITEM SOCKET CONNECTED TO A SOCKET CONTAINING THE SKILL GEM YOU WISH TO AUGMENT"" was this game developped by pakistanis while GETTING BOMBED BY INDIA???????",False,1791574956,1791574956,2026-10-09T19:42:36+00:00,0,3,288,90,other,official
+238960,237300960,76561198250795052,english,The game is awesome!,True,1791566144,1791566144,2026-10-09T17:15:44+00:00,0,0,3131,2927,other,official
+238960,237299817,76561198045275156,english,"A perfectly confusing time sink with the shittiest defense system for an RPG 
+
+.Game explain shit nothing, 200 things to do, you wont know how, why and when.
+-You are basically forced to put an insane amount of defense on every single class, forget glass cannon assassins or casters having any kind of survivability agency
+Play assassin ? Build defense and resistance
+Play caster ? Build defense  and resistance
+Play witch ? Build defense  and resistance
+Play ranger ? Build defense  and resistance
+
+-ALSO No death recap, good luck guessing what 1 shot you and what you need to improve, not that it matter given how mandatory elemental resistance are in the game, you miss them and game is unplayable, like literally
+
+",False,1791565214,1791565214,2026-10-09T17:00:14+00:00,0,2,13741,12366,other,official
+238960,237289947,76561198744615204,english,"Best free to play game ever, I would pay my liver for this, takes my time away without me noticing. Would recommend 10/10",True,1791557656,1791557656,2026-10-09T14:54:16+00:00,0,0,1139,770,other,official
+238960,237282799,76561198117893236,english,The most challenging game that will make you feel adrenaline if you get distracted for less than one second,True,1791551817,1791551817,2026-10-09T13:16:57+00:00,0,0,154339,154102,other,official
+238960,237234298,76561198391843533,english,great game,True,1791491435,1791491435,2026-10-08T20:30:35+00:00,0,0,976,976,other,official
+238960,237228121,76561198193624117,english,Always new. I love it,True,1791486256,1791486256,2026-10-08T19:04:16+00:00,0,0,40568,40557,other,official
+238960,237221446,76561198916653809,english,"Always something new to go after, always fun! Definitely recommend!",True,1791480917,1791480917,2026-10-08T17:35:17+00:00,0,0,2697,2671,other,official
+238960,237204328,76561199765635151,english,js follow guilds,True,1791466182,1791466182,2026-10-08T13:29:42+00:00,0,0,2125,2037,other,official
+238960,237197947,76561198286539479,english,"Gameplay is smooth, builds are endless and it's fun to play even as an F2P.",True,1791459484,1791459484,2026-10-08T11:38:04+00:00,0,0,12135,12135,other,official
+238960,237186495,76561198118215274,english,"Its deep and complex
+Autisms stimulant
+Crack
+How to waste thousands of hours of your life
+Dopamine
+Spending countless nights in path of building just so you can go back to path of exile and farm more currency so you can minmax the shit out of your build
+
+Abuse, captivity, torture. Yet here I am league after league after league coming back.
+
+Stockholm syndrome is a psychological response where a hostage, abuse victim, or captive develops an emotional bond, sympathy, or positive feelings toward their abuser or captor. (straight of google)
+
+League start, I just gone check it out, maybe finish the acts and some maps and maybe put in 20 hours this league because I don't really have the feeling for it. Two months flashes by, you have made 7 different characters to figure out what you like to farm best this league and go back to your favorite char just to minmax the shit out of it so every enemy falls over just by you looking at it.
+
+Here buddy, why don't you just have one puff. One more wont hurt. 
+
+Don't do it, but if you do, don't say nobody warned you.",True,1791443121,1791443121,2026-10-08T07:05:21+00:00,0,0,393468,393468,other,official
+238960,237186478,76561197995754698,english,I really hope you like making character builds with a lot of math and tinkering. It feels like that is more of the game than actually playing it. And it works.,True,1791443095,1791443095,2026-10-08T07:04:55+00:00,0,0,2662,2048,other,official
+238960,237153868,76561198025013198,english,fast paced and a million different ways to build the characters,True,1791401190,1791401190,2026-10-07T19:26:30+00:00,0,0,60543,60397,other,official
+238960,237152607,76561198028302451,english,+,True,1791399981,1791399981,2026-10-07T19:06:21+00:00,0,0,848,802,other,official
+238960,237150607,76561198060977778,english,Path of Exile is much more than just a D2 clone. There is so much more going on with the ever changing gameplay involved in the leagues. Highly recommended if you like ARPGs.,True,1791398270,1791398270,2026-10-07T18:37:50+00:00,0,0,10210,10210,other,official
+238960,237149977,76561198128827756,english,I wish the game didn't become so intimidating to play for new comers and casuals,False,1791397716,1791397716,2026-10-07T18:28:36+00:00,0,2,938,938,other,official
+238960,237149132,76561198124336863,english,"Don't consider this game free to play and more of a ""free to try"", as you are basically required to have at least one premium stash tab to trade and enjoy the game properly so expect to spend 5$ in the game at the very least.
+Other than that, it's a great game. More complex than Path of Exile 2 and allows for more silly builds.
+Same as Path of Exile 2 though, the devs can be a bit overzealous with how they want their game to be played, so don't expect some build to stay even if they are worse alternatives to meta builds.
+If you like theory crafting, give it a try. If you REALLY like theory crafting, I suggest you try Path of Building to prepare your build.
+Important note, playing without a filter will chip away at your sanity, so if you're a new player, go on filterblade.xyz and apply a filter !
+
+[i]PS: Don't worry about my playtime.[/i]",True,1791397004,1791397004,2026-10-07T18:16:44+00:00,0,0,40201,39994,other,official
+238960,237137487,76561198804136239,english,"can't believe I was exiled, 0/5.",True,1791386936,1791386936,2026-10-07T15:28:56+00:00,0,0,2966,1771,other,official
+238960,237122124,76561198191210003,english,seems old scho,True,1791372321,1791372321,2026-10-07T11:25:21+00:00,0,0,716,205,other,official
+238960,237120978,76561198348267022,english,banger,True,1791370919,1791370919,2026-10-07T11:01:59+00:00,0,0,15842,15587,other,official
+238960,237109850,76561198366721445,english,"It's a fantastic game, and is in my opinion, the spiritual successor to Diablo II. Tonnes of build variety, multiple mechanics to learn, and a recurring new League/Ladder every few months. There's also SSF if you just want to take it slow and go at your own pace. I'd definitely recommend having a decent computer as the endgame can get extremely CPU/GPU intensive when you start running heavily juiced maps and powerful builds. Monetisation is also bearable as you can get by with a few cheap stash tabs.",True,1791355922,1791355922,2026-10-07T06:52:02+00:00,0,0,31918,31918,other,official
+238960,237087872,76561198260147659,english,"This is EASILY the BEST game I've ever played. Been playing video games since the early 90s, and Path of Exile is such a difficult and sometimes rewarding game. it has a super steep learning curve, but if you like challenges and HUGE dopamine hits leaving you *literally shaking* for an hour, or screaming in excitement, or dying a bunch to unknown sources...until you learn more and improve your build...this game is for you.",True,1791326741,1791326741,2026-10-06T22:45:41+00:00,0,0,110137,110125,other,official
+238960,237072914,76561198078408488,english,Peak,True,1791312334,1791312334,2026-10-06T18:45:34+00:00,0,0,30231,30231,other,official
+238960,237058860,76561198338069978,english,The best LGBTQ+ ARPG simulator. If you do not know what the fuck is going on in your screen. You're playing it right.,True,1791301233,1791301233,2026-10-06T15:40:33+00:00,1,0,4219,4172,other,official
+238960,237054581,76561198063091465,english,the one and only successor for d2,True,1791297878,1791297878,2026-10-06T14:44:38+00:00,0,0,482433,482433,other,official
+238960,237046422,76561198348422744,english,My favorite trading sim,True,1791290774,1791290774,2026-10-06T12:46:14+00:00,0,1,83079,83079,other,official
+238960,237014350,76561198011055837,english,you ever see a review that has like 3000 hours and anti-recommends a game lmao. Yeah thats not me,True,1791249457,1791249457,2026-10-06T01:17:37+00:00,0,0,116151,116151,other,official
+238960,237009613,76561197985220613,english,"Its like a drug, every new season you tell yourself ""oh lets just try it for a few hours"" then you end up spending 45 hours fine tuning 4 builds.",True,1791243639,1791243639,2026-10-05T23:40:39+00:00,0,0,113874,113682,other,official
+238960,237001188,76561198049123990,english,Awsome,True,1791234218,1791234218,2026-10-05T21:03:38+00:00,0,0,3372,2996,other,official
+238960,236993795,76561198233609976,english,"After 10 years, I still believe I'll reach 100lvl in HC",True,1791227575,1791227575,2026-10-05T19:12:55+00:00,0,0,113015,111388,other,official
+238960,236944141,76561198882853054,english,"While the graphics and gameplay mechanics might not feel quite as modern as Path of Exile 2, this game is much more complete. The sheer depth is incredible—there is a massive variety of skills to experiment with, endless content to dive into, and the build variety is unmatched. The boss fights are fantastic, and the endgame maps are easily the best part of the experience. I absolutely love playing this game and highly recommend it!
+
+",True,1791177272,1791177272,2026-10-05T05:14:32+00:00,1,0,127691,127691,other,official
+238960,236942116,76561199223809869,english,Fun,True,1791174434,1791174434,2026-10-05T04:27:14+00:00,0,0,1063,1052,other,official
+238960,236940769,76561199032198063,english,"over 300 hours in and still having fun.
+",True,1791172641,1791172641,2026-10-05T03:57:21+00:00,0,0,19980,19839,other,official
+238960,236931047,76561198138135237,english,I love this game,True,1791160396,1791160396,2026-10-05T00:33:16+00:00,0,0,36575,36051,other,official
+238960,236926678,76561198095920650,english,"As a long time diablo player, this game scratches my itch.  I like the skill tree.",True,1791155262,1791155262,2026-10-04T23:07:42+00:00,0,0,2865,1895,other,official
+238960,236918637,76561198043875210,english,sick af,True,1791147297,1791147297,2026-10-04T20:54:57+00:00,0,0,974,974,other,official
+238960,236870990,76561197999955391,english,it's ok,True,1791112947,1791112947,2026-10-04T11:22:27+00:00,0,2,127126,127126,other,official
+238960,236825077,76561198398644197,english,".
+.
+(^_^)",True,1791064371,1791064371,2026-10-03T21:52:51+00:00,0,0,12219,12060,other,official
+238960,236803177,76561198016101986,english,Played a bit ... seems OK,True,1791047659,1791047659,2026-10-03T17:14:19+00:00,1,1,380206,380206,other,official
+238960,236790076,76561198098267947,english,One of the best dungeon crawler RPGs,True,1791038481,1791038481,2026-10-03T14:41:21+00:00,0,0,2197,2069,other,official
+238960,236776218,76561198220477568,english,"10/10. Dying in maps, doing math for DPS, and filling my stash with junk. Peak gaming.",True,1791027398,1791027398,2026-10-03T11:36:38+00:00,0,0,7269,7087,other,official
+238960,236763531,76561198284894234,english,"[H1]So what's it about?[/H1]
+In POE you are a criminal sentenced to death but instead shipped to the cursed continent of Wraeclast. You start with nothing and end up fighting Gods and other divine being. But to get there you will go through many beautifully crafted levels with many systems. At first it is intimidating and for your first run I highly recommend using a guide from for example [url=https://mobalytics.gg/poe/builds] Mobalytics [/url].
+
+POE is an older game but can be measured against new releases as it has received and continues to receive updated. I've been an avid fan of Diablo and Diablo 2 since they were released (I was one of the first in D2 in Europe to hit lvl 99 back in the day). D3 was OK but not what I was looking into an ARPG and I've avoided D4 ever since the ""don't you have phones"" and all of the monetization; it's clear the Blizzard of old is no longer there.
+
+POE is F2P but it doesn't mean P2W. Every couple of months new supporter packs are released that are time limited. But they are just cosmetics and the game comes with plenty. Only buy those if you want to support the developers. At most you probably spend about £30 to make your life easier with more inventory tabs but only gets those after you've played the game for a while and it's still not required for the first play through but it will help a lot managing all the loot you collect later on. Consider the campaign the trial or demo version to see if the game is for you.
+
+You pick one of the available 7 classes when you start the game. As you progress you can then further specialise the class in the direction you like. There is so much to choose from that it will keep you busy for a long time. 
+
+The campaign has 10 acts and those are really just the tutorial to avoid overloading you with the many systems POE has. After that the real game begins and it's all about completing maps at an increased difficulty for better rewards. Following that you arrive at the real end-game. It's a big game for sure :-).
+
+It's great solo but multiplayer is good too. There is even PVP if you're interested in that. 
+
+[H1]The good[/H1]
+It has the most extensive systems I have ever seen in any ARPG. Just the skill tree alone is massive. This allows for a lot of experimentation to find the ideal setup. Your class is just a starting point and you can adjust how you feel fit.
+
+I love the voice acting, the enemies and the graphical effects; GGG voice actors and artists are some of the best in class. 
+
+There are many different leagues you can play (comparable to seasons in other games), including hard core and you can build even your own if you feel like.
+
+The developers play their game and there are frequent updates. Tournaments are organised and if you watch them on Twitch you even get nice stuff from time to time.
+
+The inner loot goblin is always satisfied when doing one of the many side activities in game. There is so much to collect and there is a variation of activities to keep it all fresh. 
+
+You have your own hideout that you can decorate as you please. Later this becomes your central hub.
+
+There is in-game trading with other players and multiplayer is supported. There is also a [url= https://www.pathofexile.com/trade ]trade post [/url] where you can buy and sell items you want or find.
+The game plays really fast at times - much higher speed than D2; which is great it’s a constant adrenaline rush. The drawback is if your build has a weakness there is little room for error on the high end levels as it leaves you with little time to counter act.
+
+[H1]The not so good[/H1]
+There is definitely a deep learning curve hence I advise using a guide for the first play through so you get an understanding of the basics. 
+
+End game (lvl 90 - 100) can be really challenging depending on your build. Some require expensive (as in rare items they are player trade) to be effective and the AI will relentlessly punish you if you have a weak build to the point you want to give up. 
+
+To counter this you probably want to start with a character that is less depended on gear and more on skills which are easier to come by. A second build could be one that is more depending on gear as you can use the first character to farm where necessary. In general: ranged class / skills are easier than melee especially later in the game.
+
+For every new character you create you need to go through all 10 acts of the campaign; thankfully because of the stash, your hideout and all the other different game modes, including the progress in the second part (Atlas) is account wide it's not a major issue but it would be better if you would be given the option to skip the whole campaign after the first time that you've completed it (similar to like GW2 for example).
+
+I disapprove of the lootbox mechanic introduced every season. It's not required, it's not in your face but it can cause serious issues for people that are vulnerable to gambling addiction. The positive maybe is that all the loot from the loot boxes are released later in the MTX store but still it should not be in the game.
+
+[H1]The DLCs[/H1]
+There are no DLCs other than supporter packs that only add cosmetics to the game. There is a microtransactions (MTX) store to buy cosmetics and QoL items. If you want to get any of those wishlist them and wait for a sale (every couple of weeks). Note that some of the MTX from POE is compatible with POE2 in particular most of the inventory tabs. 
+
+[H1]Summary[/H1]
+The best time to plant a tree was 20 years ago, the second best time is now. This is true for POE. I wish I had discovered it earlier but I'm happy I did eventually. If you're into ARPG it's one of the best games to get. Highly recommended.",True,1791014675,1791014717,2026-10-03T08:04:35+00:00,2,0,10246,10246,other,official
+238960,236753055,76561198669133598,english,I just love the thrill of adventuring and discovering stories that have surprised twist.,True,1791001937,1791001937,2026-10-03T04:32:17+00:00,0,0,385,385,other,official
+238960,236739567,76561199262244146,english,its cool,True,1790985467,1790985467,2026-10-02T23:57:47+00:00,0,0,6921,3483,other,official
+238960,236738904,76561198202142663,english,Fire game,True,1790984661,1790984661,2026-10-02T23:44:21+00:00,0,0,27171,27171,other,official
+238960,236717163,76561198031714753,english,Yea its ok,True,1790964447,1790964447,2026-10-02T18:07:27+00:00,0,0,15881,14650,other,official
+238960,236708732,76561198970941024,english,"amazing game
+",True,1790957660,1790957660,2026-10-02T16:14:20+00:00,0,0,90462,90462,other,official
+238960,236701544,76561198841419216,english,okay game,True,1790951946,1790951946,2026-10-02T14:39:06+00:00,0,1,275404,272945,other,official
+238960,236682887,76561199753183170,english,This is the best game EVER.,True,1790933042,1790933042,2026-10-02T09:24:02+00:00,0,0,77006,76725,other,official
+238960,236682236,76561199075496474,english,"⡿⣧⢸⡇⢻⣿⠟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢿⠿⠿⠿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿
+⡇⢿⠀⡇⢸⡟⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣛⣛⣋⣉⣁⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠻⢘⣟⡇⣿⢹⢉
+⡇⠘⠀⠁⠈⠁⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢇⠘⠧⠘⠸⣤
+⡇⠀⠀⠀⠩⠾⠿⠿⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣼⡇⠀⠀⠀⠀⠀⠀⠀⠀⠈⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠤⢜⡼⣠⠀⠀⠘
+⣇⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢃⣿⣇⣀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⢮⣉⣾⣷⡆⢀
+⡟⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠻⡄⣸⡰⣿⣿⣿⣿⠓⣶⠿⡿⠓⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⢿⡿⢸
+⡇⠠⠤⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠛⠁⠰⢿⣿⣎⣉⣿⣿⣿⡇⣄⠐⠂⠀⡗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢩⣦⣴⣾
+⡆⠀⠠⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠁⠀⠀⠀⠸⣟⠘⠙⠉⢻⠿⠀⡿⢀⣼⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠋⢹⣿
+⣷⣶⣿⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠘⠿⣇⠀⠀⢀⠘⠀⣁⢎⣽⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣧⣀⣼
+⣿⣿⣿⣿⣿⣿⣿⣿⠯⠠⡴⣶⢖⣶⣶⣖⡲⢶⣶⠶⡚⣶⣀⡀⠙⣯⣰⣾⣼⣿⣷⣦⣄⣀⣤⣤⣤⣤⣄⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⢂⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣮⣿⣿⣻⣶⣛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⡀⠀⠀⠀⠀⢸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣦⣄⣼⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⣿⣯⣿⣟⣇⣀⢻⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⠛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣽⡯⣿⣿⣽⣿⣟⣟⣿⣿⣿⢿⣿⣿⣿⣿⣿⢼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⡛⢿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣽⣛⣛⣙⣟⣭⣽⢛⡽⣻⣿⣿⣮⣭⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠋⠉⠉⠠
+⣿⣿⣿⣿⣧⢸⣿⣦⣿⣿⣿⣿⣿⢛⣉⡙⢿⡏⢻⡏⢫⣽⠙⣾⠉⣉⣉⣻⡏⠑⣿⡏⠙⣿⣿⠋⢻⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⡿⣿⡇⢸⡇⣆⠻⠀⣿⠀⣉⣉⣿⡇⣇⠻⢸⠀⣿⠃⠼⠌⢿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⢸⣰
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣬⣉⣥⣾⣇⣸⣇⣏⣧⣀⣿⣀⣛⣛⣻⣇⣿⣀⣾⣀⣏⣰⣿⣷⣘⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⣼⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡧⠀⠀⠀⠀⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⢀⣤⣿⣿",True,1790932198,1791202187,2026-10-02T09:09:58+00:00,0,0,2119,638,other,official
+238960,236644417,76561198060428729,english,"POE1 was the evolution of diablo 2 and then expanded and grew intot he defintion of what a league based AARPG was.  End game gets too complicated for most players,",True,1790883952,1790883952,2026-10-01T19:45:52+00:00,0,0,5202,1188,other,official
+238960,236624249,76561199623688742,english,game is pogchamp,True,1790866321,1790866321,2026-10-01T14:52:01+00:00,0,0,17273,17273,other,official
+238960,236614933,76561198870956732,english,"good, but boring after some time",True,1790856649,1790856811,2026-10-01T12:10:49+00:00,0,0,161235,161235,other,official
+238960,236577082,76561198083081511,english,"Absolutely goated game, POE2 is turbo ass compared to this",True,1790804601,1790804601,2026-09-30T21:43:21+00:00,0,0,120803,114718,other,official
+238960,236572727,76561198032084399,english,"No for me, Its just not as good as Grim Dawn or Last Epoch. The screen is hard to see, and a casting spells clutters the screen.",False,1790799928,1790799928,2026-09-30T20:25:28+00:00,0,0,4912,4912,other,official
+238960,236553690,76561199094396423,english,nice hack and slash game old school,True,1790782588,1790782588,2026-09-30T15:36:28+00:00,0,0,576,576,other,official
+238960,236545030,76561198001586264,english,"With only 2139 hours played, I can say that this is the best game ever created.",True,1790774841,1790774841,2026-09-30T13:27:21+00:00,0,0,128380,128380,other,official
+238960,236538880,76561197973886844,english,"carried by friends, fun!",True,1790768058,1790768058,2026-09-30T11:34:18+00:00,0,0,9830,9824,other,official
+238960,236531788,76561199653821654,english,"i like hard game like this 
+",True,1790757898,1790757898,2026-09-30T08:44:58+00:00,0,0,16775,12388,other,official
+238960,236520579,76561199656527454,english,Best ARPG of all time,True,1790739912,1790739912,2026-09-30T03:45:12+00:00,0,0,7383,7383,other,official
+238960,236511049,76561198059194573,english,"Graphics and gameplay arent as good as Path of Exile 2 , but it´s much , much more complete. 
+there are a LOT of skills and a LOT to do and the build variety is great. 
+
+for a free to play game it´s very good.",True,1790727102,1790727102,2026-09-30T00:11:42+00:00,0,0,1150,1045,other,official
+238960,236502910,76561198341262516,english,"Even though this says its fro Mac, please DO NOT play it on a mac, you will get frustrated. It's a stutter fest when the area gets crowded and then comes the input lag. If you do not have a Windows PC for this, do not play it. The game itself is not bad. It's just not compatible for Mac.",False,1790717655,1790717655,2026-09-29T21:34:15+00:00,0,1,122,122,other,official
+238960,236491363,76561198126040055,english,A bit slow on finding gear overall fun,True,1790707314,1790707314,2026-09-29T18:41:54+00:00,0,0,9269,8360,other,official
+238960,236458462,76561198042720541,english,"first 500 hours you follow a step by step guide, the next 1000 hours you learn basic crafting, the next 1000 hours you start getting intrigued in ideas for crafts/builds, the next 500 your start realizing crafting functionality for real and try to make viable builds yourself. and somehow there is still thousands and thousands of hours left for other fun stuff you didn't even know existed. tickles all the tisms",True,1790676756,1790676756,2026-09-29T10:12:36+00:00,0,0,202777,202777,other,official
+238960,236452941,76561198307959561,english,"As a beginner I will need more time to decide if this game is for me or not. 
+I will write a review once I can say I know what I am doing. 
+On the first glance tho :  10/10",True,1790668242,1790668242,2026-09-29T07:50:42+00:00,3,0,138832,138832,other,official
+238960,236451152,76561199824416306,english,"Horrible end game, boss fights and overall balance. The game is designed around constant unavoidable deaths, pretending it has depth. Mostly free, forcing payment for extra stash size.",True,1790665072,1791534653,2026-09-29T06:57:52+00:00,0,0,18349,16415,other,official
+238960,236446482,76561199790616020,english,i dont wanna stop playing,True,1790657005,1790657005,2026-09-29T04:43:25+00:00,0,0,1123,226,other,official
+238960,236410808,76561199057978284,english,good,True,1790613447,1790613447,2026-09-28T16:37:27+00:00,0,0,1575,1380,other,official
+238960,236407853,76561198397164931,english,"My favorite game, highly recommend",True,1790610649,1790610649,2026-09-28T15:50:49+00:00,1,0,101793,101793,other,official
+238960,236406071,76561199793809328,english,great,True,1790609014,1790609014,2026-09-28T15:23:34+00:00,0,0,125423,123292,other,official
+238960,236387010,76561198065245398,english,1,False,1790584539,1790584539,2026-09-28T08:35:39+00:00,1,0,17745,17745,other,official
+238960,236357844,76561198132375286,english,Amazing game!,True,1790542080,1790542080,2026-09-27T20:48:00+00:00,0,0,62522,62522,other,official
+238960,236351352,76561198977036332,english,10/10 game with 0 complexity👍,True,1790536406,1790536406,2026-09-27T19:13:26+00:00,1,1,8503,8503,other,official
+238960,236334858,76561198649194170,english,"Similar to Diablo, but more interesting character development and logic story.",True,1790523711,1790523711,2026-09-27T15:41:51+00:00,0,0,1125,735,other,official
+238960,236308922,76561198651547046,english,Good game,True,1790501344,1790501344,2026-09-27T09:29:04+00:00,0,0,979,979,other,official
+238960,236289513,76561198323922895,english,"Pros
+Game = Good
+
+Cons
+",True,1790477243,1790477243,2026-09-27T02:47:23+00:00,0,0,8414,4442,other,official
+238960,236287674,76561198029826176,english,Awesome,True,1790474880,1790474880,2026-09-27T02:08:00+00:00,0,0,20319,20319,other,official
+238960,236287203,76561198924857624,english,ggg,True,1790474260,1790474260,2026-09-27T01:57:40+00:00,0,0,10265,10062,other,official
+238960,236283599,76561198028784867,english,"Ads, microtransactions, and more ads.",False,1790469866,1790469866,2026-09-27T00:44:26+00:00,0,0,63,63,other,official
+238960,236276032,76561198217964909,english,"i don't recommend this game not because it's a bad, or because i dislike it. no, i find it quite fun and think it's fantastic. the issue is in the fact that it's a decade old live service game and has a ton of flaws. constant stuttering, constant patches, constant mouse and keyboard locking, and generally just a lot of performance issues. it is genuinely a shame how poorly the game runs because I truly want to enjoy this experience...but I don't think that's in the cards, at least not for people without a legit strong PC. if you do not have a less than 5-year old computer, like i do, i cannot recommend playing this. however, if you DO, this game is more worth your time than anything else in the history of gaming...I mean it.",False,1790461196,1790461196,2026-09-26T22:19:56+00:00,0,0,8504,6689,other,official
+238960,236266319,76561198050493679,english,This game took over my free time. I loved every second of it. Amazing and only getting better. 10/10,True,1790452476,1790452476,2026-09-26T19:54:36+00:00,0,0,110277,110277,other,official
+238960,236263371,76561198087174568,english,time sink,True,1790450103,1790450103,2026-09-26T19:15:03+00:00,0,0,45015,44018,other,official
+238960,236253113,76561198815242098,english,"This game is tons of fun, quick action into combat with endless bad guys to slaughter!! I don't like that I'm forced to play a female avatar with some of the classes, would be nice to have male and female toons to play. And I would nice to have attractive avatars in the game. It would be fun to build my own base. :)",True,1790442008,1790559762,2026-09-26T17:00:08+00:00,0,0,3534,1748,other,official
+238960,236251331,76561198007589819,english,cures the itch for item looting,True,1790440632,1790440632,2026-09-26T16:37:12+00:00,0,0,10392,9708,other,official
+238960,236247412,76561199614686919,english,Great Game.,True,1790437688,1790437688,2026-09-26T15:48:08+00:00,0,0,61040,61036,other,official
+238960,236241749,76561198077887658,english,"I installed this and was excited to find myself on a beach. Unfortunately, I was never able to leave the beach. A red wall of mist prevented me from leaving, and every time I approached it I got the message ‘Talk to the exile with Left-Click.’ and although a left-click moved the character, it did nothing else. I spent a while looking for solutions, and there was a video about it, which required some kind of 2FA from the dump that is YouTube to watch and I thought, life is too short for this.
+
+Uninstalled.",False,1790433400,1790433400,2026-09-26T14:36:40+00:00,0,0,64,64,other,official
+238960,236231531,76561198759179730,english,"Fantastic Game - Feels like Diablo but with more choice.
+
+This is the best game I've played since Diablo II, the story is fantastic and the voice acting is very good.
+You have a skill tree that's so massive you can make you character anything you want it to be.
+
++ All content is completely free.
++ You can buy cosmetics and upgrade you stash (Only if you want to)",True,1790424705,1790424705,2026-09-26T12:11:45+00:00,0,0,8317,6765,other,official
+238960,236201480,76561199147806684,english,GOAT Game. Thats it.,True,1790389774,1790389774,2026-09-26T02:29:34+00:00,1,0,86805,86606,other,official
+238960,236184405,76561198118396010,english,"still the best arpg as it was 10 years ago, really, probably just the best game ever made",True,1790370472,1790370495,2026-09-25T21:07:52+00:00,0,0,106062,105359,other,official
+238960,236183201,76561198048347972,english,"WHAT COIN DO I FING NEEED? ok ok whats the droprate? 1/10000000000TH WTFF!!!!!
+
+yep that's the Endgame, but the content is good!
+
+will uninstall and return next season.
+",True,1790369459,1790369459,2026-09-25T20:50:59+00:00,0,0,9921,9921,other,official
+238960,236180550,76561199792577424,english,"I feel like the design of enimies look great. My only problem is the frequent colour issues, but that might just be a problem with my laptop",True,1790367173,1790367212,2026-09-25T20:12:53+00:00,0,0,1987,1986,other,official
+238960,236160852,76561198370932849,english,"its like playing in a spread sheet with planning, crafting, gambling and with a tink sound that stimulate your brain to to the moon (rng sucks btw but hey its poe baby)",True,1790352095,1790352095,2026-09-25T16:01:35+00:00,0,0,56489,55851,other,official
+238960,236155808,76561199868108389,english,*****,True,1790348269,1790348269,2026-09-25T14:57:49+00:00,0,0,107050,106961,other,official
+238960,236132561,76561198833526649,english,"Awsome game for a Free to play , try it out give it a go",True,1790325237,1790325237,2026-09-25T08:33:57+00:00,0,0,11299,7276,other,official
+238960,236124548,76561198025802784,english,"Wonderful game.
+However the support to try and get back your account after having your email hacked is not worth the trouble... so the game is great, the support. not so much. After a lot of back and forth I got the help I wanted.",True,1790314774,1790425378,2026-09-25T05:39:34+00:00,0,0,152025,152025,other,official
+238960,236117636,76561198131531658,english,Starting to figure this game out.,True,1790305516,1790305516,2026-09-25T03:05:16+00:00,0,1,317128,317128,other,official
+238960,236115255,76561198153962848,english,"Best game on ps4 and 5 went I had the console, another best way to play is pc steam.",True,1790302462,1790302462,2026-09-25T02:14:22+00:00,0,0,1449,204,other,official
+238960,236108729,76561199218933442,english,+++,True,1790294252,1790294252,2026-09-24T23:57:32+00:00,0,0,9879,8272,other,official
+238960,236097022,76561198029107215,english,"Its really complex and i only recommend it if you like spreadsheets.
+Also to reach lvl 100 is pretty hard due to loosing 10% exp per death in the lategame.
+
+Well the storyline can be done even without too much effort. But the lategame content is where the game really starts.
+
+Also its free to play but if you dont want to suffer you will need to put some money into it.
+Because you cannot sell stuff to other players without a premium merchant tab.
+
+also the inventory is quite limited especially in the late game, and new tabs cost premium currency as well.
+
+But theoretically you can play without it. Its just quite hard and takes a lot of time.
+
+",True,1790283440,1790283440,2026-09-24T20:57:20+00:00,0,0,35347,29577,other,official
+238960,236096832,76561198255302770,english,"Endless amounts of gameplay, with infinite replayability. Constantly being given new content by the dev, and a great community online for any help or needs you may have.",True,1790283285,1790283285,2026-09-24T20:54:45+00:00,0,0,328430,328315,other,official
+238960,236089833,76561198039821201,english,;),True,1790278692,1790278692,2026-09-24T19:38:12+00:00,0,0,4590,1900,other,official
+238960,236072758,76561197997819921,english,I haven't played this game in years decided to play it again... Unfortunately it is completely unplayable. Me and my friends disconnect all the time no matter what server we decide to play.,False,1790269982,1790269982,2026-09-24T17:13:02+00:00,2,0,2414,2414,other,official
+238960,236030552,76561198163577504,english,Nice Game just to spend time On it. i only Play an hour per day. But it suffice,True,1790247547,1790247547,2026-09-24T10:59:07+00:00,0,0,2330,1506,other,official
+238960,235939915,76561198037400753,english,the hours on here dont even count the insane time i have on my xbox.ive been playing this since beta and will keep going till they stop me lol,True,1790184622,1790184622,2026-09-23T17:30:22+00:00,0,0,8826,8826,other,official
+238960,235915081,76561198407587760,english,Good souls-like game 10/10,True,1790174135,1790174135,2026-09-23T14:35:35+00:00,0,1,6503,6503,other,official
+238960,235900284,76561197994006651,english,Extremely fun and captivating ARPG that you should play if you enjoy Diablo 1 & 2,True,1790163239,1790163239,2026-09-23T11:33:59+00:00,0,0,28847,28843,other,official
+238960,235885466,76561198359403589,english,path of aut*sm.,True,1790145388,1790145388,2026-09-23T06:36:28+00:00,0,0,2653,2097,other,official
+238960,235882486,76561198340175082,english,I got into arpg recently with this game. It has been a super engaging and addictive experience playing through the campaign and now playing maps. Only disappointment is that I feel like I got into this game too late,True,1790140399,1790140399,2026-09-23T05:13:19+00:00,0,0,9215,8053,other,official
+238960,235867250,76561198119035440,english,"Best arpg with decades of content that you'll never figure out but always enjoy. 
+Once you get past the skill tree jump scare ofc.",True,1790119461,1790119461,2026-09-22T23:24:21+00:00,0,0,304429,304429,other,official
+238960,235845564,76561198324276106,english,Yes,True,1790097108,1790097108,2026-09-22T17:11:48+00:00,1,0,18188,18188,other,official
+238960,235836674,76561198345444044,english,Great game!,True,1790089624,1790089624,2026-09-22T15:07:04+00:00,0,0,1163,564,other,official
+238960,235820352,76561198068723566,english,i dont get it yet,True,1790070474,1790208395,2026-09-22T09:47:54+00:00,0,0,1206,1206,other,official
+238960,235819970,76561199011313958,english,Its pretty good,True,1790069789,1790069789,2026-09-22T09:36:29+00:00,0,0,2549,1161,other,official
+238960,235810182,76561198138231682,english,"Yup, killing is my thing. Therapy is too expensive.",True,1790052770,1790052770,2026-09-22T04:52:50+00:00,0,0,8955,8955,other,official
+238960,235796358,76561198064596873,english,"If you would like to play the best arpg to ever do the genre, here it is. Its complexity is certainly not for everyone, many may be overwhelmed with the plethora of knowledge to gain. I haven't learned it all, and doubt I ever will, but the fact that I know that allows me to have joy at the things I do understand. If you enjoy deckbuilding games, finding synergies feels very similar and you will likely enjoy making your own builds. Id recommend a friend to explore and learn with, as without one you will have no real person to confirm your discoveries with. Enjoy!",True,1790032130,1790032130,2026-09-21T23:08:50+00:00,3,0,142956,139735,other,official
+238960,235794310,76561199865957259,english,"This game is very fun. The level progressions go by quickly and the different gems give you different skills. I think my only comment is that some of the builds are very similar to each other. The melee guys (the Barbarian/Rogue) classes are built pretty similarly. Both can carry shields and both can fight with melee weapons. Other than that, it's a good game.",True,1790029329,1790029329,2026-09-21T22:22:09+00:00,0,0,4184,4034,other,official
+238960,235794165,76561199233087739,english,awli,True,1790029137,1790029137,2026-09-21T22:18:57+00:00,0,0,1446,199,other,official
+238960,235789362,76561198084515568,english,Log-in,True,1790023586,1790023586,2026-09-21T20:46:26+00:00,0,0,49894,49894,other,official
+238960,235782795,76561197985390556,english,They do not honor your purchases.,False,1790016927,1790016927,2026-09-21T18:55:27+00:00,0,0,21063,21051,other,official
+238960,235770254,76561198213087453,english,"Good game Played for free for the first 150 hours then got the packs that allows you to explore on your own pace good ride atm at 1600h with 5 years on and off in the game a lot of content take care of burning out. the first 150 were chill with no guides, reading guides provide technical exp that help you build whatever you want. Only played ranger and assassin.",True,1790005591,1790005591,2026-09-21T15:46:31+00:00,0,0,99359,97847,other,official
+238960,235744036,76561198999508015,english,"Дьяблоид, но дрочь. В целом каждый знает что игра заслужила себе место, а там либо зайдет, либо нет. Учитывая бесплатность попробовать нужно.",True,1789970102,1789970102,2026-09-21T05:55:02+00:00,0,0,2477,2477,other,official
+238960,235739688,76561199821351895,english,Its a very good game I do wish the currency was better. They want you to spend lots of money for simple outfits. But it over all a really fun game.,True,1789962398,1789962398,2026-09-21T03:46:38+00:00,0,0,1098,1002,other,official
+238960,235717415,76561197972133438,english,Have always liked this game. So much to do.,True,1789934350,1789934350,2026-09-20T19:59:10+00:00,0,0,76148,74225,other,official
+238960,235715123,76561198696865958,english,really good one,True,1789932276,1789932276,2026-09-20T19:24:36+00:00,0,0,26542,14655,other,official
+238960,235714790,76561198333560458,english,How do you play this game,True,1789931973,1789931973,2026-09-20T19:19:33+00:00,0,0,16988,15023,other,official
+238960,235712756,76561198813032219,english,Peak of Entertainment,True,1789930273,1789930273,2026-09-20T18:51:13+00:00,0,0,34664,31551,other,official
+238960,235712657,76561198304484517,english,Game is okay I guess,True,1789930182,1789930182,2026-09-20T18:49:42+00:00,0,0,142533,129796,other,official
+238960,235702603,76561198029299389,english,Pinnacle of ARPGs.,True,1789921901,1789921901,2026-09-20T16:31:41+00:00,0,0,3681,2955,other,official
+238960,235692329,76561198429800270,english,,True,1789913741,1789913741,2026-09-20T14:15:41+00:00,0,0,21561,20262,other,official
+238960,235688045,76561197984951987,english,"it's a game where you  move about,  collect loot, and fight hordes of things. If you like games where you move about, collect loot, and fight hordes of things then I suggest this game might be for you. 
+If as a player you prefer no loot, not moving about, and no hordes of things, then this might not be your game.",True,1789910059,1789910059,2026-09-20T13:14:19+00:00,14,27,269,181,other,official
+238960,235675021,76561198016726936,english,"This game is the next level.  Gold means little.  Trading for other small stuff, items are cheaper than other games, more enchanced.  Spells come from gems and etc.  Skills are actual skills.  You can mix your char up extremely well.  Perfect game!  Make sure to use the gambling NPC when you have gold, its worth it!",True,1789895804,1789895804,2026-09-20T09:16:44+00:00,0,0,1068,239,other,official
+238960,235667758,76561198694200927,english,"Kinda disappointed, ran into some bugs :)",False,1789886070,1789886070,2026-09-20T06:34:30+00:00,0,0,234,234,other,official
+238960,235626564,76561199569933425,english,Pretty good game.,True,1789839118,1789839118,2026-09-19T17:31:58+00:00,0,0,17756,9460,other,official
+238960,235619355,76561199446760232,english,This game is so peak.,True,1789832883,1789832883,2026-09-19T15:48:03+00:00,0,0,9431,9231,other,official
+238960,235616593,76561198061100908,english,"fun game, tons of customization and content
+
+performance still poopoo in endgame",True,1789830553,1789830553,2026-09-19T15:09:13+00:00,0,0,5992,5882,other,official
+238960,235614847,76561198005992759,english,Great ARPG. Dont let the skill tree intimidate you,True,1789829130,1789829130,2026-09-19T14:45:30+00:00,0,0,2226,582,other,official
+238960,235588566,76561198056513495,english,Gambling is bad,True,1789799960,1789799960,2026-09-19T06:39:20+00:00,1,0,23145,21304,other,official
+238960,235587234,76561199575738240,english,LOT'S of fun,True,1789798012,1789798012,2026-09-19T06:06:52+00:00,0,0,5358,1159,other,official
+238960,235576879,76561198157733777,english,"I have been playing path of exile for years now, and it continues to pull me in every season. Build variety and endgame are top tier, and the passive skill tree is a sight to behold. Endless content, Endless fun",True,1789783740,1789783740,2026-09-19T02:09:00+00:00,0,0,4303,1692,other,official
+238960,235575346,76561198051676463,english,great game,True,1789781581,1789781581,2026-09-19T01:33:01+00:00,0,0,956,570,other,official
+238960,235571238,76561198272381026,english,,True,1789776111,1789776111,2026-09-19T00:01:51+00:00,0,0,9155,7806,other,official
+238960,235569779,76561198098268913,english,"The community in the game is worse than your regular tiktok liberal feminist. Do you play solo? I recommend, Are you planning to use chat? Well, try not to miss pronouns a man in skirt",False,1789774311,1789774311,2026-09-18T23:31:51+00:00,1,1,1386,1319,other,official
+238960,235565209,76561198028212669,english,"No other diablo like comes even close to the depth and customization POE has, if you like making cool shit in a game, there is no alternative",True,1789768911,1789768911,2026-09-18T22:01:51+00:00,0,0,55507,53881,other,official
+238960,235536578,76561198374369350,english,This is your life now.,True,1789741772,1789741772,2026-09-18T14:29:32+00:00,0,0,117991,115306,other,official
+238960,235508654,76561198202370653,english,"Title: A Masterclass in Isometric Malice, Grinding Incompetence, and Betrayed Devotion: The Absolute Extinction Event of Path of Exile
+
+I used to believe in this game with every fiber of my being. That unwavering, misplaced faith is now my deepest, most agonizing, and most humiliating wound. I didn’t just play Path of Exile; I consumed it, breathed it, and sacrificed thousands of waking and sleeping hours to its dark, fog-choked atlas corridors, treating its punishing skill trees and brutal map grinds as a sacred second home. I spent years defending Grinding Gear Games' glacial patch cycles, actively rationalizing their glaring resistance penalties, and aggressively dismissing the dark warning signs whispering through the community as the mere whining of disgruntled casuals. I was a foot soldier of a cult-like devotion, utterly convinced that this was a world crafted by visionary indie creators who understood the fragile, beautiful bond between an ARPG developer and a passionate player base.
+
+How intensely, unforgivably, and pathetically foolish I was.
+
+What the public sees on the store page is a legendary, deep-as-an-ocean action RPG—a modest isometric masterpiece born from years of dedicated work claiming to channel the ultimate hardcore ARPG experience. But beneath that paper-thin, calculatedly deceptive facade lies a predatory, aggressively hostile ecosystem designed to exploit your time, weaponize your passion, harvest your free community wiki labor, and ultimately punish you for the singular crime of actually engaging deeply with their high-tier endgame loop. The harsh reality of Path of Exile isn't a love letter to the genre; it’s an institutionalized insult, a middle finger to anyone foolish enough to invest hundreds of hours into its structurally hollow and fundamentally broken framework.
+
+Let’s pull back the curtain and talk about the unspoken horror that haunts the upper echelons of this game: the arbitrary, indiscriminate, and utterly cowardly ban hammer and trade restrictions that target the most dedicated players the moment they master currency farming or fast mapping. For weeks, the veteran group chats whispered about it in paralyzing dread. Dedicated players—the exact backbone of the economy, the people organizing multi-stash trading syndicates, keeping multiplayer trade websites alive, and filling the community forums with complex build guides—would vanish overnight, or find their accounts locked behind an impenetrable wall of developer silence. Their names were silently scrubbed from ladders, their stash tabs vaporized, and their accounts flagged for abnormal macro usage. I scoffed at the victims. I arrogantly told myself that I played completely legitimately, that hundreds of hours of honest boss killing, meticulous currency management, and raw survival persistence would serve as my shield.
+
+Then my inevitable turn came.
+
+At level 98, deep inside a high-tier heavily-modded map I had rolled a thousand times for an elusive, mathematically insulting rare drop, the screen seized violently. The dreaded, ominous network disconnection warning flashed across the UI, followed instantly by a forced, unceremonious dump to the login screen. My hands shook uncontrollably as I scrambled to re-enter my credentials, hit enter, and was greeted by the most infuriating, gut-wrenching, soul-crushing message any ARPG veteran can possibly receive: “This account has been banned.”
+
+No warning. No specific rule violation cited. No log data provided. No human review whatsoever. Just an abrupt, summary execution carried out by a completely inept, automated detection algorithm that apparently cannot comprehend the basic reality that a human being might actually want to play an ARPG for more than ten hours a day or use third-party trade macros. If you dare to actually play their game, to push past the lazy mid-game wall, and dedicate real, unbroken hours to mastering the convoluted passive skill tree and grinding endgame bosses, their broken, hair-trigger security protocols automatically flag your sheer dedication as anomalous botting behavior. They don't want you reaching the summit because they either haven't built a functional, stable endgame to sustain high-level players, or they are utterly terrified of what veteran players discover when the illusion of depth is finally pulled back.
+
+And when you turn to customer support for even a shred of recourse or human dignity? Prepare to crash headfirst into a brick wall constructed entirely of corporate apathy, cowardice, and condescension. I poured my bleeding, broken heart into a meticulously written support ticket—detailing my exact playtime, my absolute adherence to fair play, and my profound, heartbreaking disappointment. Within minutes, I was hit with the exact same robotic, copy-pasted wall of garbage text that every single banned victim receives: ""Your account has been reviewed and the suspension is permanent. This decision is final.""
+
+No appeal process. No human being willing to look at your case, check your server logs, or grant you basic respect. Just a cold, algorithmic middle finger from developers who happily take the community promotion, the active player counts, and the free labor of their trade systems while treating us like disposable trash the moment an automated script misfires. The silence from Grinding Gear Games is deafening, pathetic, and entirely telling. They hide behind automated systems because facing the human wreckage of their broken anti-cheat and abysmal balance design requires a spine they simply do not possess.
+
+The technical and design state of the game outside of these tyrannical bans is an absolute disaster anyway, propped up by pure sunk-cost fallacy and endless supporter pack monetization. The economy is a chaotic, hyper-inflated mess dictated by market manipulators who somehow bypass the very detection tools meant for honest players. High-level combat balancing is practically non-existent, featuring lazy one-shot mechanics that demand artificial difficulty rather than tactical engagement. The repetitive grind quickly morphs from an exciting loot hunt into an unrewarding, punishing, soul-crushing chore. Every single system feels half-baked, held together with digital duct tape and the nostalgic goodwill of players who desperately want it to succeed, only to be brutally kicked in the teeth the second they cross the finish line.
+
+My level 98 character—complete with painstakingly optimized passive trees, hard-earned mirror-tier equipment, hundreds of hours of irreplaceable memories, and genuine friendships forged in guild chats—was erased in a single, callous click. All of it gone, vaporized into the ether by developers who couldn’t care less if every single veteran player walked away.
+
+If you are a new player currently looking at this store page, reading the glowing expansion promises, or thinking about downloading this free-to-play trap: Stop. Do not install it. Do not give them your metrics. Do not invest your time, your energy, or your passion into a digital world that fundamentally despises its own community. Play literally anything else. Because if you actually stay, if you actually grind, and if you dare to love this game too much, the only reward waiting for you at the top is a permanent ban screen and a developer who refuses to look.
+
+Path of Exile isn't just another failed live-service experiment; it is a meticulously constructed psychological trap for the devoted and an eternal monument to bad-faith development. Save your time, save your sanity, protect your peace, and stay far, far away from this toxic wasteland. It stands as a profound, unforgivable insult to anyone who ever believed that passion, time, and genuine emotional investment in a virtual world would be met with anything other than cold, mechanical betrayal. Every single pixel of this fraudulent project bleeds contempt for its player base, transforming what should have been a nostalgic sanctuary.",False,1789700913,1789700974,2026-09-18T03:08:33+00:00,65,39,199308,199308,other,official
+238960,235508333,76561197978959747,english,"I played this game many years ago when there were only 3 Acts. Over a decade and 7 additional acts later, it is most impressive how much content has been added to the game at no cost. The campaign is a well written grim tale about choices and consequences rather than your standard good vs evil plotline. You can play all 10 Acts without having to spend a penny. You may not buy a single cosmetic, however, you may need to invest in extra storage to play endgame content given the copious amounts of loot and currency you will reap. Endgame activities include Atlas of Worlds, Mine Delving, Rogue Harbor Heists, and Sanctum runs to name a few. GGG even added a City Management sim with Kingsmarch. Seasons add new gameplay modes and mechanics to incentivize rolling a new Exile. The most recent season has added a game changing quality of life improvement - the removal of skill gem and gear socket color matching restrictions. An absolute game changer! PoE has now evolved into one of the best ARPGs out there. I am hooked and loving it!",True,1789700480,1789943483,2026-09-18T03:01:20+00:00,0,0,22309,22003,other,official
+238960,235502604,76561197999710361,english,"  Okay here's my review for PoE and it's parent company GGG.  ""hey kids, want to play a game that hates you?  Want to be trolled nonstop by flamers, bots and hackers?  You like hating yourself and want to be depressed?  Come play Path of Exile.  We actively hate you, sell your data, and sold out to hostile governments.""  Too bad none of these companies are honest.
+
+  The good:  It's a Diablo 2 clone from Grinding Gear Games.  There are alot of active events.  The skill tree and masteries are decent.  Most of the game plays smoothly.  It's a free game.
+
+  The bad:  GGG completely sold out to the CCP.  Heavy monetization for stash and non cosmetics included.  The classes are unbalanced, Try playing summoner if you really want to scream.  The code is messy.  If you get wrecked due to said bad code, you will only get flames and screamed at by fanatics ""Get gud chump.""  The game is dying, they have switch focus to PoE2.
+
+  The ugly:  Graphics, Other players, repetitive maps, customer support, random perma-bans, how much ram and cpu this game actually takes...
+
+  Overall:  Give it a spin to make up your mind, just don't expect to come back after a month or two.  It's free so no big loss except your time and sanity.",False,1789692154,1789692154,2026-09-18T00:42:34+00:00,3,3,8863,8863,other,official
+238960,235498427,76561198053030150,english,Fix your game GGG!,True,1789686302,1789686302,2026-09-17T23:05:02+00:00,1,0,41239,39621,other,official
+238960,235481744,76561198646747345,english,.,True,1789668534,1790131896,2026-09-17T18:08:54+00:00,0,0,15,15,other,official
+238960,235474569,76561198032411983,english,"The GOAT of APRGs
+
+It takes time to learn because of the depth, but the depth is what makes it the best. It's worth the effort, I went from ""bro why did my buddy make me get this game, i'm lost asf"" to ""holy shit when's the new league coming I can't wait to play again""",True,1789661861,1789661861,2026-09-17T16:17:41+00:00,0,0,169,169,other,official
+238960,235463121,76561198162617237,english,"1 of the ARPG games I would recommend. Initially went in solo blind, it was tough. Then few friends hoped in to join. Started fresh and it was 1 of the best gaming times.
+
+I dislike the complex skill tree that requires a lot of research, but it will never be unfunny how my friends occasionally explodes 1 hit KO from mobs Act5 campaign onwards xD
+
+Is not a lot, but I bought 2 weta bugs and some stashes to show my support for the game, I think the game is pretty solid for me :D",True,1789650950,1789650950,2026-09-17T13:15:50+00:00,0,0,5783,4080,other,official
+238960,235447999,76561198062753396,english,"It's okay. Could get a bit more bang for your buck, I guess.",True,1789627746,1789627746,2026-09-17T06:49:06+00:00,0,0,134945,134945,other,official
+238960,235424294,76561198109749081,english,I like more than Diablo II,True,1789593252,1789593252,2026-09-16T21:14:12+00:00,0,0,7084,1632,other,official
+238960,235422422,76561198052581293,english,"A favorite!
+",True,1789591239,1789591239,2026-09-16T20:40:39+00:00,0,0,57033,53298,other,official
+238960,235420979,76561199793982420,english,"Best F2P game ive played, cant wait for poe2",True,1789589730,1789589730,2026-09-16T20:15:30+00:00,0,0,4580,2945,other,official
+238960,235418667,76561198117748222,english,"Very nice game, i'm so addicted!!!",True,1789587399,1789587399,2026-09-16T19:36:39+00:00,0,0,2984,1435,other,official
+238960,235411249,76561198398692045,english,"Back when I played this game I was very impressed for the first 8 hours of play time. But then the veil lifted and it become clear quite fast that this game is B.O.R.I.N.G.
+
+When you first launch the game and begin your adventure everything is undoubtedly interesting, the world around you is gritty, dark and brutal and you want to push forward. For the first few hours of playtime you do, but then your realise that this game is..... really easy. I mean really easy, within my first 4 hours of playtime I reached a point where I was not at all scared of anything I faced and by hour 8 the very few bosses that appeared if they EVER appeared didn't feel like a challenge at all because at this point I had spent every skill point upgrading my health and regen speed so that I would never go below 75% of my max health. And it lowk worked....
+
+Furthermore for an MMO there is like no compelling NPC or world interaction, not that I faced anyway. Every NPC had a straight forward use and only did that, all I'm saying is that it would have been nice if they game / world around you tried to engage with you in any way. Just a little passing quip would have been enough for me.
+
+To sum it up this game can be fun if you enjoy pushing through hordes of enemies without a care, but for me. I would have liked a little more.",False,1789580299,1789580299,2026-09-16T17:38:19+00:00,1,1,961,961,other,official
+238960,235408754,76561197983155187,english,"Fun hack and slash. I can see why it was so popular back in the day. Its free-2-play now and worth your time if you want to give it a shot.  Difficulty is pretty easy, you find a lot of loot that gives you insane stat boosts. Playing a tank class and only a few bosses came even close to killing me. System is very forgiving, so you can use any equipment as long as you have the stats.  Good old school fun.",True,1789578019,1789578019,2026-09-16T17:00:19+00:00,1,0,940,673,other,official
+238960,235392577,76561197968673671,english,it's a good game :3,True,1789561534,1789561534,2026-09-16T12:25:34+00:00,0,0,60285,60279,other,official
+238960,235376624,76561199084634332,english,"My dumb ahh keeps finding ways to die on a map, I'm gonna go cry myself to sleep knowing this is what I'm gonna be dealing with for the next 100 hours :( I love it",True,1789535964,1789535964,2026-09-16T05:19:24+00:00,0,0,4498,4489,other,official
+238960,235373455,76561198063689128,english,"[h1]GREAT GAME - BUT ONE LEAGUE WAS ENOUGH FOR ME[/h1]
+
+I played one league from beginning to end and honestly...
+
+[b]I had a lot of fun.[/b]
+
+Path of Exile has an insane amount of depth.
+
+* Tons of builds
+* Huge skill tree
+* Very satisfying character progression
+* Lots of endgame content
+* A ridiculous amount of things to learn and optimize
+* You can easily spend hundreds of hours on one character
+
+But that is also where my biggest problem starts.
+
+[h2]THIS GAME WANTS A LOT OF YOUR TIME[/h2]
+
+Progression can become extremely time consuming.
+
+Getting your build exactly where you want it, farming currency, improving gear and pushing further into the endgame can consume an enormous amount of time.
+
+During my league I enjoyed doing it.
+
+But after finally reaching my goals, my reaction was basically:
+
+[b]""That was fun... but I don't think I want to do all of that again.""[/b]
+
+And with a new league, a huge part of that progression starts all over again.
+
+For some players, that is exactly why they love Path of Exile.
+
+For me, one serious league was enough.
+
+[h2]GOOD:[/h2]
+
+* Incredible build variety
+* Deep character progression
+* Huge amount of content
+* Very satisfying when your build finally works
+* You can play for a very long time without running out of goals
+* One of the deepest ARPGs available
+
+[h2]BAD:[/h2]
+
+* Extremely time consuming
+* Can be overwhelming for new players
+* A lot of systems to learn
+* Repeating the progression every league is not for everyone
+* It can easily start feeling like a second job if you take it too seriously
+
+[h2]FINAL VERDICT[/h2]
+
+[b]RECOMMENDED.[/b]
+
+I had a good time with Path of Exile and definitely got more than enough entertainment out of it.
+
+But personally?
+
+[b]I finished one league properly, reached my goals and I think that was enough for me.[/b]
+
+Great game.
+
+I just don't have another few hundred hours to sacrifice to Wraeclast.
+",True,1789530784,1789530784,2026-09-16T03:53:04+00:00,0,0,12073,12073,other,official
+238960,235373441,76561198077649117,english,"Probably tied with Path of Exile 2 for the best Action-RPG. 
+Where Path of Exile 2 is more action and dodge based this one is more numbers based",True,1789530753,1789530753,2026-09-16T03:52:33+00:00,0,0,36448,34365,other,official
+238960,235369317,76561197962119763,english,"Probably one of my top ten games played in terms of hours spent playing it.
+
+If you've ever played Diablo 2, which before POE was the ur-example of dungeon crawling games as a genre, then that's what POE is. The difference is that POE has a thousand times the content and is easily a thousand times as fun.
+
+",True,1789524703,1789524703,2026-09-16T02:11:43+00:00,0,0,35982,35982,other,official
+238960,235363201,76561198864685694,english,Diablo 3 in 4k with RTX and DLSS 5..,True,1789515730,1789515730,2026-09-15T23:42:10+00:00,0,0,2900,1877,other,official
+238960,235361943,76561198100687450,english,Waiting for a mirror drop,True,1789513863,1789513863,2026-09-15T23:11:03+00:00,0,0,244194,244131,other,official
+238960,235359726,76561198757064543,english,"This game is very good and can be extremely difficult at times
+",True,1789510920,1789510920,2026-09-15T22:22:00+00:00,0,0,787,235,other,official
+238960,235351625,76561199390876244,english,.,True,1789501011,1789501011,2026-09-15T19:36:51+00:00,0,0,565,565,other,official
+238960,235336637,76561198406223356,english,"Fix the state of EU servers, it's ridiculous.",False,1789486139,1789486139,2026-09-15T15:28:59+00:00,0,0,57139,57128,other,official
+238960,235323553,76561198644376005,english,"Great!
+",True,1789471688,1789471688,2026-09-15T11:28:08+00:00,0,0,1732,1464,other,official
+238960,235321696,76561199095106936,english,Best mmo rpg out there,True,1789469014,1789469014,2026-09-15T10:43:34+00:00,0,0,2616,2616,other,official
+238960,235321338,76561198126090302,english,an absolute classic,True,1789468433,1789468433,2026-09-15T10:33:53+00:00,0,0,8142,8142,other,official
+238960,235303296,76561198826254563,english,"A skill tree. It's all I see. I open my eyes, I see it. I close my eyes, I see it. Even when I dream, I can see that skill tree lurking, waiting. That how it gets you. First it seems intimidating, and then fascinating. But then it's true colors show. The paranoia takes hold and grows stronger until you simply become another node on the skill tree. I can't even think anymore, not without the tree seeping through and growing stronger. Anyways, 10/10! The freedom on the skill tree is awesome.",True,1789436247,1789436247,2026-09-15T01:37:27+00:00,0,0,7021,6340,other,official
+238960,235295914,76561198061081195,english,good game I guess,True,1789425802,1789425802,2026-09-14T22:43:22+00:00,0,0,117633,117309,other,official
+238960,235295390,76561199403239535,english,ggod game,True,1789425127,1789425127,2026-09-14T22:32:07+00:00,0,0,243,243,other,official
+238960,235294011,76561197998650490,english,"**Recommended — 576+ hours**
+
+Path of Exile is a wonderful game about killing monsters, collecting loot, and slowly realizing you've accidentally enrolled in an unpaid university course.
+
+I started playing thinking, ""Oh cool, Diablo but free.""
+
+576 hours later I'm staring at six different resistance numbers, moving gems around like a crackhead doing electrical work, and getting genuinely excited because a chest has the correct combination of coloured holes in it.
+
+10/10.
+
+I mostly play Necromancer, because why fight my own battles when I can bring an entire unemployment line of skeletons, spectres, golems and other assorted dead people with me?
+
+Sometimes my army deletes half the map.
+
+Sometimes a boss looks vaguely in my direction and I immediately become a historical event.
+
+That's Path of Exile.
+
+The amount of content in this game is fucking absurd. Every time I think I understand it, another mechanic crawls out from underneath a rock carrying seventeen currencies and a crafting system that apparently requires a minor in economics.
+
+And somehow I love it.
+
+The developers and support staff deserve genuine credit too. My experiences with them have been great. I've had reward/drop issues sorted out by actual humans, and I've always gotten the impression that the people behind this ridiculous monster genuinely give a shit about it and its community.
+
+Is it beginner friendly?
+
+Absolutely fucking not.
+
+The passive tree looks like someone dropped a plate of spaghetti onto a motherboard and called it character progression.
+
+But once it gets its claws into you, there really isn't anything else quite like it.
+
+It's complicated. It's occasionally infuriating. It will happily murder you because you forgot that 41% chaos resistance is apparently the defensive equivalent of wearing a promising hat.
+
+Then you'll get one beautiful drop and forgive everything.
+
+Free game, by the way.
+
+I've paid considerably more money for games I've played considerably less.
+
+See you in maps.
+
+I apparently live here now.
+",True,1789423352,1789423352,2026-09-14T22:02:32+00:00,0,0,34761,34527,other,official
+238960,235283616,76561198030571327,english,"Probably good if you have infinite freetime and no money, but there are other games I'd rather be playing.",False,1789412176,1789412176,2026-09-14T18:56:16+00:00,1,0,353,353,other,official
+238960,235272223,76561198167754184,english,Avoid this piss poor attempt at a Diablo clone it basically forces you to trade with other players to get anywhere in the game after you've gotten somewhere and actually hates new players because believe me you will rage like an insane person from JUST the beginning level/tutorial as literally everything one shots you this is genuinely the worse FTP ARPG game I have ever played based on practices I will never be returning.,False,1789401261,1789401261,2026-09-14T15:54:21+00:00,1,1,15,15,other,official
+238960,235271585,76561199036264810,english,takes sometime to learn the basics but then it is really enjoyable game.,True,1789400644,1789400644,2026-09-14T15:44:04+00:00,0,0,110400,103382,other,official
+238960,235264751,76561198162129210,english,"The game start once you are full build otherwise you will always get frustrated but that's not the problem, crashing alot with loading like never",False,1789394040,1789394040,2026-09-14T13:54:00+00:00,0,0,20302,20224,other,official
+238960,235257591,76561198140556306,english,Nice game.,True,1789385521,1789385521,2026-09-14T11:32:01+00:00,1,0,15,15,other,official
+238960,235249158,76561198963164269,english,You get through the steep learning curve you'll love the game,True,1789373379,1789373379,2026-09-14T08:09:39+00:00,0,0,41888,36612,other,official
+238960,235240999,76561198022060495,english,"great game, have a blast playin!",True,1789358493,1789358493,2026-09-14T04:01:33+00:00,0,0,3279,2533,other,official
+238960,235239572,76561198122265835,english,"ive been playing diablo games since i was a kid and somehow path of exile is a more rich and complete experience than the entire diablo franchise combined. 531 hours currently and ill probably put a whole lot more time into this game in the future with seasonal content.
+do you like diablo style games?
+if so, then play this game.",True,1789356273,1789356273,2026-09-14T03:24:33+00:00,0,0,34902,31894,other,official
+238960,235237216,76561199484506882,english,I think it's a great game. Straining on the eyes though.,True,1789352870,1789352870,2026-09-14T02:27:50+00:00,0,0,295,205,other,official
+238960,235223905,76561198247630012,english,"One of the best ActionRPG's to date, The unique gem system feels like materia from ff7 with the classic hack n slash of Diablo make for an incredible journey!",True,1789336698,1789336698,2026-09-13T21:58:18+00:00,0,0,21168,20710,other,official
+238960,235204470,76561198072651716,english,I've got 1300 hours and I've only played like 4 leagues,True,1789319963,1789319963,2026-09-13T17:19:23+00:00,0,1,80862,77815,other,official
+238960,235203345,76561199476806134,english,Yes,True,1789319063,1789319063,2026-09-13T17:04:23+00:00,0,0,520,478,other,official
+238960,235192813,76561198321030614,english,Simply...a good rpg.,True,1789310991,1789310991,2026-09-13T14:49:51+00:00,0,0,26829,19420,other,official
+238960,235190693,76561198287705347,english,Best game,True,1789309382,1789309382,2026-09-13T14:23:02+00:00,0,0,41175,37298,other,official

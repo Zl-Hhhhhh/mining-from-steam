@@ -1,0 +1,323 @@
+{
+  "fetched_at": "2026-10-12T07:08:51.746391+00:00",
+  "endpoint": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/",
+  "data": {
+    "appnews": {
+      "appid": 262060,
+      "newsitems": [
+        {
+          "gid": "1846018067934247",
+          "title": "Bone Courtier Plushie and Pin Set Available Now!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067934247",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/7434629/0a793b6f852f5cc654e8ede41504f6cacf3113ca.jpg\"][/img][/p][p align=\"start\"][b]New Darkest Dungeon Plushie Available Now![/b][/p][p align=\"start\"]“With no living sinew to actuate them, will these walking bones finally fail?”[/p][p align=\"start\"]Our Bone Courtier Plush has arrived just in time for Halloween. Place your pre-order on Makeship now: [/p][p][url=\"https://www.makeship.com/products/the-bone-courtier-plushie\"]https://www.makeship.com/products/the-bone-courtier-plushie[/url][/p][p][img src=\"{STEAM_CLAN_IMAGE}/7434629/d2031927bbbbaa7d13a5951c07457ad3b7fea956.jpg\"][/img][/p][p]And that’s not all! We’ve also designed a[url=\"https://www.makeship.com/products/bone-courtier-and-tempting-goblet-pins\"] Bone Courtier and Tempting Goblet Pin set[/url] to complete your collection.[/p][p align=\"start\"][/p][p]Tempted? This exclusive Darkest Dungeon merch is only available for a limited time! You have exactly 21 days to place your order. [/p][p][/p][p align=\"start\"]If the Makeship campaign is fully funded by October 31, this plushie is guaranteed to go into production. [/p][p][img src=\"{STEAM_CLAN_IMAGE}/7434629/7ef094be63ab5dfe0bc35d1e1bc0c10c4e1659e5.png\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791568415,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060
+        },
+        {
+          "gid": "1846018067931004",
+          "title": "Darkest Dungeon - The Fire's Edge - Hotfix",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067931004",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]Hello everyone! We've just pushed a little hotfix today to address one issue.[/p][list][*][p]Fixed an issue where the R3 / Right Stick Click was not working correctly for players using Linux.[/p][/*][/list][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791483383,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1845383656397621",
+          "title": "Week 16 - Mod Showcase",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656397621",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]Welcome to Week 16 of the Darkest Dungeon Mod Showcase! This week’s showcase features new heroes for both Darkest Dungeon and Darkest Dungeon II.[/p][p]\nIf you’re a mod maker, and would like to see your work featured, or if you know of an underrated mod you think we should showcase, please fill in this Google Form: [url=\"https://forms.gle/rTpUoFNPv9xmDDax7\"]https://forms.gle/rTpUoFNPv9xmDDax7[/url][/p][p] [/p][p]You can submit up to 3 mods for each game. If you are unable to access Google, then please email your suggestions to us at[url=\"https://feedback@redhookgames.com\"] feedback@redhookgames.com[/url] with the subject line: Mod Showcase Submission[/p][p][/p][p][b]DARKEST DUNGEON[/b][/p][p][u][b]The Boatswain: Overhauled[/b][/u] - Jimiko, Mint, Reebalt[/p][p]The Boatswain: Overhauled is an offensive, mobile support class. Fully capable of moving not only himself, but his allies and enemies as well, he helps to ensure that everyone is in an advantageous position. Should you be faced with a formidable foe, he can help point out the weakest point of their armor for his allies. And should the situation grow more dire, he is more than willing to take a hit for his allies, or show that the anchor he carries, while no conventional weapon, can easily break those who assume this old man is unable to bear its immense weight.[/p][p][img src=\"{STEAM_CLAN_IMAGE}/7434629/236c1c23b590aa5b681610b4387800275dd8d4b0.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/b855faa5e3b2a5d884f11c8406c18d7a8ae07444.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/eb33e0a745be226e094167efd63e3bdec7f589d8.jpg\"][/img][/p][p]Workshop mod link: [dynamiclink href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=3705876845\"][/dynamiclink][/p][p]Curious to see what we featured for our Darkest Dungeon II mod showcase? You can check it out here: [dynamiclink href=\"https://store.steampowered.com/news/app/1940340/view/696525626177226976\"][/dynamiclink][/p][p]\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791322131,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "hide_library_overview",
+            "workshop",
+            "mod_reviewed",
+            "ModAct_1878895840_1791324349_0",
+            "mod_require_rereview"
+          ]
+        },
+        {
+          "gid": "1845383656396976",
+          "title": "Darkest Dungeon: The Original Canon Graphic Novel, now live on BackerKit",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656396976",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/7434629/82755f3698f7f75b2357f3a0a39822b5b9326d01.jpg\"][/img][/p][p]Glory and honor to that ragged band whose triumph healed the world. Unfortunately, peace has never sat comfortably beside the Darkest Dungeon.[/p][p]Today, Vault Comics and Red Hook Studios invite you to descend once again with [url=\"https://www.backerkit.com/c/projects/vault-comics/darkest-dungeon-an-original-graphic-novel/pre-launch/?ref=rh-social\"][i]Darkest Dungeon: The Original Canon Graphic Novel[/i][/url][url=\"https://www.backerkit.com/c/projects/vault-comics/darkest-dungeon-an-original-graphic-novel/pre-launch/?ref=rh-social\"],[/url] now live on BackerKit.[/p][p]This brand-new 180+ page canon adventure takes place after the events of [i]Darkest Dungeon II[/i] and comes from writer John Lees, artist Maan House, and [i]Darkest Dungeon[/i] creative director and Red Hook Studios co-founder Chris Bourassa.[/p][h3][dynamiclink href=\"https://youtu.be/Caqwwz_E0xE\"][/dynamiclink][/h3][h3] CHOOSE YOUR EDITION[/h3][p]The graphic novel will be available in[url=\"https://www.backerkit.com/c/projects/vault-comics/darkest-dungeon-an-original-graphic-novel/pre-launch/?ref=rh-social\"] both Standard and limited Deluxe Editions[/url], each containing the same complete 180+ page story and eligible bonus material unlocked during the campaign.[/p][p]But the Deluxe Edition is not yet finished![/p][p]Additional production treatments and hidden upgrades are scattered throughout the expedition, waiting to be discovered.[/p][h3]EXPLORE THE DUNGEON[/h3][p]The campaign itself has become an expedition.[/p][p]As we complete objectives, we will progress through a dungeon map filled with rewards, upgrades, secret rooms, and challenges.[/p][p]Our opening path has been set. What happens after that? That will depend on the expedition.[/p][p]Backers will eventually determine which paths we take through the dungeon and which secrets we pursue. So gather your courage, provision wisely, and remember:[/p][p]Curiosity is a dangerous bedfellow… yet no great deed was ever wrought without it.[/p][p]Join the expedition on BackerKit Now: [/p][p][url=\"https://www.backerkit.com/c/projects/vault-comics/darkest-dungeon-an-original-graphic-novel/pre-launch/?ref=rh-social\"]https://www.backerkit.com/c/projects/vault-comics/darkest-dungeon-an-original-graphic-novel/pre-launch/?ref=rh-social[/url][/p][p][img src=\"{STEAM_CLAN_IMAGE}/7434629/014a3547d2309447828b4e39602302cd177fec3a.jpg\"][/img][/p][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791303376,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060
+        },
+        {
+          "gid": "1844115010502543",
+          "title": "Week 15 - Mod Showcase",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010502543",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]Welcome to Week 15 of the Darkest Dungeon Mod Showcase! This week’s showcase features new heroes for both Darkest Dungeon and Darkest Dungeon II.\n[/p][p]If you’re a mod maker, and would like to see your work featured, or if you know of an underrated mod you think we should showcase, please fill in this Google Form: [url=\"https://forms.gle/rTpUoFNPv9xmDDax7\"]https://forms.gle/rTpUoFNPv9xmDDax7[/url][/p][p] [/p][p]You can submit up to 3 mods for each game. If you are unable to access Google, then please email your suggestions to us at[url=\"https://feedback@redhookgames.com\"] feedback@redhookgames.com[/url] with the subject line: Mod Showcase Submission[/p][p][/p][p][b]DARKEST DUNGEON[/b][/p][p][u][b]The Bulwark Class Mod[/b][/u] - S O U P, Terk, NBB, Termonitu[/p][p]Devotion is a potent stimulant, and for some its effects manifest in barbaric ways. Broad, savage, and inhumanly strong, the Bulwark is a dual mode support/damage hero, who can enter a trance-like bloodthirst to crush and brutalise the enemies found within the dungeon. Though she is typically unwilling to maintain it for long, at times her rage lasts for such lengths her own allies are shaken and in awe of her might.[/p][p]\n[img src=\"{STEAM_CLAN_IMAGE}/7434629/7be9fb502ab39981adf7e2ad6077db48ad791dc4.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/5c99f2349fd961d755227da1ed91bddba5feaccb.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/6df846f0981e74fad6ee063077624b4dd822e68e.jpg\"][/img][/p][p]Workshop mod link: [/p][p][dynamiclink href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=3337718904\"][/dynamiclink][/p][p] Curious to see what we featured for our Darkest Dungeon II mod showcase? You can check it out here: [dynamiclink href=\"https://store.steampowered.com/news/app/1940340/view/688643058186584888\"][/dynamiclink][/p][p]\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790025174,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "hide_library_overview",
+            "workshop"
+          ]
+        },
+        {
+          "gid": "1843481262705709",
+          "title": "Darkest Dungeon - Fire's Edge - Mod Manager - coming_in_hot",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262705709",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]Our new mod manager is up on coming_in_hot and ready for you to try![/p][p][/p][p][b]Darkest Dungeon Mod Manager[/b][/p][p][b]!! WARNING !! Back up your save files.[/b][/p][p]Everything's been tested thoroughly and the Mod Manager creates its own backups too, but it's always better to be safe.[/p][p][/p][p]Your save files are located here:[/p][p]Steam version: C:\\\\Program Files (x86)\\\\Steam\\\\userdataYOUR_ID\\\\262060[/p][p]Non-Steam version: C:\\\\UsersYOUR_USERNAME\\\\Documents\\\\Darkest[/p][p][/p][p]With that let’s get to the fun stuff! [/p][p][/p][p][b]What the Mod Manager does[/b][/p][p]The Mod Manager makes it easier to launch, organize, and set the load order of your mods. If you're happy with the classic in-game mod menu (or Sherin's Better Mod Menu), keep using it, it still works exactly the same as before.[/p][p]But if you want more control and an easier way to manage things, just (after backing up your saves) launch the Mod Manager - you'll find it right in Steam when you hit PLAY.[/p][p]The executable sits in the root folder of your Darkest Dungeon install. If you're on a non-Steam version, you can run it directly from the .exe.[/p][p]Right now the Mod Manager only works with the Steam version of the game. Other versions aren't officially supported yet.[/p][p][/p][p][b]How you can help[/b][/p][p]We'd love your feedback! What felt intuitive, what didn't, whether the HELP section gave you enough info, and any bugs or issues you run into along the way. Every bit of feedback helps. We will be using feedback to help create an Official Steam Guide that will cover most of the FAQs and how-tos for using this new tool. For now we have [url=\"https://discord.gg/darkestdungeon\"]opened a new DISCORD channel[/url] to help coordinate discussion on using the new manager.[/p][p][/p][p][b]A few things to know[/b][/p][p]If you're running large modpacks (100+ mods), the conflict detection will currently throw a lot of false alarms. Many mods touch the same files without actually causing problems in-game, and we don't yet have a reliable way to tell harmless overlap from real conflicts. So for now, treat conflict warnings as informational only. If your game crashes, check the log to see if the manager flagged anything relevant.[/p][p]This is just the first version, we'll keep adding features and polishing the interface. Got an idea for something missing? Let us know.[/p][p]Darkest Dungeon is 10 years old now, which means some of the oldest mods are just as old. Modding guidelines came later, so some older mods don't have a proper project.xml file. If a mod is missing that file (or the required parameters in it), the Mod Manager unfortunately won't recognize it and it won't show up in the list. There's no workaround for that right now.[/p][p]And one more time... please back up your saves![/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1789507262,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1843481262703038",
+          "title": "Darkest Dungeon - The Fire's Edge - Hotfix 27987",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262703038",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]We've just pushed a new update Darkest Dungeon. You can see all the changes below:[/p][list][*][p][b]Stygian/Bloodmoon Difficulty:[/b][/p][list][*][p]Enabling Duelist/Runaway now grants +1 roster size each (previously roster size increases were only happening on Radiant and Darkest Difficulty)[/p][/*][/list][/*][*][p][b]General Trinkets:[/b][/p][list][*][p][b]Dark Catalyst[/b]:[/p][list][*][p]REMOVED: Quest Uses: 6[/p][/*][/list][/*][*][p][b]Flickering Lamplight:[/b][/p][list][*][p]HP Heal increased to 6 from 4[/p][/*][/list][/*][/list][/*][*][p][b]Districts:[/b][/p][list][*][p][b]Académie Duello[/b]:[/p][list][*][p]+15% Riposte DMG replaced with +10 Riposte ACC[/p][/*][/list][/*][*][p][b]Craftworks:[/b][/p][list][*][p]Bust Cost lowered to 75 from 100[/p][/*][/list][/*][*][p][b]Archaeological Base Camp[/b]:[/p][list][*][p]Bust Cost lowered to 90 from 160[/p][/*][*][p]Crest loot random amount changed to 12 / 18 / 24 from 8 / 16 / 24[/p][/*][/list][/*][/list][/*][*][p][b]Duelist[/b]:[/p][list][*][p][b]General:[/b][/p][list][*][p]HP increased to 21 / 25 / 29 / 33 / 37 from 20 / 24 / 28 / 32 / 36[/p][list][*][p][i]Dev Note: This change is to let a Lvl.0 Duelist heal 2 HP from food instead of 1.[/i][/p][/*][/list][/*][/list][/*][*][p][b]Riposte[/b]:[/p][list][*][p]ACC increased by 5 (100 base instead of 95 base)[/p][/*][/list][/*][*][p][b]Touché[/b]:[/p][list][*][p]DODGE until next Dodge buff increased to +40 / +42 / +45 / +47 / +50 from +25 / +27 / +30 / +32 / +35[/p][/*][/list][/*][*][p][b]Feint:[/b][/p][list][*][p]+5% CRIT at all levels (LVL1 CRIT is now +8% instead of +3%)[/p][/*][/list][/*][*][p][b]Disengage[/b]:[/p][list][*][p]SPD Buff increased to +6 / +6 / +7 / +7 / +8 from +4 / +4 / +5 / +5 / +6[/p][/*][*][p]ADDED: Buff Self: +30 / +32 / +35 / +37 / +40 DODGE if in Position 4 (3 effective rds)[/p][/*][/list][/*][*][p][b]Flèche[/b]:[/p][list][*][p]DMG mod increased to +25% from +20%[/p][/*][/list][/*][*][p][b]Meditation (Camp Skill)[/b]:[/p][list][*][p]ACC while Riposte active increased to +15 from +10[/p][/*][*][p]DODGE while Riposte active increased to +15 from +10[/p][/*][/list][/*][*][p][b]Ruthless Instruction (Camp Skill)[/b]:[/p][list][*][p]50% chance Stress amount lowered to +5 from +10[/p][/*][/list][/*][/list][/*][*][p][b]Runaway[/b]:[/p][list][*][p][b]General[/b]:[/p][list][*][p]HP lowered to 22 / 26 / 30 / 34 / 38 from 23 / 28 / 33 / 38 / 43[/p][/*][/list][/*][*][p][b]Searing Strike[/b]:[/p][list][*][p]-1% CRIT at all levels (LVL1 CRIT is now +2% instead of +3%)[/p][/*][/list][/*][*][p][b]Firefly[/b]:[/p][list][*][p]-3% CRIT at all levels (LVL1 CRIT is now +3% instead of +6%)[/p][/*][*][p]Burn Decay debuff now lasts 1 rd instead of 2 rds[/p][/*][/list][/*][*][p][b]Ransack[/b]:[/p][list][*][p]-1% CRIT at all levels (LVL1 CRIT is now +2% instead of +3%)[/p][/*][/list][/*][*][p][b]Hearthlight[/b]:[/p][list][*][p]CRIT vs Burning buff increased to +10% / +11% / +12% / +13% / +14% from +8% / +9% / +10% / +11% / +12%[/p][/*][/list][/*][*][p][b]Run and Hide[/b]:[/p][list][*][p]REMOVED: +50% Burn Skill Amount while Stealthed[/p][/*][/list][/*][*][p][b]Controlled Burn[/b]:[/p][list][*][p]On Hit Burn increased to 6 from 4[/p][/*][*][p]Trigger Burn decreased to 2/2/3/3/4 from 3/3/4/4/5[/p][/*][/list][/*][*][p][b]Pile of Ash (Trinket)[/b]:[/p][list][*][p]Pile of Ash can no longer appear as a random drop or as a trinket in the Nomad Wagon[/p][/*][*][p]Pile of Ash sell price lowered to 1g from 750g[/p][/*][*][p]Trigger Limit lowered to 6 from 8[/p][/*][/list][/*][*][p][b]Rescuer’s Rucksack (Trinket)[/b]:[/p][list][*][p]Restoration Heal amount increased to 5 from 3[/p][/*][/list][/*][*][p][b]Carved Toy (Trinket)[/b]:[/p][list][*][p]+15 ACC while Stealthed replaced with +15 ACC Ranged[/p][/*][/list][/*][*][p][b]Knitted Blanket (Trinket):[/b][/p][list][*][p]PROT buff increased to +33% from +25%[/p][/*][*][p]+25% Healing Received replaced with +33% Healing Received while Stealthed[/p][/*][*][p]Burn when hit lowered to 1 from 2[/p][/*][/list][/*][*][p][b]Inert Sunstone (Trinket)[/b]:[/p][list][*][p]Removed +6 Resolve XP gain effect[/p][/*][/list][/*][*][p][b]Heated Sunstone (Trinket)[/b]:[/p][list][*][p]Removed +4 Resolve XP gain effect[/p][/*][*][p]Transform is now a 50% chance[/p][/*][/list][/*][*][p][b]Scorching Sunstone (Trinket)[/b]:[/p][list][*][p]Removed +2 Resolve XP gain effect[/p][/*][*][p]Transform is now a 20% chance[/p][/*][/list][/*][*][p][b]Searing Sunstone (Trinket)[/b]:[/p][list][*][p]Self Burn increased to 2 from 1[/p][/*][*][p]Self Burn chance increased to 100% from 75%[/p][/*][/list][/*][/list][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1789422269,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1842846814456626",
+          "title": "Week 14 - Mod Showcase",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814456626",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]Welcome to Week 14 of the Darkest Dungeon Mod Showcase! This week’s showcase features a new pet for Darkest Dungeon II, and a new hero for Darkest Dungeon.  [/p][p][/p][p]If you’re a mod maker, and would like to see your work featured, or if you know of an underrated mod you think we should showcase, please fill in this Google Form:  [url=\"https://forms.gle/rTpUoFNPv9xmDDax7\"]https://forms.gle/rTpUoFNPv9xmDDax7[/url][/p][p][/p][p] You can submit up to 3 mods for each game. If you are unable to access Google, then please email your suggestions to us at [url=\"https://feedback@redhookgames.com\"]feedback@redhookgames.com[/url] with the subject line: Mod Showcase Submission[/p][p][/p][p][b]DARKEST DUNGEON[/b][/p][p][b][u]The Satyr[/u][/b] - Merteno[/p][p]\"Wrath manifest. Despite that, he managed to control himself through time, but his eyes has yet to lose focus of his destination.\"[/p][p]\nThe Satyr is a powerful frontline combat hero capable of dealing devastating blows while sustaining hits. His mystical crystal enables him to be far more versatile, disabling enemies and empowering your allies from the back. Finally, he channels his wrath into sudden bursts of power, altering the outcome of his skills.[/p][p][img src=\"{STEAM_CLAN_IMAGE}/7434629/1d69f3342e512f8582166de54a0d57b1aad06083.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/9a6ff40a7a298b30aad3c9901ac7c116171f7843.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/02bf9600a23d7c60674c601f2de7c7e916d36a0f.jpg\"][/img]\n[/p][p]Workshop mod link: [/p][p][dynamiclink href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=3773471381\"][/dynamiclink][/p][p]Curious to see what we featured for our Darkest Dungeon II mod showcase? You can check it out here: [dynamiclink href=\"https://store.steampowered.com/news/app/1940340/view/707782088403716483\"][/dynamiclink][/p][p]\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1788896506,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "hide_library_overview",
+            "workshop"
+          ]
+        },
+        {
+          "gid": "1842846814444739",
+          "title": "Darkest Dungeon - The Fire's Edge - coming_in_hot 27942",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814444739",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]We've just pushed a new update to our coming_in_hot branch. You can see all the changes below:[/p][list][*][p][b]Stygian/Bloodmoon Difficulty:[/b][/p][list][*][p]Enabling Duelist/Runaway now grants +1 roster size each[/p][/*][/list][/*][*][p][b]General Trinkets:[/b][/p][list][*][p][b]Dark Catalyst[/b]:[/p][list][*][p]REMOVED: Quest Uses: 6[/p][list][*][p][i]Dev Note: Experimental change[/i][/p][/*][/list][/*][/list][/*][*][p][b]Flickering Lamplight:[/b][/p][list][*][p]HP Heal increased to 6 from 4[/p][/*][/list][/*][/list][/*][*][p][b]Districts:[/b][/p][list][*][p][b]Académie Duello[/b]:[/p][list][*][p]+15% Riposte DMG replaced with +10 Riposte ACC[/p][/*][/list][/*][*][p][b]Craftworks:[/b][/p][list][*][p]Bust Cost lowered to 75 from 100[/p][/*][/list][/*][*][p][b]Archaeological Base Camp[/b]:[/p][list][*][p]Bust Cost lowered to 90 from 160[/p][/*][*][p]Crest loot random amount changed to 12 / 18 / 24 from 8 / 16 / 24[/p][/*][/list][/*][/list][/*][*][p][b]Duelist[/b]:[/p][list][*][p][b]General:[/b][/p][list][*][p]HP increased to 21 / 25 / 29 / 33 / 37 from 20 / 24 / 28 / 32 / 36[/p][list][*][p][i]Dev Note: This change is to let a Lvl.0 Duelist heal 2 HP from food instead of 1.[/i][/p][/*][/list][/*][/list][/*][*][p][b]Riposte[/b]:[/p][list][*][p]ACC increased by 5 (100 base instead of 95 base)[/p][/*][/list][/*][*][p][b]Touché[/b]:[/p][list][*][p]DODGE until next Dodge buff increased to +40 / +42 / +45 / +47 / +50 from +25 / +27 / +30 / +32 / +35[/p][/*][/list][/*][*][p][b]Feint:[/b][/p][list][*][p]+5% CRIT at all levels (LVL1 CRIT is now +8% instead of +3%)[/p][/*][/list][/*][*][p][b]Disengage[/b]:[/p][list][*][p]SPD Buff increased to +6 / +6 / +7 / +7 / +8 from +4 / +4 / +5 / +5 / +6[/p][/*][*][p]ADDED: Buff Self: +30 / +32 / +35 / +37 / +40 DODGE if in Position 4 (3 effective rds)[/p][/*][/list][/*][*][p][b]Flèche[/b]:[/p][list][*][p]DMG mod increased to +25% from +20%[/p][/*][/list][/*][*][p][b]Meditation (Camp Skill)[/b]:[/p][list][*][p]ACC while Riposte active increased to +15 from +10[/p][/*][*][p]DODGE while Riposte active increased to +15 from +10[/p][/*][/list][/*][*][p][b]Ruthless Instruction (Camp Skill)[/b]:[/p][list][*][p]50% chance Stress amount lowered to +5 from +10[/p][/*][/list][/*][/list][/*][*][p][b]Runaway[/b]:[/p][list][*][p][b]General[/b]:[/p][list][*][p]HP lowered to 22 / 26 / 30 / 34 / 38 from 23 / 28 / 33 / 38 / 43[/p][/*][/list][/*][*][p][b]Searing Strike[/b]:[/p][list][*][p]-1% CRIT at all levels (LVL1 CRIT is now +2% instead of +3%)[/p][/*][/list][/*][*][p][b]Firefly[/b]:[/p][list][*][p]-3% CRIT at all levels (LVL1 CRIT is now +3% instead of +6%)[/p][/*][*][p]Burn Decay debuff now lasts 1 rd instead of 2 rds[/p][/*][/list][/*][*][p][b]Ransack[/b]:[/p][list][*][p]-1% CRIT at all levels (LVL1 CRIT is now +2% instead of +3%)[/p][/*][/list][/*][*][p][b]Hearthlight[/b]:[/p][list][*][p]CRIT vs Burning buff increased to +10% / +11% / +12% / +13% / +14% from +8% / +9% / +10% / +11% / +12%[/p][/*][/list][/*][*][p][b]Run and Hide[/b]:[/p][list][*][p]REMOVED: +50% Burn Skill Amount while Stealthed[/p][/*][/list][/*][*][p][b]Controlled Burn[/b]:[/p][list][*][p]On Hit Burn increased to 6 from 4[/p][/*][*][p]Trigger Burn decreased to 2/2/3/3/4 from 3/3/4/4/5[/p][/*][/list][/*][*][p][b]Pile of Ash (Trinket)[/b]:[/p][list][*][p]Pile of Ash can no longer appear as a random drop or as a trinket in the Nomad Wagon[/p][/*][*][p]Pile of Ash sell price lowered to 1g from 750g[/p][/*][*][p]Trigger Limit lowered to 6 from 8[/p][/*][/list][/*][*][p][b]Rescuer’s Rucksack (Trinket)[/b]:[/p][list][*][p]Restoration Heal amount increased to 5 from 3[/p][/*][/list][/*][*][p][b]Carved Toy (Trinket)[/b]:[/p][list][*][p]+15 ACC while Stealthed replaced with +15 ACC Ranged[/p][/*][/list][/*][*][p][b]Knitted Blanket (Trinket):[/b][/p][list][*][p]PROT buff increased to +33% from +25%[/p][/*][*][p]+25% Healing Received replaced with +33% Healing Received while Stealthed[/p][/*][*][p]Burn when hit lowered to 1 from 2[/p][/*][/list][/*][*][p][b]Inert Sunstone (Trinket)[/b]:[/p][list][*][p]Removed +6 Resolve XP gain effect[/p][/*][/list][/*][*][p][b]Heated Sunstone (Trinket)[/b]:[/p][list][*][p]Removed +4 Resolve XP gain effect[/p][/*][*][p]Transform is now a 50% chance[/p][/*][/list][/*][*][p][b]Scorching Sunstone (Trinket)[/b]:[/p][list][*][p]Removed +2 Resolve XP gain effect[/p][/*][*][p]Transform is now a 20% chance[/p][/*][/list][/*][*][p][b]Searing Sunstone (Trinket)[/b]:[/p][list][*][p]Self Burn increased to 2 from 1[/p][/*][*][p]Self Burn chance increased to 100% from 75%[/p][/*][/list][/*][/list][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1788473355,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1842212951300988",
+          "title": "Darkest Dungeon - The Fire’s Edge - Retail 27890 HOTFIX",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951300988",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]We've just pushed a new hotfix. That update contains the following:[/p][p]FIXES[/p][p]🔸\\[CONTROLLER] Fixed No Text For Hotkeys When Save Is Started With Controller [/p][p]🔸\\[DLC] Fires Edge DLC Upsell Banner Is Not Visible In Main Menu For Mac And Linux [/p][p]🔸Fixed Butchers Circus Error Message on non-Steam builds[/p][p]🔸Fixed Game Shows That Butchers Circus Is Available For Non Steam Build[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1787855220,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1842212951295205",
+          "title": "Week 13 - Mod Showcase",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951295205",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]Welcome to Week 13 of the Darkest Dungeon Mod Showcase! This week’s showcase features new Trinkets for Darkest Dungeon II, and a new hero for Darkest Dungeon. [/p][p][/p][p]If you’re a mod maker, and would like to see your work featured, or if you know of an underrated mod you think we should showcase, please fill in this Google Form: [url=\"https://forms.gle/rTpUoFNPv9xmDDax7\"]https://forms.gle/rTpUoFNPv9xmDDax7[/url][/p][p] [/p][p]You can submit up to 3 mods for each game. If you are unable to access Google, then please email your suggestions to us at[url=\"https://feedback@redhookgames.com\"] feedback@redhookgames.com[/url] with the subject line: Mod Showcase Submission\n[/p][p]**DARKEST DUNGEON**[/p][p][u]**__The Uncrowned__**[/u] - TheAwkwardHeady, Von Krolock, Sherin, Mr. Pepper, Vintage[/p][p]The Uncrowned is a stance based rogue and will nearly always be in the front ranks. Though he is fragile, The Uncrowned makes up for this with his passive quirk \"Stealthy\" which allows him to enter stealth after combat. This means that he will start the next combat in stealth, and in his \"Cloaked\" mode.[/p][p][/p][p]While in Cloaked mode, Uncrowned has access to powerful skills. But once one of these Cloaked skills have been used, he will leave stealth, leaving himself vulnerable.[/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/7434629/8398c113191ef71b26ff663d1dd38a89470779ba.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/477ba53a3c0b7e6e6684373f4a938289877bdf00.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/c8f48980ca67f88e839612594f2af0e6ba2cc2bc.jpg\"][/img][/p][p]Workshop mod link: [/p][p][dynamiclink href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=3233465820\"][/dynamiclink][/p][p]Curious to see what we featured for our Darkest Dungeon II mod showcase? You can check it out here: [dynamiclink href=\"https://store.steampowered.com/news/app/1940340/view/707781454544764929\"][/dynamiclink][/p][p]\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1787696723,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "hide_library_overview",
+            "workshop"
+          ]
+        },
+        {
+          "gid": "1841579228679227",
+          "title": "Darkest Dungeon - The Fire’s Edge - Retail 27868 HOTFIX",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228679227",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]We are deploying the build we pushed yesterday to coming_in_hot today to our retail release branch so that all users will get the Mod Audio fix. Here are the full list of fixes this build contains:[/p][p][/p][p]🔸 Fixed Mod Audio Bank issue resulting in all mod audio not working (no need to update to latest version of FMOD, though if you can it's not a bad idea!)[/p][p]🔸 Fixed an issue where Butcher’s Circus max HP trinkets don’t affect starting HP[/p][p]🔸 Fixed Drowned Crew softlocking with Flickering Lamplight trinket[/p][p]🔸 Fixed Butcher’s Circus enemy’s corpse clear leaving an invisible corpse[/p][p]🔸 Fixed issue where Ashes to Ashes town event isn’t navigable with gamepad[/p][p][/p][p][b]Known Issues[/b][/p][p]🔸 Butchers Circus Cannot Connect To The Server On Mac[/p][p]🔸 Fires Edge DLC Banner Is Not Visible In Main Menu For Mac And Linux[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1787683741,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1841579228676815",
+          "title": "Darkest Dungeon - The Fire’s Edge - COMING_IN_HOT 27860 HOTFIX",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228676815",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]We've just deployed a new WINDOWS build to our STEAM public beta branch coming_in_hot[/p][p][/p][p]🔸 This build fixes the broken mod audio issue we introduced in the build on Friday. [/p][p][/p][p]We wanted to put it up on the beta branch for users to test and help us verify it resolves the issues. Please let us know if there are any issues. Assuming it's all good we will deploy to all storefronts and platforms tomorrow.[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1787612602,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1841579228670044",
+          "title": "Darkest Dungeon - The Fire’s Edge - 27850 HOTFIX",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228670044",
+          "is_external_url": true,
+          "author": "redhookjohn",
+          "contents": "\nNOTES\n🔸Fixed a Drowned Crew softlock with Flickering Lamplight trinket\n🔸Fixed Duelist missing trinket strings without Color of Madness DLC\n🔸Fixed Butcher's Circus prize box crash\n🔸Restored auto-center map & controller enable options\n🔸Fixed a handful of common Mod crash logs we received. \n\nKNOWN ISSUES\n🔸 GoG activity log crash (Butcher's Circus)\n🔸 Butcher's Circus Max HP trinkets starting HP",
+          "feedlabel": "Community Announcements",
+          "date": 1787345151,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1840944183789364",
+          "title": "Darkest Dungeon - The Fire’s Edge - DLC Release",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183789364",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]The Fire’s Edge, the first new Darkest Dungeon DLC since 2020, is now live! This DLC includes two heroes, The Runaway and The Duelist, who made their debut in Darkest Dungeon II, a new combat mechanic, unique trinkets, plus 3 more Districts.[/p][previewyoutube=\"elgCnwSNZcM;full\"][/previewyoutube][p]The team has always been interested in backporting The The Runaway and The Duelist to the original Darkest Dungeon, and with the game celebrating its 10th anniversary this year, it seemed like the perfect time to add something new! [/p][p]\nEach new hero has their own unique style of gameplay: The Duelist is able to dance between ranks, while freely maintaining Riposte as she switches between two combat stances, whereas The Runaway makes use of Burn, a combat mechanic unique to her class. And don’t worry about finding room for these new additions! The Runaway and The Duelist will each expand your roster by 1 slot. The Fire’s Edge also adds a number of Trinkets with all new mechanics including Trinkets that come charged with powerful limited effects, or ones that transform through use as you complete your expeditions. Rounding out this update are some new town events, and 3 new Districts for your Hamlet: the Academie Duello, Craftworks, and Archaeological Base Camp, which offer new bounties such as weekly Heirlooms and Trinkets, as well as damage boosts to heroes.[/p][p][/p][p]You can purchase The Fire’s Edge now: [/p][p][dynamiclink href=\"https://store.steampowered.com/app/4964110/Darkest_Dungeon_The_Fires_Edge/\"][/dynamiclink][b]Modding[/b][/p][p]The game has been in a stable place for several years now, so we were careful to approach The Fire’s Edge in a way that would not interfere with existing mods. The changes we’re introducing are all additive, and do not affect existing heroes or enemies. To help ensure this DLC was solid, we invited several members of the Darkest Dungeon modding community to help us test, and provide vital feedback during the development process. We owe a debt of gratitude to every single member of our test pool, and cannot thank them enough for their enthusiasm and thorough testing over the last month.[/p][p][/p][p]Today’s release should provide some exciting new toys for the mod community. The inclusion of a functioning Burn combat mechanic, plus the various Trinket mechanics in this DLC should create even more opportunities for modders to experiment and create. [b]And there is even more coming![/b] [/p][p][/p][p]Our team is currently working on a new and improved mod loader, something that has been highly requested by the community for some time. In addition to this, we have considered a number of ideas pitched to us by our test pool that could improve the modding scene further, and help extend the lifespan of the product. We are hoping to implement some of these requests over the next few weeks. A [b]followup release is currently planned for the end of August[/b], and we will likely kick off an open beta for the new mod loader in the next week or so. \n[/p][p]For now, we hope you enjoy The Fire’s Edge. It was a real pleasure to return to the original Darkest Dungeon and surprise you all with this new content. Thank you again for the support![/p][p]\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1787072130,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060
+        },
+        {
+          "gid": "1840310314355123",
+          "title": "Week 12 - Mod Showcase",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314355123",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]Welcome to Week 12 of the Darkest Dungeon Mod Showcase! This week’s showcase features a new path for the Crusader in Darkest Dungeon II, and more Trinkets for Darkest Dungeon.  [/p][p][/p][p]If you’re a mod maker, and would like to see your work featured, or if you know of an underrated mod you think we should showcase, please fill in this Google Form:[url=\"https://forms.gle/rTpUoFNPv9xmDDax7\"] [/url][url=\"https://forms.gle/rTpUoFNPv9xmDDax8\"]https://forms.gle/rTpUoFNPv9xmDDax8[/url][/p][p] [/p][p]You can submit up to 3 mods for each game. If you are unable to access Google, then please email your suggestions to us at[url=\"https://feedback@redhookgames.com\"] feedback@redhookgames.com[/url] with the subject line: Mod Showcase Submission[/p][p][/p][p][b]DARKEST DUNGEON[/b][/p][p][b][u]Trinkets Plus (4.0)[/u] - Vintage[/b]  [/p][p]Trinkets+ is a complete and comprehensive rework of Darkest Dungeon trinkets. The full list of changes that this mod introduces are:[/p][list][*][p]\nBuffs/Nerfs/Reworks of over 90% of vanilla/DLC trinkets, aimed at encouraging trinket diversity and allowing new playstyles.[/p][/*][*][p]An enforced limit of 1 on most* trinkets. Once you obtain a focus ring, you cannot obtain another unless you sell it. This will not cause issues if you had multiple copies of a trinket before installing the mod.[/p][/*][*][p]Apprentice bosses now drop Rare trinkets instead of Very Rare, making Very Rare trinkets a legitimately valuable resource that cannot be obtained early in the game.[/p][/*][*][p]Very Common trinkets are now properly listed as Very Common.[/p][/*][*][p]Several new universal trinkets have been added.[/p][/*][*][p]*Among the universal trinkets added are a special class of \"treasure\" type trinkets. These trinkets have an increased limit so you can obtain duplicates of them (the limit is listed in game) and sell for much more gold than usual. These are made such that even if you have every single trinket in the game (which are limit 1 so you cannot get them again), you still get a trinket reward from quests in the form of extra cash.[/p][/*][/list][p]\n[img src=\"{STEAM_CLAN_IMAGE}/7434629/5de24bc53e57b66d138ba9a0ba661c94448cfa97.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/536070596b0fe84cc7d8b2e80fac0afcedb7c22e.jpg\"][/img][/p][p][dynamiclink href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=3011536959&searchtext=Trinkets+Plus\"][/dynamiclink][/p][p]Curious to see what we featured for our Darkest Dungeon II mod showcase? You can check it out here: [dynamiclink href=\"https://store.steampowered.com/news/app/1940340/view/696520552854062803\"][/dynamiclink][/p][p]\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1786482217,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "hide_library_overview",
+            "workshop"
+          ]
+        },
+        {
+          "gid": "1840310314351686",
+          "title": "Vault Comics to publish Darkest Dungeon graphic novels",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314351686",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p]Red Hook Studios has joined forces with Vault Comics to release an all new series of graphic novels set in the Darkest Dungeon universe. [/p][p]\n[b]Our heroes embark into the unknown once again! [/b][/p][p]The graphic novels will tell an original canonical story, delving deeper into the mysteries at the heart of the Darkest Dungeon core mythology. Brace yourself for the horrors that lie waiting in the encroaching dark! [/p][p]\nAcclaimed writer John Lees ([i]The Nasty[/i], [i]Sink[/i]), as well as comic artist and illustrator Maan House ([i]Dark Souls: Mother of Mourning[/i], [i]The Cemeterians[/i]) will be collaborating closely with Red Hook Studios co-founder and Creative Director Chris Bourassa on this project.[/p][p][/p][p]A launch campaign for the graphic novels will kick off on BackerKit this October.[/p][p] [/p][p][b]Start your support for the project today! Pre-launch sign-ups are now live:[/b] [/p][p][url=\"https://www.backerkit.com/c/projects/vault-comics/darkest-dungeon-an-original-graphic-novel/pre-launch\"]https://www.backerkit.com/c/projects/vault-comics/darkest-dungeon-an-original-graphic-novel/pre-launch[/url][/p][p] [/p][p]Follow the campaign to receive special access to concept art, updates and more.[/p][p][/p][p]Get a first look at the project below.[/p][p][img src=\"{STEAM_CLAN_IMAGE}/7434629/dbd250ff0641f6b7e65bd3a29c67fdfbc453409e.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/71ecb6f0311269edf6f815c0e278c6e1c2b38641.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/0bb7f86c29dd889d2ce0282eaff51242998d8a12.jpg\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1786372377,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060
+        },
+        {
+          "gid": "1839041357036614",
+          "title": "Week 11- Mod Showcase",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357036614",
+          "is_external_url": true,
+          "author": "RedHookMichaela",
+          "contents": "[p][b][u]Week 11 - Mod Showcase[/u][/b][/p][p][/p][p]This week’s showcase features a new barks for Kingdoms militia in Darkest Dungeon II, and an overhaul of a character mod for Darkest Dungeon.   [/p][p][/p][p]If you’re a mod maker, and would like to see your work featured, or if you know of an underrated mod you think we should showcase, please fill in this Google Form: [url=\"https://forms.gle/rTpUoFNPv9xmDDax7\"]https://forms.gle/rTpUoFNPv9xmDDax7[/url] [/p][p][/p][p] You can submit up to 3 mods for each game. If you are unable to access Google, then please email your suggestions to us at [url=\"https://feedback@redhookgames.com\"]feedback@redhookgames.com[/url] with the subject line: Mod Showcase Submission[/p][p][/p][p][/p][p][u][b]The Milkmaid Reconstructed[/b][/u] - Lone_Drifter, Woona, Mr Pepper. Other credit notes:[/p][p]Original artist from the mod is Comrade. Some rare assets from him are still used, like trinket art and skill icons. Some other assets that are still used by this mod were made from MoonKanin, like her weapons and armors. For a full list of the contributors of the original mod, please check out the original mod page.[/p][p]Made with authorization from Rehtaelle, the original creator of the mod.[/p][p] [/p][p]This mod is a complete overhaul of the Milkmaid Hero. Not only this comes with a complete visual rework, but every skill, trinket, and affliction has been changed. She is still a fierce healer, able to support a whole team on her own. However she now can even help your team in a variety of ways! Cure DoTs, protect your teammates from marks and stuns, and buff them! Milkmaid is also more proactive than ever, being able to severely disrupt and cripple her enemies with her crystalline powers.[/p][p]\nDISCLAIMER : This is a standalone mod, do not use the original mod with it. It is however compatible with saves using the previous mod, to do this, simply disable the original mod and enable the new one before launching your estate. In case you prefer the old kit, a standalone skin mod is available here.[/p][p][/p][p] [img src=\"{STEAM_CLAN_IMAGE}/7434629/09759e1fe4858210ed9382307bfbc8ad70d12276.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/97d5f51eadea7cccb63c3e49f10add994a9eb913.jpg\"][/img][img src=\"{STEAM_CLAN_IMAGE}/7434629/71e4c05627633a8d6d46488b63039e2448e6cf99.jpg\"][/img][/p][p][dynamiclink href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=3746001956\"][/dynamiclink] [/p][p]Curious to see what we featured for our Darkest Dungeon II mod showcase? You can check it out here: [dynamiclink href=\"https://store.steampowered.com/news/app/1940340/view/679630785292012241\"][/dynamiclink][/p][p]\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1785181545,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 262060,
+          "tags": [
+            "hide_library_overview",
+            "workshop"
+          ]
+        },
+        {
+          "gid": "1839041357023332",
+          "title": "The original Darkest Dungeon is set for a new DLC over 10 years after release",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/GamingOnLinux/1839041357023332",
+          "is_external_url": true,
+          "author": "",
+          "contents": "Not many developers will go back to their classics, but Red Hook Studios are giving the original Darkest Dungeon a brand new DLC soon.<p><img src=\"https://www.gamingonlinux.com/uploads/articles/tagline_images/1166662303id29430gol.webp\" alt /></p><p>Read the full article here: https://www.gamingonlinux.com/2026/07/the-original-darkest-dungeon-is-set-for-a-new-dlc-over-10-years-after-release/</p>",
+          "feedlabel": "GamingOnLinux",
+          "date": 1784707590,
+          "feedname": "GamingOnLinux",
+          "feed_type": 0,
+          "appid": 262060
+        },
+        {
+          "gid": "1838407329269672",
+          "title": "Darkest Dungeon is getting its first new bit of DLC in six years, borrowing a couple of classes from its sequel",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/Rock, Paper, Shotgun/1838407329269672",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://assetsio.gnwcdn.com/darkest-dungeon-the-fires-edge.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\nI'm sure there's plenty enough of you that moved on from the first <a href=\"https://www.rockpapershotgun.com/games/darkest-dungeon\">Darkest Dungeon</a> onto the second one when that launched in 2023, but guess what! You'll have an opportunity to revisit the original <a href=\"https://www.rockpapershotgun.com/the-best-strategy-games-on-pc\">turn-based</a> dungeon crawler next month, as developer Red Hook Studios have announced its first bit of DLC since 2020 in commemoration of the game's 1.0 launch 10th anniversary.\n</p> <p><a href=\"https://www.rockpapershotgun.com/darkest-dungeon-is-getting-its-first-new-bit-of-dlc-in-six-years-borrowing-a-couple-of-classes-from-its-sequel\">Read more</a></p>",
+          "feedlabel": "Rock, Paper, Shotgun",
+          "date": 1784652987,
+          "feedname": "Rock, Paper, Shotgun",
+          "feed_type": 0,
+          "appid": 262060
+        }
+      ],
+      "count": 519
+    }
+  }
+}

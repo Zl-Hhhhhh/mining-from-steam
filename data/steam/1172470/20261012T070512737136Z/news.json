@@ -1,0 +1,289 @@
+{
+  "fetched_at": "2026-10-12T07:05:13.694466+00:00",
+  "endpoint": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/",
+  "data": {
+    "appnews": {
+      "appid": 1172470,
+      "newsitems": [
+        {
+          "gid": "1846018067934613",
+          "title": "An Update from the Anti Cheat Team - 10/09/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067934613",
+          "is_external_url": true,
+          "author": "RSPN_Bean",
+          "contents": "[h2][b]Competitive Integrity Update - Weapon Exploit Fixes[/b][/h2][p]We’ve deployed fixes for multiple high-profile weapon exploits in Apex Legends this week. You may have seen the videos circulating in community spaces earlier this week. [/p][p]These fixes address an exploit that allowed an entire magazine to be fired in a single shot, alongside another that enabled rapid firing and reloading with the Sentinel and C.A.R. SMG beyond their intended functionality.[/p][p]These fixes are part of our broader efforts to protect the integrity of Apex Legends. Alongside addressing exploits, we continue to develop and deploy new anti-cheat detections, strengthen existing systems, and take action against players who undermine fair play. This work is ongoing across multiple fronts, even when individual efforts aren't always immediately visible.[/p][p]\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791578435,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1846018067934200",
+          "title": "Apex Legends: Latest Update - 10/09/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067934200",
+          "is_external_url": true,
+          "author": "rspn_jax",
+          "contents": "[p]📋TESTING: We have activated a matchmaking test that increases maximum queue times for Plat+ players on all platforms, in all regions. The queue time increase scales with Rank tier, and Masters players could expect a maximum extension of approximately 30 seconds.[/p][p]This test is in pursuit of tighter skill bands in high skill matches and less spill over of high rank players into mid-rank matches, as the matchmaker spends more time prioritizing the tightest possible lobbies before expanding its search. This test will run until the end of the season, or until we have enough data.[/p][p]Please continue to give feedback on if you are experiencing tighter matchmaking.[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791567390,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1846018067931592",
+          "title": "Apex Legends: 10/08/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067931592",
+          "is_external_url": true,
+          "author": "RSPN_Bean",
+          "contents": "[p]FIXED:[/p][p]We have resolved issues revolving around specific movements for some Legends on consoles, including: Ash's dash and double jump, Sparrow's double jump, Revenant's climb and mantle, and Lifeline's run animation. [/p][p]Thank you for your patience as we worked to resolve these issues.[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791498780,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1846018067930772",
+          "title": "Apex Legends: Blood Pact Event Trailer",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067930772",
+          "is_external_url": true,
+          "author": "Electronic Arts",
+          "contents": "[p]Darkness has descended on Kings Canyon. Supernatural forces stalk the fog, and the Legends are swearing loyalty to the armies of Beasts or Demons to gain infernal abilities and sick werewolf powers.[/p][previewyoutube=\"4AIW7bv7fPo;full\"][/previewyoutube][p]The Blood Pact Event drops October 13. Learn more: [url=\"http://x.ea.com/apxl/blood-pact\"]http://x.ea.com/apxl/blood-pact[/url][/p][p]Apex Legends™ is a free-to-play* battle royale game where legendary characters battle for glory, fame, and fortune on the fringes of the Frontier. Play for free now![/p][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791479599,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1846018067930690",
+          "title": "An Update from the Anti Cheat Team - 10/08/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067930690",
+          "is_external_url": true,
+          "author": "RSPN_Bean",
+          "contents": "[h1][b]First week of EA Javelin Anticheat[/b][/h1][p]Since the transition to EA Javelin Anticheat, we’ve continued to monitor, identify, and disrupt cheating across Apex Legends. The move to Javelin gives our Anti-Cheat team greater visibility into threats and more flexibility to respond as new cheats emerge.[/p][p]We wanted to share an update on what we’ve seen since the transition, including the volume of cheat attempts prevented, enforcement actions taken, and the types of cheating we’ve disrupted. Before diving into the numbers, we should discuss [b][i]cheat prevention[/i][/b]. [/p][p]In the first week following the launch of Javelin Anti-Cheat, [b]265,550[/b] cheating attempts have been prevented before they could impact gameplay.[/p][p]This is an important distinction when looking at anti-cheat numbers. Javelin is designed not only to identify and action cheaters, but to prevent unauthorized software and cheating attempts from functioning in the first place.[/p][p]That means a successful prevention does not always result in a ban — and that is by design.[/p][p]When looking only at enforcement numbers, it can be easy to assume that fewer bans means fewer cheating attempts are being identified. In reality, a significant amount of Javelin's work happens before a cheater ever reaches the point where we need to issue a ban.[/p][p]265,550 prevented attempts represent 265,550 instances where cheating was stopped before it could even have an impact on the game.[/p][p]As we continue to evolve Javelin and expand its coverage, our focus will remain on stopping cheating as early as possible: prevent it when we can, detect it when it gets through, and take action when we have the evidence to do so.[/p][h2][b]Javelin by the Numbers[/b][/h2][p]Week 1 of EA Javelin Anticheat:[/p][list][*][p]265,550 cheat attempts prevented[/p][/*][*][p]12,969 accounts banned[/p][/*][*][p]40 cheat programs tracked[/p][/*][*][p]91% of tracked cheat programs disrupted[/p][/*][/list][p]These numbers represent activity identified and actioned by our Anti-Cheat systems during this period. We’ll continue to monitor these trends as cheat developers adapt and new threats emerge.[/p][h2][b]Enforcement Breakdown[/b][/h2][p]Our enforcement efforts cover a range of cheating methods, including traditional PC cheats as well as third-party hardware and controller-based cheating. While we cannot share a full breakdown of every ban we issue, we can highlight a couple of wins on hardware cheating from the last week:[/p][list][*][p]Aimzenix: 4,058 bans[/p][/*][*][p]Cronus: 1,201 bans[/p][/*][*][p]Titan: 141 bans[/p][/*][*][p]XIM: 199 bans[/p][/*][/list][p]These enforcement actions are based on detections and supporting evidence designed to distinguish cheating behavior from legitimate hardware use.[/p][h2][b]What Comes Next[/b][/h2][p]Despite the early success we’ve found with EA Javelin Anticheat, we are actively investigating videos circulating featuring some pretty egregious cheating activity; more to share soon.[/p][p]Cheating is constantly evolving, and our work doesn’t stop with the transition to Javelin. As new cheat providers, techniques, and devices emerge, we’re continuing to develop and validate new detections and expand our ability to disrupt them.[/p][p]While this anti-cheat update focuses on PC, as EA Javelin Anticheat is a PC system, we will have important updates for console players in the coming weeks.[/p][p]Our goal remains the same: upholding gameplay integrity and ensuring fair play is for everyone.[/p][p]\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791478901,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1845383656397146",
+          "title": "Apex Legends: Latest Update 10/6/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656397146",
+          "is_external_url": true,
+          "author": "RSPN_Bean",
+          "contents": "[p]TESTING:[/p][p]Starting tomorrow, October 7th at approximately 10am PT, we will be conducting a matchmaking test by enabling cross-play as the default option for all players, on all platforms in the US-West servers. The intention of this test is to shorten queue times and tighten matchmaking skill bands. This test will run until the season ends on November 3rd. Console players can opt out of the test by turning off cross-play in your settings menu.[/p][p][/p][p]FIXED: [/p][p]Fixed an issue with missing floor geo on Broken Moon in Terraformer; players are no longer able to clip into the ground.[/p][p]Fixed an issue with Gibraltar skydive emote audio persisting after landing.[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791307093,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470,
+          "tags": [
+            "mod_reviewed",
+            "ModAct_1691520782_1791307722_0",
+            "mod_require_rereview"
+          ]
+        },
+        {
+          "gid": "1845383656387628",
+          "title": "Apex Legends: Latest Update 10/02/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656387628",
+          "is_external_url": true,
+          "author": "RSPN_Bean",
+          "contents": "[p][b]FIXED:[/b][/p][p]Resolved an issue impacting Steam users that resulted in settings being reset after every relaunch of the game. This was largely impacting players with unique folder structures and Apex installation locations, most commonly seen in APAC.[/p][p][/p][p][b]ADJUSTED:[/b][/p][p]Fast Draw Wild Card[/p][p]Reload Time Reduction Benefit Reduced to 25% from 35%[/p][p]Consumable Use Time Reduction Benefit Reduced to 25% from 50%[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790972663,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1845383656384678",
+          "title": "Apex Legends: Latest Update - 10/01/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656384678",
+          "is_external_url": true,
+          "author": "RSPN_Matty",
+          "contents": "[p]Hello! We just pushed an update for the following:[/p][p]✅ FIXED:[/p][p]ALTER[/p][list][*][p]Unreliable tac and ult usage near large moving structures[/p][/*][/list][p][/p][p]🛠️ ADJUSTED:[/p][p]AXLE[/p][p][b]Passive:[/b][/p][list][*][p]Sliding lateral control nerfed by 50% (making it harder to maintain slide momentum while tightly cornering)[/p][/*][/list][p][b]Tactical:[/b][/p][list][*][p]Sliding lateral control nerfed by 25% for Nitro Gate users[/p][/*][*][p]Aim assist is disabled for players under the effect of the Nitro Gate[/p][/*][*][p]Nerfed Nitro Gate initial push speed to 650 from 700[/p][/*][/list][p][b]Ultimate:[/b][/p][list][*][p]If the Kickstart drone locks on immediately after being deployed, the resulting knock-up is significantly decreased[/p][/*][*][p]Nerfed max knock-up magnitude to 650 from 700[/p][/*][*][p]Nerfed max drone chase time to 8s from 10s (meaning it'll give-up on an active chase 2s sooner)[/p][/*][/list][p]WILDCARD: [/p][p]We are continuing to track community feedback regarding Apex KO and are making a few additional tuning changes to address player painpoints.[/p][p][/p][list][*][p]Reduced Fighter's Defense from 55% damage reduction to 50%[/p][/*][/list][p][i]Dev Note : We're still seeing that fighters are difficult to take down in a 1v1 Gun vs Fighter combat situation. This change will give players using guns a bit more damage when encountering a charging fighter. We'll continue to keep an eye on fighter combat performance.[/i][/p][p][/p][list][*][p]Reduced the max number of Ult charges for Ryu, Chun-Li and Dhalsim from 3 to 2[/p][/*][/list][p][i]Dev Note : We've been seeing situations where fighters are able to cast multiple Ultimate abilities in a row to completely decimate enemy teams without reasonable time for those teams to respond. Without changing the rate at which Fighters accumulate their Ultimate meter or their damage output, we've reduced the total number of stored ultimate for these fighters by 1.[/i][/p][p][/p][list][*][p]Enabled passive Fight Gauge regen when not in Fighter Form and below 1 pip of Fight Gauge[/p][/*][/list][p][i]Dev Note : We've observed potential droughts of Fight Gauge Tokens mid-match as K.O. Trucks are destroyed. To counter this, we're enabling a passive regen on your Fight Gauge. The goal here is to allow players to access Fighter Form more often and be prepared for their next encounter.[/i][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790906958,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1845383656382884",
+          "title": "An Update from the Anti Cheat Team - 10/01/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656382884",
+          "is_external_url": true,
+          "author": "RSPN_Bean",
+          "contents": "[h2][b]Competitive Integrity Update - Ballistic Exploit Crash[/b][/h2][p]Our Anti-Cheat team recently identified an exploit being used to disrupt matches by intentionally crashing game servers. After thoroughly investigating the suspected perpetrator, we have delivered a permanent account ban, and implemented a fix to the exploit.[/p][p]While investigating a suspected player who appeared to be repeatedly causing lobbies to crash, we identified an exploit involving Ballistic’s Sling passive. The exploit used a modified game client to duplicate a weapon optic far beyond its intended limits. Generating enough duplicated items placed an excessive load on the server, causing the match to become unresponsive and ultimately crash for everyone in the lobby.[/p][p]The player would then reconnect to the match after the crash and attempt to take advantage of other players being disconnected.[/p][p]Once identified, we worked to understand the behavior, confirm the cause, and put a fix in place to prevent this exploit from being used to disrupt matches again.[/p][p]We permanently banned the suspected user and are actioning all accounts found to be using this exploit.[/p][p]We take intentional match disruption seriously. Exploiting vulnerabilities to crash lobbies and interfere with other players' ability to play is unacceptable, and we will continue to investigate reports of this type of behavior and take action when we can confirm abuse.[/p][p]Thank you to everyone who reported suspicious lobby crashes and provided information that helped us investigate this issue. Fair play is for everyone.[/p][p][/p][p]\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790874212,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1845383656378422",
+          "title": "Apex Legends: Matchmaking Test Results - 09/30/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656378422",
+          "is_external_url": true,
+          "author": "rspn_jax",
+          "contents": "[p]For a fully localized version of this post, [url=\"https://www.ea.com/games/apex-legends/news/matchmaking-test-results\"]please visit here[/url].[/p][h1]INTRO[/h1][p]During our last season, Overclocked, we tested two temporary changes to Ranked matchmaking. Both went after the same thing, something we hear constantly and take seriously: it does not feel good to run into a stacked squad of the game's best players, especially when their Rank feels distant from your own.[/p][p]Ranked Matchmaking only works if you trust it. That means the system has to represent your skill accurately, show you honestly who you are up against, and put you in matches where climbing is possible if you play your best. Apex is a competitive game at its core, and Ranked is where players choose to test that.[/p][p]Below is what we found, and what happens next.[/p][h1]THE PROBLEM WE WENT AFTER[/h1][p]Premade stacks of high-skill players can create bad matches for everyone else, especially in relatively lower-skill lobbies. We see it in the data. Across Ranked, a squad with a premade duo plus a solo fill wins 19% more often than a squad of three solos. A full premade trio wins 17% more often. The behavior concentrates exactly where you would expect: 85% of Masters squads are premade three-stacks.[/p][p][img src=\"{STEAM_CLAN_IMAGE}/38098458/0a207df633e2240ae339177c8f0e73b848120f9c.jpg\"][/img][/p][p]Both tests were aimed at tackling the problem of premade squad advantages.[/p][h1]THE TWO TESTS[/h1][p][b]Test 1, premade tier restriction.[/b] You could still squad up, but only with players within one tier of you instead of two. The goal was to stop wide-band squads from dragging lower-tier players into high-tier lobbies.[/p][p][b]Test 2, solo queue only.[/b] Diamond, Master, and Predator players were locked to solo queue. No premades at all at the top end of play.[/p][p]For both tests, we wanted to measure two things: whether match quality actually improved, and how the change felt to play. The second matters as much as the first, and it is the one we can only answer by hearing what you tell us.[/p][h1]TEST 1: THE TIER RESTRICTION CHANGED LITTLE FOR A SMALL GROUP OF PLAYERS[/h1][p]Diamond players faced about 8% fewer Diamond opponents and roughly 8% more Platinum opponents. Platinum players saw more Diamonds in their lobbies. Outside those two tiers, nothing meaningful changed.[/p][p]A small improvement for a narrow slice of players was not worth the constraint on everyone else who was used to playing with friends within two rank tiers from them. As a result, at this time, we are not making the one-tier restriction permanent.[/p][h1]TEST 2: SOLO QUEUE WORKED MECHANICALLY, BUT IT DID NOT DELIVER AN IMPROVED EXPERIENCE[/h1][p]Premade three-stacks at the top of the ladder went away but the rest did not go the way we hoped.[/p][h1][b]Who wins did not change[/b][/h1][p]If removing premades squads results in more even matches, we would expect the distance between the strongest squads in a lobby and everyone else to shrink. Coordination is an advantage that RP does not measure, so taking it away should have pulled the top of the lobby back to a more even playing field. [/p][p]Unfortunately, this number barely moved. In Diamond, match result distributions stayed roughly where they were. In Masters we saw a small dip in the top squads' win rate, but the win-rate gap between the top 10 and the bottom 10 teams held at 9%. The best squad in the lobby still wins, whether or not they queued together.[/p][h1][b]Exposure to top players got worse, not better[/b][/h1][p]This is the result we did not expect, and it is the most useful thing we learned.[/p][p]First, a brief overview of how a Ranked squad gets built. The matchmaker pulls 60 available players of similar RP into a lobby, sorts everyone by RP, and splits that list into thirds. Each squad gets one player from the top third, one from the middle, and one from the bottom. That is how it tries to keep teams even.[/p][p]When we took away the ability for Masters and above to squad up, most of them did not leave the lobby. They were distributed one per squad instead of clustering into a few, which means more squads in more matches contained a top-tier player. We broke up the stacks and spread them across the board.[/p][p]For a Diamond player, that reads as more matches with a Master or Predator in them than before.[/p][p]It also looked worse than it was on our pre-match skill display. A squad with one Masters player and a squad with three Predators currently show up identically. So when more players ran into solo high-tier players more often, the result was more red on screen before the match even started. [/p][p]This is the typical shift that was visible to players. These two games have exactly the same distribution of opponents (6 Predators, 36 Masters, and 18 Diamonds).[/p][p][img src=\"{STEAM_CLAN_IMAGE}/38098458/3ead92b44771e3aa88edd7e131cceb91deca0720.png\"][/img][/p][p][img src=\"{STEAM_CLAN_IMAGE}/38098458/9649b28dd8685d1da8ab8b0f55a8f16f5a18b085.png\"][/img]\nWe are going to continue to iterate on this display. [/p][h1]Ranked play dropped among the players who play Ranked socially[/h1][p][img src=\"{STEAM_CLAN_IMAGE}/38098458/4f15a9fb31fc1b48e88b41e4743c5d30d0ad7990.jpg\"][/img][/p][p]Return rate here measures how many players came back to Apex during the test after playing in the days right before it. The weakest numbers were in Diamond and above cohorts who had been playing in duos and trios. These were not casual players drifting off. They were some of the most engaged players we have, and their Ranked play fell off during the window.[/p][p]That is ultimately the part of the test we cannot accept. Ranked matchmaking gets better when there are more players at every skill level in the queue. More players means tighter bands, shorter waits, and closer matches for everybody. Any change that pushes people out of Ranked worsens the thing we were actively trying to fix. This test was meant to improve the Ranked experience. Instead it thinned out Ranked. That is a bad trade.[/p][h1]Where we landed[/h1][p]We are not rolling out the solo queue experiment as a permanent requirement for high-skill lobbies. That does not mean solo queue experiments are dead. It means this version was too broad.[/p][p]What we are carrying forward is the goal without the blunt instrument: reduce how often you run into fully coordinated top-tier squads, without taking away your ability to play with your friends.[/p][h1]WHAT IS NEXT[/h1][p]Our teams continue to prepare various tests to continue to address matchmaking pain points, the details of which we’ll share as we get closer to implementation. The biggest upcoming changes that are coming as a result of these recent tests will be landing in Ranked in Seasons 31 and 32; we look forward to sharing those changes in October.[/p][h1]IN CLOSING[/h1][p]Apex is a competitive game at its core, and the best possible experience for our whole player base comes when we have players at every skill level playing Ranked. It is the mechanism by which matchmaking gets better for everyone.[/p][p]Thank you for playing through these tests with us, and for sharing your feedback throughout. Keep an eye out for Ranked changes to come in the next few seasons![/p][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790788277,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1845383656376075",
+          "title": "Игроки в Apex Legends столкнулись с многочисленными сбоями после внедрения нового античита \"Javelin\"",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1845383656376075",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/97Q8rn8FprMis-mzBjNK1A.jpeg\"/>\n              <br />\n                                                                                <p>C 29 сентября Apex Legends перешла на новый античит \"EA Javelin Anticheat\", однако его релиз вызвал массу жалоб от сообщества. Respawn и EA подтвердили, что знают о проблемах, возникающих при миграции с Easy Anti-Cheat на новую систему, и уже работают над исправлениями.</p>                                                        <p>Сообщество массово критикует игру в X (Twitter), Reddit и на других площадках. Игроки сообщают о постоянных дисконнектах, бесконечных загрузках и не возможности начать или зайти в игру. По словам игроков, новый античит оказался крайне чувствителен к фоновым процессам и вызывает ложные требования удалить стороннее ПО.</p>                                                        <p>Несколько подобных комментов с жалобами:</p>                                                        <p>Что это такое, моя игра работала нормально, но сегодня обновилась, и теперь выдаёт это. Я никогда в жизни не читерил ни в чём.</p>                                                        <p>Е***ь, б***, новый античит в Apex — он мне блокирует записи ShadowPlay от Nvidia.</p>                                                        <p>Не могу войти в Apex сегодня. Выскочило что-то вроде того, что мой аккаунт заблокирован. Не знаю, что случилось. Я не играл уже неделю.</p>                                                        <p>Я не могу запустить игру: пишет, что EA Javelin Anticheat отсутствует или не установлен.</p>                                                        <p>Разработчики порекомендовали игрокам, использующим EA App, временно переключиться на платформу Steam. По заявлениям пользователей, на Steam игра работает значительно стабильнее.</p>                                                        <p>По словам разработчиков, новый античит призван дать больше возможностей отслеживать возникающие угрозы и повысит гибкость в разработке и улучшении методов обнаружения по мере того, как развивается мошенничество. Стоит отметить, что античит Javelin уже давно внедрен в другие игры EA, и, как говорят разработчики, он предотвратил миллионы попыток мошенничества со стороны игроков.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1790734696,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 1172470
+        },
+        {
+          "gid": "1844751498235077",
+          "title": "Apex Legends: Latest Update - 09/29/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498235077",
+          "is_external_url": true,
+          "author": "RSPN_Bean",
+          "contents": "[p]UPDATE:\n\nAs we work to transition all PC players from Easy Anticheat to EA Javelin Anticheat, if you are encountering issues matchmaking into a round (including \"Party Not Ready\" error messages), we recommend switching your launcher to Steam for a smoother game experience. We are actively investigating these issue and hope to have a resolution soon.[/p][p][/p][p][/p][p]REMINDER: [/p][p][/p][p]EA Javelin Anticheat is now live in Apex Legends on PC! Please update your game before hopping into your next match. We are aware of errors for some players as they transition between systems. We are actively working to address this issue and are hoping to have it resolved soon. This change will give our anticheat teams greater visibility into emerging threats and more flexibility to develop and improve detections as cheating evolves. For more information, please read our recent blog: [url=\"https://www.ea.com/games/apex-legends/apex-legends/news/javelin-anticheat-announcement\"]https://www.ea.com/games/apex-legends/apex-legends/news/javelin-anticheat-announcement[/url][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790704572,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470,
+          "tags": [
+            "mod_reviewed",
+            "ModAct_1691520782_1790706334_0"
+          ]
+        },
+        {
+          "gid": "1844751498232361",
+          "title": "Apex Legends: Latest Update 9/28/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498232361",
+          "is_external_url": true,
+          "author": "RSPN_Bean",
+          "contents": "[p][b]REMINDER:[/b][/p][p]Last week, in response to player feedback, we brought back the Core Wildcard mode alongside Apex KO. As a reminder, you should expect slightly longer queue times for either mode, with the higher skilled lobbies being most impacted. The highest successful queue times we're seeing is around 2.5-3.5 minutes. Know before you go![/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790623060,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1844751498222669",
+          "title": "Apex Legends: Latest Update - 09/24/2026 - 2:00pm PT",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498222669",
+          "is_external_url": true,
+          "author": "rspn_jax",
+          "contents": "[p]⚠️INVESTIGATING: [/p][p]We are aware of an issue on PS5 systems that results in errors in non-English voice lines. We're actively working on it and hope to have more information soon.[/p][p][/p][p][i]Update @ 9/25/2026, 9 AM PT: [/i][/p][p]✅This issue is now fixed.[/p][p]If you were affected by this, please restart the game after downloading our small client patch. Thank you for your patience while we worked on a fix.[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790283407,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470,
+          "tags": [
+            "mod_reviewed",
+            "ModAct_1890460210_1790284855_0",
+            "mod_require_rereview"
+          ]
+        },
+        {
+          "gid": "1844751498222239",
+          "title": "Apex Legends: Latest Updates - 09/24/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498222239",
+          "is_external_url": true,
+          "author": "rspn_jax",
+          "contents": "[p]In response to community feedback, we're making a couple of adjustments to the Street Fighter 6 collab Wildcard event. [/p][p]🛠️[b]ADJUSTED:[/b][/p][p]- Blocking with drain Fighter Gauge more quickly. [/p][p][i]Dev note: Some feedback suggested that the Block mechanic felt overtuned and made shooting feel useless, noting that Apex is a shooter, first. This change will allow you to more reliably break a player out of blocking after doing enough damage.)[/i]\n[/p][p]- Fighter Mode will no longer be extended by doing damage while in Fighter Mode. [/p][p][i]Dev note: We've seen instances of players staying in Fighter Mode for tremendously long periods of time, which leads to a feeling like the entire lobby is in Fighter mode for the entire match.[/i]\n[/p][p]- Core Wildcard is returning alongside Apex K.O. [/p][p][i]Dev note: We see this feedback from the community often whenever we do Wildcard events. While there potential complications by allowing two instances of Wildcard to exist simultaneously, we feel this approach will be most beneficial to players when the Event varies too far from the Wildcard design ethos. We will continue to closely monitor match data and community feedback.[/i][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790270785,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1844751498222163",
+          "title": "EA Javelin Anticheat is Coming to Apex Legends",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498222163",
+          "is_external_url": true,
+          "author": "rspn_jax",
+          "contents": "[p]For a fully localized version of the following, [url=\"https://www.ea.com/games/apex-legends/news/javelin-anticheat-announcement\"]please visit the official blog page[/url].[/p][h1]Intro[/h1][p]Effective September 29th, 2026, Apex Legends will be switching its PC anticheat system to EA Javelin Anticheat. We extend our deepest gratitudes to the Easy Anti Cheat team at Epic Games for a long and fruitful partnership. Moving to EA Javelin Anticheat will give our anticheat teams greater visibility into emerging threats and more flexibility to develop and improve detections as cheating evolves. This is an important step aligned with our priority to establish and maintain a high standard of competitive integrity in the Apex games.[/p][h1]EA Javelin Anticheat[/h1][p]EA Javelin Anticheat is a PC anticheat solution designed to ensure fair play in EA games by preventing and detecting cheating while focusing on privacy and security. The goal is for players to have a level playing field where results, progression and success are determined purely by merit. This gives our players a more secure experience, preventing cheaters from impacting others’ gameplay, security and privacy.[/p][p]On titles that currently use EA Javelin Anticheat, the solution has prevented millions of cheating attempts while maintaining an [url=\"https://www.ea.com/news/ea-javelin-anticheat-2026-update\"]accuracy rate of over 99%[/url].[/p][p]Read more about EA Javelin Anticheat [url=\"https://www.ea.com/news/introducing-ea-javelin-anticheat\"]here[/url].[/p][h1]What to Expect[/h1][p]When this feature goes live on September 29th, PC players will be prompted to download a game update. After the update completes, launch Apex Legends and you’ll automatically be migrated to EA Javelin Anticheat – simple as that! [/p][p]Some players may be familiar with EA Javelin Anticheat from other EA titles and might remember a component requiring them to navigate bios menus on their PC to enable secure boot. At this time, that is [b][i]not[/i][/b] the case for Apex Legends; simply download, install, launch, and play.[/p][h1]Console Anticheat[/h1][p]While this update highlights our core PC protection layer, maintaining game integrity is a multi-platform priority. We continue to actively invest in specialized data models and server-side detection methods targeted at console-specific cheats. Bringing our anti-cheat engineering, telemetry, and data capabilities together in-house gives our teams greater speed and visibility, sharpening our ability to curb cheating across the entire landscape.[/p][h1]Outro[/h1][p]This is an important step for Apex Legends as we continue to invest in creating the best possible competitive experience for our players. We will continue to develop our anticheat tools to achieve a high standard of competitive integrity and will continue to provide updates as they become available. To stay up-to-date on the latest anti-cheat updates, be sure to follow ApexLiveComms on [url=\"https://x.com/apexlivecomms\"]X[/url] and [url=\"https://threads.com/apexlivecomms\"]Threads[/url].[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790269287,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1844751498219773",
+          "title": "Apex Legends: Latest Update - 09/23/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498219773",
+          "is_external_url": true,
+          "author": "rspn_jax",
+          "contents": "[p]✅FIXED:[/p][p]- Fixed a crash that could occur when using Fighter Abilities in specific circumstances in Firing Range.[/p][p]- Fixed a visual issue where the Legend spotlight pass daily challenges would appear to be at 100% and not roll over to the next available challenge.[/p][p]- Fixed an issue where Fighter Mode could sometimes delete Ballistic's sling weapon.[/p][p]- Fixed an issue in Wildcard KO where players would sometimes be unable to use their weapons after respawning.[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790204295,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1844115010505080",
+          "title": "Apex Legends: Latest Update - 09/22/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010505080",
+          "is_external_url": true,
+          "author": "rspn_jax",
+          "contents": "[p]💡REMINDER: [/p][p]For players experiencing issues with the new Street Fighter 6 Wildcard event, please ensure that you have updated Apex Legends today. You will be able to load into matches without updating, but your overall experience may be hindered - fully closing Apex and downloading the update should resolve most issues.[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790099905,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        },
+        {
+          "gid": "1844115010504929",
+          "title": "Apex Legends VS Street Fighter 6 Event",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010504929",
+          "is_external_url": true,
+          "author": "Electronic Arts",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/38098458/b385ffe049e39e9dd29f2073e643b4d7ee5f52ca.jpg\"][/img][/p][p]A new challenger enters! Two of gaming’s fiercest competitions meet in one Arena. Throw down in Wildcard with Street Fighter 6 fighting styles and launch Hadokens and Shroyukens across a remixed Olympus. [/p][p]Drop into Wildcard, grab your Fighter Gear, and channel the power of a Street Fighter 6 character. Pick between the fighting styles of Ryu, Chun-Li, Akuma, and Dhalsim: each with a Passive, Tactical, and Ultimate based on their Street Fighter 6 moveset. [/p][p]Collect Tokens to fill your Fight Gauge, then unleash Fighter Form: third-person combat with your Fighter Gear’s Tactical and Ultimate unlocked, stronger melee, a block, damage resistance, and bonus speed. [/p][p]It all goes down on a Street Fighter 6 remix of Olympus! Throw down in Luke’s Gym, and check out the Blanka-chan balloons, statues, arcade cabinet decorations, and more. [/p][p]Throw down with 8 new Iconic Skins dressing Legends as Street Fighter 6 characters, including Sparrow as Ryu, Alter as Chun-Li, Gibraltar as Akuma, Pathfinder as Dhalsim, and more! Channel the spirit of Street Fighter 6 with the new Hadoken Mythic Universal Melee cosmetic and matching Deathbox.[/p][p][/p][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790096461,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470,
+          "tags": [
+            "vo_marketing_message"
+          ]
+        },
+        {
+          "gid": "1844115010502111",
+          "title": "Apex Legends: Latest Update - 09/21/2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010502111",
+          "is_external_url": true,
+          "author": "rspn_jax",
+          "contents": "[p]✅FIXED:[/p][p]- Fixed a bug that switched the order of Lifeline upgrades\n- The correct Mythic 30-30 and L-STAR now spawn appropriately in Wildcard[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790012463,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1172470
+        }
+      ],
+      "count": 1360
+    }
+  }
+}

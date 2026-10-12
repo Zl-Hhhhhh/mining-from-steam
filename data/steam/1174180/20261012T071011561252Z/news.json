@@ -1,0 +1,293 @@
+{
+  "fetched_at": "2026-10-12T07:10:12.562816+00:00",
+  "endpoint": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/",
+  "data": {
+    "appnews": {
+      "appid": 1174180,
+      "newsitems": [
+        {
+          "gid": "1846018067932378",
+          "title": "Инсайдер: Rockstar планирует выпустить RDR2 на Nintendo Switch 2, но проект временно заморожен",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846018067932378",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/WuvX35GVRYPaI72_38OBIg.webp\"/>\n              <br />\n                                                                                <p>Культовый вестерн Red Dead Redemption 2 от студии Rockstar Games имеет крайне высокие шансы выйти на консоли Nintendo Switch 2. Однако на текущий момент разработка амбициозного порта временно приостановлена. Об этом сообщил известный инсайдер Nash Weedle, специализирующийся на утечках из экосистемы Nintendo.</p>                                                        <p>По данным информатора, вероятность релиза RDR2 на новой портативной платформе оценивается в 90% (9 из 10). Задержка в производстве носит стратегический характер: сейчас все ключевые ресурсы Rockstar и издательства Take-Two Interactive брошены на финальные этапы разработки, релиз и последующую пострелизную поддержку долгожданной Grand Theft Auto 6.</p>                                                        <p>Как отметили специалисты, с технической точки зрения эта идея выглядит вполне реальной, в отличие от случая с оригинальной Nintendo Switch. Red Dead Redemption 2 успешно работала на PS4 и Xbox One, в то время как Switch 2 обладает более высокими характеристиками, чем консоли прошлого поколения (хоть и остается ниже уровня PS5 и Xbox Series X|S), что делает запуск игры на ней технически возможным.</p>                                                        <p>Выход на платформе Nintendo имеет для Take-Two стратегическое значение. Продажи Red Dead Redemption 2 уже вплотную приблизились к исторической отметке в 100 миллионов копий, что делает ее одной из самых продаваемых игр в истории индустрии. Расширение экосистемы за счет портативной консоли Nintendo позволит проекту гарантированно преодолеть этот рубеж и войти в ультраредкий клуб игровых блокбастеров.</p>                                                        <p>Аналитики предполагают, что к замороженному порту разработчики вернутся после стабилизации запуска GTA 6, а сам релиз RDR2 на Switch 2 может состояться в районе 2027–2028 годов.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1791529362,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 1174180
+        },
+        {
+          "gid": "1842846814455661",
+          "title": "Steam Global Top Sellers for week of 1 Sep — 8 September 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1842846814455661",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2026W37/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W37.png\"></a><ol><li><a href=\"https://steamdb.info/app/3751260/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">The Blood of Dawnwalker</a></li><li><a href=\"https://steamdb.info/app/2638890/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Onimusha: Way of the Sword</a></li><li><a href=\"https://steamdb.info/app/1867240/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">WARDOGS</a></li><li><a href=\"https://steamdb.info/app/2406770/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Bodycam</a></li><li><a href=\"https://steamdb.info/app/4001890/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">How to Fish</a></li><li><a href=\"https://steamdb.info/app/3219630/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Halloween: The Game</a></li><li><a href=\"https://steamdb.info/app/4356430/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">NBA 2K27</a></li><li><a href=\"https://steamdb.info/app/2075800/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">STAR WARS Zero Company™</a></li><li><a href=\"https://steamdb.info/app/3321460/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Crimson Desert Enhanced</a></li><li><a href=\"https://steamdb.info/app/1174180/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W37/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1788858000,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 1174180
+        },
+        {
+          "gid": "1842212951313418",
+          "title": "Steam Global Top Sellers for week of 25 Aug — 1 September 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1842212951313418",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2026W36/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W36.png\"></a><ol><li><a href=\"https://steamdb.info/app/2075800/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">STAR WARS Zero Company™</a></li><li><a href=\"https://steamdb.info/app/4001890/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">How to Fish</a></li><li><a href=\"https://steamdb.info/app/4356430/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">NBA 2K27</a></li><li><a href=\"https://steamdb.info/app/3321460/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Crimson Desert Enhanced</a></li><li><a href=\"https://steamdb.info/app/381210/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Dead by Daylight</a></li><li><a href=\"https://steamdb.info/app/4080220/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">EA SPORTS FC™ 27</a></li><li><a href=\"https://steamdb.info/app/1867240/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">WARDOGS</a></li><li><a href=\"https://steamdb.info/app/1174180/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li><li><a href=\"https://steamdb.info/app/2483190/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Forza Horizon 6</a></li><li><a href=\"https://steamdb.info/app/1245620/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ELDEN RING</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W36/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1788253200,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 381210
+        },
+        {
+          "gid": "1841579228676146",
+          "title": "Red Dead Redemption 2: Nuevo Paraiso, the latest Mexico expansion mod for Rockstar's western, releases next month",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/Rock, Paper, Shotgun/1841579228676146",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://assetsio.gnwcdn.com/red-dead-redemption-2-nuevo-paraiso-mod-release-date-01.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Pretty much since the day <a href=\"https://www.rockpapershotgun.com/games/red-dead-redemption-2\">Red Dead Redemption 2</a> was released and they saw its map included Red Dead 1 states New Austin and West Elizabeth, but didn't extend south of the border, modders have been looking to add in their own re-creations of Mexico. There have been a few attempts already, but the latest looks the most detailed yet and is due out in September.</p>\n <p><a href=\"https://www.rockpapershotgun.com/red-dead-redemption-2-nuevo-paraiso-the-latest-mexico-expansion-mod-for-rockstars-western-releases-next-month\">Read more</a></p>",
+          "feedlabel": "Rock, Paper, Shotgun",
+          "date": 1787591010,
+          "feedname": "Rock, Paper, Shotgun",
+          "feed_type": 0,
+          "appid": 1174180
+        },
+        {
+          "gid": "1836506165578059",
+          "title": "Steam Global Top Sellers for week of 30 Jun — 7 July 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1836506165578059",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2026W28/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W28.png\"></a><ol><li><a href=\"https://steamdb.info/app/4704690/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">MECCHA CHAMELEON</a></li><li><a href=\"https://steamdb.info/app/1091500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cyberpunk 2077</a></li><li><a href=\"https://steamdb.info/app/381210/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Dead by Daylight</a></li><li><a href=\"https://steamdb.info/app/3751950/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Assassin's Creed Black Flag Resynced</a></li><li><a href=\"https://steamdb.info/app/1675200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/3405690/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">EA SPORTS FC™ 26</a></li><li><a href=\"https://steamdb.info/app/2399830/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ARK: Survival Ascended</a></li><li><a href=\"https://steamdb.info/app/3240220/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Grand Theft Auto V Enhanced</a></li><li><a href=\"https://steamdb.info/app/250900/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">The Binding of Isaac: Rebirth</a></li><li><a href=\"https://steamdb.info/app/1174180/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W28/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1783414800,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 250900
+        },
+        {
+          "gid": "1836506165562533",
+          "title": "Steam Global Top Sellers for week of 23 Jun — 30 June 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1836506165562533",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2026W27/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W27.png\"></a><ol><li><a href=\"https://steamdb.info/app/4704690/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">MECCHA CHAMELEON</a></li><li><a href=\"https://steamdb.info/app/1091500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cyberpunk 2077</a></li><li><a href=\"https://steamdb.info/app/381210/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Dead by Daylight</a></li><li><a href=\"https://steamdb.info/app/250900/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">The Binding of Isaac: Rebirth</a></li><li><a href=\"https://steamdb.info/app/1361210/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Warhammer 40,000: Darktide</a></li><li><a href=\"https://steamdb.info/app/1675200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/3595230/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare® II</a></li><li><a href=\"https://steamdb.info/app/3405690/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">EA SPORTS FC™ 26</a></li><li><a href=\"https://steamdb.info/app/1086940/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Baldur's Gate 3</a></li><li><a href=\"https://steamdb.info/app/1174180/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W27/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1782810000,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 250900
+        },
+        {
+          "gid": "1833968530900662",
+          "title": "A Bustling Frontier Benefits All Roles in Red Dead Online",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530900662",
+          "is_external_url": true,
+          "author": "rockstarintl_steam",
+          "contents": "The rising tide lifts all boats this month in Red Dead Online. Whatever your specialty, all Roles benefit from boosted bonuses. Bounty Hunters tracking targets, Traders wheeling and dealing in furs and pelts, and Collectors combing the frontier for treasure all stand to gain. \n\nAll the while, Naturalists can assist by sighting and sampling rare wildlife, and Moonshiners can get rich moving illicit swill right underneath the law’s nose. \n\nEarn bonuses and rewards across all Roles while taking advantage of waived Fast Travel fees, assembling a free Community-Inspired Outfit, and more through June 29.\n\n[img]{STEAM_CLAN_IMAGE}/36260268/397d74ceed0ca674ed56d6f07a445be4f7a3f5c1.jpg[/img]\n\n2X RDO$ AND XP ON ALL BOUNTIES\n\nLicensed Bounty Hunters can dispense frontier justice and earn Double RDO$ and XP hauling in Regular, Infamous, and Legendary Bounties, dead or alive.\n\nComplete any Legendary Bounty through June 29 to get the Clovelly Shirt.\n\n2X RDO$ AND XP ON COLLECTOR SETS\n\nUnearth hidden valuables and sell Collector Sets to Madam Nazar to receive 2X RDO$ and XP in exchange. \n\nFind and collect a Fossil anytime this month to receive the Clovelly Dropped Suspenders.\n\n[url=https://www.rockstargames.com/newswire/article/39a3k38874o21a/a-bustling-frontier-benefits-all-roles-in-red-dead-online?utm_source=steam-news-rdr2&utm_medium=o_promos&utm_campaign=189&utm_content=189-lead]See full event details at the Rockstar Newswire.[/url]",
+          "feedlabel": "Community Announcements",
+          "date": 1780410594,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1174180,
+          "tags": [
+            "hide_store"
+          ]
+        },
+        {
+          "gid": "1833968530885144",
+          "title": "Red Dead Online wasn't a missed opportunity in the eyes of Take-Two's boss, but I'd say it's proof that following the GTA train doesn't guarantee the world",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/rps/1833968530885144",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://assetsio.gnwcdn.com/red-dead-online-not-missed-opportunity-take-two-ceo-01.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>As Rockstar gear up to release <a href=\"https://www.rockpapershotgun.com/gta-6-everything-we-know\">GTA 6</a> (at least on consoles), spare a thought for <a href=\"https://www.rockpapershotgun.com/games/red-dead-online\">Red Dead Online</a>. The multiplayer element of <a href=\"https://www.rockpapershotgun.com/games/red-dead-redemption-2\">Red Dead Redemption 2</a> had its steady flow of major update-carrying stagecoaches <a href=\"https://www.rockpapershotgun.com/rockstar-abandon-major-red-dead-online-updates-to-focus-on-gta-6\">stopped all the way back in 2022</a>, with its makers explicitly citing a desire to shift those development resources over to that next entry in the stealy wheels series.</p>\n<p>There've been a few moments <a href=\"https://www.rockpapershotgun.com/red-dead-online-just-got-some-surprise-new-missions-and-one-involves-investigating-undead-plagues\">in the years since</a> when Red Dead Online has looked a bit like it might bounce back to prominence, but nothing substantial in that vein has materialised. It essentially had a solid three year run, but failed to come close to grasping the reins from its older inspiration, GTA Online. In the eyes of Take-Two CEO Strauss Zelnick, however, that doesn't make it a missed opportunity.</p>\n <p><a href=\"https://www.rockpapershotgun.com/red-dead-online-wasnt-a-missed-opportunity-in-the-eyes-of-take-twos-boss-but-id-say-its-proof-that-following-the-gta-train-doesnt-guarantee-the-world\">Read more</a></p>",
+          "feedlabel": "Rock, Paper, Shotgun",
+          "date": 1779879703,
+          "feedname": "rps",
+          "feed_type": 0,
+          "appid": 1174180
+        },
+        {
+          "gid": "1833334318579393",
+          "title": "Steam Global Top Sellers for week of 19 May — 26 May 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1833334318579393",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2026W22/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W22.png\"></a><ol><li><a href=\"https://steamdb.info/app/2483190/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Forza Horizon 6</a></li><li><a href=\"https://steamdb.info/app/1962700/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Subnautica 2</a></li><li><a href=\"https://steamdb.info/app/2215200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">LEGO® Batman™: Legacy of the Dark Knight</a></li><li><a href=\"https://steamdb.info/app/1118520/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Paralives</a></li><li><a href=\"https://steamdb.info/app/2605790/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Deep Rock Galactic: Rogue Core</a></li><li><a href=\"https://steamdb.info/app/3768760/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">007 First Light</a></li><li><a href=\"https://steamdb.info/app/2183900/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Warhammer 40,000: Space Marine 2</a></li><li><a href=\"https://steamdb.info/app/264710/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Subnautica</a></li><li><a href=\"https://steamdb.info/app/1142710/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Total War: WARHAMMER III</a></li><li><a href=\"https://steamdb.info/app/1174180/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W22/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1779786000,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 264710
+        },
+        {
+          "gid": "1832700592800982",
+          "title": "Steam Global Top Sellers for week of 12 May — 19 May 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1832700592800982",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2026W21/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W21.png\"></a><ol><li><a href=\"https://steamdb.info/app/1962700/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Subnautica 2</a></li><li><a href=\"https://steamdb.info/app/2483190/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Forza Horizon 6</a></li><li><a href=\"https://steamdb.info/app/264710/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Subnautica</a></li><li><a href=\"https://steamdb.info/app/2344520/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Diablo® IV</a></li><li><a href=\"https://steamdb.info/app/2215200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">LEGO® Batman™: Legacy of the Dark Knight</a></li><li><a href=\"https://steamdb.info/app/2807960/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Battlefield™ 6</a></li><li><a href=\"https://steamdb.info/app/1174180/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li><li><a href=\"https://steamdb.info/app/848450/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Subnautica: Below Zero</a></li><li><a href=\"https://steamdb.info/app/3472040/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">NBA 2K26</a></li><li><a href=\"https://steamdb.info/app/3892270/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Gamble With Your Friends</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W21/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1779181200,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 264710
+        },
+        {
+          "gid": "1831432155580145",
+          "title": "Conserve Frontier Wildlife as a Naturalist in Red Dead Online",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155580145",
+          "is_external_url": true,
+          "author": "rockstarintl_steam",
+          "contents": "Harriet Davenport needs all the help she can get sampling and classifying the rare wild animals of the five states. Meanwhile, Gus Macmillan wants those animals’ heads (and hides) on his wall. \n\nThere’s opportunity on either side of this dilemma: participating in any Rounds of the Wildlife Photographer or Wild Animal Kills Challenge Free Roam Events will award 4X RDO$ and XP through June 1. Completing a Round of Wildlife Photographer will also reward the blue Guerra Poncho. \n\nNaturalists who play Red Dead Online anytime through June 1 will receive the black Rushword Shirt.\n\n[img]{STEAM_CLAN_IMAGE}/36260268/b735cdbcb5c4168329cee83a5a7cb95570af4248.jpg[/img]\n\n3X RDO$, XP, AND ROLE XP ON SAMPLE SALES\n\nProtect rare species and be rewarded with 3X RDO$, XP, and Role XP on Sample Sales. Complete an Animal Sighting Mission to receive the Chicken Emote, or bring prized hides in for personal gain by Hunting or Sampling a Legendary Animal this month to receive the brown Clairborn Coat.\n\n4X RDO$, GOLD, AND XP ON RACES\n\nSaddle your horse and ride out in Races, galloping to 4X RDO$, Gold, and XP all month long. Place Top 3 in any Race this month for some extra shine with the Ruby Buckle, returning from The Outlaw Pass No. 2.\n\nTRIPLE REWARDS ON FEATURED SERIES\n\nThere’s a competitive streak running through the Featured Series this month with 3X RDO$ and XP on an assortment of Showdown Modes.\n\n[url=https://www.rockstargames.com/newswire/article/4k1a445a4kkk5a/conserve-frontier-wildlife-as-a-naturalist-in-red-dead-online?utm_source=steam-news-rdr2&utm_medium=o_promos&utm_campaign=188&utm_content=188-lead]See full event details at the Rockstar Newswire.[/url]",
+          "feedlabel": "Community Announcements",
+          "date": 1777989677,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1174180,
+          "tags": [
+            "hide_store"
+          ]
+        },
+        {
+          "gid": "1828894815567371",
+          "title": "Steam Global Top Sellers for week of 31 Mar — 7 April 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1828894815567371",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2026W15/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W15.png\"></a><ol><li><a href=\"https://steamdb.info/app/3321460/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Crimson Desert</a></li><li><a href=\"https://steamdb.info/app/2868840/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Slay the Spire 2</a></li><li><a href=\"https://steamdb.info/app/2050650/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Resident Evil 4</a></li><li><a href=\"https://steamdb.info/app/2479810/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Gray Zone Warfare</a></li><li><a href=\"https://steamdb.info/app/1808500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ARC Raiders</a></li><li><a href=\"https://steamdb.info/app/3784030/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">RACCOIN: Coin Pusher Roguelike</a></li><li><a href=\"https://steamdb.info/app/1174180/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li><li><a href=\"https://steamdb.info/app/3240220/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Grand Theft Auto V Enhanced</a></li><li><a href=\"https://steamdb.info/app/3472040/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">NBA 2K26</a></li><li><a href=\"https://steamdb.info/app/1938090/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W15/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1775552400,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 1174180
+        },
+        {
+          "gid": "1828441623112262",
+          "title": "Hit the Gravy Train by Completing Trader Sales in Red Dead Online",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828441623112262",
+          "is_external_url": true,
+          "author": "rockstarintl_steam",
+          "contents": "These are boomtimes for fearless entrepreneurs willing to do what it takes to obtain animal carcasses and pelts across the wilderness and swamps of the frontier. Earn 3X RDO$, XP, and Role XP on all Trader Sales, plus garner additional bonuses.\n\nComplete five Trader Sales to receive the Fortune Buckle and complete all your Trader Daily Challenges to receive the Tennessee Walker Camp Flag. Prominent Traders who reach Rank 20 will receive the Burdall Hat. \n\n[img]{STEAM_CLAN_IMAGE}/36260268/5658ead38e319f4583cd8090b3f5ea06408f8ff8.jpg[/img]\n\n3X RDO$, GOLD, AND XP ON CALL TO ARMS\n\nJoin a small defense force and fight through ten waves of increasingly dangerous enemies as you defend holdouts and hapless locals in Call to Arms.\n\nVisit the Post Office or your Camp’s Lockbox to collect J.’s Telegram and select it from your Satchel to answer the call and earn 3X RDO$, Gold, and XP through May 4. Surviving and reaching Wave 4 in any Call to Arms this month will reward you with the Larkin Gloves. \n\n5X FISHING REWARDS\n\nBeyond being a restful and restorative hobby, fishing is a great way to make a living off nature’s bounty. Sell your catch to net 5X RDO$ for all Fish Sales to the Butcher, and take part in the Fishing Challenge Free Roam Event for 5X RDO$ and XP through May 4. \n\nGet angling by claiming a free Fishing Rod from the Catalogue or any General Store. Visit Lagras Bait & Tackle to add Lures for 50% off, helping your chances of reeling in larger fish and bolstering your remittance down the line.\n\n[url=https://www.rockstargames.com/newswire/article/k4a9473a383191/hit-the-gravy-train-by-completing-trader-sales-in-red-dead-online?utm_source=steam-news-rdr2&utm_medium=o_promos&utm_campaign=187&utm_content=187-lead]See full event details at the Rockstar Newswire.[/url]",
+          "feedlabel": "Community Announcements",
+          "date": 1774965687,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1174180,
+          "tags": [
+            "hide_store"
+          ]
+        },
+        {
+          "gid": "1828441623112213",
+          "title": "Steam Global Top Sellers for week of 24 Mar — 31 March 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1828441623112213",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2026W14/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W14.png\"></a><ol><li><a href=\"https://steamdb.info/app/3321460/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Crimson Desert</a></li><li><a href=\"https://steamdb.info/app/2868840/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Slay the Spire 2</a></li><li><a href=\"https://steamdb.info/app/1675200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/2000950/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare®</a></li><li><a href=\"https://steamdb.info/app/1174180/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li><li><a href=\"https://steamdb.info/app/1808500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ARC Raiders</a></li><li><a href=\"https://steamdb.info/app/381210/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Dead by Daylight</a></li><li><a href=\"https://steamdb.info/app/3240220/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Grand Theft Auto V Enhanced</a></li><li><a href=\"https://steamdb.info/app/1091500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cyberpunk 2077</a></li><li><a href=\"https://steamdb.info/app/1144200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Ready or Not</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W14/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1774947600,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 381210
+        },
+        {
+          "gid": "1825727806720493",
+          "title": "Wrangle Double Rewards Selling Moonshine in Red Dead Online",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806720493",
+          "is_external_url": true,
+          "author": "community",
+          "contents": "Fire the still and quench locals’ thirst for the hard stuff to earn 2X RDO$, XP, and Role XP completing Moonshiner Sales this month in Red Dead Online. \n\nSuccessfully complete a Moonshiner Sale to receive the green Torbay Vest. Practiced Moonshiners who reach Level 20 will receive the brown Ortega Vest for playing Red Dead Online anytime through March 30. Successfully freeing up smuggling routes by destroying a Revenue Agent Blockade this month will get you the white Cossack Hat. \n\nThis month’s weekly rewards include: \n\n- March 3 – 9: Complete “Blood Is Thicker Than ‘Shine” Moonshine Story Mission to receive the tan Porter Jacket \n- March 10 – 16: Complete three Daily Challenges to receive the black Salter Shoes \n- March 17 – 23: Moonshiners can log in to receive the green Churchwell Vest \n- March 24 – 30: Rank up five times as a Moonshiner or Reach Moonshiner Rank 20 to receive the Slow Clap Emote \n\n[img]{STEAM_CLAN_IMAGE}/36260268/c85cc1a5329289c921a56062b09189bdd14481da.jpg[/img]\n\n3X RDO$ AND XP ON MOONSHINER STORY MISSIONS\n\nHelp bootlegger-turned-fugitive Maggie Fike free her nephew Lemuel, sabotage the Braithwaite’s rival operation, and get revenge on IRS agent Reid Hixon to earn Triple Rewards on Moonshiner Story Missions, all month long. \n\nCompleting The Certainty of Death and Taxes Moonshiner Story Mission will result in you getting the Buck Moonshiner Bar Photograph and the Bear Moonshiner Bar Photograph, returning from Outlaw Pass 2, to adorn the walls of your speakeasy. \n\n[url=https://www.rockstargames.com/newswire/article/5174778o955352/wrangle-double-rewards-selling-moonshine-in-red-dead-online?utm_source=steam-news-rdr2&utm_medium=o_promos&utm_campaign=186&utm_content=186-lead]See full event details at the Rockstar Newswire.[/url]",
+          "feedlabel": "Community Announcements",
+          "date": 1772550564,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1174180,
+          "tags": [
+            "hide_store"
+          ]
+        },
+        {
+          "gid": "1823191198617154",
+          "title": "Crime Pays in Red Dead Online with Triple Rewards on Blood Money Opportunities",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823191198617154",
+          "is_external_url": true,
+          "author": "rockstarintl_steam",
+          "contents": "Guido Martelli, right hand man to the notorious mob boss Angelo Bronte, invites you to join the dangerous ranks of the criminal underworld.\n\nEarn the racket’s respect by completing Crime Contracts for Martelli’s contacts to then execute more elaborate (and lucrative) Blood Money Opportunities to reap 3X RDO$, Gold, and XP through March 2.\n\n[img]{STEAM_CLAN_IMAGE}/36260268/cf22d8cd39c69db2abd55faba1c37ac6ee04cb06.jpg[/img]\n\n2X RDO$, ROLE XP, AND XP ON COLLECTOR SET SALES\n\nFortune favors the bold, but it also rewards the determined. Those selling complete Collector Sets to Madam Nazar will get Double RDO$ and XP this month.\n\n3X PAYOUTS FOR DISCOVERING COLLECTIBLES AND IN COLLECTOR FREE ROAM EVENTS\n\nLeave no stone, corpse, or personal belonging unturned. Discover Collectibles to earn 3X Role XP for the next four weeks.\n\nBe on the lookout for Collector Free Roam Events during your sessions. Join to earn 3X RDO$ and XP through March 2 hoarding the most collectibles in Salvage or finding the valuable Condor Egg. \n\n[url=https://www.rockstargames.com/newswire/article/75318ak27ok97k/crime-pays-in-red-dead-online-with-triple-rewards-on-blood-money-oppor?utm_source=steam-news-rdr2&utm_medium=o_promos&utm_campaign=185&utm_content=185-lead]See full event details at the Rockstar Newswire.[/url]",
+          "feedlabel": "Community Announcements",
+          "date": 1770136097,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1174180,
+          "tags": [
+            "hide_store"
+          ]
+        },
+        {
+          "gid": "1823191198616862",
+          "title": "Steam Global Top Sellers for week of 27 Jan — 3 February 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1823191198616862",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2026W06/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W06.png\"></a><ol><li><a href=\"https://steamdb.info/app/381210/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Dead by Daylight</a></li><li><a href=\"https://steamdb.info/app/1675200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/1808500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ARC Raiders</a></li><li><a href=\"https://steamdb.info/app/1371980/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">No Rest for the Wicked</a></li><li><a href=\"https://steamdb.info/app/3681010/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Nioh 3</a></li><li><a href=\"https://steamdb.info/app/2397300/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Half Sword</a></li><li><a href=\"https://steamdb.info/app/1588550/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cairn</a></li><li><a href=\"https://steamdb.info/app/3405690/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">EA SPORTS FC™ 26</a></li><li><a href=\"https://steamdb.info/app/3240220/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Grand Theft Auto V Enhanced</a></li><li><a href=\"https://steamdb.info/app/1174180/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W06/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1770109200,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 381210
+        },
+        {
+          "gid": "1822556746169179",
+          "title": "Steam Global Top Sellers for week of 20 Jan — 27 January 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1822556746169179",
+          "is_external_url": true,
+          "author": "SteamDB",
+          "contents": "<a href=\"https://steamdb.info/topsellers/2026W05/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"><img src=\"https://steamdb.info/topsellers/2026W05.png\"></a><ol><li><a href=\"https://steamdb.info/app/1808500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ARC Raiders</a></li><li><a href=\"https://steamdb.info/app/1675200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a></li><li><a href=\"https://steamdb.info/app/2483190/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Forza Horizon 6</a></li><li><a href=\"https://steamdb.info/app/3405690/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">EA SPORTS FC™ 26</a></li><li><a href=\"https://steamdb.info/app/1371980/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">No Rest for the Wicked</a></li><li><a href=\"https://steamdb.info/app/1174180/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Red Dead Redemption 2</a></li><li><a href=\"https://steamdb.info/app/3240220/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Grand Theft Auto V Enhanced</a></li><li><a href=\"https://steamdb.info/app/1313140/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cult of the Lamb</a></li><li><a href=\"https://steamdb.info/app/553850/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">HELLDIVERS™ 2</a></li><li><a href=\"https://steamdb.info/app/3419520/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Quarantine Zone: The Last Check</a></li></ol><br><i>* excluding free to play games</i><br><a href=\"https://steamdb.info/topsellers/2026W05/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+          "feedlabel": "SteamDB",
+          "date": 1769504400,
+          "feedname": "SteamDB",
+          "feed_type": 0,
+          "appid": 553850
+        },
+        {
+          "gid": "1819386365125907",
+          "title": "Corral Bounty Hunter Bonuses in Red Dead Online",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365125907",
+          "is_external_url": true,
+          "author": "rockstarintl_steam",
+          "contents": "Criminals are riding high across Red Dead Online, and someone ought to bring them down a peg or two. Clean up the frontier’s ne’er-do-wells high and low to earn 3X RDO$, Role XP, and XP turning in Regular Bounties and 2X RDO$, Gold, and XP for Legendary and Infamous Bounties.\n\nSuccessfully turn in a Legendary Bounty to get your hands on the Harshaw Gauntlets. For those who wish to dispense frontier justice in gentlemanly apparel, Bounty Hunters of Rank 25 or higher who play Red Dead Online this month will receive the white Clairborn Coat. See below for weekly rewards on offer throughout this month:\n\n- January 6 – 12: Complete three Bounty Missions to receive a Reward for the San Luis Shore Treasure Map\n\n- January 13 – 19: Complete all your Bounty Hunter Daily Challenges to receive an Offer for 40% off an Established or Distinguished Bounty Hunter Role Item\n\n- January 20 – 26: Complete three Bounty Missions to receive an Offer for 50% off a Weapon\n\n- January 27 – February 2: Players Rank 50 or Higher can log in to receive the beige Torranca Coat\n\n[img]{STEAM_CLAN_IMAGE}/36260268/935c4beecc1abf912aedeb61a868ea86efe05a69.jpg[/img]\n\n3X RDO$ AND XP ON BOUNTY HUNTER FREE ROAM EVENTS\n\nTrack down multiple targets in Manhunt or conduct a mass arrest in Day of Reckoning — both Bounty Hunter Free Roam Events are paying out 3X RDO$ and XP through February 2.\n\nParticipate in either Manhunt or Day of Reckoning anytime this month to receive the Gable Charm.\n\n[url=https://www.rockstargames.com/newswire/article/ak394o271o2a59/corral-bounty-hunter-bonuses-in-red-dead-online?utm_source=steam-news-rdr2&utm_medium=o_promos&utm_campaign=184&utm_content=184-lead]See full event details at the Rockstar Newswire.[/url]",
+          "feedlabel": "Community Announcements",
+          "date": 1767713119,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1174180,
+          "tags": [
+            "hide_store"
+          ]
+        },
+        {
+          "gid": "1818118366170152",
+          "title": "Ring in the Holidays with a Festive New Showdown in Red Dead Online",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1818118366170152",
+          "is_external_url": true,
+          "author": "rockstarintl_steam",
+          "contents": "Dash through the snow in Head for the Hills (Dodge a Bullet), returning to Red Dead Online’s Featured Series with a festive new map at Ewing Basin. \n\nDefenders use higher ground and long-range weapons to pick Runners off one at a time as they rush for the Safehouse. Receive 2X RDO$, Gold, and XP in a collection of Head for the Hills maps as part of the Featured Series through December 8. Winning one also grants you a Reward for three Gold Bars. \n\nElsewhere on the frontier, holiday cheer abounds as winter intensifies throughout the month. Visit your Camp, Moonshine Shack, and even the cobbled streets of Saint Denis to enjoy a bit of festive ambience. For those more naughty than nice, the Krampus Shotgun variant also returns for the holidays. \n\n[img]{STEAM_CLAN_IMAGE}/36260268/bd98bf5bc9251bc6d54512e4342f06a6920e6d1e.jpg[/img]\n\n2X RDO$, XP, AND GOLD ON A MERRY CALL TO ARMS\n\nFight through waves of humbugs and reprobates in a seasonal version of a beloved Showdown Mode in A Merry Call to Arms, with a new standoff at Fort Wallace and nine returning maps, all paying out 2X RDO$, XP, and Gold through January 5. Check your Camp Lockbox or the local Post Office for Telegrams containing the details. \n\nReceive the Red Morning Tail Coat for reaching Wave 4 and earn an Offer for 10 Gold Bars off any Role Initiation Item by reaching Wave 8 this month. \n\n3X RDO$, XP, AND ROLE XP ON SAMPLE SALES\n\nSafely tranquilizing and sampling local wildlife then Selling Samples to conservationist Harriet Davenport will result in 3X RDO$, XP, and Role XP this month while preserving the ecosystem’s natural life cycle. \n\nSample a Legendary Animal to get the Prowler Hat, and sell any sample to Harriet to receive the Amador Pants. Meanwhile, Rank 20 Naturalists can log in any time this month to receive the Amador Coat.\n\n[url=https://www.rockstargames.com/newswire/article/75388oo85598a1/ring-in-the-holidays-with-a-festive-new-showdown-in-red-dead-online?utm_source=steam-news-rdr2&utm_medium=o_promos&utm_campaign=183&utm_content=183-lead]See full event details at the Rockstar Newswire.[/url]",
+          "feedlabel": "Community Announcements",
+          "date": 1764768546,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1174180,
+          "tags": [
+            "hide_store"
+          ]
+        }
+      ],
+      "count": 191
+    }
+  }
+}
