@@ -9,7 +9,7 @@ import hashlib
 import json
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
@@ -52,19 +52,18 @@ def get_json(endpoint, params):
         return json.load(response)
 
 
-def fetch_page(appid, language, cursor, backend, end_time):
+def fetch_page(appid, language, cursor, backend, window_start, window_end):
     if backend == "official":
         params = {"appid": appid, "languages": [language], "filter": 1,
                   "review_type": 0, "purchase_type": 1, "num_per_page": 100,
                   "filter_offtopic_activity": False, "cursor": cursor}
-        if appid == 730:
-            params.update(date_range_start=CS2_START, date_range_end=end_time)
+        params.update(date_range_start=window_start, date_range_end=window_end)
         result = get_json(API + "/IUserReviewsService/GetAppReviews/v1/",
                           {"input_json": json.dumps(params, separators=(",", ":"))})
         result = result.get("response", result)
     else:
         result = get_json(f"https://store.steampowered.com/appreviews/{appid}",
-                          {"json": 1, "language": language, "filter": "recent",
+                           {"json": 1, "language": language, "filter": "recent",
                            "review_type": "all", "purchase_type": "all",
                            "num_per_page": 100, "filter_offtopic_activity": 0, "cursor": cursor})
         if result.get("success") != 1:
@@ -101,11 +100,19 @@ def normalize(review, appid, source):
 
 
 def collect(args):
-    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+    collected_at = datetime.now(timezone.utc)
+    window_end = getattr(args, "window_end", int(collected_at.timestamp()))
+    window_start = window_end - 183 * 24 * 60 * 60
+    stamp = collected_at.strftime("%Y%m%dT%H%M%S%fZ")
     directory = ROOT / "data" / "steam" / str(args.appid) / stamp
     report = {"started_at": now(), "appid": args.appid, "directory": str(directory.relative_to(ROOT)),
               "requested_per_language": args.limit, "languages": args.languages,
-              "sampling": "latest reviews, chronological; not a random sample",
+              "sampling": "reviews created within a rolling 183-day window, chronological; not a random sample",
+              "sampling_window": {
+                  "start_utc": datetime.fromtimestamp(window_start, timezone.utc).isoformat(),
+                  "end_utc": datetime.fromtimestamp(window_end, timezone.utc).isoformat(),
+                  "days": 183,
+              },
               "cs2_boundary_utc": CONFIG["cs2_start_utc"], "endpoints": {}, "reviews": {}}
     endpoints = {
         "players": (API + "/ISteamUserStats/GetNumberOfCurrentPlayers/v1/", {"appid": args.appid}),
@@ -124,7 +131,6 @@ def collect(args):
         except Exception as error:
             report["endpoints"][name] = {"status": "error", "error": str(error)}
     all_rows = []
-    end_time = int(time.time())
     for language in args.languages:
         backend = args.backend
         cursor, seen, rows = "*", set(), []
@@ -132,13 +138,13 @@ def collect(args):
         try:
             for page_number in range(args.max_pages):
                 try:
-                    result = fetch_page(args.appid, language, cursor, backend, end_time)
+                    result = fetch_page(args.appid, language, cursor, backend, window_start, window_end)
                 except HTTPError as error:
                     if backend != "official" or error.code not in (404, 410):
                         raise
                     backend = "legacy"
                     state.update(backend=backend, fallback_reason=f"official HTTP {error.code}")
-                    result = fetch_page(args.appid, language, cursor, backend, end_time)
+                    result = fetch_page(args.appid, language, cursor, backend, window_start, window_end)
                 save_json(directory / language / "pages" / f"{page_number:04d}.json", result)
                 state["pages"] += 1
                 if page_number == 0:
@@ -148,6 +154,11 @@ def collect(args):
                 crossed_boundary = False
                 for review in page_rows:
                     row = normalize(review, args.appid, backend)
+                    created = row.get("timestamp_created")
+                    if created is None or created < window_start or created > window_end:
+                        if created is not None and created < window_start:
+                            crossed_boundary = True
+                        continue
                     if args.appid == 730 and row["game_era"] != "cs2":
                         crossed_boundary = True
                         continue

@@ -70,8 +70,11 @@ def collect_batch(args):
     # Statistics
     total_games = len(games_to_collect)
     successful = 0
+    partial = 0
     failed = 0
     start_time = time.time()
+    batch_window_end = int(start_time)
+    batch_window_start = batch_window_end - 183 * 24 * 60 * 60
     
     print(f"\n{'='*70}")
     print(f"Batch Collection Started")
@@ -101,6 +104,7 @@ def collect_batch(args):
         game_args.backend = "official"
         game_args.max_pages = 50  # Safety limit
         game_args.delay = 1.5  # Rate limiting
+        game_args.window_end = batch_window_end
         
         game_start = time.time()
         
@@ -111,7 +115,7 @@ def collect_batch(args):
             game_elapsed = time.time() - game_start
             
             if exit_code == 0:
-                print(f"  ✅ SUCCESS ({game_elapsed:.1f}s)")
+                print(f"  [OK] SUCCESS ({game_elapsed:.1f}s)")
                 successful += 1
                 progress["completed"].append({
                     "appid": appid,
@@ -120,8 +124,8 @@ def collect_batch(args):
                     "elapsed_seconds": game_elapsed
                 })
             else:
-                print(f"  ⚠️  PARTIAL ({game_elapsed:.1f}s) - some endpoints failed")
-                successful += 1  # Count as success but note the issue
+                print(f"  [PARTIAL] ({game_elapsed:.1f}s) - some endpoints failed")
+                partial += 1
                 progress["completed"].append({
                     "appid": appid,
                     "name": name,
@@ -134,14 +138,14 @@ def collect_batch(args):
             save_progress(progress)
             
         except KeyboardInterrupt:
-            print(f"\n\n⚠️  Interrupted by user")
+            print(f"\n\n[INTERRUPTED] by user")
             print(f"Progress saved. Use --resume to continue later.")
             save_progress(progress)
             return 1
             
         except Exception as error:
             game_elapsed = time.time() - game_start
-            print(f"  ❌ FAILED ({game_elapsed:.1f}s): {error}")
+            print(f"  [FAILED] ({game_elapsed:.1f}s): {error}")
             failed += 1
             progress["failed"].append({
                 "appid": appid,
@@ -172,6 +176,7 @@ def collect_batch(args):
     print(f"Batch Collection Complete")
     print(f"{'='*70}")
     print(f"Successful: {successful}/{total_games}")
+    print(f"Partial: {partial}/{total_games}")
     print(f"Failed: {failed}/{total_games}")
     print(f"Total time: {total_elapsed/60:.1f} minutes ({total_elapsed/3600:.2f} hours)")
     print(f"Average per game: {total_elapsed/total_games:.1f} seconds")
@@ -184,12 +189,18 @@ def collect_batch(args):
         "finished_at": datetime.now(timezone.utc).isoformat(),
         "total_games": total_games,
         "successful": successful,
+        "partial": partial,
         "failed": failed,
         "elapsed_seconds": total_elapsed,
         "config_file": "config/games_clustering.json",
         "reviews_per_language": reviews_per_language,
         "languages": languages,
-        "completed_games": progress["completed"][-successful:] if successful else [],
+        "sampling_window": {
+            "start_utc": datetime.fromtimestamp(batch_window_start, timezone.utc).isoformat(),
+            "end_utc": datetime.fromtimestamp(batch_window_end, timezone.utc).isoformat(),
+            "days": 183,
+        },
+        "completed_games": progress["completed"][-(successful + partial):] if successful + partial else [],
         "failed_games": progress["failed"][-failed:] if failed else []
     }
     
@@ -198,13 +209,15 @@ def collect_batch(args):
     print(f"\nSummary saved to: {summary_path.relative_to(ROOT)}")
     
     # Clean up checkpoint if all completed
-    if failed == 0 and not args.resume:
+    if failed == 0 and partial == 0 and not args.resume:
         checkpoint = ROOT / "data" / "batch_progress.json"
         if checkpoint.exists():
             checkpoint.unlink()
             print("Checkpoint file cleaned up (all games successful)")
+    elif partial:
+        print("Checkpoint retained because some games were partial")
     
-    return 0 if failed == 0 else 1
+    return 0 if failed == 0 and partial == 0 else 1
 
 
 def main():
@@ -260,7 +273,7 @@ Examples:
     try:
         sys.exit(collect_batch(args))
     except Exception as error:
-        print(f"\n❌ Fatal error: {error}", file=sys.stderr)
+        print(f"\n[FATAL] {error}", file=sys.stderr)
         import traceback
         traceback.print_exc()
         sys.exit(1)

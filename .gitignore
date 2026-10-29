@@ -5,5 +5,5 @@ __pycache__/
 external/
 !.gitkeep
 %SystemDrive%/
-.zcodeignore
+data/
 tmp/
