@@ -108,4 +108,14 @@ AIAA3111 课程项目：通过 Steam 官方接口、GitHub 开源工具和研究
 
 清理脚本先与 `data/quality_table.csv` 对账，不一致时停止。默认结果写入 `data/cleaned/<freeze目录>/`：`clean_master` 保留全部唯一 recommendation ID 并增加清理标记；`topic_fit` 排除空文本、规范化重复文本副本和低信息文本；`association_data` 保留非空独立评论及重复文本反频率权重。输出同时包含逐游戏、逐语言汇总和记录输入、参数、文件哈希的 `cleaning_manifest.json`。原始冻结数据不会被修改。
 
+## 数据字典和游戏 metadata
+
+```powershell
+./.venv/Scripts/python.exe scripts/build_metadata.py
+# 重新生成同一冻结批次的文件
+./.venv/Scripts/python.exe scripts/build_metadata.py --overwrite
+```
+
+默认生成 `data/metadata/<freeze目录>/data_dictionary.csv`、`game_meta.csv`、`metadata_manifest.json` 和便于阅读的 `docs/data-dictionary.md`。数据字典覆盖清理评论表、质量表和游戏 meta 表的全部字段；游戏类型同时保留 Steam Store 官方 taxonomy 和项目配置中的人工标签。脚本会检查实际表头，存在未记录字段时停止。
+
 本次 setup 和实际采集结果见 [docs/setup-results.md](docs/setup-results.md)。`data/`、`external/`、`.venv/` 已加入 `.gitignore`；数据保留在本地，Git 提交只包含代码、配置与结果说明。
