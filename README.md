@@ -98,4 +98,14 @@ AIAA3111 课程项目：通过 Steam 官方接口、GitHub 开源工具和研究
 
 测试覆盖 CS:GO/CS2 创建时间边界、旧研究文件安全解析、429 重试及 403 停止重试。数据审计默认扫描最新的 `data/freeze_*/freeze_manifest.json`，批量检查 appid、游戏名、语言、目录、CSV/JSONL/manifest 数量、recommendation ID、冻结时间窗、推荐标签、游玩时长、接口状态、语言目标、空/短/重复文本以及作者重复情况。问题清单写入机器可读的 `data/verification.json` 和便于筛选的 `data/verification.csv`；逐游戏、逐语言的具体统计写入 `data/quality_table.json` 和 `data/quality_table.csv`，包含推荐率、实际日期覆盖、文本质量、评论时游玩时长分位数、作者重复、endpoint 状态和 200 条目标状态。存在 error 级问题时进程返回 1，输入或配置无法读取时返回 2。
 
+## 清理冻结评论
+
+```powershell
+./.venv/Scripts/python.exe scripts/clean_reviews.py
+# 调整语言低信息阈值，或覆盖同一冻结批次的已有清理结果
+./.venv/Scripts/python.exe scripts/clean_reviews.py --min-english-words 3 --min-chinese-chars 4 --overwrite
+```
+
+清理脚本先与 `data/quality_table.csv` 对账，不一致时停止。默认结果写入 `data/cleaned/<freeze目录>/`：`clean_master` 保留全部唯一 recommendation ID 并增加清理标记；`topic_fit` 排除空文本、规范化重复文本副本和低信息文本；`association_data` 保留非空独立评论及重复文本反频率权重。输出同时包含逐游戏、逐语言汇总和记录输入、参数、文件哈希的 `cleaning_manifest.json`。原始冻结数据不会被修改。
+
 本次 setup 和实际采集结果见 [docs/setup-results.md](docs/setup-results.md)。`data/`、`external/`、`.venv/` 已加入 `.gitignore`；数据保留在本地，Git 提交只包含代码、配置与结果说明。
