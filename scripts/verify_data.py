@@ -13,6 +13,19 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SHORT_TEXT = 10
 DEFAULT_MAX_PLAYTIME_MINUTES = 10 * 365 * 24 * 60
 CSV_FIELDS = ["severity", "code", "appid", "game", "language", "count", "path", "details"]
+QUALITY_CSV_FIELDS = [
+    "game", "appid", "language", "raw_review_count", "source_total_matching",
+    "recommendation_count", "recommendation_rate", "earliest_review_date_utc",
+    "latest_review_date_utc", "actual_coverage_days", "empty_text_count",
+    "short_text_count", "duplicate_text_count", "playtime_missing_rate",
+    "playtime_zero_rate", "playtime_p25_hours", "playtime_p50_hours",
+    "playtime_p75_hours", "playtime_p90_hours", "playtime_p95_hours",
+    "playtime_p99_hours", "unique_author_count", "duplicate_author_count",
+    "duplicate_author_review_count", "core_endpoint_status", "review_endpoint_status",
+    "endpoint_status", "target_count", "target_shortfall", "target_met",
+    "met_200_target", "directory",
+]
+PLAYTIME_PERCENTILES = ((25, 0.25), (50, 0.50), (75, 0.75), (90, 0.90), (95, 0.95), (99, 0.99))
 
 
 def utc_now():
@@ -27,6 +40,21 @@ def normalize_text(value):
     return " ".join(str(value or "").split()).casefold()
 
 
+def rate(numerator, denominator):
+    return round(numerator / denominator, 6) if denominator else None
+
+
+def percentile(values, quantile):
+    if not values:
+        return None
+    ordered = sorted(values)
+    position = (len(ordered) - 1) * quantile
+    lower = int(position)
+    upper = min(lower + 1, len(ordered) - 1)
+    fraction = position - lower
+    return ordered[lower] + (ordered[upper] - ordered[lower]) * fraction
+
+
 class Audit:
     def __init__(self, root, short_text, max_playtime):
         self.root = root
@@ -34,6 +62,7 @@ class Audit:
         self.max_playtime = max_playtime
         self.issues = []
         self.games = []
+        self.quality_rows = []
         self.author_games = defaultdict(set)
         self.global_recommendations = defaultdict(list)
 
@@ -158,6 +187,11 @@ class Audit:
         short_text = 0
         texts = []
         authors = []
+        created_dates = []
+        recommendation_count = 0
+        playtime_at_review_missing = 0
+        playtime_at_review_zero = 0
+        playtime_at_review_values = []
         start, end = window
         for row in rows:
             timestamp = row.get("timestamp_created")
@@ -167,9 +201,12 @@ class Audit:
                 invalid_timestamps += 1
             else:
                 outside_window += created < start or created > end
+                created_dates.append(created)
 
             if not isinstance(row.get("voted_up"), bool):
                 invalid_labels += 1
+            elif row["voted_up"]:
+                recommendation_count += 1
 
             for field in ("playtime_forever", "playtime_at_review"):
                 value = row.get(field)
@@ -183,6 +220,19 @@ class Audit:
                     continue
                 negative_playtime += minutes < 0
                 abnormal_playtime += minutes > self.max_playtime
+
+            review_playtime = row.get("playtime_at_review")
+            if review_playtime is None or review_playtime == "":
+                playtime_at_review_missing += 1
+            else:
+                try:
+                    review_minutes = float(review_playtime)
+                except (TypeError, ValueError):
+                    playtime_at_review_missing += 1
+                else:
+                    if review_minutes >= 0:
+                        playtime_at_review_values.append(review_minutes)
+                        playtime_at_review_zero += review_minutes == 0
 
             text = normalize_text(row.get("review"))
             empty_text += not text
@@ -227,7 +277,34 @@ class Audit:
                        count=duplicate_authors, path=jsonl_path,
                        details="additional reviews by an author already present in this dataset")
 
-        return rows
+        author_counts = Counter(authors)
+        earliest = min(created_dates, default=None)
+        latest = max(created_dates, default=None)
+        coverage_days = (latest.date() - earliest.date()).days + 1 if earliest and latest else None
+        playtime_percentiles = {
+            f"playtime_p{label}_hours": (
+                round(value / 60, 2) if (value := percentile(playtime_at_review_values, quantile)) is not None else None
+            )
+            for label, quantile in PLAYTIME_PERCENTILES
+        }
+        stats = {
+            "raw_review_count": len(rows),
+            "recommendation_count": recommendation_count,
+            "recommendation_rate": rate(recommendation_count, len(rows)),
+            "earliest_review_date_utc": earliest.date().isoformat() if earliest else None,
+            "latest_review_date_utc": latest.date().isoformat() if latest else None,
+            "actual_coverage_days": coverage_days,
+            "empty_text_count": empty_text,
+            "short_text_count": short_text,
+            "duplicate_text_count": duplicate_texts,
+            "playtime_missing_rate": rate(playtime_at_review_missing, len(rows)),
+            "playtime_zero_rate": rate(playtime_at_review_zero, len(rows)),
+            "unique_author_count": len(author_counts),
+            "duplicate_author_count": sum(count > 1 for count in author_counts.values()),
+            "duplicate_author_review_count": sum(count - 1 for count in author_counts.values() if count > 1),
+            **playtime_percentiles,
+        }
+        return rows, stats
 
     def audit_game(self, selected, games_by_appid, freeze_window, target_per_language, expected_languages):
         appid = selected.get("appid")
@@ -324,18 +401,38 @@ class Audit:
                 self.error("language_target_shortfall", appid=appid, game=game, language=language,
                            count=target - count, path=directory / "manifest.json",
                            details=f"collected={count}, target={target}")
-            language_rows = self.audit_dataset(
+            language_rows, quality_stats = self.audit_dataset(
                 directory / language, appid=appid, game=game, language=language,
                 expected_count=count, window=freeze_window,
             )
             language_stats[language] = {"count": len(language_rows), "target": target}
+            review_endpoint_status = str(state.get("status", "missing"))
+            core_endpoint_status = "ok" if not failed_endpoints else f"failed:{','.join(failed_endpoints)}"
+            endpoint_status = "ok" if core_endpoint_status == review_endpoint_status == "ok" else (
+                f"core={core_endpoint_status};review={review_endpoint_status}"
+            )
+            self.quality_rows.append({
+                "game": game,
+                "appid": appid,
+                "language": language,
+                **quality_stats,
+                "source_total_matching": state.get("total_matching"),
+                "core_endpoint_status": core_endpoint_status,
+                "review_endpoint_status": review_endpoint_status,
+                "endpoint_status": endpoint_status,
+                "target_count": target,
+                "target_shortfall": max(0, target - len(language_rows)),
+                "target_met": len(language_rows) >= target,
+                "met_200_target": len(language_rows) >= 200,
+                "directory": str(relative_path / language),
+            })
 
         manifest_count = manifest.get("review_count", 0)
         freeze_count = selected.get("review_count", 0)
         if manifest_count != language_total or manifest_count != freeze_count:
             self.error("manifest_count_mismatch", appid=appid, game=game, path=directory / "manifest.json",
                        details=f"freeze={freeze_count}, manifest={manifest_count}, language_sum={language_total}")
-        combined_rows = self.audit_dataset(
+        combined_rows, _ = self.audit_dataset(
             directory, appid=appid, game=game, language="",
             expected_count=manifest_count, window=freeze_window, quality=False,
         )
@@ -376,6 +473,16 @@ def write_csv(path, issues):
     temporary.replace(path)
 
 
+def write_quality_csv(path, rows):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    with temporary.open("w", encoding="utf-8-sig", newline="") as output:
+        writer = csv.DictWriter(output, fieldnames=QUALITY_CSV_FIELDS)
+        writer.writeheader()
+        writer.writerows(rows)
+    temporary.replace(path)
+
+
 def save_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".tmp")
@@ -388,6 +495,8 @@ def build_parser():
     parser.add_argument("--freeze-manifest", type=Path, help="freeze manifest to audit; defaults to latest")
     parser.add_argument("--output-json", type=Path, default=ROOT / "data/verification.json")
     parser.add_argument("--output-csv", type=Path, default=ROOT / "data/verification.csv")
+    parser.add_argument("--quality-json", type=Path, default=ROOT / "data/quality_table.json")
+    parser.add_argument("--quality-csv", type=Path, default=ROOT / "data/quality_table.csv")
     parser.add_argument("--short-text", type=int, default=DEFAULT_SHORT_TEXT,
                         help=f"minimum normalized review length (default: {DEFAULT_SHORT_TEXT})")
     parser.add_argument("--max-playtime-minutes", type=int, default=DEFAULT_MAX_PLAYTIME_MINUTES,
@@ -437,8 +546,9 @@ def run(args, root=ROOT):
         freeze_label = str(manifest_path.relative_to(root))
     except ValueError:
         freeze_label = str(manifest_path)
+    audited_at = utc_now()
     report = {
-        "audited_at": utc_now(),
+        "audited_at": audited_at,
         "status": "failed" if severity_counts["error"] else "ok",
         "freeze_manifest": freeze_label,
         "parameters": {
@@ -457,8 +567,25 @@ def run(args, root=ROOT):
         "games": audit.games,
         "issues": audit.issues,
     }
+    quality_report = {
+        "generated_at": audited_at,
+        "freeze_manifest": freeze_label,
+        "definitions": {
+            "row_granularity": "one row per game and language",
+            "actual_coverage_days": "inclusive count of UTC calendar dates from earliest to latest valid review",
+            "duplicate_text_count": "extra non-empty reviews after case/whitespace normalization",
+            "duplicate_author_count": "unique authors with more than one review in the row",
+            "duplicate_author_review_count": "extra reviews beyond one per author",
+            "playtime_field": "playtime_at_review",
+            "playtime_rates_denominator": "raw_review_count",
+            "playtime_percentiles": "valid non-negative values, converted from minutes to hours with linear interpolation",
+        },
+        "rows": audit.quality_rows,
+    }
     save_json(args.output_json, report)
     write_csv(args.output_csv, audit.issues)
+    save_json(args.quality_json, quality_report)
+    write_quality_csv(args.quality_csv, audit.quality_rows)
     # ASCII escapes keep stdout portable on Windows consoles using legacy code pages.
     print(json.dumps(report, ensure_ascii=True, indent=2))
     return 1 if report["status"] == "failed" else 0
