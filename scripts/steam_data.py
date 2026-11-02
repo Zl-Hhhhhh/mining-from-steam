@@ -121,13 +121,20 @@ def collect(args):
     }
     for name, (url, params) in endpoints.items():
         try:
+            fallback_cc = None
             result = get_json(url, params)
             if name == "store" and not result.get(str(args.appid), {}).get("success"):
-                raise ValueError("Store appdetails returned unsuccessful response")
+                fallback_params = {**params, "cc": "us"}
+                result = get_json(url, fallback_params)
+                if not result.get(str(args.appid), {}).get("success"):
+                    raise ValueError("Store appdetails returned unsuccessful response")
+                fallback_cc = "us"
             if name == "players" and result.get("response", {}).get("result") != 1:
                 raise ValueError("Player count endpoint returned unsuccessful response")
             save_json(directory / f"{name}.json", {"fetched_at": now(), "endpoint": url, "data": result})
             report["endpoints"][name] = {"status": "ok"}
+            if fallback_cc:
+                report["endpoints"][name]["fallback_cc"] = fallback_cc
         except Exception as error:
             report["endpoints"][name] = {"status": "error", "error": str(error)}
     all_rows = []
@@ -169,7 +176,12 @@ def collect(args):
                     if len(rows) >= args.limit:
                         break
                 next_cursor = result.get("cursor")
-                if len(rows) >= args.limit or not page_rows or crossed_boundary or not next_cursor or next_cursor == cursor:
+                total_matching = state.get("total_matching")
+                exhausted_matches = (
+                    isinstance(total_matching, int) and len(rows) >= total_matching
+                )
+                if (len(rows) >= args.limit or exhausted_matches or not page_rows or
+                        crossed_boundary or not next_cursor or next_cursor == cursor):
                     break
                 cursor = next_cursor
                 time.sleep(args.delay)

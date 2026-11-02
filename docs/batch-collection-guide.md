@@ -77,6 +77,23 @@ python scripts/collect_batch.py --game-delay 5
 
 ---
 
+### 6️⃣ 指定采集截止日期
+
+```bash
+# 采集截至 2026-06-30（UTC）向前 183 天的评论，包含 6 月 30 日当天
+python scripts/collect_batch.py --end-date 2026-06-30
+```
+
+日期必须使用 `YYYY-MM-DD` 格式。不传 `--end-date` 时，脚本仍以启动时的当前时间作为截止时间。
+
+`--end-date` 可以与其他参数组合使用，例如：
+
+```bash
+python scripts/collect_batch.py --end-date 2026-06-30 --limit 3 --force
+```
+
+---
+
 ## 📊 输出说明
 
 ### 采集过程中的输出

@@ -1,3 +1,4 @@
+import argparse
 import gzip
 import importlib.util
 import tempfile
@@ -10,8 +11,22 @@ SPEC = importlib.util.spec_from_file_location("steam_data", Path(__file__).paren
 collector = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(collector)
 
+BATCH_SPEC = importlib.util.spec_from_file_location(
+    "collect_batch", Path(__file__).parents[1] / "scripts/collect_batch.py"
+)
+batch_collector = importlib.util.module_from_spec(BATCH_SPEC)
+BATCH_SPEC.loader.exec_module(batch_collector)
+
 
 class CollectorTests(unittest.TestCase):
+    def test_batch_end_date_uses_end_of_utc_day(self):
+        parsed = batch_collector.parse_end_date("2026-06-30")
+        self.assertEqual(parsed.isoformat(), "2026-06-30T23:59:59+00:00")
+
+    def test_batch_end_date_rejects_invalid_format(self):
+        with self.assertRaises(argparse.ArgumentTypeError):
+            batch_collector.parse_end_date("2026/06/30")
+
     def test_shared_appid_does_not_relabel_csgo_review_as_cs2(self):
         old = {"recommendationid": "123", "timestamp_created": collector.CS2_START - 1,
                "timestamp_updated": collector.CS2_START + 100, "author": {"steamid": "76561198000000001"}}

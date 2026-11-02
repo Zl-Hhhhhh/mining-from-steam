@@ -5,7 +5,7 @@ import argparse
 import json
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -13,6 +13,17 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 # Import from steam_data.py
 from steam_data import collect as collect_single_game, save_json
+
+
+def parse_end_date(value):
+    """Parse a YYYY-MM-DD date as the end of that UTC day."""
+    try:
+        day_start = datetime.strptime(value, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError as error:
+        raise argparse.ArgumentTypeError(
+            f"invalid date '{value}'; expected YYYY-MM-DD"
+        ) from error
+    return day_start + timedelta(days=1) - timedelta(seconds=1)
 
 
 def load_games_config():
@@ -73,7 +84,10 @@ def collect_batch(args):
     partial = 0
     failed = 0
     start_time = time.time()
-    batch_window_end = int(start_time)
+    end_date = getattr(args, "end_date", None)
+    batch_window_end = int(
+        end_date.timestamp() if end_date else start_time
+    )
     batch_window_start = batch_window_end - 183 * 24 * 60 * 60
     
     print(f"\n{'='*70}")
@@ -82,6 +96,11 @@ def collect_batch(args):
     print(f"Total games to collect: {total_games}")
     print(f"Reviews per game: {reviews_per_language} × {len(languages)} languages = {reviews_per_language * len(languages)}")
     print(f"Languages: {', '.join(languages)}")
+    print(
+        "Sampling window (UTC): "
+        f"{datetime.fromtimestamp(batch_window_start, timezone.utc).isoformat()} to "
+        f"{datetime.fromtimestamp(batch_window_end, timezone.utc).isoformat()}"
+    )
     print(f"Estimated time: ~{total_games * 4} minutes ({total_games * 4 / 60:.1f} hours)")
     print(f"{'='*70}\n")
     
@@ -240,6 +259,9 @@ Examples:
   
   # Increase delay between games (default 3s)
   python scripts/collect_batch.py --game-delay 5
+
+  # Collect reviews from the 183 days ending on June 30, 2026 (UTC)
+  python scripts/collect_batch.py --end-date 2026-06-30
 """
     )
     
@@ -266,6 +288,16 @@ Examples:
         type=float,
         default=3.0,
         help="Delay in seconds between games (default: 3.0)"
+    )
+
+    parser.add_argument(
+        "--end-date",
+        type=parse_end_date,
+        metavar="YYYY-MM-DD",
+        help=(
+            "End date of the 183-day review window in UTC (inclusive); "
+            "defaults to the current time"
+        )
     )
     
     args = parser.parse_args()
