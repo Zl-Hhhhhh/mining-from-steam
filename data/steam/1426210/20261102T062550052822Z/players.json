@@ -1,0 +1,10 @@
+{
+  "fetched_at": "2026-11-02T06:25:50.672076+00:00",
+  "endpoint": "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/",
+  "data": {
+    "response": {
+      "player_count": 2222,
+      "result": 1
+    }
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "fetched_at": "2026-11-02T06:15:32.365261+00:00",
+  "endpoint": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/",
+  "data": {
+    "appnews": {
+      "appid": 534380,
+      "newsitems": [
+        {
+          "gid": "1847920302235102",
+          "title": "Hear More Fear Streamfest on Twitch! Dying Light x Embody",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235102",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[h2]Tune In to the Hear More Fear Streamfest! Want to experience Immerse Gamepack live? Catch the Hear More Fear Streamfest, running now through October 30th to November 1st! 🔊 [/h2][h2][/h2][p]Head over to Twitch, find a participating creator, and hear the fear for yourself! 👻[/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/35210443/0e56320056ffcc821a95a56f83ebe3488ff1b0ba.png\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1793285972,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1847286114049238",
+          "title": "Dying Light 2: Upcoming Server Maintenance",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114049238",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[h2]Pilgrims, heads up! ⚠️[/h2][p][/p][p]Tomorrow, Wednesday, Oct 28, we’ll be performing scheduled server maintenance for Dying Light 2 between 9:00 AM and 10:30 AM CEST.[/p][p][/p][p]During this window, the Halloween Showdown event, the game store, and bounties will be temporarily offline. However, you can still play Dying Light 2 normally in both solo and co-op.[/p][p][/p][p]Thanks for your patience.[/p][p][/p][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1793113293,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1847286114046173",
+          "title": "Steam Halloween Sale X Dying Light 2 Stay Human now on SALE!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114046173",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[h2]Looking for the ultimate Halloween fright? Dying Light 2 is now on sale![/h2][p][/p][p]Dive into the complete Dying Light experience with hauntingly good deals during the [b]Steam Halloween Sale[/b]![/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/45157760/20f2f8a6bf030ce8ff1174ee6cbce302666fced3.png\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1793038066,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1847286114044840",
+          "title": "Halloween Showdown 2026 – Week 1 just started!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114044840",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[h2]Trick or Treat? Week 1 of the Halloween Showdown 2026 is officially here, pitting the Frighter against the Gravegade![/h2][p][/p][p]Earn Showdown Candies from encounters, cast your votes at the Bazaar, and push to claim the rewards. Head over to the Dying Light Outpost to see who's dominating the city![/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/35210443/0704ca327c2bac28b37e4dfbc726edfcf913afd6.png\"][/img][img src=\"{STEAM_CLAN_IMAGE}/35210443/421f943c3f21629a19032f99276d9ce95b4b112d.png\"][/img][img src=\"{STEAM_CLAN_IMAGE}/35210443/9f3171ea02f7d9966dac1b5028b96d359ca18124.png\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1793019624,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380,
+          "tags": [
+            "mod_reviewed",
+            "ModAct_1751692459_1793020874_0",
+            "ModAct_1894626024_1793109925_4",
+            "mod_require_rereview"
+          ]
+        },
+        {
+          "gid": "1847286114034534",
+          "title": "В Dying Light 2 началось празднование Хэллоуина - игра получила обновление 1.30",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847286114034534",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/QM55sIyNshdfSVa3Q1EpEw.webp\"/>\n              <br />\n                                                                                <p>С сегодняшнего дня студия Techland запускает празднование Хэллоуина в Dying Light 2 — игра обновлена ​​до версии 1.30. На консолях это обновление отображается как версия 2.01 | 2.001; патч также содержит исправления ошибок и ряд улучшений.</p>                                                        <p>Вилледор преобразился к Хэллоуину: в открытом мире появились декорации в стиле «Дня мёртвых» (Día de los Muertos), а в режиме «Рейд на башню» воцарилась более традиционная хэллоуинская атмосфера. Также вернулись тематические противники — теперь сезонные изменения затрагивают не только внешний вид игры.</p>                                                        <p>Но Хэллоуин — это не только новый облик Вилледора. В этом году игроки снова сами решат, как пройдут праздничные события. С 26 октября по 16 ноября пройдет трёхнедельное внутриигровое событие «Хэллоуинское противостояние 2026» (Halloween Showdown 2026), в центре которого — соперничество монстров и выбор самих игроков.</p>                                                        <p>Каждую неделю два хэллоуинских существа будут сталкиваться друг с другом. Игрокам предстоит охотиться на особых врагов, собирать «конфеты противостояния» по всему Вилледору и отдавать их в лавке Баки у Базара, поддерживая тем самым выбранную сторону.</p>                                                                                  <p>Список изменений</p>                                                        <p>Игровой процесс</p>                                                        <p>Обновлены вступительный ролик и видео для пропуска пролога: их визуальное оформление и качество приведены в соответствие с графическими улучшениями игры. Скорректировано закадровое повествование — оно стало более естественным и лучше знакомит игроков с миром игры.</p>                                                        <p>Исправлена ​​ошибка, из-за которой «Деньги Старого мира» и «Набор для обслуживания пистолетов» занимали один и тот же слот в инвентаре.</p>                                                        <p>Исправлена ​​ошибка в режиме от третьего лица, из-за которой выстрелы иногда попадали не туда, куда было направлено перекрестие прицела.</p>                                                        <p>Исправлена ​​ошибка с отсутствующими шторками в грузовиках рядом с сундуками; из-за этого засады в некоторых игровых ситуациях становились слишком заметными.</p>                                                        <p>Технические исправления</p>                                                        <p>Устранены различные сбои, связанные с технологией Intel XeSS.</p>                                                        <p>Исправлена ​​ошибка, приводившая к падению производительности до 8 кадров в секунду при включении вертикальной синхронизации вместе с XeSS.</p>                                                        <p>Исправлена ​​ошибка, из-за которой звук в игре иногда пропадал примерно через 10 минут после начала сессии.</p>                                                        <p>Исправлена ​​ошибка, из-за которой при открытии внутриигрового магазина во время активных обучающих подсказок игрок мог «застрять» в меню инвентаря.</p>                                                        <p>Исправлены ошибки, из-за которых NPC иногда проваливались сквозь объекты окружения.</p>                                                        <p>Устранено сильное мерцание, возникавшее при включении функции генерации кадров FSR.</p>                                                        <p>Добавлены недостающие элементы интерфейса магазина и переводы текстов.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1792714294,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 534380
+        },
+        {
+          "gid": "1847286114033020",
+          "title": "Dying Light X Embody: Launching Nov 5!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114033020",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[h2]Ready to hear fear from every angle? 🧟‍♂️[/h2][p][/p][p]Mark your calendar for [b]November 5[/b] - Immerse Gamepack is bringing personalized 360° spatial audio to [i]Dying Light: The Beast[/i] and [i]Dying Light 2 Stay Human[/i]! Pinpoint every creepy howl and prowling Infected before they find you. 🎧[/p][p][/p][p]Try it risk-free with a [b]14-day free trial[/b] at launch![/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/35210443/0e56320056ffcc821a95a56f83ebe3488ff1b0ba.png\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1792680885,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1847286114032443",
+          "title": "Update 1.30 - Halloween 2026",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114032443",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[p][/p][h2]Night changes Villedor. The streets grow harder to read, every distant sound feels a little closer, and somewhere in the static, a signal is trying to break through. [/h2][h3]This Halloween, turn up the noise - and listen to what answers. Let’s dive into what we’ve prepared for you in this patch.[/h3][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/4778592/5e5630ee58caf824688224839e6d7345cff29fc0.png\"][/img][/p][p][/p][p align=\"justify\"][b]Halloween Showdown 2026[/b][/p][p align=\"justify\"]Halloween Showdown 2026 is a three-week event built around community cooperation. Inspired by last year’s celebration, each week brings a new pair of shared goals, presented as a fight between two characters, with separate rewards for each side. Everyone’s contributions count toward the weekly totals, so work together to unlock the rewards - and choose which character you want to back.\n[/p][p align=\"justify\"]Villedor is dressed for the occasion, with Día de los Muertos decorations across the open world and a traditional Halloween look in Tower Raid. Special Halloween-themed enemies appear in both areas throughout the event and drop Halloween Candies, which you can spend at Baka’s Event Shop. \n[/p][p align=\"justify\"]Each week, featured enemies also begin appearing in encounters and remain afterward; while they’re the week’s targets, defeating them in the open world earns you Showdown Candies. You can find more Showdown Candies in Halloween Chests - 40 during the day or 80 at night - and spend them at Baka’s to support either side of the weekly matchup.\n[/p][p align=\"justify\"]When a community goal is reached, every player who contributed at least 10 Showdown Candies to it receives the weapon reward in-game. Both weapon rewards can be unlocked if the community reaches both goals. At the end of the week, the character with the most contributed candies wins the vote, and their charm can be claimed through Pilgrim Outpost! Moreover, after donating 10 Showdown Candies to one of the factions, you receive an immediate reward of 500 Halloween Candies in-game just for participating. This applies separately to each goal, meaning you can earn a total of 1,000 Halloween Candies each week![/p][p]\n[/p][p align=\"justify\"][b]Game Updates[/b][/p][p align=\"justify\"]Aside from all the news from Update 1.30 above, we’ve also introduced the following fixes and improvements to the game:[/p][p][/p][p align=\"justify\"][b]Gameplay[/b][/p][list][*][p align=\"justify\"]Updated the Intro video and Skip Prologue video to match the visuals and quality of the game’s graphical improvements. Adjusted narration to better introduce the world, with more natural VO[/p][/*][*][p align=\"justify\"]Fixed the issue with Old World Money sharing the same slot as \"Pistol Weaponry Kit\"[/p][/*][*][p align=\"justify\"]Fixed an issue in TPP mode where shots sometimes did not land where the crosshair is pointing[/p][/*][*][p align=\"justify\"]Fixed the issue with missing truck curtains near chests, making some encounters’ ambush easily noticeable\n[/p][/*][/list][p align=\"justify\"][b]Technical[/b][/p][list][*][p align=\"justify\"]Fixed various crashes related to Intel XeSS[/p][/*][*][p align=\"justify\"]Fixed the issue with performance dropping to 8 FPS if VSync is enabled with XeSS[/p][/*][*][p align=\"justify\"]Fixed the issue with game audio sometimes cutting out after around 10 minutes of gameplay[/p][/*][*][p align=\"justify\"]Fixed an issue where accessing the store sometimes softlocked the player in the Inventory Menu while onboarding tutorials were active[/p][/*][*][p align=\"justify\"]Fixed the issues with NPCs sometimes clipping through geometry[/p][/*][*][p align=\"justify\"]Fixed the issue with heavy flickering that sometimes happened when FSR Frame Gen was enabled[/p][/*][*][p align=\"justify\"]Added some missing store assets and translations[/p][/*][/list][p][/p][p]\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1792672167,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1846651706681569",
+          "title": "Embody Audio soon to enhance Dying Light 2 Stay Human",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706681569",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[p][/p][h2]Hear every step, growl, and rustle in the dark like never before! [img src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t1/1/16/1f3a7.png\" style=\"border: 0px; border-start-start-radius: 0px; border-end-end-radius: 0px; border-start-end-radius: 0px; border-end-start-radius: 0px; object-fit: fill;\"][/img][img src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t50/1/16/1f525.png\" style=\"border: 0px; border-start-start-radius: 0px; border-end-end-radius: 0px; border-start-end-radius: 0px; border-end-start-radius: 0px; object-fit: fill;\"][/img][/h2][p]We’re thrilled to announce our partnership with Embody Audio to bring personalized 3D spatial sound to Dying Light 2 Stay Human and Dying Light: The Beast via the new Immerse Gamepack![/p][p][/p][p]Sound is survival - and now it’s tailored specifically to your ears and headphones. Get ready to experience Villedor and Castor Woods with unmatched directionality and atmosphere.[/p][p][/p][p][img src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1/16/2728.png\" style=\"border: 0px; border-start-start-radius: 0px; border-end-end-radius: 0px; border-start-end-radius: 0px; border-end-start-radius: 0px; object-fit: fill;\"][/img] Try it FREE for 14 days when it launches![/p][p][/p][p][img src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t6e/1/16/1f4ac.png\" style=\"border: 0px; border-start-start-radius: 0px; border-end-end-radius: 0px; border-start-end-radius: 0px; border-end-start-radius: 0px; object-fit: fill;\"][/img] Join the discussion, share your audio setups, and get launch updates in our brand-new Discord channel![/p][p][img src=\"https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png\" style=\"border: 0px; border-start-start-radius: 0px; border-end-end-radius: 0px; border-start-end-radius: 0px; border-end-start-radius: 0px; object-fit: fill;\"][/img] [url=\"https://discord.com/invite/dyinglight\"]https://discord.com/invite/dyinglight[/url][/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/45157760/0e56320056ffcc821a95a56f83ebe3488ff1b0ba.png\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1792158943,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1846651706674375",
+          "title": "Anniversary AMA with our CEO kicks off in just an hour!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706674375",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[h2]Dying Light: The Beast Anniversary AMA with our CEO kicks off in just an hour! 🚀[/h2][p][/p][p]Get ready! Paweł Marchewka — Techland’s Founder and CEO since the very beginning, leading the creative vision for every single game we've created — will be joining us on [url=\"https://discord.com/invite/dyinglight\"]Discord[/url] later today at 5 PM CEST to answer your most burning questions![/p][p][/p][p]See you all very soon! 🔥[/p][p][/p][p][url=discord.com/invite/dyinglight][img src=\"{STEAM_CLAN_IMAGE}/45157760/d34ead4cc11001aadc3f88097f7c8ac9060646b0.png\"][/img][/url][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791986358,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1846018067929891",
+          "title": "Ask Me Anything Session With Techland CEO on Discord! Join and ask away!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067929891",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[h2]Join our Discord for an exclusive Ask Me Anything (AMA) with Techland CEO Paweł Marchewka! :fire:[/h2][p][/p][p]Drop your questions directly in our AMA channel and come back on October 14, when Paweł will jump into the chat and start answering as many as he can. Don’t miss it![/p][p][/p][p][url=\"https://discord.com/invite/dyinglight\"]https://discord.com/invite/dyinglight[/url][/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/45157760/e891e93a1b43c1f353d2e8926980fef7ac8c9882.png\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1791469401,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1845383656382402",
+          "title": "Autumn Sale 2026: Dying Light Promo",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656382402",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[h2]Get ready for the Steam Autumn Sale! 🍂[/h2][p][/p][p]All games from the Dying Light franchise are now available at amazing discounts. Don't miss your chance to grab Dying Light games at great prices![/p][p][/p][p]Dive into a world of action and survival with these exclusive deals. Head over to Steam and check out the full offer! 🙌[/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/35210443/1a6d2fe41399870a7f9d71114012f00fc357a8b4.png\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790874054,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1843481262702391",
+          "title": "Dying Light: The Beast - ANNIVERSARY STEAM SALE!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262702391",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[p]Dive into the [i]Dying Light[/i] universe with our [b]Anniversary Steam Sale[/b]! 🧟[/p][p][/p][p][b]Get [i]Dying Light: The Beast[/i] at 50% off[/b] and experience the thrill of Castor Woods. Plus, explore the entire franchise with our [b]exclusive bundle deal[/b] featuring first Dying Light and Dying Light 2: Stay Human at up to 70% off! 🏃‍♂️[/p][p][/p][p][b]🛒 Available now until September 26.[/b][/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/45157760/d3a15f94cf24165dd57c956b87e3d3557d76ba41.png\"][/img][/p][p][dynamiclink href=\"https://store.steampowered.com/app/3008130/Dying_Light_The_Beast/\"][/dynamiclink][dynamiclink href=\"https://store.steampowered.com/bundle/87952/Dying_Light_Franchise_Bundle/\"][/dynamiclink][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1789405236,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380,
+          "tags": [
+            "mod_reviewed",
+            "ModAct_1827889981_1789408606_0",
+            "mod_require_rereview"
+          ]
+        },
+        {
+          "gid": "1842846814443452",
+          "title": "The Breach – Chapter 4: Parkour Academy",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814443452",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[p]The Breach continues with [b]Chapter 4:[/b] [b]Parkour Academy[/b], introducing a fresh wave of Community Maps & Mods focused on challenge runs, high‑speed parkour, relentless climbing, precision jumps, and pure tests of agility and reflexes.[/p][p][/p][h3][b]New Community Maps[/b][/h3][p align=\"justify\"]Step into five unique community maps, each offering a different experience:[/p][list][*][p align=\"justify\"][b]LFG (Garrison Island)[/b] – Dive into the story, clear a once-elite island fortress of the infected, activate GRE sprayers and turn it into a new home for Survivors’ community.[/p][/*][*][p align=\"justify\"][b]Nightmare Dimension[/b] – Trapped in a living nightmare, you’ll sprint, fight, and parkour through a surreal world where the only way to wake up is to face your deepest fears and defeat the source of the nightmare.[/p][/*][*][p align=\"justify\"][b]Run Boy Run[/b] – A pure time-challenge built across lakes, valleys, GRE facilities, and ruined highways. No breaks, no mercy – just you and the clock.[/p][/*][*][p align=\"justify\"][b]Splash [/b]– A fast-paced waterpark-style time trial. Sprint across narrow balance poles, dodge rotating obstacles, and nail precise jumps over the water – no checkpoints, no easy way back up.[/p][/*][*][p align=\"justify\"][b]Vertical Hell[/b] – A relentless vertical challenge where you climb higher and higher without ever going back down. [/p][/*][*][p align=\"justify\"][b]The Stadium[/b] – A full-on sports arena where you can compete solo or with friends in multiple disciplines, from football and archery to sprints, jumps, and deadly challenges like the Volatile cage.[/p][p][/p][/*][/list][h3][b]Featured Official Mods[/b][/h3][p align=\"justify\"]Fine-tune your experience with two new Official Mods:[/p][list][*][p align=\"justify\"][b]Infinite Ammo[/b] – Infinite ammunition for all ranged weapons, including elemental arrows and bolts, so you can focus on aiming instead of counting shots.[/p][/*][*][p align=\"justify\"][b]Clean Map Mod[/b] – A streamlined experience that reduces map markers and radar clutter while disabling tutorials and hints, letting you explore Villedor with minimal help and maximum immersion.\n[/p][/*][/list][p align=\"justify\"]Jump into Chapter 4, conquer the new challenges, experiment with the latest mods, and show us what you can do![/p][p]\n[img src=\"{STEAM_CLAN_IMAGE}/35210443/58c40474fc335fd99ee0e4169f2492a4ab73c06c.jpg\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1788444523,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1842212951312775",
+          "title": "🛠️ Hotfix 1.29.3",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951312775",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[p]Survivors! [/p][p]Hotfix 1.29.3 for [b]Dying Light 2: Stay Human[/b] just hit the servers. [/p][p]We’ve implemented a fix to block the selling of paid gear to vendors. Additionally, various improvements have been made to enhance the shop experience - including free Galdius sword! Simply head to the in-game store and clam it. [/p][p]Make sure to update the game to the newest version! 🛠️[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1788254429,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380,
+          "tags": [
+            "patchnotes",
+            "mod_reviewed",
+            "ModAct_1425146861_1788256559_0",
+            "mod_require_rereview"
+          ]
+        },
+        {
+          "gid": "1841579228667692",
+          "title": "🛠️ Hotfix 1.29.2",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228667692",
+          "is_external_url": true,
+          "author": "Kja",
+          "contents": "[p]Survivors! [/p][p]Hotfix 1.29.2 for [b]Dying Light 2: Stay Human[/b] just rolled onto the servers![/p][p]It fixes various crashes and freezes, and corrects new UV lightning in some places. [/p][p]Make sure to update the game! 🛠️[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1787294898,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1840310314351745",
+          "title": "Viral Rush Is Taking Over Villedor!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314351745",
+          "is_external_url": true,
+          "author": "Tech_Kiki",
+          "contents": "[p]From [b]August 10 to August 17[/b], Viral Rush takes over the City, bringing more Virals, more chaos and plenty of reasons to think twice before making too much noise.[/p][p][/p][h3]Make Noise at Your Own Risk[/h3][p]The rules have changed. Virals are no longer hiding from the sunlight. Throughout the event, they’ll be roaming the streets day and night – more numerous, more aggressive and ready to respond to the chaos you create. Every disturbance can bring unwanted attention... [/p][p]During Viral Rush:[/p][list][*][p][b]Combat, movement, explosions, infected groans [/b]and [b]other disturbances[/b] can draw Virals to your position.[/p][/*][*][p][b]Chases will attract even more Virals[/b], with more of them joining the hunt.[/p][/*][*][p]Among the horde, watch out for a [b]stronger Viral[/b] that periodically enters the fight – tougher, more durable and much harder to put down.[/p][/*][/list][p]The louder Villedor gets, the more dangerous its streets become.[/p][p][/p][h3]The Rush Escalates[/h3][p]Think you can handle the horde? [b]The real madness begins over the weekend.[/b][/p][p]As Viral Rush escalates:[/p][list][*][p][b]Viral presence will increase[/b], putting even more pressure on Survivors across the city.[/p][/*][*][p]The world will become progressively more chaotic, with [b]boosted dismemberment[/b] turning every encounter into a potential bloodbath.[/p][/*][/list][p]Expect fights to get bloodier as the weekend goes on.[/p][p][/p][h3]Lock, Load and Keep Shooting[/h3][p]Fortunately, you’ll have plenty of firepower to fight back.[/p][p][b]Firearms have infinite ammo throughout the entire event[/b], so grab your favorite gun, keep your finger on the trigger and see how long you can survive the rush.[/p][p]Just remember – every shot you fire might bring more Virals your way...[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1786374059,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1840310314339014",
+          "title": "The Breach – Chapter 3: Open Worlds",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314339014",
+          "is_external_url": true,
+          "author": "Tech_Kiki",
+          "contents": "[p]The Breach continues with [b]Chapter 3: Open Worlds[/b], bringing a brand-new lineup of Community Maps & Mods built for exploration, parkour, combat, and survival. [/p][p][/p][p]Following [b]Survival Archives[/b] and [b]Undead West[/b], it's time to step into entirely new realities created by our talented community.[/p][p][/p][h3]Explore New Community Experiences[/h3][p]This chapter introduces four unique Community Maps & Mods, each offering its own gameplay style and challenges:[/p][list][*][p][b]Dead Jungle[/b] – Explore a forgotten jungle temple, uncover the fate of a mysterious cult, and survive the dangers hidden within its ancient ruins.[/p][/*][*][p][b]The Ancient Colosseum[/b] – Battle relentless waves of enemies in a brutal arena where every victory unlocks new advantages and tougher challenges.[/p][/*][*][p][b]Fallen Empire[/b] – Put your parkour skills to the ultimate test in a hardcore time trial built for speed, precision, and mastery.[/p][/*][*][p][b]Road to Outside[/b] – Escape a deadly abandoned mine, scavenge for survival, and uncover the dark secrets lurking beneath a seemingly peaceful village.[/p][/*][/list][p]Alongside the featured maps, you'll also gain access to a selection of Official Mods, including:[/p][list][*][p]Regeneration Mod[/p][/*][*][p]Unlimited Weapon Durability[/p][/*][*][p]Infinite Stamina[/p][/*][*][p]Super Survivor Sense[/p][/*][/list][p]Complete challenges, earn new rewards in the Hub, and bring your newly earned gear straight into the main campaign.[/p][p][/p][p][img src=\"{STEAM_CLAN_IMAGE}/35210443/24c7b599dac21d27330cfc274bd30cb6b422390c.jpg\"][/img][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1785931245,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1839676055894623",
+          "title": "Update 1.29 - Summer of Enhancements",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055894623",
+          "is_external_url": true,
+          "author": "Tech_Kiki",
+          "contents": "[p]Villedor is evolving, offering a faster progression system that lets you unlock skills more quickly. Dive into iconic combat and movement abilities sooner and explore new Community Maps & Mods. Let’s see what we’ve prepared for you in the latest patch to Dying Light 2: Stay Human.\n[/p][h3]Balance Improvements[/h3][p align=\"justify\"]We've boosted XP gains from main missions, with a smaller boost to side missions, allowing players to access skills like heavy attacks, drop kicks, and slides more quickly. This adjustment enhances the pacing and enjoyment in the first 10 hours, providing a more engaging and diverse gameplay experience early on. By earning skills faster, players can dive into endgame content sooner, interacting with legend levels earlier in their journey.\n[/p][h3]UV Lightning Improvements[/h3][p align=\"justify\"]We've fine-tuned the parameters of UV light sources within the game to enhance visual coherence and alignment with the current color grading and material tones. Notably, the UV flashlight, both in-game and during cutscenes, has been updated from a pink-purple hue to a more subdued pale blue to better complement the game's aesthetic. This change extends to all UV lights on the game map and within cutscenes, including interactive objects such as UV flares and UV flashlights. Please note that this patch focuses exclusively on lighting adjustments, and no other gameplay elements are being modified at this time.\n[/p][h3]Viral Rush - Fully Loaded[/h3][p align=\"justify\"]Prepare for heightened tension in Villedor as Virals become immune to sunlight, making them a threat around the clock. Players will face increased chances of encountering Virals during firearm use, weapon hits, and Screamer screams, with the periodic appearance of a special Viral with enhanced immunities for greater defense - though only basic Virals will spawn from other actions. To support survival efforts, all firearms now feature infinite ammo.[/p][p][/p][h3]Game Updates[/h3][p align=\"justify\"]Aside from all the news from Update 1.29 above, we’ve also introduced the following fixes and improvements to the game:[/p][p][/p][h3]Coop[/h3][list][*][p align=\"justify\"]Fixed the issue with grenade explosion triggering \"ear ringing\" audio event when a coop player is in the range of the effect[/p][/*][*][p align=\"justify\"]Fixed the issue with the elevator being improperly implemented for the peer after restoring the power in the electrical substation during “A Place to Call Home” mission[/p][/*][/list][h3]Gameplay[/h3][list][*][p align=\"justify\"]Fixed the issue with UV trap not emitting light when used[/p][/*][*][p align=\"justify\"]Fixed the issue with some improperly placed vegetation and terrain[/p][/*][*][p align=\"justify\"]Fixed the issue with various NPC intersecting with geometry[/p][/*][*][p align=\"justify\"]Fixed the improper animation of throwing the spear[/p][/*][/list][h3]Technical[/h3][list][*][p align=\"justify\"]Fixed various crashes[/p][/*][*][p align=\"justify\"]Fixed the missing localizations to multiple Tolga bounties[/p][/*][*][p align=\"justify\"]Fixed the issue with Subscribe and View functions sharing the same button on a controller[/p][/*][*][p align=\"justify\"]Fixed the issue with Aiden falling through the map in the elevator during “Markers of Plague” mission and is able to remain stuck there[/p][/*][*][p align=\"justify\"]Fixed the issue with Aiden's head sometimes disappearing when loading game with a skin equipped[/p][/*][*][p align=\"justify\"]Fixed the issue with Aiden's head disappearing when picking the first weapon in the Prologue[/p][/*][*][p align=\"justify\"]Fixed issue with missing multiple VO lines for Barney[/p][/*][*][p align=\"justify\"]Fixed the issue with Renderer setting not being saved after changing and restarting the title[/p][/*][/list]",
+          "feedlabel": "Community Announcements",
+          "date": 1785758727,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380,
+          "tags": [
+            "mod_reviewed",
+            "ModAct_487176015_1785760923_0",
+            "ModAct_1890460210_1785919759_4",
+            "mod_require_rereview"
+          ]
+        },
+        {
+          "gid": "1839676055885034",
+          "title": "📢 Community Survey: Dying Light 2: Stay Human - The Breach feedback!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055885034",
+          "is_external_url": true,
+          "author": "tech_sfetrovsky",
+          "contents": "[p]Survivors!\n\nSince [b]The Breach[/b] update launched, we've been excited to see the UGC community expand. We want your input on what's going well, what needs improvement, and your thoughts on the [b]current UGC experience.[/b]\n\nPlease take this brief survey (∼7 minutes) covering maps, mods, rewards, and more. Your candid feedback is invaluable in helping us understand your gameplay experience and priorities: [url=\"https://www.surveymonkey.com/r/DL2-UGC\"]SURVEY[/url]\n\nThank you for sharing your feedback![/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1785413337,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        },
+        {
+          "gid": "1836506165569868",
+          "title": "Techland Summer Sale",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165569868",
+          "is_external_url": true,
+          "author": "tech_sfetrovsky",
+          "contents": "Looking for your next summer destination?\n\nWhy settle for an ordinary holiday when you can climb rooftops instead of mountains and explore abandoned cities instead of crowded resorts?\n\nWhether you're wandering the iconic streets of Harran, leaping across the rooftops of Villedor, or venturing into the breathtaking wilderness of Castor Woods, there's a Dying Light adventure waiting for you. Every destination offers stunning views, unforgettable stories... and just a few infected along the way.\n\nThe Steam Summer Sale is now live, with up to 80% off across the Dying Light franchise. It's also the historically lowest price ever for both Dying Light 2: Stay Human and Dying Light: The Beast, making it the perfect time to start - or complete - your journey!\n\nYour next adventure is waiting. The only question is: where will you start?\n\nhttps://store.steampowered.com/app/239140/Dying_Light/\nhttps://store.steampowered.com/app/534380/Dying_Light_2_Stay_Human_Reloaded_Edition/\nhttps://store.steampowered.com/app/3008130/Dying_Light_The_Beast/",
+          "feedlabel": "Community Announcements",
+          "date": 1783067608,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 534380
+        }
+      ],
+      "count": 417
+    }
+  }
+}

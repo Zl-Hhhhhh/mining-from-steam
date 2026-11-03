@@ -1,0 +1,265 @@
+﻿severity,code,appid,game,language,count,path,details
+error,empty_review_text,730,Counter-Strike 2,english,1,D:\mining-from-steam\data\steam\730\20261102T061318366846Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,730,Counter-Strike 2,english,68,D:\mining-from-steam\data\steam\730\20261102T061318366846Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,730,Counter-Strike 2,english,19,D:\mining-from-steam\data\steam\730\20261102T061318366846Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,730,Counter-Strike 2,schinese,145,D:\mining-from-steam\data\steam\730\20261102T061318366846Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,730,Counter-Strike 2,schinese,36,D:\mining-from-steam\data\steam\730\20261102T061318366846Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,570,Dota 2,english,73,D:\mining-from-steam\data\steam\570\20261102T061335826653Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,570,Dota 2,english,14,D:\mining-from-steam\data\steam\570\20261102T061335826653Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,570,Dota 2,schinese,108,D:\mining-from-steam\data\steam\570\20261102T061335826653Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,570,Dota 2,schinese,19,D:\mining-from-steam\data\steam\570\20261102T061335826653Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1172470,Apex Legends,english,48,D:\mining-from-steam\data\steam\1172470\20261102T061350935631Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1172470,Apex Legends,english,12,D:\mining-from-steam\data\steam\1172470\20261102T061350935631Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1172470,Apex Legends,schinese,2,D:\mining-from-steam\data\steam\1172470\20261102T061350935631Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1172470,Apex Legends,schinese,121,D:\mining-from-steam\data\steam\1172470\20261102T061350935631Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1172470,Apex Legends,schinese,35,D:\mining-from-steam\data\steam\1172470\20261102T061350935631Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,271590,Grand Theft Auto V,english,92,D:\mining-from-steam\data\steam\271590\20261102T061405987197Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,271590,Grand Theft Auto V,english,26,D:\mining-from-steam\data\steam\271590\20261102T061405987197Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,271590,Grand Theft Auto V,schinese,5,D:\mining-from-steam\data\steam\271590\20261102T061405987197Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,271590,Grand Theft Auto V,schinese,137,D:\mining-from-steam\data\steam\271590\20261102T061405987197Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,271590,Grand Theft Auto V,schinese,40,D:\mining-from-steam\data\steam\271590\20261102T061405987197Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1245620,Elden Ring,english,42,D:\mining-from-steam\data\steam\1245620\20261102T061422173805Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1245620,Elden Ring,english,9,D:\mining-from-steam\data\steam\1245620\20261102T061422173805Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1245620,Elden Ring,schinese,104,D:\mining-from-steam\data\steam\1245620\20261102T061422173805Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1245620,Elden Ring,schinese,32,D:\mining-from-steam\data\steam\1245620\20261102T061422173805Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1086940,Baldur's Gate 3,english,3,D:\mining-from-steam\data\steam\1086940\20261102T061441604202Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1086940,Baldur's Gate 3,english,34,D:\mining-from-steam\data\steam\1086940\20261102T061441604202Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1086940,Baldur's Gate 3,english,7,D:\mining-from-steam\data\steam\1086940\20261102T061441604202Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1086940,Baldur's Gate 3,schinese,97,D:\mining-from-steam\data\steam\1086940\20261102T061441604202Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1086940,Baldur's Gate 3,schinese,26,D:\mining-from-steam\data\steam\1086940\20261102T061441604202Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,292030,The Witcher 3: Wild Hunt,english,1,D:\mining-from-steam\data\steam\292030\20261102T061458254278Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,292030,The Witcher 3: Wild Hunt,english,26,D:\mining-from-steam\data\steam\292030\20261102T061458254278Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,292030,The Witcher 3: Wild Hunt,english,4,D:\mining-from-steam\data\steam\292030\20261102T061458254278Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,292030,The Witcher 3: Wild Hunt,schinese,80,D:\mining-from-steam\data\steam\292030\20261102T061458254278Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,292030,The Witcher 3: Wild Hunt,schinese,16,D:\mining-from-steam\data\steam\292030\20261102T061458254278Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1091500,Cyberpunk 2077,english,1,D:\mining-from-steam\data\steam\1091500\20261102T061514499726Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1091500,Cyberpunk 2077,english,40,D:\mining-from-steam\data\steam\1091500\20261102T061514499726Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1091500,Cyberpunk 2077,english,8,D:\mining-from-steam\data\steam\1091500\20261102T061514499726Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1091500,Cyberpunk 2077,schinese,2,D:\mining-from-steam\data\steam\1091500\20261102T061514499726Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1091500,Cyberpunk 2077,schinese,104,D:\mining-from-steam\data\steam\1091500\20261102T061514499726Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1091500,Cyberpunk 2077,schinese,31,D:\mining-from-steam\data\steam\1091500\20261102T061514499726Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,534380,Dying Light 2,english,1,D:\mining-from-steam\data\steam\534380\20261102T061530892605Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,534380,Dying Light 2,english,36,D:\mining-from-steam\data\steam\534380\20261102T061530892605Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,534380,Dying Light 2,english,4,D:\mining-from-steam\data\steam\534380\20261102T061530892605Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,534380,Dying Light 2,schinese,78,D:\mining-from-steam\data\steam\534380\20261102T061530892605Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,534380,Dying Light 2,schinese,16,D:\mining-from-steam\data\steam\534380\20261102T061530892605Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,275850,No Man's Sky,english,1,D:\mining-from-steam\data\steam\275850\20261102T061548184838Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,275850,No Man's Sky,english,23,D:\mining-from-steam\data\steam\275850\20261102T061548184838Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,275850,No Man's Sky,english,4,D:\mining-from-steam\data\steam\275850\20261102T061548184838Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,275850,No Man's Sky,schinese,1,D:\mining-from-steam\data\steam\275850\20261102T061548184838Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,275850,No Man's Sky,schinese,87,D:\mining-from-steam\data\steam\275850\20261102T061548184838Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,275850,No Man's Sky,schinese,31,D:\mining-from-steam\data\steam\275850\20261102T061548184838Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,413150,Stardew Valley,english,3,D:\mining-from-steam\data\steam\413150\20261102T061606702743Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,413150,Stardew Valley,english,28,D:\mining-from-steam\data\steam\413150\20261102T061606702743Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,413150,Stardew Valley,english,4,D:\mining-from-steam\data\steam\413150\20261102T061606702743Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,413150,Stardew Valley,schinese,1,D:\mining-from-steam\data\steam\413150\20261102T061606702743Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,413150,Stardew Valley,schinese,132,D:\mining-from-steam\data\steam\413150\20261102T061606702743Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,413150,Stardew Valley,schinese,48,D:\mining-from-steam\data\steam\413150\20261102T061606702743Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,646570,Slay the Spire,english,38,D:\mining-from-steam\data\steam\646570\20261102T061622052877Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,646570,Slay the Spire,english,9,D:\mining-from-steam\data\steam\646570\20261102T061622052877Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,646570,Slay the Spire,schinese,1,D:\mining-from-steam\data\steam\646570\20261102T061622052877Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,646570,Slay the Spire,schinese,121,D:\mining-from-steam\data\steam\646570\20261102T061622052877Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,646570,Slay the Spire,schinese,42,D:\mining-from-steam\data\steam\646570\20261102T061622052877Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1144200,Ready or Not,english,2,D:\mining-from-steam\data\steam\1144200\20261102T061639021107Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1144200,Ready or Not,english,33,D:\mining-from-steam\data\steam\1144200\20261102T061639021107Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1144200,Ready or Not,english,6,D:\mining-from-steam\data\steam\1144200\20261102T061639021107Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1144200,Ready or Not,schinese,107,D:\mining-from-steam\data\steam\1144200\20261102T061639021107Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1144200,Ready or Not,schinese,27,D:\mining-from-steam\data\steam\1144200\20261102T061639021107Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,2358720,Black Myth: Wukong,english,1,D:\mining-from-steam\data\steam\2358720\20261102T061655363150Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,2358720,Black Myth: Wukong,english,43,D:\mining-from-steam\data\steam\2358720\20261102T061655363150Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,2358720,Black Myth: Wukong,english,13,D:\mining-from-steam\data\steam\2358720\20261102T061655363150Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,2358720,Black Myth: Wukong,schinese,1,D:\mining-from-steam\data\steam\2358720\20261102T061655363150Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,2358720,Black Myth: Wukong,schinese,116,D:\mining-from-steam\data\steam\2358720\20261102T061655363150Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,2358720,Black Myth: Wukong,schinese,43,D:\mining-from-steam\data\steam\2358720\20261102T061655363150Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,397540,Borderlands 3,english,1,D:\mining-from-steam\data\steam\397540\20261102T061710305637Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,397540,Borderlands 3,english,39,D:\mining-from-steam\data\steam\397540\20261102T061710305637Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,397540,Borderlands 3,english,8,D:\mining-from-steam\data\steam\397540\20261102T061710305637Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,397540,Borderlands 3,schinese,1,D:\mining-from-steam\data\steam\397540\20261102T061710305637Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,397540,Borderlands 3,schinese,100,D:\mining-from-steam\data\steam\397540\20261102T061710305637Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,397540,Borderlands 3,schinese,19,D:\mining-from-steam\data\steam\397540\20261102T061710305637Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,582010,Monster Hunter: World,english,1,D:\mining-from-steam\data\steam\582010\20261102T061728480639Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,582010,Monster Hunter: World,english,41,D:\mining-from-steam\data\steam\582010\20261102T061728480639Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,582010,Monster Hunter: World,english,20,D:\mining-from-steam\data\steam\582010\20261102T061728480639Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,582010,Monster Hunter: World,schinese,1,D:\mining-from-steam\data\steam\582010\20261102T061728480639Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,582010,Monster Hunter: World,schinese,109,D:\mining-from-steam\data\steam\582010\20261102T061728480639Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,582010,Monster Hunter: World,schinese,29,D:\mining-from-steam\data\steam\582010\20261102T061728480639Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,367520,Hollow Knight,english,1,D:\mining-from-steam\data\steam\367520\20261102T061750859582Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,367520,Hollow Knight,english,39,D:\mining-from-steam\data\steam\367520\20261102T061750859582Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,367520,Hollow Knight,english,9,D:\mining-from-steam\data\steam\367520\20261102T061750859582Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,367520,Hollow Knight,schinese,113,D:\mining-from-steam\data\steam\367520\20261102T061750859582Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,367520,Hollow Knight,schinese,39,D:\mining-from-steam\data\steam\367520\20261102T061750859582Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,504230,Celeste,english,1,D:\mining-from-steam\data\steam\504230\20261102T061809646167Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,504230,Celeste,english,24,D:\mining-from-steam\data\steam\504230\20261102T061809646167Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,504230,Celeste,english,3,D:\mining-from-steam\data\steam\504230\20261102T061809646167Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,504230,Celeste,schinese,1,D:\mining-from-steam\data\steam\504230\20261102T061809646167Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,504230,Celeste,schinese,72,D:\mining-from-steam\data\steam\504230\20261102T061809646167Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,504230,Celeste,schinese,14,D:\mining-from-steam\data\steam\504230\20261102T061809646167Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,262060,Darkest Dungeon,english,1,D:\mining-from-steam\data\steam\262060\20261102T061826299604Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,262060,Darkest Dungeon,english,26,D:\mining-from-steam\data\steam\262060\20261102T061826299604Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,262060,Darkest Dungeon,english,3,D:\mining-from-steam\data\steam\262060\20261102T061826299604Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,262060,Darkest Dungeon,schinese,90,D:\mining-from-steam\data\steam\262060\20261102T061826299604Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,262060,Darkest Dungeon,schinese,22,D:\mining-from-steam\data\steam\262060\20261102T061826299604Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,252490,Rust,english,56,D:\mining-from-steam\data\steam\252490\20261102T061844365124Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,252490,Rust,english,12,D:\mining-from-steam\data\steam\252490\20261102T061844365124Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,252490,Rust,schinese,113,D:\mining-from-steam\data\steam\252490\20261102T061844365124Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,252490,Rust,schinese,28,D:\mining-from-steam\data\steam\252490\20261102T061844365124Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,105600,Terraria,english,1,D:\mining-from-steam\data\steam\105600\20261102T061902745050Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,105600,Terraria,english,56,D:\mining-from-steam\data\steam\105600\20261102T061902745050Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,105600,Terraria,english,17,D:\mining-from-steam\data\steam\105600\20261102T061902745050Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,105600,Terraria,schinese,2,D:\mining-from-steam\data\steam\105600\20261102T061902745050Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,105600,Terraria,schinese,137,D:\mining-from-steam\data\steam\105600\20261102T061902745050Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,105600,Terraria,schinese,44,D:\mining-from-steam\data\steam\105600\20261102T061902745050Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,4000,Garry's Mod,english,1,D:\mining-from-steam\data\steam\4000\20261102T061920800909Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,4000,Garry's Mod,english,67,D:\mining-from-steam\data\steam\4000\20261102T061920800909Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,4000,Garry's Mod,english,16,D:\mining-from-steam\data\steam\4000\20261102T061920800909Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,4000,Garry's Mod,schinese,124,D:\mining-from-steam\data\steam\4000\20261102T061920800909Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,4000,Garry's Mod,schinese,38,D:\mining-from-steam\data\steam\4000\20261102T061920800909Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1623730,Palworld,english,2,D:\mining-from-steam\data\steam\1623730\20261102T061937609900Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1623730,Palworld,english,39,D:\mining-from-steam\data\steam\1623730\20261102T061937609900Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1623730,Palworld,english,12,D:\mining-from-steam\data\steam\1623730\20261102T061937609900Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1623730,Palworld,schinese,1,D:\mining-from-steam\data\steam\1623730\20261102T061937609900Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1623730,Palworld,schinese,126,D:\mining-from-steam\data\steam\1623730\20261102T061937609900Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1623730,Palworld,schinese,49,D:\mining-from-steam\data\steam\1623730\20261102T061937609900Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1174180,Red Dead Redemption 2,english,1,D:\mining-from-steam\data\steam\1174180\20261102T061954779301Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1174180,Red Dead Redemption 2,english,47,D:\mining-from-steam\data\steam\1174180\20261102T061954779301Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1174180,Red Dead Redemption 2,english,14,D:\mining-from-steam\data\steam\1174180\20261102T061954779301Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1174180,Red Dead Redemption 2,schinese,2,D:\mining-from-steam\data\steam\1174180\20261102T061954779301Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1174180,Red Dead Redemption 2,schinese,129,D:\mining-from-steam\data\steam\1174180\20261102T061954779301Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1174180,Red Dead Redemption 2,schinese,48,D:\mining-from-steam\data\steam\1174180\20261102T061954779301Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,447040,Watch Dogs 2,english,2,D:\mining-from-steam\data\steam\447040\20261102T062013798315Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,447040,Watch Dogs 2,english,38,D:\mining-from-steam\data\steam\447040\20261102T062013798315Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,447040,Watch Dogs 2,english,9,D:\mining-from-steam\data\steam\447040\20261102T062013798315Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,447040,Watch Dogs 2,schinese,126,D:\mining-from-steam\data\steam\447040\20261102T062013798315Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,447040,Watch Dogs 2,schinese,30,D:\mining-from-steam\data\steam\447040\20261102T062013798315Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,236390,War Thunder,english,1,D:\mining-from-steam\data\steam\236390\20261102T062030255735Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,236390,War Thunder,english,35,D:\mining-from-steam\data\steam\236390\20261102T062030255735Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,236390,War Thunder,english,7,D:\mining-from-steam\data\steam\236390\20261102T062030255735Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,236390,War Thunder,schinese,107,D:\mining-from-steam\data\steam\236390\20261102T062030255735Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,236390,War Thunder,schinese,7,D:\mining-from-steam\data\steam\236390\20261102T062030255735Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,489830,The Elder Scrolls V: Skyrim Special Edition,english,1,D:\mining-from-steam\data\steam\489830\20261102T062047691480Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,489830,The Elder Scrolls V: Skyrim Special Edition,english,32,D:\mining-from-steam\data\steam\489830\20261102T062047691480Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,489830,The Elder Scrolls V: Skyrim Special Edition,english,7,D:\mining-from-steam\data\steam\489830\20261102T062047691480Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,489830,The Elder Scrolls V: Skyrim Special Edition,schinese,1,D:\mining-from-steam\data\steam\489830\20261102T062047691480Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,489830,The Elder Scrolls V: Skyrim Special Edition,schinese,86,D:\mining-from-steam\data\steam\489830\20261102T062047691480Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,489830,The Elder Scrolls V: Skyrim Special Edition,schinese,23,D:\mining-from-steam\data\steam\489830\20261102T062047691480Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1203220,NARAKA: BLADEPOINT,english,35,D:\mining-from-steam\data\steam\1203220\20261102T062106359792Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1203220,NARAKA: BLADEPOINT,english,11,D:\mining-from-steam\data\steam\1203220\20261102T062106359792Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1203220,NARAKA: BLADEPOINT,schinese,125,D:\mining-from-steam\data\steam\1203220\20261102T062106359792Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1203220,NARAKA: BLADEPOINT,schinese,19,D:\mining-from-steam\data\steam\1203220\20261102T062106359792Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,588650,Dead Cells,english,2,D:\mining-from-steam\data\steam\588650\20261102T062123878455Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,588650,Dead Cells,english,40,D:\mining-from-steam\data\steam\588650\20261102T062123878455Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,588650,Dead Cells,english,13,D:\mining-from-steam\data\steam\588650\20261102T062123878455Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,588650,Dead Cells,schinese,4,D:\mining-from-steam\data\steam\588650\20261102T062123878455Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,588650,Dead Cells,schinese,126,D:\mining-from-steam\data\steam\588650\20261102T062123878455Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,588650,Dead Cells,schinese,45,D:\mining-from-steam\data\steam\588650\20261102T062123878455Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,381210,Dead by Daylight,english,31,D:\mining-from-steam\data\steam\381210\20261102T062141649919Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,381210,Dead by Daylight,english,3,D:\mining-from-steam\data\steam\381210\20261102T062141649919Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,381210,Dead by Daylight,schinese,95,D:\mining-from-steam\data\steam\381210\20261102T062141649919Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,381210,Dead by Daylight,schinese,18,D:\mining-from-steam\data\steam\381210\20261102T062141649919Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,238960,Path of Exile,english,2,D:\mining-from-steam\data\steam\238960\20261102T063246432381Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,238960,Path of Exile,english,37,D:\mining-from-steam\data\steam\238960\20261102T063246432381Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,238960,Path of Exile,english,4,D:\mining-from-steam\data\steam\238960\20261102T063246432381Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,language_target_shortfall,238960,Path of Exile,schinese,178,D:\mining-from-steam\data\steam\238960\20261102T063246432381Z\manifest.json,"collected=22, target=200"
+error,short_review_text,238960,Path of Exile,schinese,9,D:\mining-from-steam\data\steam\238960\20261102T063246432381Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,238960,Path of Exile,schinese,1,D:\mining-from-steam\data\steam\238960\20261102T063246432381Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,220,Half-Life 2,english,2,D:\mining-from-steam\data\steam\220\20261102T062218893206Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,220,Half-Life 2,english,40,D:\mining-from-steam\data\steam\220\20261102T062218893206Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,220,Half-Life 2,english,11,D:\mining-from-steam\data\steam\220\20261102T062218893206Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,220,Half-Life 2,schinese,1,D:\mining-from-steam\data\steam\220\20261102T062218893206Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,220,Half-Life 2,schinese,100,D:\mining-from-steam\data\steam\220\20261102T062218893206Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,220,Half-Life 2,schinese,23,D:\mining-from-steam\data\steam\220\20261102T062218893206Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,8930,Sid Meier's Civilization V,english,2,D:\mining-from-steam\data\steam\8930\20261102T063259114704Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,8930,Sid Meier's Civilization V,english,29,D:\mining-from-steam\data\steam\8930\20261102T063259114704Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,8930,Sid Meier's Civilization V,english,1,D:\mining-from-steam\data\steam\8930\20261102T063259114704Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,language_target_shortfall,8930,Sid Meier's Civilization V,schinese,121,D:\mining-from-steam\data\steam\8930\20261102T063259114704Z\manifest.json,"collected=79, target=200"
+error,empty_review_text,8930,Sid Meier's Civilization V,schinese,1,D:\mining-from-steam\data\steam\8930\20261102T063259114704Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,8930,Sid Meier's Civilization V,schinese,33,D:\mining-from-steam\data\steam\8930\20261102T063259114704Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,8930,Sid Meier's Civilization V,schinese,5,D:\mining-from-steam\data\steam\8930\20261102T063259114704Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,289070,Sid Meier's Civilization VI,english,4,D:\mining-from-steam\data\steam\289070\20261102T062251102772Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,289070,Sid Meier's Civilization VI,english,36,D:\mining-from-steam\data\steam\289070\20261102T062251102772Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,289070,Sid Meier's Civilization VI,english,10,D:\mining-from-steam\data\steam\289070\20261102T062251102772Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,289070,Sid Meier's Civilization VI,schinese,118,D:\mining-from-steam\data\steam\289070\20261102T062251102772Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,289070,Sid Meier's Civilization VI,schinese,32,D:\mining-from-steam\data\steam\289070\20261102T062251102772Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1145360,Hades,english,1,D:\mining-from-steam\data\steam\1145360\20261102T062306749496Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1145360,Hades,english,37,D:\mining-from-steam\data\steam\1145360\20261102T062306749496Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1145360,Hades,english,6,D:\mining-from-steam\data\steam\1145360\20261102T062306749496Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1145360,Hades,schinese,101,D:\mining-from-steam\data\steam\1145360\20261102T062306749496Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1145360,Hades,schinese,38,D:\mining-from-steam\data\steam\1145360\20261102T062306749496Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,813780,Age of Empires II: Definitive Edition,english,2,D:\mining-from-steam\data\steam\813780\20261102T062321728791Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,813780,Age of Empires II: Definitive Edition,english,37,D:\mining-from-steam\data\steam\813780\20261102T062321728791Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,813780,Age of Empires II: Definitive Edition,english,9,D:\mining-from-steam\data\steam\813780\20261102T062321728791Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,813780,Age of Empires II: Definitive Edition,schinese,100,D:\mining-from-steam\data\steam\813780\20261102T062321728791Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,813780,Age of Empires II: Definitive Edition,schinese,18,D:\mining-from-steam\data\steam\813780\20261102T062321728791Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,648800,Raft,english,2,D:\mining-from-steam\data\steam\648800\20261102T062337749257Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,648800,Raft,english,54,D:\mining-from-steam\data\steam\648800\20261102T062337749257Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,648800,Raft,english,10,D:\mining-from-steam\data\steam\648800\20261102T062337749257Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,648800,Raft,schinese,134,D:\mining-from-steam\data\steam\648800\20261102T062337749257Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,648800,Raft,schinese,48,D:\mining-from-steam\data\steam\648800\20261102T062337749257Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,346110,ARK: Survival Evolved,english,1,D:\mining-from-steam\data\steam\346110\20261102T062402625663Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,346110,ARK: Survival Evolved,english,47,D:\mining-from-steam\data\steam\346110\20261102T062402625663Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,346110,ARK: Survival Evolved,english,10,D:\mining-from-steam\data\steam\346110\20261102T062402625663Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,346110,ARK: Survival Evolved,schinese,140,D:\mining-from-steam\data\steam\346110\20261102T062402625663Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,346110,ARK: Survival Evolved,schinese,40,D:\mining-from-steam\data\steam\346110\20261102T062402625663Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,440900,Conan Exiles,english,1,D:\mining-from-steam\data\steam\440900\20261102T062425425090Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,440900,Conan Exiles,english,25,D:\mining-from-steam\data\steam\440900\20261102T062425425090Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,440900,Conan Exiles,english,7,D:\mining-from-steam\data\steam\440900\20261102T062425425090Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,440900,Conan Exiles,schinese,51,D:\mining-from-steam\data\steam\440900\20261102T062425425090Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,440900,Conan Exiles,schinese,11,D:\mining-from-steam\data\steam\440900\20261102T062425425090Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1517290,Battlefield 2042,english,43,D:\mining-from-steam\data\steam\1517290\20261102T062447888887Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1517290,Battlefield 2042,english,12,D:\mining-from-steam\data\steam\1517290\20261102T062447888887Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1517290,Battlefield 2042,schinese,74,D:\mining-from-steam\data\steam\1517290\20261102T062447888887Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1517290,Battlefield 2042,schinese,8,D:\mining-from-steam\data\steam\1517290\20261102T062447888887Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,244850,Space Engineers,english,1,D:\mining-from-steam\data\steam\244850\20261102T063310011030Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,244850,Space Engineers,english,35,D:\mining-from-steam\data\steam\244850\20261102T063310011030Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,244850,Space Engineers,english,10,D:\mining-from-steam\data\steam\244850\20261102T063310011030Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,language_target_shortfall,244850,Space Engineers,schinese,165,D:\mining-from-steam\data\steam\244850\20261102T063310011030Z\manifest.json,"collected=35, target=200"
+error,short_review_text,244850,Space Engineers,schinese,13,D:\mining-from-steam\data\steam\244850\20261102T063310011030Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,244850,Space Engineers,schinese,1,D:\mining-from-steam\data\steam\244850\20261102T063310011030Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,322330,Don't Starve Together,english,54,D:\mining-from-steam\data\steam\322330\20261102T062530500967Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,322330,Don't Starve Together,english,9,D:\mining-from-steam\data\steam\322330\20261102T062530500967Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,322330,Don't Starve Together,schinese,118,D:\mining-from-steam\data\steam\322330\20261102T062530500967Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,322330,Don't Starve Together,schinese,38,D:\mining-from-steam\data\steam\322330\20261102T062530500967Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1426210,It Takes Two,english,40,D:\mining-from-steam\data\steam\1426210\20261102T062550052822Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1426210,It Takes Two,english,9,D:\mining-from-steam\data\steam\1426210\20261102T062550052822Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1426210,It Takes Two,schinese,1,D:\mining-from-steam\data\steam\1426210\20261102T062550052822Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1426210,It Takes Two,schinese,127,D:\mining-from-steam\data\steam\1426210\20261102T062550052822Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1426210,It Takes Two,schinese,46,D:\mining-from-steam\data\steam\1426210\20261102T062550052822Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,739630,Phasmophobia,english,44,D:\mining-from-steam\data\steam\739630\20261102T062608220332Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,739630,Phasmophobia,english,8,D:\mining-from-steam\data\steam\739630\20261102T062608220332Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,739630,Phasmophobia,schinese,1,D:\mining-from-steam\data\steam\739630\20261102T062608220332Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,739630,Phasmophobia,schinese,112,D:\mining-from-steam\data\steam\739630\20261102T062608220332Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,739630,Phasmophobia,schinese,26,D:\mining-from-steam\data\steam\739630\20261102T062608220332Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,230410,Warframe,english,45,D:\mining-from-steam\data\steam\230410\20261102T062627759296Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,230410,Warframe,english,13,D:\mining-from-steam\data\steam\230410\20261102T062627759296Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,230410,Warframe,schinese,1,D:\mining-from-steam\data\steam\230410\20261102T062627759296Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,230410,Warframe,schinese,119,D:\mining-from-steam\data\steam\230410\20261102T062627759296Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,230410,Warframe,schinese,32,D:\mining-from-steam\data\steam\230410\20261102T062627759296Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,976730,Halo: The Master Chief Collection,english,2,D:\mining-from-steam\data\steam\976730\20261102T062649966094Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,976730,Halo: The Master Chief Collection,english,21,D:\mining-from-steam\data\steam\976730\20261102T062649966094Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,976730,Halo: The Master Chief Collection,english,4,D:\mining-from-steam\data\steam\976730\20261102T062649966094Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,976730,Halo: The Master Chief Collection,schinese,1,D:\mining-from-steam\data\steam\976730\20261102T062649966094Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,976730,Halo: The Master Chief Collection,schinese,65,D:\mining-from-steam\data\steam\976730\20261102T062649966094Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,976730,Halo: The Master Chief Collection,schinese,6,D:\mining-from-steam\data\steam\976730\20261102T062649966094Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,291550,Brawlhalla,english,1,D:\mining-from-steam\data\steam\291550\20261102T063323377473Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,291550,Brawlhalla,english,42,D:\mining-from-steam\data\steam\291550\20261102T063323377473Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,291550,Brawlhalla,english,3,D:\mining-from-steam\data\steam\291550\20261102T063323377473Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,language_target_shortfall,291550,Brawlhalla,schinese,50,D:\mining-from-steam\data\steam\291550\20261102T063323377473Z\manifest.json,"collected=150, target=200"
+error,short_review_text,291550,Brawlhalla,schinese,67,D:\mining-from-steam\data\steam\291550\20261102T063323377473Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,291550,Brawlhalla,schinese,13,D:\mining-from-steam\data\steam\291550\20261102T063323377473Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,261550,Mount & Blade II: Bannerlord,english,3,D:\mining-from-steam\data\steam\261550\20261102T062730690531Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,261550,Mount & Blade II: Bannerlord,english,45,D:\mining-from-steam\data\steam\261550\20261102T062730690531Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,261550,Mount & Blade II: Bannerlord,english,15,D:\mining-from-steam\data\steam\261550\20261102T062730690531Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,261550,Mount & Blade II: Bannerlord,schinese,127,D:\mining-from-steam\data\steam\261550\20261102T062730690531Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,261550,Mount & Blade II: Bannerlord,schinese,31,D:\mining-from-steam\data\steam\261550\20261102T062730690531Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,short_review_text,1687950,Persona 5 Royal,english,33,D:\mining-from-steam\data\steam\1687950\20261102T062755593398Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1687950,Persona 5 Royal,english,8,D:\mining-from-steam\data\steam\1687950\20261102T062755593398Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,1687950,Persona 5 Royal,schinese,3,D:\mining-from-steam\data\steam\1687950\20261102T062755593398Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,1687950,Persona 5 Royal,schinese,89,D:\mining-from-steam\data\steam\1687950\20261102T062755593398Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,1687950,Persona 5 Royal,schinese,25,D:\mining-from-steam\data\steam\1687950\20261102T062755593398Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,250900,The Binding of Isaac: Rebirth,english,1,D:\mining-from-steam\data\steam\250900\20261102T062815093482Z\english\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,250900,The Binding of Isaac: Rebirth,english,50,D:\mining-from-steam\data\steam\250900\20261102T062815093482Z\english\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,250900,The Binding of Isaac: Rebirth,english,13,D:\mining-from-steam\data\steam\250900\20261102T062815093482Z\english\reviews.jsonl,case/whitespace-normalized duplicate review text
+error,empty_review_text,250900,The Binding of Isaac: Rebirth,schinese,1,D:\mining-from-steam\data\steam\250900\20261102T062815093482Z\schinese\reviews.jsonl,review text is empty after whitespace normalization
+error,short_review_text,250900,The Binding of Isaac: Rebirth,schinese,110,D:\mining-from-steam\data\steam\250900\20261102T062815093482Z\schinese\reviews.jsonl,normalized review text is shorter than 10 characters
+error,duplicate_review_text,250900,The Binding of Isaac: Rebirth,schinese,34,D:\mining-from-steam\data\steam\250900\20261102T062815093482Z\schinese\reviews.jsonl,case/whitespace-normalized duplicate review text
+info,cross_game_author_count,,,,282,,unique authors appearing in reviews for more than one game

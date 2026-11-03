@@ -5,5 +5,4 @@ __pycache__/
 external/
 !.gitkeep
 %SystemDrive%/
-data/
 tmp/

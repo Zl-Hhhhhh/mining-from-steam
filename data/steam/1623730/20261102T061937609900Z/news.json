@@ -1,0 +1,287 @@
+{
+  "fetched_at": "2026-11-02T06:19:39.481385+00:00",
+  "endpoint": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/",
+  "data": {
+    "appnews": {
+      "appid": 1623730,
+      "newsitems": [
+        {
+          "gid": "1847920302237476",
+          "title": "Pocketpair объяснила, почему считает себя инди-студией даже после успеха Palworld",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302237476",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/-pTMDHwV9yX2upL3B_oPCw.jpeg\"/>\n              <br />\n                                                                                <p>Разработчик Palworld Pocketpair не собирается отказываться от статуса инди-студии, несмотря на стремительный рост компании и аудиторию игры, достигшую в этом году 40 миллионов человек. По мнению руководителя отдела издательской деятельности и коммуникаций Джона «Бакки» Бакли, независимость определяется не количеством сотрудников и заработанными деньгами, а прежде всего свободой принимать творческие решения.</p>                                                        <p>Бакли высказался об этом в соцсети X, комментируя дискуссию о размытых границах понятия «инди». Поводом стали недавние заявления генерального директора Pocketpair Такуро Мизобе: он назвал компанию настоящей инди-студией, хотя признал, что по масштабам она уже приближается к уровню Double-A.</p>                                                        <p>По словам Бакли, Pocketpair полностью принадлежит своим сотрудникам и не зависит от внешних инвесторов. Успех Palworld позволил компании значительно вырасти, но не изменил принципов её работы. Представитель разработчика также обратил внимание, что многие студии, которые принято считать независимыми, получают финансирование и поддержку крупных издателей или корпораций.</p>                                                        <p>При этом Бакли не считает наличие инвестора или издателя автоматическим препятствием для независимости. Гораздо важнее, сохраняет ли команда право самостоятельно определять направление разработки. Если партнёр не вмешивается в творческие решения, студия всё ещё может оставаться независимой. И наоборот: даже небольшая команда рискует потерять этот статус, если фактически исполняет указания внешней организации.</p>                                                        <p>Такой подход оставляет немало пространства для споров. Одни связывают инди прежде всего с небольшими бюджетами и ограниченными ресурсами, другие — с отсутствием корпоративного контроля. Pocketpair придерживается второго определения и считает, что именно самостоятельность в принятии решений должна быть главным критерием.</p>                                                        <p>Сама компания уже развивает собственное издательское направление и помогает другим разработчикам, в том числе создателям Windrose, Truckful и Clicky Islands. Бакли признаёт, что некоторые игроки могут предпочесть называть Pocketpair студией уровня Double-A или даже Triple-I. Впрочем, для него это не принципиально: по словам представителя компании, важнее возможность продолжать создавать игры по собственному усмотрению.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1793343306,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1847920302235869",
+          "title": "Palworld dev says the studio still calls itself indie because of its \"genuine creative freedom\"",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1847920302235869",
+          "is_external_url": true,
+          "author": "editor@pcgamesn.com",
+          "contents": "<img width=\"900\" height=\"507\" src=\"https://www.pcgamesn.com/wp-content/sites/pcgamesn/2026/10/palworld-developer-pocketpair-indie-game-studio-bucky-john-buckley.jpg\"/><p>Pocketpair's John Buckley contemplates what makes a studio indie, asserting that the most important factor is its level of creative control.</p>\n<p>Read the full story on PCGamesN: <a href=\"https://www.pcgamesn.com/palworld/pocketpair-indie\">Palworld dev says the studio still calls itself indie because of its \"genuine creative freedom\"</a></p>",
+          "feedlabel": "PCGamesN",
+          "date": 1793290988,
+          "feedname": "PCGamesN",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1847920302230216",
+          "title": "Глава Pocketpair допустил порт Palworld на Switch 2 - при условии переговоров с Nintendo",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302230216",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/ms6buuErajaKdmCKAL6KPg.png\"/>\n              <br />\n                                                                                <p>Генеральный директор Pocketpair Такуро Мидзобэ заявил, что порт Palworld на Nintendo Switch 2 возможен, если Nintendo будет готова сесть за стол переговоров. Это происходит на фоне продолжающейся судебной тяжбы между компаниями: в октябре 2025 года Японское патентное ведомство отклонило заявку Nintendo на патент на механику захвата существ.</p>                                                                                  <p>В интервью VGC Такуро Мидзобэ отметил, что Pocketpair считает Switch 2 «действительно потрясающей платформой» — не только для мирового рынка, но и особенно для Японии и японской игровой индустрии.</p>                                                        <p>«Если в будущем у нас появится возможность обсудить или рассмотреть вопрос о переносе Palworld на платформу Switch в каком-либо виде, мы с удовольствием проведём эти переговоры».</p>                                                        <p>При этом глава Pocketpair подчеркнул: на данный момент речь идёт лишь о готовности к диалогу, а не о подтверждённом порте.</p>                                                        <p>Мидзобэ также рассказал о подходе студии к разработке. По его словам, Palworld во многом заимствовала идеи из предыдущей игры студии — Craftopia. Кроме того, проект формировался под влиянием отзывов игроков ещё на этапе раннего доступа и даже до него. В итоге финальная версия оказалась гораздо ближе к «уютным» аспектам, чем к мрачному образу «потогонного цеха», который присутствовал в ранних анонсирующих трейлерах.</p>                                                        <p>«По мере разработки игры, в раннем доступе и вплоть до версии 1.0, мы прислушивались к отзывам игроков и постепенно начали двигаться в сторону более уютной жизни с друзьями, а не к образу „потогонной мастерской“, который изначально был в игре».</p>                                                                                  <p>Отвечая на вопрос о будущем студии и франшизы, Мидзобэ заявил, что Pocketpair хочет сохранить Palworld, но не рассматривает её как игру-сервис. Студия намерена сосредоточиться на «поиске наилучшего способа продолжения Palworld, который будет иметь смысл для игроков», и продолжать «находить интересные способы смешивать разные вещи» — это не только приводит к новым экспериментальным играм, но и может познакомить с Palworld более широкую аудиторию.</p>                                                        <p>Официального анонса порта Palworld на Switch 2 нет. Всё зависит от того, состоятся ли переговоры с Nintendo — и на каких условиях.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1793178804,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1847920302229254",
+          "title": "Palworld × Graveyard Keeper 2 Steam Bundle is Out Now!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302229254",
+          "is_external_url": true,
+          "author": "pocketpair_dev",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/40671762/7b16685a6c7de8cdc3c77001fb9b65fa18e855a6.png\"][/img][/p][p]We're thrilled to announce that the Palworld × Graveyard Keeper 2 Steam Bundle is now officially available![/p][p][/p][p]Whether you'd rather explore a vast world alongside mysterious Pals or restore a town, manage a graveyard, and put the undead to work, there's plenty of adventure waiting for you![/p][p][/p][p]Get both of these unique games together at 10% OFF with the new Steam Bundle![/p][p][/p][p]Already own one of the games? No problem! Thanks to Steam's \"Complete the Set\" bundle feature, you can still pick up the other game at the discounted price.[/p][p][dynamiclink href=\"https://store.steampowered.com/bundle/91050/Palworld_Graveyard_Keeper_2/\"][/dynamiclink][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1793150513,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1623730
+        },
+        {
+          "gid": "1847286114033448",
+          "title": "Глава Pocketpair уточнил, что анонс Palworld Side by Side - это всего лишь обновление 1.1, а не сиквел или спин-офф",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847286114033448",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/Bkmx53y9FRrMKqP1AVuCmQ.png\"/>\n              <br />\n                                                                                <p>На этой неделе Palworld анонсировала «Side by Side». Название и загадочный ключевой арт вызвали у некоторых игроков мысли о полноценном продолжении или ответвлении, поэтому Джон «Баки» Бакли решил внести ясность в Twitter:</p>                                                        <p>«Кстати, Palworld Side by Side — это версия 1.1. Мне казалось, это было довольно очевидно, но, похоже, многие подумали, что это анонс новой игры. В любом случае… это обновление. Для Palworld. Версия 1.1».</p>                                                        <p>Таким образом, ожидания вроде «Palworld 2 с изменением ландшафта и подводными биомами» (как в одном шутливом ответе) не оправдаются.</p>                                                                                  <p>Хотя подробностей пока мало, но  Баки отметил, что разработчики «пока не готовы начинать давать тизеры». При этом он раскрыл одну деталь: «1.1 — это не масштабное обновление», но «мы думаем, что игроки будут им вполне довольны».</p>                                                                                  <p>Точный список изменений не раскрывается. Одно можно исключить: в Side by Side не будет «100 новых друзей». Баки подчеркнул, что Pocketpair «стараются добавлять друзей осмысленным образом». В крупном патче 1.0 несколько месяцев назад появилось 72 новых пала, так что в 1.1, вероятно, не стоит ждать множества новых существ — если они вообще будут.</p>                                                                                  <p>Обновление Palworld Side by Side запланировано на зиму 2026 года.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1792687037,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1846651706695313",
+          "title": "Palworld получит крупное обновление Side by Side этой зимой - Pocketpair также раскрыла любимых Палов игроков",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846651706695313",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/d6OVw_0y7Qmd3p-MjAiiXQ.jpeg\"/>\n              <br />\n                                                                                <p>Pocketpair объявила, что следующее крупное обновление Palworld под названием Side by Side выйдет зимой 2026 года. Разработчики пока не раскрыли подробностей о новом контенте, предложив следить за будущими анонсами.</p>                                                        <p>Одновременно студия подвела итоги глобального опроса о популярности Palworld 2026 года. В голосовании, прошедшем в сентябре, участвовали более 280 Палов и персонажей. По словам разработчиков, в этот раз игроки со всего мира отдали ещё больше голосов, чем во время аналогичного опроса в прошлом году.</p>                                                        <p>Среди Пэлов первое место заняла Секхмет. Серебро досталось Соленн, а третью строчку рейтинга занял Чиллетт. В категории персонажей победила Зои, следом расположились Аури и Сая.</p>                                                        <p>Полные результаты голосования, включая общий рейтинг и отдельные списки по языкам, опубликованы на специальном сайте. Там поклонники могут узнать, какое место заняли их любимцы.</p>                                                        <p>Пока фанатам остаётся ждать подробностей Side by Side: Pocketpair подтвердила лишь примерные сроки выхода обновления, не уточнив, какие именно нововведения оно принесёт. Palworld доступна на ПК, PlayStation 5, Xbox Series X|S и Xbox One.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1792503012,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1846651706695192",
+          "title": "Global Popularity Poll 2026 Results & New Update",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706695192",
+          "is_external_url": true,
+          "author": "pocketpair_dev",
+          "contents": "[p]Pal Tamers![/p][p][/p][p]A huge thank you to everyone around the world who voted in the Palworld Global Popularity Poll 2026 back in September! Thanks to your amazing support, we received even more votes than last year.[/p][p][/p][p]Here are your top 3![/p][p]\\[Pal Category] [/p][p]1st: Sekhmet [/p][p]2nd: Solenne [/p][p]3rd: Chillet[/p][p][/p][p]\\[Character Category] [/p][p]1st: Zoe [/p][p]2nd: Auri [/p][p]3rd: Saya[/p][p][/p][p]Did your favorite Pal or character make the top spots? You can check out the full list of rankings and per-language breakdowns on the website!\n\n👉Global Popularity Poll 2026 Website: [url=\"https://2026.palworld-vote.com/\"]https://2026.palworld-vote.com/[/url][/p][p][img src=\"{STEAM_CLAN_IMAGE}/40671762/8deac9688ae5a66b4a9565c19285a48c888dc662.png\"][/img][/p][p][img src=\"{STEAM_CLAN_IMAGE}/40671762/0a065ca4b5a231157b6ddcc23e248f5707ab2f69.png\"][/img][/p][h2]And that's not all...[/h2][p]We have an exciting announcement! Our next update, \"Palworld: Side by Side,\" is officially coming in Winter 2026![/p][p]Stay tuned for more info coming soon![/p][p][img src=\"{STEAM_CLAN_IMAGE}/40671762/6e60ba3d0c430a2219aa920c9277d3a69fb0c603.png\"][/img][/p][p]Thank you for your continued support of Palworld.[/p][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1792501599,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1623730
+        },
+        {
+          "gid": "1846651706693859",
+          "title": "Разработчики Palworld не хотят добавлять сотни новых Палов ради количества - каждому нужна своя особенность",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846651706693859",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/UdvGxSrq9-ZzuhjHnLfjmA.webp\"/>\n              <br />\n                                                                                <p>Pocketpair не собирается бесконечно расширять список существ в Palworld ради очередных цифр в обновлениях. Разработчики считают, что каждый новый Пал должен чем-то запоминаться игрокам — будь то внешний вид, способности, боевая роль или даже необычная черта характера. Об этом рассказал Джон «Бакки» Бакли, руководитель отдела издательской деятельности и коммуникаций студии, в интервью MP1st.</p>                                                        <p>«Вместо того чтобы говорить: „Нам нужно выпустить 100 новых персонажей в следующем обновлении“, мы стараемся добавлять персонажей с особым смыслом», — объяснил Бакли. По его словам, команда хочет, чтобы у каждого Пала была собственная отличительная особенность, благодаря которой игроки захотят его запомнить.</p>                                                        <p>Это особенно важно для игры, где существа используются не только в сражениях. Их способности, пригодность к работе и другие характеристики влияют на выживание и развитие базы, поэтому добавление новых персонажей затрагивает сразу несколько игровых систем.</p>                                                        <p>Впрочем, чем больше становится список Палов, тем сложнее поддерживать баланс. Бакли отметил, что Pocketpair анализирует игровые данные и отзывы сообщества после каждого пополнения коллекции. Студия продолжает корректировать способности существ и другие механики, чтобы новые добавления не нарушали сложившуюся систему.</p>                                                        <p>В версии 1.0, выход которой состоялся этим лето, разработчики подготовили сразу 72 новых Пала, а также переработали боевую систему и другие элементы игры. Такой масштабный набор контента показывает, что Pocketpair готова существенно расширять Palworld, но не хочет превращать этот процесс в простое накопление персонажей.</p>                                                        <p>Для игроков это означает, что будущие обновления могут делать ставку не столько на количество новых существ, сколько на их разнообразие и полезность. А поклонникам необычных Палов остаётся надеяться, что среди будущих новинок найдётся место и для более причудливых дизайнов.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1792476395,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1846651706673296",
+          "title": "Авторы Palworld рассказали, почему не превратили успешный мир с \"покемонами\" в новый Fortnite",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846651706673296",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/5hDbU_A_GSfggunI739JOw.png\"/>\n              <br />\n                                                      <p>В Pocketpair объяснили, почему решила развивать вселенную Palworld через выпуск самостоятельных спин-оффов вместо создания единой метавселенной по примеру Fortnite. В интервью изданию MP1st руководитель компании Джон Бакли заявил, что разработчики ставят во главу угла творческую свободу, а не попытку выжать из аудитории максимум прибыли.</p>                                                                                  <p>После глобального успеха оригинального выживача авторы анонсировали сразу несколько ответвлений, среди которых симулятор фермы Palworld: Palfarm и визуальная новелла Pal♡world! ~More Than Just Pals. Журналисты поинтересовались, почему Pocketpair не пошла по пути Epic Games, которая превратила свой королевский боевик в единую платформу, интегрировав прямо внутрь клиента песочницу LEGO, гонки Rocket Racing и музыкальный фестиваль. По словам Бакли, попытка упаковать все сторонние идеи в одну игру разрушила бы баланс:</p>                                                        <p>Я прекрасно понимаю, почему люди могли ожидать от нас шагов в сторону метавселенной, но для нас важно делать веселые игры по-своему. Возможно, это звучит немного банально, но максимизация выручки любой ценой — это не то, что определяет наши творческие решения.Мы уверены, что отдельным идеям куда лучше живется в виде самостоятельных игр, где механики, баланс и темп прогрессии с нуля выстроены вокруг конкретной концепции. Palfarm — отличный пример. Вместо того чтобы запихивать фермерство в Palworld в виде очередного режима, мы выпускаем отдельную игру, которая получает собственное лицо и свободу развития.</p>                                                        <p>Представитель студии добавил, что не считает стратегию авторов Fortnite ошибочной. По его словам, разным интеллектуальным собственностям подходят разные бизнес-модели, и прямое копирование чужого опыта не всегда идет на пользу бренду.</p>                                                                                  <p>Бакли подчеркнул, что разработка спин-оффов не отвлекает ресурсы от основной Palworld: флагманский проект по-прежнему остается главным приоритетом Pocketpair, а сопутствующие релизы лишь предлагают поклонникам взглянуть на знакомых палов в совершенно новых игровых жанрах.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1791958213,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1844751498230596",
+          "title": "Palworld неожиданно для самих создателей стала самым высоко оценённым релизом 2026 года в Steam",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1844751498230596",
+          "is_external_url": true,
+          "author": "",
+          "contents": "<img src=\"https://i.playground.ru/e/ODcS2jTPJqxe43UqYs-hvQ.jpeg\"/>\n              <br />\n                                                                                <p>Palworld неожиданно для самой Pocketpair стала самым высоко оценённым релизом 2026 года в Steam по данным Steam250. Руководитель издательского направления и коммуникаций компании Джон «Бакки» Бакли назвал этот результат «ничем иным, как чудом», отдельно поблагодарив игроков за реакцию на версию 1.0.</p>                                                        <p>После выхода масштабного обновления Palworld продолжила удерживать высокие позиции по популярности в Steam. При этом Steam250 сейчас ставит игру выше других релизов 2026 года по пользовательским оценкам, включая Valheim.</p>                                                        <p>Бакли отметил, что реакция игроков на полноценный релиз оказалась для Pocketpair особенно сильной. Представитель компании также напомнил о критике, с которой Palworld сталкивалась на протяжении разработки, заявив, что несмотря на продолжающиеся споры вокруг проекта, показатели продаж и отзывы пользователей говорят сами за себя.</p>                                                        <p>Отдельно Бакли с иронией предположил, что Palworld может остаться без номинаций на игровых премиях. По его словам, Pocketpair не собирается из-за этого менять свой подход и продолжит сосредотачиваться на создании игр, хотя лично он был бы разочарован отсутствием признания.</p>                                                        <p>Успех Palworld особенно примечателен тем, что игра долгое время находилась в раннем доступе и лишь недавно получила версию 1.0. Теперь проект не только сохраняет значительную аудиторию, но и показывает крайне высокие оценки пользователей Steam. При этом вопрос о том, получит ли Palworld награды и номинации в 2026 году, пока остаётся открытым.</p>",
+          "feedlabel": "PlayGround.ru - официальная группа",
+          "date": 1790573895,
+          "feedname": "PlayGround.ru - официальная группа",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1844751498224251",
+          "title": "Palworld × RuneScape: Dragonwilds Steam Bundle is Out Now!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498224251",
+          "is_external_url": true,
+          "author": "pocketpair_dev",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/40671762/d00e6f732b618399d7a4738802b4ffe65b3a56ba.png\"][/img]We are thrilled to announce that the Palworld × RuneScape: Dragonwilds Steam Bundle is now officially available![/p][p]You can now grab both of these unique open-world survival craft games at a [b]10% OFF[/b] discount![/p][p]If you already own Palworld, you can still use this bundle to purchase RuneScape: Dragonwilds at the discounted price![/p][p][dynamiclink href=\"https://store.steampowered.com/bundle/87762/Palworld__RuneScape_Dragonwilds/\"][/dynamiclink][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1790336478,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1623730,
+          "tags": [
+            "mod_reviewed",
+            "ModAct_871423085_1790342405_0",
+            "ModAct_871423085_1790342437_2_20",
+            "mod_require_rereview"
+          ]
+        },
+        {
+          "gid": "1843481262703464",
+          "title": "v1.0.5: Bug fixes",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262703464",
+          "is_external_url": true,
+          "author": "pocketpair_dev",
+          "contents": "[p]▼Bug Fixes[/p][p]・Fixed an issue where terrain, building, and other textures could load at significantly reduced resolution for some players[/p][p]・Fixed an issue where some map icon filters could unintentionally be turned off after the player respawned[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1789441427,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1623730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1843481262693002",
+          "title": "Palworld publishing chief worries early access has 'lost its meaning' as the rise of 'hyper-casual' gaming culture means people often don't understand what they're getting into",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1843481262693002",
+          "is_external_url": true,
+          "author": "Andy Chalk",
+          "contents": "<img src=\"https://cdn.mos.cms.futurecdn.net/bNP4EUfLJbdaWgX7N2NvUQ-1280-80.jpg\"/><br><br>\n                Early access on Steam is a simple concept. You buy a game before it's finished, provide bug reports and feedback to developers, and help shape a project's direction and ambitions. Everybody wins: You get to play the game early, and developers earn money that helps them continue and finish their work. It's been a boon for numerous notable games over the years, including <a href=\"https://www.pcgamer.com/baldur-s-gate-3/\" target=\"_blank\">Baldur's Gate 3</a> and <a href=\"https://www.pcgamer.com/palworld/\" target=\"_blank\">Palworld</a>...\n                <a href=\"https://www.pcgamer.com/gaming-industry/game-development/palworld-publishing-chief-worries-early-access-has-lost-its-meaning-as-the-rise-of-hyper-casual-gaming-culture-means-people-often-dont-understand-what-theyre-getting-into/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+          "feedlabel": "PC Gamer",
+          "date": 1789060979,
+          "feedname": "PC Gamer",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1842846814452062",
+          "title": "v1.0.4: Balance Adjustments & Bug Fixes",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814452062",
+          "is_external_url": true,
+          "author": "pocketpair_dev",
+          "contents": "[p]Palworld version v1.0.4 has been released!\n\n＝＝＝\n\n▼New Missions\n・Added the sub-missions “Beyond Dimensions” and “From the Far Side of the Moon.”\n“Beyond Dimensions” can be accepted from an NPC at Fisherman’s Point in Mount Obsidian.\n“From the Far Side of the Moon” can be progressed after clearing “Beyond Dimensions.”\n\n▼Pals and Skills\n・Adjusted summoned Pals and Base Pals to prioritize skills expected to deal higher damage\n・Adjusted behavior when Base Pals use charging-type skills\n・Mission target Pals and NPCs will no longer fall asleep\n・Adjusted Lapure’s swimming speed\n・Adjusted the homing enhancement value from Lunaris Effigies\n・Changed the Work Suitability level required to gather Ancient Bark to Lv. 1\n\n▼Battle\n・Changed the minimum use distance of “Power Bomb” to make repeated unnatural backsteps before use less likely\n・Adjusted backstep behavior for summoned Pals when using some skills\n・Adjusted the damage of Core Eject for the Core Eject Shotgun\n\n▼Fishing\n・Adjusted fishing difficulty for fishing spots in Sunreach and the World Tree area\n・Adjusted the amount of items obtained from successful fishing for each type of bait\n・Added and adjusted control guides, warning displays, and recommended equipment displays while fishing\n・Added “Fish Behavior During Fishing Minigames” to World Settings\n\n▼Items and Rewards\n・The Echoing Flute can now be dropped from the inventory\n・Changed the Pal required by the Pal Critic in Sakurajima from Selyne to Dogen\n・Changed the Pal required by the Pal Critic in Sunreach from Bastigor to Faleris Aqua\n\n▼Bases and Building\n・When canceling work at production facilities, returned materials now go back to the inventory\n・When canceling construction or dismantling a building, if the “Do not automatically pick up items over the weight limit” option is enabled, only returned materials exceeding the weight limit will be dropped at the player’s feet\n・When building restrictions are enabled in the server settings, added areas where building is not allowed around the Field Boss Suzaku in the desert, the desert Main Mission cave, and some mission locations in Sakurajima\n・Adjusted the collision of the Ancient Material Synthesizer\n・Changed the specification so that players, summoned Pals, and Base Pals no longer catch fire when coming into contact with player-built Campfires\n・Added a server setting for administrators to set a per-player limit on the number of buildings that can be built in the world\n\n▼Field and Exploration\n・Adjusted terrain and water display in Sunreach, the World Tree area, and other locations\n・Adjusted the position and behavior of updrafts\n・Adjusted the positions of NPCs, field objects, and Pal spawns\n\n▼Sound\n・Added and adjusted effects and sound effects for Oil Rig and elemental treasure chests\n・Added and adjusted sound effects for item pickup, item use, crafting completion, and more\n・Added and adjusted sounds for some Pals, NPCs, and field effects\n\n▼UI and Controls\n・Added name search to the Palpedia\n・Added explanations for Work Suitability details to the Pal status UI and Palpedia UI\n・Added passive effect and item description displays to Bounty Token acquisition notifications\n・Added support for opening chat from the Radial Menu on PS5\n・Changed the default FPS cap to 120 on PC\n・Version mismatch errors now show the version of the connection target\n\n▼Performance and Stability Improvements\n・Reduced load from some rendering processes, foliage display, and effect playback\n・Reduced stuttering when some passive skills activate\n・Reduced field rendering load in the World Tree area and other locations\n\n▼Major Bug Fixes▼\n\n▼Crashes and Progression Issues\n・Fixed an issue where controls could stop working after being returned to the title screen due to a connection error during loading\n・Fixed an issue where a Pal could no longer be summoned again if it was recalled immediately after being summoned\n・Fixed a crash that could occur when specific actions were performed while NPC dialogue and riding overlapped\n・Fixed a crash that could occur during the animation after a fishing spot disappeared\n・Fixed a crash that could occur when trying to display a long mission description\n・Fixed a server crash that could occur when sorting Pals\n・Fixed an issue where controls could stop working when switching maps while setting a custom marker on the map\n\n▼Multiplayer and Servers\n・Fixed an issue in Co-op where joining players might not correctly join the host’s guild\n・Fixed an issue in Co-op where the host’s mission could progress when a client entered a mission progression area\n・Fixed an issue on Dedicated Servers where the crafting display could remain on screen\n・Fixed an issue where Voice Chat settings might not be applied correctly\n・Fixed an issue in the Arena where the opponent’s Pal could not be targeted\n\n▼Missions and Progression\n・Fixed an issue where the World Tree Guardian would not appear later in the Main Mission if Panthalus was defeated before progressing the Main Mission\n・Fixed an issue in the Main Mission “Crafting an Axe and a Pickaxe” where the objective would not progress if the player already owned or had equipped an axe or pickaxe before accepting the mission\n・Fixed an issue where performing specific actions after ending dialogue with an NPC could prevent further dialogue\n\n▼Pals and NPCs\n・Fixed an issue where logging work would not occur for trees that respawned inside a base\n・Fixed an issue where Visitors could spawn in unreachable locations\n・Fixed an issue where dialogue would no longer occur if an NPC inside a base entered combat during dialogue\n\n▼Partner Skills and Passive Skills\n・Fixed an issue where Killamari Primo’s Partner Skill Lv. 2 and Lv. 3 effects were reversed\n・Fixed an issue where Mutated Eggs increased by Grintale’s Passive Skill did not reflect mutated stat values\n・Fixed an issue where the Idiosyncratic mutation passive did not activate correctly\n・Fixed an issue where the defense bonus from the Lucky passive was not activating\n・Fixed an issue where the Passive Skill “Mercy Hit” was not correctly applied to attacks by Pals while riding\n\n▼Battle and Skills\n・Fixed an issue where warning indicators could fail to appear during certain attacks in the World Tree boss battle\n・Fixed an issue where removing a skill while it was being used could prevent that skill from being used afterward\n・Fixed an issue where some attacks used by summoned Pals while other skills were on cooldown could also put unused skills on cooldown\n・Fixed an issue that could occur when interrupting Ophydia’s exclusive skill “Lotus Bloom”\n・Fixed an issue where Pals revived in the Arena would not continue fighting\n・Fixed an issue in some Raid Boss battles where the boss could fail to temporarily stop moving after taking a certain amount of damage, or fail to summon smaller Pals correctly\n・Fixed an issue where aiming while riding could make movement speed extremely slow\n・Fixed an issue where wild Pals could use some skills through walls or in other situations where they could not see the player\n\n▼Items and Shops\n・Fixed an issue where selling multiple items at a shop could calculate the sale amount incorrectly\n・Fixed an issue where item counts could fail to update correctly under certain conditions when moving items\n・Fixed an issue where Radiant Gems dropped by wild Pals in the World Tree area could have mismatched or overly biased elements\n\n▼Bases and Building\n・Fixed an issue where color picking and editing could fail to work correctly in Paint Mode\n・Fixed an issue where diagonally connecting corner roofs could result in unnatural placement\n・Fixed an issue where stairs placed on the side of a corner roof could face an unnatural direction\n・Fixed an issue where Worker Pal assignments might not be correctly reflected in Base Facilities\n・Fixed an issue where chest access permissions were not correctly applied to material reference and consumption when crafting at a base\n・Fixed an issue where the work speed multiplier would not be correctly applied after resuming the game with the Ancient Material Synthesizer\n\n▼UI, Display, and Text\n・Fixed an issue on the World Select screen where the displayed multiplayer setting could differ from the actual setting\n・Fixed an issue where some key icons could appear as Xbox controller icons when using a PS5 controller on PC\n・Fixed an issue where operating the chat UI with a gamepad could unintentionally close chat\n・Fixed an issue where hold input did not work correctly for Pal Soul enhancement\n・Fixed an issue where the HUD ammo count could remain at 0 after reloading a regular weapon\n\n▼Field and Map\n・If the map around an unlocked Watchtower remains unexplored, accessing the same Watchtower again will now unlock the map\n・Fixed an issue where temperature might not be applied correctly on Bicornis Islet\n・Fixed an issue where items dropped from gathering objects in the field could become buried in the ground\n\n▼Fishing\n・Fixed an issue where the fishing reward display could show the same type of item in multiple slots\n\n▼Sound\n・Fixed an issue where the Attack Chopper’s propeller sound could continue playing\n・Fixed an issue where BGM could unintentionally play on the loading screen after the World Tree boss battle\n・Fixed an issue where Base Raid BGM or battle BGM could unintentionally play during cutscenes\n\n▼Mods\n・Fixed an issue on Steam where Mod files could not be deleted correctly\n\n▼Other Minor Bug Fixes▼\n\n・Fixed translations for guild join, leave, login, and logout notifications\n・Fixed an issue where a marker could remain after completing Main Mission “Awakening”\n・Fixed an issue where the mission marker was not displayed for Sub Mission “Collecting Pure Quartz”\n・Fixed the marker position for No. 1 Wildlife Sanctuary in Zoe’s sub-mission\n・Fixed an issue where mission NPCs could remain standing upright after death\n・Fixed an issue where NPC animations could switch unnaturally during the ending\n・Fixed an issue where Panthalus’s body collision did not match its appearance\n・Fixed an issue where “Mercy Hit” could be displayed even when its conditions were not met\n・Fixed an issue where Paladius’s Partner Skill could summon an Alpha Necromus from the player’s party at normal size\n・Fixed an issue where the collision of Logging Site II could remain during building preview\n・Fixed a Palbox UI misalignment that could occur when Base Pal slots were displayed in four rows\n・Fixed an issue where building name text could overlap with the power icon\n・Fixed the direction of the arrow indicating the front side of the Clinic\n・Fixed an issue where the guild master transfer dialog text would not be displayed correctly based on the situation\n・Fixed an issue where an unnecessary key guide could appear on the Pal Effigies enhancement screen\n・Fixed the turning guide icon for the Wing Pack\n・Fixed an issue where a black square could appear at the edge of the map filter UI\n・Fixed an issue where the Field Boss icon for Prixter Lux was not displayed correctly\n・Fixed an issue where unintended Pals could be caught at some fishing spots in volcanic areas\n・Fixed an issue on Dedicated Servers where attacking a sleeping Galeclaw could cause it to fall through the ground\n・Fixed an issue where unintended BGM would play when starting dialogue with a Black Marketeer\n\n＝＝＝\n\nThank you for your continued support of Palworld.\n[/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1788750285,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1623730,
+          "tags": [
+            "patchnotes"
+          ]
+        },
+        {
+          "gid": "1842212951313335",
+          "title": "Palworld Global Popularity Poll 2026 is LIVE!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951313335",
+          "is_external_url": true,
+          "author": "pocketpair_dev",
+          "contents": "[p][img src=\"{STEAM_CLAN_IMAGE}/40671762/142b22c0d4f3e9a4a735e6fe6ab36750d35d2599.png\"][/img][/p][p]Pal Tamers！[/p][p]The time has come to decide who stands at the top of the Palpagos Islands. Voting for the [b]Palworld Global Popularity Poll 2026[/b] is officially open![/p][p]With the launch of version 1.0, our roster has expanded to [b]over 280+ Pals, [/b]and every single one of them (plus some in-game human characters) is on the ballot! Whether you’ve been attached to Lamball since day one or fell in love with a newcomer in v1.0, it's time to support your Pals![/p][p][b]Cast Your Vote:[/b][/p][p] [url=\"https://2026.palworld-vote.com/\"]https://2026.palworld-vote.com/[/url][/p][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1788267638,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1623730
+        },
+        {
+          "gid": "1841579228666180",
+          "title": "Palworld and No Man's Sky are intensifying their months-long flirtation, and if those two don't just kiss already, I'm going to lose my mind",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1841579228666180",
+          "is_external_url": true,
+          "author": "Lincoln Carpenter",
+          "contents": "<img src=\"https://cdn.mos.cms.futurecdn.net/WcPbmC27ysL8xi4Gam6Kcf-1280-80.jpg\"/><br><br>\n                Last week, Pocketpair head of publishing and communications John \"Bucky\" Buckley addressed a bubbling conversation about <a href=\"https://www.pcgamer.com/games/survival-crafting/palworld-fans-do-not-realize-the-sheer-number-of-collabs-weve-rejected-even-with-the-survival-games-fun-first-approach/\" target=\"_blank\">the developer's Palworld collaboration strategy</a>, informing players that they \"simply do not realize the sheer number of collabs we’ve rejected or scrapped\" over a perceived mismatch...\n                <a href=\"https://www.pcgamer.com/games/survival-crafting/palworld-and-no-mans-sky-are-intensifying-their-months-long-flirtation-and-if-those-two-dont-just-kiss-already-im-going-to-lose-my-mind/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+          "feedlabel": "PC Gamer",
+          "date": 1787243387,
+          "feedname": "PC Gamer",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1840944183789606",
+          "title": "How to get Chromite in Palworld",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1840944183789606",
+          "is_external_url": true,
+          "author": "Andrea Shearon",
+          "contents": "<img src=\"https://cdn.mos.cms.futurecdn.net/saGivmkiJMoSaffvHPYVCG-1280-80.jpg\"/><br><br>\n                Chromite isn't actually rare in <a href=\"https://www.pcgamer.com/palworld/\">Palworld</a>, but you've got to have a specific tool (or pal) to mine it, which is different from most other resources. To save you from the guesswork, I'll show you how to use a metal detector to get Chromite initially and also a passive farming solution for bigger hauls so you're set up to make your first batch of Hexolite when you're ready...\n                <a href=\"https://www.pcgamer.com/games/survival-crafting/palworld-chromite/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+          "feedlabel": "PC Gamer",
+          "date": 1787076883,
+          "feedname": "PC Gamer",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1840944183780705",
+          "title": "Pocketpair 'not planning to spend a year making a massive update' for Palworld 1.1",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1840944183780705",
+          "is_external_url": true,
+          "author": "Andy Chalk",
+          "contents": "<img src=\"https://cdn.mos.cms.futurecdn.net/d6wJDVDpYZ8Sjdq9tfTh79-1280-80.jpg\"/><br><br>\n                <a href=\"https://www.pcgamer.com/palworld/\" target=\"_blank\">Palworld</a> went into full release in July after more than two years of early access, and it's going pretty well: A massive surge in concurrent players on Steam is slowly settling back down to Earth, but more than a month after that 1.0 launch it's still putting up numbers that haven't been seen since the early days of that early access rollout...\n                <a href=\"https://www.pcgamer.com/games/survival-crafting/pocketpair-not-planning-to-spend-a-year-making-a-massive-update-for-palworld-1-1/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+          "feedlabel": "PC Gamer",
+          "date": 1786738111,
+          "feedname": "PC Gamer",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1840944183779702",
+          "title": "Palworld fans 'do not realize the sheer number of collabs we've rejected' even with the survival game's 'fun-first approach'",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1840944183779702",
+          "is_external_url": true,
+          "author": "Elie Gould",
+          "contents": "<img src=\"https://cdn.mos.cms.futurecdn.net/Ww6x8QxV7CpfTFKfzCksed-1280-80.jpg\"/><br><br>\n                The crowning achievement of a game is no longer player count or Metacritic score, it's actually the number of collabs it can squeeze into its lifecycle—soon every game will collab with each other to make one giant game. I can see it coming...\n                <a href=\"https://www.pcgamer.com/games/survival-crafting/palworld-fans-do-not-realize-the-sheer-number-of-collabs-weve-rejected-even-with-the-survival-games-fun-first-approach/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+          "feedlabel": "PC Gamer",
+          "date": 1786715247,
+          "feedname": "PC Gamer",
+          "feed_type": 0,
+          "appid": 1623730
+        },
+        {
+          "gid": "1840944183772872",
+          "title": "v1.0.3: Balance Adjustments & Bug Fixes",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183772872",
+          "is_external_url": true,
+          "author": "pocketpair_dev",
+          "contents": "[p]\\[Patch Notice][/p][p]Palworld version v1.0.3 has been released![/p][p][/p][p]\n＝＝＝[/p][p][/p][h3]\\[Game Balance and System Adjustments][/h3][p][/p][p]▼Items and Equipment\n・Changed the unlock level of some Jetragon-related technologies from 79 to 70, and reduced the materials required for the Pal Gear used to ride Jetragon.[/p][p]・Changed the technology unlock level of the Aquatic Construction Kit from Level 66 to Level 23, changed its Ancient Technology Point requirement from 4 to 1, and adjusted the required materials and work amount.[/p][p]・Extended the duration of World Tree Holy Water.[/p][p]・Reduced the weight of World Tree Holy Water from 1 to 0.1.[/p][p]・Added World Tree Holy Water to the rewards for World Tree expeditions, World Tree fishing, and the Large Fishing Pond.[/p][p]・Increased the amount of World Tree Holy Water obtained from Pals in The World Tree area.[/p][p]・Increased the amount of World Tree Holy Water obtained from Teafant Spring.[/p][p]・Adjusted the work amount required to craft the Ancient Armor series.[/p][p]・Doubled the amount of Fiber obtained from trees.[/p][p][/p][p]▼Bases and Missions[/p][p]・Reduced the building costs of the Crude Oil Extractor, High-Pressure Crude Oil Extractor, and Large Power Generator.[/p][p]・Increased the crude oil production speed of the Crude Oil Extractor and High-Pressure Crude Oil Extractor.[/p][p]・The base mission that requires building a Crude Oil Extractor can now also be progressed by building a High-Pressure Crude Oil Extractor.[/p][p][/p][p]▼Server Settings[/p][p]・Added a server setting (bAllowEnemyCampSpawnNearBaseCamp) that disables the suppression of enemy camp spawns near player base camps.[/p][p][/p][h3]\\[Visual and Sound Improvements][/h3][p][/p][p]▼Graphics and Display[/p][p]・Adjusted the boundary display in some areas to make it easier to see from a distance.[/p][p]・Improved the display quality of some objects in dungeons.[/p][p][/p][p]▼Sound[/p][p]・Added a sound effect when using World Tree Holy Water.[/p][p][/p][h3]\\[Major Bug Fixes][/h3][p][/p][p]▼Crashes and Progression Blockers[/p][p]・Fixed an issue where the mission could become impossible to progress if the barrier was removed before accepting the main mission in Sunreach.[/p][p][/p][p]▼Multiplayer and Co-op[/p][p]・Fixed an issue in co-op where lighting on the client side could display incorrectly after cutscenes or the ending played.[/p][p]・Fixed an issue in co-op where some scenes could stutter during the cutscene that plays when entering The World Tree.[/p][p]・Fixed an issue on dedicated servers where Fast Travel could activate unintentionally during Tower Boss battles.[/p][p]・Fixed an issue on dedicated servers where Pals could appear to vibrate rapidly on the client screen.[/p][p][/p][p]▼Pals and NPCs[/p][p]・Fixed an issue where the summoned Pal could stop fighting.[/p][p]・Fixed an issue where the summoned Pal could stop helping with base work.[/p][p]・Fixed an issue in multiplayer where, when the Partner Skill of Orserk or certain other Pals activated, the effect display could fail to update correctly, making it appear as though the skill had not activated.[/p][p]・Fixed an issue where Alpha Surfent would not produce Leather when assigned to a Ranch.[/p][p][/p][p]▼Battles and Bosses[/p][p]・Fixed an issue where some raid boss battles could fail to progress as intended.[/p][p]・Fixed an issue where the wave effect and actual damage range did not match for some of Panthalus's attacks.[/p][p][/p][p]▼Bases and Building[/p][p]・Fixed an issue where the placement detection for stairs and slanted roofs could fail to match their actual shape.[/p][p]・Fixed an issue where stairs could not be placed correctly on the sides of foundations or roofs.[/p][p][/p][p]▼Items and Rewards[/p][p]・Fixed an issue where the reward settings for the normal Moon Lord battle and the Ultra Raid Boss battle had not been updated to the intended settings.[/p][p]・Fixed an issue where items could duplicate when performing certain actions.[/p][p]・Fixed an issue where, when Katress's Partner Skill activated, switching spheres while riding could allow the player to obtain a different type of sphere.[/p][p]・Fixed an issue where the World Tree Holy Water effect did not display correctly on the Pal being ridden when using World Tree Holy Water while riding.[/p][p]・Fixed an issue where, after the World Tree Holy Water effect ended, riding a Pal would cause the World Tree Holy Water aura to reappear and not disappear when approaching trees in The World Tree area.[/p][p]・Fixed an issue where an unintended reward was set for the desert expedition.[/p][p]・Fixed an issue where the Dark Skill Fruit: Psycho Gravity did not appear on the item search screen.[/p][p]・Fixed a bug where the firing interval was not set for sphere launchers[/p][p][/p][p]▼UI, Display, and Text[/p][p]・Fixed an issue where resolution settings would not apply correctly in fullscreen mode.[/p][p]・Fixed an issue where, after switching window mode with F11 / Alt+Enter, the game could unintentionally return to fullscreen mode after loading.[/p][p]・Fixed an issue where, if certain effects were on screen while aiming, the entire screen could become blurred.[/p][p][/p][p]▼Sound[/p][p]・Fixed an issue where the water sound effect could fail to play at Teafant Spring.[/p][p]・Fixed an issue on dedicated servers where the BGM for Attack Choppers triggered by other players could play even from far away.[/p][p]・Adjusted the BGM playback range for Attack Choppers so that it plays correctly for players who are Wanted.[/p][p]・Fixed an issue where unintended footstep sounds could play when walking on furniture or facilities.[/p][p][/p][p]▼Controls[/p][p]・Fixed an issue where, after changing the key assignment for \"\"Attack that enemy!\"\" in Controls, selecting \"\"Restore to Default\"\" would not restore the default setting.[/p][p]・Fixed an issue where settings could be applied unintentionally when interacting with the change confirmation dialog and duplicate key warning in Controls.[/p][p][/p][p]▼Map and Exploration[/p][p]・Fixed an issue where a beach-like display could remain on the water surface after Fast Traveling to an offshore base.[/p][p][/p][p][/p][p]＝＝＝[/p][p][/p][p][/p][p]Thank you for your continued support of Palworld.[/p][p][/p]",
+          "feedlabel": "Community Announcements",
+          "date": 1786504403,
+          "feedname": "steam_community_announcements",
+          "feed_type": 1,
+          "appid": 1623730,
+          "tags": [
+            "patchnotes"
+          ]
+        }
+      ],
+      "count": 472
+    }
+  }
+}

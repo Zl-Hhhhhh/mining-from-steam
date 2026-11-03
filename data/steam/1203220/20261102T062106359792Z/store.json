@@ -1,0 +1,840 @@
+{
+  "fetched_at": "2026-11-02T06:21:09.501712+00:00",
+  "endpoint": "https://store.steampowered.com/api/appdetails",
+  "data": {
+    "1203220": {
+      "success": true,
+      "data": {
+        "type": "game",
+        "name": "NARAKA: BLADEPOINT",
+        "steam_appid": 1203220,
+        "required_age": 0,
+        "is_free": true,
+        "dlc": [
+          2731960,
+          2731970,
+          2731980,
+          2732000
+        ],
+        "detailed_description": "<h1>FREE TO PLAY NOW</h1><p><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/f41e20ded9116831611e25250427f12b.avif?t=1792651021\" width=616 height=1500 /></span></p><br><h1>About the Game</h1><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/d9499b0aa0cbc69443d80dcf93dc6c71.avif?t=1792651021\" width=610 height=274 /></span><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/1dbfd72c6aa419602b39a213f5726212.poster.avif?t=1792651021\" width=615 height=234 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/1dbfd72c6aa419602b39a213f5726212.webm?t=1792651021\" type=\"video/webm; codecs=vp9\"></video></span><br><br>Dynamic, fast-paced and ever shifting; battle your enemies with punishing combos, parries and grit or outsmart them using lethal counters in an intense mind game.<br><br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/2e67a0409db52ffe6d070c7b9935ee81.avif?t=1792651021\" width=610 height=220 /></span><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/61248a032dc348484ff003910f7e2486.poster.avif?t=1792651021\" width=615 height=234 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/61248a032dc348484ff003910f7e2486.webm?t=1792651021\" type=\"video/webm; codecs=vp9\"></video></span><br><br>Wall run, swoop down, and zip across mountains and buildings with ease as you hunt down unsuspecting foes using your grappling hook and parkour skills. <br><br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/7fbcae4a8d49a2d5d18c5e88efef97fe.avif?t=1792651021\" width=611 height=235 /></span><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/208d8dfe65697ee24e89a3bcd424873b.poster.avif?t=1792651021\" width=615 height=234 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/208d8dfe65697ee24e89a3bcd424873b.webm?t=1792651021\" type=\"video/webm; codecs=vp9\"></video></span><br><br>Combine a variety of melee and ranged weapons with our cast of powerful heroes, each with customized skills and unique Ultimate moves.<br><br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/5ab8abaf81ce1b4452ab85e671d67849.avif?t=1792651021\" width=611 height=227 /></span><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/e67cc01b8bd6aa8dcf160f152f175029.poster.avif?t=1792651021\" width=615 height=234 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/e67cc01b8bd6aa8dcf160f152f175029.webm?t=1792651021\" type=\"video/webm; codecs=vp9\"></video></span><br><br>Travel to the magnificent but dangerous land of Morus and Holoroth, where great battles have shaped a beautiful landscape inspired by Far Eastern legends.",
+        "about_the_game": "<span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/d9499b0aa0cbc69443d80dcf93dc6c71.avif?t=1792651021\" width=610 height=274 /></span><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/1dbfd72c6aa419602b39a213f5726212.poster.avif?t=1792651021\" width=615 height=234 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/1dbfd72c6aa419602b39a213f5726212.webm?t=1792651021\" type=\"video/webm; codecs=vp9\"></video></span><br><br>Dynamic, fast-paced and ever shifting; battle your enemies with punishing combos, parries and grit or outsmart them using lethal counters in an intense mind game.<br><br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/2e67a0409db52ffe6d070c7b9935ee81.avif?t=1792651021\" width=610 height=220 /></span><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/61248a032dc348484ff003910f7e2486.poster.avif?t=1792651021\" width=615 height=234 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/61248a032dc348484ff003910f7e2486.webm?t=1792651021\" type=\"video/webm; codecs=vp9\"></video></span><br><br>Wall run, swoop down, and zip across mountains and buildings with ease as you hunt down unsuspecting foes using your grappling hook and parkour skills. <br><br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/7fbcae4a8d49a2d5d18c5e88efef97fe.avif?t=1792651021\" width=611 height=235 /></span><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/208d8dfe65697ee24e89a3bcd424873b.poster.avif?t=1792651021\" width=615 height=234 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/208d8dfe65697ee24e89a3bcd424873b.webm?t=1792651021\" type=\"video/webm; codecs=vp9\"></video></span><br><br>Combine a variety of melee and ranged weapons with our cast of powerful heroes, each with customized skills and unique Ultimate moves.<br><br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/5ab8abaf81ce1b4452ab85e671d67849.avif?t=1792651021\" width=611 height=227 /></span><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/e67cc01b8bd6aa8dcf160f152f175029.poster.avif?t=1792651021\" width=615 height=234 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/extras/e67cc01b8bd6aa8dcf160f152f175029.webm?t=1792651021\" type=\"video/webm; codecs=vp9\"></video></span><br><br>Travel to the magnificent but dangerous land of Morus and Holoroth, where great battles have shaped a beautiful landscape inspired by Far Eastern legends.",
+        "short_description": "Dive into the legends of the Far East in NARAKA: BLADEPOINT; team up with friends in fast-paced melee fights for a Battle Royale experience unlike any other. Find your playstyle with a varied cast of heroes with unique skills. More than 40 million players have already joined the fray, play free now!",
+        "supported_languages": "English<strong>*</strong>, Simplified Chinese<strong>*</strong>, Traditional Chinese<strong>*</strong>, Japanese<strong>*</strong>, Korean<strong>*</strong>, French, German, Spanish - Spain, Russian, Turkish, Portuguese - Portugal, Vietnamese, Thai<br><strong>*</strong>languages with full audio support",
+        "reviews": "“Naraka Bladepoint is proof that the last-fighter-standing formula still has loads of unexplored potential.”<br>8/10 – IGN<br><br>“24 Entertainment has done a brilliant job making melee combat engaging, tactical, and rewarding to master.”<br>8/10 – PC INVASION<br><br>“NARAKA BLADEPOINT remains a wonderful, fast-paced, and addicting experience.”<br>8/10 – SCREEN RANT<br>",
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/2c626fe471202399b2fe31cf25b05e5e88289a89/header.jpg?t=1792651021",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/277a2795580719890337ed04366a18cacfdc7944/capsule_231x87.jpg?t=1792651021",
+        "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/277a2795580719890337ed04366a18cacfdc7944/capsule_184x69.jpg?t=1792651021",
+        "website": "https://www.narakathegame.com",
+        "pc_requirements": {
+          "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 64-bit or newer<br></li><li><strong>Processor:</strong> Intel i5 4th generation or AMD FX 6300 or equivalent<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 750TI, Intel Arc A380, AMD HD 6950 or equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 90 GB available space<br></li><li><strong>Additional Notes:</strong> a) Can run at 720p/60fps; b) We advise you install the game on an SSD for a more streamlined experience. c) Requires “Windows Memory integrity and VBS enablement” to be disabled</li></ul>",
+          "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 64-bit<br></li><li><strong>Processor:</strong> Intel i7 7th generation or equivalent<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060 6G, Intel Arc A750, AMD RX480 or equivalent<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 90 GB available space<br></li><li><strong>Additional Notes:</strong> a) Can run at 1080p/60fps; b) We advise you install the game on an SSD for a more streamlined experience. c) Requires “Windows Memory integrity and VBS enablement” to be disabled</li></ul>"
+        },
+        "mac_requirements": [],
+        "linux_requirements": [],
+        "developers": [
+          "24 Entertainment"
+        ],
+        "publishers": [
+          "NetEase Games "
+        ],
+        "package_groups": [],
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "categories": [
+          {
+            "id": 1,
+            "description": "Multi-player"
+          },
+          {
+            "id": 49,
+            "description": "PvP"
+          },
+          {
+            "id": 36,
+            "description": "Online PvP"
+          },
+          {
+            "id": 22,
+            "description": "Steam Achievements"
+          },
+          {
+            "id": 29,
+            "description": "Steam Trading Cards"
+          },
+          {
+            "id": 35,
+            "description": "In-App Purchases"
+          },
+          {
+            "id": 18,
+            "description": "Partial Controller Support"
+          },
+          {
+            "id": 61,
+            "description": "HDR available"
+          }
+        ],
+        "genres": [
+          {
+            "id": "1",
+            "description": "Action"
+          },
+          {
+            "id": "25",
+            "description": "Adventure"
+          },
+          {
+            "id": "29",
+            "description": "Massively Multiplayer"
+          },
+          {
+            "id": "37",
+            "description": "Free To Play"
+          }
+        ],
+        "screenshots": [
+          {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/c54b4ae1cf41cc13f3912bdd177c1a498b21ea98/ss_c54b4ae1cf41cc13f3912bdd177c1a498b21ea98.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/c54b4ae1cf41cc13f3912bdd177c1a498b21ea98/ss_c54b4ae1cf41cc13f3912bdd177c1a498b21ea98.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/5ea6e30dd4e21d32479f6215d5ff7bbab72a420e/ss_5ea6e30dd4e21d32479f6215d5ff7bbab72a420e.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/5ea6e30dd4e21d32479f6215d5ff7bbab72a420e/ss_5ea6e30dd4e21d32479f6215d5ff7bbab72a420e.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/4917f5772fa384d7d2a29702e0479581673448b6/ss_4917f5772fa384d7d2a29702e0479581673448b6.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/4917f5772fa384d7d2a29702e0479581673448b6/ss_4917f5772fa384d7d2a29702e0479581673448b6.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/dc22eddb8c6ecb1330e6650cafe67c003cdcf243/ss_dc22eddb8c6ecb1330e6650cafe67c003cdcf243.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/dc22eddb8c6ecb1330e6650cafe67c003cdcf243/ss_dc22eddb8c6ecb1330e6650cafe67c003cdcf243.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/b95e3a4a7dc9904cd2717915a2a646916048e622/ss_b95e3a4a7dc9904cd2717915a2a646916048e622.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/b95e3a4a7dc9904cd2717915a2a646916048e622/ss_b95e3a4a7dc9904cd2717915a2a646916048e622.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/168640441e9569b0875983077464bf5ebb5d57b1/ss_168640441e9569b0875983077464bf5ebb5d57b1.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/168640441e9569b0875983077464bf5ebb5d57b1/ss_168640441e9569b0875983077464bf5ebb5d57b1.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/6e70516d208ebdf24b86aa64f4fc9ce313c2aa5c/ss_6e70516d208ebdf24b86aa64f4fc9ce313c2aa5c.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/6e70516d208ebdf24b86aa64f4fc9ce313c2aa5c/ss_6e70516d208ebdf24b86aa64f4fc9ce313c2aa5c.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/b14792ec7567149a748b699cc9d192c1d09fd896/ss_b14792ec7567149a748b699cc9d192c1d09fd896.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/b14792ec7567149a748b699cc9d192c1d09fd896/ss_b14792ec7567149a748b699cc9d192c1d09fd896.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_7c80e5e90fc91b6aa44055878b7f76770fa9dc9d.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_7c80e5e90fc91b6aa44055878b7f76770fa9dc9d.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_7c9fb88fa0aae74107c8bf7d2e4c8bdd400aa1c5.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_7c9fb88fa0aae74107c8bf7d2e4c8bdd400aa1c5.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_841eaef35b52960a4ea832b6849b3595c156d00a.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_841eaef35b52960a4ea832b6849b3595c156d00a.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_ec9b7ef9482db3fec5ab25dab0be168a02dc0b43.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_ec9b7ef9482db3fec5ab25dab0be168a02dc0b43.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 12,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_e03f21bb343859edcb0b28c3950a2d6ff9ecbf48.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_e03f21bb343859edcb0b28c3950a2d6ff9ecbf48.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 13,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_6a8707f7039ebd31bb58d86a6864730fc5ebd38f.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_6a8707f7039ebd31bb58d86a6864730fc5ebd38f.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 14,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_f31c96165b9384945a321fef9effbc0a0d539b90.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_f31c96165b9384945a321fef9effbc0a0d539b90.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 15,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_473cb2a81ade2d62fd9f9a019c7af8cc77905cec.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_473cb2a81ade2d62fd9f9a019c7af8cc77905cec.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 16,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_f98cbced803f7d8f238f7838053657ffd7818b01.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_f98cbced803f7d8f238f7838053657ffd7818b01.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 17,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_9cb7ead0af0faaaf2bb8609822cb35b16d1a48f0.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_9cb7ead0af0faaaf2bb8609822cb35b16d1a48f0.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 18,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_bb1dc4e49a19645f07c6730f2387a719449a3df7.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_bb1dc4e49a19645f07c6730f2387a719449a3df7.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 19,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_f031cfa839b5c3048f4bc92233b4c8472a16ef87.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_f031cfa839b5c3048f4bc92233b4c8472a16ef87.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 20,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_fede743af03b94e8ccd8c1d8f156916acdce7723.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_fede743af03b94e8ccd8c1d8f156916acdce7723.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 21,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_508b8f677ad0278feea4c74280d3bb8aa1143d7a.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_508b8f677ad0278feea4c74280d3bb8aa1143d7a.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 22,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_c5cbb4fb8fcd71b6fd64f86b3f18dd9f00f11787.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_c5cbb4fb8fcd71b6fd64f86b3f18dd9f00f11787.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 23,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_96173cebbcc3bbb6202854fccb8aad223f6c5334.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_96173cebbcc3bbb6202854fccb8aad223f6c5334.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 24,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_e8e6ba2b5ab17a2604e1b2d26f07806a0a27f97e.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_e8e6ba2b5ab17a2604e1b2d26f07806a0a27f97e.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 25,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_68d5f079d8bd32dca66c1514ac00a62341cb49c6.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_68d5f079d8bd32dca66c1514ac00a62341cb49c6.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 26,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_e1f85dd9f79c8579887a1dd3346c2b366feafc08.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_e1f85dd9f79c8579887a1dd3346c2b366feafc08.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 27,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_4e6ce1b347b685dd996a7b354bd0a9fce50159c5.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_4e6ce1b347b685dd996a7b354bd0a9fce50159c5.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 28,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_077b47e9b2eaaf1f1417ed48f96b4ac6e0c673fe.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_077b47e9b2eaaf1f1417ed48f96b4ac6e0c673fe.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 29,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_2aded40827ab836c40afb555600c9ca8cbd26e87.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_2aded40827ab836c40afb555600c9ca8cbd26e87.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 30,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_9b52b6f209db7928077f9f18d12460c71908f9c3.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_9b52b6f209db7928077f9f18d12460c71908f9c3.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 31,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_801635e241c3d2bec0305135e33576ac9c18c3ce.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_801635e241c3d2bec0305135e33576ac9c18c3ce.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 32,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_2141d35d3d0a3c7945db667ed92c0fa4a2d7630c.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_2141d35d3d0a3c7945db667ed92c0fa4a2d7630c.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 33,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_d9186a017565cd3ff01f1a8e9c9996254ec43404.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_d9186a017565cd3ff01f1a8e9c9996254ec43404.1920x1080.jpg?t=1792651021"
+          },
+          {
+            "id": 34,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_c7af06a62248c1f5343b401459b82144e6bc92d8.600x338.jpg?t=1792651021",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/ss_c7af06a62248c1f5343b401459b82144e6bc92d8.1920x1080.jpg?t=1792651021"
+          }
+        ],
+        "movies": [
+          {
+            "id": 257453474,
+            "name": "吞天通行证cn",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257453474/2b18f544861cae01b9a5144fe89b090dc65e9839/movie_600x337.jpg?t=1791518959",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/2119774846/0e31ff145823f7d87a385f5507f9defa9a9a3aba/1791514957/dash_av1.mpd?t=1791518959",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/2119774846/0e31ff145823f7d87a385f5507f9defa9a9a3aba/1791514957/dash_h264.mpd?t=1791518959",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/2119774846/0e31ff145823f7d87a385f5507f9defa9a9a3aba/1791514957/hls_264_master.m3u8?t=1791518959",
+            "highlight": true
+          },
+          {
+            "id": 257387572,
+            "name": "叶修实机演示",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257387572/1ff71450a5f8f1214c4b99930359841d42d54b08/movie_600x337.jpg?t=1785376822",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/1441708107/10776421e7677a75ee264a05b063dbf1d12ca85f/1785321148/dash_av1.mpd?t=1785376822",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1441708107/10776421e7677a75ee264a05b063dbf1d12ca85f/1785321148/dash_h264.mpd?t=1785376822",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1441708107/10776421e7677a75ee264a05b063dbf1d12ca85f/1785321148/hls_264_master.m3u8?t=1785376822",
+            "highlight": true
+          },
+          {
+            "id": 257387493,
+            "name": "叶修CG",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257387493/f46dd9a8af4740c0a5d21d4dd2440e665ee58b23/movie_600x337.jpg?t=1785376825",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/1585563187/e27c6ab98af0bb5149e27deeb74b3ee502ee6e7f/1785314577/dash_av1.mpd?t=1785376825",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1585563187/e27c6ab98af0bb5149e27deeb74b3ee502ee6e7f/1785314577/dash_h264.mpd?t=1785376825",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1585563187/e27c6ab98af0bb5149e27deeb74b3ee502ee6e7f/1785314577/hls_264_master.m3u8?t=1785376825",
+            "highlight": true
+          },
+          {
+            "id": 257371713,
+            "name": "婉若游龙CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257371713/181da0976b644e4ebfe667bde4e331012c037197/movie_600x337.jpg?t=1783344468",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/1684601272/45942dc25c1743377f25785e4f1ccb3ca6864dc3/1783325160/dash_av1.mpd?t=1783344468",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1684601272/45942dc25c1743377f25785e4f1ccb3ca6864dc3/1783325160/dash_h264.mpd?t=1783344468",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1684601272/45942dc25c1743377f25785e4f1ccb3ca6864dc3/1783325160/hls_264_master.m3u8?t=1783344468",
+            "highlight": true
+          },
+          {
+            "id": 257369345,
+            "name": "五周年CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257369345/c84927633b5f3ea9b966671c14ed552591921d0a/movie_600x337.jpg?t=1782972135",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/1056820371/eb1a63c9e66753abe2d4a9c80c5983f8cb951cfb/1782959364/dash_av1.mpd?t=1782972135",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1056820371/eb1a63c9e66753abe2d4a9c80c5983f8cb951cfb/1782959364/dash_h264.mpd?t=1782972135",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1056820371/eb1a63c9e66753abe2d4a9c80c5983f8cb951cfb/1782959364/hls_264_master.m3u8?t=1782972135",
+            "highlight": true
+          },
+          {
+            "id": 257327989,
+            "name": "甘璇cn",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257327989/70612e81c6ab280c5bc159c8acc47bc7509d6cd3/movie_600x337.jpg?t=1778037267",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/725854763/f6aa370d0a982de2bbfa81615855a549f04f41b7/1777362834/dash_av1.mpd?t=1778037267",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/725854763/f6aa370d0a982de2bbfa81615855a549f04f41b7/1777362834/dash_h264.mpd?t=1778037267",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/725854763/f6aa370d0a982de2bbfa81615855a549f04f41b7/1777362834/hls_264_master.m3u8?t=1778037267",
+            "highlight": true
+          },
+          {
+            "id": 257285073,
+            "name": "守望cn",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257285073/b6a7cfae4cdd5f3902b28538921030567e5ff160/movie_600x337.jpg?t=1771126469",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/133191128/7bee10be64e96fa2776670e31ffb0a471562039c/1770865697/dash_av1.mpd?t=1771126469",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/133191128/7bee10be64e96fa2776670e31ffb0a471562039c/1770865697/dash_h264.mpd?t=1771126469",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/133191128/7bee10be64e96fa2776670e31ffb0a471562039c/1770865697/hls_264_master.m3u8?t=1771126469",
+            "highlight": true
+          },
+          {
+            "id": 257279755,
+            "name": "巫真en",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257279755/de3c338e706d31bf209c9a0b619e935d1ad654d7/movie_600x337.jpg?t=1771126469",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/1527776636/3df16e866dac2a5dc4ab2a71269c7de0d3bc8261/1770265141/dash_av1.mpd?t=1771126469",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1527776636/3df16e866dac2a5dc4ab2a71269c7de0d3bc8261/1770265141/dash_h264.mpd?t=1771126469",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1527776636/3df16e866dac2a5dc4ab2a71269c7de0d3bc8261/1770265141/hls_264_master.m3u8?t=1771126469",
+            "highlight": true
+          },
+          {
+            "id": 257279161,
+            "name": "巫真CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257279161/de3c338e706d31bf209c9a0b619e935d1ad654d7/movie_600x337.jpg?t=1770257491",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/1748344013/6d97e28c5416ddb5e8f5cdca0975f9fae768a878/1770209827/dash_av1.mpd?t=1770257491",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1748344013/6d97e28c5416ddb5e8f5cdca0975f9fae768a878/1770209827/dash_h264.mpd?t=1770257491",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1748344013/6d97e28c5416ddb5e8f5cdca0975f9fae768a878/1770209827/hls_264_master.m3u8?t=1770257491",
+            "highlight": true
+          },
+          {
+            "id": 257256891,
+            "name": "新常驻 cn",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257256891/70432c0f76cf92b9e2cb5fec55f28aef19281398/movie_600x337.jpg?t=1767091978",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/1559237513/7c702fdd7af096ce89bb23007da23722bd87b0fa/1767063758/dash_av1.mpd?t=1767091978",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1559237513/7c702fdd7af096ce89bb23007da23722bd87b0fa/1767063758/dash_h264.mpd?t=1767091978",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1559237513/7c702fdd7af096ce89bb23007da23722bd87b0fa/1767063758/hls_264_master.m3u8?t=1767091978",
+            "highlight": true
+          },
+          {
+            "id": 257226949,
+            "name": "S18 宝箱CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257226949/a62e89ec3a0f961b6157e5af2ae4d71fac566a5e/movie_600x337.jpg?t=1762333089",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/2015026566/5fe8453e80e716c070f3874cae4d42200d93e5b6/1762310188/dash_av1.mpd?t=1762333089",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/2015026566/5fe8453e80e716c070f3874cae4d42200d93e5b6/1762310188/dash_h264.mpd?t=1762333089",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/2015026566/5fe8453e80e716c070f3874cae4d42200d93e5b6/1762310188/hls_264_master.m3u8?t=1762333089",
+            "highlight": true
+          },
+          {
+            "id": 257222032,
+            "name": "道诡异仙CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257222032/edad6da6774c51a108f1f4ad3d0723a0e98c945d/movie_600x337.jpg?t=1762333091",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/1735334245/d2f3f963824cb675f7c3be62454b8f795edc6fbc/1761290807/dash_av1.mpd?t=1762333091",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1735334245/d2f3f963824cb675f7c3be62454b8f795edc6fbc/1761290807/dash_h264.mpd?t=1762333091",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1735334245/d2f3f963824cb675f7c3be62454b8f795edc6fbc/1761290807/hls_264_master.m3u8?t=1762333091",
+            "highlight": true
+          },
+          {
+            "id": 257214765,
+            "name": "S18 cn",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257214765/1199648b26a5faee57887696e083fccde844e63f/movie_600x337.jpg?t=1762333093",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/332265881/3edb1c6d841d869e2e0a92688ec3fcdb21014ccf/1760007021/dash_av1.mpd?t=1762333093",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/332265881/3edb1c6d841d869e2e0a92688ec3fcdb21014ccf/1760007021/dash_h264.mpd?t=1762333093",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/332265881/3edb1c6d841d869e2e0a92688ec3fcdb21014ccf/1760007021/hls_264_master.m3u8?t=1762333093",
+            "highlight": true
+          },
+          {
+            "id": 257194953,
+            "name": "铠甲CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257194953/bef6ab6f1612c5edf1f3b80ef5f6fbe0465756eb/movie_600x337.jpg?t=1757589972",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/586184546/78faa524273808a3614a2cafa0c56e5cd1f3298b/1757407698/dash_av1.mpd?t=1757589972",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/586184546/78faa524273808a3614a2cafa0c56e5cd1f3298b/1757407698/dash_h264.mpd?t=1757589972",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/586184546/78faa524273808a3614a2cafa0c56e5cd1f3298b/1757407698/hls_264_master.m3u8?t=1757589972",
+            "highlight": true
+          },
+          {
+            "id": 257179501,
+            "name": "万钧CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257179501/dae0e9579836fcf532aa2c8ea0075f212a343ef7/movie_600x337.jpg?t=1754625570",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/1346799178/b2e71ec9be355cf1d722f96a141d0e8ccd358ecc/1754535389/dash_av1.mpd?t=1754625570",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1346799178/b2e71ec9be355cf1d722f96a141d0e8ccd358ecc/1754535389/dash_h264.mpd?t=1754625570",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1346799178/b2e71ec9be355cf1d722f96a141d0e8ccd358ecc/1754535389/hls_264_master.m3u8?t=1754625570",
+            "highlight": true
+          },
+          {
+            "id": 257178931,
+            "name": "S17宝箱cn",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257178931/f1f5f3e45d47468e973ee4ccade1fe4c002eb07e/movie_600x337.jpg?t=1754535078",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/704527249/77609d7b283ada1bcae74bd489aca42eefd40d52/1754463688/dash_av1.mpd?t=1754535078",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/704527249/77609d7b283ada1bcae74bd489aca42eefd40d52/1754463688/dash_h264.mpd?t=1754535078",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/704527249/77609d7b283ada1bcae74bd489aca42eefd40d52/1754463688/hls_264_master.m3u8?t=1754535078",
+            "highlight": true
+          },
+          {
+            "id": 257166038,
+            "name": "摸金CG CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257166038/c1aa23ccdf7e69303be414b77c59be3ad352c132/movie_600x337.jpg?t=1752024537",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/1931187540/792f797dc7420f987bc9af0f36d6a641a945adee/1751878314/dash_av1.mpd?t=1752024537",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1931187540/792f797dc7420f987bc9af0f36d6a641a945adee/1751878314/dash_h264.mpd?t=1752024537",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1931187540/792f797dc7420f987bc9af0f36d6a641a945adee/1751878314/hls_264_master.m3u8?t=1752024537",
+            "highlight": true
+          },
+          {
+            "id": 257158287,
+            "name": "P5R CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257158287/2f5a61aa218828b116653e7f882a241a8e513f9d/movie_600x337.jpg?t=1750300306",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/1087581578/fa56c4e2473b45ecc7cf073707b187cbe142094f/1750641386/dash_av1.mpd?t=1750300306",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1087581578/fa56c4e2473b45ecc7cf073707b187cbe142094f/1750641386/dash_h264.mpd?t=1750300306",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/1087581578/fa56c4e2473b45ecc7cf073707b187cbe142094f/1750641386/hls_264_master.m3u8?t=1750300306",
+            "highlight": true
+          },
+          {
+            "id": 257132492,
+            "name": "燃耀CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257132492/c78b988de6b6c6ab3b3faa209619b60c1a57e50a/movie_600x337.jpg?t=1745907577",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/880476/05730ae57734498f90583b3d7c41ef2bc44d8e73/1750641319/dash_av1.mpd?t=1745907577",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/880476/05730ae57734498f90583b3d7c41ef2bc44d8e73/1750641319/dash_h264.mpd?t=1745907577",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/880476/05730ae57734498f90583b3d7c41ef2bc44d8e73/1750641319/hls_264_master.m3u8?t=1745907577",
+            "highlight": true
+          },
+          {
+            "id": 257132444,
+            "name": "Tarka Ji CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257132444/4f7796bcb75daea39645a50e0765a791f087a122/movie_600x337.jpg?t=1745899004",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/880416/0f7c4cba29f85debd08570ed3a61521df93aac2b/1750641279/dash_av1.mpd?t=1745899004",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/880416/0f7c4cba29f85debd08570ed3a61521df93aac2b/1750641279/dash_h264.mpd?t=1745899004",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/880416/0f7c4cba29f85debd08570ed3a61521df93aac2b/1750641279/hls_264_master.m3u8?t=1745899004",
+            "highlight": true
+          },
+          {
+            "id": 257120415,
+            "name": "sanrio CN",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257120415/4c748696bb2b47b57a6002695e033db80a413551/movie_600x337.jpg?t=1743561907",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/860853/76973847ca8076b0241715e72883581c718cd8d2/1750641111/dash_av1.mpd?t=1743561907",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/860853/76973847ca8076b0241715e72883581c718cd8d2/1750641111/dash_h264.mpd?t=1743561907",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/860853/76973847ca8076b0241715e72883581c718cd8d2/1750641111/hls_264_master.m3u8?t=1743561907",
+            "highlight": true
+          },
+          {
+            "id": 257120446,
+            "name": "燃耀賽季",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257120446/aec7a340d0318b62862f1c2697e3838b21925e27/movie_600x337.jpg?t=1743561205",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/860896/6d5fd68a08b4741e44357c2cce92a082329e36a8/1750641115/dash_av1.mpd?t=1743561205",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/860896/6d5fd68a08b4741e44357c2cce92a082329e36a8/1750641115/dash_h264.mpd?t=1743561205",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/860896/6d5fd68a08b4741e44357c2cce92a082329e36a8/1750641115/hls_264_master.m3u8?t=1743561205",
+            "highlight": true
+          },
+          {
+            "id": 257090820,
+            "name": "新春华灯英文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257090820/3ce8f3b6b3d9a696f46b38d33ea7a6ba0298b1b4/movie_600x337.jpg?t=1737540774",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/815970/2fda9693db26234f459ca7559e875b770b76e89d/1750641098/dash_av1.mpd?t=1737540774",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/815970/2fda9693db26234f459ca7559e875b770b76e89d/1750641098/dash_h264.mpd?t=1737540774",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/815970/2fda9693db26234f459ca7559e875b770b76e89d/1750641098/hls_264_master.m3u8?t=1737540774",
+            "highlight": true
+          },
+          {
+            "id": 257090782,
+            "name": "蓝梦中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257090782/235a2d3284a07f1b9020b90123b3481f3f050f58/movie_600x337.jpg?t=1737430952",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/815894/85a15653ade1c583f2b6a3bf0b4436643fa6351c/1750640998/dash_av1.mpd?t=1737430952",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/815894/85a15653ade1c583f2b6a3bf0b4436643fa6351c/1750640998/dash_h264.mpd?t=1737430952",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/815894/85a15653ade1c583f2b6a3bf0b4436643fa6351c/1750640998/hls_264_master.m3u8?t=1737430952",
+            "highlight": true
+          },
+          {
+            "id": 257087415,
+            "name": "拳皇第二弹中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257087415/596f1a60f6cf142f4c81716942a3bf89b90af346/movie_600x337.jpg?t=1736483873",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/809743/2690dc758e124b98095df035902bf9f4a2e19c12/1750640994/dash_av1.mpd?t=1736483873",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/809743/2690dc758e124b98095df035902bf9f4a2e19c12/1750640994/dash_h264.mpd?t=1736483873",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/809743/2690dc758e124b98095df035902bf9f4a2e19c12/1750640994/hls_264_master.m3u8?t=1736483873",
+            "highlight": true
+          },
+          {
+            "id": 257087206,
+            "name": "拳皇第一弹-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257087206/8577423d2535016846017aec1caea03cdf96bbbc/movie_600x337.jpg?t=1736393290",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/809324/402c9108d754cdc66651f8b70483af82304c203a/1750640955/dash_av1.mpd?t=1736393290",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/809324/402c9108d754cdc66651f8b70483af82304c203a/1750640955/dash_h264.mpd?t=1736393290",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/809324/402c9108d754cdc66651f8b70483af82304c203a/1750640955/hls_264_master.m3u8?t=1736393290",
+            "highlight": true
+          },
+          {
+            "id": 257083418,
+            "name": "化龙宝珠中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257083418/dcb63cd8118ced80cba3554013e5c258ef28526c/movie_600x337.jpg?t=1734598880",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/802221/92d299b570ca664dd1b2e02ee080ba723ee881c3/1750640884/dash_av1.mpd?t=1734598880",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/802221/92d299b570ca664dd1b2e02ee080ba723ee881c3/1750640884/dash_h264.mpd?t=1734598880",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/802221/92d299b570ca664dd1b2e02ee080ba723ee881c3/1750640884/hls_264_master.m3u8?t=1734598880",
+            "highlight": true
+          },
+          {
+            "id": 257083364,
+            "name": "S15赛季通行证中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257083364/e1f709bdf1ec2dc6335a2520e85a028878a53d52/movie_600x337.jpg?t=1734592208",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/802127/93ae1d5fe128435bdf70f7e258e329a05d96b6c5/1750640878/dash_av1.mpd?t=1734592208",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/802127/93ae1d5fe128435bdf70f7e258e329a05d96b6c5/1750640878/dash_h264.mpd?t=1734592208",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/802127/93ae1d5fe128435bdf70f7e258e329a05d96b6c5/1750640878/hls_264_master.m3u8?t=1734592208",
+            "highlight": true
+          },
+          {
+            "id": 257078709,
+            "name": "巫师中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257078709/3daecc38fa052a1d6c924793a9087acf4a908e72/movie_600x337.jpg?t=1733368138",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/794743/b8528361599830ee93d88a91702d599bacd30aa9/1750640846/dash_av1.mpd?t=1733368138",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/794743/b8528361599830ee93d88a91702d599bacd30aa9/1750640846/dash_h264.mpd?t=1733368138",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/794743/b8528361599830ee93d88a91702d599bacd30aa9/1750640846/hls_264_master.m3u8?t=1733368138",
+            "highlight": true
+          },
+          {
+            "id": 257069613,
+            "name": "万圣节第二批-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257069613/73ab4620d34b1c74c9f799403f33939685bc349a/movie_600x337.jpg?t=1730341884",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/779240/a9fc988b77d35aadfd94d4bdce5576692f46c4a1/1750640795/dash_av1.mpd?t=1730341884",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/779240/a9fc988b77d35aadfd94d4bdce5576692f46c4a1/1750640795/dash_h264.mpd?t=1730341884",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/779240/a9fc988b77d35aadfd94d4bdce5576692f46c4a1/1750640795/hls_264_master.m3u8?t=1730341884",
+            "highlight": true
+          },
+          {
+            "id": 257069587,
+            "name": "席拉CG-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257069587/949edd8086a7ad8def336b29ebd5bc2690daa6d7/movie_600x337.jpg?t=1730341888",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/779193/f7f79b3c03ebafa493ec80d9696d62371bb85829/1750640769/dash_av1.mpd?t=1730341888",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/779193/f7f79b3c03ebafa493ec80d9696d62371bb85829/1750640769/dash_h264.mpd?t=1730341888",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/779193/f7f79b3c03ebafa493ec80d9696d62371bb85829/1750640769/hls_264_master.m3u8?t=1730341888",
+            "highlight": true
+          },
+          {
+            "id": 257065669,
+            "name": "万圣节ue-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257065669/960358f27e2e139c436825bc1aa0e9c379064657/movie_600x337.jpg?t=1729147927",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/772684/d86daee6fa61e8c12e9349d7bde8af5b9fa23b11/1750640754/dash_av1.mpd?t=1729147927",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/772684/d86daee6fa61e8c12e9349d7bde8af5b9fa23b11/1750640754/dash_h264.mpd?t=1729147927",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/772684/d86daee6fa61e8c12e9349d7bde8af5b9fa23b11/1750640754/hls_264_master.m3u8?t=1729147927",
+            "highlight": true
+          },
+          {
+            "id": 257057546,
+            "name": "S14通行证-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257057546/movie.293x165.jpg?t=1727143131",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/759842/15d2378be63c4580b310dd9a4ae7d167e83ced42/1750640698/dash_av1.mpd?t=1727143131",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/759842/15d2378be63c4580b310dd9a4ae7d167e83ced42/1750640698/dash_h264.mpd?t=1727143131",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/759842/15d2378be63c4580b310dd9a4ae7d167e83ced42/1750640698/hls_264_master.m3u8?t=1727143131",
+            "highlight": true
+          },
+          {
+            "id": 257050232,
+            "name": "古墓丽影-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257050232/movie.293x165.jpg?t=1727143136",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/747353/0295bf8ea99f018807270b3964fd957fd5a2a611/1750640666/dash_av1.mpd?t=1727143136",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/747353/0295bf8ea99f018807270b3964fd957fd5a2a611/1750640666/dash_h264.mpd?t=1727143136",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/747353/0295bf8ea99f018807270b3964fd957fd5a2a611/1750640666/hls_264_master.m3u8?t=1727143136",
+            "highlight": true
+          },
+          {
+            "id": 257042445,
+            "name": "张起灵宣传片-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257042445/movie.293x165.jpg?t=1722564429",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/733993/7333c85e75d0453f8fc035116d1eee5450ab392d/1750640645/dash_av1.mpd?t=1722564429",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/733993/7333c85e75d0453f8fc035116d1eee5450ab392d/1750640645/dash_h264.mpd?t=1722564429",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/733993/7333c85e75d0453f8fc035116d1eee5450ab392d/1750640645/hls_264_master.m3u8?t=1722564429",
+            "highlight": true
+          },
+          {
+            "id": 257034979,
+            "name": "龙隐洞天宣传片-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257034979/movie.293x165.jpg?t=1719972386",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/720682/02ca6285e0518ef935bdb585076c534f4f441206/1750837071/dash_av1.mpd?t=1719972386",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/720682/02ca6285e0518ef935bdb585076c534f4f441206/1750837071/dash_h264.mpd?t=1719972386",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/720682/02ca6285e0518ef935bdb585076c534f4f441206/1750837071/hls_264_master.m3u8?t=1719972386",
+            "highlight": true
+          },
+          {
+            "id": 257035221,
+            "name": "周年庆UE片-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257035221/movie.293x165.jpg?t=1719972392",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/721214/e0168e9bbb357334237d575fc036b542dfb9fbbb/1750640638/dash_av1.mpd?t=1719972392",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/721214/e0168e9bbb357334237d575fc036b542dfb9fbbb/1750640638/dash_h264.mpd?t=1719972392",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/721214/e0168e9bbb357334237d575fc036b542dfb9fbbb/1750640638/hls_264_master.m3u8?t=1719972392",
+            "highlight": true
+          },
+          {
+            "id": 257032681,
+            "name": "大河原联动宣传片-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257032681/movie.293x165.jpg?t=1718942749",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/716501/cf725bdeef0e20d7eb6ab66ae1e7cd49ce57d0ee/1750640585/dash_av1.mpd?t=1718942749",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/716501/cf725bdeef0e20d7eb6ab66ae1e7cd49ce57d0ee/1750640585/dash_h264.mpd?t=1718942749",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/716501/cf725bdeef0e20d7eb6ab66ae1e7cd49ce57d0ee/1750640585/hls_264_master.m3u8?t=1718942749",
+            "highlight": true
+          },
+          {
+            "id": 257021887,
+            "name": "淬炼瑞珠宣传片-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257021887/movie.293x165.jpg?t=1715253743",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/697872/8e32658d90899ac7973aa2e6626fcf6a6bd811e0/1750640524/dash_av1.mpd?t=1715253743",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/697872/8e32658d90899ac7973aa2e6626fcf6a6bd811e0/1750640524/dash_h264.mpd?t=1715253743",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/697872/8e32658d90899ac7973aa2e6626fcf6a6bd811e0/1750640524/hls_264_master.m3u8?t=1715253743",
+            "highlight": true
+          },
+          {
+            "id": 257014451,
+            "name": "S12通行证-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257014451/movie.293x165.jpg?t=1712820482",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/685068/d6a0dc931019e6706a04a85314119fa0ed676b44/1750640512/dash_av1.mpd?t=1712820482",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/685068/d6a0dc931019e6706a04a85314119fa0ed676b44/1750640512/dash_h264.mpd?t=1712820482",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/685068/d6a0dc931019e6706a04a85314119fa0ed676b44/1750640512/hls_264_master.m3u8?t=1712820482",
+            "highlight": true
+          },
+          {
+            "id": 256997822,
+            "name": "新春瑞灯CG+实机演示-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256997822/movie.293x165.jpg?t=1706759433",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/657044/eac612efc47ca7518edc3934d68ad64da1e82df4/1750640475/dash_av1.mpd?t=1706759433",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/657044/eac612efc47ca7518edc3934d68ad64da1e82df4/1750640475/dash_h264.mpd?t=1706759433",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/657044/eac612efc47ca7518edc3934d68ad64da1e82df4/1750640475/hls_264_master.m3u8?t=1706759433",
+            "highlight": true
+          },
+          {
+            "id": 256996397,
+            "name": "魏轻CG+实机演示-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256996397/movie.293x165.jpg?t=1706759443",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/654393/1189320e975db91ea225886787ac9e4dcb603b2c/1750640345/dash_av1.mpd?t=1706759443",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/654393/1189320e975db91ea225886787ac9e4dcb603b2c/1750640345/dash_h264.mpd?t=1706759443",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/654393/1189320e975db91ea225886787ac9e4dcb603b2c/1750640345/hls_264_master.m3u8?t=1706759443",
+            "highlight": true
+          },
+          {
+            "id": 256994271,
+            "name": "斗罗大陆联动CG+实机演示-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256994271/movie.293x165.jpg?t=1705549276",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/650472/670de332fe90c7b5b90a5c27450872b0634050b1/1750640267/dash_av1.mpd?t=1705549276",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/650472/670de332fe90c7b5b90a5c27450872b0634050b1/1750640267/dash_h264.mpd?t=1705549276",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/650472/670de332fe90c7b5b90a5c27450872b0634050b1/1750640267/hls_264_master.m3u8?t=1705549276",
+            "highlight": true
+          },
+          {
+            "id": 256992021,
+            "name": "新武器横刀实机演示-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256992021/movie.293x165.jpg?t=1704334767",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/646096/0988d1c80a40af6ad54c83050037f73c525a20a3/1750640243/dash_av1.mpd?t=1704334767",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/646096/0988d1c80a40af6ad54c83050037f73c525a20a3/1750640243/dash_h264.mpd?t=1704334767",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/646096/0988d1c80a40af6ad54c83050037f73c525a20a3/1750640243/hls_264_master.m3u8?t=1704334767",
+            "highlight": true
+          },
+          {
+            "id": 256991853,
+            "name": "S11通行证-中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256991853/movie.293x165.jpg?t=1704334779",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/645721/66ac53c3a2ea94fa0d8ddfcd9cfe09825c26be05/1750640148/dash_av1.mpd?t=1704334779",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/645721/66ac53c3a2ea94fa0d8ddfcd9cfe09825c26be05/1750640148/dash_h264.mpd?t=1704334779",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/645721/66ac53c3a2ea94fa0d8ddfcd9cfe09825c26be05/1750640148/hls_264_master.m3u8?t=1704334779",
+            "highlight": true
+          },
+          {
+            "id": 256990270,
+            "name": "武道无穷CG+实机演示（简中）",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256990270/movie.293x165.jpg?t=1703141284",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/642845/58a5d859dadc9c72f0b045336d7c93fec88bdcc0/1750639990/dash_av1.mpd?t=1703141284",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/642845/58a5d859dadc9c72f0b045336d7c93fec88bdcc0/1750639990/dash_h264.mpd?t=1703141284",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/642845/58a5d859dadc9c72f0b045336d7c93fec88bdcc0/1750639990/hls_264_master.m3u8?t=1703141284",
+            "highlight": true
+          },
+          {
+            "id": 256957932,
+            "name": "2周年CG中文",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256957932/movie.293x165.jpg?t=1689283179",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203220/587101/ed96e13620a4bef29752fa51c6c27996493291a9/1750639797/dash_av1.mpd?t=1689283179",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/587101/ed96e13620a4bef29752fa51c6c27996493291a9/1750639797/dash_h264.mpd?t=1689283179",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203220/587101/ed96e13620a4bef29752fa51c6c27996493291a9/1750639797/hls_264_master.m3u8?t=1689283179",
+            "highlight": true
+          }
+        ],
+        "recommendations": {
+          "total": 198028
+        },
+        "achievements": {
+          "total": 40,
+          "highlighted": [
+            {
+              "icon": "c9463ce5f3e8560a2660c49f2a9ff843fcb00233.jpg",
+              "localized_name": "Jack of All Trades",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Jack of All Trades",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1203220/c9463ce5f3e8560a2660c49f2a9ff843fcb00233.jpg"
+            },
+            {
+              "icon": "44a6a4f4da0a17b3ff1ae1fe1766db1c828454f5.jpg",
+              "localized_name": "Apogee",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Apogee",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1203220/44a6a4f4da0a17b3ff1ae1fe1766db1c828454f5.jpg"
+            },
+            {
+              "icon": "9965dcdd984bd0c47f9e55f9ff6576e27f93bf1f.jpg",
+              "localized_name": "As Fate Wills",
+              "archived": 0,
+              "hidden": 0,
+              "name": "As Fate Wills",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1203220/9965dcdd984bd0c47f9e55f9ff6576e27f93bf1f.jpg"
+            },
+            {
+              "icon": "af0f0f9457eccfe0d5c8f9f1331cba7376c9ef62.jpg",
+              "localized_name": "Close Combat",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Close Combat",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1203220/af0f0f9457eccfe0d5c8f9f1331cba7376c9ef62.jpg"
+            },
+            {
+              "icon": "dbda5293330adabe1e6af08977df8b00afa59368.jpg",
+              "localized_name": "Accuracy Assured",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Accuracy Assured",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1203220/dbda5293330adabe1e6af08977df8b00afa59368.jpg"
+            },
+            {
+              "icon": "0330ce486368c44a6fffa5d0be76971d2894b67d.jpg",
+              "localized_name": "Spoils of War",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Spoils of War",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1203220/0330ce486368c44a6fffa5d0be76971d2894b67d.jpg"
+            },
+            {
+              "icon": "5df68703ab533a97a2215fd5ace4e7cdfa19196c.jpg",
+              "localized_name": "Unbreakable",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Unbreakable",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1203220/5df68703ab533a97a2215fd5ace4e7cdfa19196c.jpg"
+            },
+            {
+              "icon": "60b43dd8ab34f19a1060576ac204142c9baa5571.jpg",
+              "localized_name": "Bloodthirsty",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Bloodthirsty",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1203220/60b43dd8ab34f19a1060576ac204142c9baa5571.jpg"
+            },
+            {
+              "icon": "c27ac3c2a1ad43e96bd1807933b553e6a285881f.jpg",
+              "localized_name": "Sure Shot",
+              "archived": 0,
+              "hidden": 0,
+              "name": "Sure Shot",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1203220/c27ac3c2a1ad43e96bd1807933b553e6a285881f.jpg"
+            },
+            {
+              "icon": "473f40d452c7fb1247b41569f294e75e249a0892.jpg",
+              "localized_name": "The Overcomer",
+              "archived": 0,
+              "hidden": 0,
+              "name": "The Overcomer",
+              "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1203220/473f40d452c7fb1247b41569f294e75e249a0892.jpg"
+            }
+          ]
+        },
+        "release_date": {
+          "coming_soon": false,
+          "date": "11 Aug, 2021"
+        },
+        "support_info": {
+          "url": "https://gm.163.com/user_help.html?paper_id=4718",
+          "email": ""
+        },
+        "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1203220?t=1792651021",
+        "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/7481d615764a60a9d677240a5453f90d216d6fcf/page_bg_raw.jpg?t=1792651021",
+        "content_descriptors": {
+          "ids": [],
+          "notes": null
+        },
+        "ratings": {
+          "dejus": {
+            "rating": "12",
+            "descriptors": "Violência",
+            "use_age_gate": "true",
+            "required_age": "12"
+          },
+          "pegi": {
+            "rating": "12",
+            "descriptors": "VIOLENCE\r\nIN-GAME PURCHASES"
+          },
+          "kgrb": {
+            "rating": "15",
+            "descriptors": "＊ 사실적인 폭력 표현\r\n- 창, 칼, 활 등 사실적으로 표현된 무기류를 사용하여 대전함"
+          },
+          "esrb": {
+            "rating": "t"
+          },
+          "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+          },
+          "igrs": {
+            "rating_generated": "1",
+            "rating": "13",
+            "required_age": "13",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Kekerasan\nInteraksi Daring"
+          }
+        }
+      }
+    }
+  }
+}

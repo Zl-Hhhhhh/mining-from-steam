@@ -1,0 +1,3462 @@
+{
+  "audited_at": "2026-11-02T10:07:19.744227+00:00",
+  "status": "failed",
+  "freeze_manifest": "data\\freeze_20261101\\freeze_manifest.json",
+  "parameters": {
+    "short_text": 10,
+    "max_playtime_minutes": 5256000
+  },
+  "summary": {
+    "games": 50,
+    "reviews": 19486,
+    "unique_authors": 19097,
+    "cross_game_authors": 282,
+    "errors": 263,
+    "warnings": 0,
+    "info": 1
+  },
+  "games": [
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "directory": "data\\steam\\730\\20261102T061318366846Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 570,
+      "name": "Dota 2",
+      "directory": "data\\steam\\570\\20261102T061335826653Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1172470,
+      "name": "Apex Legends",
+      "directory": "data\\steam\\1172470\\20261102T061350935631Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 271590,
+      "name": "Grand Theft Auto V",
+      "directory": "data\\steam\\271590\\20261102T061405987197Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1245620,
+      "name": "Elden Ring",
+      "directory": "data\\steam\\1245620\\20261102T061422173805Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1086940,
+      "name": "Baldur's Gate 3",
+      "directory": "data\\steam\\1086940\\20261102T061441604202Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt",
+      "directory": "data\\steam\\292030\\20261102T061458254278Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1091500,
+      "name": "Cyberpunk 2077",
+      "directory": "data\\steam\\1091500\\20261102T061514499726Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 534380,
+      "name": "Dying Light 2",
+      "directory": "data\\steam\\534380\\20261102T061530892605Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 275850,
+      "name": "No Man's Sky",
+      "directory": "data\\steam\\275850\\20261102T061548184838Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 413150,
+      "name": "Stardew Valley",
+      "directory": "data\\steam\\413150\\20261102T061606702743Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 646570,
+      "name": "Slay the Spire",
+      "directory": "data\\steam\\646570\\20261102T061622052877Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1144200,
+      "name": "Ready or Not",
+      "directory": "data\\steam\\1144200\\20261102T061639021107Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 2358720,
+      "name": "Black Myth: Wukong",
+      "directory": "data\\steam\\2358720\\20261102T061655363150Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 397540,
+      "name": "Borderlands 3",
+      "directory": "data\\steam\\397540\\20261102T061710305637Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 582010,
+      "name": "Monster Hunter: World",
+      "directory": "data\\steam\\582010\\20261102T061728480639Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 367520,
+      "name": "Hollow Knight",
+      "directory": "data\\steam\\367520\\20261102T061750859582Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 504230,
+      "name": "Celeste",
+      "directory": "data\\steam\\504230\\20261102T061809646167Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 262060,
+      "name": "Darkest Dungeon",
+      "directory": "data\\steam\\262060\\20261102T061826299604Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 252490,
+      "name": "Rust",
+      "directory": "data\\steam\\252490\\20261102T061844365124Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "directory": "data\\steam\\105600\\20261102T061902745050Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 4000,
+      "name": "Garry's Mod",
+      "directory": "data\\steam\\4000\\20261102T061920800909Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1623730,
+      "name": "Palworld",
+      "directory": "data\\steam\\1623730\\20261102T061937609900Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2",
+      "directory": "data\\steam\\1174180\\20261102T061954779301Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 447040,
+      "name": "Watch Dogs 2",
+      "directory": "data\\steam\\447040\\20261102T062013798315Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 236390,
+      "name": "War Thunder",
+      "directory": "data\\steam\\236390\\20261102T062030255735Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 489830,
+      "name": "The Elder Scrolls V: Skyrim Special Edition",
+      "directory": "data\\steam\\489830\\20261102T062047691480Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1203220,
+      "name": "NARAKA: BLADEPOINT",
+      "directory": "data\\steam\\1203220\\20261102T062106359792Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 588650,
+      "name": "Dead Cells",
+      "directory": "data\\steam\\588650\\20261102T062123878455Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 381210,
+      "name": "Dead by Daylight",
+      "directory": "data\\steam\\381210\\20261102T062141649919Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 238960,
+      "name": "Path of Exile",
+      "directory": "data\\steam\\238960\\20261102T063246432381Z",
+      "review_count": 222,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 22,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 220,
+      "name": "Half-Life 2",
+      "directory": "data\\steam\\220\\20261102T062218893206Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 8930,
+      "name": "Sid Meier's Civilization V",
+      "directory": "data\\steam\\8930\\20261102T063259114704Z",
+      "review_count": 279,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 79,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 289070,
+      "name": "Sid Meier's Civilization VI",
+      "directory": "data\\steam\\289070\\20261102T062251102772Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1145360,
+      "name": "Hades",
+      "directory": "data\\steam\\1145360\\20261102T062306749496Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 813780,
+      "name": "Age of Empires II: Definitive Edition",
+      "directory": "data\\steam\\813780\\20261102T062321728791Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 648800,
+      "name": "Raft",
+      "directory": "data\\steam\\648800\\20261102T062337749257Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "directory": "data\\steam\\346110\\20261102T062402625663Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 440900,
+      "name": "Conan Exiles",
+      "directory": "data\\steam\\440900\\20261102T062425425090Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1517290,
+      "name": "Battlefield 2042",
+      "directory": "data\\steam\\1517290\\20261102T062447888887Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 244850,
+      "name": "Space Engineers",
+      "directory": "data\\steam\\244850\\20261102T063310011030Z",
+      "review_count": 235,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 35,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 322330,
+      "name": "Don't Starve Together",
+      "directory": "data\\steam\\322330\\20261102T062530500967Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1426210,
+      "name": "It Takes Two",
+      "directory": "data\\steam\\1426210\\20261102T062550052822Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 739630,
+      "name": "Phasmophobia",
+      "directory": "data\\steam\\739630\\20261102T062608220332Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 230410,
+      "name": "Warframe",
+      "directory": "data\\steam\\230410\\20261102T062627759296Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 976730,
+      "name": "Halo: The Master Chief Collection",
+      "directory": "data\\steam\\976730\\20261102T062649966094Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 291550,
+      "name": "Brawlhalla",
+      "directory": "data\\steam\\291550\\20261102T063323377473Z",
+      "review_count": 350,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 150,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 261550,
+      "name": "Mount & Blade II: Bannerlord",
+      "directory": "data\\steam\\261550\\20261102T062730690531Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 1687950,
+      "name": "Persona 5 Royal",
+      "directory": "data\\steam\\1687950\\20261102T062755593398Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    },
+    {
+      "appid": 250900,
+      "name": "The Binding of Isaac: Rebirth",
+      "directory": "data\\steam\\250900\\20261102T062815093482Z",
+      "review_count": 400,
+      "languages": {
+        "english": {
+          "count": 200,
+          "target": 200
+        },
+        "schinese": {
+          "count": 200,
+          "target": 200
+        }
+      }
+    }
+  ],
+  "issues": [
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 730,
+      "game": "Counter-Strike 2",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\730\\20261102T061318366846Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 730,
+      "game": "Counter-Strike 2",
+      "language": "english",
+      "count": 68,
+      "path": "D:\\mining-from-steam\\data\\steam\\730\\20261102T061318366846Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 730,
+      "game": "Counter-Strike 2",
+      "language": "english",
+      "count": 19,
+      "path": "D:\\mining-from-steam\\data\\steam\\730\\20261102T061318366846Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 730,
+      "game": "Counter-Strike 2",
+      "language": "schinese",
+      "count": 145,
+      "path": "D:\\mining-from-steam\\data\\steam\\730\\20261102T061318366846Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 730,
+      "game": "Counter-Strike 2",
+      "language": "schinese",
+      "count": 36,
+      "path": "D:\\mining-from-steam\\data\\steam\\730\\20261102T061318366846Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 570,
+      "game": "Dota 2",
+      "language": "english",
+      "count": 73,
+      "path": "D:\\mining-from-steam\\data\\steam\\570\\20261102T061335826653Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 570,
+      "game": "Dota 2",
+      "language": "english",
+      "count": 14,
+      "path": "D:\\mining-from-steam\\data\\steam\\570\\20261102T061335826653Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 570,
+      "game": "Dota 2",
+      "language": "schinese",
+      "count": 108,
+      "path": "D:\\mining-from-steam\\data\\steam\\570\\20261102T061335826653Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 570,
+      "game": "Dota 2",
+      "language": "schinese",
+      "count": 19,
+      "path": "D:\\mining-from-steam\\data\\steam\\570\\20261102T061335826653Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1172470,
+      "game": "Apex Legends",
+      "language": "english",
+      "count": 48,
+      "path": "D:\\mining-from-steam\\data\\steam\\1172470\\20261102T061350935631Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1172470,
+      "game": "Apex Legends",
+      "language": "english",
+      "count": 12,
+      "path": "D:\\mining-from-steam\\data\\steam\\1172470\\20261102T061350935631Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1172470,
+      "game": "Apex Legends",
+      "language": "schinese",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\1172470\\20261102T061350935631Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1172470,
+      "game": "Apex Legends",
+      "language": "schinese",
+      "count": 121,
+      "path": "D:\\mining-from-steam\\data\\steam\\1172470\\20261102T061350935631Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1172470,
+      "game": "Apex Legends",
+      "language": "schinese",
+      "count": 35,
+      "path": "D:\\mining-from-steam\\data\\steam\\1172470\\20261102T061350935631Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 271590,
+      "game": "Grand Theft Auto V",
+      "language": "english",
+      "count": 92,
+      "path": "D:\\mining-from-steam\\data\\steam\\271590\\20261102T061405987197Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 271590,
+      "game": "Grand Theft Auto V",
+      "language": "english",
+      "count": 26,
+      "path": "D:\\mining-from-steam\\data\\steam\\271590\\20261102T061405987197Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 271590,
+      "game": "Grand Theft Auto V",
+      "language": "schinese",
+      "count": 5,
+      "path": "D:\\mining-from-steam\\data\\steam\\271590\\20261102T061405987197Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 271590,
+      "game": "Grand Theft Auto V",
+      "language": "schinese",
+      "count": 137,
+      "path": "D:\\mining-from-steam\\data\\steam\\271590\\20261102T061405987197Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 271590,
+      "game": "Grand Theft Auto V",
+      "language": "schinese",
+      "count": 40,
+      "path": "D:\\mining-from-steam\\data\\steam\\271590\\20261102T061405987197Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1245620,
+      "game": "Elden Ring",
+      "language": "english",
+      "count": 42,
+      "path": "D:\\mining-from-steam\\data\\steam\\1245620\\20261102T061422173805Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1245620,
+      "game": "Elden Ring",
+      "language": "english",
+      "count": 9,
+      "path": "D:\\mining-from-steam\\data\\steam\\1245620\\20261102T061422173805Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1245620,
+      "game": "Elden Ring",
+      "language": "schinese",
+      "count": 104,
+      "path": "D:\\mining-from-steam\\data\\steam\\1245620\\20261102T061422173805Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1245620,
+      "game": "Elden Ring",
+      "language": "schinese",
+      "count": 32,
+      "path": "D:\\mining-from-steam\\data\\steam\\1245620\\20261102T061422173805Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1086940,
+      "game": "Baldur's Gate 3",
+      "language": "english",
+      "count": 3,
+      "path": "D:\\mining-from-steam\\data\\steam\\1086940\\20261102T061441604202Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1086940,
+      "game": "Baldur's Gate 3",
+      "language": "english",
+      "count": 34,
+      "path": "D:\\mining-from-steam\\data\\steam\\1086940\\20261102T061441604202Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1086940,
+      "game": "Baldur's Gate 3",
+      "language": "english",
+      "count": 7,
+      "path": "D:\\mining-from-steam\\data\\steam\\1086940\\20261102T061441604202Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1086940,
+      "game": "Baldur's Gate 3",
+      "language": "schinese",
+      "count": 97,
+      "path": "D:\\mining-from-steam\\data\\steam\\1086940\\20261102T061441604202Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1086940,
+      "game": "Baldur's Gate 3",
+      "language": "schinese",
+      "count": 26,
+      "path": "D:\\mining-from-steam\\data\\steam\\1086940\\20261102T061441604202Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 292030,
+      "game": "The Witcher 3: Wild Hunt",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\292030\\20261102T061458254278Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 292030,
+      "game": "The Witcher 3: Wild Hunt",
+      "language": "english",
+      "count": 26,
+      "path": "D:\\mining-from-steam\\data\\steam\\292030\\20261102T061458254278Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 292030,
+      "game": "The Witcher 3: Wild Hunt",
+      "language": "english",
+      "count": 4,
+      "path": "D:\\mining-from-steam\\data\\steam\\292030\\20261102T061458254278Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 292030,
+      "game": "The Witcher 3: Wild Hunt",
+      "language": "schinese",
+      "count": 80,
+      "path": "D:\\mining-from-steam\\data\\steam\\292030\\20261102T061458254278Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 292030,
+      "game": "The Witcher 3: Wild Hunt",
+      "language": "schinese",
+      "count": 16,
+      "path": "D:\\mining-from-steam\\data\\steam\\292030\\20261102T061458254278Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1091500,
+      "game": "Cyberpunk 2077",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\1091500\\20261102T061514499726Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1091500,
+      "game": "Cyberpunk 2077",
+      "language": "english",
+      "count": 40,
+      "path": "D:\\mining-from-steam\\data\\steam\\1091500\\20261102T061514499726Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1091500,
+      "game": "Cyberpunk 2077",
+      "language": "english",
+      "count": 8,
+      "path": "D:\\mining-from-steam\\data\\steam\\1091500\\20261102T061514499726Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1091500,
+      "game": "Cyberpunk 2077",
+      "language": "schinese",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\1091500\\20261102T061514499726Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1091500,
+      "game": "Cyberpunk 2077",
+      "language": "schinese",
+      "count": 104,
+      "path": "D:\\mining-from-steam\\data\\steam\\1091500\\20261102T061514499726Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1091500,
+      "game": "Cyberpunk 2077",
+      "language": "schinese",
+      "count": 31,
+      "path": "D:\\mining-from-steam\\data\\steam\\1091500\\20261102T061514499726Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 534380,
+      "game": "Dying Light 2",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\534380\\20261102T061530892605Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 534380,
+      "game": "Dying Light 2",
+      "language": "english",
+      "count": 36,
+      "path": "D:\\mining-from-steam\\data\\steam\\534380\\20261102T061530892605Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 534380,
+      "game": "Dying Light 2",
+      "language": "english",
+      "count": 4,
+      "path": "D:\\mining-from-steam\\data\\steam\\534380\\20261102T061530892605Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 534380,
+      "game": "Dying Light 2",
+      "language": "schinese",
+      "count": 78,
+      "path": "D:\\mining-from-steam\\data\\steam\\534380\\20261102T061530892605Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 534380,
+      "game": "Dying Light 2",
+      "language": "schinese",
+      "count": 16,
+      "path": "D:\\mining-from-steam\\data\\steam\\534380\\20261102T061530892605Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 275850,
+      "game": "No Man's Sky",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\275850\\20261102T061548184838Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 275850,
+      "game": "No Man's Sky",
+      "language": "english",
+      "count": 23,
+      "path": "D:\\mining-from-steam\\data\\steam\\275850\\20261102T061548184838Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 275850,
+      "game": "No Man's Sky",
+      "language": "english",
+      "count": 4,
+      "path": "D:\\mining-from-steam\\data\\steam\\275850\\20261102T061548184838Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 275850,
+      "game": "No Man's Sky",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\275850\\20261102T061548184838Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 275850,
+      "game": "No Man's Sky",
+      "language": "schinese",
+      "count": 87,
+      "path": "D:\\mining-from-steam\\data\\steam\\275850\\20261102T061548184838Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 275850,
+      "game": "No Man's Sky",
+      "language": "schinese",
+      "count": 31,
+      "path": "D:\\mining-from-steam\\data\\steam\\275850\\20261102T061548184838Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 413150,
+      "game": "Stardew Valley",
+      "language": "english",
+      "count": 3,
+      "path": "D:\\mining-from-steam\\data\\steam\\413150\\20261102T061606702743Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 413150,
+      "game": "Stardew Valley",
+      "language": "english",
+      "count": 28,
+      "path": "D:\\mining-from-steam\\data\\steam\\413150\\20261102T061606702743Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 413150,
+      "game": "Stardew Valley",
+      "language": "english",
+      "count": 4,
+      "path": "D:\\mining-from-steam\\data\\steam\\413150\\20261102T061606702743Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 413150,
+      "game": "Stardew Valley",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\413150\\20261102T061606702743Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 413150,
+      "game": "Stardew Valley",
+      "language": "schinese",
+      "count": 132,
+      "path": "D:\\mining-from-steam\\data\\steam\\413150\\20261102T061606702743Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 413150,
+      "game": "Stardew Valley",
+      "language": "schinese",
+      "count": 48,
+      "path": "D:\\mining-from-steam\\data\\steam\\413150\\20261102T061606702743Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 646570,
+      "game": "Slay the Spire",
+      "language": "english",
+      "count": 38,
+      "path": "D:\\mining-from-steam\\data\\steam\\646570\\20261102T061622052877Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 646570,
+      "game": "Slay the Spire",
+      "language": "english",
+      "count": 9,
+      "path": "D:\\mining-from-steam\\data\\steam\\646570\\20261102T061622052877Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 646570,
+      "game": "Slay the Spire",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\646570\\20261102T061622052877Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 646570,
+      "game": "Slay the Spire",
+      "language": "schinese",
+      "count": 121,
+      "path": "D:\\mining-from-steam\\data\\steam\\646570\\20261102T061622052877Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 646570,
+      "game": "Slay the Spire",
+      "language": "schinese",
+      "count": 42,
+      "path": "D:\\mining-from-steam\\data\\steam\\646570\\20261102T061622052877Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1144200,
+      "game": "Ready or Not",
+      "language": "english",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\1144200\\20261102T061639021107Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1144200,
+      "game": "Ready or Not",
+      "language": "english",
+      "count": 33,
+      "path": "D:\\mining-from-steam\\data\\steam\\1144200\\20261102T061639021107Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1144200,
+      "game": "Ready or Not",
+      "language": "english",
+      "count": 6,
+      "path": "D:\\mining-from-steam\\data\\steam\\1144200\\20261102T061639021107Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1144200,
+      "game": "Ready or Not",
+      "language": "schinese",
+      "count": 107,
+      "path": "D:\\mining-from-steam\\data\\steam\\1144200\\20261102T061639021107Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1144200,
+      "game": "Ready or Not",
+      "language": "schinese",
+      "count": 27,
+      "path": "D:\\mining-from-steam\\data\\steam\\1144200\\20261102T061639021107Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 2358720,
+      "game": "Black Myth: Wukong",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\2358720\\20261102T061655363150Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 2358720,
+      "game": "Black Myth: Wukong",
+      "language": "english",
+      "count": 43,
+      "path": "D:\\mining-from-steam\\data\\steam\\2358720\\20261102T061655363150Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 2358720,
+      "game": "Black Myth: Wukong",
+      "language": "english",
+      "count": 13,
+      "path": "D:\\mining-from-steam\\data\\steam\\2358720\\20261102T061655363150Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 2358720,
+      "game": "Black Myth: Wukong",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\2358720\\20261102T061655363150Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 2358720,
+      "game": "Black Myth: Wukong",
+      "language": "schinese",
+      "count": 116,
+      "path": "D:\\mining-from-steam\\data\\steam\\2358720\\20261102T061655363150Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 2358720,
+      "game": "Black Myth: Wukong",
+      "language": "schinese",
+      "count": 43,
+      "path": "D:\\mining-from-steam\\data\\steam\\2358720\\20261102T061655363150Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 397540,
+      "game": "Borderlands 3",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\397540\\20261102T061710305637Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 397540,
+      "game": "Borderlands 3",
+      "language": "english",
+      "count": 39,
+      "path": "D:\\mining-from-steam\\data\\steam\\397540\\20261102T061710305637Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 397540,
+      "game": "Borderlands 3",
+      "language": "english",
+      "count": 8,
+      "path": "D:\\mining-from-steam\\data\\steam\\397540\\20261102T061710305637Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 397540,
+      "game": "Borderlands 3",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\397540\\20261102T061710305637Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 397540,
+      "game": "Borderlands 3",
+      "language": "schinese",
+      "count": 100,
+      "path": "D:\\mining-from-steam\\data\\steam\\397540\\20261102T061710305637Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 397540,
+      "game": "Borderlands 3",
+      "language": "schinese",
+      "count": 19,
+      "path": "D:\\mining-from-steam\\data\\steam\\397540\\20261102T061710305637Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 582010,
+      "game": "Monster Hunter: World",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\582010\\20261102T061728480639Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 582010,
+      "game": "Monster Hunter: World",
+      "language": "english",
+      "count": 41,
+      "path": "D:\\mining-from-steam\\data\\steam\\582010\\20261102T061728480639Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 582010,
+      "game": "Monster Hunter: World",
+      "language": "english",
+      "count": 20,
+      "path": "D:\\mining-from-steam\\data\\steam\\582010\\20261102T061728480639Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 582010,
+      "game": "Monster Hunter: World",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\582010\\20261102T061728480639Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 582010,
+      "game": "Monster Hunter: World",
+      "language": "schinese",
+      "count": 109,
+      "path": "D:\\mining-from-steam\\data\\steam\\582010\\20261102T061728480639Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 582010,
+      "game": "Monster Hunter: World",
+      "language": "schinese",
+      "count": 29,
+      "path": "D:\\mining-from-steam\\data\\steam\\582010\\20261102T061728480639Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 367520,
+      "game": "Hollow Knight",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\367520\\20261102T061750859582Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 367520,
+      "game": "Hollow Knight",
+      "language": "english",
+      "count": 39,
+      "path": "D:\\mining-from-steam\\data\\steam\\367520\\20261102T061750859582Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 367520,
+      "game": "Hollow Knight",
+      "language": "english",
+      "count": 9,
+      "path": "D:\\mining-from-steam\\data\\steam\\367520\\20261102T061750859582Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 367520,
+      "game": "Hollow Knight",
+      "language": "schinese",
+      "count": 113,
+      "path": "D:\\mining-from-steam\\data\\steam\\367520\\20261102T061750859582Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 367520,
+      "game": "Hollow Knight",
+      "language": "schinese",
+      "count": 39,
+      "path": "D:\\mining-from-steam\\data\\steam\\367520\\20261102T061750859582Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 504230,
+      "game": "Celeste",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\504230\\20261102T061809646167Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 504230,
+      "game": "Celeste",
+      "language": "english",
+      "count": 24,
+      "path": "D:\\mining-from-steam\\data\\steam\\504230\\20261102T061809646167Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 504230,
+      "game": "Celeste",
+      "language": "english",
+      "count": 3,
+      "path": "D:\\mining-from-steam\\data\\steam\\504230\\20261102T061809646167Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 504230,
+      "game": "Celeste",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\504230\\20261102T061809646167Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 504230,
+      "game": "Celeste",
+      "language": "schinese",
+      "count": 72,
+      "path": "D:\\mining-from-steam\\data\\steam\\504230\\20261102T061809646167Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 504230,
+      "game": "Celeste",
+      "language": "schinese",
+      "count": 14,
+      "path": "D:\\mining-from-steam\\data\\steam\\504230\\20261102T061809646167Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 262060,
+      "game": "Darkest Dungeon",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\262060\\20261102T061826299604Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 262060,
+      "game": "Darkest Dungeon",
+      "language": "english",
+      "count": 26,
+      "path": "D:\\mining-from-steam\\data\\steam\\262060\\20261102T061826299604Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 262060,
+      "game": "Darkest Dungeon",
+      "language": "english",
+      "count": 3,
+      "path": "D:\\mining-from-steam\\data\\steam\\262060\\20261102T061826299604Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 262060,
+      "game": "Darkest Dungeon",
+      "language": "schinese",
+      "count": 90,
+      "path": "D:\\mining-from-steam\\data\\steam\\262060\\20261102T061826299604Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 262060,
+      "game": "Darkest Dungeon",
+      "language": "schinese",
+      "count": 22,
+      "path": "D:\\mining-from-steam\\data\\steam\\262060\\20261102T061826299604Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 252490,
+      "game": "Rust",
+      "language": "english",
+      "count": 56,
+      "path": "D:\\mining-from-steam\\data\\steam\\252490\\20261102T061844365124Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 252490,
+      "game": "Rust",
+      "language": "english",
+      "count": 12,
+      "path": "D:\\mining-from-steam\\data\\steam\\252490\\20261102T061844365124Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 252490,
+      "game": "Rust",
+      "language": "schinese",
+      "count": 113,
+      "path": "D:\\mining-from-steam\\data\\steam\\252490\\20261102T061844365124Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 252490,
+      "game": "Rust",
+      "language": "schinese",
+      "count": 28,
+      "path": "D:\\mining-from-steam\\data\\steam\\252490\\20261102T061844365124Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 105600,
+      "game": "Terraria",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\105600\\20261102T061902745050Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 105600,
+      "game": "Terraria",
+      "language": "english",
+      "count": 56,
+      "path": "D:\\mining-from-steam\\data\\steam\\105600\\20261102T061902745050Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 105600,
+      "game": "Terraria",
+      "language": "english",
+      "count": 17,
+      "path": "D:\\mining-from-steam\\data\\steam\\105600\\20261102T061902745050Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 105600,
+      "game": "Terraria",
+      "language": "schinese",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\105600\\20261102T061902745050Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 105600,
+      "game": "Terraria",
+      "language": "schinese",
+      "count": 137,
+      "path": "D:\\mining-from-steam\\data\\steam\\105600\\20261102T061902745050Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 105600,
+      "game": "Terraria",
+      "language": "schinese",
+      "count": 44,
+      "path": "D:\\mining-from-steam\\data\\steam\\105600\\20261102T061902745050Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 4000,
+      "game": "Garry's Mod",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\4000\\20261102T061920800909Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 4000,
+      "game": "Garry's Mod",
+      "language": "english",
+      "count": 67,
+      "path": "D:\\mining-from-steam\\data\\steam\\4000\\20261102T061920800909Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 4000,
+      "game": "Garry's Mod",
+      "language": "english",
+      "count": 16,
+      "path": "D:\\mining-from-steam\\data\\steam\\4000\\20261102T061920800909Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 4000,
+      "game": "Garry's Mod",
+      "language": "schinese",
+      "count": 124,
+      "path": "D:\\mining-from-steam\\data\\steam\\4000\\20261102T061920800909Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 4000,
+      "game": "Garry's Mod",
+      "language": "schinese",
+      "count": 38,
+      "path": "D:\\mining-from-steam\\data\\steam\\4000\\20261102T061920800909Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1623730,
+      "game": "Palworld",
+      "language": "english",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\1623730\\20261102T061937609900Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1623730,
+      "game": "Palworld",
+      "language": "english",
+      "count": 39,
+      "path": "D:\\mining-from-steam\\data\\steam\\1623730\\20261102T061937609900Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1623730,
+      "game": "Palworld",
+      "language": "english",
+      "count": 12,
+      "path": "D:\\mining-from-steam\\data\\steam\\1623730\\20261102T061937609900Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1623730,
+      "game": "Palworld",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\1623730\\20261102T061937609900Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1623730,
+      "game": "Palworld",
+      "language": "schinese",
+      "count": 126,
+      "path": "D:\\mining-from-steam\\data\\steam\\1623730\\20261102T061937609900Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1623730,
+      "game": "Palworld",
+      "language": "schinese",
+      "count": 49,
+      "path": "D:\\mining-from-steam\\data\\steam\\1623730\\20261102T061937609900Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1174180,
+      "game": "Red Dead Redemption 2",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\1174180\\20261102T061954779301Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1174180,
+      "game": "Red Dead Redemption 2",
+      "language": "english",
+      "count": 47,
+      "path": "D:\\mining-from-steam\\data\\steam\\1174180\\20261102T061954779301Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1174180,
+      "game": "Red Dead Redemption 2",
+      "language": "english",
+      "count": 14,
+      "path": "D:\\mining-from-steam\\data\\steam\\1174180\\20261102T061954779301Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1174180,
+      "game": "Red Dead Redemption 2",
+      "language": "schinese",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\1174180\\20261102T061954779301Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1174180,
+      "game": "Red Dead Redemption 2",
+      "language": "schinese",
+      "count": 129,
+      "path": "D:\\mining-from-steam\\data\\steam\\1174180\\20261102T061954779301Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1174180,
+      "game": "Red Dead Redemption 2",
+      "language": "schinese",
+      "count": 48,
+      "path": "D:\\mining-from-steam\\data\\steam\\1174180\\20261102T061954779301Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 447040,
+      "game": "Watch Dogs 2",
+      "language": "english",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\447040\\20261102T062013798315Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 447040,
+      "game": "Watch Dogs 2",
+      "language": "english",
+      "count": 38,
+      "path": "D:\\mining-from-steam\\data\\steam\\447040\\20261102T062013798315Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 447040,
+      "game": "Watch Dogs 2",
+      "language": "english",
+      "count": 9,
+      "path": "D:\\mining-from-steam\\data\\steam\\447040\\20261102T062013798315Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 447040,
+      "game": "Watch Dogs 2",
+      "language": "schinese",
+      "count": 126,
+      "path": "D:\\mining-from-steam\\data\\steam\\447040\\20261102T062013798315Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 447040,
+      "game": "Watch Dogs 2",
+      "language": "schinese",
+      "count": 30,
+      "path": "D:\\mining-from-steam\\data\\steam\\447040\\20261102T062013798315Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 236390,
+      "game": "War Thunder",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\236390\\20261102T062030255735Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 236390,
+      "game": "War Thunder",
+      "language": "english",
+      "count": 35,
+      "path": "D:\\mining-from-steam\\data\\steam\\236390\\20261102T062030255735Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 236390,
+      "game": "War Thunder",
+      "language": "english",
+      "count": 7,
+      "path": "D:\\mining-from-steam\\data\\steam\\236390\\20261102T062030255735Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 236390,
+      "game": "War Thunder",
+      "language": "schinese",
+      "count": 107,
+      "path": "D:\\mining-from-steam\\data\\steam\\236390\\20261102T062030255735Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 236390,
+      "game": "War Thunder",
+      "language": "schinese",
+      "count": 7,
+      "path": "D:\\mining-from-steam\\data\\steam\\236390\\20261102T062030255735Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 489830,
+      "game": "The Elder Scrolls V: Skyrim Special Edition",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\489830\\20261102T062047691480Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 489830,
+      "game": "The Elder Scrolls V: Skyrim Special Edition",
+      "language": "english",
+      "count": 32,
+      "path": "D:\\mining-from-steam\\data\\steam\\489830\\20261102T062047691480Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 489830,
+      "game": "The Elder Scrolls V: Skyrim Special Edition",
+      "language": "english",
+      "count": 7,
+      "path": "D:\\mining-from-steam\\data\\steam\\489830\\20261102T062047691480Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 489830,
+      "game": "The Elder Scrolls V: Skyrim Special Edition",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\489830\\20261102T062047691480Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 489830,
+      "game": "The Elder Scrolls V: Skyrim Special Edition",
+      "language": "schinese",
+      "count": 86,
+      "path": "D:\\mining-from-steam\\data\\steam\\489830\\20261102T062047691480Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 489830,
+      "game": "The Elder Scrolls V: Skyrim Special Edition",
+      "language": "schinese",
+      "count": 23,
+      "path": "D:\\mining-from-steam\\data\\steam\\489830\\20261102T062047691480Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1203220,
+      "game": "NARAKA: BLADEPOINT",
+      "language": "english",
+      "count": 35,
+      "path": "D:\\mining-from-steam\\data\\steam\\1203220\\20261102T062106359792Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1203220,
+      "game": "NARAKA: BLADEPOINT",
+      "language": "english",
+      "count": 11,
+      "path": "D:\\mining-from-steam\\data\\steam\\1203220\\20261102T062106359792Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1203220,
+      "game": "NARAKA: BLADEPOINT",
+      "language": "schinese",
+      "count": 125,
+      "path": "D:\\mining-from-steam\\data\\steam\\1203220\\20261102T062106359792Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1203220,
+      "game": "NARAKA: BLADEPOINT",
+      "language": "schinese",
+      "count": 19,
+      "path": "D:\\mining-from-steam\\data\\steam\\1203220\\20261102T062106359792Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 588650,
+      "game": "Dead Cells",
+      "language": "english",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\588650\\20261102T062123878455Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 588650,
+      "game": "Dead Cells",
+      "language": "english",
+      "count": 40,
+      "path": "D:\\mining-from-steam\\data\\steam\\588650\\20261102T062123878455Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 588650,
+      "game": "Dead Cells",
+      "language": "english",
+      "count": 13,
+      "path": "D:\\mining-from-steam\\data\\steam\\588650\\20261102T062123878455Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 588650,
+      "game": "Dead Cells",
+      "language": "schinese",
+      "count": 4,
+      "path": "D:\\mining-from-steam\\data\\steam\\588650\\20261102T062123878455Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 588650,
+      "game": "Dead Cells",
+      "language": "schinese",
+      "count": 126,
+      "path": "D:\\mining-from-steam\\data\\steam\\588650\\20261102T062123878455Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 588650,
+      "game": "Dead Cells",
+      "language": "schinese",
+      "count": 45,
+      "path": "D:\\mining-from-steam\\data\\steam\\588650\\20261102T062123878455Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 381210,
+      "game": "Dead by Daylight",
+      "language": "english",
+      "count": 31,
+      "path": "D:\\mining-from-steam\\data\\steam\\381210\\20261102T062141649919Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 381210,
+      "game": "Dead by Daylight",
+      "language": "english",
+      "count": 3,
+      "path": "D:\\mining-from-steam\\data\\steam\\381210\\20261102T062141649919Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 381210,
+      "game": "Dead by Daylight",
+      "language": "schinese",
+      "count": 95,
+      "path": "D:\\mining-from-steam\\data\\steam\\381210\\20261102T062141649919Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 381210,
+      "game": "Dead by Daylight",
+      "language": "schinese",
+      "count": 18,
+      "path": "D:\\mining-from-steam\\data\\steam\\381210\\20261102T062141649919Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 238960,
+      "game": "Path of Exile",
+      "language": "english",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\238960\\20261102T063246432381Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 238960,
+      "game": "Path of Exile",
+      "language": "english",
+      "count": 37,
+      "path": "D:\\mining-from-steam\\data\\steam\\238960\\20261102T063246432381Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 238960,
+      "game": "Path of Exile",
+      "language": "english",
+      "count": 4,
+      "path": "D:\\mining-from-steam\\data\\steam\\238960\\20261102T063246432381Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "language_target_shortfall",
+      "appid": 238960,
+      "game": "Path of Exile",
+      "language": "schinese",
+      "count": 178,
+      "path": "D:\\mining-from-steam\\data\\steam\\238960\\20261102T063246432381Z\\manifest.json",
+      "details": "collected=22, target=200"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 238960,
+      "game": "Path of Exile",
+      "language": "schinese",
+      "count": 9,
+      "path": "D:\\mining-from-steam\\data\\steam\\238960\\20261102T063246432381Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 238960,
+      "game": "Path of Exile",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\238960\\20261102T063246432381Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 220,
+      "game": "Half-Life 2",
+      "language": "english",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\220\\20261102T062218893206Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 220,
+      "game": "Half-Life 2",
+      "language": "english",
+      "count": 40,
+      "path": "D:\\mining-from-steam\\data\\steam\\220\\20261102T062218893206Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 220,
+      "game": "Half-Life 2",
+      "language": "english",
+      "count": 11,
+      "path": "D:\\mining-from-steam\\data\\steam\\220\\20261102T062218893206Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 220,
+      "game": "Half-Life 2",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\220\\20261102T062218893206Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 220,
+      "game": "Half-Life 2",
+      "language": "schinese",
+      "count": 100,
+      "path": "D:\\mining-from-steam\\data\\steam\\220\\20261102T062218893206Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 220,
+      "game": "Half-Life 2",
+      "language": "schinese",
+      "count": 23,
+      "path": "D:\\mining-from-steam\\data\\steam\\220\\20261102T062218893206Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 8930,
+      "game": "Sid Meier's Civilization V",
+      "language": "english",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\8930\\20261102T063259114704Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 8930,
+      "game": "Sid Meier's Civilization V",
+      "language": "english",
+      "count": 29,
+      "path": "D:\\mining-from-steam\\data\\steam\\8930\\20261102T063259114704Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 8930,
+      "game": "Sid Meier's Civilization V",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\8930\\20261102T063259114704Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "language_target_shortfall",
+      "appid": 8930,
+      "game": "Sid Meier's Civilization V",
+      "language": "schinese",
+      "count": 121,
+      "path": "D:\\mining-from-steam\\data\\steam\\8930\\20261102T063259114704Z\\manifest.json",
+      "details": "collected=79, target=200"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 8930,
+      "game": "Sid Meier's Civilization V",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\8930\\20261102T063259114704Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 8930,
+      "game": "Sid Meier's Civilization V",
+      "language": "schinese",
+      "count": 33,
+      "path": "D:\\mining-from-steam\\data\\steam\\8930\\20261102T063259114704Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 8930,
+      "game": "Sid Meier's Civilization V",
+      "language": "schinese",
+      "count": 5,
+      "path": "D:\\mining-from-steam\\data\\steam\\8930\\20261102T063259114704Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 289070,
+      "game": "Sid Meier's Civilization VI",
+      "language": "english",
+      "count": 4,
+      "path": "D:\\mining-from-steam\\data\\steam\\289070\\20261102T062251102772Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 289070,
+      "game": "Sid Meier's Civilization VI",
+      "language": "english",
+      "count": 36,
+      "path": "D:\\mining-from-steam\\data\\steam\\289070\\20261102T062251102772Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 289070,
+      "game": "Sid Meier's Civilization VI",
+      "language": "english",
+      "count": 10,
+      "path": "D:\\mining-from-steam\\data\\steam\\289070\\20261102T062251102772Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 289070,
+      "game": "Sid Meier's Civilization VI",
+      "language": "schinese",
+      "count": 118,
+      "path": "D:\\mining-from-steam\\data\\steam\\289070\\20261102T062251102772Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 289070,
+      "game": "Sid Meier's Civilization VI",
+      "language": "schinese",
+      "count": 32,
+      "path": "D:\\mining-from-steam\\data\\steam\\289070\\20261102T062251102772Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1145360,
+      "game": "Hades",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\1145360\\20261102T062306749496Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1145360,
+      "game": "Hades",
+      "language": "english",
+      "count": 37,
+      "path": "D:\\mining-from-steam\\data\\steam\\1145360\\20261102T062306749496Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1145360,
+      "game": "Hades",
+      "language": "english",
+      "count": 6,
+      "path": "D:\\mining-from-steam\\data\\steam\\1145360\\20261102T062306749496Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1145360,
+      "game": "Hades",
+      "language": "schinese",
+      "count": 101,
+      "path": "D:\\mining-from-steam\\data\\steam\\1145360\\20261102T062306749496Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1145360,
+      "game": "Hades",
+      "language": "schinese",
+      "count": 38,
+      "path": "D:\\mining-from-steam\\data\\steam\\1145360\\20261102T062306749496Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 813780,
+      "game": "Age of Empires II: Definitive Edition",
+      "language": "english",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\813780\\20261102T062321728791Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 813780,
+      "game": "Age of Empires II: Definitive Edition",
+      "language": "english",
+      "count": 37,
+      "path": "D:\\mining-from-steam\\data\\steam\\813780\\20261102T062321728791Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 813780,
+      "game": "Age of Empires II: Definitive Edition",
+      "language": "english",
+      "count": 9,
+      "path": "D:\\mining-from-steam\\data\\steam\\813780\\20261102T062321728791Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 813780,
+      "game": "Age of Empires II: Definitive Edition",
+      "language": "schinese",
+      "count": 100,
+      "path": "D:\\mining-from-steam\\data\\steam\\813780\\20261102T062321728791Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 813780,
+      "game": "Age of Empires II: Definitive Edition",
+      "language": "schinese",
+      "count": 18,
+      "path": "D:\\mining-from-steam\\data\\steam\\813780\\20261102T062321728791Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 648800,
+      "game": "Raft",
+      "language": "english",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\648800\\20261102T062337749257Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 648800,
+      "game": "Raft",
+      "language": "english",
+      "count": 54,
+      "path": "D:\\mining-from-steam\\data\\steam\\648800\\20261102T062337749257Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 648800,
+      "game": "Raft",
+      "language": "english",
+      "count": 10,
+      "path": "D:\\mining-from-steam\\data\\steam\\648800\\20261102T062337749257Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 648800,
+      "game": "Raft",
+      "language": "schinese",
+      "count": 134,
+      "path": "D:\\mining-from-steam\\data\\steam\\648800\\20261102T062337749257Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 648800,
+      "game": "Raft",
+      "language": "schinese",
+      "count": 48,
+      "path": "D:\\mining-from-steam\\data\\steam\\648800\\20261102T062337749257Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 346110,
+      "game": "ARK: Survival Evolved",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\346110\\20261102T062402625663Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 346110,
+      "game": "ARK: Survival Evolved",
+      "language": "english",
+      "count": 47,
+      "path": "D:\\mining-from-steam\\data\\steam\\346110\\20261102T062402625663Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 346110,
+      "game": "ARK: Survival Evolved",
+      "language": "english",
+      "count": 10,
+      "path": "D:\\mining-from-steam\\data\\steam\\346110\\20261102T062402625663Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 346110,
+      "game": "ARK: Survival Evolved",
+      "language": "schinese",
+      "count": 140,
+      "path": "D:\\mining-from-steam\\data\\steam\\346110\\20261102T062402625663Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 346110,
+      "game": "ARK: Survival Evolved",
+      "language": "schinese",
+      "count": 40,
+      "path": "D:\\mining-from-steam\\data\\steam\\346110\\20261102T062402625663Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 440900,
+      "game": "Conan Exiles",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\440900\\20261102T062425425090Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 440900,
+      "game": "Conan Exiles",
+      "language": "english",
+      "count": 25,
+      "path": "D:\\mining-from-steam\\data\\steam\\440900\\20261102T062425425090Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 440900,
+      "game": "Conan Exiles",
+      "language": "english",
+      "count": 7,
+      "path": "D:\\mining-from-steam\\data\\steam\\440900\\20261102T062425425090Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 440900,
+      "game": "Conan Exiles",
+      "language": "schinese",
+      "count": 51,
+      "path": "D:\\mining-from-steam\\data\\steam\\440900\\20261102T062425425090Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 440900,
+      "game": "Conan Exiles",
+      "language": "schinese",
+      "count": 11,
+      "path": "D:\\mining-from-steam\\data\\steam\\440900\\20261102T062425425090Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1517290,
+      "game": "Battlefield 2042",
+      "language": "english",
+      "count": 43,
+      "path": "D:\\mining-from-steam\\data\\steam\\1517290\\20261102T062447888887Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1517290,
+      "game": "Battlefield 2042",
+      "language": "english",
+      "count": 12,
+      "path": "D:\\mining-from-steam\\data\\steam\\1517290\\20261102T062447888887Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1517290,
+      "game": "Battlefield 2042",
+      "language": "schinese",
+      "count": 74,
+      "path": "D:\\mining-from-steam\\data\\steam\\1517290\\20261102T062447888887Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1517290,
+      "game": "Battlefield 2042",
+      "language": "schinese",
+      "count": 8,
+      "path": "D:\\mining-from-steam\\data\\steam\\1517290\\20261102T062447888887Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 244850,
+      "game": "Space Engineers",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\244850\\20261102T063310011030Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 244850,
+      "game": "Space Engineers",
+      "language": "english",
+      "count": 35,
+      "path": "D:\\mining-from-steam\\data\\steam\\244850\\20261102T063310011030Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 244850,
+      "game": "Space Engineers",
+      "language": "english",
+      "count": 10,
+      "path": "D:\\mining-from-steam\\data\\steam\\244850\\20261102T063310011030Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "language_target_shortfall",
+      "appid": 244850,
+      "game": "Space Engineers",
+      "language": "schinese",
+      "count": 165,
+      "path": "D:\\mining-from-steam\\data\\steam\\244850\\20261102T063310011030Z\\manifest.json",
+      "details": "collected=35, target=200"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 244850,
+      "game": "Space Engineers",
+      "language": "schinese",
+      "count": 13,
+      "path": "D:\\mining-from-steam\\data\\steam\\244850\\20261102T063310011030Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 244850,
+      "game": "Space Engineers",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\244850\\20261102T063310011030Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 322330,
+      "game": "Don't Starve Together",
+      "language": "english",
+      "count": 54,
+      "path": "D:\\mining-from-steam\\data\\steam\\322330\\20261102T062530500967Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 322330,
+      "game": "Don't Starve Together",
+      "language": "english",
+      "count": 9,
+      "path": "D:\\mining-from-steam\\data\\steam\\322330\\20261102T062530500967Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 322330,
+      "game": "Don't Starve Together",
+      "language": "schinese",
+      "count": 118,
+      "path": "D:\\mining-from-steam\\data\\steam\\322330\\20261102T062530500967Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 322330,
+      "game": "Don't Starve Together",
+      "language": "schinese",
+      "count": 38,
+      "path": "D:\\mining-from-steam\\data\\steam\\322330\\20261102T062530500967Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1426210,
+      "game": "It Takes Two",
+      "language": "english",
+      "count": 40,
+      "path": "D:\\mining-from-steam\\data\\steam\\1426210\\20261102T062550052822Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1426210,
+      "game": "It Takes Two",
+      "language": "english",
+      "count": 9,
+      "path": "D:\\mining-from-steam\\data\\steam\\1426210\\20261102T062550052822Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1426210,
+      "game": "It Takes Two",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\1426210\\20261102T062550052822Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1426210,
+      "game": "It Takes Two",
+      "language": "schinese",
+      "count": 127,
+      "path": "D:\\mining-from-steam\\data\\steam\\1426210\\20261102T062550052822Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1426210,
+      "game": "It Takes Two",
+      "language": "schinese",
+      "count": 46,
+      "path": "D:\\mining-from-steam\\data\\steam\\1426210\\20261102T062550052822Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 739630,
+      "game": "Phasmophobia",
+      "language": "english",
+      "count": 44,
+      "path": "D:\\mining-from-steam\\data\\steam\\739630\\20261102T062608220332Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 739630,
+      "game": "Phasmophobia",
+      "language": "english",
+      "count": 8,
+      "path": "D:\\mining-from-steam\\data\\steam\\739630\\20261102T062608220332Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 739630,
+      "game": "Phasmophobia",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\739630\\20261102T062608220332Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 739630,
+      "game": "Phasmophobia",
+      "language": "schinese",
+      "count": 112,
+      "path": "D:\\mining-from-steam\\data\\steam\\739630\\20261102T062608220332Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 739630,
+      "game": "Phasmophobia",
+      "language": "schinese",
+      "count": 26,
+      "path": "D:\\mining-from-steam\\data\\steam\\739630\\20261102T062608220332Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 230410,
+      "game": "Warframe",
+      "language": "english",
+      "count": 45,
+      "path": "D:\\mining-from-steam\\data\\steam\\230410\\20261102T062627759296Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 230410,
+      "game": "Warframe",
+      "language": "english",
+      "count": 13,
+      "path": "D:\\mining-from-steam\\data\\steam\\230410\\20261102T062627759296Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 230410,
+      "game": "Warframe",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\230410\\20261102T062627759296Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 230410,
+      "game": "Warframe",
+      "language": "schinese",
+      "count": 119,
+      "path": "D:\\mining-from-steam\\data\\steam\\230410\\20261102T062627759296Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 230410,
+      "game": "Warframe",
+      "language": "schinese",
+      "count": 32,
+      "path": "D:\\mining-from-steam\\data\\steam\\230410\\20261102T062627759296Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 976730,
+      "game": "Halo: The Master Chief Collection",
+      "language": "english",
+      "count": 2,
+      "path": "D:\\mining-from-steam\\data\\steam\\976730\\20261102T062649966094Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 976730,
+      "game": "Halo: The Master Chief Collection",
+      "language": "english",
+      "count": 21,
+      "path": "D:\\mining-from-steam\\data\\steam\\976730\\20261102T062649966094Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 976730,
+      "game": "Halo: The Master Chief Collection",
+      "language": "english",
+      "count": 4,
+      "path": "D:\\mining-from-steam\\data\\steam\\976730\\20261102T062649966094Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 976730,
+      "game": "Halo: The Master Chief Collection",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\976730\\20261102T062649966094Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 976730,
+      "game": "Halo: The Master Chief Collection",
+      "language": "schinese",
+      "count": 65,
+      "path": "D:\\mining-from-steam\\data\\steam\\976730\\20261102T062649966094Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 976730,
+      "game": "Halo: The Master Chief Collection",
+      "language": "schinese",
+      "count": 6,
+      "path": "D:\\mining-from-steam\\data\\steam\\976730\\20261102T062649966094Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 291550,
+      "game": "Brawlhalla",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\291550\\20261102T063323377473Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 291550,
+      "game": "Brawlhalla",
+      "language": "english",
+      "count": 42,
+      "path": "D:\\mining-from-steam\\data\\steam\\291550\\20261102T063323377473Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 291550,
+      "game": "Brawlhalla",
+      "language": "english",
+      "count": 3,
+      "path": "D:\\mining-from-steam\\data\\steam\\291550\\20261102T063323377473Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "language_target_shortfall",
+      "appid": 291550,
+      "game": "Brawlhalla",
+      "language": "schinese",
+      "count": 50,
+      "path": "D:\\mining-from-steam\\data\\steam\\291550\\20261102T063323377473Z\\manifest.json",
+      "details": "collected=150, target=200"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 291550,
+      "game": "Brawlhalla",
+      "language": "schinese",
+      "count": 67,
+      "path": "D:\\mining-from-steam\\data\\steam\\291550\\20261102T063323377473Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 291550,
+      "game": "Brawlhalla",
+      "language": "schinese",
+      "count": 13,
+      "path": "D:\\mining-from-steam\\data\\steam\\291550\\20261102T063323377473Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 261550,
+      "game": "Mount & Blade II: Bannerlord",
+      "language": "english",
+      "count": 3,
+      "path": "D:\\mining-from-steam\\data\\steam\\261550\\20261102T062730690531Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 261550,
+      "game": "Mount & Blade II: Bannerlord",
+      "language": "english",
+      "count": 45,
+      "path": "D:\\mining-from-steam\\data\\steam\\261550\\20261102T062730690531Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 261550,
+      "game": "Mount & Blade II: Bannerlord",
+      "language": "english",
+      "count": 15,
+      "path": "D:\\mining-from-steam\\data\\steam\\261550\\20261102T062730690531Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 261550,
+      "game": "Mount & Blade II: Bannerlord",
+      "language": "schinese",
+      "count": 127,
+      "path": "D:\\mining-from-steam\\data\\steam\\261550\\20261102T062730690531Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 261550,
+      "game": "Mount & Blade II: Bannerlord",
+      "language": "schinese",
+      "count": 31,
+      "path": "D:\\mining-from-steam\\data\\steam\\261550\\20261102T062730690531Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1687950,
+      "game": "Persona 5 Royal",
+      "language": "english",
+      "count": 33,
+      "path": "D:\\mining-from-steam\\data\\steam\\1687950\\20261102T062755593398Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1687950,
+      "game": "Persona 5 Royal",
+      "language": "english",
+      "count": 8,
+      "path": "D:\\mining-from-steam\\data\\steam\\1687950\\20261102T062755593398Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 1687950,
+      "game": "Persona 5 Royal",
+      "language": "schinese",
+      "count": 3,
+      "path": "D:\\mining-from-steam\\data\\steam\\1687950\\20261102T062755593398Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 1687950,
+      "game": "Persona 5 Royal",
+      "language": "schinese",
+      "count": 89,
+      "path": "D:\\mining-from-steam\\data\\steam\\1687950\\20261102T062755593398Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 1687950,
+      "game": "Persona 5 Royal",
+      "language": "schinese",
+      "count": 25,
+      "path": "D:\\mining-from-steam\\data\\steam\\1687950\\20261102T062755593398Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 250900,
+      "game": "The Binding of Isaac: Rebirth",
+      "language": "english",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\250900\\20261102T062815093482Z\\english\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 250900,
+      "game": "The Binding of Isaac: Rebirth",
+      "language": "english",
+      "count": 50,
+      "path": "D:\\mining-from-steam\\data\\steam\\250900\\20261102T062815093482Z\\english\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 250900,
+      "game": "The Binding of Isaac: Rebirth",
+      "language": "english",
+      "count": 13,
+      "path": "D:\\mining-from-steam\\data\\steam\\250900\\20261102T062815093482Z\\english\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "error",
+      "code": "empty_review_text",
+      "appid": 250900,
+      "game": "The Binding of Isaac: Rebirth",
+      "language": "schinese",
+      "count": 1,
+      "path": "D:\\mining-from-steam\\data\\steam\\250900\\20261102T062815093482Z\\schinese\\reviews.jsonl",
+      "details": "review text is empty after whitespace normalization"
+    },
+    {
+      "severity": "error",
+      "code": "short_review_text",
+      "appid": 250900,
+      "game": "The Binding of Isaac: Rebirth",
+      "language": "schinese",
+      "count": 110,
+      "path": "D:\\mining-from-steam\\data\\steam\\250900\\20261102T062815093482Z\\schinese\\reviews.jsonl",
+      "details": "normalized review text is shorter than 10 characters"
+    },
+    {
+      "severity": "error",
+      "code": "duplicate_review_text",
+      "appid": 250900,
+      "game": "The Binding of Isaac: Rebirth",
+      "language": "schinese",
+      "count": 34,
+      "path": "D:\\mining-from-steam\\data\\steam\\250900\\20261102T062815093482Z\\schinese\\reviews.jsonl",
+      "details": "case/whitespace-normalized duplicate review text"
+    },
+    {
+      "severity": "info",
+      "code": "cross_game_author_count",
+      "appid": "",
+      "game": "",
+      "language": "",
+      "count": 282,
+      "path": "",
+      "details": "unique authors appearing in reviews for more than one game"
+    }
+  ]
+}

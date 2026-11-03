@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-02T11:00:04.224887+00:00",
+  "freeze_manifest": "data/freeze_20261101/freeze_manifest.json",
+  "sources": [
+    {
+      "path": "data/freeze_20261101/freeze_manifest.json",
+      "sha256": "b688696c15ea6f626f788dad113beacf2618ff15c455ea21509550ba7e501f26"
+    },
+    {
+      "path": "config/games_clustering.json",
+      "sha256": "deaa8d9f07a35ba468ed6697543a388afa11d7686382df95be4087d542bf6ec9"
+    },
+    {
+      "path": "data/quality_table.csv",
+      "sha256": "1f0acf4ced1507fc472dde50d8870688d458f246a76a3654a68d69e559e6aa1e"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/clean_master.csv",
+      "sha256": "8d2d24ecfad8612ceb21f2f5b7902378429ea19ed539609e500d0540d87313d6"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/cleaning_summary.json",
+      "sha256": "f629e768fac1d339bcc9488fbeff4ab908412f287df16e34a46637353c282e1d"
+    }
+  ],
+  "counts": {
+    "dictionary_fields": 155,
+    "review_fields": 67,
+    "quality_fields": 32,
+    "game_meta_fields": 56,
+    "games": 50,
+    "partial_games": 4,
+    "store_fallback_games": 1
+  },
+  "files": [
+    {
+      "path": "data/metadata/freeze_20261101/data_dictionary.csv",
+      "bytes": 31975,
+      "sha256": "ba34ecfff57b5d525ffadf2d5ee187d06b1cf4885df8e709c530f5018dd4d76f"
+    },
+    {
+      "path": "data/metadata/freeze_20261101/game_meta.csv",
+      "bytes": 48327,
+      "sha256": "f10d70b21d39a3e5871a04cdc636ee31900b52c3c258f2b9c6bfdc443b32b546"
+    },
+    {
+      "path": "docs/data-dictionary.md",
+      "bytes": 30302,
+      "sha256": "2c4acc5a64113df49cd85b2475466647ee08aaeacdc40be45908cf5c68784253"
+    }
+  ]
+}

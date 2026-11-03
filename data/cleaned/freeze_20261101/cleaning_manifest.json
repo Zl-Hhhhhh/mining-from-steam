@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-11-02T10:43:33.236314+00:00",
+  "source_freeze_manifest": "data/freeze_20261101/freeze_manifest.json",
+  "source_freeze_manifest_sha256": "b688696c15ea6f626f788dad113beacf2618ff15c455ea21509550ba7e501f26",
+  "source_quality_table": "data/quality_table.csv",
+  "source_quality_table_sha256": "1f0acf4ced1507fc472dde50d8870688d458f246a76a3654a68d69e559e6aa1e",
+  "cleaning_script": "scripts/clean_reviews.py",
+  "cleaning_script_sha256": "cce3e87407f6037147a24b6c35173f94ae90773214cc489add9ee55def9e8b5a",
+  "parameters": {
+    "short_text_characters": 10,
+    "min_english_words": 3,
+    "min_chinese_characters": 4,
+    "min_language_comparison_unique_nonempty_per_language": 100,
+    "max_playtime_minutes": 5256000
+  },
+  "counts": {
+    "clean_master": 19486,
+    "topic_fit": 13149,
+    "association_data": 19395,
+    "empty_text": 91,
+    "short_text": 7185,
+    "low_information": 6101,
+    "duplicate_text_extra": 1865,
+    "duplicate_author_extra": 0,
+    "language_comparison_eligible_games": 19,
+    "games": 50,
+    "groups": 100
+  },
+  "files": [
+    {
+      "path": "data/cleaned/freeze_20261101/clean_master.jsonl",
+      "bytes": 50318240,
+      "sha256": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/clean_master.csv",
+      "bytes": 17764609,
+      "sha256": "8d2d24ecfad8612ceb21f2f5b7902378429ea19ed539609e500d0540d87313d6"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/topic_fit.jsonl",
+      "bytes": 36230566,
+      "sha256": "33b6181eb709d20e164a61fd9e6a579b19aca5989bf271a547c852c5361d51f1"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/topic_fit.csv",
+      "bytes": 14265820,
+      "sha256": "50f0ab9991367098268e5de878cab952e9fa1c72550d103f828aa41e32f19c0d"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/association_data.jsonl",
+      "bytes": 50120079,
+      "sha256": "2e33e5994fae07fef2a0e8551e3dc702ca79f97267a0c8fdd3a2f5ab18277d51"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/association_data.csv",
+      "bytes": 17718863,
+      "sha256": "124b2a0c2b045936960ef38ef3520437c246e3742988a7f2404581dc936b1197"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/cleaning_summary.json",
+      "bytes": 87647,
+      "sha256": "f629e768fac1d339bcc9488fbeff4ab908412f287df16e34a46637353c282e1d"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/cleaning_summary.csv",
+      "bytes": 11973,
+      "sha256": "039856270361c0761fb3d558c4ca1e9a3b6e7415d23fc57ea11c7731a309911e"
+    }
+  ]
+}
