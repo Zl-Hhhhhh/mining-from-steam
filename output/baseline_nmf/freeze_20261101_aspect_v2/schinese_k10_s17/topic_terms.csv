@@ -1,0 +1,151 @@
+﻿topic_index,rank,term,weight,document_frequency,candidate_id,language,topic_id
+0,1,没,0.9693148506358926,450,schinese_k10_s17,schinese,schinese:T00
+0,2,天天,0.06510056120522514,42,schinese_k10_s17,schinese,schinese:T00
+0,3,存档,0.05633180747170133,54,schinese_k10_s17,schinese,schinese:T00
+0,4,小时 没,0.037900983613800655,14,schinese_k10_s17,schinese,schinese:T00
+0,5,上瘾,0.036798700730948854,36,schinese_k10_s17,schinese,schinese:T00
+0,6,没 明白,0.03444500141488753,10,schinese_k10_s17,schinese,schinese:T00
+0,7,一代,0.03242315942239871,50,schinese_k10_s17,schinese,schinese:T00
+0,8,bug,0.031260619242056545,166,schinese_k10_s17,schinese,schinese:T00
+0,9,直接,0.030813624877390238,133,schinese_k10_s17,schinese,schinese:T00
+0,10,可惜 没,0.03032917544183685,6,schinese_k10_s17,schinese,schinese:T00
+0,11,存档 没,0.030122177493921907,5,schinese_k10_s17,schinese,schinese:T00
+0,12,明白,0.02981915001719171,40,schinese_k10_s17,schinese,schinese:T00
+0,13,除了,0.029567542158365302,102,schinese_k10_s17,schinese,schinese:T00
+0,14,那么,0.02921127401797584,96,schinese_k10_s17,schinese,schinese:T00
+0,15,老子,0.028883506955287658,24,schinese_k10_s17,schinese,schinese:T00
+1,1,朋友,0.90814340656398,176,schinese_k10_s17,schinese,schinese:T01
+1,2,一起,0.4843473677816376,148,schinese_k10_s17,schinese,schinese:T01
+1,3,朋友 一起,0.3977833880092847,57,schinese_k10_s17,schinese,schinese:T01
+1,4,联机,0.19535309818698882,117,schinese_k10_s17,schinese,schinese:T01
+1,5,有意思,0.09092805919963586,71,schinese_k10_s17,schinese,schinese:T01
+1,6,配置,0.04640184108382536,43,schinese_k10_s17,schinese,schinese:T01
+1,7,单人,0.04292515572906696,48,schinese_k10_s17,schinese,schinese:T01
+1,8,朋友 联机,0.04284675179126809,9,schinese_k10_s17,schinese,schinese:T01
+1,9,非常适合,0.04056443197472795,5,schinese_k10_s17,schinese,schinese:T01
+1,10,玩完,0.04045591559703338,36,schinese_k10_s17,schinese,schinese:T01
+1,11,快乐,0.03725399239913298,43,schinese_k10_s17,schinese,schinese:T01
+1,12,联机 朋友,0.035035951168050035,5,schinese_k10_s17,schinese,schinese:T01
+1,13,建议,0.031099951494456702,77,schinese_k10_s17,schinese,schinese:T01
+1,14,最好,0.030876988734024717,67,schinese_k10_s17,schinese,schinese:T01
+1,15,开心,0.027226067280137982,33,schinese_k10_s17,schinese,schinese:T01
+2,1,服务器,1.624347600201927,139,schinese_k10_s17,schinese,schinese:T02
+2,2,土豆,0.26575918487284866,24,schinese_k10_s17,schinese,schinese:T02
+2,3,优化,0.19556508588080618,119,schinese_k10_s17,schinese,schinese:T02
+2,4,一样,0.17355784673034116,154,schinese_k10_s17,schinese,schinese:T02
+2,5,土豆 服务器,0.16496781451596915,9,schinese_k10_s17,schinese,schinese:T02
+2,6,ea,0.12874898882628924,32,schinese_k10_s17,schinese,schinese:T02
+2,7,联机,0.09755880679435945,117,schinese_k10_s17,schinese,schinese:T02
+2,8,服务器 土豆,0.0944182447324789,11,schinese_k10_s17,schinese,schinese:T02
+2,9,进不去,0.07560035788649172,49,schinese_k10_s17,schinese,schinese:T02
+2,10,官方,0.07287044046206381,62,schinese_k10_s17,schinese,schinese:T02
+2,11,连接,0.07026791201162905,14,schinese_k10_s17,schinese,schinese:T02
+2,12,一半,0.06606672496550732,26,schinese_k10_s17,schinese,schinese:T02
+2,13,没有,0.05901231619508649,408,schinese_k10_s17,schinese,schinese:T02
+2,14,要死,0.055149118402546354,28,schinese_k10_s17,schinese,schinese:T02
+2,15,官方 服务器,0.053904989585033265,6,schinese_k10_s17,schinese,schinese:T02
+3,1,可玩性,1.7111641566131215,62,schinese_k10_s17,schinese,schinese:T03
+3,2,有意思,0.20898842514546564,71,schinese_k10_s17,schinese,schinese:T03
+3,3,无敌,0.13457146215056948,53,schinese_k10_s17,schinese,schinese:T03
+3,4,联机,0.07106267894137815,117,schinese_k10_s17,schinese,schinese:T03
+3,5,停不下来,0.06025486316481158,22,schinese_k10_s17,schinese,schinese:T03
+3,6,优化,0.04506124438609557,119,schinese_k10_s17,schinese,schinese:T03
+3,7,想象,0.04084790794601302,23,schinese_k10_s17,schinese,schinese:T03
+3,8,三年,0.03798137418504421,9,schinese_k10_s17,schinese,schinese:T03
+3,9,不赖,0.037381441328954906,9,schinese_k10_s17,schinese,schinese:T03
+3,10,单人,0.036664526178933544,48,schinese_k10_s17,schinese,schinese:T03
+3,11,适合,0.03581972109201617,80,schinese_k10_s17,schinese,schinese:T03
+3,12,很多,0.0351421293710306,174,schinese_k10_s17,schinese,schinese:T03
+3,13,尝试,0.029966701572097323,34,schinese_k10_s17,schinese,schinese:T03
+3,14,不 烧心,0.02880008540015447,9,schinese_k10_s17,schinese,schinese:T03
+3,15,烧心,0.02807377344117499,13,schinese_k10_s17,schinese,schinese:T03
+4,1,小时,1.6073577350040933,271,schinese_k10_s17,schinese,schinese:T04
+4,2,开始,0.09767872680201156,149,schinese_k10_s17,schinese,schinese:T04
+4,3,一周,0.09609798743135364,33,schinese_k10_s17,schinese,schinese:T04
+4,4,入门,0.09451011309604639,20,schinese_k10_s17,schinese,schinese:T04
+4,5,两个,0.08633145715732018,71,schinese_k10_s17,schinese,schinese:T04
+4,6,小时 没,0.0809644572018222,14,schinese_k10_s17,schinese,schinese:T04
+4,7,多个,0.07976001540553516,14,schinese_k10_s17,schinese,schinese:T04
+4,8,多个 小时,0.07495659954553105,10,schinese_k10_s17,schinese,schinese:T04
+4,9,一次,0.07490961329836365,84,schinese_k10_s17,schinese,schinese:T04
+4,10,通关,0.06563840408201946,112,schinese_k10_s17,schinese,schinese:T04
+4,11,真好玩,0.06526701198691777,20,schinese_k10_s17,schinese,schinese:T04
+4,12,每次,0.060295420573016824,71,schinese_k10_s17,schinese,schinese:T04
+4,13,一直,0.05957294446444115,178,schinese_k10_s17,schinese,schinese:T04
+4,14,小时 不,0.051867876483662506,9,schinese_k10_s17,schinese,schinese:T04
+4,15,解压,0.05152104118930358,15,schinese_k10_s17,schinese,schinese:T04
+5,1,不,2.3264680786884604,909,schinese_k10_s17,schinese,schinese:T05
+5,2,知道,0.2609090293470861,198,schinese_k10_s17,schinese,schinese:T05
+5,3,不 知道,0.24504835280952816,134,schinese_k10_s17,schinese,schinese:T05
+5,4,为什么,0.12016367378283538,96,schinese_k10_s17,schinese,schinese:T05
+5,5,不 不,0.09366738527707316,22,schinese_k10_s17,schinese,schinese:T05
+5,6,不 下去,0.07960689612155449,29,schinese_k10_s17,schinese,schinese:T05
+5,7,不 友好,0.07603356818441298,33,schinese_k10_s17,schinese,schinese:T05
+5,8,友好,0.07447703494236768,55,schinese_k10_s17,schinese,schinese:T05
+5,9,解释,0.07422315543107841,14,schinese_k10_s17,schinese,schinese:T05
+5,10,不 解释,0.07100024477789593,10,schinese_k10_s17,schinese,schinese:T05
+5,11,下去,0.0707584319323472,76,schinese_k10_s17,schinese,schinese:T05
+5,12,为什么 不,0.059885686602229836,12,schinese_k10_s17,schinese,schinese:T05
+5,13,新手,0.05441312754084282,112,schinese_k10_s17,schinese,schinese:T05
+5,14,不 烧心,0.04954043889667771,9,schinese_k10_s17,schinese,schinese:T05
+5,15,烧心,0.04918407918548533,13,schinese_k10_s17,schinese,schinese:T05
+6,1,剧情,0.871359319233509,327,schinese_k10_s17,schinese,schinese:T06
+6,2,没有,0.696755718765855,408,schinese_k10_s17,schinese,schinese:T06
+6,3,体验,0.44769662487848066,259,schinese_k10_s17,schinese,schinese:T06
+6,4,时候,0.31791773715506483,208,schinese_k10_s17,schinese,schinese:T06
+6,5,时间,0.31576568389108245,184,schinese_k10_s17,schinese,schinese:T06
+6,6,还有,0.29557954699812367,200,schinese_k10_s17,schinese,schinese:T06
+6,7,战斗,0.29368128590004,152,schinese_k10_s17,schinese,schinese:T06
+6,8,内容,0.28628686814496185,143,schinese_k10_s17,schinese,schinese:T06
+6,9,很多,0.2808276681657038,174,schinese_k10_s17,schinese,schinese:T06
+6,10,玩法,0.27382028628672805,164,schinese_k10_s17,schinese,schinese:T06
+6,11,现在,0.27307751406686653,231,schinese_k10_s17,schinese,schinese:T06
+6,12,不是,0.25934405795244253,185,schinese_k10_s17,schinese,schinese:T06
+6,13,设计,0.24556456142064456,163,schinese_k10_s17,schinese,schinese:T06
+6,14,bug,0.24098664518797955,166,schinese_k10_s17,schinese,schinese:T06
+6,15,如果,0.23840489828032305,178,schinese_k10_s17,schinese,schinese:T06
+7,1,世界,1.727803772181084,194,schinese_k10_s17,schinese,schinese:T07
+7,2,开放,1.0558383741235267,74,schinese_k10_s17,schinese,schinese:T07
+7,3,开放 世界,0.9864559665175054,56,schinese_k10_s17,schinese,schinese:T07
+7,4,沉浸,0.16929533349480833,66,schinese_k10_s17,schinese,schinese:T07
+7,5,最好,0.14955489170535985,67,schinese_k10_s17,schinese,schinese:T07
+7,6,第一,0.1153858708073159,28,schinese_k10_s17,schinese,schinese:T07
+7,7,疯狂 世界,0.11058658996354973,9,schinese_k10_s17,schinese,schinese:T07
+7,8,疯狂,0.10524460770810877,34,schinese_k10_s17,schinese,schinese:T07
+7,9,真正,0.07667796728086539,56,schinese_k10_s17,schinese,schinese:T07
+7,10,生存,0.0679364557341645,42,schinese_k10_s17,schinese,schinese:T07
+7,11,完美,0.061058657264992953,55,schinese_k10_s17,schinese,schinese:T07
+7,12,最高,0.06043529680238392,29,schinese_k10_s17,schinese,schinese:T07
+7,13,良心,0.053357663697734835,21,schinese_k10_s17,schinese,schinese:T07
+7,14,启动,0.049952360817591315,36,schinese_k10_s17,schinese,schinese:T07
+7,15,最长,0.049906270013168226,9,schinese_k10_s17,schinese,schinese:T07
+8,1,更新,1.743872163497415,185,schinese_k10_s17,schinese,schinese:T08
+8,2,不了,0.5684522416526915,99,schinese_k10_s17,schinese,schinese:T08
+8,3,进不去,0.4915205639124087,49,schinese_k10_s17,schinese,schinese:T08
+8,4,一直,0.3938128105440187,178,schinese_k10_s17,schinese,schinese:T08
+8,5,联机,0.2813934445850784,117,schinese_k10_s17,schinese,schinese:T08
+8,6,不能,0.2809762984603986,152,schinese_k10_s17,schinese,schinese:T08
+8,7,启动,0.11853997556774563,36,schinese_k10_s17,schinese,schinese:T08
+8,8,不 更新,0.1086368340315568,6,schinese_k10_s17,schinese,schinese:T08
+8,9,现在,0.10527165267691559,231,schinese_k10_s17,schinese,schinese:T08
+8,10,版本,0.10171898349393979,47,schinese_k10_s17,schinese,schinese:T08
+8,11,优化,0.10166690745150922,119,schinese_k10_s17,schinese,schinese:T08
+8,12,dlc,0.10083462504290545,105,schinese_k10_s17,schinese,schinese:T08
+8,13,bug,0.09825959536824926,166,schinese_k10_s17,schinese,schinese:T08
+8,14,还有,0.09435760544829917,200,schinese_k10_s17,schinese,schinese:T08
+8,15,免费,0.09395930632738524,34,schinese_k10_s17,schinese,schinese:T08
+9,1,童年,2.0409793373600262,72,schinese_k10_s17,schinese,schinese:T09
+9,2,回忆,0.6236197047466336,37,schinese_k10_s17,schinese,schinese:T09
+9,3,童年 回忆,0.5310657997184156,16,schinese_k10_s17,schinese,schinese:T09
+9,4,小时候,0.23006081133744244,61,schinese_k10_s17,schinese,schinese:T09
+9,5,圆梦,0.2038288309539804,14,schinese_k10_s17,schinese,schinese:T09
+9,6,补票,0.14730638149803882,24,schinese_k10_s17,schinese,schinese:T09
+9,7,现在,0.08940930075994893,231,schinese_k10_s17,schinese,schinese:T09
+9,8,买单,0.08775159413393337,12,schinese_k10_s17,schinese,schinese:T09
+9,9,童年 买单,0.07318538208908429,5,schinese_k10_s17,schinese,schinese:T09
+9,10,不了,0.06436035349590465,99,schinese_k10_s17,schinese,schinese:T09
+9,11,必须,0.06355927798464488,52,schinese_k10_s17,schinese,schinese:T09
+9,12,终于,0.061247497338658835,53,schinese_k10_s17,schinese,schinese:T09
+9,13,虽然,0.05500710441328992,144,schinese_k10_s17,schinese,schinese:T09
+9,14,算是,0.047455107225262465,41,schinese_k10_s17,schinese,schinese:T09
+9,15,一块,0.046667533055574265,22,schinese_k10_s17,schinese,schinese:T09

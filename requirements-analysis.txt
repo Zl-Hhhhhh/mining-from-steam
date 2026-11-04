@@ -1,0 +1,10 @@
+# Install in the existing project virtual environment; collector dependencies stay separate.
+numpy==2.5.4
+pandas==3.1.0
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+statsmodels==0.15.0
+jieba==0.42.1
+joblib==1.6.0
+threadpoolctl==3.7.0

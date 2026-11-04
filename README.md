@@ -118,4 +118,8 @@ AIAA3111 课程项目：通过 Steam 官方接口、GitHub 开源工具和研究
 
 默认生成 `data/metadata/<freeze目录>/data_dictionary.csv`、`game_meta.csv`、`metadata_manifest.json` 和便于阅读的 `docs/data-dictionary.md`。数据字典覆盖清理评论表、质量表和游戏 meta 表的全部字段；游戏类型同时保留 Steam Store 官方 taxonomy 和项目配置中的人工标签。脚本会检查实际表头，存在未记录字段时停止。
 
-本次 setup 和实际采集结果见 [docs/setup-results.md](docs/setup-results.md)。`data/`、`external/`、`.venv/` 已加入 `.gitignore`；数据保留在本地，Git 提交只包含代码、配置与结果说明。
+## 主题挖掘基线
+
+B 的任务 9 已完成：中英文 TF-IDF + NMF、不同主题数及随机种子、候选比较、代表评论和双人盲核验空表。运行命令、结果入口及核验步骤见 [docs/topic-baseline.md](docs/topic-baseline.md)。任务 11 的独立人工核验、任务 12 的主题冻结及正式 RQ2/RQ4 主题关联分析尚未完成。
+
+本次 setup 和实际采集结果见 [docs/setup-results.md](docs/setup-results.md)。数据的 Git 跟踪规则以 `.gitignore` 为准；新增分析产物记录输入版本、配置和文件哈希。

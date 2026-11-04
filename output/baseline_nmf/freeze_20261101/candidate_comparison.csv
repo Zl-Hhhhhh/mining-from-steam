@@ -1,0 +1,13 @@
+﻿candidate_id,language,k,seed,fit_rows,association_rows,features,zero_vector_fit_rows,relative_reconstruction_error,iterations,converged,min_topic_rows,flagged_topics,mean_top10_npmi_train,association_clear_rows,association_no_clear_rows,status
+english_k6_s17,english,6,17,7145,9945,4127,560,0.9758161371311876,57,True,260,0,0.03163724873344472,3268,6677,candidate_pending_independent_human_review
+english_k6_s42,english,6,42,7145,9945,4127,560,0.97625779803392,127,True,176,1,0.0651648055933266,3294,6651,candidate_pending_independent_human_review
+english_k10_s17,english,10,17,7145,9945,4127,560,0.9654284894256346,67,True,131,0,-0.01991368090734542,3601,6344,candidate_pending_independent_human_review
+english_k10_s42,english,10,42,7145,9945,4127,560,0.9655090990683323,73,True,128,0,0.015041199595117594,3640,6305,candidate_pending_independent_human_review
+english_k14_s17,english,14,17,7145,9945,4127,560,0.957144886451126,67,True,124,0,-0.0616765754712005,3582,6363,candidate_pending_independent_human_review
+english_k14_s42,english,14,42,7145,9945,4127,560,0.957131256526178,80,True,125,0,-0.0628868453615047,3596,6349,candidate_pending_independent_human_review
+schinese_k6_s17,schinese,6,17,6004,9450,2787,411,0.9481459500491688,182,True,141,2,-0.05900730304345284,2700,6750,candidate_pending_independent_human_review
+schinese_k6_s42,schinese,6,42,6004,9450,2787,411,0.9480590979302365,136,True,166,1,-0.0537001448838384,2706,6744,candidate_pending_independent_human_review
+schinese_k10_s17,schinese,10,17,6004,9450,2787,411,0.9356087105675258,319,True,96,1,-0.17176814436047838,3261,6189,candidate_pending_independent_human_review
+schinese_k10_s42,schinese,10,42,6004,9450,2787,411,0.9357796168624006,78,True,132,1,-0.1268548420988386,3273,6177,candidate_pending_independent_human_review
+schinese_k14_s17,schinese,14,17,6004,9450,2787,411,0.9265543730126976,162,True,48,2,-0.1414666106621759,3325,6125,candidate_pending_independent_human_review
+schinese_k14_s42,schinese,14,42,6004,9450,2787,411,0.9266472342972467,129,True,88,1,-0.1630092163332609,3321,6129,candidate_pending_independent_human_review

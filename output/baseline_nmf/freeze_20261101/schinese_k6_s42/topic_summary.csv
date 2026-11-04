@@ -1,0 +1,7 @@
+﻿topic_index,top_terms,hard_assignment_count,mean_weight,games,largest_game_share,top10_npmi_train,generic_sentiment_fraction,flags,human_interpretation_status,candidate_id,language,topic_id
+0,爱玩 | 好玩 爱玩 | 好玩 | 爱玩 喜欢 | 一辈子 | 一直 | 还要 | 全家 | 推荐 | 冰原 | 可爱 | dlc | 从小 | 昨天 | 继续,554,0.02281442613722254,50,0.036101083032490974,-0.19760247370120332,0.2,generic_sentiment_check,pending,schinese_k6_s42,schinese,schinese:T00
+1,不 | 没 | 不错 | 没有 | 知道 | 剧情 | 不 知道 | 推荐 | 小时 | 更新 | 体验 | bug | 有点 | 时间 | 还有,3555,0.5302019183123698,50,0.03291139240506329,0.21871436839485484,0.1,,pending,schinese_k6_s42,schinese,schinese:T01
+2,垃圾 | 服务器 | 垃圾 垃圾 | 联机 | 进不去 | 优化 | 不了 | 垃圾 服务器 | 服务器 垃圾 | 更新 | 半天 | 一样 | 要死 | 恶心 | 一堆,338,0.0803110446451219,43,0.07692307692307693,-0.027483579587375326,0.1,,pending,schinese_k6_s42,schinese,schinese:T02
+3,喜欢 | 经典 | 朋友 | 一起 | 喜欢 喜欢 | 世界 | 朋友 一起 | 特别 | 开放 | 开放 世界 | 剧情 | 不 喜欢 | 爱玩 喜欢 | 挺好玩 | 好玩 喜欢,533,0.11714837709898883,49,0.0600375234521576,0.021639276033866683,0.1,,pending,schinese_k6_s42,schinese,schinese:T03
+4,好玩 | 好玩 好玩 | 特别 好玩 | 特别 | 超级 好玩 | 超级 | 上头 | 好玩 上头 | 有点 | 朋友 | 好玩 无需 | 好玩 有点 | 推荐 | 肉鸽 | 停不下来,858,0.1465027420448888,50,0.037296037296037296,-0.14088464832369865,0.1,,pending,schinese_k6_s42,schinese,schinese:T04
+5,无需 | 伟大 | 伟大 无需 | 好玩 无需 | 经典 | 经典 无需 | 永远 | 之一 | 之一 无需 | 上头 | 佳作 | 小时 | 一款 | 一代 | 启动,166,0.034567128003913046,38,0.0783132530120482,-0.19658381211947457,0.0,,pending,schinese_k6_s42,schinese,schinese:T05

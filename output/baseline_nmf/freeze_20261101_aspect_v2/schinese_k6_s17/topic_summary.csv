@@ -1,0 +1,7 @@
+﻿topic_index,top_terms,hard_assignment_count,mean_weight,games,largest_game_share,top10_npmi_train,generic_sentiment_fraction,flags,human_interpretation_status,candidate_id,language,topic_id
+0,没 | 剧情 | 没有 | 小时 | 体验 | 更新 | 还有 | 时候 | 时间 | 现在 | 一直 | bug | 内容 | 很多 | 不是,3575,0.5307423919911703,50,0.0344055944055944,0.26271037534505665,0.0,,pending,schinese_k6_s17,schinese,schinese:T00
+1,朋友 | 一起 | 朋友 一起 | 联机 | 有意思 | 配置 | 单人 | 朋友 联机 | 非常适合 | 玩完 | 快乐 | 联机 朋友 | 最好 | 建议 | 比较,247,0.050924610327130124,44,0.08906882591093117,0.03629223928643014,0.0,,pending,schinese_k6_s17,schinese,schinese:T01
+2,服务器 | 土豆 | 优化 | 一样 | 土豆 服务器 | 联机 | 进不去 | ea | 服务器 土豆 | 不了 | 官方 | 连接 | 不能 | 一半 | 要死,240,0.0563070116191621,40,0.12916666666666668,-0.05092247703907927,0.0,,pending,schinese_k6_s17,schinese,schinese:T02
+3,童年 | 回忆 | 童年 回忆 | 小时候 | 圆梦 | 补票 | 现在 | 买单 | 不了 | 童年 买单 | 必须 | 可玩性 | 终于 | 虽然 | 算是,123,0.031090247983994235,30,0.18699186991869918,-0.1996646608054511,0.0,,pending,schinese_k6_s17,schinese,schinese:T03
+4,世界 | 开放 | 开放 世界 | 可玩性 | 沉浸 | 最好 | 第一 | 疯狂 世界 | 疯狂 | 真正 | 生存 | 完美 | 最高 | 良心 | 这种,231,0.05351231324600299,46,0.1038961038961039,0.03232801362323168,0.0,,pending,schinese_k6_s17,schinese,schinese:T04
+5,不 | 知道 | 不 知道 | 为什么 | 不 不 | 不 下去 | 不 友好 | 友好 | 解释 | 不 解释 | 下去 | 为什么 不 | 新手 | 不 烧心 | 烧心,569,0.10770323829023505,50,0.056239015817223195,-0.128934914337841,0.0,,pending,schinese_k6_s17,schinese,schinese:T05

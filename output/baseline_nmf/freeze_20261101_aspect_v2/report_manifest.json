@@ -1,0 +1,22 @@
+{
+  "source_run_manifest_sha256": "62d8bd47a61e81692d6e2b526d5fead3b4490d9fcaf2939ce48c3593206ed36f",
+  "report_script_sha256": "777159a3f18d5010d10b3a138e1f58498a1c4423a96de8d55353c05d9ab7a4d3",
+  "files": [
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/baseline_summary.md",
+      "sha256": "11be801e31899eae50e9c104353bab54cf2ea0adc672dc13a56bd030bcdc2c1e"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/candidate_review_notes.csv",
+      "sha256": "cdd18800eabfceb5f73d607f1b005b67fd7b3843a22f9f786a0b36b1fd256ae0"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/candidate_overview.png",
+      "sha256": "587c94566297341f8a592e37d9ef9b6d5337313d523d82b6448a8fb9389905cb"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/candidate_overview.svg",
+      "sha256": "830b0b341c90ec0b1259d09325b3dc3be0016569b2aecb3abdb75786ddce1117"
+    }
+  ]
+}

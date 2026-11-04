@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-11-03T15:20:14.878167+00:00",
+  "sampling_window": {
+    "start_utc": "2026-05-02T23:59:59+00:00",
+    "end_utc": "2026-11-01T23:59:59+00:00",
+    "days": 183
+  },
+  "counts": {
+    "clean_master": 19486,
+    "topic_fit": 13149,
+    "association_data": 19395,
+    "empty_text": 91,
+    "short_text": 7185,
+    "low_information": 6101,
+    "duplicate_text_extra": 1865,
+    "duplicate_author_extra": 0,
+    "language_comparison_eligible_games": 19,
+    "games": 50,
+    "groups": 100
+  },
+  "sources": [
+    {
+      "path": "data/cleaned/freeze_20261101/cleaning_manifest.json",
+      "actual_sha256": "442f7e9884745a0bc17ce6a85af2e6a576edd00bac8373c3fb8455f11021b57a"
+    },
+    {
+      "path": "data/freeze_20261101/freeze_manifest.json",
+      "actual_sha256": "b688696c15ea6f626f788dad113beacf2618ff15c455ea21509550ba7e501f26",
+      "recorded_sha256": "b688696c15ea6f626f788dad113beacf2618ff15c455ea21509550ba7e501f26",
+      "match": "exact"
+    },
+    {
+      "path": "data/quality_table.csv",
+      "actual_sha256": "1f0acf4ced1507fc472dde50d8870688d458f246a76a3654a68d69e559e6aa1e",
+      "recorded_sha256": "1f0acf4ced1507fc472dde50d8870688d458f246a76a3654a68d69e559e6aa1e",
+      "match": "exact"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/clean_master.jsonl",
+      "actual_sha256": "8a62b9df2b2c2fe1ac82c483c4a5c87ae5c28805fd62593f699a88c12648ba8a",
+      "recorded_sha256": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26",
+      "match": "LF-equivalent"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/topic_fit.jsonl",
+      "actual_sha256": "757c38da583c5abc50b80cf347a441c305c12d9c803a71eba4aeab5a132df2fa",
+      "recorded_sha256": "33b6181eb709d20e164a61fd9e6a579b19aca5989bf271a547c852c5361d51f1",
+      "match": "LF-equivalent"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/association_data.jsonl",
+      "actual_sha256": "e3d4aecc938f3c5d9c4a4dc65a738428c36f56a58ff83c032b3ec137c8685b89",
+      "recorded_sha256": "2e33e5994fae07fef2a0e8551e3dc702ca79f97267a0c8fdd3a2f5ab18277d51",
+      "match": "LF-equivalent"
+    }
+  ],
+  "frozen_json_hash_matches": {
+    "exact": 548
+  },
+  "prior_audit_issue_counts": {
+    "empty_review_text": 59,
+    "short_review_text": 100,
+    "duplicate_review_text": 100,
+    "language_target_shortfall": 4,
+    "cross_game_author_count": 1
+  },
+  "csv_policy": "Model inputs are hash-verified JSONL. CSV bytes can differ after Git conversion of embedded newlines; CSVs are not used for model fitting.",
+  "runtime": {
+    "python": "3.13.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "statsmodels": "0.15.0",
+    "jieba": "0.42.1",
+    "joblib": "1.6.0"
+  }
+}

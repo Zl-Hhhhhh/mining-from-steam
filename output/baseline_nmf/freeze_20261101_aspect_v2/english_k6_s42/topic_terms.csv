@@ -1,0 +1,91 @@
+﻿topic_index,rank,term,weight,document_frequency,candidate_id,language,topic_id
+0,1,not,1.7064111360775556,1705,english_k6_s42,english,english:T00
+0,2,did,0.09856384514362519,262,english_k6_s42,english,english:T00
+0,3,did not,0.0903654983252562,159,english_k6_s42,english,english:T00
+0,4,does,0.07261842383314103,246,english_k6_s42,english,english:T00
+0,5,know,0.0696785441005732,199,english_k6_s42,english,english:T00
+0,6,does not,0.06526588416662543,172,english_k6_s42,english,english:T00
+0,7,not know,0.06125017674618817,80,english_k6_s42,english,english:T00
+0,8,buy,0.05763406763474052,187,english_k6_s42,english,english:T00
+0,9,stop,0.05504335920807541,96,english_k6_s42,english,english:T00
+0,10,not not,0.051936360305593475,50,english_k6_s42,english,english:T00
+0,11,not wait,0.049565868049453225,28,english_k6_s42,english,english:T00
+0,12,not stop,0.04924742620099348,22,english_k6_s42,english,english:T00
+0,13,wait,0.0448948452695689,65,english_k6_s42,english,english:T00
+0,14,not buy,0.04269742047084298,35,english_k6_s42,english,english:T00
+0,15,not think,0.03816808307931312,50,english_k6_s42,english,english:T00
+1,1,story,0.6278216010041482,492,english_k6_s42,english,english:T01
+1,2,hours,0.46250661048848174,490,english_k6_s42,english,english:T01
+1,3,gameplay,0.4584218853804131,386,english_k6_s42,english,english:T01
+1,4,hard,0.33375931710932144,206,english_k6_s42,english,english:T01
+1,5,want,0.25187180950355537,316,english_k6_s42,english,english:T01
+1,6,never,0.24249262703413432,334,english_k6_s42,english,english:T01
+1,7,worth,0.22848831092513114,257,english_k6_s42,english,english:T01
+1,8,combat,0.2278682173111506,243,english_k6_s42,english,english:T01
+1,9,make,0.22721939195687352,324,english_k6_s42,english,english:T01
+1,10,way,0.22523368291461607,288,english_k6_s42,english,english:T01
+1,11,new,0.22272388294393256,296,english_k6_s42,english,english:T01
+1,12,people,0.21855882122820963,264,english_k6_s42,english,english:T01
+1,13,years,0.21537259649931512,266,english_k6_s42,english,english:T01
+1,14,experience,0.21380048641614516,264,english_k6_s42,english,english:T01
+1,15,say,0.2109617532511065,230,english_k6_s42,english,english:T01
+2,1,time,2.3422697978742724,749,english_k6_s42,english,english:T02
+2,2,long time,0.06989574330443717,55,english_k6_s42,english,english:T02
+2,3,long,0.061335614988887774,211,english_k6_s42,english,english:T02
+2,4,waste,0.06064916878867166,31,english_k6_s42,english,english:T02
+2,5,genuinely time,0.04024032790465193,5,english_k6_s42,english,english:T02
+2,6,time not,0.039524641184861986,35,english_k6_s42,english,english:T02
+2,7,simply,0.03891567665332499,66,english_k6_s42,english,english:T02
+2,8,worth time,0.03861137113733659,17,english_k6_s42,english,english:T02
+2,9,never,0.038319454414634954,334,english_k6_s42,english,english:T02
+2,10,year,0.034054325132622486,69,english_k6_s42,english,english:T02
+2,11,having,0.03385774463126326,133,english_k6_s42,english,english:T02
+2,12,spent,0.033054776165674954,76,english_k6_s42,english,english:T02
+2,13,need,0.032516926165202326,196,english_k6_s42,english,english:T02
+2,14,honestly,0.0319063247985232,110,english_k6_s42,english,english:T02
+2,15,history,0.030950298302302396,39,english_k6_s42,english,english:T02
+3,1,no,2.2290364709149446,472,english_k6_s42,english,english:T03
+3,2,yes,0.20795045357076944,112,english_k6_s42,english,english:T03
+3,3,no no,0.19780038979090578,8,english_k6_s42,english,english:T03
+3,4,civ,0.149778296174396,72,english_k6_s42,english,english:T03
+3,5,no matter,0.1081389059995591,25,english_k6_s42,english,english:T03
+3,6,matter,0.10188121152783682,53,english_k6_s42,english,english:T03
+3,7,words,0.09754886325231102,34,english_k6_s42,english,english:T03
+3,8,buy,0.09286070581409885,187,english_k6_s42,english,english:T03
+3,9,need,0.08485684121832258,196,english_k6_s42,english,english:T03
+3,10,no idea,0.08330180074248,22,english_k6_s42,english,english:T03
+3,11,idea,0.08226626031498759,51,english_k6_s42,english,english:T03
+3,12,support,0.0750032135463108,89,english_k6_s42,english,english:T03
+3,13,got,0.07391962497339825,274,english_k6_s42,english,english:T03
+3,14,there's no,0.07091100374260316,25,english_k6_s42,english,english:T03
+3,15,updates,0.06866769616218192,94,english_k6_s42,english,english:T03
+4,1,better,2.6342195796620764,311,english_k6_s42,english,english:T04
+4,2,civ,0.44222922734320874,72,english_k6_s42,english,english:T04
+4,3,gta,0.23173852161609274,39,english_k6_s42,english,english:T04
+4,4,better civ,0.18367089002461204,10,english_k6_s42,english,english:T04
+4,5,minecraft,0.1745666467183999,43,english_k6_s42,english,english:T04
+4,6,better friends,0.11578806386806338,7,english_k6_s42,english,english:T04
+4,7,pokemon,0.11133281587542641,36,english_k6_s42,english,english:T04
+4,8,dlc,0.08590373587632734,138,english_k6_s42,english,english:T04
+4,9,mods,0.08171060460578358,166,english_k6_s42,english,english:T04
+4,10,open,0.07782895956401388,119,english_k6_s42,english,english:T04
+4,11,far,0.07538953400569734,145,english_k6_s42,english,english:T04
+4,12,never,0.0753727908826496,334,english_k6_s42,english,english:T04
+4,13,old,0.06832789734261915,141,english_k6_s42,english,english:T04
+4,14,ive,0.06357690866001997,69,english_k6_s42,english,english:T04
+4,15,getting better,0.06278754716262343,8,english_k6_s42,english,english:T04
+5,1,friends,2.660501142032956,248,english_k6_s42,english,english:T05
+5,2,better friends,0.07856063525403999,7,english_k6_s42,english,english:T05
+5,3,friends not,0.07347440056079456,16,english_k6_s42,english,english:T05
+5,4,chill,0.06813861414503669,42,english_k6_s42,english,english:T05
+5,5,solo,0.05506546946461997,62,english_k6_s42,english,english:T05
+5,6,horror,0.05086386130653479,31,english_k6_s42,english,english:T05
+5,7,especially friends,0.05030815374729566,7,english_k6_s42,english,english:T05
+5,8,especially,0.045861810390849765,138,english_k6_s42,english,english:T05
+5,9,solo friends,0.04572786780328539,8,english_k6_s42,english,english:T05
+5,10,coop friends,0.04427235671163084,5,english_k6_s42,english,english:T05
+5,11,coop,0.04314883807428919,25,english_k6_s42,english,english:T05
+5,12,super,0.042651082898019804,108,english_k6_s42,english,english:T05
+5,13,solid,0.041643154864140414,52,english_k6_s42,english,english:T05
+5,14,none,0.04111150282127667,23,english_k6_s42,english,english:T05
+5,15,ur,0.04077733375769518,34,english_k6_s42,english,english:T05

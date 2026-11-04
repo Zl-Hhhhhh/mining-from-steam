@@ -1,0 +1,22 @@
+{
+  "status": "awaiting_two_independent_human_raters",
+  "sample_size": 250,
+  "language_counts": {
+    "schinese": 125,
+    "english": 125
+  },
+  "game_count": 50,
+  "sampling_reasons": {
+    "random_within_topic": 80,
+    "stratified_fill": 80,
+    "central": 60,
+    "short_or_unclear": 30
+  },
+  "recommendation_counts_for_sampling_only": {
+    "True": 169,
+    "False": 81
+  },
+  "pilot_k": 10,
+  "pilot_seed": 17,
+  "warning": "k=10/seed=17 is a predeclared sampling anchor, not a selected/frozen main model. Independent language IDs are NOT shared themes. C's embedding candidates must be reviewed separately before task 12."
+}

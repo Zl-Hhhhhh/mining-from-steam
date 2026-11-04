@@ -1,0 +1,678 @@
+{
+  "status": "completed_baseline_candidates_not_frozen_topics",
+  "config": {
+    "version": "nmf-pilot-v1",
+    "cleaning_manifest": "data/cleaned/freeze_20261101/cleaning_manifest.json",
+    "metadata": "data/metadata/freeze_20261101/game_meta.csv",
+    "output": "output/baseline_nmf/freeze_20261101",
+    "languages": [
+      "english",
+      "schinese"
+    ],
+    "topic_counts": [
+      6,
+      10,
+      14
+    ],
+    "seeds": [
+      17,
+      42
+    ],
+    "min_df": 5,
+    "max_df": 0.8,
+    "max_features": 12000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_iter": 600,
+    "tol": 0.0001,
+    "top_words": 15,
+    "representatives_per_topic": 5,
+    "minimum_top_share": 0.35,
+    "minimum_cosine": 0.08,
+    "minimum_retained_terms": 2,
+    "review_sample_size": 250,
+    "review_sample_k": 10,
+    "review_sample_seed": 17,
+    "english_extra_stopwords": [
+      "game",
+      "games",
+      "gaming",
+      "play",
+      "played",
+      "playing",
+      "really",
+      "just",
+      "good",
+      "great",
+      "best",
+      "bad",
+      "love",
+      "fun",
+      "steam",
+      "review",
+      "reviews"
+    ],
+    "chinese_stopwords": [
+      "的",
+      "了",
+      "是",
+      "在",
+      "和",
+      "就",
+      "都",
+      "而",
+      "及",
+      "与",
+      "着",
+      "或",
+      "一个",
+      "这个",
+      "那个",
+      "这些",
+      "那些",
+      "自己",
+      "我们",
+      "你们",
+      "他们",
+      "它们",
+      "什么",
+      "怎么",
+      "这样",
+      "那样",
+      "还是",
+      "就是",
+      "但是",
+      "因为",
+      "所以",
+      "而且",
+      "然后",
+      "已经",
+      "可以",
+      "觉得",
+      "感觉",
+      "真的",
+      "非常",
+      "游戏",
+      "玩家",
+      "steam"
+    ],
+    "chinese_game_aliases": [
+      "反恐精英",
+      "刀塔",
+      "艾尔登法环",
+      "博德之门",
+      "巫师三",
+      "赛博朋克",
+      "消逝的光芒",
+      "无人深空",
+      "星露谷物语",
+      "杀戮尖塔",
+      "严阵以待",
+      "黑神话悟空",
+      "怪物猎人",
+      "空洞骑士",
+      "蔚蓝",
+      "泰拉瑞亚",
+      "盖瑞模组",
+      "幻兽帕鲁",
+      "荒野大镖客",
+      "战争雷霆",
+      "看门狗",
+      "上古卷轴",
+      "永劫无间",
+      "死亡细胞",
+      "黎明杀机",
+      "半条命",
+      "文明六",
+      "文明五",
+      "帝国时代",
+      "哈迪斯",
+      "木筏求生",
+      "流放之路",
+      "流放之路",
+      "太空工程师",
+      "饥荒联机版",
+      "双人成行",
+      "恐鬼症",
+      "星际战甲",
+      "光环",
+      "骑马与砍杀",
+      "女神异闻录",
+      "以撒的结合",
+      "无主之地",
+      "暗黑地牢",
+      "方舟生存进化",
+      "流放者柯南",
+      "战地风云"
+    ]
+  },
+  "config_sha256": "648e0ebdb1aad0a4c4429373caa52e03b5aeadcdd09b6e2b6cf5957d856f113b",
+  "script_sha256": "8765a942b4526fc983ea24937a3d105774bcb31e4997ed2180105832f06760e2",
+  "common_script_sha256": "571a4b86093c1fb7f7b46a706367588514fa6226d220446d5cbe6ba251594f36",
+  "metadata_sha256": "f10d70b21d39a3e5871a04cdc636ee31900b52c3c258f2b9c6bfdc443b32b546",
+  "input_validation": {
+    "generated_at": "2026-11-03T15:12:06.596443+00:00",
+    "sampling_window": {
+      "start_utc": "2026-05-02T23:59:59+00:00",
+      "end_utc": "2026-11-01T23:59:59+00:00",
+      "days": 183
+    },
+    "counts": {
+      "clean_master": 19486,
+      "topic_fit": 13149,
+      "association_data": 19395,
+      "empty_text": 91,
+      "short_text": 7185,
+      "low_information": 6101,
+      "duplicate_text_extra": 1865,
+      "duplicate_author_extra": 0,
+      "language_comparison_eligible_games": 19,
+      "games": 50,
+      "groups": 100
+    },
+    "sources": [
+      {
+        "path": "data/cleaned/freeze_20261101/cleaning_manifest.json",
+        "actual_sha256": "442f7e9884745a0bc17ce6a85af2e6a576edd00bac8373c3fb8455f11021b57a"
+      },
+      {
+        "path": "data/freeze_20261101/freeze_manifest.json",
+        "actual_sha256": "b688696c15ea6f626f788dad113beacf2618ff15c455ea21509550ba7e501f26",
+        "recorded_sha256": "b688696c15ea6f626f788dad113beacf2618ff15c455ea21509550ba7e501f26",
+        "match": "exact"
+      },
+      {
+        "path": "data/quality_table.csv",
+        "actual_sha256": "1f0acf4ced1507fc472dde50d8870688d458f246a76a3654a68d69e559e6aa1e",
+        "recorded_sha256": "1f0acf4ced1507fc472dde50d8870688d458f246a76a3654a68d69e559e6aa1e",
+        "match": "exact"
+      },
+      {
+        "path": "data/cleaned/freeze_20261101/clean_master.jsonl",
+        "actual_sha256": "8a62b9df2b2c2fe1ac82c483c4a5c87ae5c28805fd62593f699a88c12648ba8a",
+        "recorded_sha256": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26",
+        "match": "LF-equivalent"
+      },
+      {
+        "path": "data/cleaned/freeze_20261101/topic_fit.jsonl",
+        "actual_sha256": "757c38da583c5abc50b80cf347a441c305c12d9c803a71eba4aeab5a132df2fa",
+        "recorded_sha256": "33b6181eb709d20e164a61fd9e6a579b19aca5989bf271a547c852c5361d51f1",
+        "match": "LF-equivalent"
+      },
+      {
+        "path": "data/cleaned/freeze_20261101/association_data.jsonl",
+        "actual_sha256": "e3d4aecc938f3c5d9c4a4dc65a738428c36f56a58ff83c032b3ec137c8685b89",
+        "recorded_sha256": "2e33e5994fae07fef2a0e8551e3dc702ca79f97267a0c8fdd3a2f5ab18277d51",
+        "match": "LF-equivalent"
+      }
+    ],
+    "frozen_json_hash_matches": {
+      "exact": 548
+    },
+    "prior_audit_issue_counts": {
+      "empty_review_text": 59,
+      "short_review_text": 100,
+      "duplicate_review_text": 100,
+      "language_target_shortfall": 4,
+      "cross_game_author_count": 1
+    },
+    "csv_policy": "Model inputs are hash-verified JSONL. CSV bytes can differ after Git conversion of embedded newlines; CSVs are not used for model fitting.",
+    "runtime": {
+      "python": "3.13.1",
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "matplotlib": "3.11.2",
+      "statsmodels": "0.15.0",
+      "jieba": "0.42.1",
+      "joblib": "1.6.0"
+    }
+  },
+  "model_selection": "No final selection. k=10 seed=17 used only to prepare an initial blind review sample. No recommendation-label metric used for candidate selection.",
+  "feature_policy": "Whitespace/markup/URL normalization; game aliases and English title tokens excluded; negation retained. Input fitting columns: review_clean, language only; game names provide a fixed exclusion lexicon.",
+  "output_files": [
+    {
+      "path": "output/baseline_nmf/freeze_20261101/candidate_comparison.csv",
+      "bytes": 2113,
+      "sha256": "1fcbef4ca3b89fe579933af5ab9a30f7632e6c9ee687e7ca3b8edb2e5d1cb24e"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english/fit_review_order.csv",
+      "bytes": 178948,
+      "sha256": "c97975f4e73081f9657fb5e897859605f7319b435e7c0d94f5211060c5a53ca7"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english/tfidf_fit.npz",
+      "bytes": 752908,
+      "sha256": "aed27fcc9e21b1c1679489b7f85c809fb396868148b9cdd67ed1ccf8849e433f"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english/tokenization_audit.csv",
+      "bytes": 104909,
+      "sha256": "f36be810cf74cde9ab42c63f27bb9e0af4addbc93f8c8e5cd6054e1034933003"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english/vectorizer.joblib",
+      "bytes": 155294,
+      "sha256": "6b19cd9f716ee14e1330b16554c53ff4d5f75b84eec33ea673f7927ea8ac5306"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s17/assignments.csv",
+      "bytes": 953988,
+      "sha256": "0f6ccec75a36fbc973e81f3768a8d4828d4b87de4d8f00bd8154ac186d70cd2a"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s17/nmf.joblib",
+      "bytes": 330835,
+      "sha256": "dbea6ee017cc9196f879f75343a38b4a3b2a27eeb93fecb1ca617cab1ba62091"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s17/representative_reviews.csv",
+      "bytes": 34962,
+      "sha256": "41968eb1077702b870b65926315300c51394816a1eeeb5449d1a21ecd1eb6eaf"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s17/topic_summary.csv",
+      "bytes": 2757,
+      "sha256": "1b2e3efa07fdd53bc4f768a802b1176c2394b47de0e66a0c92286b5650e9ecaa"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s17/topic_terms.csv",
+      "bytes": 10733,
+      "sha256": "5766194c9d221961d0c7f155a564ade23062413f33065d55acad885472057111"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s17/weights.npz",
+      "bytes": 614514,
+      "sha256": "ba275c0f18f74c34d6112bd6676939f9ed466ed7ca4135d2544f6c0d2388e3cd"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s42/assignments.csv",
+      "bytes": 954316,
+      "sha256": "4c38a2957db0c257a073140875c1e4d3da16a33069a2c3baad82f3c877d8d240"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s42/nmf.joblib",
+      "bytes": 330835,
+      "sha256": "48a147f383cc2e1f3e0973befca13dcae303eaf9ad2d6cd746d2b26d4ad01e59"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s42/representative_reviews.csv",
+      "bytes": 34801,
+      "sha256": "b189e36b668f24e4f6ef988110999d135f32bc41b6bfa933ccd512dcbe690855"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s42/topic_summary.csv",
+      "bytes": 2773,
+      "sha256": "53642fde9ba218dc21b65a0d637f0f6f67c0b439c466b71dd83d9796b58b966b"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s42/topic_terms.csv",
+      "bytes": 10762,
+      "sha256": "b1ef21ba14b0cfed3874df074f7770e5882464050f343dc1a77f318d24b75c3f"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s42/weights.npz",
+      "bytes": 615852,
+      "sha256": "37c13797e86998f6eb85e148ac9a9923648e547f52f2061c22740ec3a5a9ac52"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s17/assignments.csv",
+      "bytes": 955208,
+      "sha256": "c9a9f296e0daa91c9724509d411d2c925dfb1d3fa37201febed7cf46413ae0d5"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s17/nmf.joblib",
+      "bytes": 462899,
+      "sha256": "8b5d91f55735e27480c218645e2faefc9da334a8c74955625cc3c18358470ade"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s17/representative_reviews.csv",
+      "bytes": 30852,
+      "sha256": "dbe39318f67ad2a3eee1c4160af12c19f969b3ac04bdf75aa52756a927566fc5"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s17/topic_summary.csv",
+      "bytes": 3757,
+      "sha256": "3f52a887e666fa3da75aa0e397db2c436cb222e5b615fedf4401f17fa76913fc"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s17/topic_terms.csv",
+      "bytes": 15010,
+      "sha256": "9aaeb6ab76d3e446a3f73dba571918e7cb343b8577d88e2552d30a17cf51a476"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s17/weights.npz",
+      "bytes": 826955,
+      "sha256": "854c7a4faaffcb4536c1a1d864774a5a8dfce03f70c5845c6711b93e90e488ec"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s42/assignments.csv",
+      "bytes": 955069,
+      "sha256": "0ffca6addf48a7dd1b49fe51ae843bb32591ff88b9a260eb1df2e93012ab49b7"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s42/nmf.joblib",
+      "bytes": 462899,
+      "sha256": "450f2922b140738c29aa69d0c6d2e2f7686e27d7cd98ddc920d05e21a12b0193"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s42/representative_reviews.csv",
+      "bytes": 29310,
+      "sha256": "746c36d280b035e35a5160da8faa6454987e714a34ff7c1f79d88c3c71429862"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s42/topic_summary.csv",
+      "bytes": 3781,
+      "sha256": "8bfdad276f2b8d438ac78b33e1827ab297f9acac2164c5eb603f613e8a694bad"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s42/topic_terms.csv",
+      "bytes": 15075,
+      "sha256": "bfc83fd0c87aca13190d0a5b64c203af434439f51b7ccd0e53032ba55967e772"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s42/weights.npz",
+      "bytes": 816750,
+      "sha256": "db81dbbbd5c90cc69788caae2c0d8e78c319deb5457e53108bd3ff93813aa783"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s17/assignments.csv",
+      "bytes": 944917,
+      "sha256": "34bbd710c4ab1d25901fb11f70596b254d3c7743bfe0be9ab8fb924f0276d297"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s17/nmf.joblib",
+      "bytes": 198771,
+      "sha256": "58b9dca996485662c87a5e2af0f8a5a129217da4b7fe12f0e7ad589cc3056e5d"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s17/representative_reviews.csv",
+      "bytes": 3922,
+      "sha256": "c64c98e7e82084ec3c2c5dd5d099dcbff125f6d5d52c00e616b292ef173e5c7d"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s17/topic_summary.csv",
+      "bytes": 1726,
+      "sha256": "9bf42582113bea0272dec82611a220db1c0f39af59af82d2deeab8ec56b9d6a3"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s17/topic_terms.csv",
+      "bytes": 6403,
+      "sha256": "7430d414f6ee29c535ec7c9f78a74d088b3c5b309910ed271ba293180aa81126"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s17/weights.npz",
+      "bytes": 468072,
+      "sha256": "82d4747e33ca1f7c2abf1f927742233f5bf7101d3f80b2017821f7ef44abe52c"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s42/assignments.csv",
+      "bytes": 943893,
+      "sha256": "071b9d37f58c3d0c8128ef68265ee6f3ebea2de03d13ebb7e6989822864a3a7b"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s42/nmf.joblib",
+      "bytes": 198771,
+      "sha256": "be41fd762f4886e1e710c63bafbe4470c87c8663f02b9889bd6b9b3b664ab92c"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s42/representative_reviews.csv",
+      "bytes": 3920,
+      "sha256": "8aabbe084b4fb292fac55e1a4725df03370febc7d9486399950b9d38448ee656"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s42/topic_summary.csv",
+      "bytes": 1715,
+      "sha256": "75e66287d824f07aff084488a0454cd669f9c991a099f42e628248b5c2bdaf49"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s42/topic_terms.csv",
+      "bytes": 6373,
+      "sha256": "c2b1c46974ea642b0d4b37bfb7f35da8818b21c4ed22da7e889998ba48fc181c"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s42/weights.npz",
+      "bytes": 462656,
+      "sha256": "7e54274655176ac8a3017586acc1289d07070c23c024f9f470e8c3c6848502f5"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/human_review/coordinator_key.csv",
+      "bytes": 22022,
+      "sha256": "7f081af6f6fe289b24a3d49ec398e983cf2d8a3d6476c1dfd067364b0e91eae2"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/human_review/review_manifest.json",
+      "bytes": 657,
+      "sha256": "37a7e981bff1fe6bff1f7443809b3c1c5bcf23d60b2e4c6ffd2d85c579a6d07f"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/human_review/reviewer_A_blank.csv",
+      "bytes": 76413,
+      "sha256": "149a7866dd578760e8365872e8fea9b27982bd19f6a3f836f4e9910ecc25fb22"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/human_review/reviewer_B_blank.csv",
+      "bytes": 76413,
+      "sha256": "149a7866dd578760e8365872e8fea9b27982bd19f6a3f836f4e9910ecc25fb22"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/input_validation.json",
+      "bytes": 2858,
+      "sha256": "a8d4944575049b7fedb95b7eb2fca5802617ddbcfa0acbcf3706ec5a7048bb54"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese/fit_review_order.csv",
+      "bytes": 156434,
+      "sha256": "36d307204e6800c90235841dac1ab76cb6402c24f31628301b7bf0f7e4216727"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese/tfidf_fit.npz",
+      "bytes": 457839,
+      "sha256": "767a8649a6c6d83703651fd524ce2299e9038cd5002123aaa818659f9df4d7eb"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese/tokenization_audit.csv",
+      "bytes": 87142,
+      "sha256": "418b19f904002f7c4c6aeae396125d0ed209f8a5cc409e969f2f8b14317191b9"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese/vectorizer.joblib",
+      "bytes": 104173,
+      "sha256": "c6266b54695bd66807ebc1429570a9023c93fa224768f3926c944ae0519941e9"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s17/assignments.csv",
+      "bytes": 904093,
+      "sha256": "800aa31db73d6c3d41860efc6fb6a1fc1ec02067c709411bbcfb4aaf3543d3e6"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s17/nmf.joblib",
+      "bytes": 223636,
+      "sha256": "6e2d7988da487ef6311b6a508ebc97837f0336a77a4d452bfb537ee01a59087e"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s17/representative_reviews.csv",
+      "bytes": 37553,
+      "sha256": "d0a0abd09ae76874ef3cc75b4bb7ac09392cb1a3153d2eb925667441290e926f"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s17/topic_summary.csv",
+      "bytes": 3028,
+      "sha256": "b67b2ce9b14eb2186259aa5ff101d978a5e3c361347a893b60cdd09a8b230fc5"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s17/topic_terms.csv",
+      "bytes": 11400,
+      "sha256": "826d9eb5352b2c913b2d28fcd2184469be157b2c098991faccf52a2067fcc3d1"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s17/weights.npz",
+      "bytes": 431825,
+      "sha256": "f4ebddae5ce86b91b24d43db7c0e4ecca7ac4e238d62c1023e823f4f4321126d"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s42/assignments.csv",
+      "bytes": 906794,
+      "sha256": "9246242d55e7767331fde815832df1a9ab74baa8fc5708f70f79cb0d02cfb397"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s42/nmf.joblib",
+      "bytes": 223635,
+      "sha256": "f9d0bb2362c8e9ef620858522b79681bbb757bece90888c483f2f5425e7b417c"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s42/representative_reviews.csv",
+      "bytes": 30880,
+      "sha256": "b535ea2bbc1fae7a65fbf09f377f99f09f82e85b7375273d9a462644397b1901"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s42/topic_summary.csv",
+      "bytes": 3041,
+      "sha256": "1efe0e8ab62122d3528c4fbd60fb68ce8f9bd84fb683c230764abed7d98d272e"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s42/topic_terms.csv",
+      "bytes": 11404,
+      "sha256": "03033c56c0c1f1a0be8671f78110b78dc95cd783b36e64fdab32daa980ee82f4"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s42/weights.npz",
+      "bytes": 445414,
+      "sha256": "e826b39a1667176ecbf37ef36fe180cace3f7f1c88c620884070e7692fc24145"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s17/assignments.csv",
+      "bytes": 923769,
+      "sha256": "543e50260739198da4d9d6b782f0b48caaabf3381e39511e2428fa12591888ff"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s17/nmf.joblib",
+      "bytes": 312819,
+      "sha256": "9dd6a483735c3307262f5a7256beb3660eef1e2561e547c8c6fd38fb637edf97"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s17/representative_reviews.csv",
+      "bytes": 22423,
+      "sha256": "ebb096fa3eeb4107f5414dad6f8436291a0eed566cd2d397b9662d0a244ff60f"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s17/topic_summary.csv",
+      "bytes": 4194,
+      "sha256": "1ac1b48e83f781f8552b3dc73d93689f92c83abfb77f65e4f96a03fb17417433"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s17/topic_terms.csv",
+      "bytes": 15973,
+      "sha256": "cd162028fbde11961a4fcb9192604597ef8878baafe6eb332f41c871deb9dcca"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s17/weights.npz",
+      "bytes": 557350,
+      "sha256": "aa6f50852587c8ef45ad54f0e86101b277bd6ab583a85df4b7eb90cfde959254"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s42/assignments.csv",
+      "bytes": 908183,
+      "sha256": "2f7155ec55ee442db46a89a7caa15a3a698e2be98890434a4b6ecb45431a7310"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s42/nmf.joblib",
+      "bytes": 312819,
+      "sha256": "83eac52960e50d9009e77a2ea93b7c528e2881a3df676a2554f33211b745aaba"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s42/representative_reviews.csv",
+      "bytes": 41946,
+      "sha256": "c34a8695b36621b15868805a0f6c59635c8f9c540b2aadfcdb40388f4b6d1976"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s42/topic_summary.csv",
+      "bytes": 4144,
+      "sha256": "6925cf0f53b7a7d3a0fabb7faf3bbf92a3c1bad2cd4cb95d4e95e710b049831f"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s42/topic_terms.csv",
+      "bytes": 15945,
+      "sha256": "c19f5f2bae95903a1a205baa63571f1513e21615080c3bf70de0539effe28bd9"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s42/weights.npz",
+      "bytes": 550737,
+      "sha256": "9184e93d43ab463edb85492290999d176f072027f0f8909526bb7f5cca4d0dc1"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s17/assignments.csv",
+      "bytes": 892859,
+      "sha256": "3430c3e68ebf93646e3465e9231f0b8f796bc7b08eb658960a24ef3d28c7a283"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s17/nmf.joblib",
+      "bytes": 134451,
+      "sha256": "1bc3f743c8466d4b4c79916a16f8c4bf8cf1929b82203b27d79db9614448400e"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s17/representative_reviews.csv",
+      "bytes": 3865,
+      "sha256": "d15cae31bae98e6a42bf58587091e86499c322592ac1937c38cdcce733bd47b1"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s17/topic_summary.csv",
+      "bytes": 1916,
+      "sha256": "7e1c6c1c8f40082f6f1be6b8038501e4816821ce71bd484ab098461bd0b3ee91"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s17/topic_terms.csv",
+      "bytes": 6792,
+      "sha256": "c0e321e3fd4ec8ac59337a1b09943e25c8ba8036fc8d30cf5e472f7490335d15"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s17/weights.npz",
+      "bytes": 352190,
+      "sha256": "afd83e0bb5ee4d0c05a1a3515ef82a55755ce3061262e3dc74a7ea5d3310ce7c"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s42/assignments.csv",
+      "bytes": 897611,
+      "sha256": "a7839fc17e08c2f531b7816ed3f85d836686aaa69d6a94e222c57b1a6b5a9d71"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s42/nmf.joblib",
+      "bytes": 134451,
+      "sha256": "bd0dd7a46bb3ce3df46b5c491771436d219298104866b1cbc3d58cc0ae2e3c8f"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s42/representative_reviews.csv",
+      "bytes": 3846,
+      "sha256": "aba897661e0f8ec8776b9422d903c44202ddaed0de37599a48374fd60d257356"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s42/topic_summary.csv",
+      "bytes": 1899,
+      "sha256": "0c8dc562bd373047c865ea9551166315aa1e7468fc58b995a677c69b9eee4eb5"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s42/topic_terms.csv",
+      "bytes": 6792,
+      "sha256": "a8eb72a72633c40871cd31f7b1b75f161140cc88d735817b5192373c5dc1310c"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s42/weights.npz",
+      "bytes": 352897,
+      "sha256": "83b7ad76ac1624b784746814335387a786fcf2129ef1806a8cae6585b0529e37"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/seed_stability.csv",
+      "bytes": 537,
+      "sha256": "d34479720b50ccb8406796fda67aa180c114eea3a85c5f78566163bdbb123467"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/topic_diagnostics.csv",
+      "bytes": 32608,
+      "sha256": "1f8994fd094ec6688514fab11d60520f7a66c60131998079a4c8be8110c16bb8"
+    }
+  ]
+}
