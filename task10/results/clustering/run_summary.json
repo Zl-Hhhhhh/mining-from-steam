@@ -1,0 +1,112 @@
+{
+  "status": "step4_candidates_ready_step5_human_review_pending",
+  "created_at": "2026-11-05T12:30:41.221907+00:00",
+  "model": "BAAI/bge-m3",
+  "embedding_cache_key": "5c1189e3efb1d10b21b86aa3e253f2d455bc0a1317964534ed803b685ea99acb",
+  "embedding_vectors_sha256": "693c02eedb156efbaf50b3b13ba171f40caa50b15f7ee763b3a307ee26788d9b",
+  "source_commit": "8381107e811675f34bab3727b1b13a2c6d07a735",
+  "encoded_reviews": 19392,
+  "master_reviews": 19486,
+  "full_fit_reviews": 13145,
+  "common_sample_reviews": 5000,
+  "evaluation_reviews": 1500,
+  "candidate_count": 15,
+  "common_source_language_counts": {
+    "english": 2500,
+    "schinese": 2500
+  },
+  "common_games": 50,
+  "config": {
+    "source_commit": "8381107e811675f34bab3727b1b13a2c6d07a735",
+    "embedding_summary": "output/embedding-bge/freeze_20261101-v1/run_summary.json",
+    "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "vectors_sha256": "693c02eedb156efbaf50b3b13ba171f40caa50b15f7ee763b3a307ee26788d9b",
+    "fit_policy": "Use source fit_eligible and nonempty lexical text, matching prior comparison scope; preserve all other reviews for KMeans application and diagnostics",
+    "cluster_counts": [
+      6,
+      10,
+      14
+    ],
+    "seeds": [
+      17,
+      42
+    ],
+    "n_init": 10,
+    "max_iter": 300,
+    "common_sample_size": 5000,
+    "silhouette_sample_size": 1500,
+    "sampling_seed": 20261105,
+    "primary_k": 10,
+    "primary_seed": 17,
+    "primary_note": "Predeclared browser anchor, not selected winner or frozen themes",
+    "small_cluster_threshold": 20,
+    "boundary_cosine_gap": 0.03,
+    "cpu_threads": 4,
+    "hierarchical_methods": [
+      "ward_euclidean",
+      "average_cosine"
+    ],
+    "representatives_center": 5,
+    "representatives_random": 5,
+    "representatives_per_language": 3
+  },
+  "seed_stability": [
+    {
+      "k": 6,
+      "seeds": [
+        17,
+        42
+      ],
+      "fit_ari": 0.9998003533062828
+    },
+    {
+      "k": 10,
+      "seeds": [
+        17,
+        42
+      ],
+      "fit_ari": 0.9577424991418186
+    },
+    {
+      "k": 14,
+      "seeds": [
+        17,
+        42
+      ],
+      "fit_ari": 0.9221842319571726
+    }
+  ],
+  "compute_seconds": 72.26207319999958,
+  "timings": {
+    "full_kmeans_k6_s17": 5.508192900000722,
+    "full_kmeans_k6_s42": 5.326045099995099,
+    "full_kmeans_k10_s17": 7.991082400003506,
+    "full_kmeans_k10_s42": 7.939663000004657,
+    "full_kmeans_k14_s17": 9.842247900000075,
+    "full_kmeans_k14_s42": 11.360648399997444,
+    "common_kmeans_k6_s17": 1.9286517000000458,
+    "common_kmeans_k10_s17": 2.650786700003664,
+    "common_kmeans_k14_s17": 3.39120130000083,
+    "ward_tree_and_cuts": 7.584653600002639,
+    "average_tree_and_cuts": 8.645275499999116
+  },
+  "pipeline_sha256": "9849923da496e4d4218752a5f9f43c49c5e9081852181f520732f0421ac6a23a",
+  "encoder_loaded": false,
+  "new_embeddings_computed": 0,
+  "recommendation_labels_used_for_fitting_or_selection": false,
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.7.0",
+    "matplotlib": "3.11.2"
+  },
+  "limitations": [
+    "API language labels and writing-system rules are not a completed language audit.",
+    "Recommendation tags are post-fit diagnostics, not emotion gold or topic-selection targets.",
+    "Whole-review hard clusters can mix multiple aspects; no final themes or calibrated no_clear_theme rules exist.",
+    "Full-fit and common-sample candidates have different fit scopes; algorithm comparisons use common5000.",
+    "Hierarchical labels apply only to its sampled members. No prototype extrapolation to other comments.",
+    "Seed stability alone is not resampling or semantic validity. Hierarchical determinism is not evidence of stability."
+  ]
+}

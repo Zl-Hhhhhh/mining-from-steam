@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "check_count": 13,
+  "checks": [
+    "15 selectable candidates",
+    "Default common sample has 5000 reviews",
+    "Language filter gives 2500 common reviews",
+    "Ward scope stays 5000",
+    "Average giant cluster visible",
+    "Full KMeans application has 19392 reviews",
+    "Full KMeans fit scope is 13145",
+    "Chinese text search returns reviews",
+    "Pagination grows to 100 reviews",
+    "Both diagnostic images loaded",
+    "Mobile page fits viewport",
+    "No JavaScript errors",
+    "No external network requests"
+  ],
+  "errors": [],
+  "external_requests": 0
+}

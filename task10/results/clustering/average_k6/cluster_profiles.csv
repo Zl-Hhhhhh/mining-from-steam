@@ -1,0 +1,7 @@
+﻿candidate,cluster,fit_count,applied_count,fit_english,fit_schinese,fit_english_share,fit_recommended_share,top_game_share,applied_low_information_share,applied_short_le10_share,applied_emoji_share,human_theme_name
+average_k6,0,4992,4992,2497,2495,0.5002003205128205,0.8068910256410257,0.020432692307692308,0.0,0.17447916666666666,0.01061698717948718,
+average_k6,1,2,2,1,1,0.5,1.0,0.5,0.0,0.5,0.0,
+average_k6,2,1,1,1,0,1.0,1.0,1.0,0.0,0.0,0.0,
+average_k6,3,2,2,1,1,0.5,1.0,0.5,0.0,0.5,0.0,
+average_k6,4,2,2,0,2,0.0,1.0,0.5,0.0,1.0,0.0,
+average_k6,5,1,1,0,1,0.0,1.0,1.0,0.0,1.0,0.0,

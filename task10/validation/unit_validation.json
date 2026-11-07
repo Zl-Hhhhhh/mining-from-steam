@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "tests": 3,
+  "failures": 0,
+  "errors": 0,
+  "real_cache_test": "19392 vectors verified while imports of encoder libraries are blocked",
+  "synthetic_tests": [
+    "interruption recovery, exact-text deduplication and review-ID mapping",
+    "reject inputs above 8192 tokens without truncation"
+  ],
+  "real_model_reencoding_performed": false,
+  "note": "Synthetic tests validate control flow only; not semantic model quality."
+}

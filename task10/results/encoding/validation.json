@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "check_count": 18,
+  "checks": [
+    "Selected fixed BGE revision and completed Step 3 status",
+    "Local model weights match the fixed pilot download fingerprint",
+    "Prepared input and frozen source manifest hashes match",
+    "All independently prepared input files remain unchanged",
+    "19486 master IDs retained in original order",
+    "Review-index checksum matches execution record",
+    "Explicit 19392 encoded / 91 source-empty / 3 cleanup-empty status",
+    "Encoded vector IDs match source ordering and cache manifest",
+    "19392 by 1024 float32 vectors, no zero placeholders",
+    "Every vector is finite and unit-normalized",
+    "Review vectors checksum matches both records",
+    "Unique-text vectors checksum and completion markers verified",
+    "Every master-to-vector mapping and text hash verified",
+    "Exact-text reuse preserves every individual review vector",
+    "All 600 reused real pilot vectors match exactly",
+    "Index tokens within native limit, all 139 >512 reviews retained",
+    "Representation is full-review, not hidden chunk averaging",
+    "No clustering or completed theme validation claimed"
+  ],
+  "semantic_theme_accuracy_validated": false
+}

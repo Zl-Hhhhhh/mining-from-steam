@@ -1,0 +1,56 @@
+﻿candidate,cluster,selection,recommendationid,language,game_name,text,cosine_to_own_centroid
+average_k10,0,center,239057106,english,Palworld,This game is really fun.,0.8749074935913086
+average_k10,0,center,238690149,english,Raft,it is a very fun game,0.8670802116394043
+average_k10,0,center,238453677,schinese,NARAKA: BLADEPOINT,好游戏，十分好玩。,0.8654277920722961
+average_k10,0,center,239092655,schinese,Terraria,好游戏，值得试一试,0.8638525605201721
+average_k10,0,center,238516920,schinese,Grand Theft Auto V,很好玩，任务很刺激,0.863640546798706
+average_k10,0,center_english,239057106,english,Palworld,This game is really fun.,0.8749074935913086
+average_k10,0,center_english,238690149,english,Raft,it is a very fun game,0.8670802116394043
+average_k10,0,center_english,238642604,english,Sid Meier's Civilization VI,This game is super fun. For real,0.8619717955589294
+average_k10,0,center_schinese,238453677,schinese,NARAKA: BLADEPOINT,好游戏，十分好玩。,0.8654277920722961
+average_k10,0,center_schinese,239092655,schinese,Terraria,好游戏，值得试一试,0.8638525605201721
+average_k10,0,center_schinese,238516920,schinese,Grand Theft Auto V,很好玩，任务很刺激,0.863640546798706
+average_k10,0,random,239017211,schinese,Raft,好玩上头,0.6862136125564575
+average_k10,0,random,239000907,schinese,Elden Ring,挺好玩的内容很多,0.7788512706756592
+average_k10,0,random,238819385,schinese,Don't Starve Together,好玩就是没有新手教程🥲,0.7087066173553467
+average_k10,0,random,238264534,schinese,Half-Life 2,很难想象这是二十年前的游戏,0.7250699400901794
+average_k10,0,random,239114231,schinese,Cyberpunk 2077,第一次见设置人物还能设置奶子和生殖器的，国外的游戏真奔放。,0.7180406451225281
+average_k10,1,center,238938578,english,Dota 2,DIAZ CANEL SINGAO,0.8228194713592529
+average_k10,1,center,238860852,english,Brawlhalla,Aquí cogio Peñanieto,0.8228194117546082
+average_k10,1,center_english,238938578,english,Dota 2,DIAZ CANEL SINGAO,0.8228194713592529
+average_k10,1,center_english,238860852,english,Brawlhalla,Aquí cogio Peñanieto,0.8228194117546082
+average_k10,1,random,238860852,english,Brawlhalla,Aquí cogio Peñanieto,0.8228194117546082
+average_k10,1,random,238938578,english,Dota 2,DIAZ CANEL SINGAO,0.8228194713592529
+average_k10,2,center,238964564,english,Apex Legends,sigmatastic or tasticsigma?,1.0000001192092896
+average_k10,2,center_english,238964564,english,Apex Legends,sigmatastic or tasticsigma?,1.0000001192092896
+average_k10,2,random,238964564,english,Apex Legends,sigmatastic or tasticsigma?,1.0000001192092896
+average_k10,3,center,238789475,schinese,No Man's Sky,我们至今仍未知道那天水所冲走的数据的名字,0.8295811414718628
+average_k10,3,center,239063569,english,Terraria,scientists reveal the Hi,0.8295811414718628
+average_k10,3,center_english,239063569,english,Terraria,scientists reveal the Hi,0.8295811414718628
+average_k10,3,center_schinese,238789475,schinese,No Man's Sky,我们至今仍未知道那天水所冲走的数据的名字,0.8295811414718628
+average_k10,3,random,238789475,schinese,No Man's Sky,我们至今仍未知道那天水所冲走的数据的名字,0.8295811414718628
+average_k10,3,random,239063569,english,Terraria,scientists reveal the Hi,0.8295811414718628
+average_k10,4,center,239130945,english,Elden Ring,Vecais Gredzens kruts,1.0
+average_k10,4,center_english,239130945,english,Elden Ring,Vecais Gredzens kruts,1.0
+average_k10,4,random,239130945,english,Elden Ring,Vecais Gredzens kruts,1.0
+average_k10,5,center,238990077,schinese,Mount & Blade II: Bannerlord,R687R76 RF,0.8332176208496094
+average_k10,5,center,238901136,english,Apex Legends,67 shite in mynass,0.8332173824310303
+average_k10,5,center_english,238901136,english,Apex Legends,67 shite in mynass,0.8332173824310303
+average_k10,5,center_schinese,238990077,schinese,Mount & Blade II: Bannerlord,R687R76 RF,0.8332176208496094
+average_k10,5,random,238901136,english,Apex Legends,67 shite in mynass,0.8332173824310303
+average_k10,5,random,238990077,schinese,Mount & Blade II: Bannerlord,R687R76 RF,0.8332176208496094
+average_k10,6,center,239077335,schinese,Counter-Strike 2,撒比姆巴佩,1.0
+average_k10,6,center_schinese,239077335,schinese,Counter-Strike 2,撒比姆巴佩,1.0
+average_k10,6,random,239077335,schinese,Counter-Strike 2,撒比姆巴佩,1.0
+average_k10,7,center,239018139,schinese,Black Myth: Wukong,第一位大学生,0.8452925086021423
+average_k10,7,center,235395335,schinese,Half-Life 2,女子王元,0.8452924489974976
+average_k10,7,center_schinese,239018139,schinese,Black Myth: Wukong,第一位大学生,0.8452925086021423
+average_k10,7,center_schinese,235395335,schinese,Half-Life 2,女子王元,0.8452924489974976
+average_k10,7,random,235395335,schinese,Half-Life 2,女子王元,0.8452924489974976
+average_k10,7,random,239018139,schinese,Black Myth: Wukong,第一位大学生,0.8452925086021423
+average_k10,8,center,238972006,schinese,Red Dead Redemption 2,第九艺术,0.9999998807907104
+average_k10,8,center_schinese,238972006,schinese,Red Dead Redemption 2,第九艺术,0.9999998807907104
+average_k10,8,random,238972006,schinese,Red Dead Redemption 2,第九艺术,0.9999998807907104
+average_k10,9,center,238922216,schinese,It Takes Two,舒骚天王,1.0000001192092896
+average_k10,9,center_schinese,238922216,schinese,It Takes Two,舒骚天王,1.0000001192092896
+average_k10,9,random,238922216,schinese,It Takes Two,舒骚天王,1.0000001192092896

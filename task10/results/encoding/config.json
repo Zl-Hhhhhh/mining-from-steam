@@ -1,0 +1,21 @@
+{
+  "source_commit": "8381107e811675f34bab3727b1b13a2c6d07a735",
+  "freeze_id": "freeze_20261101",
+  "model_name": "BAAI/bge-m3",
+  "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "max_seq_length": 8192,
+  "embedding_dimension": 1024,
+  "prompt": "",
+  "pooling": "cls",
+  "normalize_embeddings": true,
+  "dtype": "float32",
+  "device": "cpu",
+  "cpu_threads": 4,
+  "max_batch_size": 8,
+  "max_padded_tokens_per_batch": 4096,
+  "representation": "One untruncated whole-review dense vector; no chunk aggregation or sparse/ColBERT features",
+  "pilot_directory": "experiments/embedding-model-pilot-20261105/results-v1",
+  "input_sha256": "ae68672beffbb8f424450296f9f418ad4c856125724fae80013e4a370aedcbde",
+  "selected_by": "User after inspecting paired real-neighbour reports",
+  "selection_date": "2026-11-05"
+}

@@ -1,0 +1,19 @@
+{
+  "cache_key": "5c1189e3efb1d10b21b86aa3e253f2d455bc0a1317964534ed803b685ea99acb",
+  "source_rows": 19486,
+  "nonempty_source_rows": 19395,
+  "encoded_reviews": 19392,
+  "unique_texts": 15335,
+  "unique_texts_pending": 14735,
+  "pilot_reused_unique_texts": 600,
+  "pilot_reused_review_ids": 600,
+  "batches": 1865,
+  "review_tokens": {
+    "p50": 10.0,
+    "p95": 128.0,
+    "p99": 414.09000000000015,
+    "max": 3993,
+    "over_512": 139
+  },
+  "truncated": 0
+}

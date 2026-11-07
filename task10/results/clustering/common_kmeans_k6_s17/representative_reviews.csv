@@ -1,0 +1,97 @@
+﻿candidate,cluster,selection,recommendationid,language,game_name,text,cosine_to_own_centroid
+common_kmeans_k6_s17,0,center,238007146,schinese,Garry's Mod,this game is very good,0.9243361949920654
+common_kmeans_k6_s17,0,center,239057106,english,Palworld,This game is really fun.,0.9239456057548523
+common_kmeans_k6_s17,0,center,239080631,english,Garry's Mod,this game is awesome,0.9220981001853943
+common_kmeans_k6_s17,0,center,239008251,english,War Thunder,Great game really fun,0.9202781319618225
+common_kmeans_k6_s17,0,center,238642604,english,Sid Meier's Civilization VI,This game is super fun. For real,0.9191051125526428
+common_kmeans_k6_s17,0,center_english,239057106,english,Palworld,This game is really fun.,0.9239456057548523
+common_kmeans_k6_s17,0,center_english,239080631,english,Garry's Mod,this game is awesome,0.9220981001853943
+common_kmeans_k6_s17,0,center_english,239008251,english,War Thunder,Great game really fun,0.9202781319618225
+common_kmeans_k6_s17,0,center_schinese,238007146,schinese,Garry's Mod,this game is very good,0.9243361949920654
+common_kmeans_k6_s17,0,center_schinese,238982241,schinese,Terraria,很好玩的游戏,0.9009150862693787
+common_kmeans_k6_s17,0,center_schinese,238452509,schinese,Dota 2,很不错的游戏！,0.9001883864402771
+common_kmeans_k6_s17,0,random,238499645,english,Borderlands 3,"After almost 4000 hours of playing, I am starting to think that it may be a good game.",0.7997056245803833
+common_kmeans_k6_s17,0,random,239076849,schinese,It Takes Two,Nice game for two person. My daughter and me.,0.7772380709648132
+common_kmeans_k6_s17,0,random,238793981,english,Palworld,best pokemon game,0.6766568422317505
+common_kmeans_k6_s17,0,random,239010536,schinese,Cyberpunk 2077,很好的游戏，这使我的螳螂刀旋转,0.8027053475379944
+common_kmeans_k6_s17,0,random,238976885,schinese,The Witcher 3: Wild Hunt,万万没想到，这游戏还能重制，那必须赞一个,0.750260055065155
+common_kmeans_k6_s17,1,center,238228185,schinese,Raft,累死我了,0.7851941585540771
+common_kmeans_k6_s17,1,center,238607985,schinese,Hollow Knight,我打不过,0.7690300345420837
+common_kmeans_k6_s17,1,center,238943215,english,Black Myth: Wukong,it is very hard,0.7688717246055603
+common_kmeans_k6_s17,1,center,237465223,english,Space Engineers,Hopefully this works.,0.7646735906600952
+common_kmeans_k6_s17,1,center,235183183,schinese,Borderlands 3,无聊的很，玩的想睡觉,0.7639138698577881
+common_kmeans_k6_s17,1,center_english,238943215,english,Black Myth: Wukong,it is very hard,0.7688717246055603
+common_kmeans_k6_s17,1,center_english,237465223,english,Space Engineers,Hopefully this works.,0.7646735906600952
+common_kmeans_k6_s17,1,center_english,238149088,english,Sid Meier's Civilization V,makes me hard,0.7598496079444885
+common_kmeans_k6_s17,1,center_schinese,238228185,schinese,Raft,累死我了,0.7851941585540771
+common_kmeans_k6_s17,1,center_schinese,238607985,schinese,Hollow Knight,我打不过,0.7690300345420837
+common_kmeans_k6_s17,1,center_schinese,235183183,schinese,Borderlands 3,无聊的很，玩的想睡觉,0.7639138698577881
+common_kmeans_k6_s17,1,random,239138987,english,Cyberpunk 2077,if it can run on my old ass laptop u can run it too,0.6608222723007202
+common_kmeans_k6_s17,1,random,238798257,english,Ready or Not,comes with PTSD,0.7361199855804443
+common_kmeans_k6_s17,1,random,238972064,english,Path of Exile,Red text on a white background give dopamine now.,0.695091724395752
+common_kmeans_k6_s17,1,random,238901170,schinese,ARK: Survival Evolved,真该把这土豆服务器塞进官方屁股里,0.6894079446792603
+common_kmeans_k6_s17,1,random,238825225,english,The Elder Scrolls V: Skyrim Special Edition,DONT kill the riverwood chicken,0.6130685210227966
+common_kmeans_k6_s17,2,center,227769545,schinese,Sid Meier's Civilization V,挺没劲的，一点都玩不下去,0.8607938289642334
+common_kmeans_k6_s17,2,center,238361193,schinese,Slay the Spire,垃圾游戏。完全没有好的游戏体验。,0.8568844795227051
+common_kmeans_k6_s17,2,center,237843210,schinese,Dying Light 2,操作手感稀烂，游戏性极低，全程就是再跑图，垃圾游戏浪费我时间,0.851892352104187
+common_kmeans_k6_s17,2,center,238518634,schinese,Warframe,游戏初期就很难让新人继续游玩，各种操作与配置不清楚，难度不低，中后期才开始变得好玩，至少不会死，但各种模式很需要玩家去操作，间谍可以背图，拦截跟不上趟，其他各种强制组队模式就很恶心，本来就是个多人联机游戏，这垃圾服务器还各种bug，最不缺的就是人，但单人根本匹配不到，也不知道怎么回事，就很恶心,0.8478456139564514
+common_kmeans_k6_s17,2,center,239078103,schinese,Dota 2,垃圾游戏，只要碰到傻逼，随随便便拖一个小时，而且还赢不了，如果你有充裕的时间和美好的人生，我强烈推荐你玩这个游戏,0.844956636428833
+common_kmeans_k6_s17,2,center_english,232905590,english,NARAKA: BLADEPOINT,The gameplay gets stale after a while.,0.839806854724884
+common_kmeans_k6_s17,2,center_english,238810365,english,The Elder Scrolls V: Skyrim Special Edition,game is buggy,0.8315154314041138
+common_kmeans_k6_s17,2,center_english,239130242,english,Dying Light 2,THis game is so fucking ass dont buy it the parkkour is shit and i keep on getting stuck on random obstacles honestly fuck this game i wish i didnt spend money on this,0.8222175240516663
+common_kmeans_k6_s17,2,center_schinese,227769545,schinese,Sid Meier's Civilization V,挺没劲的，一点都玩不下去,0.8607938289642334
+common_kmeans_k6_s17,2,center_schinese,238361193,schinese,Slay the Spire,垃圾游戏。完全没有好的游戏体验。,0.8568844795227051
+common_kmeans_k6_s17,2,center_schinese,237843210,schinese,Dying Light 2,操作手感稀烂，游戏性极低，全程就是再跑图，垃圾游戏浪费我时间,0.851892352104187
+common_kmeans_k6_s17,2,random,238614095,schinese,Mount & Blade II: Bannerlord,我想玩潜行游戏为啥不去选择《刺客信条》？这游戏明明叫《骑马与砍杀》,0.6608839631080627
+common_kmeans_k6_s17,2,random,239099581,schinese,Phasmophobia,建议和朋友一起玩，一个人玩·有点吓人,0.7140200138092041
+common_kmeans_k6_s17,2,random,238889072,schinese,Watch Dogs 2,小任务贼恶心，主角还没没有膝盖跳不起来,0.7097089290618896
+common_kmeans_k6_s17,2,random,238499514,schinese,NARAKA: BLADEPOINT,有点吃操作，新手不建议玩道心容易崩塌,0.7453421354293823
+common_kmeans_k6_s17,2,random,237040997,schinese,Rust,独狼玩家很难受，但是个好游戏。,0.7777085304260254
+common_kmeans_k6_s17,3,center,231665487,schinese,Brawlhalla,非常好玩,0.9459573030471802
+common_kmeans_k6_s17,3,center,233520258,schinese,Borderlands 3,挺好玩的,0.9336894154548645
+common_kmeans_k6_s17,3,center,238895874,schinese,Don't Starve Together,很好玩 有挑战性,0.930670440196991
+common_kmeans_k6_s17,3,center,236955208,schinese,Phasmophobia,真的很好玩,0.9282324910163879
+common_kmeans_k6_s17,3,center,239097868,schinese,Stardew Valley,真好玩啊,0.9276260733604431
+common_kmeans_k6_s17,3,center_english,238860622,english,Sid Meier's Civilization V,Very fun to play!,0.8744046688079834
+common_kmeans_k6_s17,3,center_english,238767586,english,Don't Starve Together,very fun play with friends though,0.8630034327507019
+common_kmeans_k6_s17,3,center_english,238986992,english,Ready or Not,Very fun and kinda realistic,0.8599333763122559
+common_kmeans_k6_s17,3,center_schinese,231665487,schinese,Brawlhalla,非常好玩,0.9459573030471802
+common_kmeans_k6_s17,3,center_schinese,233520258,schinese,Borderlands 3,挺好玩的,0.9336894154548645
+common_kmeans_k6_s17,3,center_schinese,238895874,schinese,Don't Starve Together,很好玩 有挑战性,0.930670440196991
+common_kmeans_k6_s17,3,random,237255625,schinese,Brawlhalla,Quick fun party game,0.7250537872314453
+common_kmeans_k6_s17,3,random,236485257,schinese,Borderlands 3,对于我来说真的很好玩,0.9008897542953491
+common_kmeans_k6_s17,3,random,238728052,schinese,Dead Cells,和张天琪一样好玩，你们问我张天琪是谁，他是我室友,0.6758726835250854
+common_kmeans_k6_s17,3,random,238825624,schinese,It Takes Two,太棒了 和朋友一起玩体验非常好！,0.8223472237586975
+common_kmeans_k6_s17,3,random,238557496,schinese,Mount & Blade II: Bannerlord,好玩真实,0.7887911200523376
+common_kmeans_k6_s17,4,center,239105385,schinese,The Witcher 3: Wild Hunt,已经几十个小时了，综合来说是很好的游戏，剧情引人入胜，战斗也符合我的口味（太难的我懒得玩，就这种是最舒服了，砍就完了）。核心就是建立了一个非常宏大的世界观设定，当然，打折是最香的！！,0.8861537575721741
+common_kmeans_k6_s17,4,center,237764961,schinese,Celeste,爽，好玩，无需多言。喜欢这个类型的游戏当然可以试试,0.8757681846618652
+common_kmeans_k6_s17,4,center,239077988,schinese,Celeste,手感很爽快，美术很迷人，前期我还感到略无聊，在第五章后越来越有趣。总体游戏难度挺高的。本来不在意剧情的，不能跳过的剧情也十分优秀，玩完的时候也是爽到了。我只玩了主线就是了，后面的有空再玩吧。非常推荐。,0.8745821714401245
+common_kmeans_k6_s17,4,center,239010653,schinese,Stardew Valley,非常好玩！！剧情好 美工好 都很好 玩的很上头,0.8727737069129944
+common_kmeans_k6_s17,4,center,238730618,schinese,Dead Cells,游戏剧情精彩，地图丰富有特色，武器多样各有优劣。新手可能难以上上手，但值得反复练习，当你真正独自通关后，可以获得其他游戏难得的成就感。就个人而言，值得推荐,0.8713967800140381
+common_kmeans_k6_s17,4,center_english,233188172,english,NARAKA: BLADEPOINT,Solid gameplay and plenty to keep you busy. Definitely recommend,0.8674769997596741
+common_kmeans_k6_s17,4,center_english,238347901,english,Persona 5 Royal,"One of THE BEST games i have played, the story is amazing, characters are interesting, and the gameplay is engaging, Even though i have not played for to long.",0.8644408583641052
+common_kmeans_k6_s17,4,center_english,238877823,english,Hollow Knight,"It's good. Great game mechanics, progression is clean and feels nice. Love exploring all the different areas and combat feels really snappy and purposeful. I like the story, too, it's filled with lore without being too dragging. Game definitely felt really hard the first run I did, but once I learned to be more patient and wait out different enemies, it progressed much more smoothly.",0.8643433451652527
+common_kmeans_k6_s17,4,center_schinese,239105385,schinese,The Witcher 3: Wild Hunt,已经几十个小时了，综合来说是很好的游戏，剧情引人入胜，战斗也符合我的口味（太难的我懒得玩，就这种是最舒服了，砍就完了）。核心就是建立了一个非常宏大的世界观设定，当然，打折是最香的！！,0.8861537575721741
+common_kmeans_k6_s17,4,center_schinese,237764961,schinese,Celeste,爽，好玩，无需多言。喜欢这个类型的游戏当然可以试试,0.8757681846618652
+common_kmeans_k6_s17,4,center_schinese,239077988,schinese,Celeste,手感很爽快，美术很迷人，前期我还感到略无聊，在第五章后越来越有趣。总体游戏难度挺高的。本来不在意剧情的，不能跳过的剧情也十分优秀，玩完的时候也是爽到了。我只玩了主线就是了，后面的有空再玩吧。非常推荐。,0.8745821714401245
+common_kmeans_k6_s17,4,random,239130369,schinese,Dying Light 2,可以的，和1差不多，不懂为什么这么多人说没有1好，，，，是故意打差评么，我反正39块钱买的，很值得，可以慢慢干装备.......,0.7432193160057068
+common_kmeans_k6_s17,4,random,238776910,schinese,Dead by Daylight,非对称对抗，懂的都懂，算是老游戏了。挺好玩的，说是恐怖游戏其实只是顶着鬼脸的对抗性游戏，没什么可怕的。,0.742430567741394
+common_kmeans_k6_s17,4,random,238853135,english,Phasmophobia,really fun with friends and definitely worth its price this my 2nd account as I used to play on ps5 so really I have over 200hr,0.7935192584991455
+common_kmeans_k6_s17,4,random,235571431,schinese,Borderlands 3,挺好玩的，武器种类和搭配是需要动点小脑筋的，难度适中，下了班晚一会儿，然后洗个热水澡睡觉挺不错的。,0.7999103665351868
+common_kmeans_k6_s17,4,random,239097047,english,Dead by Daylight,really fun game as a solo player that has played both survivour and killer both are fun to play and i would highly recomend,0.7786135077476501
+common_kmeans_k6_s17,5,center,239080777,schinese,Terraria,很棒，很喜欢,0.8752620220184326
+common_kmeans_k6_s17,5,center,237696812,schinese,No Man's Sky,非常不错,0.8720688819885254
+common_kmeans_k6_s17,5,center,238834584,schinese,Terraria,非常不错啊,0.8698215484619141
+common_kmeans_k6_s17,5,center,238291731,schinese,Raft,非常不错的,0.862289309501648
+common_kmeans_k6_s17,5,center,238303504,schinese,Age of Empires II: Definitive Edition,很不错的,0.8579350709915161
+common_kmeans_k6_s17,5,center_english,238434948,english,Hades,it was really good,0.8516392111778259
+common_kmeans_k6_s17,5,center_english,238946495,english,The Binding of Isaac: Rebirth,it is pretty good,0.8476148247718811
+common_kmeans_k6_s17,5,center_english,238875224,english,Dying Light 2,i like it,0.8430213332176208
+common_kmeans_k6_s17,5,center_schinese,239080777,schinese,Terraria,很棒，很喜欢,0.8752620220184326
+common_kmeans_k6_s17,5,center_schinese,237696812,schinese,No Man's Sky,非常不错,0.8720688819885254
+common_kmeans_k6_s17,5,center_schinese,238834584,schinese,Terraria,非常不错啊,0.8698215484619141
+common_kmeans_k6_s17,5,random,238842679,schinese,Sid Meier's Civilization VI,太吸引人了，牛逼死了,0.8029392957687378
+common_kmeans_k6_s17,5,random,238382573,schinese,Mount & Blade II: Bannerlord,非常经典,0.7227602601051331
+common_kmeans_k6_s17,5,random,238434948,english,Hades,it was really good,0.8516392111778259
+common_kmeans_k6_s17,5,random,238668944,english,Halo: The Master Chief Collection,Pew Pew. The nostalgia is real.,0.7517414689064026
+common_kmeans_k6_s17,5,random,239015215,schinese,Cyberpunk 2077,非常牛逼,0.803098201751709

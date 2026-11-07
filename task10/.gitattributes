@@ -1,0 +1,4 @@
+# Preserve checksummed delivery bytes; do not convert line endings.
+* -text
+*.npy -diff
+*.npz -diff

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "actual_long_encoder_input_tokens": [
+    2535,
+    2576,
+    3993
+  ],
+  "raw_and_actual_encoder_token_ids_equal": true,
+  "native_limit": 8192,
+  "pilot_short_text_vectors_recomputed": 2,
+  "short_text_max_absolute_delta": 1.4901161193847656e-07,
+  "tolerance": 1e-05,
+  "full_dataset_reencoded": false
+}

@@ -1,0 +1,20 @@
+{
+  "cache_reuse_validation.json": "18158bcc01b2fa20367596293be2d77fb2d81ec69501813f394293869ca824e1",
+  "config.json": "c1819f76cab62ca3d46ee342101ef623198a7579f7ad7719a2cc9c67682f99fb",
+  "encoding_plan.json": "8f2a38a04ae219715a34974e88c958856e8ee9c6a4c55cc0ca3f247885a8e57e",
+  "native_input_validation.json": "d197aced2edf46803a0d32f0c7f92863ac185474af562289409057f09d2a1a5c",
+  "review_index.csv": "9a56582ff39aa5e17ce8446a75eb7fd0c77e3ed9c5d93269b614986bc22795cd",
+  "run_summary.json": "26759215d7f916e497439a4aac7506a131c9675e6a235c5e8e7e0a28983b922e",
+  "source_code/check_cache_reuse.py": "431e555a9f2508ce558bc36e0494a8cf955c8e46c7dd23c0aa32929ac34009c2",
+  "source_code/check_native_inputs.py": "d153cc578d75f978dcfb55a8b4e0378984cb97c214ef0229396367ea6f6cc0d1",
+  "source_code/embedding-bge.md": "b9c8046a72ca3a28d22edd046b18be7286adcacf158a75c5f6b4390e84964462",
+  "source_code/embedding-model-selection-20261105.md": "177bffe06412983eaeb7a922a8c6b9cb199a43e5dd0305fb0e734c5a38027108",
+  "source_code/embedding_bge.json": "449e4250ab6bc33aa4e74571377d383c1e2367a7a086fa42a290e0ef1a6354a5",
+  "source_code/embedding_bge.py": "4af5ea08bd41bc8192ef863d760b148552952780548369c40ae1d6d5c30b4b8e",
+  "source_code/embedding_model_selection.json": "1c58a4a4310e77990d22ac12e1e523ada587ab8667c37e650c79f45f63894f08",
+  "source_code/requirements-topic-lock.txt": "651a62825d808add2aef4b2fe715770c2aa84ffeb252ac2c1ad2ea3be5a43d04",
+  "source_code/test_embedding_bge.py": "f0dc0de20add7ae65d1f93c31e6390f8e7e6bfcaaeb1621ed0e38ecc3e55cc7f",
+  "source_code/validate_bge.py": "c08dc0e80588c1ac82a2d4d88bd9624663b76a257748b50790ad835c8afde78a",
+  "summary.md": "630e92693f5f5d2cfe54410811cbdb836129b2a540173d574adae39f8394033f",
+  "validation.json": "bc6fd9eb0e089a5f49b1e6b03006e4bdc57b1816e2ce59c4d31088acd07d52af"
+}

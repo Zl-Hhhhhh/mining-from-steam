@@ -1,0 +1,6 @@
+{
+  "method": "Reconstructed after initial run using unchanged deterministic sampler, source ID order, seed and config; no model refit. Independent validation compares tree cuts with stored membership labels.",
+  "refit": false,
+  "pipeline_sha256": "9849923da496e4d4218752a5f9f43c49c5e9081852181f520732f0421ac6a23a",
+  "scope_size": 5000
+}

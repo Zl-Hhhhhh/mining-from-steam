@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "examples_checked": 2104,
+  "memberships_changed": false,
+  "center_exact_text_dedup_only": true,
+  "original_random_examples_preserved": true,
+  "refit": false
+}

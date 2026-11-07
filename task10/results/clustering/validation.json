@@ -1,0 +1,158 @@
+{
+  "status": "passed",
+  "check_count": 89,
+  "checks": [
+    "Step 3 vectors unchanged; no encoder or new embeddings",
+    "Scope index follows cached IDs exactly",
+    "13145 lexical fit / 5000 common / 1500 evaluation nested",
+    "Common sample has 2500 per API language",
+    "Fit matches source eligibility, excluding symbols and cleanup-empty",
+    "15 candidates: six full KMeans, nine common-scope models",
+    "Tree order is the exact common-scope ID set",
+    "full_kmeans_k6_s17: every master ID retained in order",
+    "full_kmeans_k6_s17: exact fit and application scope",
+    "full_kmeans_k6_s17: k nonempty clusters, correct sizes",
+    "full_kmeans_k6_s17: profile sizes and post-fit recommendation shares",
+    "full_kmeans_k6_s17: independently recomputed shared-sample silhouette",
+    "full_kmeans_k6_s42: every master ID retained in order",
+    "full_kmeans_k6_s42: exact fit and application scope",
+    "full_kmeans_k6_s42: k nonempty clusters, correct sizes",
+    "full_kmeans_k6_s42: profile sizes and post-fit recommendation shares",
+    "full_kmeans_k6_s42: independently recomputed shared-sample silhouette",
+    "full_kmeans_k10_s17: every master ID retained in order",
+    "full_kmeans_k10_s17: exact fit and application scope",
+    "full_kmeans_k10_s17: k nonempty clusters, correct sizes",
+    "full_kmeans_k10_s17: profile sizes and post-fit recommendation shares",
+    "full_kmeans_k10_s17: independently recomputed shared-sample silhouette",
+    "full_kmeans_k10_s42: every master ID retained in order",
+    "full_kmeans_k10_s42: exact fit and application scope",
+    "full_kmeans_k10_s42: k nonempty clusters, correct sizes",
+    "full_kmeans_k10_s42: profile sizes and post-fit recommendation shares",
+    "full_kmeans_k10_s42: independently recomputed shared-sample silhouette",
+    "full_kmeans_k14_s17: every master ID retained in order",
+    "full_kmeans_k14_s17: exact fit and application scope",
+    "full_kmeans_k14_s17: k nonempty clusters, correct sizes",
+    "full_kmeans_k14_s17: profile sizes and post-fit recommendation shares",
+    "full_kmeans_k14_s17: independently recomputed shared-sample silhouette",
+    "full_kmeans_k14_s42: every master ID retained in order",
+    "full_kmeans_k14_s42: exact fit and application scope",
+    "full_kmeans_k14_s42: k nonempty clusters, correct sizes",
+    "full_kmeans_k14_s42: profile sizes and post-fit recommendation shares",
+    "full_kmeans_k14_s42: independently recomputed shared-sample silhouette",
+    "common_kmeans_k6_s17: every master ID retained in order",
+    "common_kmeans_k6_s17: exact fit and application scope",
+    "common_kmeans_k6_s17: k nonempty clusters, correct sizes",
+    "common_kmeans_k6_s17: profile sizes and post-fit recommendation shares",
+    "common_kmeans_k6_s17: independently recomputed shared-sample silhouette",
+    "common_kmeans_k10_s17: every master ID retained in order",
+    "common_kmeans_k10_s17: exact fit and application scope",
+    "common_kmeans_k10_s17: k nonempty clusters, correct sizes",
+    "common_kmeans_k10_s17: profile sizes and post-fit recommendation shares",
+    "common_kmeans_k10_s17: independently recomputed shared-sample silhouette",
+    "common_kmeans_k14_s17: every master ID retained in order",
+    "common_kmeans_k14_s17: exact fit and application scope",
+    "common_kmeans_k14_s17: k nonempty clusters, correct sizes",
+    "common_kmeans_k14_s17: profile sizes and post-fit recommendation shares",
+    "common_kmeans_k14_s17: independently recomputed shared-sample silhouette",
+    "ward_k6: every master ID retained in order",
+    "ward_k6: exact fit and application scope",
+    "ward_k6: k nonempty clusters, correct sizes",
+    "ward_k6: profile sizes and post-fit recommendation shares",
+    "ward_k6: independently recomputed shared-sample silhouette",
+    "ward_k6: stored memberships match independent tree cut",
+    "ward_k10: every master ID retained in order",
+    "ward_k10: exact fit and application scope",
+    "ward_k10: k nonempty clusters, correct sizes",
+    "ward_k10: profile sizes and post-fit recommendation shares",
+    "ward_k10: independently recomputed shared-sample silhouette",
+    "ward_k10: stored memberships match independent tree cut",
+    "ward_k14: every master ID retained in order",
+    "ward_k14: exact fit and application scope",
+    "ward_k14: k nonempty clusters, correct sizes",
+    "ward_k14: profile sizes and post-fit recommendation shares",
+    "ward_k14: independently recomputed shared-sample silhouette",
+    "ward_k14: stored memberships match independent tree cut",
+    "average_k6: every master ID retained in order",
+    "average_k6: exact fit and application scope",
+    "average_k6: k nonempty clusters, correct sizes",
+    "average_k6: profile sizes and post-fit recommendation shares",
+    "average_k6: independently recomputed shared-sample silhouette",
+    "average_k6: stored memberships match independent tree cut",
+    "average_k10: every master ID retained in order",
+    "average_k10: exact fit and application scope",
+    "average_k10: k nonempty clusters, correct sizes",
+    "average_k10: profile sizes and post-fit recommendation shares",
+    "average_k10: independently recomputed shared-sample silhouette",
+    "average_k10: stored memberships match independent tree cut",
+    "average_k14: every master ID retained in order",
+    "average_k14: exact fit and application scope",
+    "average_k14: k nonempty clusters, correct sizes",
+    "average_k14: profile sizes and post-fit recommendation shares",
+    "average_k14: independently recomputed shared-sample silhouette",
+    "average_k14: stored memberships match independent tree cut",
+    "No fitted recommendation target or final theme claim"
+  ],
+  "metric_recomputation": [
+    {
+      "candidate": "full_kmeans_k6_s17",
+      "silhouette_difference": 5.716876971817442e-11
+    },
+    {
+      "candidate": "full_kmeans_k6_s42",
+      "silhouette_difference": 5.716876971817442e-11
+    },
+    {
+      "candidate": "full_kmeans_k10_s17",
+      "silhouette_difference": 4.148862916414364e-09
+    },
+    {
+      "candidate": "full_kmeans_k10_s42",
+      "silhouette_difference": 7.08834859558527e-09
+    },
+    {
+      "candidate": "full_kmeans_k14_s17",
+      "silhouette_difference": 2.1766830733682685e-09
+    },
+    {
+      "candidate": "full_kmeans_k14_s42",
+      "silhouette_difference": 6.967726048912048e-11
+    },
+    {
+      "candidate": "common_kmeans_k6_s17",
+      "silhouette_difference": 1.0721919047051998e-09
+    },
+    {
+      "candidate": "common_kmeans_k10_s17",
+      "silhouette_difference": 5.1090451765045675e-09
+    },
+    {
+      "candidate": "common_kmeans_k14_s17",
+      "silhouette_difference": 1.6208496819020146e-09
+    },
+    {
+      "candidate": "ward_k6",
+      "silhouette_difference": 1.0668458897550304e-08
+    },
+    {
+      "candidate": "ward_k10",
+      "silhouette_difference": 3.1247534976186486e-09
+    },
+    {
+      "candidate": "ward_k14",
+      "silhouette_difference": 3.9074571564490235e-09
+    },
+    {
+      "candidate": "average_k6",
+      "silhouette_difference": 3.2239979408377195e-08
+    },
+    {
+      "candidate": "average_k10",
+      "silhouette_difference": 1.242749014807032e-09
+    },
+    {
+      "candidate": "average_k14",
+      "silhouette_difference": 1.1142580358391996e-08
+    }
+  ],
+  "independent_human_semantic_validation": false
+}

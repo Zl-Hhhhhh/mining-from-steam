@@ -1,0 +1,92 @@
+﻿candidate,cluster,selection,recommendationid,language,game_name,text,cosine_to_own_centroid
+average_k14,0,center,239057106,english,Palworld,This game is really fun.,0.874950647354126
+average_k14,0,center,238690149,english,Raft,it is a very fun game,0.8671138882637024
+average_k14,0,center,238453677,schinese,NARAKA: BLADEPOINT,好游戏，十分好玩。,0.8655155897140503
+average_k14,0,center,239092655,schinese,Terraria,好游戏，值得试一试,0.8639440536499023
+average_k14,0,center,238516920,schinese,Grand Theft Auto V,很好玩，任务很刺激,0.8636497259140015
+average_k14,0,center_english,239057106,english,Palworld,This game is really fun.,0.874950647354126
+average_k14,0,center_english,238690149,english,Raft,it is a very fun game,0.8671138882637024
+average_k14,0,center_english,238642604,english,Sid Meier's Civilization VI,This game is super fun. For real,0.8620445132255554
+average_k14,0,center_schinese,238453677,schinese,NARAKA: BLADEPOINT,好游戏，十分好玩。,0.8655155897140503
+average_k14,0,center_schinese,239092655,schinese,Terraria,好游戏，值得试一试,0.8639440536499023
+average_k14,0,center_schinese,238516920,schinese,Grand Theft Auto V,很好玩，任务很刺激,0.8636497259140015
+average_k14,0,random,237858650,schinese,Celeste,99小时月莓纪念。,0.5487247705459595
+average_k14,0,random,238990962,schinese,Apex Legends,全世界最好玩的游戏，APEX!!大家一起来玩！玩一把上不了当，玩一把不会后悔，三分钟一把，巨爽巨解压,0.7635237574577332
+average_k14,0,random,238419302,schinese,No Man's Sky,《没有男人的天空》，年轻人的第一款理财产品，你值得拥有(๑•̀ㅂ•́)و✧,0.6059927940368652
+average_k14,0,random,238994561,schinese,Black Myth: Wukong,很不错的,0.7888246178627014
+average_k14,0,random,239114231,schinese,Cyberpunk 2077,第一次见设置人物还能设置奶子和生殖器的，国外的游戏真奔放。,0.7180739045143127
+average_k14,1,center,238938578,english,Dota 2,DIAZ CANEL SINGAO,0.8228194713592529
+average_k14,1,center,238860852,english,Brawlhalla,Aquí cogio Peñanieto,0.8228194117546082
+average_k14,1,center_english,238938578,english,Dota 2,DIAZ CANEL SINGAO,0.8228194713592529
+average_k14,1,center_english,238860852,english,Brawlhalla,Aquí cogio Peñanieto,0.8228194117546082
+average_k14,1,random,238860852,english,Brawlhalla,Aquí cogio Peñanieto,0.8228194117546082
+average_k14,1,random,238938578,english,Dota 2,DIAZ CANEL SINGAO,0.8228194713592529
+average_k14,2,center,238964564,english,Apex Legends,sigmatastic or tasticsigma?,1.0000001192092896
+average_k14,2,center_english,238964564,english,Apex Legends,sigmatastic or tasticsigma?,1.0000001192092896
+average_k14,2,random,238964564,english,Apex Legends,sigmatastic or tasticsigma?,1.0000001192092896
+average_k14,3,center,238789475,schinese,No Man's Sky,我们至今仍未知道那天水所冲走的数据的名字,0.8295811414718628
+average_k14,3,center,239063569,english,Terraria,scientists reveal the Hi,0.8295811414718628
+average_k14,3,center_english,239063569,english,Terraria,scientists reveal the Hi,0.8295811414718628
+average_k14,3,center_schinese,238789475,schinese,No Man's Sky,我们至今仍未知道那天水所冲走的数据的名字,0.8295811414718628
+average_k14,3,random,238789475,schinese,No Man's Sky,我们至今仍未知道那天水所冲走的数据的名字,0.8295811414718628
+average_k14,3,random,239063569,english,Terraria,scientists reveal the Hi,0.8295811414718628
+average_k14,4,center,239130945,english,Elden Ring,Vecais Gredzens kruts,1.0
+average_k14,4,center_english,239130945,english,Elden Ring,Vecais Gredzens kruts,1.0
+average_k14,4,random,239130945,english,Elden Ring,Vecais Gredzens kruts,1.0
+average_k14,5,center,238990077,schinese,Mount & Blade II: Bannerlord,R687R76 RF,0.8332176208496094
+average_k14,5,center,238901136,english,Apex Legends,67 shite in mynass,0.8332173824310303
+average_k14,5,center_english,238901136,english,Apex Legends,67 shite in mynass,0.8332173824310303
+average_k14,5,center_schinese,238990077,schinese,Mount & Blade II: Bannerlord,R687R76 RF,0.8332176208496094
+average_k14,5,random,238901136,english,Apex Legends,67 shite in mynass,0.8332173824310303
+average_k14,5,random,238990077,schinese,Mount & Blade II: Bannerlord,R687R76 RF,0.8332176208496094
+average_k14,6,center,239124796,english,Brawlhalla,one of the seven deadly sins,0.8276011943817139
+average_k14,6,center,238830333,english,Hades,es la polla,0.82760089635849
+average_k14,6,center_english,239124796,english,Brawlhalla,one of the seven deadly sins,0.8276011943817139
+average_k14,6,center_english,238830333,english,Hades,es la polla,0.82760089635849
+average_k14,6,random,239124796,english,Brawlhalla,one of the seven deadly sins,0.8276011943817139
+average_k14,6,random,238830333,english,Hades,es la polla,0.82760089635849
+average_k14,7,center,238788832,schinese,The Binding of Isaac: Rebirth,肉鸽游戏最高的山，最长的河,0.9190585613250732
+average_k14,7,center,239066244,schinese,The Binding of Isaac: Rebirth,肉鸽游戏最长的河,0.8469362854957581
+average_k14,7,center,237460739,schinese,The Elder Scrolls V: Skyrim Special Edition,开放世界最高的山最长的河,0.8301265835762024
+average_k14,7,center,238612632,schinese,The Binding of Isaac: Rebirth,肉鸽最高的山,0.7858515977859497
+average_k14,7,center,239053725,schinese,ARK: Survival Evolved,开放世界生存制造类最长的河,0.7853511571884155
+average_k14,7,center_schinese,238788832,schinese,The Binding of Isaac: Rebirth,肉鸽游戏最高的山，最长的河,0.9190585613250732
+average_k14,7,center_schinese,239066244,schinese,The Binding of Isaac: Rebirth,肉鸽游戏最长的河,0.8469362854957581
+average_k14,7,center_schinese,237460739,schinese,The Elder Scrolls V: Skyrim Special Edition,开放世界最高的山最长的河,0.8301265835762024
+average_k14,7,random,238788832,schinese,The Binding of Isaac: Rebirth,肉鸽游戏最高的山，最长的河,0.9190585613250732
+average_k14,7,random,238843953,schinese,The Binding of Isaac: Rebirth,roguelike最高的山,0.7369281053543091
+average_k14,7,random,236951890,schinese,Half-Life 2,脚本叙事FPS最高的山,0.731104850769043
+average_k14,7,random,237460739,schinese,The Elder Scrolls V: Skyrim Special Edition,开放世界最高的山最长的河,0.8301265835762024
+average_k14,7,random,239066244,schinese,The Binding of Isaac: Rebirth,肉鸽游戏最长的河,0.8469362854957581
+average_k14,8,center,239108370,schinese,Red Dead Redemption 2,卷卷有爷名,0.7585965991020203
+average_k14,8,center,238516196,schinese,The Binding of Isaac: Rebirth,雅各和以扫我草称冯福,0.7462891340255737
+average_k14,8,center,238015712,schinese,Celeste,将登太行雪满山,0.7263507843017578
+average_k14,8,center,238735343,schinese,Ready or Not,赵志大战自瞄挂,0.7150455117225647
+average_k14,8,center_schinese,239108370,schinese,Red Dead Redemption 2,卷卷有爷名,0.7585965991020203
+average_k14,8,center_schinese,238516196,schinese,The Binding of Isaac: Rebirth,雅各和以扫我草称冯福,0.7462891340255737
+average_k14,8,center_schinese,238015712,schinese,Celeste,将登太行雪满山,0.7263507843017578
+average_k14,8,random,238516196,schinese,The Binding of Isaac: Rebirth,雅各和以扫我草称冯福,0.7462891340255737
+average_k14,8,random,239108370,schinese,Red Dead Redemption 2,卷卷有爷名,0.7585965991020203
+average_k14,8,random,238735343,schinese,Ready or Not,赵志大战自瞄挂,0.7150455117225647
+average_k14,8,random,238015712,schinese,Celeste,将登太行雪满山,0.7263507843017578
+average_k14,9,center,239077335,schinese,Counter-Strike 2,撒比姆巴佩,1.0
+average_k14,9,center_schinese,239077335,schinese,Counter-Strike 2,撒比姆巴佩,1.0
+average_k14,9,random,239077335,schinese,Counter-Strike 2,撒比姆巴佩,1.0
+average_k14,10,center,238098904,schinese,ARK: Survival Evolved,老鹰和羽暴龙都是日本人,0.8344789743423462
+average_k14,10,center,238385893,schinese,Warframe,泡博龙是一个啥比,0.8344789743423462
+average_k14,10,center_schinese,238098904,schinese,ARK: Survival Evolved,老鹰和羽暴龙都是日本人,0.8344789743423462
+average_k14,10,center_schinese,238385893,schinese,Warframe,泡博龙是一个啥比,0.8344789743423462
+average_k14,10,random,238098904,schinese,ARK: Survival Evolved,老鹰和羽暴龙都是日本人,0.8344789743423462
+average_k14,10,random,238385893,schinese,Warframe,泡博龙是一个啥比,0.8344789743423462
+average_k14,11,center,239018139,schinese,Black Myth: Wukong,第一位大学生,0.8452925086021423
+average_k14,11,center,235395335,schinese,Half-Life 2,女子王元,0.8452924489974976
+average_k14,11,center_schinese,239018139,schinese,Black Myth: Wukong,第一位大学生,0.8452925086021423
+average_k14,11,center_schinese,235395335,schinese,Half-Life 2,女子王元,0.8452924489974976
+average_k14,11,random,235395335,schinese,Half-Life 2,女子王元,0.8452924489974976
+average_k14,11,random,239018139,schinese,Black Myth: Wukong,第一位大学生,0.8452925086021423
+average_k14,12,center,238972006,schinese,Red Dead Redemption 2,第九艺术,0.9999998807907104
+average_k14,12,center_schinese,238972006,schinese,Red Dead Redemption 2,第九艺术,0.9999998807907104
+average_k14,12,random,238972006,schinese,Red Dead Redemption 2,第九艺术,0.9999998807907104
+average_k14,13,center,238922216,schinese,It Takes Two,舒骚天王,1.0000001192092896
+average_k14,13,center_schinese,238922216,schinese,It Takes Two,舒骚天王,1.0000001192092896
+average_k14,13,random,238922216,schinese,It Takes Two,舒骚天王,1.0000001192092896

@@ -1,0 +1,14 @@
+{
+  "generic_fullmatch_regex": "(?i)^(?:非常|很好|很|太|真|挺|超|特别|真的|超级|好|特别特别)*(?:好玩|不错|棒|神作|推荐|垃圾|好评|差评)[啊呀呢哦吧啦！!。.,，\\s]*$|^(?:(?:this|it|is|a|the|very|really|so|such|best|good|great|fun|game|ever|made|one|of|games|played|i|love|like)\\s*)+[.!]*$",
+  "boundary_gap": 0.03,
+  "status_counts": {
+    "low_confidence_review_required": 8228,
+    "provisional_no_clear_theme_nonlexical": 198,
+    "unvalidated_candidate": 8889,
+    "provisional_no_clear_theme_generic_rule": 2077,
+    "empty_text": 94
+  },
+  "calibrated_confidence": false,
+  "human_theme_validation_complete": false,
+  "scope": "Review-level reading and provisional rejection candidates only; all original cluster assignments preserved"
+}

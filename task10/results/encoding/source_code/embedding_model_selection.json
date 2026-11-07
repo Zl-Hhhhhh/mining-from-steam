@@ -1,0 +1,14 @@
+{
+  "decision_date": "2026-11-05",
+  "status": "selected_by_user_after_pilot_review",
+  "selected_model": "BAAI/bge-m3",
+  "selected_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "pilot": "experiments/embedding-model-pilot-20261105/results-v1",
+  "user_rationale": "Jina对中等长度且主题明确的文本有优势；BGE跨语言句意对齐和短句表现更符合本项目需求，综合选择BGE。",
+  "decision_basis": "User inspected paired real-neighbour examples, alongside transparent controlled diagnostics and local inference costs.",
+  "independent_gold_evaluation_claimed": false,
+  "jina_role": "Historical comparison, not selected for full-data encoding",
+  "minilm_role": "Historical exploratory baseline",
+  "next_stage": "Step 3: batch encode all eligible frozen review text with fixed BGE version and ID-aligned cache",
+  "formal_theme_validation_complete": false
+}

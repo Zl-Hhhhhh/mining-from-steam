@@ -1,0 +1,242 @@
+{
+  "status": "passed",
+  "scope": "Task10 only; no Task11 labels or coordinator material included",
+  "checks": 81,
+  "names": [
+    "vector_shape_ids",
+    "vector_byte_exact",
+    "portable_full_run_success",
+    "assignment_labels_flags_exact_full_kmeans_k6_s17",
+    "score_missing_scope_exact_full_kmeans_k6_s17_cosine_to_own_centroid",
+    "score_tolerance_full_kmeans_k6_s17_cosine_to_own_centroid",
+    "score_missing_scope_exact_full_kmeans_k6_s17_centroid_cosine_gap",
+    "score_tolerance_full_kmeans_k6_s17_centroid_cosine_gap",
+    "assignment_labels_flags_exact_full_kmeans_k6_s42",
+    "score_missing_scope_exact_full_kmeans_k6_s42_cosine_to_own_centroid",
+    "score_tolerance_full_kmeans_k6_s42_cosine_to_own_centroid",
+    "score_missing_scope_exact_full_kmeans_k6_s42_centroid_cosine_gap",
+    "score_tolerance_full_kmeans_k6_s42_centroid_cosine_gap",
+    "assignment_labels_flags_exact_full_kmeans_k10_s17",
+    "score_missing_scope_exact_full_kmeans_k10_s17_cosine_to_own_centroid",
+    "score_tolerance_full_kmeans_k10_s17_cosine_to_own_centroid",
+    "score_missing_scope_exact_full_kmeans_k10_s17_centroid_cosine_gap",
+    "score_tolerance_full_kmeans_k10_s17_centroid_cosine_gap",
+    "assignment_labels_flags_exact_full_kmeans_k10_s42",
+    "score_missing_scope_exact_full_kmeans_k10_s42_cosine_to_own_centroid",
+    "score_tolerance_full_kmeans_k10_s42_cosine_to_own_centroid",
+    "score_missing_scope_exact_full_kmeans_k10_s42_centroid_cosine_gap",
+    "score_tolerance_full_kmeans_k10_s42_centroid_cosine_gap",
+    "assignment_labels_flags_exact_full_kmeans_k14_s17",
+    "score_missing_scope_exact_full_kmeans_k14_s17_cosine_to_own_centroid",
+    "score_tolerance_full_kmeans_k14_s17_cosine_to_own_centroid",
+    "score_missing_scope_exact_full_kmeans_k14_s17_centroid_cosine_gap",
+    "score_tolerance_full_kmeans_k14_s17_centroid_cosine_gap",
+    "assignment_labels_flags_exact_full_kmeans_k14_s42",
+    "score_missing_scope_exact_full_kmeans_k14_s42_cosine_to_own_centroid",
+    "score_tolerance_full_kmeans_k14_s42_cosine_to_own_centroid",
+    "score_missing_scope_exact_full_kmeans_k14_s42_centroid_cosine_gap",
+    "score_tolerance_full_kmeans_k14_s42_centroid_cosine_gap",
+    "assignment_labels_flags_exact_common_kmeans_k6_s17",
+    "score_missing_scope_exact_common_kmeans_k6_s17_cosine_to_own_centroid",
+    "score_tolerance_common_kmeans_k6_s17_cosine_to_own_centroid",
+    "score_missing_scope_exact_common_kmeans_k6_s17_centroid_cosine_gap",
+    "score_tolerance_common_kmeans_k6_s17_centroid_cosine_gap",
+    "assignment_labels_flags_exact_common_kmeans_k10_s17",
+    "score_missing_scope_exact_common_kmeans_k10_s17_cosine_to_own_centroid",
+    "score_tolerance_common_kmeans_k10_s17_cosine_to_own_centroid",
+    "score_missing_scope_exact_common_kmeans_k10_s17_centroid_cosine_gap",
+    "score_tolerance_common_kmeans_k10_s17_centroid_cosine_gap",
+    "assignment_labels_flags_exact_common_kmeans_k14_s17",
+    "score_missing_scope_exact_common_kmeans_k14_s17_cosine_to_own_centroid",
+    "score_tolerance_common_kmeans_k14_s17_cosine_to_own_centroid",
+    "score_missing_scope_exact_common_kmeans_k14_s17_centroid_cosine_gap",
+    "score_tolerance_common_kmeans_k14_s17_centroid_cosine_gap",
+    "assignment_labels_flags_exact_ward_k6",
+    "score_missing_scope_exact_ward_k6_cosine_to_own_centroid",
+    "score_tolerance_ward_k6_cosine_to_own_centroid",
+    "score_missing_scope_exact_ward_k6_centroid_cosine_gap",
+    "score_tolerance_ward_k6_centroid_cosine_gap",
+    "assignment_labels_flags_exact_ward_k10",
+    "score_missing_scope_exact_ward_k10_cosine_to_own_centroid",
+    "score_tolerance_ward_k10_cosine_to_own_centroid",
+    "score_missing_scope_exact_ward_k10_centroid_cosine_gap",
+    "score_tolerance_ward_k10_centroid_cosine_gap",
+    "assignment_labels_flags_exact_ward_k14",
+    "score_missing_scope_exact_ward_k14_cosine_to_own_centroid",
+    "score_tolerance_ward_k14_cosine_to_own_centroid",
+    "score_missing_scope_exact_ward_k14_centroid_cosine_gap",
+    "score_tolerance_ward_k14_centroid_cosine_gap",
+    "assignment_labels_flags_exact_average_k6",
+    "score_missing_scope_exact_average_k6_cosine_to_own_centroid",
+    "score_tolerance_average_k6_cosine_to_own_centroid",
+    "score_missing_scope_exact_average_k6_centroid_cosine_gap",
+    "score_tolerance_average_k6_centroid_cosine_gap",
+    "assignment_labels_flags_exact_average_k10",
+    "score_missing_scope_exact_average_k10_cosine_to_own_centroid",
+    "score_tolerance_average_k10_cosine_to_own_centroid",
+    "score_missing_scope_exact_average_k10_centroid_cosine_gap",
+    "score_tolerance_average_k10_centroid_cosine_gap",
+    "assignment_labels_flags_exact_average_k14",
+    "score_missing_scope_exact_average_k14_cosine_to_own_centroid",
+    "score_tolerance_average_k14_cosine_to_own_centroid",
+    "score_missing_scope_exact_average_k14_centroid_cosine_gap",
+    "score_tolerance_average_k14_centroid_cosine_gap",
+    "common5000_order_exact",
+    "all_master_statuses_empty_human_fields",
+    "60_bilingual_center_representatives"
+  ],
+  "candidate_assignment_equivalence": [
+    {
+      "candidate": "full_kmeans_k6_s17",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 1.1920928955078125e-07,
+        "centroid_cosine_gap": 1.7881393432617188e-07
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "full_kmeans_k6_s42",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 1.1920928955078125e-07,
+        "centroid_cosine_gap": 2.384185791015625e-07
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "full_kmeans_k10_s17",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 1.1920928955078125e-07,
+        "centroid_cosine_gap": 1.7881393432617188e-07
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "full_kmeans_k10_s42",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 1.1920928955078125e-07,
+        "centroid_cosine_gap": 1.7881393432617188e-07
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "full_kmeans_k14_s17",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 1.7881393432617188e-07,
+        "centroid_cosine_gap": 1.7881393432617188e-07
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "full_kmeans_k14_s42",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 1.1920928955078125e-07,
+        "centroid_cosine_gap": 1.7881393432617188e-07
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "common_kmeans_k6_s17",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 1.7881393432617188e-07,
+        "centroid_cosine_gap": 1.7881393432617188e-07
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "common_kmeans_k10_s17",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 2.384185791015625e-07,
+        "centroid_cosine_gap": 2.384185791015625e-07
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "common_kmeans_k14_s17",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 2.384185791015625e-07,
+        "centroid_cosine_gap": 2.384185791015625e-07
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "ward_k6",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "ward_k10",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "ward_k14",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "average_k6",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "average_k10",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      },
+      "adjusted_rand_index": 1.0
+    },
+    {
+      "candidate": "average_k14",
+      "labels_and_flags_exact": true,
+      "numeric_absolute_tolerance": 1e-06,
+      "max_abs_score_differences": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      },
+      "adjusted_rand_index": 1.0
+    }
+  ],
+  "portable_run_seconds": 125.72218249999969,
+  "human_theme_validation_complete": false
+}

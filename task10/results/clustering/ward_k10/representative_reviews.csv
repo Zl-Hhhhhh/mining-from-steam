@@ -1,0 +1,161 @@
+﻿candidate,cluster,selection,recommendationid,language,game_name,text,cosine_to_own_centroid
+ward_k10,0,center,239057106,english,Palworld,This game is really fun.,0.9345778226852417
+ward_k10,0,center,238690149,english,Raft,it is a very fun game,0.9294190406799316
+ward_k10,0,center,238642604,english,Sid Meier's Civilization VI,This game is super fun. For real,0.9192315340042114
+ward_k10,0,center,238007146,schinese,Garry's Mod,this game is very good,0.9184155464172363
+ward_k10,0,center,238582579,english,Slay the Spire,"game good, much fun",0.9178943037986755
+ward_k10,0,center_english,239057106,english,Palworld,This game is really fun.,0.9345778226852417
+ward_k10,0,center_english,238690149,english,Raft,it is a very fun game,0.9294190406799316
+ward_k10,0,center_english,238642604,english,Sid Meier's Civilization VI,This game is super fun. For real,0.9192315340042114
+ward_k10,0,center_schinese,238007146,schinese,Garry's Mod,this game is very good,0.9184155464172363
+ward_k10,0,center_schinese,238982241,schinese,Terraria,很好玩的游戏,0.9077656269073486
+ward_k10,0,center_schinese,238453677,schinese,NARAKA: BLADEPOINT,好游戏，十分好玩。,0.9075210690498352
+ward_k10,0,random,239036006,english,Stardew Valley,"Cozy, comfy game to play when you need to relax your brain for a few hours!",0.7827330827713013
+ward_k10,0,random,238788417,schinese,Baldur's Gate 3,这个游戏自由度确实很高，虽然机制有点复杂，但是上手之后感觉挺有意思的,0.8074191808700562
+ward_k10,0,random,238908132,schinese,Grand Theft Auto V,加上模组很好玩,0.7589048743247986
+ward_k10,0,random,239017027,schinese,Elden Ring,游戏很有趣，难度适中,0.8604257106781006
+ward_k10,0,random,239110257,schinese,Sid Meier's Civilization VI,好玩就是耗时间,0.6956783533096313
+ward_k10,1,center,238810365,english,The Elder Scrolls V: Skyrim Special Edition,game is buggy,0.8492947220802307
+ward_k10,1,center,239121788,english,Counter-Strike 2,Game is terrible,0.8382428884506226
+ward_k10,1,center,238879933,english,Apex Legends,This game is horrible,0.8371824622154236
+ward_k10,1,center,238215021,schinese,Warframe,玩了就后悔,0.8339840173721313
+ward_k10,1,center,235376041,schinese,Rust,很好玩下次别玩了,0.830036997795105
+ward_k10,1,center_english,238810365,english,The Elder Scrolls V: Skyrim Special Edition,game is buggy,0.8492947220802307
+ward_k10,1,center_english,239121788,english,Counter-Strike 2,Game is terrible,0.8382428884506226
+ward_k10,1,center_english,238879933,english,Apex Legends,This game is horrible,0.8371824622154236
+ward_k10,1,center_schinese,238215021,schinese,Warframe,玩了就后悔,0.8339840173721313
+ward_k10,1,center_schinese,235376041,schinese,Rust,很好玩下次别玩了,0.830036997795105
+ward_k10,1,center_schinese,239010465,schinese,War Thunder,？不好玩，别玩,0.8221370577812195
+ward_k10,1,random,238979760,english,Brawlhalla,There is no happiness. No matter how good you get you will never be good enough to find joy in this game. Run.,0.7303970456123352
+ward_k10,1,random,238180663,english,Darkest Dungeon,This game hates you. You specifically. 10/10 would recommend.,0.7645459175109863
+ward_k10,1,random,239139112,english,Counter-Strike 2,Dont play this cheating russian infested sack of shit game.,0.7342156767845154
+ward_k10,1,random,233515393,schinese,Halo: The Master Chief Collection,逼养的游戏 音频一卡一卡的,0.7594670653343201
+ward_k10,1,random,239118465,english,Dead by Daylight,"If you want an advice for ur mental sanity, don't install this. It's fun the first 2-3 months, then they nerf surv perks and killers, and become a nightmare, full of traumatic teams if u play as a killer, but if u play as a surv, the most toxic killer with toxic perks. If u are alone NEVER plsy surv. ur randoms will be absolutely ass. If u play custom with friends can be really funny, if u play online, u will hate everyone, even ur friends, but it's fun, overall.",0.7264353632926941
+ward_k10,2,center,238383331,schinese,ARK: Survival Evolved,玩的很爽,0.8614429235458374
+ward_k10,2,center,239080777,schinese,Terraria,很棒，很喜欢,0.8613978624343872
+ward_k10,2,center,237058129,schinese,Borderlands 3,玩着很爽,0.8613516092300415
+ward_k10,2,center,237696812,schinese,No Man's Sky,非常不错,0.8581405282020569
+ward_k10,2,center,238834584,schinese,Terraria,非常不错啊,0.8557367920875549
+ward_k10,2,center_english,238464571,english,Sid Meier's Civilization V,Well made and fun.,0.8500462770462036
+ward_k10,2,center_english,238875224,english,Dying Light 2,i like it,0.836427628993988
+ward_k10,2,center_english,238434948,english,Hades,it was really good,0.8349613547325134
+ward_k10,2,center_schinese,238383331,schinese,ARK: Survival Evolved,玩的很爽,0.8614429235458374
+ward_k10,2,center_schinese,239080777,schinese,Terraria,很棒，很喜欢,0.8613978624343872
+ward_k10,2,center_schinese,237058129,schinese,Borderlands 3,玩着很爽,0.8613516092300415
+ward_k10,2,random,238815112,schinese,Elden Ring,堪称完美,0.7399642467498779
+ward_k10,2,random,235607195,schinese,Brawlhalla,格斗类游戏还是比较好玩的，操作很流畅,0.75385582447052
+ward_k10,2,random,239074717,schinese,Baldur's Gate 3,无需多言,0.6889379024505615
+ward_k10,2,random,238991834,schinese,Persona 5 Royal,感谢阿特拉斯给所有人一个体验日本男高的机会,0.6382033824920654
+ward_k10,2,random,238647739,schinese,Elden Ring,只有神人才能做出的神作！,0.6023629307746887
+ward_k10,3,center,238437919,schinese,Persona 5 Royal,小时候就想玩的游戏现在也是终于玩上虽然现在玩起来感觉没这几年游戏精致但它依然是我最喜欢的游戏之一，强烈推荐！p5天下第一！,0.821007251739502
+ward_k10,3,center,237134578,english,Space Engineers,One of my favorite survival games and its getting better,0.8172375559806824
+ward_k10,3,center,237839429,schinese,The Elder Scrolls V: Skyrim Special Edition,玩多了新游戏可能不适应，但本质神作，真的很好玩，期待在陶德老掉了之前玩到滚6,0.8068514466285706
+ward_k10,3,center,234973318,schinese,Sid Meier's Civilization V,经典游戏，文明系列的巅峰之作，很耐玩。,0.8042473196983337
+ward_k10,3,center,237304300,english,Sid Meier's Civilization V,It's addictive (unlike 6 & 7). Get the DLC too.,0.8041782379150391
+ward_k10,3,center_english,237134578,english,Space Engineers,One of my favorite survival games and its getting better,0.8172375559806824
+ward_k10,3,center_english,237304300,english,Sid Meier's Civilization V,It's addictive (unlike 6 & 7). Get the DLC too.,0.8041782379150391
+ward_k10,3,center_english,237350290,english,Sid Meier's Civilization V,"One of my favorite games on a computer. I think this is the best Civ game made. Straight forward, robust, and an easy chill way to enjoy a evening or weekend. It may be old now, but it's still amazing to me.",0.7962265014648438
+ward_k10,3,center_schinese,238437919,schinese,Persona 5 Royal,小时候就想玩的游戏现在也是终于玩上虽然现在玩起来感觉没这几年游戏精致但它依然是我最喜欢的游戏之一，强烈推荐！p5天下第一！,0.821007251739502
+ward_k10,3,center_schinese,237839429,schinese,The Elder Scrolls V: Skyrim Special Edition,玩多了新游戏可能不适应，但本质神作，真的很好玩，期待在陶德老掉了之前玩到滚6,0.8068514466285706
+ward_k10,3,center_schinese,234973318,schinese,Sid Meier's Civilization V,经典游戏，文明系列的巅峰之作，很耐玩。,0.8042473196983337
+ward_k10,3,random,238151196,english,Watch Dogs 2,This game can beat GTA 5 by 70%,0.721397340297699
+ward_k10,3,random,239007901,english,The Elder Scrolls V: Skyrim Special Edition,"I bought Skyrim on November 2nd and have been playing this game for a year. I've had several lives, become dovakhiin multiple times, and I know one thing: I haven't even fully explored this game yet. Secret caves I overlooked or whatever. I've become dragon blood. I wanted to play various builds in a role-playing game, but it always ended up as a stealth archer. Skyrim is the only game I still play today (besides Minecraft). This shows how much this game has revolutionized the gaming scene. Thank you Bethesda for this beautiful game, which had always given me joy on good and bad days, except for that stupid magician in Meridia's quest. Thank you for your service.🏹⚔❤💞",0.7039629817008972
+ward_k10,3,random,239013277,schinese,Black Myth: Wukong,今天玩了影之刃，才知道黑猴做的有多好，战斗体验，美术品质，游戏交互，不是一个级别，期待钟馗,0.7369272112846375
+ward_k10,3,random,238430072,english,Dying Light 2,Love the parkour and the mods in Dying Light 2. People are recreating E3 2019-2019 and it's worth playing.,0.6929075717926025
+ward_k10,3,random,238994919,schinese,Stardew Valley,你们不觉得小矿车通关也算一种魂游吗 重复 失落 释怀 通关 欣喜,0.6837992072105408
+ward_k10,4,center,238347901,english,Persona 5 Royal,"One of THE BEST games i have played, the story is amazing, characters are interesting, and the gameplay is engaging, Even though i have not played for to long.",0.8795782327651978
+ward_k10,4,center,238877823,english,Hollow Knight,"It's good. Great game mechanics, progression is clean and feels nice. Love exploring all the different areas and combat feels really snappy and purposeful. I like the story, too, it's filled with lore without being too dragging. Game definitely felt really hard the first run I did, but once I learned to be more patient and wait out different enemies, it progressed much more smoothly.",0.8716195821762085
+ward_k10,4,center,239024008,english,Hollow Knight,love it! it can be really challenging at times but overall a really fun game with amazing plot and beautiful graphics,0.8640410900115967
+ward_k10,4,center,238682179,english,Half-Life 2,This game is a breakthrough of the gaming standard and industry. I am an absolute fan of this game and universe. Love it! Would hella recommend. Also the workshop minor improvements are very neat indeed :DD Game runs well :>,0.8631576299667358
+ward_k10,4,center,238359552,english,Persona 5 Royal,"this is a great game, this is the first game i have played in the series and i have to say it is a really good introduction to the series. if you like story heavy games you will like this game. it does take a little to understand the controls and figure out good stratagies for each battle but its fun to figure out.",0.8629248142242432
+ward_k10,4,center_english,238347901,english,Persona 5 Royal,"One of THE BEST games i have played, the story is amazing, characters are interesting, and the gameplay is engaging, Even though i have not played for to long.",0.8795782327651978
+ward_k10,4,center_english,238877823,english,Hollow Knight,"It's good. Great game mechanics, progression is clean and feels nice. Love exploring all the different areas and combat feels really snappy and purposeful. I like the story, too, it's filled with lore without being too dragging. Game definitely felt really hard the first run I did, but once I learned to be more patient and wait out different enemies, it progressed much more smoothly.",0.8716195821762085
+ward_k10,4,center_english,239024008,english,Hollow Knight,love it! it can be really challenging at times but overall a really fun game with amazing plot and beautiful graphics,0.8640410900115967
+ward_k10,4,center_schinese,237941773,schinese,Ready or Not,游戏很好玩，看了cqb和剧情加上朋友一起玩来的，cpb方面基本没有替代品，剧情向的话比较弱，但也能接受毕竟是以cpb为主，建议安装nod游玩，我只加了官网的一些类似于移除交战规则的，体验是质的飞升，就是联机体验很不好，但是比较神奇的是200多延迟照样玩，建议有人一起玩再入手,0.8390471339225769
+ward_k10,4,center_schinese,239109444,schinese,It Takes Two,毋庸置疑的好作品，算是玩的第一款这种游戏，画风设计动作等我感觉都不错,0.8387196063995361
+ward_k10,4,center_schinese,237460917,schinese,Garry's Mod,游戏特别好玩，加上一些枪械模组就可以玩枪战了，还可以联机，可以跟朋友一起玩，我这套配置游玩非常流畅。,0.8292689323425293
+ward_k10,4,random,238933902,english,The Witcher 3: Wild Hunt,A compelling and slow burn. Character storylines are written extremely well. Side quests are strong enough to be their own spinoff games. Remaster has done this game very well and perhaps much needed. Would recommend.,0.8479698300361633
+ward_k10,4,random,239110368,english,Mount & Blade II: Bannerlord,"In an effort to ACTUALLY play the games I buy on Steam, I download a game I own every month and play it for the month. Bannerlord was my October game, and it's worth it. Is there some jank? Yeah, of course. Sometimes you can't click the siege engines you want because of weird zooming and screen locking. It's not a map game, it's a ride around on a horse and slice people game. And boy does it excel at the horse and slicing elements. The field battles are wonderful, the armor is really cool, the arena fights are challenging, all in all, it's just a great adventure. I would pick this one up.",0.763030469417572
+ward_k10,4,random,239090684,english,Black Myth: Wukong,"Graphics:10 and dodging animation is perfect, feels so good and fluid but I dont like the interactions with outerworld and npc's also storytelling is really bad if you arent familiar with chinese mythology at some point game is all about wandering place to place and killing bosses 8/10",0.7963012456893921
+ward_k10,4,random,238979527,english,Stardew Valley,"Absolutely incredible game. I have a lot of fun playing with my friends too. Visually stunning, and you lose track of time it's that amazing of a game.",0.840589702129364
+ward_k10,4,random,238284134,english,Hades,"Really fun to play, love the combat and overall feel of the game. The style is really cool and the music is good, can be a bit of a challenge to get used to moving diagonally a lot of the time due to how the game is laid out if using keyboard. I definitely recommend",0.8595932722091675
+ward_k10,5,center,238943215,english,Black Myth: Wukong,it is very hard,0.7766509056091309
+ward_k10,5,center,237465223,english,Space Engineers,Hopefully this works.,0.7705779671669006
+ward_k10,5,center,238821973,schinese,Sid Meier's Civilization VI,玩就完事了,0.7652742862701416
+ward_k10,5,center,238149088,english,Sid Meier's Civilization V,makes me hard,0.7641636729240417
+ward_k10,5,center,238881100,english,Half-Life 2,Pick up that can.,0.7560984492301941
+ward_k10,5,center_english,238943215,english,Black Myth: Wukong,it is very hard,0.7766509056091309
+ward_k10,5,center_english,237465223,english,Space Engineers,Hopefully this works.,0.7705779671669006
+ward_k10,5,center_english,238149088,english,Sid Meier's Civilization V,makes me hard,0.7641636729240417
+ward_k10,5,center_schinese,238821973,schinese,Sid Meier's Civilization VI,玩就完事了,0.7652742862701416
+ward_k10,5,center_schinese,238892565,schinese,Dead by Daylight,我已爽飞，其次，加强军团,0.7558931708335876
+ward_k10,5,center_schinese,238424599,schinese,Persona 5 Royal,夺取吧，用那个意志。,0.7540737986564636
+ward_k10,5,random,239117800,schinese,War Thunder,bvvd你就接着研究你那个私人分房,0.6564894318580627
+ward_k10,5,random,239007129,schinese,Terraria,桑百颗够吗,0.5466694831848145
+ward_k10,5,random,238822690,english,Grand Theft Auto V,da bog da lipcali,0.5911306142807007
+ward_k10,5,random,239040581,english,The Binding of Isaac: Rebirth,I hate this i hate this i hate this but i also love it but i hate it please make it stop please please PLEASE,0.6981203556060791
+ward_k10,5,random,239014257,english,No Man's Sky,Insane quantity of content,0.664520800113678
+ward_k10,6,center,231665487,schinese,Brawlhalla,非常好玩,0.9521936774253845
+ward_k10,6,center,239097868,schinese,Stardew Valley,真好玩啊,0.9406821727752686
+ward_k10,6,center,238078355,schinese,Grand Theft Auto V,太好玩了,0.940421462059021
+ward_k10,6,center,238462196,schinese,It Takes Two,真的好玩,0.9392096996307373
+ward_k10,6,center,236955208,schinese,Phasmophobia,真的很好玩,0.9381265044212341
+ward_k10,6,center_english,238242779,english,Sid Meier's Civilization V,great game but really addictive,0.8246986865997314
+ward_k10,6,center_english,238786326,english,Sid Meier's Civilization VI,VERY addicting game.,0.8230686187744141
+ward_k10,6,center_english,239082727,english,Dota 2,I play for fun,0.8019866943359375
+ward_k10,6,center_schinese,231665487,schinese,Brawlhalla,非常好玩,0.9521936774253845
+ward_k10,6,center_schinese,239097868,schinese,Stardew Valley,真好玩啊,0.9406821727752686
+ward_k10,6,center_schinese,238078355,schinese,Grand Theft Auto V,太好玩了,0.940421462059021
+ward_k10,6,random,238748899,schinese,Darkest Dungeon,好玩，玩的进去的会很上头,0.8985832929611206
+ward_k10,6,random,238421847,schinese,Slay the Spire,好玩，耐玩,0.8966222405433655
+ward_k10,6,random,238999018,schinese,Red Dead Redemption 2,好玩、耐玩,0.8820679187774658
+ward_k10,6,random,238901895,schinese,Stardew Valley,游戏可玩性高,0.8358607292175293
+ward_k10,6,random,239086951,schinese,Red Dead Redemption 2,很喜欢玩，嘻嘻嘻·,0.8540545701980591
+ward_k10,7,center,238518634,schinese,Warframe,游戏初期就很难让新人继续游玩，各种操作与配置不清楚，难度不低，中后期才开始变得好玩，至少不会死，但各种模式很需要玩家去操作，间谍可以背图，拦截跟不上趟，其他各种强制组队模式就很恶心，本来就是个多人联机游戏，这垃圾服务器还各种bug，最不缺的就是人，但单人根本匹配不到，也不知道怎么回事，就很恶心,0.861513078212738
+ward_k10,7,center,238893129,schinese,The Witcher 3: Wild Hunt,依然打击系统很烂，2015年的老游戏了当年很惊艳但是现在就是很不好玩，战斗系统非常业余锁定系统简直灾难。任务也是接连不断的找人找人，不要玩,0.8555698394775391
+ward_k10,7,center,238145189,schinese,Hollow Knight,垃圾游戏，垃圾作者，买地图一堆东西要花钱，死两次钱就没了，重新跑图，还有一堆迷宫白白走路的探索迷宫地图就不说了，死两次没钱了纯粹恶心玩家,0.855077862739563
+ward_k10,7,center,227769545,schinese,Sid Meier's Civilization V,挺没劲的，一点都玩不下去,0.8519238233566284
+ward_k10,7,center,239078103,schinese,Dota 2,垃圾游戏，只要碰到傻逼，随随便便拖一个小时，而且还赢不了，如果你有充裕的时间和美好的人生，我强烈推荐你玩这个游戏,0.8514158129692078
+ward_k10,7,center_english,232905590,english,NARAKA: BLADEPOINT,The gameplay gets stale after a while.,0.8294224143028259
+ward_k10,7,center_english,239130242,english,Dying Light 2,THis game is so fucking ass dont buy it the parkkour is shit and i keep on getting stuck on random obstacles honestly fuck this game i wish i didnt spend money on this,0.824586033821106
+ward_k10,7,center_english,237890969,english,It Takes Two,"I felt like the powers and skills mismatched the characters, and the protagonist are awful people!!!! The environment and gameplay are fun but many times I stopped playing because the characters were so terrible.",0.8218932747840881
+ward_k10,7,center_schinese,238518634,schinese,Warframe,游戏初期就很难让新人继续游玩，各种操作与配置不清楚，难度不低，中后期才开始变得好玩，至少不会死，但各种模式很需要玩家去操作，间谍可以背图，拦截跟不上趟，其他各种强制组队模式就很恶心，本来就是个多人联机游戏，这垃圾服务器还各种bug，最不缺的就是人，但单人根本匹配不到，也不知道怎么回事，就很恶心,0.861513078212738
+ward_k10,7,center_schinese,238893129,schinese,The Witcher 3: Wild Hunt,依然打击系统很烂，2015年的老游戏了当年很惊艳但是现在就是很不好玩，战斗系统非常业余锁定系统简直灾难。任务也是接连不断的找人找人，不要玩,0.8555698394775391
+ward_k10,7,center_schinese,238145189,schinese,Hollow Knight,垃圾游戏，垃圾作者，买地图一堆东西要花钱，死两次钱就没了，重新跑图，还有一堆迷宫白白走路的探索迷宫地图就不说了，死两次没钱了纯粹恶心玩家,0.855077862739563
+ward_k10,7,random,239116628,schinese,Apex Legends,我打游戏向来不压力不嘲讽不喷人，印象里也没红过几次温 但你重生做到了，我真的从玩游戏以来第一次能红到这种程度 致敬我们反作弊最好，bug修复最快，最没有elo机制的apex 已删，就当我650小时喂狗了,0.6996235251426697
+ward_k10,7,random,239077144,schinese,The Witcher 3: Wild Hunt,重制版搞毛呢，5070玩个1080p高画质，还掉帧卡顿？？？这画面还不如RDR2，居然这么离谱？？,0.7359440326690674
+ward_k10,7,random,239131668,english,Watch Dogs 2,"Considering the game still gets updates, the devs should really consider fixing the screen flickering issue with newer gen gpus.",0.699931263923645
+ward_k10,7,random,233585645,schinese,Halo: The Master Chief Collection,一个一代甚至是致远星玩的我快吐了，某些人就知道拿情怀说事，这游戏凉了是有原因的,0.7775930166244507
+ward_k10,7,random,238987956,english,Terraria,"PC? Yes. Steam Deck? Yes. Very enjoyable experience. MacOS? Nope. Absolutely unplayable without an external monitor. Funny because it worked perfectly just a year ago. When I join a game with friends, the UI is too small and I cant even see the menu clearly enough to fix it. The resolution is blown up like it expects me to be playing on a screen the size of a building. In the main menu, I can only adjust resolution- there's no UI adjustment. In a single player game, the resolution defaults normally, but my mouse glitches so I cant click the settings button to even fix the UI. Somehow the mouse cursor desyncs with the in game cursor.",0.7236257195472717
+ward_k10,8,center,238865970,english,Elden Ring,the best game ever,0.951795756816864
+ward_k10,8,center,236239840,english,Battlefield 2042,best game ever,0.9499276876449585
+ward_k10,8,center,238700100,english,Age of Empires II: Definitive Edition,the best game ever!,0.9391385316848755
+ward_k10,8,center,238755226,english,Age of Empires II: Definitive Edition,Best game that ever existed!,0.9384435415267944
+ward_k10,8,center,239064004,english,Celeste,Best Game Ever.,0.9350054860115051
+ward_k10,8,center_english,238865970,english,Elden Ring,the best game ever,0.951795756816864
+ward_k10,8,center_english,236239840,english,Battlefield 2042,best game ever,0.9499276876449585
+ward_k10,8,center_english,238700100,english,Age of Empires II: Definitive Edition,the best game ever!,0.9391385316848755
+ward_k10,8,center_schinese,238212891,schinese,Raft,是我玩过最好玩的游戏！,0.9191272854804993
+ward_k10,8,center_schinese,239084037,schinese,Garry's Mod,The best game！,0.9083883762359619
+ward_k10,8,center_schinese,239110252,schinese,Apex Legends,最好玩的游戏没有之一,0.899779200553894
+ward_k10,8,random,238786425,english,Elden Ring,Amazing game. Best fromsoft game,0.8342596888542175
+ward_k10,8,random,239012780,english,The Elder Scrolls V: Skyrim Special Edition,Legendary game.. Nuff said,0.7600398659706116
+ward_k10,8,random,233514732,english,NARAKA: BLADEPOINT,this is my favorite game I played,0.8867964744567871
+ward_k10,8,random,238878784,english,Brawlhalla,"best game i have ever played, very relaxing and fun to play...",0.866157591342926
+ward_k10,8,random,237744677,english,Path of Exile,best game i own and have ever played. poo2 = bad,0.8318185806274414
+ward_k10,9,center,238280489,schinese,Ready or Not,我觉得挺不错的，还可以打mod增加可玩性,0.8987579345703125
+ward_k10,9,center,227277714,schinese,Space Engineers,好玩，需要有很大想象力，但是要玩好的话需要买很多DLC所以酌情入手,0.8895730376243591
+ward_k10,9,center,237764961,schinese,Celeste,爽，好玩，无需多言。喜欢这个类型的游戏当然可以试试,0.8884803056716919
+ward_k10,9,center,233882169,schinese,Conan Exiles,补个评价，挺好玩的，刚尝试这个类型可能会有很多问题，比如干啥，多习惯一下可玩性就很高了,0.8867934942245483
+ward_k10,9,center,238989821,schinese,Cyberpunk 2077,还不错，可玩性很高,0.8826492428779602
+ward_k10,9,center_english,239069151,english,Warframe,Good character customization. fun game modes. great with friends. only complaint is borderline no endgame.,0.836087167263031
+ward_k10,9,center_english,238479414,english,It Takes Two,Kinda cringe but the gameplay is good. Worth the money I paid for it.,0.8193058371543884
+ward_k10,9,center_english,239120973,english,Cyberpunk 2077,"Fun to play, choices matter, graphics are good. Runs on old hardware too.",0.8141745924949646
+ward_k10,9,center_schinese,238280489,schinese,Ready or Not,我觉得挺不错的，还可以打mod增加可玩性,0.8987579345703125
+ward_k10,9,center_schinese,227277714,schinese,Space Engineers,好玩，需要有很大想象力，但是要玩好的话需要买很多DLC所以酌情入手,0.8895730376243591
+ward_k10,9,center_schinese,237764961,schinese,Celeste,爽，好玩，无需多言。喜欢这个类型的游戏当然可以试试,0.8884803056716919
+ward_k10,9,random,238479414,english,It Takes Two,Kinda cringe but the gameplay is good. Worth the money I paid for it.,0.8193058371543884
+ward_k10,9,random,238991713,schinese,Cyberpunk 2077,好玩啊，世界观看的太爽了。开了Dark future模组感觉又能续上几十小时，等过完主线我要赚钱开豪宅模组买大豪斯！,0.826143741607666
+ward_k10,9,random,239030114,schinese,Hades,确实挺好玩的 先是祝福系统 还是我的一贯作风 千万千万千万不要看攻略玩游戏 祝福种类多特殊道具多 以及饰品挂件多 多试试自己研发到解法才是最享受的 其次是武器系统 作为远程武器超级爱好者基本全程都在玩弓箭和弩炮 其次玩过一两次的是长枪和盾牌 其他武器都是刚解锁去测强度的 目前玩下来感觉弓2是最舒服的 普攻加特攻的手感很不错 玩下来感觉剧情还不错 以后大概有空还会再试试吧,0.8585744500160217
+ward_k10,9,random,238434046,schinese,Raft,怎么说呢玩这个要有耐心前期重复性比较高我觉得很好玩,0.8678441047668457
+ward_k10,9,random,238141157,schinese,Grand Theft Auto V,我不知道这个游戏好不好玩，我只知道我在现实生活中的焦虑和不安在这都能发泄出来,0.833990216255188

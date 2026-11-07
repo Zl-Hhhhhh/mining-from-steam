@@ -1,0 +1,19 @@
+{
+  "candidate": "full_kmeans_k6_s42",
+  "algorithm": "kmeans",
+  "scope": "full_fit",
+  "k": 6,
+  "seed": 42,
+  "fit_reviews": 13145,
+  "silhouette_cosine_common1500": 0.03236953914165497,
+  "smallest_cluster": 1422,
+  "largest_cluster": 2788,
+  "largest_cluster_share": 0.21209585393685812,
+  "clusters_under20": 0,
+  "reviews_in_clusters_under20": 0,
+  "source_language_ami": 0.04572613612270712,
+  "writing_system_ami": 0.04783196497372158,
+  "game_ami": 0.02376050196162395,
+  "steam_recommendation_ami_diagnostic": 0.1706343332947367,
+  "theme_status": "unvalidated_candidate_clusters"
+}

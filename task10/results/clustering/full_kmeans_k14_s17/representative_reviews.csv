@@ -1,0 +1,225 @@
+﻿candidate,cluster,selection,recommendationid,language,game_name,text,cosine_to_own_centroid
+full_kmeans_k14_s17,0,center,238530137,english,Watch Dogs 2,its very bad,0.814107358455658
+full_kmeans_k14_s17,0,center,239075609,english,ARK: Survival Evolved,I hate it.,0.8079612255096436
+full_kmeans_k14_s17,0,center,238853167,english,Age of Empires II: Definitive Edition,i hate this,0.8059494495391846
+full_kmeans_k14_s17,0,center,237285486,schinese,Hades,根本爽不起来,0.8047577738761902
+full_kmeans_k14_s17,0,center,238228185,schinese,Raft,累死我了,0.8039908409118652
+full_kmeans_k14_s17,0,center_english,238530137,english,Watch Dogs 2,its very bad,0.814107358455658
+full_kmeans_k14_s17,0,center_english,239075609,english,ARK: Survival Evolved,I hate it.,0.8079612255096436
+full_kmeans_k14_s17,0,center_english,238853167,english,Age of Empires II: Definitive Edition,i hate this,0.8059494495391846
+full_kmeans_k14_s17,0,center_schinese,237285486,schinese,Hades,根本爽不起来,0.8047577738761902
+full_kmeans_k14_s17,0,center_schinese,238228185,schinese,Raft,累死我了,0.8039908409118652
+full_kmeans_k14_s17,0,center_schinese,238618446,schinese,Elden Ring,非常折磨人,0.787378191947937
+full_kmeans_k14_s17,0,random,238892889,english,Brawlhalla,The closest experience to hell that is achievable through a screen,0.622757613658905
+full_kmeans_k14_s17,0,random,239058766,english,The Witcher 3: Wild Hunt,"Pam param, pam pam param. 11/10 no notes.",0.6688510179519653
+full_kmeans_k14_s17,0,random,239030190,schinese,Warframe,母牛：“小明！你的被动好碍事啊！”小明先是一愣，然后马上就理解了母牛的意思，大笑着按了一下shift，说：“哈哈！尽管来吧！”母牛同样大笑着拍上了小明的肩膀，在他之后战甲们也不再拘谨，都带着轻松的笑容，为小明送上自己的祝福。“去吧！笨蛋帽子！”“去证明你不是靠优雅吃饭的男人”“如果很辛苦就换我上吧！”“要赢啊！小明先生！”“鲨客！！”有趣的是，因为缺少双腿的关系，ash只能坐着轮椅撞向小明… 面对浑身裂隙能量喷涌而出的小明，被誉为虚空之王的墙中人，恍惚感受到了犹如排山倒海般的压力【亿万年未有的紧张感再一次浮上心头】。小明的拳头毫不留情砸向拜勒斯（20级适应mod)，致命的红色数字亮起。仓促间用杀妈刀格挡的拜勒斯身体不禁后退，墙中人猛地回头，惊疑不定的表情充分暴露在小明面前。小明利用打出红色暴击（高达三位数的红暴)时进入的【自毁境界】（100万匹力量！！！)将自身状态拉满——暴击发出的一瞬间，平常需要刻意进行的裂隙能量操作都会变得如呼吸一般自然。那是仿佛除自己外的一切都围绕着自己旋转的全能感（实则是被抽陀螺了)。小明死死钳住墙中人的手腕砸向拜勒斯，两者交叠之际，第四发暴击如期而至。拜勒斯用身体护住墙中人连退十数米，借着短暂摆脱纠缠的时机，小明开始近距离吟唱咒词。“招笑”“技能强化”“避难所”——小明就已经抬手对准了天际。墙中人惊慌失措地喊出了拜勒斯的大名，下一秒，拜勒斯像喷气发动机般追放逐而去。眼看拜勒斯已呈败势，墙中人立刻出现，将目标锁定在移速缓慢的放逐上。既然停滞的必经之路挡着小明这尊大佛，那就用【超宏大爹】将放逐无效——无论无效哪一个，只要能阻止四技能能量攒够就可以了。墙中人的身体被小明一拳打歪，可卓越者全家桶还是奔向了天际的放逐，小明望着极速飞行的超绝dot发射器翠玉激光，叹息之墙冰盾，敌方地图炮火圈，逆天伤害火柱，超绝破盾棍母电球，逆天穿盾毒。再次吟唱：“招笑”“花里胡哨”“停滞”。墙中人瞳孔放大，一股寒气扑面而来。在被压缩的时空中，墙中人明白，自己再也没有任何机会阻止灾变的诞生了,0.6382817029953003
+full_kmeans_k14_s17,0,random,239139817,english,Rust,community WAY to toxic,0.6808483600616455
+full_kmeans_k14_s17,0,random,239128043,english,Counter-Strike 2,CHEATERS EVERYWHERE. VACNET SUCKS. ANTICHEAT IS DOGSHIT. PAY TO PLAY,0.6912804841995239
+full_kmeans_k14_s17,1,center,233882169,schinese,Conan Exiles,补个评价，挺好玩的，刚尝试这个类型可能会有很多问题，比如干啥，多习惯一下可玩性就很高了,0.8973398208618164
+full_kmeans_k14_s17,1,center,238280489,schinese,Ready or Not,我觉得挺不错的，还可以打mod增加可玩性,0.8957515954971313
+full_kmeans_k14_s17,1,center,236141939,schinese,Age of Empires II: Definitive Edition,"好玩,游戏体验非常充实,新世代玩家多花点时间也能上手,唯一缺点就是一玩天色就变",0.895440936088562
+full_kmeans_k14_s17,1,center,227277714,schinese,Space Engineers,好玩，需要有很大想象力，但是要玩好的话需要买很多DLC所以酌情入手,0.894008457660675
+full_kmeans_k14_s17,1,center,238433057,schinese,Celeste,非常好玩！只是有点费手，任务操作手感很好很流畅,0.891831636428833
+full_kmeans_k14_s17,1,center_english,238636682,english,Darkest Dungeon,pretty good game but can get a little tricky when you don't know what you are doing. Overall very fun game,0.8532069325447083
+full_kmeans_k14_s17,1,center_english,238842560,english,Borderlands 3,"Good game. Can be buggy, quests can get stuck.",0.8503450751304626
+full_kmeans_k14_s17,1,center_english,238950905,english,Apex Legends,"Nice game, but requires good pc specs for a good performance",0.8468407988548279
+full_kmeans_k14_s17,1,center_schinese,233882169,schinese,Conan Exiles,补个评价，挺好玩的，刚尝试这个类型可能会有很多问题，比如干啥，多习惯一下可玩性就很高了,0.8973398208618164
+full_kmeans_k14_s17,1,center_schinese,238280489,schinese,Ready or Not,我觉得挺不错的，还可以打mod增加可玩性,0.8957515954971313
+full_kmeans_k14_s17,1,center_schinese,236141939,schinese,Age of Empires II: Definitive Edition,"好玩,游戏体验非常充实,新世代玩家多花点时间也能上手,唯一缺点就是一玩天色就变",0.895440936088562
+full_kmeans_k14_s17,1,random,237531158,schinese,Celeste,好玩，感觉自己像m一样，明明死了一遍又一遍很痛苦，但是拿到草莓就忘了所有的悲伤,0.7447389364242554
+full_kmeans_k14_s17,1,random,226991789,schinese,Conan Exiles,如果是几个好友 开私人服务器的话 是推荐的 大型或者多人官服 还是算了吧,0.688875138759613
+full_kmeans_k14_s17,1,random,234289129,schinese,Half-Life 2,别的还可以就是路难找的一提示不多，懒得打了,0.7609555125236511
+full_kmeans_k14_s17,1,random,238800554,schinese,No Man's Sky,玩法超多，且不断更新，就是服务器不太好,0.8216439485549927
+full_kmeans_k14_s17,1,random,237638100,schinese,Borderlands 3,全程就是不停打打打，刷刷刷，到处找东西。适合不在乎剧情，只想战斗爽的人。我个人玩下来觉得有点无聊……,0.8433598279953003
+full_kmeans_k14_s17,2,center,238518634,schinese,Warframe,游戏初期就很难让新人继续游玩，各种操作与配置不清楚，难度不低，中后期才开始变得好玩，至少不会死，但各种模式很需要玩家去操作，间谍可以背图，拦截跟不上趟，其他各种强制组队模式就很恶心，本来就是个多人联机游戏，这垃圾服务器还各种bug，最不缺的就是人，但单人根本匹配不到，也不知道怎么回事，就很恶心,0.8744086027145386
+full_kmeans_k14_s17,2,center,238032447,schinese,Dying Light 2,本作剧情依托答辩，属于是玩下去的动力都没有，叙事混乱百分之八十的时间就是叫你做事，而且众多降智剧情，狗屎的交互自动爬墙，艾斯比的打药僵直，我不知道这个连招触发和纯乱按有什么区别，百分之八十都是纯按运气来算的，跳起猛击触发概率十次有五次是不行的，还有ui交互设计完全根本是按照手柄游玩来设计的，活生生的把手柄a键暴力移植到电脑a键上连优化都不优化，上一代都没那么恶心这一代玩的属于是交互设计恶心到了极点，剧情实在是没有吸引人玩下去的动力，如果你是原价买了那你真的是吃到大便了，40块钱买的我都有点玩不下去，优化还行不开光追随便两三百，就是实在是玩不下去，💩,0.8733702301979065
+full_kmeans_k14_s17,2,center,238893129,schinese,The Witcher 3: Wild Hunt,依然打击系统很烂，2015年的老游戏了当年很惊艳但是现在就是很不好玩，战斗系统非常业余锁定系统简直灾难。任务也是接连不断的找人找人，不要玩,0.868068516254425
+full_kmeans_k14_s17,2,center,233642698,schinese,Halo: The Master Chief Collection,基本就是个不停突突突的游戏，2代难度还特别变态，喜欢弄一大堆敌人来360度伏击，掩体都不给一个，不死个几百次别想通关，我还玩的正常难度都能体验到极致的挫败感，就算侥幸过了伏击点也没感到喜悦，因为后面还有一堆类似的场景等着，玩一会就让人特别疲惫，只适合精力旺盛喜欢挑战FPS技术的玩家。,0.8660814762115479
+full_kmeans_k14_s17,2,center,233443092,schinese,Halo: The Master Chief Collection,漆黑的画面毫无逻辑的堆怪稀缺的资源刻意恶心玩家的存档点和厚到离谱的敌人血量，即使在普通难度下你几乎都没有容错。我不敢相信我竟然会在一个最简单的小关卡被打死31次并且每一次都不知道怎么死的。这种东西谁爱玩谁玩去吧。这种老古董现在就该滚进历史的垃圾堆。难的随机难的毫无逻辑,0.8654984831809998
+full_kmeans_k14_s17,2,center_english,238680512,english,Brawlhalla,this game is trash lag is stupid all the characters are unbalances hitboxes are broken and sometimes they dop what they want donst waste your time trying this shit theres so many better games outside,0.8615493774414062
+full_kmeans_k14_s17,2,center_english,238381527,english,Dead Cells,"I really don't get the hype, it's a grindy game that has quick and slippery controls with combat that is way too fast and chaotic and gameplay that gets really repetitive Before you judge me, I've played roguelikes, I know what to expect, Inscryption, Hades, Isaac, ETG, all examples of great games that are very clear and understandable In a nutshell, usually, you'll have way too many things happening on screen at once, which would make you maximize your damage so you don't have to deal with dodging attacks And that's the biggest problem, it's trying to be a fast paced game without really nailing what makes a fast game work, it has annoying side missions, missing keys, obscure shortcuts, and so many dead ends. Neither are the bosses or the elite encounters fun, felt like they were really basic in their design, and you would kill them only if you get lucky with good build, without really requiring any sort of skill or strategy And as for visuals, despite the pixel art being detailed, everything in the world was all blending into one another to really not give you any sort of visual clarity during fights Most of all, I hate it's DLCs, and how they shove these in your face in many of the doors you get to, I've encountered them throughout my third playthrough and it just felt like a mobile F2P game at some points If you were to ask me, if it looks interesting to you, buy it, and judge it based on the first hour, as it wouldn't get any more interesting than that, otherwise, just refund it, don't keep it like I did expecting something else With the overwhelmingly positive reviews I was sure I was missing something, but it doesn't seem like it, so if it wasn't clear, no, I wouldn't really recommend the game, but I would encourage you to try it if it seems interesting",0.8544418811798096
+full_kmeans_k14_s17,2,center_english,238663187,english,Black Myth: Wukong,"Going to update as I complete the game. Absurd input tracking/animation reading, non-stop attack chains from enemies, unclear map locations and side-quest unlocks (you will most likely need a guide if you're not trying to run around your entire playthrough). Most egregiously of all is the enemy chain of attacks which hardly leaves any frames for you to find to attack. Your spells hardly do anything useful past act 4. All while enemies are able to have constant chains that stagger you, and not only that but have immensely wide hitboxes while moving everywhere. The graphics/art is amazing yes we know, but the longer I've played this game the more repetitive it has felt.",0.8506447076797485
+full_kmeans_k14_s17,2,center_schinese,238518634,schinese,Warframe,游戏初期就很难让新人继续游玩，各种操作与配置不清楚，难度不低，中后期才开始变得好玩，至少不会死，但各种模式很需要玩家去操作，间谍可以背图，拦截跟不上趟，其他各种强制组队模式就很恶心，本来就是个多人联机游戏，这垃圾服务器还各种bug，最不缺的就是人，但单人根本匹配不到，也不知道怎么回事，就很恶心,0.8744086027145386
+full_kmeans_k14_s17,2,center_schinese,238032447,schinese,Dying Light 2,本作剧情依托答辩，属于是玩下去的动力都没有，叙事混乱百分之八十的时间就是叫你做事，而且众多降智剧情，狗屎的交互自动爬墙，艾斯比的打药僵直，我不知道这个连招触发和纯乱按有什么区别，百分之八十都是纯按运气来算的，跳起猛击触发概率十次有五次是不行的，还有ui交互设计完全根本是按照手柄游玩来设计的，活生生的把手柄a键暴力移植到电脑a键上连优化都不优化，上一代都没那么恶心这一代玩的属于是交互设计恶心到了极点，剧情实在是没有吸引人玩下去的动力，如果你是原价买了那你真的是吃到大便了，40块钱买的我都有点玩不下去，优化还行不开光追随便两三百，就是实在是玩不下去，💩,0.8733702301979065
+full_kmeans_k14_s17,2,center_schinese,238893129,schinese,The Witcher 3: Wild Hunt,依然打击系统很烂，2015年的老游戏了当年很惊艳但是现在就是很不好玩，战斗系统非常业余锁定系统简直灾难。任务也是接连不断的找人找人，不要玩,0.868068516254425
+full_kmeans_k14_s17,2,random,238452218,schinese,Warframe,司马de能好好玩下游戏吗 任务又臭又长的不优化 还削了增幅器弹药效率 回廊本就一坨大的 现在更大了 玩个蛋啊,0.7952643036842346
+full_kmeans_k14_s17,2,random,239011857,schinese,Don't Starve Together,垃圾 别来steam 都去WeGame玩 服务器烂得要死 进不去游戏 一直未响应 进去了还卡 别玩,0.7835816740989685
+full_kmeans_k14_s17,2,random,239068671,schinese,War Thunder,垃圾游戏，只会让人明白什么叫游戏内GC，现实拉跨。外加一堆BUG，甄妮码恶心,0.82405686378479
+full_kmeans_k14_s17,2,random,238468064,schinese,Persona 5 Royal,我是P4G和P5R连着玩的 对我来说P4G就是一群高中生拯救伙伴打败大魔王的中二冒险故事，有一种纯正JRPG不用在乎太多细节设定，帅，爽，打就完事了，玩起来一路嘻嘻哈哈的就打完了 但是P5R这剧情真是从头到尾都让人想骂人 首当其冲的就是这个异世界导航APP，明明P4G里钻电视一样作为分割日常和异常的路径，P4G里钻电视却默认属于世界观的一环，不管怎么钻都没人会在意有人进了电视机不见了。但P5R这个异世界导航APP却不停地重复被人发现在马路上忽然消失作为剧情的爆点，不是哥们，你头一次被杏发现了还牵扯到女同学差点死了，结果就是不改，一大帮人天天在马路上玩消失深怕别人发现不了还不怕无辜路人被牵扯进去，明智丸喜都用发现异世界APP让人忽然消失和出现来察觉主角的身份显得主角这帮人真的就是一群弱智。 再就是明智这个小丑，早闻大名，真玩起来一开始以为是L这种角色，结果原来精神状态一直是最后一集的夜神月汗实在太小丑了，但更绷不住的是我听到双叶说“没有你的话，我就遇不到大家了！”，这是人说的话！？你生物妈死了就为你遇到好哥哥是吧，什么集美！？明智从头到尾都在嘲讽主角要杀主角组全家，结果主角组一直搁那“错不在你！你好可怜！我们原谅你！”衰我真在这让明智把这帮人全杀了灭了一次 狮童宫殿攻略完后，这剧情还算有点意思，社会意志不以个人行为转移，日本人选择了当鸵鸟无视狮童的犯罪事实，自欺欺人的相信强人政治只要狮童当选社会就能变好，自己又不愿意付出努力改变社会，霸凌排挤有清醒认知的人，和当代日本社会一模一样，本以为Atlas能有何高见，结果就是整个“圣杯”出来背锅，日本人变成这样都是圣杯害的！圣杯太坏了！草！ 想起之前玩破晓传说，轨迹系列等等JRPG，明明揭露了尖锐的社会矛盾问题，却简单的将问题归结在少数领导人或者某个敌人的阴谋，处理了这个“魔王”社会的一切不公，分配问题，阶级问题，种族问题就都解决啦！我可去NM的！没能力写政治戏和社会矛盾，那特么就别把这玩意写成主线啊，像P4G全程围绕救菜菜子谁关心一直在路边搞ZZ演讲的大叔在说啥。 路人学妹也是搞笑，P4G的玛丽我一直只当她是路人NPC，毕竟主线里真没啥戏份，但是这路人学妹强行给她加戏，最后2个迷宫又一点戏份不给，干脆和玛丽一样做成场外协助NPC不就得了，做成可操控角色又不让主线阶段使用，你是什么伙伴！？我认识你吗！？ 打完伪神尼玛的明智这小丑忽然冒出来给我吓一跳，原来P5R这逼死不了，恶心吐我了，直接卸载游戏视频站补完无印结局。,0.7137411236763
+full_kmeans_k14_s17,2,random,238568294,english,Dying Light 2,"Sadly, in most respects Dying Light 2 is a step in the wrong direction from the first entry. The parkour is different - not worse, different - but almost everything else, save for the visuals, is a huge step backwards. There is way too much talking, the RPG elements are ill-fitting, annoying, and unnecessary, and I wish the skill tree didn't have so many active skills. If you want a zombie game with parkour, just play DL1 (or The Beast).",0.7471631169319153
+full_kmeans_k14_s17,3,center,238865970,english,Elden Ring,the best game ever,0.9387558698654175
+full_kmeans_k14_s17,3,center,238798561,english,Elden Ring,Best game ever.,0.9362887740135193
+full_kmeans_k14_s17,3,center,239041026,english,Elden Ring,Best game ever made.,0.9356934428215027
+full_kmeans_k14_s17,3,center,238656429,english,Celeste,one of the best games ever made.,0.9352588653564453
+full_kmeans_k14_s17,3,center,238755226,english,Age of Empires II: Definitive Edition,Best game that ever existed!,0.9347869157791138
+full_kmeans_k14_s17,3,center_english,238865970,english,Elden Ring,the best game ever,0.9387558698654175
+full_kmeans_k14_s17,3,center_english,238798561,english,Elden Ring,Best game ever.,0.9362887740135193
+full_kmeans_k14_s17,3,center_english,239041026,english,Elden Ring,Best game ever made.,0.9356934428215027
+full_kmeans_k14_s17,3,center_schinese,238675144,schinese,Dota 2,最好的游戏，没有之一,0.9097134470939636
+full_kmeans_k14_s17,3,center_schinese,238212891,schinese,Raft,是我玩过最好玩的游戏！,0.909382700920105
+full_kmeans_k14_s17,3,center_schinese,239084037,schinese,Garry's Mod,The best game！,0.9008998274803162
+full_kmeans_k14_s17,3,random,238499164,english,Black Myth: Wukong,One of the best games I've ever played in my entire life. What a beautiful experience. 10/10.,0.8375888466835022
+full_kmeans_k14_s17,3,random,238739613,english,Half-Life 2,The most incredible game I've ever played and still think so!,0.867678165435791
+full_kmeans_k14_s17,3,random,238963740,english,Baldur's Gate 3,"Greatest Game Ever Made! Can't say much comes close, Made by real people that cared about games in a time when most didn't.",0.769117534160614
+full_kmeans_k14_s17,3,random,238700100,english,Age of Empires II: Definitive Edition,the best game ever!,0.932603657245636
+full_kmeans_k14_s17,3,random,238837313,english,Hollow Knight,"Masterpiece in metroid-vania game design, art style, and soundtrack.",0.7200174331665039
+full_kmeans_k14_s17,4,center,237634671,schinese,Rust,好玩的很,0.957229495048523
+full_kmeans_k14_s17,4,center,230213140,schinese,Conan Exiles,非常好玩,0.95505690574646
+full_kmeans_k14_s17,4,center,238729689,schinese,Palworld,非常好玩呀,0.9457457065582275
+full_kmeans_k14_s17,4,center,238802221,schinese,Mount & Blade II: Bannerlord,好玩，很有意思,0.9455451369285583
+full_kmeans_k14_s17,4,center,238892211,schinese,Don't Starve Together,很好玩啊,0.9433925151824951
+full_kmeans_k14_s17,4,center_english,238844908,english,The Elder Scrolls V: Skyrim Special Edition,its really fun,0.9014512300491333
+full_kmeans_k14_s17,4,center_english,237435208,english,Path of Exile,Pretty fun and addictive,0.8917851448059082
+full_kmeans_k14_s17,4,center_english,238367056,english,Conan Exiles,it very fun,0.8902822136878967
+full_kmeans_k14_s17,4,center_schinese,237634671,schinese,Rust,好玩的很,0.957229495048523
+full_kmeans_k14_s17,4,center_schinese,230213140,schinese,Conan Exiles,非常好玩,0.95505690574646
+full_kmeans_k14_s17,4,center_schinese,238729689,schinese,Palworld,非常好玩呀,0.9457457065582275
+full_kmeans_k14_s17,4,random,238909177,schinese,Dead Cells,好玩，去玩吧,0.8893083333969116
+full_kmeans_k14_s17,4,random,239019345,schinese,War Thunder,非常好玩,0.95505690574646
+full_kmeans_k14_s17,4,random,238799064,schinese,Dead by Daylight,挺好玩的就是挺容易红温,0.8180897235870361
+full_kmeans_k14_s17,4,random,239019545,schinese,Slay the Spire,好玩，上头,0.8555954694747925
+full_kmeans_k14_s17,4,random,237018814,english,Borderlands 3,very fun guys,0.7928123474121094
+full_kmeans_k14_s17,5,center,238976952,english,The Witcher 3: Wild Hunt,honestly one of the best open worlds i have played so far once you get into it you cannot drop the controller down. yes im playing on action difficulty but im still having fun plus theres mods which so cool especialy on pc but be careful after certain updates u might need to uninstall the game or remove certain mods but other then that its amazing i wish more games was as good as witcher 3. if they ever make remaster witcher 1 and 2 i will defo buy it and i am looking forward for the next dlc songs of the past and even witcher 4. i would say the ray traycing is very demanding in this game i had to use frame generation with anti lag on because it very laggy i wiah it wasnt that demanding otherwise for a story game its okey wouldnt use it on pvp games tho. i wish people got into it they dont know they are missing i couldnt get into skyrim but this is fun. not finished gotta finish all the wine and dine side quest and then the main quest of wine and dine.,0.8232359290122986
+full_kmeans_k14_s17,5,center,238933881,schinese,The Witcher 3: Wild Hunt,开放世界的典范之一了吧 支线多但不乱，能看出来每个支线分支和内容都下了心思，但是主线反而有点难评，主打一个我想做一件事，但是需要a的帮忙，结果找到a发现a也有问题，我又得找b的帮忙，然后找到b发现他也有事，又要去找c…就这样一直套娃，玩了半天感觉主线的观感都不如支线 再就是战斗系统，即使重制之后也没什么感觉，依旧一坨，每次玩起来都感觉像老爷爷过马路 剧情流畅上感觉应该是自己玩过文字量最大的了，不过个人对这类故事不是很感冒，只能说简单的走了个流程,0.8228511214256287
+full_kmeans_k14_s17,5,center,238548949,english,Monster Hunter: World,"One of the most fun games I've ever played, It isn't perfect as it can get very grindy in many place of the game, but the loop of hunting monsters, getting better gear to hunt stronger monsters, to get even better gear rarely feels all that tedious because every hunt feel just that little different to spice things. This game has beautiful sights, models and maps, a complicated but mostly intuitive menu system and genuinely good balancing and hit boxes. The story isn't anything to write home about but its interesting enough for a game that is essentially a boss rush with semi-open environments to explore and gather resources. with friends (as with many games) its even more fun, as the game is built with cooperation and coordination with a group just as much if perhaps a bit more then with solo players. Not to mention it have an extremely open and friendly community who are always ready to help new players. In addition to this the dlc expansion Iceborne is actually bigger then the base game and offers more of the same while adding more then enough to justify a new expansion and reward the skills you refined in the base game. if you want a well paced combat focused game that lets you turn your brain off or lock in depending on your mood, or just need something to mess around with your group for hours on end without much muss or fuss. Monster Hunter World is already the game for you. Buy Monster Hunter World:Iceborne, you won't regret. P.S: Stay away from the guardian armor set and defender weapons they completely ruin the base game's progression and you will be very frustrated when you get to Iceborne and suddenly you aren't tanking damage like you used to. They are basically for speed running to the DLC. I made this mistake and nearly rage quit on one of the early bosses in the DLC cuz I just wasn't as good as the game expected me to be due to being carried by Guardian Armor, or Defender gear.",0.8209331035614014
+full_kmeans_k14_s17,5,center,238899852,schinese,The Witcher 3: Wild Hunt,我玩过剧情最好，沉浸感最强的角色扮演游戏，每个决定都关乎某个npc的生死或者剧情的走向，已经不再是一款游戏，而是史诗级的宏大故事，绝对值得细细品味。,0.8202447891235352
+full_kmeans_k14_s17,5,center,239102677,schinese,Watch Dogs 2,"很好玩.为数不多的我又能沉浸体验的3A大作,之前下好了巫师三但没能一直持续玩下去,看门狗2的游戏性很创新,让人眼前一亮,有玩下去的动力,强烈推荐",0.819929838180542
+full_kmeans_k14_s17,5,center_english,238976952,english,The Witcher 3: Wild Hunt,honestly one of the best open worlds i have played so far once you get into it you cannot drop the controller down. yes im playing on action difficulty but im still having fun plus theres mods which so cool especialy on pc but be careful after certain updates u might need to uninstall the game or remove certain mods but other then that its amazing i wish more games was as good as witcher 3. if they ever make remaster witcher 1 and 2 i will defo buy it and i am looking forward for the next dlc songs of the past and even witcher 4. i would say the ray traycing is very demanding in this game i had to use frame generation with anti lag on because it very laggy i wiah it wasnt that demanding otherwise for a story game its okey wouldnt use it on pvp games tho. i wish people got into it they dont know they are missing i couldnt get into skyrim but this is fun. not finished gotta finish all the wine and dine side quest and then the main quest of wine and dine.,0.8232359290122986
+full_kmeans_k14_s17,5,center_english,238548949,english,Monster Hunter: World,"One of the most fun games I've ever played, It isn't perfect as it can get very grindy in many place of the game, but the loop of hunting monsters, getting better gear to hunt stronger monsters, to get even better gear rarely feels all that tedious because every hunt feel just that little different to spice things. This game has beautiful sights, models and maps, a complicated but mostly intuitive menu system and genuinely good balancing and hit boxes. The story isn't anything to write home about but its interesting enough for a game that is essentially a boss rush with semi-open environments to explore and gather resources. with friends (as with many games) its even more fun, as the game is built with cooperation and coordination with a group just as much if perhaps a bit more then with solo players. Not to mention it have an extremely open and friendly community who are always ready to help new players. In addition to this the dlc expansion Iceborne is actually bigger then the base game and offers more of the same while adding more then enough to justify a new expansion and reward the skills you refined in the base game. if you want a well paced combat focused game that lets you turn your brain off or lock in depending on your mood, or just need something to mess around with your group for hours on end without much muss or fuss. Monster Hunter World is already the game for you. Buy Monster Hunter World:Iceborne, you won't regret. P.S: Stay away from the guardian armor set and defender weapons they completely ruin the base game's progression and you will be very frustrated when you get to Iceborne and suddenly you aren't tanking damage like you used to. They are basically for speed running to the DLC. I made this mistake and nearly rage quit on one of the early bosses in the DLC cuz I just wasn't as good as the game expected me to be due to being carried by Guardian Armor, or Defender gear.",0.8209331035614014
+full_kmeans_k14_s17,5,center_english,237145733,english,Conan Exiles,I've played the older version and this one. This one looks much better. It also responds better in my opinion. If you are looking for a survival style game that still has quests and other things to do besides just get on gather and survive. This game has that. You can also just not do the quests and gather and survive if that is what you are into.,0.8177861571311951
+full_kmeans_k14_s17,5,center_schinese,238933881,schinese,The Witcher 3: Wild Hunt,开放世界的典范之一了吧 支线多但不乱，能看出来每个支线分支和内容都下了心思，但是主线反而有点难评，主打一个我想做一件事，但是需要a的帮忙，结果找到a发现a也有问题，我又得找b的帮忙，然后找到b发现他也有事，又要去找c…就这样一直套娃，玩了半天感觉主线的观感都不如支线 再就是战斗系统，即使重制之后也没什么感觉，依旧一坨，每次玩起来都感觉像老爷爷过马路 剧情流畅上感觉应该是自己玩过文字量最大的了，不过个人对这类故事不是很感冒，只能说简单的走了个流程,0.8228511214256287
+full_kmeans_k14_s17,5,center_schinese,238899852,schinese,The Witcher 3: Wild Hunt,我玩过剧情最好，沉浸感最强的角色扮演游戏，每个决定都关乎某个npc的生死或者剧情的走向，已经不再是一款游戏，而是史诗级的宏大故事，绝对值得细细品味。,0.8202447891235352
+full_kmeans_k14_s17,5,center_schinese,239102677,schinese,Watch Dogs 2,"很好玩.为数不多的我又能沉浸体验的3A大作,之前下好了巫师三但没能一直持续玩下去,看门狗2的游戏性很创新,让人眼前一亮,有玩下去的动力,强烈推荐",0.819929838180542
+full_kmeans_k14_s17,5,random,238876350,english,Palworld,"its kinda like pokemon / dark souls / rust / wow / harvest moon - it combines all those but only a bit of each... def has room to grow but its fun as u level up and learn the systems. the multiplayer needs more things added and th game can get quite a bit repeatitive, but also in a way which a lot of games can too.",0.8103591799736023
+full_kmeans_k14_s17,5,random,238952784,english,Terraria,Why are you reading the reviews? It's Terraria man just go play it already. Played for thousands of hours on all kind of different versions. Madlads keep adding updates. Mods are amazing. Coop with friends is amazing (crossplay soon?). For the sake of the review I'll think of one negative thing to say.... The ocean is a bit empty.... .... Mods fix this though :D Thank you Relogic.,0.7889686822891235
+full_kmeans_k14_s17,5,random,238165123,schinese,Mount & Blade II: Bannerlord,从初一到大学毕业，无数个日日夜夜，与战团度过。虽然现在很少玩骑砍二，但必须补票。 如果你喜欢角色扮演，喜欢带兵打仗，喜欢高度开放的mod环境，这款游戏将会成为你的最爱。,0.7561049461364746
+full_kmeans_k14_s17,5,random,231723970,schinese,Path of Exile,只能説流放二確實比流放一做的好，很多地方做了改進，機制合并，或者簡化，畫面表現更是大幅提升，體驗比一代好很多。不過站在一代這麽多年這麽多賽季的積纍上，成功也是必然的吧。,0.7507362961769104
+full_kmeans_k14_s17,5,random,238700636,english,Darkest Dungeon,"Darkest Dungeon is a classic turn-based gothic dungeon crawler. Its hand-drawn art style is highly unique and incredibly atmospheric, perfectly matching the grim tone of the world. The gameplay is deeply engaging, and the structural challenge is ever-present. It is highly recommended to start on a lower difficulty to learn the ropes, but the sheer immense satisfaction of conquering dungeons and executing bosses is well worth the steep learning curve. An absolute masterpiece and a highly recommended title; once you step into the estate, it is hard to stop playing. 100% Steam Achievements Time: 239.9 hours Completion Difficulty: 8/10 Playthrough: 2 Minimum Missable: Yes Guide Recommended: No DLC Required: Yes Online Required: Yes (The Butcher's Circus PvP achievements) Notable Requirements: Complete the game on Stygian difficulty (with strict week and death limits); bring Reynauld and Dismas to the final Darkest Dungeon quest; win 100 matches and achieve massive milestones in the Butcher's Circus PvP multiplayer arena.",0.7078922390937805
+full_kmeans_k14_s17,6,center,238881100,english,Half-Life 2,Pick up that can.,0.7743188142776489
+full_kmeans_k14_s17,6,center,238645313,english,Dying Light 2,Good night Good luck,0.7637659907341003
+full_kmeans_k14_s17,6,center,238445543,english,Slay the Spire,I'm getting addicted,0.7611828446388245
+full_kmeans_k14_s17,6,center,238725677,english,Halo: The Master Chief Collection,just get it.,0.7593333125114441
+full_kmeans_k14_s17,6,center,238223100,schinese,Raft,希望能更新,0.7587551474571228
+full_kmeans_k14_s17,6,center_english,238881100,english,Half-Life 2,Pick up that can.,0.7743188142776489
+full_kmeans_k14_s17,6,center_english,238645313,english,Dying Light 2,Good night Good luck,0.7637659907341003
+full_kmeans_k14_s17,6,center_english,238445543,english,Slay the Spire,I'm getting addicted,0.7611828446388245
+full_kmeans_k14_s17,6,center_schinese,238223100,schinese,Raft,希望能更新,0.7587551474571228
+full_kmeans_k14_s17,6,center_schinese,238424599,schinese,Persona 5 Royal,夺取吧，用那个意志。,0.7572362422943115
+full_kmeans_k14_s17,6,center_schinese,238728080,schinese,Watch Dogs 2,哈哈哈哈哈,0.7571909427642822
+full_kmeans_k14_s17,6,random,238860792,english,Space Engineers,"My first ship had every thruster pointing the same way. It went very fast in one direction until it met an asteroid. That's Space Engineers in a sentence, and I love it.",0.5718380212783813
+full_kmeans_k14_s17,6,random,239026421,schinese,Elden Ring,治好了我的电子阳痿,0.6260180473327637
+full_kmeans_k14_s17,6,random,238335391,english,Dead Cells,FOR SOME REEASON THE ONE I GOT WAS THE CASTLEVANNIE ONE INSTEAD OF REGULAR BUT IT IS FUN.,0.6988129019737244
+full_kmeans_k14_s17,6,random,238713100,schinese,Elden Ring,即使引导早已破碎，也请您当上艾尔登之王,0.6034706234931946
+full_kmeans_k14_s17,6,random,237726020,english,Darkest Dungeon,"if reynauld or dismas die, i start over",0.6147406101226807
+full_kmeans_k14_s17,7,center,238879933,english,Apex Legends,This game is horrible,0.9098513722419739
+full_kmeans_k14_s17,7,center,238734904,english,Darkest Dungeon,This game is a piece of shit.,0.9071017503738403
+full_kmeans_k14_s17,7,center,239139597,english,Counter-Strike 2,this game sucks ass,0.9065122008323669
+full_kmeans_k14_s17,7,center,239121788,english,Counter-Strike 2,Game is terrible,0.9014959335327148
+full_kmeans_k14_s17,7,center,238647927,english,Brawlhalla,i hate this game,0.8978531360626221
+full_kmeans_k14_s17,7,center_english,238879933,english,Apex Legends,This game is horrible,0.9098513722419739
+full_kmeans_k14_s17,7,center_english,238734904,english,Darkest Dungeon,This game is a piece of shit.,0.9071017503738403
+full_kmeans_k14_s17,7,center_english,239139597,english,Counter-Strike 2,this game sucks ass,0.9065122008323669
+full_kmeans_k14_s17,7,center_schinese,238985987,schinese,War Thunder,也够游戏拉完了 this game really sucks,0.883320152759552
+full_kmeans_k14_s17,7,center_schinese,238361193,schinese,Slay the Spire,垃圾游戏。完全没有好的游戏体验。,0.8810163140296936
+full_kmeans_k14_s17,7,center_schinese,237706127,schinese,Darkest Dungeon,恶心的游戏 充满了对玩家的恶意,0.8681157231330872
+full_kmeans_k14_s17,7,random,239041383,english,Baldur's Gate 3,"134h, and I've still not finished the game 😭😭😭😭",0.7446429133415222
+full_kmeans_k14_s17,7,random,238828498,english,Apex Legends,EA is sucks and the stupid server as well,0.7634685635566711
+full_kmeans_k14_s17,7,random,238428307,schinese,Hollow Knight,恶心，纯粹的恶心人的设计，不懂为什么好评这么多,0.7305170297622681
+full_kmeans_k14_s17,7,random,239037753,english,Dota 2,You will never feel anything positive during your playtime,0.7334679961204529
+full_kmeans_k14_s17,7,random,238792773,schinese,Palworld,不太好玩,0.7956380844116211
+full_kmeans_k14_s17,8,center,239099885,english,Elden Ring,its good i like it very much,0.882378339767456
+full_kmeans_k14_s17,8,center,239080777,schinese,Terraria,很棒，很喜欢,0.881519079208374
+full_kmeans_k14_s17,8,center,238963201,english,The Binding of Isaac: Rebirth,it is good,0.8811261653900146
+full_kmeans_k14_s17,8,center,237696812,schinese,No Man's Sky,非常不错,0.880276083946228
+full_kmeans_k14_s17,8,center,238875224,english,Dying Light 2,i like it,0.8798447847366333
+full_kmeans_k14_s17,8,center_english,239099885,english,Elden Ring,its good i like it very much,0.882378339767456
+full_kmeans_k14_s17,8,center_english,238963201,english,The Binding of Isaac: Rebirth,it is good,0.8811261653900146
+full_kmeans_k14_s17,8,center_english,238875224,english,Dying Light 2,i like it,0.8798447847366333
+full_kmeans_k14_s17,8,center_schinese,239080777,schinese,Terraria,很棒，很喜欢,0.881519079208374
+full_kmeans_k14_s17,8,center_schinese,237696812,schinese,No Man's Sky,非常不错,0.880276083946228
+full_kmeans_k14_s17,8,center_schinese,239068788,schinese,Garry's Mod,i like it,0.8798447847366333
+full_kmeans_k14_s17,8,random,238616959,schinese,Monster Hunter: World,毕业了才发现和室友联机是最美好的回忆,0.6541435718536377
+full_kmeans_k14_s17,8,random,238891015,schinese,Warframe,爽死我了,0.7835677862167358
+full_kmeans_k14_s17,8,random,238727501,english,It Takes Two,GG like the interaction and combinaton btw people,0.6770428419113159
+full_kmeans_k14_s17,8,random,238619430,schinese,Darkest Dungeon,"内容丰富,画风优秀",0.7600379586219788
+full_kmeans_k14_s17,8,random,238553517,schinese,Battlefield 2042,太好了，孩子很爱吃,0.7791386842727661
+full_kmeans_k14_s17,9,center,238476464,schinese,Hollow Knight,神作，无需多言,0.9073441624641418
+full_kmeans_k14_s17,9,center,238077702,schinese,The Elder Scrolls V: Skyrim Special Edition,神作 无需多言,0.9063896536827087
+full_kmeans_k14_s17,9,center,238513174,schinese,The Binding of Isaac: Rebirth,神作无需多言！,0.898246169090271
+full_kmeans_k14_s17,9,center,239010148,schinese,Stardew Valley,神作无需多言。,0.895534336566925
+full_kmeans_k14_s17,9,center,233510134,schinese,Half-Life 2,神作无需多言,0.8939114212989807
+full_kmeans_k14_s17,9,center_english,238462247,english,Persona 5 Royal,Just a masterpiece.,0.8187683820724487
+full_kmeans_k14_s17,9,center_english,239117849,english,The Witcher 3: Wild Hunt,Simply the greatest of all time.,0.8171106576919556
+full_kmeans_k14_s17,9,center_english,239041808,english,Red Dead Redemption 2,There's no need to read a review for this masterpiece,0.8001259565353394
+full_kmeans_k14_s17,9,center_schinese,238476464,schinese,Hollow Knight,神作，无需多言,0.9073441624641418
+full_kmeans_k14_s17,9,center_schinese,238077702,schinese,The Elder Scrolls V: Skyrim Special Edition,神作 无需多言,0.9063896536827087
+full_kmeans_k14_s17,9,center_schinese,238513174,schinese,The Binding of Isaac: Rebirth,神作无需多言！,0.898246169090271
+full_kmeans_k14_s17,9,random,230899152,schinese,Halo: The Master Chief Collection,经典，漫漫长夜号出场演出记一辈子,0.6240250468254089
+full_kmeans_k14_s17,9,random,237936041,schinese,Halo: The Master Chief Collection,送给曾经的自己，无需无言,0.6554686427116394
+full_kmeans_k14_s17,9,random,239022113,schinese,It Takes Two,神作，无需多言,0.9073441624641418
+full_kmeans_k14_s17,9,random,239145514,schinese,The Witcher 3: Wild Hunt,神作实至名归，瑟瑟情节好评,0.7669996023178101
+full_kmeans_k14_s17,9,random,237947678,schinese,Watch Dogs 2,美好时代的美好之作,0.6301390528678894
+full_kmeans_k14_s17,10,center,238454560,schinese,Dota 2,游戏操作性高，我TM太喜欢玩了我草,0.8424125909805298
+full_kmeans_k14_s17,10,center,236044827,schinese,Rust,有上瘾性质游戏完了还想玩,0.8350847363471985
+full_kmeans_k14_s17,10,center,234428107,schinese,Rust,很上瘾 这游戏,0.8322510123252869
+full_kmeans_k14_s17,10,center,238942175,schinese,Raft,想玩很久了,0.824981153011322
+full_kmeans_k14_s17,10,center,238864160,english,Phasmophobia,the more i play the more i want to torment my friends with this game.,0.820888876914978
+full_kmeans_k14_s17,10,center_english,238864160,english,Phasmophobia,the more i play the more i want to torment my friends with this game.,0.820888876914978
+full_kmeans_k14_s17,10,center_english,238861854,english,The Elder Scrolls V: Skyrim Special Edition,i have had this game for 3 days,0.8205533027648926
+full_kmeans_k14_s17,10,center_english,238493436,english,Don't Starve Together,"i played with my partner, multiplayer is fun",0.8195160627365112
+full_kmeans_k14_s17,10,center_schinese,238454560,schinese,Dota 2,游戏操作性高，我TM太喜欢玩了我草,0.8424125909805298
+full_kmeans_k14_s17,10,center_schinese,236044827,schinese,Rust,有上瘾性质游戏完了还想玩,0.8350847363471985
+full_kmeans_k14_s17,10,center_schinese,234428107,schinese,Rust,很上瘾 这游戏,0.8322510123252869
+full_kmeans_k14_s17,10,random,239028617,english,Garry's Mod,Game run life good game no run i burn everything,0.7009005546569824
+full_kmeans_k14_s17,10,random,238128733,english,Conan Exiles,"Fun sandbox game but please get rid of this garbage rotating bazaar, let people buy what they want when they want. PLEASE.",0.7271170020103455
+full_kmeans_k14_s17,10,random,238280448,english,It Takes Two,if i see that damned BOOK OF LOOVE book again i am grabbing him and putting him up on a cross i like the game though me and mah twin playing it,0.7165338397026062
+full_kmeans_k14_s17,10,random,239081592,english,The Binding of Isaac: Rebirth,This game skinned me alive,0.8038684725761414
+full_kmeans_k14_s17,10,random,239140211,english,Counter-Strike 2,This game has probably taken hours out of my life due to stress and anxiety. Love it though. I love losing my money on cases.,0.7624994516372681
+full_kmeans_k14_s17,11,center,238798000,english,Celeste,this game very good,0.9492983222007751
+full_kmeans_k14_s17,11,center,239057106,english,Palworld,This game is really fun.,0.9485344290733337
+full_kmeans_k14_s17,11,center,238007146,schinese,Garry's Mod,this game is very good,0.9472718834877014
+full_kmeans_k14_s17,11,center,238690149,english,Raft,it is a very fun game,0.9438490271568298
+full_kmeans_k14_s17,11,center,239008251,english,War Thunder,Great game really fun,0.9428960084915161
+full_kmeans_k14_s17,11,center_english,238798000,english,Celeste,this game very good,0.9492983222007751
+full_kmeans_k14_s17,11,center_english,239057106,english,Palworld,This game is really fun.,0.9485344290733337
+full_kmeans_k14_s17,11,center_english,238690149,english,Raft,it is a very fun game,0.9438490271568298
+full_kmeans_k14_s17,11,center_schinese,238007146,schinese,Garry's Mod,this game is very good,0.9472718834877014
+full_kmeans_k14_s17,11,center_schinese,235521794,schinese,Borderlands 3,really nice game,0.9335222244262695
+full_kmeans_k14_s17,11,center_schinese,238438635,schinese,Hades,很棒的游戏,0.9303773641586304
+full_kmeans_k14_s17,11,random,238858206,english,Ready or Not,great game keeps you on your toes,0.8949577212333679
+full_kmeans_k14_s17,11,random,238742647,english,Celeste,"Good game, would recommend",0.9081758260726929
+full_kmeans_k14_s17,11,random,238899264,english,Stardew Valley,THIS GAME IS AMAZING,0.8931306600570679
+full_kmeans_k14_s17,11,random,238953302,english,Stardew Valley,The game is very fun and I would recommend to anybody with a sense of good video games,0.9021688103675842
+full_kmeans_k14_s17,11,random,239048424,english,Palworld,it is very fun and has many updates to come that give it lots of content to look forward too,0.8130171298980713
+full_kmeans_k14_s17,12,center,236955741,schinese,Conan Exiles,更新后直接玩不了了,0.8617357611656189
+full_kmeans_k14_s17,12,center,231431841,schinese,Conan Exiles,真垃圾，更新了个啥，现在游戏都进不去,0.8574442863464355
+full_kmeans_k14_s17,12,center,238831537,schinese,Dota 2,垃圾游戏 卡的要死 还怪我挂机,0.855593204498291
+full_kmeans_k14_s17,12,center,231562995,schinese,Conan Exiles,更新了游戏也进不去，真垃圾,0.8519389033317566
+full_kmeans_k14_s17,12,center,238146666,schinese,Ready or Not,更新后 根本无法游戏,0.8512712121009827
+full_kmeans_k14_s17,12,center_english,238957763,english,Ready or Not,Was good until recent updates made it unplayable,0.7794619798660278
+full_kmeans_k14_s17,12,center_english,238734492,english,Brawlhalla,game is blurry dont know how to fix,0.7738271355628967
+full_kmeans_k14_s17,12,center_english,239138885,english,Terraria,Cant play anymore unless you accept incoming connections,0.7715131044387817
+full_kmeans_k14_s17,12,center_schinese,236955741,schinese,Conan Exiles,更新后直接玩不了了,0.8617357611656189
+full_kmeans_k14_s17,12,center_schinese,231431841,schinese,Conan Exiles,真垃圾，更新了个啥，现在游戏都进不去,0.8574442863464355
+full_kmeans_k14_s17,12,center_schinese,238831537,schinese,Dota 2,垃圾游戏 卡的要死 还怪我挂机,0.855593204498291
+full_kmeans_k14_s17,12,random,239058030,schinese,The Witcher 3: Wild Hunt,你这个煞笔重置真是低能到家了，妈的各种闪退各种没法存档，你重置做成这煞笔样我敢首发买巫师4？能不能自己玩一下啊煞笔蠢驴,0.749030590057373
+full_kmeans_k14_s17,12,random,238750105,schinese,Battlefield 2042,构思ea能不能修修你的服务器,0.6719413995742798
+full_kmeans_k14_s17,12,random,228787130,schinese,Brawlhalla,卡的要死，玩几把,0.8027010560035706
+full_kmeans_k14_s17,12,random,238022151,schinese,ARK: Survival Evolved,方舟 生存进化 → 方舟 死亡退化 → 方舟 肝脏硬化 → 方舟 显卡爆炸。,0.6398859024047852
+full_kmeans_k14_s17,12,random,238761151,schinese,Age of Empires II: Definitive Edition,新DLC成就丹麦获胜和撒克逊获胜都完成不了 这是BUG了？,0.6586800813674927
+full_kmeans_k14_s17,13,center,238347901,english,Persona 5 Royal,"One of THE BEST games i have played, the story is amazing, characters are interesting, and the gameplay is engaging, Even though i have not played for to long.",0.8924684524536133
+full_kmeans_k14_s17,13,center,238861816,english,Elden Ring,"Genuinely an incredible game , from the graphics to the overall gameplay and spectacle of everything . every time i replay i find something new that grabs my interest for an hour every other hour . Everyone needs to play it atleast once!",0.8870753049850464
+full_kmeans_k14_s17,13,center,239062509,english,Baldur's Gate 3,"great game! Great graphics. Was tough getting used to controls and ui, but for first time playing an rpg like this. Easy to get a hang of.",0.8857948184013367
+full_kmeans_k14_s17,13,center,238080560,english,Dead Cells,"easily one of my favorite games. so many builds and paths to play. really addicting, rewarding and with lots of skill expression. highly recommend.",0.8833502531051636
+full_kmeans_k14_s17,13,center,238927659,english,No Man's Sky,"Great game, very fun and relaxing. love playing by myself and just exploring and completing quests. after a rough launch this game has turned in to a true masterpiece.",0.8824532628059387
+full_kmeans_k14_s17,13,center_english,238347901,english,Persona 5 Royal,"One of THE BEST games i have played, the story is amazing, characters are interesting, and the gameplay is engaging, Even though i have not played for to long.",0.8924684524536133
+full_kmeans_k14_s17,13,center_english,238861816,english,Elden Ring,"Genuinely an incredible game , from the graphics to the overall gameplay and spectacle of everything . every time i replay i find something new that grabs my interest for an hour every other hour . Everyone needs to play it atleast once!",0.8870753049850464
+full_kmeans_k14_s17,13,center_english,239062509,english,Baldur's Gate 3,"great game! Great graphics. Was tough getting used to controls and ui, but for first time playing an rpg like this. Easy to get a hang of.",0.8857948184013367
+full_kmeans_k14_s17,13,center_schinese,239105385,schinese,The Witcher 3: Wild Hunt,已经几十个小时了，综合来说是很好的游戏，剧情引人入胜，战斗也符合我的口味（太难的我懒得玩，就这种是最舒服了，砍就完了）。核心就是建立了一个非常宏大的世界观设定，当然，打折是最香的！！,0.8818576335906982
+full_kmeans_k14_s17,13,center_schinese,238804790,schinese,Hollow Knight,剧情，手感，关卡设计，boss设计，物品获得的反馈。。。。。。。一款优秀的游戏,0.8816361427307129
+full_kmeans_k14_s17,13,center_schinese,239114719,schinese,Cyberpunk 2077,很棒的一款游戏，题材很新颖。代入感很强，特别喜欢。,0.8741908669471741
+full_kmeans_k14_s17,13,random,238607058,english,Ready or Not,Good Game. It is fun with players and solo. Achivment hunting is also fun. Hard mode too hard. Overall: 6/7,0.8457221984863281
+full_kmeans_k14_s17,13,random,238347901,english,Persona 5 Royal,"One of THE BEST games i have played, the story is amazing, characters are interesting, and the gameplay is engaging, Even though i have not played for to long.",0.8924684524536133
+full_kmeans_k14_s17,13,random,238765377,english,Persona 5 Royal,My favourite game of ALL time. I'm horny now.. Ps. Soundtrack is impeccable as always.,0.790069580078125
+full_kmeans_k14_s17,13,random,238794146,english,Elden Ring,"The fact that I'm left speechless, even after all the hours I have in this game, is a statement unto itself. I have gotten all achievements, beaten every boss, and earned every ending many times over (across both steam and xbox), and I can't help but fall in love with this game over and over. It is a decade defining RPG, a tragic piece of art, and a generational touchstone. It's Elden Ring.",0.7880018949508667
+full_kmeans_k14_s17,13,random,238970524,english,Baldur's Gate 3,"Yeah its a game of all time. A good game too. If you're on the fence about buying this game just DO IT. many hours of content to be found, well worth any price you pay",0.8495990633964539

@@ -1,0 +1,19 @@
+{
+  "candidate": "ward_k6",
+  "algorithm": "ward_euclidean",
+  "scope": "common5000",
+  "k": 6,
+  "seed": null,
+  "fit_reviews": 5000,
+  "silhouette_cosine_common1500": -0.019905269145965576,
+  "smallest_cluster": 244,
+  "largest_cluster": 1438,
+  "largest_cluster_share": 0.2876,
+  "clusters_under20": 0,
+  "reviews_in_clusters_under20": 0,
+  "source_language_ami": 0.03851131562717183,
+  "writing_system_ami": 0.04129848106665698,
+  "game_ami": 0.021161587181715073,
+  "steam_recommendation_ami_diagnostic": 0.1504269874873586,
+  "theme_status": "unvalidated_candidate_clusters"
+}

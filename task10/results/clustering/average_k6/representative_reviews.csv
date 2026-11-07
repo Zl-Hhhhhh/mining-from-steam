@@ -1,0 +1,41 @@
+﻿candidate,cluster,selection,recommendationid,language,game_name,text,cosine_to_own_centroid
+average_k6,0,center,239057106,english,Palworld,This game is really fun.,0.8749220967292786
+average_k6,0,center,238690149,english,Raft,it is a very fun game,0.8670868873596191
+average_k6,0,center,238453677,schinese,NARAKA: BLADEPOINT,好游戏，十分好玩。,0.8653886318206787
+average_k6,0,center,239092655,schinese,Terraria,好游戏，值得试一试,0.8638080954551697
+average_k6,0,center,238516920,schinese,Grand Theft Auto V,很好玩，任务很刺激,0.8635860681533813
+average_k6,0,center_english,239057106,english,Palworld,This game is really fun.,0.8749220967292786
+average_k6,0,center_english,238690149,english,Raft,it is a very fun game,0.8670868873596191
+average_k6,0,center_english,238642604,english,Sid Meier's Civilization VI,This game is super fun. For real,0.8619676828384399
+average_k6,0,center_schinese,238453677,schinese,NARAKA: BLADEPOINT,好游戏，十分好玩。,0.8653886318206787
+average_k6,0,center_schinese,239092655,schinese,Terraria,好游戏，值得试一试,0.8638080954551697
+average_k6,0,center_schinese,238516920,schinese,Grand Theft Auto V,很好玩，任务很刺激,0.8635860681533813
+average_k6,0,random,239017211,schinese,Raft,好玩上头,0.68625807762146
+average_k6,0,random,238830373,schinese,NARAKA: BLADEPOINT,智仗游戏，五年没玩给我封了，脑子进水了,0.7010838985443115
+average_k6,0,random,238819385,schinese,Don't Starve Together,好玩就是没有新手教程🥲,0.7087312936782837
+average_k6,0,random,238994561,schinese,Black Myth: Wukong,很不错的,0.7888844609260559
+average_k6,0,random,238748338,schinese,Baldur's Gate 3,没玩过博德之门3的人只会度过一个相对失败的人生,0.6185721158981323
+average_k6,1,center,239077335,schinese,Counter-Strike 2,撒比姆巴佩,0.8093724846839905
+average_k6,1,center,238964564,english,Apex Legends,sigmatastic or tasticsigma?,0.8093724250793457
+average_k6,1,center_english,238964564,english,Apex Legends,sigmatastic or tasticsigma?,0.8093724250793457
+average_k6,1,center_schinese,239077335,schinese,Counter-Strike 2,撒比姆巴佩,0.8093724846839905
+average_k6,1,random,239077335,schinese,Counter-Strike 2,撒比姆巴佩,0.8093724846839905
+average_k6,1,random,238964564,english,Apex Legends,sigmatastic or tasticsigma?,0.8093724250793457
+average_k6,2,center,239130945,english,Elden Ring,Vecais Gredzens kruts,1.0
+average_k6,2,center_english,239130945,english,Elden Ring,Vecais Gredzens kruts,1.0
+average_k6,2,random,239130945,english,Elden Ring,Vecais Gredzens kruts,1.0
+average_k6,3,center,238990077,schinese,Mount & Blade II: Bannerlord,R687R76 RF,0.8332176208496094
+average_k6,3,center,238901136,english,Apex Legends,67 shite in mynass,0.8332173824310303
+average_k6,3,center_english,238901136,english,Apex Legends,67 shite in mynass,0.8332173824310303
+average_k6,3,center_schinese,238990077,schinese,Mount & Blade II: Bannerlord,R687R76 RF,0.8332176208496094
+average_k6,3,random,238990077,schinese,Mount & Blade II: Bannerlord,R687R76 RF,0.8332176208496094
+average_k6,3,random,238901136,english,Apex Legends,67 shite in mynass,0.8332173824310303
+average_k6,4,center,239018139,schinese,Black Myth: Wukong,第一位大学生,0.8452925086021423
+average_k6,4,center,235395335,schinese,Half-Life 2,女子王元,0.8452924489974976
+average_k6,4,center_schinese,239018139,schinese,Black Myth: Wukong,第一位大学生,0.8452925086021423
+average_k6,4,center_schinese,235395335,schinese,Half-Life 2,女子王元,0.8452924489974976
+average_k6,4,random,239018139,schinese,Black Myth: Wukong,第一位大学生,0.8452925086021423
+average_k6,4,random,235395335,schinese,Half-Life 2,女子王元,0.8452924489974976
+average_k6,5,center,238922216,schinese,It Takes Two,舒骚天王,1.0000001192092896
+average_k6,5,center_schinese,238922216,schinese,It Takes Two,舒骚天王,1.0000001192092896
+average_k6,5,random,238922216,schinese,It Takes Two,舒骚天王,1.0000001192092896

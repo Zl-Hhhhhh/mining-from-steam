@@ -1,0 +1,87 @@
+﻿candidate_cluster,source_language,recommendationid,selection,text,validation_status
+C0,english,239057106,center_unique_text,This game is really fun.,candidate_not_human_named
+C0,english,238798000,center_unique_text,this game very good,candidate_not_human_named
+C0,english,238690149,center_unique_text,it is a very fun game,candidate_not_human_named
+C0,schinese,238007146,center_unique_text,this game is very good,candidate_not_human_named
+C0,schinese,239136256,center_unique_text,"这款游戏很好玩                            
+",candidate_not_human_named
+C0,schinese,238438635,center_unique_text,"很棒的游戏
+",candidate_not_human_named
+C1,english,238879933,center_unique_text,This game is horrible,candidate_not_human_named
+C1,english,239139597,center_unique_text,this game sucks ass,candidate_not_human_named
+C1,english,238734904,center_unique_text,This game is a piece of shit.,candidate_not_human_named
+C1,schinese,238985987,center_unique_text,"也够游戏拉完了
+this game really sucks",candidate_not_human_named
+C1,schinese,238361193,center_unique_text,垃圾游戏。完全没有好的游戏体验。,candidate_not_human_named
+C1,schinese,238713451,center_unique_text,垃圾游戏不好玩,candidate_not_human_named
+C2,english,238636682,center_unique_text,pretty good game but can get a little tricky when you don't know what you are doing. Overall very fun game,candidate_not_human_named
+C2,english,239101492,center_unique_text,"It's very fun and it is more fun with friends. I reccomend playing it, with mods, you can do whatever you want. It's great.",candidate_not_human_named
+C2,english,238950905,center_unique_text,"Nice game, but requires good pc specs for a good performance",candidate_not_human_named
+C2,schinese,238280489,center_unique_text,我觉得挺不错的，还可以打mod增加可玩性,candidate_not_human_named
+C2,schinese,236141939,center_unique_text,"好玩,游戏体验非常充实,新世代玩家多花点时间也能上手,唯一缺点就是一玩天色就变",candidate_not_human_named
+C2,schinese,233882169,center_unique_text,补个评价，挺好玩的，刚尝试这个类型可能会有很多问题，比如干啥，多习惯一下可玩性就很高了,candidate_not_human_named
+C3,english,238347901,center_unique_text,"One of THE BEST games i have played, the story is amazing, characters are interesting, and the gameplay is engaging, Even though i have not played for to long.",candidate_not_human_named
+C3,english,238927659,center_unique_text,"Great game, very fun and relaxing. love playing by myself and just exploring and completing quests. after a rough launch this game has turned in to a true masterpiece.",candidate_not_human_named
+C3,english,238080560,center_unique_text,"easily one of my favorite games. so many builds and paths to play. really addicting, rewarding and with lots of skill expression. highly recommend.",candidate_not_human_named
+C3,schinese,239105385,center_unique_text,已经几十个小时了，综合来说是很好的游戏，剧情引人入胜，战斗也符合我的口味（太难的我懒得玩，就这种是最舒服了，砍就完了）。核心就是建立了一个非常宏大的世界观设定，当然，打折是最香的！！,candidate_not_human_named
+C3,schinese,238804790,center_unique_text,剧情，手感，关卡设计，boss设计，物品获得的反馈。。。。。。。一款优秀的游戏,candidate_not_human_named
+C3,schinese,239113574,center_unique_text,"游戏代入感强，故事性好，同时可供探索选择的支线 小任务也填补了大量内容
+画面表现优秀，有非常强的油画感
+仍有部分bug需要修复有的甚至影响正常游戏",candidate_not_human_named
+C4,english,238656429,center_unique_text,one of the best games ever made.,candidate_not_human_named
+C4,english,239115075,center_unique_text,the best game ever,candidate_not_human_named
+C4,english,239041026,center_unique_text,Best game ever made.,candidate_not_human_named
+C4,schinese,238675144,center_unique_text,最好的游戏，没有之一,candidate_not_human_named
+C4,schinese,238212891,center_unique_text,是我玩过最好玩的游戏！,candidate_not_human_named
+C4,schinese,239084037,center_unique_text,The best game！,candidate_not_human_named
+C5,english,238844908,center_unique_text,its really fun,candidate_not_human_named
+C5,english,237435208,center_unique_text,Pretty fun and addictive,candidate_not_human_named
+C5,english,238367056,center_unique_text,it very fun,candidate_not_human_named
+C5,schinese,237634671,center_unique_text,好玩的很,candidate_not_human_named
+C5,schinese,239062259,center_unique_text,非常好玩,candidate_not_human_named
+C5,schinese,238892211,center_unique_text,很好玩啊,candidate_not_human_named
+C6,english,239073136,center_unique_text,It's so good.,candidate_not_human_named
+C6,english,239080533,center_unique_text,"it is good
+",candidate_not_human_named
+C6,english,239099885,center_unique_text,its good i like it very much,candidate_not_human_named
+C6,schinese,239080777,center_unique_text,很棒，很喜欢,candidate_not_human_named
+C6,schinese,237696812,center_unique_text,非常不错,candidate_not_human_named
+C6,schinese,238834584,center_unique_text,非常不错啊,candidate_not_human_named
+C7,english,238499086,center_unique_text,"i got mods on it
+",candidate_not_human_named
+C7,english,238486393,center_unique_text,There are layers to this.,candidate_not_human_named
+C7,english,238943215,center_unique_text,it is very hard,candidate_not_human_named
+C7,schinese,238228185,center_unique_text,累死我了,candidate_not_human_named
+C7,schinese,238614329,center_unique_text,大概上瘾了,candidate_not_human_named
+C7,schinese,238510598,center_unique_text,主角是我本人,candidate_not_human_named
+C8,english,238381527,center_unique_text,"I really don't get the hype, it's a grindy game that has quick and slippery controls with combat that is way too fast and chaotic and gameplay that gets really repetitive
+
+Before you judge me, I've played roguelikes, I know what to expect, Inscryption, Hades, Isaac, ETG, all examples of  great games that are very clear and understandable
+In a nutshell, usually, you'll have way too many things happening on screen at once, which would make you maximize your damage so you don't have to deal with dodging attacks
+
+And that's the biggest problem, it's trying to be a fast paced game without really nailing what makes a fast game work, it has annoying side missions, missing keys, obscure shortcuts, and so many dead ends.
+Neither are the bosses or the elite encounters fun, felt like they were really basic in their design, and you would kill them only if you get lucky with good build, without really requiring any sort of skill or strategy
+
+And as for visuals, despite the pixel art being detailed, everything in the world was all blending into one another to really not give you any sort of visual clarity during fights
+Most of all, I hate it's DLCs, and how they shove these in your face in many of the doors you get to, I've encountered them throughout my third playthrough and it just felt like a mobile F2P game at some points
+
+If you were to ask me, if it looks interesting to you, buy it, and judge it based on the first hour, as it wouldn't get any more interesting than that, otherwise, just refund it, don't keep it like I did expecting something else
+With the overwhelmingly positive reviews I was sure I was missing something, but it doesn't seem like it, so if it wasn't clear, no, I wouldn't really recommend the game, but I would encourage you to try it if it seems interesting",candidate_not_human_named
+C8,english,238680512,center_unique_text,"this game is trash
+lag is stupid 
+all the characters are unbalances 
+hitboxes are broken and sometimes they dop what they want
+donst waste your time trying this shit theres so many better games outside
+",candidate_not_human_named
+C8,english,238663187,center_unique_text,"Going to update as I complete the game. 
+
+Absurd input tracking/animation reading, non-stop attack chains from enemies, unclear map locations and side-quest unlocks (you will most likely need a guide if you're not trying to run around your entire playthrough). Most egregiously of all is the enemy chain of attacks which hardly leaves any frames for you to find to attack. Your spells hardly do anything useful past act 4. All while enemies are able to have constant chains that stagger you, and not only that but have immensely wide hitboxes while moving everywhere. The graphics/art is amazing yes we know, but the longer I've played this game the more repetitive it has felt.",candidate_not_human_named
+C8,schinese,238518634,center_unique_text,游戏初期就很难让新人继续游玩，各种操作与配置不清楚，难度不低，中后期才开始变得好玩，至少不会死，但各种模式很需要玩家去操作，间谍可以背图，拦截跟不上趟，其他各种强制组队模式就很恶心，本来就是个多人联机游戏，这垃圾服务器还各种bug，最不缺的就是人，但单人根本匹配不到，也不知道怎么回事，就很恶心,candidate_not_human_named
+C8,schinese,233642698,center_unique_text,基本就是个不停突突突的游戏，2代难度还特别变态，喜欢弄一大堆敌人来360度伏击，掩体都不给一个，不死个几百次别想通关，我还玩的正常难度都能体验到极致的挫败感，就算侥幸过了伏击点也没感到喜悦，因为后面还有一堆类似的场景等着，玩一会就让人特别疲惫，只适合精力旺盛喜欢挑战FPS技术的玩家。,candidate_not_human_named
+C8,schinese,238032447,center_unique_text,本作剧情依托答辩，属于是玩下去的动力都没有，叙事混乱百分之八十的时间就是叫你做事，而且众多降智剧情，狗屎的交互自动爬墙，艾斯比的打药僵直，我不知道这个连招触发和纯乱按有什么区别，百分之八十都是纯按运气来算的，跳起猛击触发概率十次有五次是不行的，还有ui交互设计完全根本是按照手柄游玩来设计的，活生生的把手柄a键暴力移植到电脑a键上连优化都不优化，上一代都没那么恶心这一代玩的属于是交互设计恶心到了极点，剧情实在是没有吸引人玩下去的动力，如果你是原价买了那你真的是吃到大便了，40块钱买的我都有点玩不下去，优化还行不开光追随便两三百，就是实在是玩不下去，💩,candidate_not_human_named
+C9,english,238957763,center_unique_text,Was good until recent updates made it unplayable,candidate_not_human_named
+C9,english,238734492,center_unique_text,game is blurry dont know how to fix,candidate_not_human_named
+C9,english,239092016,center_unique_text,Denne spillen vil ikke starte opp lenge. det gjorde før.,candidate_not_human_named
+C9,schinese,236955741,center_unique_text,更新后直接玩不了了,candidate_not_human_named
+C9,schinese,231431841,center_unique_text,真垃圾，更新了个啥，现在游戏都进不去,candidate_not_human_named
+C9,schinese,238831537,center_unique_text,垃圾游戏  卡的要死  还怪我挂机,candidate_not_human_named

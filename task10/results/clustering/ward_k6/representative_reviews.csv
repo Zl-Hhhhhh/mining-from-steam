@@ -1,0 +1,97 @@
+﻿candidate,cluster,selection,recommendationid,language,game_name,text,cosine_to_own_centroid
+ward_k6,0,center,239057106,english,Palworld,This game is really fun.,0.9318605661392212
+ward_k6,0,center,238690149,english,Raft,it is a very fun game,0.9250818490982056
+ward_k6,0,center,238642604,english,Sid Meier's Civilization VI,This game is super fun. For real,0.9208808541297913
+ward_k6,0,center,239008251,english,War Thunder,Great game really fun,0.9194192886352539
+ward_k6,0,center,238007146,schinese,Garry's Mod,this game is very good,0.9186174869537354
+ward_k6,0,center_english,239057106,english,Palworld,This game is really fun.,0.9318605661392212
+ward_k6,0,center_english,238690149,english,Raft,it is a very fun game,0.9250818490982056
+ward_k6,0,center_english,238642604,english,Sid Meier's Civilization VI,This game is super fun. For real,0.9208808541297913
+ward_k6,0,center_schinese,238007146,schinese,Garry's Mod,this game is very good,0.9186174869537354
+ward_k6,0,center_schinese,238982241,schinese,Terraria,很好玩的游戏,0.9101627469062805
+ward_k6,0,center_schinese,238453677,schinese,NARAKA: BLADEPOINT,好游戏，十分好玩。,0.9037807583808899
+ward_k6,0,random,238748326,english,Celeste,good game and hrad game,0.7648270726203918
+ward_k6,0,random,233897242,schinese,Sid Meier's Civilization V,好游戏，接触的第一款文明,0.7620192766189575
+ward_k6,0,random,239080560,schinese,Phasmophobia,与朋友玩非常好,0.803178071975708
+ward_k6,0,random,238926680,schinese,Stardew Valley,豪玩。有了mod也好玩。,0.7518386840820312
+ward_k6,0,random,239023962,schinese,Stardew Valley,只要你有一个朋友这个游戏能玩一辈子,0.8147073984146118
+ward_k6,1,center,227769545,schinese,Sid Meier's Civilization V,挺没劲的，一点都玩不下去,0.8579497933387756
+ward_k6,1,center,238361193,schinese,Slay the Spire,垃圾游戏。完全没有好的游戏体验。,0.8533967733383179
+ward_k6,1,center,237843210,schinese,Dying Light 2,操作手感稀烂，游戏性极低，全程就是再跑图，垃圾游戏浪费我时间,0.8433605432510376
+ward_k6,1,center,239121430,schinese,The Binding of Isaac: Rebirth,垃圾游戏，时间都给你了，我都没时间做其他事了。,0.8417984247207642
+ward_k6,1,center,238810365,english,The Elder Scrolls V: Skyrim Special Edition,game is buggy,0.8399227857589722
+ward_k6,1,center_english,238810365,english,The Elder Scrolls V: Skyrim Special Edition,game is buggy,0.8399227857589722
+ward_k6,1,center_english,232905590,english,NARAKA: BLADEPOINT,The gameplay gets stale after a while.,0.8384551405906677
+ward_k6,1,center_english,238879933,english,Apex Legends,This game is horrible,0.8296141624450684
+ward_k6,1,center_schinese,227769545,schinese,Sid Meier's Civilization V,挺没劲的，一点都玩不下去,0.8579497933387756
+ward_k6,1,center_schinese,238361193,schinese,Slay the Spire,垃圾游戏。完全没有好的游戏体验。,0.8533967733383179
+ward_k6,1,center_schinese,237843210,schinese,Dying Light 2,操作手感稀烂，游戏性极低，全程就是再跑图，垃圾游戏浪费我时间,0.8433605432510376
+ward_k6,1,random,239058214,english,Rust,"nice game but in servers, there a alot of discusting peoples",0.7775421738624573
+ward_k6,1,random,238634450,english,Slay the Spire,"Please please never make this into a mobile game, I would never put my phone down or get any work done. Unironically spend too much time playing ts, gonna evolve from a gamer to a shut-in when I get my hands on StS 2.",0.7131490111351013
+ward_k6,1,random,238877854,english,Palworld,"the bugs in this game make it borderline unplayable in later levels, if they fix pals and other humans being able to hit you thru walls maybe give it a try.",0.7924224734306335
+ward_k6,1,random,238833810,schinese,Persona 5 Royal,神人游戏 强制我救一个威胁女主做裸模的人 据说这玩意后面还说要加入主角团 我真去你妈的吧,0.6732678413391113
+ward_k6,1,random,238849554,english,Warframe,"Wish I didnt spend money on a discounted platinum sale. The game starts slow, then gets good and then its like the devs ran out of ideas and started doing dumb shit riddles and have you complete missions with no guidance. I'm so over having to search the web to figure out what to do. Game could be cool, but the grind and no real guidance as to what to do is bad.",0.7821545600891113
+ward_k6,2,center,238383331,schinese,ARK: Survival Evolved,玩的很爽,0.8614429235458374
+ward_k6,2,center,239080777,schinese,Terraria,很棒，很喜欢,0.8613978624343872
+ward_k6,2,center,237058129,schinese,Borderlands 3,玩着很爽,0.8613516092300415
+ward_k6,2,center,237696812,schinese,No Man's Sky,非常不错,0.8581405282020569
+ward_k6,2,center,238834584,schinese,Terraria,非常不错啊,0.8557367920875549
+ward_k6,2,center_english,238464571,english,Sid Meier's Civilization V,Well made and fun.,0.8500462770462036
+ward_k6,2,center_english,238875224,english,Dying Light 2,i like it,0.836427628993988
+ward_k6,2,center_english,238434948,english,Hades,it was really good,0.8349613547325134
+ward_k6,2,center_schinese,238383331,schinese,ARK: Survival Evolved,玩的很爽,0.8614429235458374
+ward_k6,2,center_schinese,239080777,schinese,Terraria,很棒，很喜欢,0.8613978624343872
+ward_k6,2,center_schinese,237058129,schinese,Borderlands 3,玩着很爽,0.8613516092300415
+ward_k6,2,random,238815112,schinese,Elden Ring,堪称完美,0.7399642467498779
+ward_k6,2,random,235607195,schinese,Brawlhalla,格斗类游戏还是比较好玩的，操作很流畅,0.75385582447052
+ward_k6,2,random,239074717,schinese,Baldur's Gate 3,无需多言,0.6889379024505615
+ward_k6,2,random,238991834,schinese,Persona 5 Royal,感谢阿特拉斯给所有人一个体验日本男高的机会,0.6382033824920654
+ward_k6,2,random,238647739,schinese,Elden Ring,只有神人才能做出的神作！,0.6023629307746887
+ward_k6,3,center,239105385,schinese,The Witcher 3: Wild Hunt,已经几十个小时了，综合来说是很好的游戏，剧情引人入胜，战斗也符合我的口味（太难的我懒得玩，就这种是最舒服了，砍就完了）。核心就是建立了一个非常宏大的世界观设定，当然，打折是最香的！！,0.8748537302017212
+ward_k6,3,center,237764961,schinese,Celeste,爽，好玩，无需多言。喜欢这个类型的游戏当然可以试试,0.8740215301513672
+ward_k6,3,center,238280489,schinese,Ready or Not,我觉得挺不错的，还可以打mod增加可玩性,0.8673067092895508
+ward_k6,3,center,239077988,schinese,Celeste,手感很爽快，美术很迷人，前期我还感到略无聊，在第五章后越来越有趣。总体游戏难度挺高的。本来不在意剧情的，不能跳过的剧情也十分优秀，玩完的时候也是爽到了。我只玩了主线就是了，后面的有空再玩吧。非常推荐。,0.8631006479263306
+ward_k6,3,center,238730618,schinese,Dead Cells,游戏剧情精彩，地图丰富有特色，武器多样各有优劣。新手可能难以上上手，但值得反复练习，当你真正独自通关后，可以获得其他游戏难得的成就感。就个人而言，值得推荐,0.8597967624664307
+ward_k6,3,center_english,238083586,english,Watch Dogs 2,"very fun gameplay ,good online mode and etc.just play it",0.85166996717453
+ward_k6,3,center_english,238347901,english,Persona 5 Royal,"One of THE BEST games i have played, the story is amazing, characters are interesting, and the gameplay is engaging, Even though i have not played for to long.",0.8486747145652771
+ward_k6,3,center_english,238951771,english,Elden Ring,"Great game, wish I played sooner. Some fights can be tedious. The endings and quest lines are great. The lore in the game is top notch. Will most certainly play more runs using different builds and play new game +. Game also runs well at 4K with my hardware though I would not use ray tracing",0.8446286916732788
+ward_k6,3,center_schinese,239105385,schinese,The Witcher 3: Wild Hunt,已经几十个小时了，综合来说是很好的游戏，剧情引人入胜，战斗也符合我的口味（太难的我懒得玩，就这种是最舒服了，砍就完了）。核心就是建立了一个非常宏大的世界观设定，当然，打折是最香的！！,0.8748537302017212
+ward_k6,3,center_schinese,237764961,schinese,Celeste,爽，好玩，无需多言。喜欢这个类型的游戏当然可以试试,0.8740215301513672
+ward_k6,3,center_schinese,238280489,schinese,Ready or Not,我觉得挺不错的，还可以打mod增加可玩性,0.8673067092895508
+ward_k6,3,random,239046426,english,Path of Exile,PEAK GAME! Very complex but fun even for beginners if you dont have the ambition to understand every mechanic you encounter from the start.,0.8056886196136475
+ward_k6,3,random,239101492,english,Garry's Mod,"It's very fun and it is more fun with friends. I reccomend playing it, with mods, you can do whatever you want. It's great.",0.8384450078010559
+ward_k6,3,random,239004865,schinese,Cyberpunk 2077,从早期各种BUG没玩下去，到现在2.5边缘行者，游戏性稳定性整体都很成熟了，现在入手绝对不负年度大作的评分,0.7924631834030151
+ward_k6,3,random,238637704,english,Dying Light 2,"TLDR: While the parkour remains excellent, nearly everything else feels like a step back from Dying Light 1. PROS: ➕Parkour is great ➕Story-driven choices that impact the narrative outcome CONS: ➖Enemy AI seems buggy and occasionally just “Shuts off” ➖Excessive pointless zombie spawns - literally 3 melee attacks suddenly spawns multiple fast infected ➖Sorting in inventory never saves ➖Narrative isn’t that interesting ➖Most quests are boring fetch quests ➖Obnoxious and constant audio cues that you cannot disable (constantly notifies of ANY nearby event) ➖Combat skill tree is boring My review for Dying Light (DL1) is here Content (Game world/Narrative) – [4/10] The game world takes place in a city called Villedor in 2036, 22 years after the events of DL1. The setting is mostly similar to Harran, the city from DL1. There are two main areas, a smaller village-like starting area that is a bit more rural, and the city proper, with larger buildings and a downtown-like area. Regardless of the differences, every building interior looks like every other and no matter how sheltered or locked down a place has been for decades, there’s always somehow zombies waiting for you inside. The exploration is good, and there are tons of random things to do in the open world. Think like an Ubisoft game, and all the good, and bad, that comes with it. The narrative to me was a big let down. You play as Aiden who is a “Pilgrim”. Basically what Dying Light has branded to be some sort of long-distance parkour enthusiast deliverymen. Aiden has come to Villedor to find his sister and thus begins the search. The story is just all over the place. I really like how there are (seemingly) big decision points to make, but these don’t seem to have a big effect on the story other than some slightly different cutscenes, dialogue, and the ending cutscene. I got about 20 hours into it before I was starting to get bored of the disappointing fetch quest side missions, and the main story itself. While there are some revelations near the end, the story never hit a positive note after dragging on. Gameplay (Mechanics/Difficulty) – [5/10] The general gameplay loop is typical of an open world game - completing mission objectives from one area to another. Coming from DL1, there are some big changes, and most of them are not positive. The parkour remains the best part of the game, by far., and I think it’s improved a bit. Jumping from the top of towers still gives that white-knuckle tense feeling, so it’s still great there. Adding to the already good traversal mechanics are the paraglider and a grappling hook. Though DL1 had a grappling hook, it’s not bound to a talent, you get it about 60% of the way through the story. The night elements have also changed. Now, you have a timer that forces you to either use a consumable or reach a UV light before it runs out, else its game over. The RPG-like gear system has been expanded from just weapons to include gear. I didn’t find this very meaningful and the game could have done without it. Speaking of talents, there are two trees - combat and parkour. The combat tree I found terribly boring, but the parkour tree was good. The difficulty is more on the easier side. The few times I died were all because of failed parkour attempts and not the combat. Though with the combat, the Volatiles will still mess you up. The regular zombies are just a hindrance, and often annoying as the runners constantly show up when doing basic attacks against any enemy Technical (Graphics/Performance) – [5/10] I found the graphics to be this weird middle area between PS4 and PS4-era fidelity. The environments and world look great, if repetitive, but the character design and animations are a step lower. I played fully maxed and felt the performance was good. Of note is the constant bugs. I hear this has been improved with post-launch patches, but I still ran into things constantly. The most egregious is the enemy AI. The AI would occasionally literally “Turn off” and the enemies would just stand there. Also the Volatile chase sequences were a bit of a joke with how poor the AI is at following you 1440p @ 240hz | installed on SSD Audio – [4/10] The music wasn’t great. In fact, I ended up turning it down because it was getting annoying. There’s also a sound effect, like sort of deep “Ding” that plays when an event near you is active, which happens all the time . I couldn’t find a way to turn it off, but it really takes you out of the game with the constant sound. The voice acting is good. Replay Factor (Longevity) – [6/10] There is NG+ and achievements. Perhaps the big draw would be co-op and the choices available within the campaign, even if they are a bit lackluster. Still, I think there’s some good replay value here. Final Verdict – [5/10] Dying Light 2 (DL2) simply isn’t a great game. It lacks something that made DL1 so special. If I had to attribute this downfall to features specifically, it would be the narrative, and the lack of nighttime danger. DL1 didn’t really have an amazing story, mind you, but the narrative here is just terrible. As I got closer to the end, it was a struggle to push on and finish when I just didn’t care about any of the characters or the ending. While I like the touch of adding major decisions to certain parts of the story, even the outcomes just weren’t exciting enough to push the narrative to anything above mid-tier. As for the nighttime danger, it’s sad because the game is literally called Dying Light . In the first game, nighttime often shifted the game from being an action game into a horror game. The tension and change were dramatic and noticeable. I never got the same feeling here. In DL2 night time is more of a stealth or parkour chase in the open world, or rummaging through samey-looking buildings due to the dangerous infected being outside. Even if you are spotted by a Volatile and a chase sequence begins, the AI is so dumb that it simply can’t keep up with the player. As long as you keep moving, there’s really nothing to fear. Just like DL1 though, the parkour continues to impress, and I do really like the traversal elements. But damn, if I only cared about the world at all. This is a hard one to recommend. As with most 5’s, I often struggle to recommend or not. In the end, I’m going to go with a recommendation. I love DL1, first-person games, RPG mechanics, and zombie games, so my love for the gameplay elements kept me interested enough to finish it, but barely. I would only recommend this if you loved DL1, and even then, prepare to be disappointed. Recommend? (Price) [Y/N] Yes $60 is steep. I wouldn’t pay over $15 for this game. You can find my curator page here:",0.7296137809753418
+ward_k6,3,random,238864402,english,Palworld,"This game is really fun bit it is kinda grindy as it's only con. Palworld is a really fun indie game with lots of adventures, pets and more!",0.7470505833625793
+ward_k6,4,center,238943215,english,Black Myth: Wukong,it is very hard,0.7766509056091309
+ward_k6,4,center,237465223,english,Space Engineers,Hopefully this works.,0.7705779671669006
+ward_k6,4,center,238821973,schinese,Sid Meier's Civilization VI,玩就完事了,0.7652742862701416
+ward_k6,4,center,238149088,english,Sid Meier's Civilization V,makes me hard,0.7641636729240417
+ward_k6,4,center,238881100,english,Half-Life 2,Pick up that can.,0.7560984492301941
+ward_k6,4,center_english,238943215,english,Black Myth: Wukong,it is very hard,0.7766509056091309
+ward_k6,4,center_english,237465223,english,Space Engineers,Hopefully this works.,0.7705779671669006
+ward_k6,4,center_english,238149088,english,Sid Meier's Civilization V,makes me hard,0.7641636729240417
+ward_k6,4,center_schinese,238821973,schinese,Sid Meier's Civilization VI,玩就完事了,0.7652742862701416
+ward_k6,4,center_schinese,238892565,schinese,Dead by Daylight,我已爽飞，其次，加强军团,0.7558931708335876
+ward_k6,4,center_schinese,238424599,schinese,Persona 5 Royal,夺取吧，用那个意志。,0.7540737986564636
+ward_k6,4,random,238610675,schinese,The Binding of Isaac: Rebirth,多人模式一直闪退，不推荐,0.6853631734848022
+ward_k6,4,random,238029927,schinese,Celeste,因为山就在这里,0.6461724042892456
+ward_k6,4,random,239127421,english,The Witcher 3: Wild Hunt,its prety good but sometimes roch dodsnt like to go around rox so it will stop the mount in its's place and must require disembarkment to continue on the path,0.6318893432617188
+ward_k6,4,random,238972006,schinese,Red Dead Redemption 2,第九艺术,0.47718948125839233
+ward_k6,4,random,239038768,english,Warframe,ember heirlooms ass,0.585434079170227
+ward_k6,5,center,231665487,schinese,Brawlhalla,非常好玩,0.9521936774253845
+ward_k6,5,center,239097868,schinese,Stardew Valley,真好玩啊,0.9406821727752686
+ward_k6,5,center,238078355,schinese,Grand Theft Auto V,太好玩了,0.940421462059021
+ward_k6,5,center,238462196,schinese,It Takes Two,真的好玩,0.9392096996307373
+ward_k6,5,center,236955208,schinese,Phasmophobia,真的很好玩,0.9381265044212341
+ward_k6,5,center_english,238242779,english,Sid Meier's Civilization V,great game but really addictive,0.8246986865997314
+ward_k6,5,center_english,238786326,english,Sid Meier's Civilization VI,VERY addicting game.,0.8230686187744141
+ward_k6,5,center_english,239082727,english,Dota 2,I play for fun,0.8019866943359375
+ward_k6,5,center_schinese,231665487,schinese,Brawlhalla,非常好玩,0.9521936774253845
+ward_k6,5,center_schinese,239097868,schinese,Stardew Valley,真好玩啊,0.9406821727752686
+ward_k6,5,center_schinese,238078355,schinese,Grand Theft Auto V,太好玩了,0.940421462059021
+ward_k6,5,random,238511546,schinese,Persona 5 Royal,好玩死了,0.9094427824020386
+ward_k6,5,random,238811732,schinese,Elden Ring,挺好玩的，一生难忘,0.8580027222633362
+ward_k6,5,random,238913634,schinese,Baldur's Gate 3,太鸡巴好玩了,0.794041097164154
+ward_k6,5,random,238242779,english,Sid Meier's Civilization V,great game but really addictive,0.8246986865997314
+ward_k6,5,random,238680710,schinese,Elden Ring,好玩，有回甘,0.8611619472503662
