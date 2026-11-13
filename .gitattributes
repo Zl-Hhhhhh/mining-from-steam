@@ -1,0 +1,22 @@
+# Task10 fixed inputs, cache and evidence must keep their checksummed bytes.
+/.gitattributes -text
+/task10/README.md -text
+/docs/task10-bge-m3.md -text
+/data/derived/embedding-bge/** -text
+/output/embedding-bge/** -text
+/output/clustering-bge/** -text
+/output/task10-validation/** -text
+/scripts/embedding_bge.py -text
+/scripts/cluster_bge.py -text
+/scripts/export_bge_review_status.py -text
+/config/embedding_bge.json -text
+/config/clustering_bge.json -text
+/tests/test_embedding_bge_pipeline.py -text
+/requirements-embedding-lock.txt -text
+/requirements-clustering.txt -text
+/docs/embedding-bge.md -text
+/docs/task10-handoff-status.md -text
+/docs/task10-handoff-status.html -text
+/output/embedding-bge/**/*.npy -diff
+/output/clustering-bge/**/*.npy -diff
+/output/clustering-bge/**/*.npz -diff

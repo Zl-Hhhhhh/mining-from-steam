@@ -1,0 +1,27 @@
+test_builds_complete_dictionary_and_documents_partial_and_store_fallback (test_build_metadata.BuildMetadataTests.test_builds_complete_dictionary_and_documents_partial_and_store_fallback) ... ok
+test_builds_three_analysis_datasets_and_reconciles_quality (test_clean_reviews.CleanReviewsTests.test_builds_three_analysis_datasets_and_reconciles_quality) ... ok
+test_quality_mismatch_stops_cleaning (test_clean_reviews.CleanReviewsTests.test_quality_mismatch_stops_cleaning) ... ok
+test_batch_end_date_rejects_invalid_format (test_collectors.CollectorTests.test_batch_end_date_rejects_invalid_format) ... ok
+test_batch_end_date_uses_end_of_utc_day (test_collectors.CollectorTests.test_batch_end_date_uses_end_of_utc_day) ... ok
+test_dataset_accepts_both_formats_without_executing_input (test_collectors.CollectorTests.test_dataset_accepts_both_formats_without_executing_input) ... ok
+test_permission_error_is_not_retried (test_collectors.CollectorTests.test_permission_error_is_not_retried) ... ok
+test_rate_limit_retries_and_honors_retry_after (test_collectors.CollectorTests.test_rate_limit_retries_and_honors_retry_after) ... ok
+test_shared_appid_does_not_relabel_csgo_review_as_cs2 (test_collectors.CollectorTests.test_shared_appid_does_not_relabel_csgo_review_as_cs2) ... ok
+test_delivered_real_cache_without_encoder_import (test_embedding_bge_pipeline.PortableTests.test_delivered_real_cache_without_encoder_import) ... ok
+test_no_silent_truncation (test_embedding_bge_pipeline.PortableTests.test_no_silent_truncation) ... ok
+test_resume_dedup_ids_fixed_settings_and_cached_skip (test_embedding_bge_pipeline.PortableTests.test_resume_dedup_ids_fixed_settings_and_cached_skip) ... ok
+test_agreement_reports_actual_disagreement (test_topic_analysis.TopicAnalysisTests.test_agreement_reports_actual_disagreement) ... ok
+test_component_rescaling_does_not_change_topic_proportions (test_topic_analysis.TopicAnalysisTests.test_component_rescaling_does_not_change_topic_proportions) ... ok
+test_configuration_has_valid_chinese_not_encoding_placeholders (test_topic_analysis.TopicAnalysisTests.test_configuration_has_valid_chinese_not_encoding_placeholders) ... ok
+test_empty_review_sheets_cannot_be_reported_as_completed_review (test_topic_analysis.TopicAnalysisTests.test_empty_review_sheets_cannot_be_reported_as_completed_review) ... ok
+test_hash_accepts_line_endings_but_rejects_changed_content (test_topic_analysis.TopicAnalysisTests.test_hash_accepts_line_endings_but_rejects_changed_content) ... ok
+test_negation_survives_english_and_chinese_tokenization (test_topic_analysis.TopicAnalysisTests.test_negation_survives_english_and_chinese_tokenization) ... ok
+test_review_sample_is_blind_unique_and_contains_no_fabricated_labels (test_topic_analysis.TopicAnalysisTests.test_review_sample_is_blind_unique_and_contains_no_fabricated_labels) ... ok
+test_zero_vectors_and_low_information_are_not_forced_into_a_theme (test_topic_analysis.TopicAnalysisTests.test_zero_vectors_and_low_information_are_not_forced_into_a_theme) ... ok
+test_clean_batch_passes_and_quality_error_fails (test_verify_data.VerifyDataTests.test_clean_batch_passes_and_quality_error_fails) ... ok
+test_quality_statistics_cover_duplicates_playtime_and_dates (test_verify_data.VerifyDataTests.test_quality_statistics_cover_duplicates_playtime_and_dates) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.391s
+
+OK

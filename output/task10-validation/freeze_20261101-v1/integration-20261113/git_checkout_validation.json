@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "git_checkout_autocrlf_true": true,
+  "manifest_files_equal_after_checkout": 160,
+  "unchanged_existing_non_task10_git_blobs": 948,
+  "only_active_vector_copy": "output/embedding-bge/freeze_20261101-v1/cache/review_vectors.npy",
+  "vector_git_blob_unchanged": "e29bfb6ccf1f6e0357d4d8fb8a682b3ab4e9c91a",
+  "unit_tests_from_git_checkout": 22,
+  "cache_verify_from_outside_repository": {
+    "status": "passed",
+    "reviews": 19392,
+    "shape": [
+      19392,
+      1024
+    ],
+    "model": "BAAI/bge-m3",
+    "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "encoder_loaded": false,
+    "paths": "repository-relative"
+  },
+  "task10_contains_migration_index_only": true,
+  "task11_answers_uploaded": false
+}

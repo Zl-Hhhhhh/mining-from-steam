@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "baseline_commit": "0f22b97a7c0d1b1766ea449a84e1802017e2837b",
+  "mapped_original_files": 150,
+  "byte_identical_files": 139,
+  "edited_active_path_config_document_test_files": [
+    ".gitattributes",
+    "config/clustering_bge.json",
+    "config/embedding_bge.json",
+    "docs/embedding-bge.md",
+    "docs/task10-handoff-status.html",
+    "docs/task10-handoff-status.md",
+    "output/embedding-bge/freeze_20261101-v1/cache/embedding_manifest.json",
+    "scripts/cluster_bge.py",
+    "scripts/embedding_bge.py",
+    "scripts/export_bge_review_status.py",
+    "tests/test_embedding_bge_pipeline.py"
+  ],
+  "original_model_and_clustering_parameters_unchanged": true,
+  "input_hashes_unchanged": true,
+  "cache_vector_sha256": "693c02eedb156efbaf50b3b13ba171f40caa50b15f7ee763b3a307ee26788d9b",
+  "unit_tests": 22,
+  "candidate_comparisons": 15,
+  "raw_task11_submissions_uploaded": false,
+  "semantic_theme_validation_complete": false,
+  "original_working_copy_preserved": true
+}

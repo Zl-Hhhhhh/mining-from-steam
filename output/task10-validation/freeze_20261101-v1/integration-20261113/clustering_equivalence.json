@@ -1,0 +1,145 @@
+{
+  "status": "passed",
+  "candidates": [
+    {
+      "candidate": "full_kmeans_k6_s17",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      }
+    },
+    {
+      "candidate": "full_kmeans_k6_s42",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 1.1920928955078125e-07,
+        "centroid_cosine_gap": 2.384185791015625e-07
+      }
+    },
+    {
+      "candidate": "full_kmeans_k10_s17",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 2.384185791015625e-07,
+        "centroid_cosine_gap": 2.384185791015625e-07
+      }
+    },
+    {
+      "candidate": "full_kmeans_k10_s42",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 1.7881393432617188e-07,
+        "centroid_cosine_gap": 1.7881393432617188e-07
+      }
+    },
+    {
+      "candidate": "full_kmeans_k14_s17",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 1.1920928955078125e-07,
+        "centroid_cosine_gap": 2.384185791015625e-07
+      }
+    },
+    {
+      "candidate": "full_kmeans_k14_s42",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 2.384185791015625e-07,
+        "centroid_cosine_gap": 2.384185791015625e-07
+      }
+    },
+    {
+      "candidate": "common_kmeans_k6_s17",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 1.7881393432617188e-07,
+        "centroid_cosine_gap": 2.384185791015625e-07
+      }
+    },
+    {
+      "candidate": "common_kmeans_k10_s17",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 2.384185791015625e-07,
+        "centroid_cosine_gap": 2.384185791015625e-07
+      }
+    },
+    {
+      "candidate": "common_kmeans_k14_s17",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 2.384185791015625e-07,
+        "centroid_cosine_gap": 2.384185791015625e-07
+      }
+    },
+    {
+      "candidate": "ward_k6",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      }
+    },
+    {
+      "candidate": "ward_k10",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      }
+    },
+    {
+      "candidate": "ward_k14",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      }
+    },
+    {
+      "candidate": "average_k6",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      }
+    },
+    {
+      "candidate": "average_k10",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      }
+    },
+    {
+      "candidate": "average_k14",
+      "rows": 19486,
+      "all_labels_fit_scope_and_boundary_flags_exact": true,
+      "maximum_absolute_score_difference": {
+        "cosine_to_own_centroid": 0.0,
+        "centroid_cosine_gap": 0.0
+      }
+    }
+  ],
+  "score_tolerance": 1e-06,
+  "all_cluster_assignments_unchanged": true,
+  "status_table_all19486_rows_unchanged": true,
+  "encoder_loaded": false,
+  "new_embeddings_computed": 0
+}

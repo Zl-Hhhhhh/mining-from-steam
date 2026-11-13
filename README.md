@@ -2,11 +2,11 @@
 
 AIAA3111 课程项目：通过 Steam 官方接口、GitHub 开源工具和研究数据集获取游戏数据。默认目标为 **CS2 / appid 730**。
 
-## Task10：共享多语言Embedding与聚类（2026-11-07）
+## Task10：共享多语言Embedding与聚类（2026-11-13目录整合）
 
-交付目录为[task10/](task10/)，先查看[目录与运行说明](task10/README.md)、[逐项交付状态](task10/HANDOFF_STATUS.md)或[简要索引](docs/task10-bge-m3.md)。包含实际BGE-M3共享向量缓存（19392条）、生成/验证脚本、15组聚类候选、代表评论和质量/规模统计。
+先读[完整目录与运行说明](docs/embedding-bge.md)、[逐项交付状态](docs/task10-handoff-status.md)或[简要索引](docs/task10-bge-m3.md)。代码/配置归入scripts与config，规范化输入归入data/derived/embedding-bge，19392条实际向量与15组聚类候选分别归入output/embedding-bge和output/clustering-bge。
 
-[交互聚类报告](task10/results/clustering/report.html)请下载到本地后用Edge/Chrome打开。当前为待人工核验候选，尚未冻结主题；Task11的独立标注材料另行分发，真实人工标签及一致率尚未完成。
+[交互聚类报告](output/clustering-bge/freeze_20261101-v1/report.html)下载到本地后用Edge/Chrome打开。原[task10/](task10/README.md)保留迁移索引。现有模型、向量及历史结果沿用已交付版本，最终主题仍待人工核验与裁决；Task11答卷已本地归档，未随此次整合上传。
 
 ## 已配置的数据来源
 

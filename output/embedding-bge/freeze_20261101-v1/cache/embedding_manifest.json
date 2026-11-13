@@ -1,8 +1,8 @@
 {
   "model_name": "BAAI/bge-m3",
   "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
-  "vector_file": "artifacts/review_vectors.npy",
-  "cache_path": "artifacts",
+  "vector_file": "output/embedding-bge/freeze_20261101-v1/cache/review_vectors.npy",
+  "cache_path": "output/embedding-bge/freeze_20261101-v1/cache",
   "vectors_sha256": "693c02eedb156efbaf50b3b13ba171f40caa50b15f7ee763b3a307ee26788d9b",
   "source_input_sha256": "ae68672beffbb8f424450296f9f418ad4c856125724fae80013e4a370aedcbde",
   "shape": [

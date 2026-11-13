@@ -15,7 +15,7 @@ import time
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-CONFIG = ROOT / "config/clustering.json"
+CONFIG = ROOT / "config/clustering_bge.json"
 
 
 def sha_file(path):
@@ -244,7 +244,7 @@ def run(config,output):
     es["vector_file"]=str(ROOT/es["vector_file"]) if not Path(es["vector_file"]).is_absolute() else es["vector_file"]
     es["cache_path"]=str(ROOT/es["cache_path"]) if not Path(es["cache_path"]).is_absolute() else es["cache_path"]
     if es["model_revision"]!=config["model_revision"] or sha_file(es["vector_file"])!=config["vectors_sha256"]: raise ValueError("BGE cache changed")
-    base=ROOT/"inputs"
+    base=ROOT/config["inputs_directory"]
     if sha_file(base/"model_reviews.jsonl")!=es["source_input_sha256"]: raise ValueError("Normalized text changed")
     source=[json.loads(x) for x in (base/"model_reviews.jsonl").read_text(encoding="utf-8").splitlines()]
     rows=[r for r in source if r["text_clean"].strip()]
@@ -317,8 +317,8 @@ def run(config,output):
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument("--config",type=Path,default=CONFIG);p.add_argument("--output",type=Path,default=ROOT/"results/reproduced")
-    a=p.parse_args();run(json.loads(a.config.read_text(encoding="utf-8")),a.output)
+    p=argparse.ArgumentParser();p.add_argument("--config",type=Path,default=CONFIG);p.add_argument("--output",type=Path,default=None)
+    a=p.parse_args();config=json.loads(a.config.read_text(encoding="utf-8"));run(config,a.output or ROOT/config["output"])
 
 
 if __name__=="__main__": main()

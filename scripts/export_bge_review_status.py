@@ -9,14 +9,16 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 FIELDS=['recommendationid','raw_cluster','assignment_status','generic_only_rule_flag','boundary_flag','human_aspect_presence','human_theme_labels','confidence_probability','note']
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--assignments',type=Path,default=ROOT/'results/clustering/full_kmeans_k10_s17/assignments.csv');p.add_argument('--out',type=Path,required=True);a=p.parse_args()
+    settings=json.loads((ROOT/'config/embedding_bge.json').read_text(encoding='utf-8'))
+    clustering=json.loads((ROOT/'config/clustering_bge.json').read_text(encoding='utf-8'))
+    p=argparse.ArgumentParser();p.add_argument('--assignments',type=Path,default=ROOT/clustering['delivered_results_dir']/'full_kmeans_k10_s17/assignments.csv');p.add_argument('--out',type=Path,required=True);a=p.parse_args()
     if a.out.exists():raise FileExistsError('Use a new output file; existing evidence is never overwritten')
-    rules=json.loads((ROOT/'provisional_status_rules.json').read_text(encoding='utf-8'));generic=re.compile(rules['generic_fullmatch_regex'])
-    text_path=ROOT/'inputs/model_reviews.jsonl';manifest=json.loads((ROOT/'artifacts/embedding_manifest.json').read_text(encoding='utf-8'))
+    rules=json.loads((ROOT/clustering['status_rules']).read_text(encoding='utf-8'));generic=re.compile(rules['generic_fullmatch_regex'])
+    text_path=ROOT/settings['input_path'];manifest=json.loads((ROOT/settings['manifest_path']).read_text(encoding='utf-8'))
     if hashlib.sha256(text_path.read_bytes()).hexdigest()!=manifest['source_input_sha256']:raise ValueError('Normalized frozen input changed')
     rows={str(r['recommendationid']):r for r in map(json.loads,text_path.read_text(encoding='utf-8').splitlines())}
     with a.assignments.open(encoding='utf-8-sig',newline='') as f:assignments=list(csv.DictReader(f))
-    master_ids=[str(r['recommendationid']) for r in map(json.loads,(ROOT/'inputs/master_index.jsonl').read_text(encoding='utf-8').splitlines())]
+    master_ids=[str(r['recommendationid']) for r in map(json.loads,(ROOT/settings['master_index_path']).read_text(encoding='utf-8').splitlines())]
     if [x['recommendationid'] for x in assignments]!=master_ids or any(x['raw_cluster']=='-1' for x in assignments if x['recommendationid'] in rows and rows[x['recommendationid']]['text_clean'].strip()):raise ValueError('Expected full-coverage KMeans assignments; do not extrapolate hierarchy labels')
     out=[]
     for x in assignments:

@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "local_links_checked": 24,
+  "links": [
+    {
+      "document": "docs/embedding-bge.md",
+      "link": "../output/clustering-bge/freeze_20261101-v1/report.html"
+    },
+    {
+      "document": "docs/embedding-bge.md",
+      "link": "task10-handoff-status.md"
+    },
+    {
+      "document": "docs/embedding-bge.md",
+      "link": "task10-handoff-status.html"
+    },
+    {
+      "document": "docs/embedding-bge.md",
+      "link": "../output/clustering-bge/freeze_20261101-v1/candidate_metrics.csv"
+    },
+    {
+      "document": "docs/embedding-bge.md",
+      "link": "../output/clustering-bge/freeze_20261101-v1/cluster_profiles.csv"
+    },
+    {
+      "document": "docs/embedding-bge.md",
+      "link": "../output/clustering-bge/freeze_20261101-v1/representative_reviews.csv"
+    },
+    {
+      "document": "docs/embedding-bge.md",
+      "link": "../output/clustering-bge/freeze_20261101-v1/bilingual_representatives.csv"
+    },
+    {
+      "document": "docs/embedding-bge.md",
+      "link": "../output/clustering-bge/freeze_20261101-v1/provisional_assignment_status.csv"
+    },
+    {
+      "document": "docs/embedding-bge.md",
+      "link": "../output/task10-validation/freeze_20261101-v1/integration-20261113/README.md"
+    },
+    {
+      "document": "docs/embedding-bge.md",
+      "link": "../output/task10-validation/freeze_20261101-v1/migration_manifest_20261113.json"
+    },
+    {
+      "document": "docs/embedding-bge.md",
+      "link": "../task10/README.md"
+    },
+    {
+      "document": "docs/task10-handoff-status.md",
+      "link": "embedding-bge.md"
+    },
+    {
+      "document": "docs/task10-bge-m3.md",
+      "link": "embedding-bge.md"
+    },
+    {
+      "document": "docs/task10-bge-m3.md",
+      "link": "task10-handoff-status.md"
+    },
+    {
+      "document": "docs/task10-bge-m3.md",
+      "link": "../output/clustering-bge/freeze_20261101-v1/report.html"
+    },
+    {
+      "document": "docs/task10-bge-m3.md",
+      "link": "../output/clustering-bge/freeze_20261101-v1/candidate_metrics.csv"
+    },
+    {
+      "document": "docs/task10-bge-m3.md",
+      "link": "../output/clustering-bge/freeze_20261101-v1/cluster_profiles.csv"
+    },
+    {
+      "document": "docs/task10-bge-m3.md",
+      "link": "../output/clustering-bge/freeze_20261101-v1/bilingual_representatives.csv"
+    },
+    {
+      "document": "docs/task10-bge-m3.md",
+      "link": "../output/task10-validation/freeze_20261101-v1/integration-20261113/README.md"
+    },
+    {
+      "document": "docs/task10-bge-m3.md",
+      "link": "../task10/README.md"
+    },
+    {
+      "document": "task10/README.md",
+      "link": "../docs/embedding-bge.md"
+    },
+    {
+      "document": "task10/README.md",
+      "link": "../docs/task10-handoff-status.md"
+    },
+    {
+      "document": "task10/README.md",
+      "link": "../docs/task10-bge-m3.md"
+    },
+    {
+      "document": "task10/README.md",
+      "link": "../output/clustering-bge/freeze_20261101-v1/report.html"
+    }
+  ]
+}

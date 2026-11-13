@@ -1,6 +1,6 @@
 {
   "source_commit": "8381107e811675f34bab3727b1b13a2c6d07a735",
-  "embedding_summary": "artifacts/embedding_manifest.json",
+  "embedding_summary": "output/embedding-bge/freeze_20261101-v1/cache/embedding_manifest.json",
   "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
   "vectors_sha256": "693c02eedb156efbaf50b3b13ba171f40caa50b15f7ee763b3a307ee26788d9b",
   "fit_policy": "Use source fit_eligible and nonempty lexical text, matching prior comparison scope; preserve all other reviews for KMeans application and diagnostics",
@@ -30,5 +30,9 @@
   ],
   "representatives_center": 5,
   "representatives_random": 5,
-  "representatives_per_language": 3
+  "representatives_per_language": 3,
+  "inputs_directory": "data/derived/embedding-bge/freeze_20261101-v1",
+  "output": "output/clustering-bge/reproduced",
+  "delivered_results_dir": "output/clustering-bge/freeze_20261101-v1",
+  "status_rules": "output/clustering-bge/freeze_20261101-v1/provisional_status_rules.json"
 }

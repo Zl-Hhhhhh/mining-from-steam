@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": 8,
+  "names": [
+    "Relocated HTML handoff opens",
+    "Handoff table renders",
+    "Historical report has fifteen candidates",
+    "Candidate/cluster/language filters work",
+    "Ward switches",
+    "Relative plots load",
+    "No browser JavaScript errors",
+    "No missing relocated assets"
+  ],
+  "errors": [],
+  "failed_requests": [],
+  "source_report_preserved": true
+}
