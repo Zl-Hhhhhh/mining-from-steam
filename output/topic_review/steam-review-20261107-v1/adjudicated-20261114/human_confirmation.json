@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "package_id": "steam-review-20261107-v1",
+  "source_fingerprint": "38eaaa7c1eb0499b2c3c725c1783858e8138da4c27358d1ba35b84b3c4e4f567",
+  "adjudication_sha256": "5569f2fbd39b119e3e5ebd0770c3001ba459a46854ced0df571aa2bee8ce12cb",
+  "resolved_sample_sha256": "971dbffd33207f0953977495632057a46e7a40de0549ff2d539e17598289a14f",
+  "confirmed_by": "B-Lin",
+  "confirmed_at_local_date": "2026-11-14",
+  "confirmation_source": "user_message_in_project_conversation",
+  "user_statement": "1我感觉没什么问题，接下来是不是要提交下",
+  "accepted_scope": "本轮180条评论与30组候选的裁决，包括保留8条方面不确定。",
+  "other_reviewers_confirmation_recorded": false,
+  "task12_topics_frozen": false
+}

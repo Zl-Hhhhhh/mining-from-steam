@@ -1,0 +1,2137 @@
+{
+  "schema_version": "1.0",
+  "stage": "adjudication",
+  "package_id": "steam-review-20261107-v1",
+  "sample_sha256": "742ffb1c622ca87399b76a8e93c5daac73ef2a8b409ebe3fa5d60944f0ab0883",
+  "source_fingerprint": "38eaaa7c1eb0499b2c3c725c1783858e8138da4c27358d1ba35b84b3c4e4f567",
+  "complete": false,
+  "reviewer": "",
+  "acknowledged_review": false,
+  "cases": {
+    "R002": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty",
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "gameplay": "感觉玩法很多",
+          "controls_difficulty": "新手指导有点.....",
+          "multiplayer_community": "和朋友一起还是很有趣味的"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "B的判断更全面"
+    },
+    "R006": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity"
+        ],
+        "style_evidence": "史",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R008": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "mixed",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty",
+          "story_characters",
+          "audiovisual",
+          "performance_stability",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "gameplay": "经验值不来自杀敌，不来自完成任务",
+          "controls_difficulty": "滚5原版的打击感确实是一坨大便",
+          "story_characters": "人物塑造也相当鲜明",
+          "audiovisual": "天际的美术充满了灵魂",
+          "performance_stability": "我的沉浸感不知多少次被Bug破坏得粉碎",
+          "content_support": "我们有数不清的内容拓展mod，新任务、新地区、新的剧情NPC"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity",
+          "directed_attack",
+          "meme_quote",
+          "checklist_template"
+        ],
+        "style_evidence": "咒骂：“实属是一坨”；攻击对象：“bethesda的吃相实在是太sm了”；梗/引用：“Hey, you. You're finally awake.”；打分/勾选：“总分：88/100”",
+        "notes": ""
+      },
+      "rationale": "B的说明更加全面"
+    },
+    "R010": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "other",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "performance_stability"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "game lỗi vl"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity"
+        ],
+        "style_evidence": "咒骂：“vl”",
+        "notes": "越南语；lỗi指错误或故障。"
+      },
+      "rationale": "有查询资料，更严谨"
+    },
+    "R014": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "和朋友一起特别好玩"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "确实含有联机要素"
+    },
+    "R017": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "special",
+        "expression_flags": [
+          "suspected_irony"
+        ],
+        "style_evidence": "非常好玩，看别人的视频就行，别玩",
+        "notes": ""
+      },
+      "rationale": "结合语境感觉这人应该是在说反话"
+    },
+    "R018": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "gameplay": "人质，歹徒"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote",
+          "suspected_irony"
+        ],
+        "style_evidence": "梗/引用、反讽线索：“我没看到有人质,不是只有没持枪的歹徒嘛”",
+        "notes": ""
+      },
+      "rationale": "B玩CS，他有发言权"
+    },
+    "R019": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "controls_difficulty",
+          "price_monetization"
+        ],
+        "aspect_evidence": {
+          "controls_difficulty": "uptiers 90% of games",
+          "price_monetization": "if u dont spend atleast 500 euros to this ass game u wont advance"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity"
+        ],
+        "style_evidence": "咒骂：“shit game”",
+        "notes": "uptiers指跨等级对战。"
+      },
+      "rationale": "B的说明更加全面"
+    },
+    "R023": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "外挂多如狗"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "外挂多如狗",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R027": {
+      "status": "reviewed",
+      "basis": "custom",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty"
+        ],
+        "aspect_evidence": {
+          "gameplay": "就是整体玩法之间可以优化下更好",
+          "controls_difficulty": "前期真不好过"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "结合了一下A，B"
+    },
+    "R032": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "不耐玩"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "可以算在重玩里面"
+    },
+    "R033": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "audiovisual"
+        ],
+        "aspect_evidence": {
+          "audiovisual": "game is blurry"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "画面模糊，未说明运行故障。"
+      },
+      "rationale": "差不多，B有说明"
+    },
+    "R035": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "performance_stability"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "bug经常能碰到，主要是关于模型的bug"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "这里强调的应该是BUG的问题，而不是玩法"
+    },
+    "R041": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "multiplayer_community",
+          "performance_stability",
+          "content_support",
+          "price_monetization"
+        ],
+        "aspect_evidence": {
+          "gameplay": "There is always something to upgrade, build, or find.",
+          "multiplayer_community": "When you play co-op the game runs seamlessly.",
+          "performance_stability": "When you play co-op the game runs seamlessly.",
+          "content_support": "They keep pushing out amazing updates for FREE",
+          "price_monetization": "updates for FREE"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "合作运行顺畅，并提到免费更新。"
+      },
+      "rationale": "B更全面"
+    },
+    "R042": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "meme_only",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "居然敢抄袭我们pvz之光的伟神的佳作猫猫特工队",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R045": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "other_no_specific_aspect",
+        "expression_status": "uncertain",
+        "expression_flags": [],
+        "style_evidence": "无法判断是否在反讽",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R050": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "story_characters"
+        ],
+        "aspect_evidence": {
+          "story_characters": "the story is as good if not better than anything ive ever seen in a video game before."
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "确实提到story"
+    },
+    "R056": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "performance_stability"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "垃圾服务器"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity"
+        ],
+        "style_evidence": "垃圾服务器",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R059": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "price_monetization",
+          "audiovisual",
+          "controls_difficulty",
+          "gameplay",
+          "content_support",
+          "story_characters",
+          "other_concrete"
+        ],
+        "aspect_evidence": {
+          "price_monetization": "一开始是看价格这么低评分又这么高买的",
+          "audiovisual": "画质很古老",
+          "controls_difficulty": "战斗操作手法确实很没有打击感，也很不习惯",
+          "gameplay": "负重什么的很难受，不过也很真实",
+          "content_support": "有很简单的简体汉化mod",
+          "story_characters": "里面的人物并不只是传说，游戏里面确确实实是有相关人物的",
+          "other_concrete": "繁体有点难受"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "梗/引用：“玩家和马简直是岩羊来的，是坡就能爬”",
+        "notes": "其他具体方面：本地化/繁简文字。"
+      },
+      "rationale": "B更全面"
+    },
+    "R061": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "performance_stability",
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "服务器、游戏bug",
+          "multiplayer_community": "反作弊"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity",
+          "directed_attack"
+        ],
+        "style_evidence": "咒骂、攻击对象：“EA傻逼的运营”",
+        "notes": "“运营”未展开为具体问题。"
+      },
+      "rationale": ""
+    },
+    "R067": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "performance_stability"
+        ],
+        "aspect_evidence": {
+          "gameplay": "东躲西藏的修理发电机",
+          "performance_stability": "被解救在勾子下边不能动"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "B的更全面"
+    },
+    "R070": {
+      "status": "reviewed",
+      "basis": "custom",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty",
+          "performance_stability",
+          "story_characters",
+          "audiovisual",
+          "multiplayer_community",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "story_characters": "the story in game is for most part absent",
+          "gameplay": "the entire progression system of the game",
+          "controls_difficulty": "the most horrific controls i have ever endured",
+          "performance_stability": "game is locked at 60fps and has no DLSS SR",
+          "audiovisual": "the texture quality completely deteriorates on distance",
+          "content_support": "there are so many reused enemies, assets and dungeons",
+          "multiplayer_community": "PLATFORMING"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity",
+          "meme_quote",
+          "suspected_irony",
+          "checklist_template"
+        ],
+        "style_evidence": "咒骂：“annoying af”；梗/引用：“did git gud”；反讽线索：“jumping is alien tech to this guys”；打分/勾选：“1. STORY 3/10”",
+        "notes": "涉及探索、操作、剧情、视听、性能和重复内容。"
+      },
+      "rationale": "结合二者"
+    },
+    "R075": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "especially with friends."
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R083": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "耐玩"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R084": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "performance_stability"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "更新了就不让你玩"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "更新后估计无法游玩"
+      },
+      "rationale": "B的更准确"
+    },
+    "R091": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "适合几（2-8）个朋友一起玩的",
+          "content_support": "现在完整版更多内容，更多乐趣"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "梗/引用：“疯狂水世界，启动！”",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R093": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "傻逼vac不改退游"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity",
+          "directed_attack"
+        ],
+        "style_evidence": "咒骂：“傻逼vac”；对象：vac",
+        "notes": "VAC指反作弊。"
+      },
+      "rationale": "B的更准确"
+    },
+    "R096": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "other_no_specific_aspect",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "仅表达圆梦和怀旧。"
+      },
+      "rationale": ""
+    },
+    "R101": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty",
+          "story_characters",
+          "audiovisual",
+          "performance_stability",
+          "content_support",
+          "price_monetization",
+          "other_concrete"
+        ],
+        "aspect_evidence": {
+          "gameplay": "基本上只要能看到的地方都能到达",
+          "controls_difficulty": "一开始非常不适应魂游的这套左右肩键攻击模组",
+          "story_characters": "剧情极度碎片化",
+          "audiovisual": "独特的怪诞诡谲的美术和恢宏庞大的音乐风格",
+          "performance_stability": "每次一到索尔城那个移动灵庙就卡的飞起",
+          "content_support": "游戏体量是相当恐怖的了",
+          "price_monetization": "性价比直接给到一个夯爆了",
+          "other_concrete": "法环简中翻译不是很行"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity",
+          "directed_attack",
+          "meme_quote",
+          "emoji_context",
+          "checklist_template"
+        ],
+        "style_evidence": "咒骂：“优化一坨史”；攻击对象：“宫崎英高”；梗/引用：“宫崎英高老牧师了，通关之后宫崎英高老牧活了”；emoji：“想去哪就去哪😡”；打分/勾选：“综合评分:9.5分”",
+        "notes": "其他具体方面：中文本地化/翻译。我的天"
+      },
+      "rationale": "B的更准确"
+    },
+    "R108": {
+      "status": "reviewed",
+      "basis": "custom",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "price_monetization",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "10小时就可以体验完游戏的所有内容",
+          "gameplay": "之后都是在同一张地图打同一个敌人",
+          "price_monetization": "90元的价格完全不值"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "梗/引用：“夯爆了”",
+        "notes": ""
+      },
+      "rationale": "感觉谈不上玩法"
+    },
+    "R112": {
+      "status": "pending",
+      "basis": "custom",
+      "final_answer": {
+        "observed_language": "uncertain",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "仅nb"
+      },
+      "rationale": ""
+    },
+    "R113": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "not_about_game",
+        "expression_status": "special",
+        "expression_flags": [
+          "suspected_irony"
+        ],
+        "style_evidence": "反讽线索：“The devs like boycotts. No problem, so do I.”",
+        "notes": "只谈开发者与抵制立场。"
+      },
+      "rationale": ""
+    },
+    "R115": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "performance_stability"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "The memory bloat is insane. 150 GB is not normal."
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "suspected_irony"
+        ],
+        "style_evidence": "反讽：“Are you a Happy Person?”",
+        "notes": "主要抱怨磁盘占用。"
+      },
+      "rationale": "B的更准确"
+    },
+    "R116": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity"
+        ],
+        "style_evidence": "垃圾玩意",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R117": {
+      "status": "reviewed",
+      "basis": "custom",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "other_concrete": "",
+          "gameplay": "get scared by ghosts"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "checklist_template"
+        ],
+        "style_evidence": "打分/勾选：“10/10”",
+        "notes": "这算是恐怖游戏的玩法"
+      },
+      "rationale": "稍微调整了一下"
+    },
+    "R119": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "performance_stability",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "incredible updates",
+          "performance_stability": "play this game on my Xbox but it got too laggy at launch"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "A的更准确"
+    },
+    "R123": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "different every time"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "评价每次游玩的变化和重玩性。"
+      },
+      "rationale": "B的更准确"
+    },
+    "R124": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "controls_difficulty"
+        ],
+        "aspect_evidence": {
+          "controls_difficulty": "just not one I’m gonna bang my head against the wall against to finish as IRL is tough enough"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "emoji_context"
+        ],
+        "style_evidence": "lol",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R127": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community",
+          "story_characters"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "rafting with your friends for fun",
+          "story_characters": "The ending will disappoint you."
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R130": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "controls_difficulty",
+          "story_characters"
+        ],
+        "aspect_evidence": {
+          "story_characters": "story!",
+          "controls_difficulty": "gameplay"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "A的更全面"
+    },
+    "R131": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "gameplay": "accidentally kill a civilian"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "梗/引用：“how to delete bodycam footage?”",
+        "notes": "描述误杀平民的行为。"
+      },
+      "rationale": "B的更准确"
+    },
+    "R134": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "controls_difficulty"
+        ],
+        "aspect_evidence": {
+          "controls_difficulty": "很好入门"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R143": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "gameplay": "一代的各种设计堪称经典"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "A的判断更准确"
+    },
+    "R151": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "price_monetization"
+        ],
+        "aspect_evidence": {
+          "gameplay": "gameplay loop is engaging",
+          "price_monetization": "worth moneys."
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R152": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "天天让我朋友掉线还封禁她们"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity"
+        ],
+        "style_evidence": "去你妈的",
+        "notes": ""
+      },
+      "rationale": "A的更准确"
+    },
+    "R153": {
+      "status": "reviewed",
+      "basis": "custom",
+      "final_answer": {
+        "observed_language": "mixed",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "content_support",
+          "performance_stability"
+        ],
+        "aspect_evidence": {
+          "gameplay": "我们只是想玩PVE",
+          "content_support": "开放修改器",
+          "performance_stability": "还会闪退"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R154": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "other_no_specific_aspect",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "仅表达跨年代回忆。"
+      },
+      "rationale": ""
+    },
+    "R157": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "gameplay": "make sure you play Gwent"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "明确推荐昆特牌玩法。"
+      },
+      "rationale": "B的更准确"
+    },
+    "R161": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "uncertain",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "ambiguous_expression",
+        "expression_status": "uncertain",
+        "expression_flags": [],
+        "style_evidence": "无法理解含义",
+        "notes": "无法理解含义"
+      },
+      "rationale": "这个A，B都无法看懂"
+    },
+    "R162": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "performance_stability"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "游戏都进不去"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity",
+          "directed_attack"
+        ],
+        "style_evidence": "咒骂：“傻逼ea几把”；攻击对象：“傻逼ea”",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R163": {
+      "status": "reviewed",
+      "basis": "custom",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "other_no_specific_aspect",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "感觉和难度相关但有不是直接指明"
+      },
+      "rationale": "这个不是很能判断，但确实没有明确方面"
+    },
+    "R165": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "更新不了"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity"
+        ],
+        "style_evidence": "傻逼",
+        "notes": ""
+      },
+      "rationale": "A，B一样"
+    },
+    "R170": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty",
+          "other_concrete"
+        ],
+        "aspect_evidence": {
+          "gameplay": "starving to death because you picked the wrong berries",
+          "controls_difficulty": "a winter season that makes you wish you were never born",
+          "other_concrete": "creepy atmosphere"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "梗/引用：“Even the trees are trying to kill you.”",
+        "notes": "其他具体方面：恐怖/压迫氛围。"
+      },
+      "rationale": "B的更准确"
+    },
+    "R175": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "个人认为赛博算不上玩法"
+    },
+    "R177": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "story_characters"
+        ],
+        "aspect_evidence": {
+          "gameplay": "the thrill of adventuring",
+          "story_characters": "discovering stories that have surprised twist."
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R182": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "gameplay": "hard mechanics, hard community.",
+          "multiplayer_community": "hard mechanics, hard community."
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "A,B一样"
+    },
+    "R184": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "uncertain",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R188": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "gameplay": "可玩性很高"
+        },
+        "reason": "generic_evaluation",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "A的更准确"
+    },
+    "R189": {
+      "status": "reviewed",
+      "basis": "custom",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "story_characters",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "phenomenal replayability",
+          "story_characters": "story and story line is a 10",
+          "gameplay": "Gameplay as a whole is a 10"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "checklist_template"
+        ],
+        "style_evidence": "打分/勾选：“9.8/10”",
+        "notes": "剧情和重玩评价较明确"
+      },
+      "rationale": "结合两者"
+    },
+    "R191": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity",
+          "directed_attack"
+        ],
+        "style_evidence": "咒骂、攻击对象：“sb卡婊”",
+        "notes": "仅辱骂厂商"
+      },
+      "rationale": ""
+    },
+    "R193": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "other_concrete"
+        ],
+        "aspect_evidence": {
+          "other_concrete": "Got my account hacked and they don't have any proper support."
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity",
+          "directed_attack"
+        ],
+        "style_evidence": "咒骂：“shit”；攻击对象：“the company running it is shit.”",
+        "notes": "账号安全与客服支持"
+      },
+      "rationale": "B的更全面"
+    },
+    "R195": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "白玩不腻"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R196": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "performance_stability",
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "cant even load into the game most of the time",
+          "multiplayer_community": "all the server are 50%racists 50%tryhards"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "directed_attack",
+          "meme_quote"
+        ],
+        "style_evidence": "攻击对象：“50%racists 50%tryhards”；梗/引用：“havent seen grass since the fall of the berlin wall”",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R198": {
+      "status": "reviewed",
+      "basis": "custom",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty",
+          "audiovisual",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "gameplay": "the hexagon based map style",
+          "controls_difficulty": "fun and easy to learn",
+          "content_support": "The replayability is insane!",
+          "audiovisual": "Perfectly alive world, simple yet immersive grand strategy experience"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "checklist_template"
+        ],
+        "style_evidence": "打分/勾选：“10/10”",
+        "notes": "评价长期游玩和重玩性。"
+      },
+      "rationale": "结合两者"
+    },
+    "R202": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "long hours"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "简短表达可长时间游玩。"
+      },
+      "rationale": "B的判断更准确"
+    },
+    "R203": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "other",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "symbols_only",
+        "expression_status": "uncertain",
+        "expression_flags": [],
+        "style_evidence": "仅数字6，可能为网络赞语。",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R207": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "controls_difficulty"
+        ],
+        "aspect_evidence": {
+          "controls_difficulty": "有挑战性"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": "B的更准确"
+    },
+    "R212": {
+      "status": "reviewed",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "price_monetization",
+          "controls_difficulty"
+        ],
+        "aspect_evidence": {
+          "price_monetization": "for 8 quid I thought I'd give it a go",
+          "controls_difficulty": "Bit confusuing at first"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "以低价作为尝试理由。"
+      },
+      "rationale": "B的更准确"
+    },
+    "R214": {
+      "status": "pending",
+      "basis": "custom",
+      "final_answer": {
+        "observed_language": "mixed",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity",
+          "meme_quote",
+          "emoji_context"
+        ],
+        "style_evidence": "咒骂、梗/引用：“飞马”；bvvd\n",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R215": {
+      "status": "reviewed",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "mixed",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "VacNet更新后乱jb封"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity"
+        ],
+        "style_evidence": "jb",
+        "notes": ""
+      },
+      "rationale": "A的更准确"
+    },
+    "R219": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": " "
+    },
+    "R225": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote",
+          "suspected_irony"
+        ],
+        "style_evidence": "梗/引用、反讽线索：“With only 2139 hours played”",
+        "notes": "仅描述累计时长和总体满意。"
+      },
+      "rationale": ""
+    },
+    "R226": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty"
+        ],
+        "aspect_evidence": {
+          "gameplay": "reinforcements",
+          "controls_difficulty": "Do they ever end!?"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity",
+          "checklist_template"
+        ],
+        "style_evidence": "咒骂：“RETARDED”；打分/勾选：“0/10”",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R227": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity"
+        ],
+        "style_evidence": "咒骂：“my ass whopped”",
+        "notes": "仅表达输赢都开心的态度。"
+      },
+      "rationale": ""
+    },
+    "R228": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "story_characters",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "story_characters": "主线的王道龙傲天剧情也极具吸引力",
+          "content_support": "庞大的支线撑起了鲜活的天际省"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R231": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty",
+          "story_characters",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "gameplay": "turn based combat is good",
+          "controls_difficulty": "not hard but can be if you want it to be",
+          "story_characters": "story is the definition of a 10/10",
+          "content_support": "really good newgame+ features."
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "checklist_template"
+        ],
+        "style_evidence": "打分/勾选：“10/10”",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R236": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "not_about_game",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "妈妈",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R240": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "audiovisual",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "audiovisual": "画面很美",
+          "content_support": "买了将近5年了，才玩了100个小时"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R245": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "other_no_specific_aspect",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R249": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "other_no_specific_aspect",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "仅表达童年回忆。"
+      },
+      "rationale": ""
+    },
+    "R252": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "makes my mind spin",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R254": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "other_no_specific_aspect",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R256": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R257": {
+      "status": "pending",
+      "basis": "custom",
+      "final_answer": {
+        "observed_language": "mixed",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "拉完了",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R259": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "controls_difficulty"
+        ],
+        "aspect_evidence": {
+          "controls_difficulty": "can get a little tricky when you don't know what you are doing"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R266": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "content_support",
+          "audiovisual"
+        ],
+        "aspect_evidence": {
+          "content_support": "整合了六部作品",
+          "audiovisual": "宇宙浩瀚无垠的场面震撼人心"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R270": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "神人",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R287": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "performance_stability"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "recent updates made it unplayable"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": "更新后游玩体验下降。"
+      },
+      "rationale": ""
+    },
+    "R288": {
+      "status": "pending",
+      "basis": "A",
+      "final_answer": {
+        "observed_language": "english",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "freezing when my friend tried to join me",
+          "content_support": "there was no mods no nothing"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "rationale": ""
+    },
+    "R298": {
+      "status": "pending",
+      "basis": "B",
+      "final_answer": {
+        "observed_language": "schinese",
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "audiovisual",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "audiovisual": "音乐治愈，这种艺术风格还是挺可爱的",
+          "content_support": "多埋点彩蛋"
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "emoji_context"
+        ],
+        "style_evidence": "emoji：“awa”",
+        "notes": "请求增加彩蛋。"
+      },
+      "rationale": ""
+    }
+  },
+  "groups": {
+    "G01": {
+      "status": "pending",
+      "action": "rework",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "mixed_uninterpretable",
+        "coherence_rating": 0,
+        "proposed_name": "无",
+        "notes": "E1、E3、E5 主要是泛赞或玩梗，E2 的具体含义不明。E4 谈画质和通关经历，E6 则详细批评联机系统。E6 可归入运行故障。我认为该组应该重新划分到对应的组别里去"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G02": {
+      "status": "pending",
+      "action": "",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "single_aspect",
+        "coherence_rating": 2,
+        "proposed_name": "可玩性评价",
+        "notes": "E1 至 E4 都说可玩性高，却没有解释具体玩法。E5 实际批评匹配公平，E6 批评挂钩机制，可把这两条分别放回匹配和平衡方面。"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G03": {
+      "status": "pending",
+      "action": "",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "single_aspect",
+        "coherence_rating": 1,
+        "proposed_name": "开放世界",
+        "notes": "E1，2，6关于开放世界，E4，5不相关应该去除。"
+      },
+      "rationale": "",
+      "basis": "A"
+    },
+    "G04": {
+      "status": "pending",
+      "action": "",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "single_aspect",
+        "coherence_rating": 2,
+        "proposed_name": "服务器问题",
+        "notes": "E1 至 E3 都批评服务器，E6 具体提到卡顿、闪退和无法进入服务器。E5 还包含下载慢和优化问题，E4 则是夹杂政治内容的反讽。"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G05": {
+      "status": "pending",
+      "action": "",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "generic_evaluation",
+        "coherence_rating": 0,
+        "proposed_name": "最佳游戏泛赞",
+        "notes": "E1 至 E5 都在说这是最好玩的游戏，跨语言的含义接近，但没有具体方面。E6 是对工作室的整体认可，也没有展开游戏内容。"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G09": {
+      "status": "pending",
+      "action": "",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "generic_evaluation",
+        "coherence_rating": 1,
+        "proposed_name": "负面泛评",
+        "notes": "E1、E2、E4 至 E6 都是笼统负评或咒骂，没有具体原因。E3 的西班牙语是好游戏、烂玩家，实际抱怨社区；这条应归入玩家环境。"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G11": {
+      "status": "pending",
+      "action": "retain",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "generic_evaluation",
+        "coherence_rating": 2,
+        "proposed_name": "怀旧评论",
+        "notes": "E1 至 E6 都围绕童年愿望和旧时记忆。E4 虽然提到卡牌肉鸽，重点仍是童年加分；共同点是怀旧动机，没有共同的玩法方面。"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G14": {
+      "status": "pending",
+      "action": "rework",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "mixed_uninterpretable",
+        "coherence_rating": 0,
+        "proposed_name": "低信息短句",
+        "notes": "E1 谈 MOD，E2 含义不明，E3 为辱骂，E4 至 E6 只是疲惫、上瘾或简短感受。没有共同的具体方面，适合重做分组。"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G16": {
+      "status": "pending",
+      "action": "",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "generic_evaluation",
+        "coherence_rating": 0,
+        "proposed_name": "简短泛赞",
+        "notes": "除 E3 点名杀鲨鱼外，其余例子只有好、喜欢、美妙等总体赞语。E3 有具体游玩活动"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G20": {
+      "status": "pending",
+      "action": "rework",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "mixed_uninterpretable",
+        "coherence_rating": 0,
+        "proposed_name": "泛评与玩梗",
+        "notes": "E1、E2 针对厂商或续作，E3 比较系列版本，E6 谈自动升级为重制版；E4、E5 只有泛赞。不适合作为一方面"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G22": {
+      "status": "pending",
+      "action": "split",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "multiple_aspects",
+        "coherence_rating": 1,
+        "proposed_name": "涵盖多方面的中长评",
+        "notes": "前3个是有具体评分长评论，涵盖多个方面；E4应该归到泛赞；E5，6应该归到多方面的综合短评"
+      },
+      "rationale": "",
+      "basis": "A"
+    },
+    "G24": {
+      "status": "pending",
+      "action": "split",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "single_aspect",
+        "coherence_rating": 1,
+        "proposed_name": "上头感受",
+        "notes": "E1 至 E3 用小时数表达上头或长期投入，E4 却在讽刺找枪耗时，E5 是网络与封禁问题，E6 只是爱恨交织的感受。与 G18 同样受时长词影响，E5 应从该组移出。"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G25": {
+      "status": "pending",
+      "action": "rework",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "mixed_uninterpretable",
+        "coherence_rating": 0,
+        "proposed_name": "无",
+        "notes": "E1 的 all time 是最高评价，E3 才是累计游玩最多；E2 说玩久后无聊，E4、E5 描述时间被占用，E6 只是总体满意。time 含义不同"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G26": {
+      "status": "pending",
+      "action": "",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "generic_evaluation",
+        "coherence_rating": 0,
+        "proposed_name": "好玩与泛赞",
+        "notes": "E1 至 E6 都在说好玩或上瘾"
+      },
+      "rationale": "",
+      "basis": "B"
+    },
+    "G28": {
+      "status": "pending",
+      "action": "split",
+      "related_groups": [],
+      "final_answer": {
+        "group_kind": "single_aspect",
+        "coherence_rating": 1,
+        "proposed_name": "版本更新",
+        "notes": "所有例子都涵盖更新这一主题，但有好评有差评。涵盖更新后故障的例子应该划分到故障修复或优化这个主题下面，其余的可以划分至版本更新"
+      },
+      "rationale": "",
+      "basis": "A"
+    }
+  },
+  "scope": "assignment",
+  "assignment_id": "A_Cai",
+  "assignment_sha256": "1f405cf2374a8c3627e8250eafd3685c764187bcdc3ddb38798fbe17d64d1406",
+  "exported_at": "2026-11-14T03:11:39.187Z",
+  "task12_topics_frozen": false
+}

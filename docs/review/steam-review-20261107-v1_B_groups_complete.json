@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "ai_assistance": {
+    "origin": "AI-assisted group naming draft requested by user; pending human review",
+    "created_at": "2026-11-11T17:31:23.260952+00:00",
+    "source_page_sha256": "b02324318e4011785eacf00621842f3a2d921dd6e5c4571902b7c9ac2b8ca75d",
+    "prefilled_group_count": 30,
+    "prefilled_fields": [
+      "proposed_name",
+      "notes"
+    ],
+    "unfilled_fields": [
+      "group_kind",
+      "coherence_rating",
+      "rater_name",
+      "acknowledged_codebook"
+    ],
+    "independent_unassisted_human_annotation": false,
+    "stage1": null
+  },
+  "package_id": "steam-review-20261107-v1",
+  "sample_sha256": "742ffb1c622ca87399b76a8e93c5daac73ef2a8b409ebe3fa5d60944f0ab0883",
+  "rater_id": "B",
+  "rater_name": "Lin",
+  "stage": "groups",
+  "acknowledged_codebook": true,
+  "exported_at": "2026-11-12T09:34:41.777Z",
+  "complete": true,
+  "answers": {
+    "G17": {
+      "group_kind": "multiple_aspects",
+      "coherence_rating": 1,
+      "proposed_name": "上手与操作困难",
+      "notes": "E1 至 E5 多次提到操作、学习门槛或战斗难度，E6 主要抱怨跑图和任务重复。E1 还谈收费和画面，E2、E4 混入运行问题"
+    },
+    "G23": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "朋友合作与联机",
+      "notes": "E1 至 E4 都把和朋友一起玩作为乐趣来源，E5 也支持联机主题，但同时抱怨延迟。E6 只谈配置，属于偏离例子；本组可与 G10 合并，保留联机体验的正负差异。"
+    },
+    "G26": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "好玩与泛赞",
+      "notes": "E1 至 E6 都在说好玩或上瘾"
+    },
+    "G07": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "更新与运行问题",
+      "notes": "E1、E4、E5 都说更新后无法游玩，E6 也明确说进不去游戏。E2 是画面模糊，E3 是抽卡与构筑抱怨，偏离运行故障。移出这两条后，其余可与 G04 的相应评论对照合并。"
+    },
+    "G13": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "值得一玩",
+      "notes": "E1 至 E6 也只是泛赞，可与 G05、G16、G26、G30 的泛评部分合并。"
+    },
+    "G19": {
+      "group_kind": "multiple_aspects",
+      "coherence_rating": 1,
+      "proposed_name": "身份与人物",
+      "notes": "E3、E4 提到性别或人物呈现，E1、E2、E6 语境不足，E5 则明确是好友加入导致卡死。E5 可归入运行故障，其余保留不确定或重新分组。"
+    },
+    "G24": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 1,
+      "proposed_name": "上头感受",
+      "notes": "E1 至 E3 用小时数表达上头或长期投入，E4 却在讽刺找枪耗时，E5 是网络与封禁问题，E6 只是爱恨交织的感受。与 G18 同样受时长词影响，E5 应从该组移出。"
+    },
+    "G06": {
+      "group_kind": "multiple_aspects",
+      "coherence_rating": 1,
+      "proposed_name": "多方面体验混杂",
+      "notes": "E2、E4 共同提到 MOD，E1、E5 谈上手体验。E3 是朋友同玩时的恐怖玩梗，E6 同时谈战斗、画面、剧情和性能。可分开提取 MOD 和上手方面，无法概括全组。"
+    },
+    "G27": {
+      "group_kind": "multiple_aspects",
+      "coherence_rating": 1,
+      "proposed_name": "开放世界综合评价",
+      "notes": "E1 至 E3 共同谈开放世界、角色、探索和战斗，也涉及价格、画面与 BUG。随机例子中，E4 谈重制改动，E5 含混，E6 是受苦玩梗，无法支持同一方面。与 G22 一样存在长评聚集，适合分别提取探索、剧情和操作等方面。"
+    },
+    "G04": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "服务器问题",
+      "notes": "E1 至 E3 都批评服务器，E6 具体提到卡顿、闪退和无法进入服务器。E5 还包含下载慢和优化问题，E4 则是夹杂政治内容的反讽。"
+    },
+    "G01": {
+      "group_kind": "multiple_aspects",
+      "coherence_rating": 1,
+      "proposed_name": "泛评、玩梗与运行问题混杂",
+      "notes": "E1、E3、E5 主要是泛赞或玩梗，E2 的具体含义不明。E4 谈画质和通关经历，E6 则详细批评联机系统。E6 可归入运行故障。"
+    },
+    "G11": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "童年回忆",
+      "notes": "E1 至 E6 都围绕童年愿望和旧时记忆。E4 虽然提到卡牌肉鸽，重点仍是童年加分；共同点是怀旧动机，没有共同的玩法方面。"
+    },
+    "G05": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "最佳游戏泛赞",
+      "notes": "E1 至 E5 都在说这是最好玩的游戏，跨语言的含义接近，但没有具体方面。E6 是对工作室的整体认可，也没有展开游戏内容。"
+    },
+    "G09": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "负面泛评",
+      "notes": "E1、E2、E4 至 E6 都是笼统负评或咒骂，没有具体原因。E3 的西班牙语是好游戏、烂玩家，实际抱怨社区；这条应归入玩家环境。"
+    },
+    "G16": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "简短泛赞",
+      "notes": "除 E3 点名杀鲨鱼外，其余例子只有好、喜欢、美妙等总体赞语。E3 有具体游玩活动"
+    },
+    "G21": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "高难度与挑战",
+      "notes": "E1 至 E3 和 E6 都明确说难，同时有人觉得有趣。E4 主要批评过场、叙事节奏和政治内容，E5 看不太懂，不属于同一难度主题。"
+    },
+    "G18": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "长期游玩",
+      "notes": "E1 至 E4 围绕已玩或打算玩的时长，E5 是学习门槛，E6 是全成就后的类型评价。可一定程度反应耐玩性"
+    },
+    "G15": {
+      "group_kind": "multiple_aspects",
+      "coherence_rating": 1,
+      "proposed_name": "剧情为主的多方面体验",
+      "notes": "E1、E3 至 E5 明确谈剧情，E2 侧重探索任务，E6 重点是美术、战斗难度和地图。剧情是部分共性；叙事相关内容可与 G29 对照，其余方面分别保留。"
+    },
+    "G29": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "剧情与叙事",
+      "notes": "E1 至 E3 明确评价剧情，正负看法不同；E4 也肯定叙事，但兼谈美术和教程。E5 只是泛赞，E6 主要谈美术和开发者立场，不作为剧情主题的支持例子。"
+    },
+    "G08": {
+      "group_kind": "multiple_aspects",
+      "coherence_rating": 0,
+      "proposed_name": "混杂组",
+      "notes": "中心例子标题玩梗、笼统的续作比较。随机例子又分为 E4 的显卡闪烁故障、E5 的重复玩法和内容深度、E6 的难度与角色引用。各自有信息，但无法组成共同方面，适合重新分组。"
+    },
+    "G25": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "褒贬混杂",
+      "notes": "E1 的 all time 是最高评价，E3 才是累计游玩最多；E2 说玩久后无聊，E4、E5 描述时间被占用，E6 只是总体满意。time 含义不同"
+    },
+    "G03": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "开放世界与自由探索",
+      "notes": "三个中心例子都明确提到开放世界，E6 的慢慢悠悠、想干什么干什么说明自由探索体验。E4 只是夸张泛赞，E5 武侠，这俩可以排除。"
+    },
+    "G22": {
+      "group_kind": "multiple_aspects",
+      "coherence_rating": 2,
+      "proposed_name": "综合长评",
+      "notes": "E1 至 E3 都逐项谈玩法、难度、剧情和视听，应该是因长评结构相近而聚在一起。E4 只有泛赞，E5 谈合作与结局，E6 谈重玩性。与 G27 相似，可进行多标签处理"
+    },
+    "G02": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "可玩性评价",
+      "notes": "E1 至 E4 都说可玩性高，却没有解释具体玩法。E5 实际批评匹配公平，E6 批评挂钩机制，可把这两条分别放回匹配和平衡方面。"
+    },
+    "G20": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "泛评与玩梗",
+      "notes": "E1、E2 针对厂商或续作，E3 比较系列版本，E6 谈自动升级为重制版；E4、E5 只有泛赞。不适合作为一方面"
+    },
+    "G30": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "简短好评",
+      "notes": "E1、E2、E4 至 E6 都是整体好玩或优秀的短评；E3 补充了对续作版本的偏好。与 G05、G16、G26 大多重复，可并入泛评类别。"
+    },
+    "G28": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "更新后故障",
+      "notes": "E1、E5 是更新后无法游玩，E3、E4、E6 关注更新内容、DLC 和免费支持，E2 只说更新慢。应拆成更新后运行故障与内容维护两部分，前者可与 G07 的相应评论合并。"
+    },
+    "G12": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 1,
+      "proposed_name": "比较式泛赞与体验评价",
+      "notes": "E1、E3、E4 是与别的游戏或版本比较的泛赞，E2 说游戏让生活更好。E5 具体谈低刺激和放松，E6 则同时谈画面、难度、活动和扩展内容。体验和多方面长评应分开看。"
+    },
+    "G14": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "低信息短句",
+      "notes": "E1 谈 MOD，E2 含义不明，E3 为辱骂，E4 至 E6 只是疲惫、上瘾或简短感受。没有共同的具体方面，适合重做分组。"
+    },
+    "G10": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "合作乐趣",
+      "notes": "三个中心例子和 E6 都把朋友同玩作为乐趣来源。E4 补充了合作打电脑和设置便利，E5 谈跑酷。与 G23 的朋友合作部分可以合并。"
+    }
+  },
+  "stage1_import_confirmed": true
+}

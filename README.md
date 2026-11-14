@@ -6,7 +6,11 @@ AIAA3111 课程项目：通过 Steam 官方接口、GitHub 开源工具和研究
 
 先读[完整目录与运行说明](docs/embedding-bge.md)、[逐项交付状态](docs/task10-handoff-status.md)或[简要索引](docs/task10-bge-m3.md)。代码/配置归入scripts与config，规范化输入归入data/derived/embedding-bge，19392条实际向量与15组聚类候选分别归入output/embedding-bge和output/clustering-bge。
 
-[交互聚类报告](output/clustering-bge/freeze_20261101-v1/report.html)下载到本地后用Edge/Chrome打开。原[task10/](task10/README.md)保留迁移索引。现有模型、向量及历史结果沿用已交付版本，最终主题仍待人工核验与裁决；Task11答卷已本地归档，未随此次整合上传。
+[交互聚类报告](output/clustering-bge/freeze_20261101-v1/report.html)下载到本地后用Edge/Chrome打开。原[task10/](task10/README.md)保留迁移索引。现有模型、向量及历史结果沿用已交付版本；Task11后续进度见下节。
+
+## Task11：双人核验与裁决（2026-11-14）
+
+A/B的300条标注和30组命名已导入[docs/review/](docs/review/README.md)，原始一致性统计保留。双方分工复核草稿已收齐，180条评论和30组已按意见及规则生成AI裁决，已进行简单人工review。打开[裁决检查页](output/topic_review/steam-review-20261107-v1/adjudicated-20261114/裁决检查.html)查看修改，[裁决说明](output/topic_review/steam-review-20261107-v1/adjudicated-20261114/裁决说明.md)列出处理结果。
 
 ## 已配置的数据来源
 
@@ -23,7 +27,17 @@ AIAA3111 课程项目：通过 Steam 官方接口、GitHub 开源工具和研究
 
 ## 环境安装（Windows PowerShell）
 
-需要 Python 3.11+ 和 Git。本机已使用 Python 3.13.1 创建 `.venv`。
+日常采集、NMF / 统计分析和 Task10 已有向量的验证 / 聚类使用项目内的 `.venv`，本机已在 Windows x64、Python 3.13.17 下验证。安装和恢复入口：
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup-local.ps1
+.\.venv\Scripts\python.exe -m pip check
+.\.venv\Scripts\python.exe -X utf8 -m unittest discover -s tests -v
+```
+
+新入口会查找 Python 3.13 并创建隔离环境，按 `requirements-local-lock.txt` 安装采集、分析及其间接依赖；已有环境会复用。也可以传入 `-PythonExecutable 'C:\path\to\python.exe'`。直接调用上述解释器即可，无需激活或修改全局 PATH。详细使用方法、Task10 检查命令及可选编码依赖见[本机独立环境说明](docs/local-environment.md)。
+
+若需要安装固定 GitHub 提交的原版采集器，继续使用原入口（需要 Git 和 `py` 启动器）：
 
 ```powershell
 ./scripts/setup.ps1
@@ -126,6 +140,6 @@ AIAA3111 课程项目：通过 Steam 官方接口、GitHub 开源工具和研究
 
 ## 主题挖掘基线
 
-B 的任务 9 已完成：中英文 TF-IDF + NMF、不同主题数及随机种子、候选比较、代表评论和双人盲核验空表。运行命令、结果入口及核验步骤见 [docs/topic-baseline.md](docs/topic-baseline.md)。任务 11 的独立人工核验、任务 12 的主题冻结及正式 RQ2/RQ4 主题关联分析尚未完成。
+B 的任务 9 已完成：中英文 TF-IDF + NMF、不同主题数及随机种子、候选比较、代表评论和双人盲核验材料。运行命令与结果入口见 [docs/topic-baseline.md](docs/topic-baseline.md)。任务 11 已收齐答卷并形成依据复核意见的 AI 裁决；任务 12 的主题冻结及正式 RQ2/RQ4 主题关联分析尚未完成。
 
 本次 setup 和实际采集结果见 [docs/setup-results.md](docs/setup-results.md)。数据的 Git 跟踪规则以 `.gitignore` 为准；新增分析产物记录输入版本、配置和文件哈希。

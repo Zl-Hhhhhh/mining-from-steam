@@ -1,0 +1,4627 @@
+{
+  "generated_at": "2026-11-14T04:27:27.227912+00:00",
+  "source_fingerprint": "38eaaa7c1eb0499b2c3c725c1783858e8138da4c27358d1ba35b84b3c4e4f567",
+  "input_hashes": {
+    "C:\\Users\\Administrator\\Study\\AIAA3111\\mining-from-steam\\output\\topic_review\\steam-review-20261107-v1\\assignments\\steam-review-20261107-v1_adjudication_A_Cai_draft (1).json": "86c4432b7d6289991d2f5f7ad9832f31ed3171c5aef95c50f70a4551d4de0c29",
+    "C:\\Users\\Administrator\\Study\\AIAA3111\\mining-from-steam\\output\\topic_review\\steam-review-20261107-v1\\assignments\\steam-review-20261107-v1_adjudication_B_Lin_draft.json": "6bd8af4202829761477b94ad227a5f8399aa5f73041f27ef9f0fcaca20690e26",
+    "C:\\Users\\Administrator\\Study\\AIAA3111\\mining-from-steam\\output\\topic_review\\steam-review-20261107-v1\\assignments\\assignment_manifest.json": "5a2684f30d364234ebe30355fa6f0715e46f14311da9711e0f74a61b4d4a2a1f",
+    "C:\\Users\\Administrator\\Study\\AIAA3111\\mining-from-steam\\output\\topic_review\\steam-review-20261107-v1\\review_results.json": "0aaf40a07aa5bda905c625dd47bb07ad5379f30a50e056a56ca6290f6fc128bb",
+    "C:\\Users\\Administrator\\Study\\AIAA3111\\mining-from-steam\\docs\\review\\steam-review-20261107-v1_A_cases_complete.json": "0a4bd71001856ae8791a5a790e943c375c81e3d57c32af53554c9e070be0f7bd",
+    "C:\\Users\\Administrator\\Study\\AIAA3111\\mining-from-steam\\docs\\review\\steam-review-20261107-v1_A_groups_complete.json": "ed76bd05504621de9ad09e5f30b05bb03a2ee2ec3eea64f393a8e6bc2cd11f7f",
+    "C:\\Users\\Administrator\\Study\\AIAA3111\\mining-from-steam\\docs\\review\\steam-review-20261107-v1_B_cases_complete.json": "7fc90a1cba99341aea9bb5d858d1891cccb9e4247453da8f37bc78893770f5ac",
+    "C:\\Users\\Administrator\\Study\\AIAA3111\\mining-from-steam\\docs\\review\\steam-review-20261107-v1_B_groups_complete.json": "7d4b3df95f9466450954141d503da7a56e8d71bfe202319597b390734e68406e",
+    "C:\\Users\\Administrator\\Study\\AIAA3111\\mining-from-steam\\docs\\review\\review_sample.json": "3b26cf445258490656ec0b79dd379e208811ebc7ba283b442c4538fd5e7d626e",
+    "C:\\Users\\Administrator\\Study\\AIAA3111\\mining-from-steam\\docs\\review\\group_review_guidance.json": "5c46970c2855eb113cf47ead88637c233ba161468d4a02557d5a14e7faaa7096",
+    "C:\\Users\\Administrator\\Study\\AIAA3111\\mining-from-steam\\docs\\review\\CODEBOOK.md": "90d74eda047415e38b7950567edc0c01a3d69a87fb66fae875c40b28b8aecdc1"
+  },
+  "generator_sha256": "ac0fc4bb25be3ec1660a96c59ef6a99b15937204ad894c4f1c691e3a801290fc",
+  "records": [
+    {
+      "id": "R001",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R002",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的判断更全面",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的判断更全面"
+    },
+    {
+      "id": "R006",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R007",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason",
+        "expression_status",
+        "expression_flags",
+        "style_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason",
+        "expression_status",
+        "expression_flags"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "meme_only",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "for sure get it just dont buy credits to get helicopters unyil you are rank V"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "price_monetization"
+        ],
+        "aspect_evidence": {
+          "price_monetization": "dont buy credits to get helicopters unyil you are rank V"
+        },
+        "reason": "",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "原文明示购买点数与直升机的付费建议，不是纯梗。"
+    },
+    {
+      "id": "R008",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的说明更加全面",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的说明更加全面"
+    },
+    {
+      "id": "R009",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "meme_only"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "gameplay": "低头拍图腾，裆下显形拍了个鬼照"
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "拍图腾、拍鬼照是可指出的游戏行为，玩笑不排除玩法方面。"
+    },
+    {
+      "id": "R010",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "有查询资料，更严谨",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "有查询资料，更严谨"
+    },
+    {
+      "id": "R011",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "good with friends"
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "明确把朋友同玩作为体验来源，统一归联机方面。"
+    },
+    {
+      "id": "R014",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "确实含有联机要素",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "确实含有联机要素"
+    },
+    {
+      "id": "R015",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "跟朋友一起爽玩"
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "明确把朋友同玩作为体验来源，统一归联机方面。"
+    },
+    {
+      "id": "R016",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "Worst co op xp i had in 30years of playing games."
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "明确批评合作体验；保留复核者识别的反讽线索。"
+    },
+    {
+      "id": "R017",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "结合语境感觉这人应该是在说反话",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "结合语境感觉这人应该是在说反话"
+    },
+    {
+      "id": "R018",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B玩CS，他有发言权",
+      "changed_answer_fields": [
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "aspect_evidence": {
+          "gameplay": "人质，歹徒"
+        }
+      },
+      "after": {
+        "aspect_evidence": {
+          "gameplay": "我没看到有人质,不是只有没持枪的歹徒嘛"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "保留人质相关玩法判断，将拼接词改为连续原文证据。"
+    },
+    {
+      "id": "R019",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的说明更加全面",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的说明更加全面"
+    },
+    {
+      "id": "R020",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R022",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R023",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R027",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "custom",
+      "submitted_rationale": "结合了一下A，B",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "结合了一下A，B"
+    },
+    {
+      "id": "R028",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "observed_language",
+        "reason",
+        "style_evidence",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "observed_language",
+        "reason"
+      ],
+      "before": {
+        "observed_language": "english",
+        "reason": "not_about_game",
+        "style_evidence": "不知道I想表达啥",
+        "notes": ""
+      },
+      "after": {
+        "observed_language": "uncertain",
+        "reason": "symbols_only",
+        "style_evidence": "仅有 l，表达含义不明。",
+        "notes": "仅有孤立字母。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "孤立字母不能确定语言或与游戏无关；按低信息符号记录。"
+    },
+    {
+      "id": "R030",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "reason",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "reason"
+      ],
+      "before": {
+        "reason": "generic_evaluation",
+        "notes": ""
+      },
+      "after": {
+        "reason": "other_no_specific_aspect",
+        "notes": "仅表达回忆。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "仅回忆过去，没有具体游戏方面；不归为与游戏无关。"
+    },
+    {
+      "id": "R032",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "可以算在重玩里面",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "可以算在重玩里面"
+    },
+    {
+      "id": "R033",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "差不多，B有说明",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "差不多，B有说明"
+    },
+    {
+      "id": "R034",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "reason",
+        "style_evidence",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "reason": "not_about_game",
+        "style_evidence": "感觉是在说服务器",
+        "notes": ""
+      },
+      "after": {
+        "aspect_presence": "uncertain",
+        "reason": "missing_context",
+        "style_evidence": "土豆发芽没，没发芽我去炸薯条了",
+        "notes": "土豆所指不明。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "备注已指出可能借土豆指服务器，语境不足时保留不确定。"
+    },
+    {
+      "id": "R035",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "这里强调的应该是BUG的问题，而不是玩法",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "这里强调的应该是BUG的问题，而不是玩法"
+    },
+    {
+      "id": "R036",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "custom",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R041",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B更全面",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B更全面"
+    },
+    {
+      "id": "R042",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R044",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R045",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R050",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "确实提到story",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "确实提到story"
+    },
+    {
+      "id": "R052",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R053",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "connection timed out"
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "performance_stability",
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "connection timed out",
+          "multiplayer_community": "Me and my friends cant play it 95% of the time"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "连接超时是运行故障，同时发生在朋友联机中。"
+    },
+    {
+      "id": "R054",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R056",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R057",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "reason",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "reason"
+      ],
+      "before": {
+        "reason": "not_about_game",
+        "notes": ""
+      },
+      "after": {
+        "reason": "other_no_specific_aspect",
+        "notes": "仅表达回忆。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "仅回忆过去，没有具体游戏方面；不归为与游戏无关。"
+    },
+    {
+      "id": "R058",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R059",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B更全面",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B更全面"
+    },
+    {
+      "id": "R061",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R063",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "other_concrete": "就是那个开船老晕了",
+          "gameplay": "开船"
+        },
+        "notes": ""
+      },
+      "after": {
+        "aspect_labels": [
+          "other_concrete"
+        ],
+        "aspect_evidence": {
+          "other_concrete": "就是那个开船老晕了"
+        },
+        "notes": "其他具体方面：眩晕与身体舒适度。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "开船导致眩晕属于身体不适，原文没有具体船只机制评价。"
+    },
+    {
+      "id": "R065",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R066",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "gameplay": "shooter game"
+        }
+      },
+      "after": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {}
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "仅称某类型游戏最好，未评价具体射击机制。"
+    },
+    {
+      "id": "R067",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更全面",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更全面"
+    },
+    {
+      "id": "R070",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "custom",
+      "submitted_rationale": "结合二者",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty",
+          "performance_stability",
+          "story_characters",
+          "audiovisual",
+          "multiplayer_community",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "story_characters": "the story in game is for most part absent",
+          "gameplay": "the entire progression system of the game",
+          "controls_difficulty": "the most horrific controls i have ever endured",
+          "performance_stability": "game is locked at 60fps and has no DLSS SR",
+          "audiovisual": "the texture quality completely deteriorates on distance",
+          "content_support": "there are so many reused enemies, assets and dungeons",
+          "multiplayer_community": "PLATFORMING"
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty",
+          "performance_stability",
+          "story_characters",
+          "audiovisual",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "gameplay": "the entire progression system of the game",
+          "controls_difficulty": "the most horrific controls i have ever endured",
+          "performance_stability": "game is locked at 60fps and has no DLSS SR",
+          "story_characters": "the story in game is for most part absent",
+          "audiovisual": "the texture quality completely deteriorates on distance",
+          "content_support": "there are so many reused enemies, assets and dungeons"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "PLATFORMING 是平台跳跃，不是多人联机；保留其他有证据的方面。"
+    },
+    {
+      "id": "R071",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R074",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R075",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R076",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "controls_difficulty",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "controls_difficulty": "use this to introduce friends to strategy games, for which it is perfect",
+          "content_support": "brave new world is kinda a must for enjoying this game tho"
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "明确说适合策略游戏入门，并评价扩展内容的必要性。"
+    },
+    {
+      "id": "R079",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R081",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "跟朋友一起玩硬生生把恐怖游戏玩成了搞笑游戏"
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "明确把朋友同玩作为体验来源，统一归联机方面。"
+    },
+    {
+      "id": "R082",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R083",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R084",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R085",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R087",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R088",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R090",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R091",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R092",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "gameplay": "就乐意玩点开放世界"
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "明确偏好开放世界形式，按探索玩法记录。"
+    },
+    {
+      "id": "R093",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R094",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R096",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R097",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "expression_flags",
+        "style_evidence"
+      ],
+      "substantive_changed_fields": [
+        "expression_flags"
+      ],
+      "before": {
+        "expression_flags": [
+          "profanity"
+        ],
+        "style_evidence": "cnm的劳资玩nm"
+      },
+      "after": {
+        "expression_flags": [
+          "profanity",
+          "directed_attack"
+        ],
+        "style_evidence": "cnm的劳资玩nm；生出你这个杂种玩意做出这种sb设计"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "除咒骂外，原文也直接攻击设计者。"
+    },
+    {
+      "id": "R099",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R100",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R101",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "notes": "其他具体方面：中文本地化/翻译。我的天"
+      },
+      "after": {
+        "notes": "其他具体方面：中文本地化/翻译。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "清除无关的感叹备注，保留本地化方面说明。"
+    },
+    {
+      "id": "R105",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R108",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "custom",
+      "submitted_rationale": "感觉谈不上玩法",
+      "changed_answer_fields": [
+        "aspect_labels"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "price_monetization",
+          "content_support"
+        ]
+      },
+      "after": {
+        "aspect_labels": [
+          "content_support",
+          "gameplay",
+          "price_monetization"
+        ]
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "除内容量和价格外，同图同敌人的反复战斗明确涉及重复玩法。"
+    },
+    {
+      "id": "R111",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R112",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "custom",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R113",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R114",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "更新后连游戏都进不去"
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "performance_stability"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "更新后连游戏都进不去"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "更新后无法进入游戏，按规则归运行故障，不因更新二字加维护。"
+    },
+    {
+      "id": "R115",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R116",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R117",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "custom",
+      "submitted_rationale": "稍微调整了一下",
+      "changed_answer_fields": [
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "aspect_evidence": {
+          "other_concrete": "",
+          "gameplay": "get scared by ghosts"
+        }
+      },
+      "after": {
+        "aspect_evidence": {
+          "gameplay": "get scared by ghosts"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "稍微调整了一下"
+    },
+    {
+      "id": "R119",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "A的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "A的更准确"
+    },
+    {
+      "id": "R122",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "gameplay": "is definitely a grind game"
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "grind 明确描述重复刷取的玩法，不是只有好玩。"
+    },
+    {
+      "id": "R123",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R124",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "expression_status",
+        "expression_flags",
+        "style_evidence"
+      ],
+      "substantive_changed_fields": [
+        "expression_status",
+        "expression_flags"
+      ],
+      "before": {
+        "expression_status": "special",
+        "expression_flags": [
+          "emoji_context"
+        ],
+        "style_evidence": "lol"
+      },
+      "after": {
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "lol 是文字缩写，没有可见 emoji；保留难度判断。"
+    },
+    {
+      "id": "R125",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R127",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R129",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "expression_status",
+        "expression_flags",
+        "style_evidence"
+      ],
+      "substantive_changed_fields": [
+        "expression_status",
+        "expression_flags"
+      ],
+      "before": {
+        "expression_status": "special",
+        "expression_flags": [
+          "suspected_irony"
+        ],
+        "style_evidence": "枪打不到人"
+      },
+      "after": {
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "枪打不到人支持操作判断，但不足以单独推定反讽。"
+    },
+    {
+      "id": "R130",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "A的更全面",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "controls_difficulty",
+          "story_characters"
+        ],
+        "aspect_evidence": {
+          "story_characters": "story!",
+          "controls_difficulty": "gameplay"
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "story_characters"
+        ],
+        "aspect_evidence": {
+          "story_characters": "story!"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "gameplay 不等于操作难度；按同类短评口径保留明确的剧情评价。"
+    },
+    {
+      "id": "R131",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R134",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R137",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason",
+        "expression_status",
+        "expression_flags",
+        "style_evidence",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason",
+        "expression_status",
+        "expression_flags"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": "",
+        "notes": ""
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "controls_difficulty"
+        ],
+        "aspect_evidence": {
+          "controls_difficulty": "The most fun you'll have playing this is at BR 1."
+        },
+        "reason": "",
+        "expression_status": "special",
+        "expression_flags": [
+          "directed_attack",
+          "meme_quote",
+          "emoji_context"
+        ],
+        "style_evidence": "攻击对象、梗/引用：“Evil snail”；emoji：“👍”",
+        "notes": "评价低战斗评级的体验。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "原文评价特定战斗评级体验，且有可见的赞踩符号。"
+    },
+    {
+      "id": "R140",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R142",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "aspect_evidence": {
+          "gameplay": "quickly became repetitive",
+          "content_support": "became repetitive"
+        }
+      },
+      "after": {
+        "aspect_evidence": {
+          "content_support": "became repetitive"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R143",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "A的判断更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "A的判断更准确"
+    },
+    {
+      "id": "R147",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R148",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R151",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R152",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "A的更准确",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "天天让我朋友掉线还封禁她们"
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "performance_stability",
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "天天让我朋友掉线",
+          "multiplayer_community": "还封禁她们"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "掉线归运行故障，封禁归联机管理，两种诉求并存。"
+    },
+    {
+      "id": "R153",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "custom",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R154",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R156",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "observed_language",
+        "reason",
+        "style_evidence",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "observed_language",
+        "reason"
+      ],
+      "before": {
+        "observed_language": "english",
+        "reason": "not_about_game",
+        "style_evidence": "不知道a想表达啥",
+        "notes": ""
+      },
+      "after": {
+        "observed_language": "uncertain",
+        "reason": "symbols_only",
+        "style_evidence": "仅有 a，表达含义不明。",
+        "notes": "仅有孤立字母。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "孤立字母不能确定语言或与游戏无关；按低信息符号记录。"
+    },
+    {
+      "id": "R157",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R158",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "other_no_specific_aspect"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "快点更新阿"
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "反复催更仍有明确的更新维护诉求。"
+    },
+    {
+      "id": "R159",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R160",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R161",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "这个A，B都无法看懂",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "这个A，B都无法看懂"
+    },
+    {
+      "id": "R162",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R163",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "custom",
+      "submitted_rationale": "这个不是很能判断，但确实没有明确方面",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "这个不是很能判断，但确实没有明确方面"
+    },
+    {
+      "id": "R164",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R165",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "A，B一样",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "更新不了"
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "performance_stability"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "更新不了"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "更新不了描述技术故障，不是更新频率或内容的评价。"
+    },
+    {
+      "id": "R169",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R170",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R171",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "reason",
+        "expression_status",
+        "expression_flags",
+        "style_evidence"
+      ],
+      "substantive_changed_fields": [
+        "reason",
+        "expression_status",
+        "expression_flags"
+      ],
+      "before": {
+        "reason": "other_no_specific_aspect",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "9178"
+      },
+      "after": {
+        "reason": "symbols_only",
+        "expression_status": "uncertain",
+        "expression_flags": [],
+        "style_evidence": "9178 的含义不明。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "仅有数字，无法核实特定梗或语言。"
+    },
+    {
+      "id": "R174",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "expression_status",
+        "style_evidence"
+      ],
+      "substantive_changed_fields": [
+        "expression_status"
+      ],
+      "before": {
+        "expression_status": "uncertain",
+        "style_evidence": "no go不知道什么意思"
+      },
+      "after": {
+        "expression_status": "ordinary",
+        "style_evidence": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "NO GO 在此表达否定推荐，没有必须保留的表达歧义。"
+    },
+    {
+      "id": "R175",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "个人认为赛博算不上玩法",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "个人认为赛博算不上玩法"
+    },
+    {
+      "id": "R177",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R179",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R180",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R182",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "A,B一样",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "gameplay",
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "gameplay": "hard mechanics, hard community.",
+          "multiplayer_community": "hard mechanics, hard community."
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "controls_difficulty",
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "controls_difficulty": "hard game, hard mechanics",
+          "multiplayer_community": "hard community"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "hard mechanics 评价机制难度，不能把难度证据记成玩法类型。"
+    },
+    {
+      "id": "R184",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R186",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "notes": ""
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "gameplay": "i still miss the colonies from earlier versions."
+        },
+        "reason": "",
+        "notes": "怀念早期版本的殖民地机制。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "怀念的是早期版本的殖民地机制，具有具体对象。"
+    },
+    {
+      "id": "R187",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "uncertain",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "unclear_aspect",
+        "notes": "parry的定义不明确"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "controls_difficulty"
+        ],
+        "aspect_evidence": {
+          "controls_difficulty": "Disable parries"
+        },
+        "reason": "",
+        "notes": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "Disable parries 明确要求取消招架，属于操作与战斗平衡。"
+    },
+    {
+      "id": "R188",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "A的更准确",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay"
+        ],
+        "aspect_evidence": {
+          "gameplay": "可玩性很高"
+        }
+      },
+      "after": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {}
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "可玩性高和有意思仍属泛赞，与同类可玩性短评统一。"
+    },
+    {
+      "id": "R189",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "custom",
+      "submitted_rationale": "结合两者",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "gameplay",
+          "story_characters",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "phenomenal replayability",
+          "story_characters": "story and story line is a 10",
+          "gameplay": "Gameplay as a whole is a 10"
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "story_characters",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "story_characters": "story and story line is a 10",
+          "content_support": "phenomenal replayability"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "笼统玩法打分未指具体机制；保留明确的剧情和重玩性。"
+    },
+    {
+      "id": "R191",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R193",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更全面",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更全面"
+    },
+    {
+      "id": "R195",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R196",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R197",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R198",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "custom",
+      "submitted_rationale": "结合两者",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty",
+          "audiovisual",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "gameplay": "the hexagon based map style",
+          "controls_difficulty": "fun and easy to learn",
+          "content_support": "The replayability is insane!",
+          "audiovisual": "Perfectly alive world, simple yet immersive grand strategy experience"
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "gameplay",
+          "controls_difficulty",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "gameplay": "the hexagon based map style",
+          "controls_difficulty": "fun and easy to learn",
+          "content_support": "The replayability is insane!"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "沉浸式策略体验并非画面或声音证据，移除视听标签。"
+    },
+    {
+      "id": "R200",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R202",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的判断更准确",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "long hours"
+        },
+        "reason": "",
+        "notes": "简短表达可长时间游玩。"
+      },
+      "after": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation",
+        "notes": "仅有总体评价和时长。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "long hours 只给时长，不能直接推断重玩性或内容量。"
+    },
+    {
+      "id": "R203",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "observed_language"
+      ],
+      "substantive_changed_fields": [
+        "observed_language"
+      ],
+      "before": {
+        "observed_language": "other"
+      },
+      "after": {
+        "observed_language": "uncertain"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "孤立数字不确定语言，与其他纯数字记录统一。"
+    },
+    {
+      "id": "R207",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R208",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_evidence",
+        "expression_status",
+        "expression_flags",
+        "style_evidence"
+      ],
+      "substantive_changed_fields": [
+        "expression_status",
+        "expression_flags"
+      ],
+      "before": {
+        "aspect_evidence": {
+          "gameplay": "gameplay is really fun"
+        },
+        "expression_status": "ordinary",
+        "expression_flags": [],
+        "style_evidence": ""
+      },
+      "after": {
+        "aspect_evidence": {
+          "gameplay": "Trying to play different builds each time is fun."
+        },
+        "expression_status": "special",
+        "expression_flags": [
+          "profanity",
+          "meme_quote"
+        ],
+        "style_evidence": "*#$%^*&#%；引用：I'd rather staple my nuts to the floor and jump"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "用构筑和反复重开的原文支撑玩法，并补回明示的咒骂符号与引用。"
+    },
+    {
+      "id": "R210",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R211",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "和朋友一起玩很好玩"
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "明确把朋友同玩作为体验来源，统一归联机方面。"
+    },
+    {
+      "id": "R212",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "B",
+      "submitted_rationale": "B的更准确",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "B的更准确"
+    },
+    {
+      "id": "R214",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "custom",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "observed_language",
+        "expression_flags",
+        "style_evidence"
+      ],
+      "substantive_changed_fields": [
+        "observed_language",
+        "expression_flags"
+      ],
+      "before": {
+        "observed_language": "mixed",
+        "expression_flags": [
+          "profanity",
+          "meme_quote",
+          "emoji_context"
+        ],
+        "style_evidence": "咒骂、梗/引用：“飞马”；bvvd\n"
+      },
+      "after": {
+        "observed_language": "schinese",
+        "expression_flags": [
+          "profanity",
+          "meme_quote"
+        ],
+        "style_evidence": "飞马；bvvd"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "字母标识不构成英文语句，飞马是文字而非 emoji。"
+    },
+    {
+      "id": "R215",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "reviewed",
+      "submitted_basis": "A",
+      "submitted_rationale": "A的更准确",
+      "changed_answer_fields": [
+        "observed_language",
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "observed_language",
+        "aspect_labels"
+      ],
+      "before": {
+        "observed_language": "mixed",
+        "aspect_labels": [
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "content_support": "VacNet更新后乱jb封"
+        }
+      },
+      "after": {
+        "observed_language": "schinese",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "VacNet更新后乱jb封，已经第三次31天黄信了"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "误封诉求归反作弊与联机管理，不因更新二字归维护。"
+    },
+    {
+      "id": "R217",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R218",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R219",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": " ",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R223",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R225",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R226",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R227",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R228",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R230",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R231",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R235",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R236",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "reason",
+        "expression_status",
+        "expression_flags",
+        "style_evidence",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "reason",
+        "expression_status",
+        "expression_flags"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "reason": "not_about_game",
+        "expression_status": "special",
+        "expression_flags": [
+          "meme_quote"
+        ],
+        "style_evidence": "妈妈",
+        "notes": ""
+      },
+      "after": {
+        "aspect_presence": "uncertain",
+        "reason": "missing_context",
+        "expression_status": "uncertain",
+        "expression_flags": [],
+        "style_evidence": "仅有妈妈，语境不明。",
+        "notes": "妈妈所指不明。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "单独妈妈缺少指代，不能确定与游戏无关或是特定梗。"
+    },
+    {
+      "id": "R237",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R240",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "audiovisual",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "audiovisual": "画面很美",
+          "content_support": "买了将近5年了，才玩了100个小时"
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "audiovisual"
+        ],
+        "aspect_evidence": {
+          "audiovisual": "画面很美"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "时长是游玩记录，未直接说明内容量或重玩性；保留画面评价。"
+    },
+    {
+      "id": "R242",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R244",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "aspect_evidence": {
+          "price_monetization": "钱多的没地方花的人一定要玩"
+        }
+      },
+      "after": {
+        "aspect_evidence": {}
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R245",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R246",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R249",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R250",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "reason",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "reason"
+      ],
+      "before": {
+        "reason": "generic_evaluation",
+        "notes": ""
+      },
+      "after": {
+        "reason": "other_no_specific_aspect",
+        "notes": "仅表达回忆。"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "仅回忆过去，没有具体游戏方面；不归为与游戏无关。"
+    },
+    {
+      "id": "R252",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R254",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R256",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R257",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "custom",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R258",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R259",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R262",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "gameplay",
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "gameplay": "对刷怪游戏并不是很感冒",
+          "multiplayer_community": "有老登带着玩很开心"
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "对刷怪和被人带着玩的态度均有明确对象。"
+    },
+    {
+      "id": "R263",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R264",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R265",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R266",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R270",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R272",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "aspect_evidence",
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "aspect_presence",
+        "aspect_labels",
+        "reason"
+      ],
+      "before": {
+        "aspect_presence": "no",
+        "aspect_labels": [],
+        "aspect_evidence": {},
+        "reason": "generic_evaluation"
+      },
+      "after": {
+        "aspect_presence": "yes",
+        "aspect_labels": [
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "very fun play with friends"
+        },
+        "reason": ""
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "明确把朋友同玩作为体验来源，统一归联机方面。"
+    },
+    {
+      "id": "R281",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "reason"
+      ],
+      "substantive_changed_fields": [
+        "reason"
+      ],
+      "before": {
+        "reason": "not_about_game"
+      },
+      "after": {
+        "reason": "other_no_specific_aspect"
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "疲惫感缺少具体原因，不足以判定与游戏无关。"
+    },
+    {
+      "id": "R282",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R284",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R285",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R286",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R287",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R288",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "multiplayer_community",
+          "content_support"
+        ],
+        "aspect_evidence": {
+          "multiplayer_community": "freezing when my friend tried to join me",
+          "content_support": "there was no mods no nothing"
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "performance_stability",
+          "multiplayer_community"
+        ],
+        "aspect_evidence": {
+          "performance_stability": "it would keep freezing",
+          "multiplayer_community": "when my friend tried to join me"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "联机卡死归性能与联机；没有安装 MOD 不是 MOD 内容评价。"
+    },
+    {
+      "id": "R289",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R291",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "aspect_labels",
+        "aspect_evidence"
+      ],
+      "substantive_changed_fields": [
+        "aspect_labels"
+      ],
+      "before": {
+        "aspect_labels": [
+          "audiovisual"
+        ],
+        "aspect_evidence": {
+          "audiovisual": "great music"
+        }
+      },
+      "after": {
+        "aspect_labels": [
+          "audiovisual",
+          "controls_difficulty"
+        ],
+        "aspect_evidence": {
+          "audiovisual": "great music",
+          "controls_difficulty": "perma stunning you"
+        }
+      },
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "除音乐外，还明确提到持续眩晕控制效果。"
+    },
+    {
+      "id": "R294",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R296",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R298",
+      "stage": "cases",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "R300",
+      "stage": "cases",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [],
+      "substantive_changed_fields": [],
+      "before": {},
+      "after": {},
+      "submitted_action": null,
+      "final_action": null,
+      "adjudication_rationale": "采纳分工复核选择；所选判断与原文、规则相容。"
+    },
+    {
+      "id": "G01",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "无",
+        "notes": "E1、E3、E5 主要是泛赞或玩梗，E2 的具体含义不明。E4 谈画质和通关经历，E6 则详细批评联机系统。E6 可归入运行故障。我认为该组应该重新划分到对应的组别里去"
+      },
+      "after": {
+        "proposed_name": "混杂短评与联机故障",
+        "notes": "E1、E3、E5 为泛评或梗；E4 有视听和游玩经历；E6 是联机故障及惩罚。没有共同方面，按原文重新分组。"
+      },
+      "submitted_action": "rework",
+      "final_action": "rework",
+      "adjudication_rationale": "E1、E3、E5 为泛评或梗；E4 有视听和游玩经历；E6 是联机故障及惩罚。没有共同方面，按原文重新分组。"
+    },
+    {
+      "id": "G02",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "group_kind",
+        "coherence_rating",
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "group_kind",
+        "coherence_rating"
+      ],
+      "before": {
+        "group_kind": "single_aspect",
+        "coherence_rating": 2,
+        "proposed_name": "可玩性评价",
+        "notes": "E1 至 E4 都说可玩性高，却没有解释具体玩法。E5 实际批评匹配公平，E6 批评挂钩机制，可把这两条分别放回匹配和平衡方面。"
+      },
+      "after": {
+        "group_kind": "generic_evaluation",
+        "coherence_rating": 0,
+        "proposed_name": "可玩性泛评",
+        "notes": "E1—E4 只有可玩性评价；E5 单列匹配公平，E6 单列挂钩机制。泛评主体不设玩法主题。"
+      },
+      "submitted_action": "",
+      "final_action": "split",
+      "adjudication_rationale": "E1—E4 只有可玩性评价；E5 单列匹配公平，E6 单列挂钩机制。泛评主体不设玩法主题。"
+    },
+    {
+      "id": "G03",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "开放世界",
+        "notes": "E1，2，6关于开放世界，E4，5不相关应该去除。"
+      },
+      "after": {
+        "proposed_name": "开放世界与自由探索",
+        "notes": "E1、E2、E6 支持开放世界，E3 仅提类型；E4、E5 不作支持例，清理后保留候选。"
+      },
+      "submitted_action": "",
+      "final_action": "retain",
+      "adjudication_rationale": "E1、E2、E6 支持开放世界，E3 仅提类型；E4、E5 不作支持例，清理后保留候选。"
+    },
+    {
+      "id": "G04",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "服务器问题",
+        "notes": "E1 至 E3 都批评服务器，E6 具体提到卡顿、闪退和无法进入服务器。E5 还包含下载慢和优化问题，E4 则是夹杂政治内容的反讽。"
+      },
+      "after": {
+        "proposed_name": "服务器与运行故障",
+        "notes": "E1—E3、E6 支持服务器问题；E5 涉及下载与优化。E4 夹杂政治内容，不用于推断具体故障。"
+      },
+      "submitted_action": "",
+      "final_action": "retain",
+      "adjudication_rationale": "E1—E3、E6 支持服务器问题；E5 涉及下载与优化。E4 夹杂政治内容，不用于推断具体故障。"
+    },
+    {
+      "id": "G05",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "notes": "E1 至 E5 都在说这是最好玩的游戏，跨语言的含义接近，但没有具体方面。E6 是对工作室的整体认可，也没有展开游戏内容。"
+      },
+      "after": {
+        "notes": "六例均为整体认可，没有共同具体方面；归泛赞参考类。"
+      },
+      "submitted_action": "",
+      "final_action": "generic",
+      "adjudication_rationale": "六例均为整体认可，没有共同具体方面；归泛赞参考类。"
+    },
+    {
+      "id": "G06",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "group_kind",
+        "coherence_rating",
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "group_kind",
+        "coherence_rating"
+      ],
+      "before": {
+        "group_kind": "generic_evaluation",
+        "coherence_rating": 0,
+        "proposed_name": "无",
+        "notes": "基本是泛赞，没有看出特别的一致性，可以归到泛赞里"
+      },
+      "after": {
+        "group_kind": "multiple_aspects",
+        "coherence_rating": 1,
+        "proposed_name": "入门、联机、MOD与综合体验",
+        "notes": "E1、E5 谈上手；E2、E3 谈朋友同玩；E2、E4 谈 MOD；E6 涉及操作、视听、剧情和性能。不能整体当泛赞，按方面拆分。"
+      },
+      "submitted_action": "",
+      "final_action": "split",
+      "adjudication_rationale": "E1、E5 谈上手；E2、E3 谈朋友同玩；E2、E4 谈 MOD；E6 涉及操作、视听、剧情和性能。不能整体当泛赞，按方面拆分。"
+    },
+    {
+      "id": "G07",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "优化",
+        "notes": "E3与优化无关，其他都和优化有关"
+      },
+      "after": {
+        "proposed_name": "无法游玩与运行故障",
+        "notes": "E1、E4—E6 支持无法游玩；E2 只明确画面模糊，E3 是卡牌构筑。保留故障核心，视听与玩法例子另分。"
+      },
+      "submitted_action": "",
+      "final_action": "retain",
+      "adjudication_rationale": "E1、E4—E6 支持无法游玩；E2 只明确画面模糊，E3 是卡牌构筑。保留故障核心，视听与玩法例子另分。"
+    },
+    {
+      "id": "G08",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "group_kind",
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "group_kind"
+      ],
+      "before": {
+        "group_kind": "generic_evaluation",
+        "proposed_name": "无",
+        "notes": "各个方面的评价都有，没有特别一致性，绝大部分可以归为泛评，和玩梗"
+      },
+      "after": {
+        "group_kind": "mixed_uninterpretable",
+        "proposed_name": "梗、泛评与具体问题混合",
+        "notes": "E2 为版本泛评，E1、E3 语境有限；E4 明确技术闪烁，E5 谈重玩和重复性，E6 涉及能力门槛。不能一律归泛评。"
+      },
+      "submitted_action": "",
+      "final_action": "rework",
+      "adjudication_rationale": "E2 为版本泛评，E1、E3 语境有限；E4 明确技术闪烁，E5 谈重玩和重复性，E6 涉及能力门槛。不能一律归泛评。"
+    },
+    {
+      "id": "G09",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "coherence_rating",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "coherence_rating"
+      ],
+      "before": {
+        "coherence_rating": 1,
+        "notes": "E1、E2、E4 至 E6 都是笼统负评或咒骂，没有具体原因。E3 的西班牙语是好游戏、烂玩家，实际抱怨社区；这条应归入玩家环境。"
+      },
+      "after": {
+        "coherence_rating": 0,
+        "notes": "E1、E2、E4—E6 为笼统负评；E3 的玩家评价单列社区。泛评主体具体方面一致性为 0。"
+      },
+      "submitted_action": "",
+      "final_action": "generic",
+      "adjudication_rationale": "E1、E2、E4—E6 为笼统负评；E3 的玩家评价单列社区。泛评主体具体方面一致性为 0。"
+    },
+    {
+      "id": "G10",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "联机乐趣",
+        "notes": "三个中心例子和 E6 都把朋友同玩作为乐趣来源。E4 补充了合作打电脑和设置便利，E5 谈跑酷。与 G23 的朋友合作部分可以合并。"
+      },
+      "after": {
+        "proposed_name": "朋友合作与联机体验",
+        "notes": "E1—E3、E6 支持朋友同玩；E4 谈合作与设置，E5 同时肯定朋友游玩和跑酷。与 G23 统一语义主题，保留多标签。"
+      },
+      "submitted_action": "",
+      "final_action": "merge",
+      "adjudication_rationale": "E1—E3、E6 支持朋友同玩；E4 谈合作与设置，E5 同时肯定朋友游玩和跑酷。与 G23 统一语义主题，保留多标签。"
+    },
+    {
+      "id": "G11",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "coherence_rating",
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "coherence_rating"
+      ],
+      "before": {
+        "coherence_rating": 2,
+        "proposed_name": "怀旧评论",
+        "notes": "E1 至 E6 都围绕童年愿望和旧时记忆。E4 虽然提到卡牌肉鸽，重点仍是童年加分；共同点是怀旧动机，没有共同的玩法方面。"
+      },
+      "after": {
+        "coherence_rating": 0,
+        "proposed_name": "怀旧与童年回忆",
+        "notes": "六例共同点是怀旧动机；E4 提卡牌肉鸽，但没有跨例共同具体玩法。保留怀旧描述，不作为具体方面主题。"
+      },
+      "submitted_action": "retain",
+      "final_action": "generic",
+      "adjudication_rationale": "六例共同点是怀旧动机；E4 提卡牌肉鸽，但没有跨例共同具体玩法。保留怀旧描述，不作为具体方面主题。"
+    },
+    {
+      "id": "G12",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "coherence_rating",
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "coherence_rating"
+      ],
+      "before": {
+        "coherence_rating": 1,
+        "proposed_name": "游戏体验",
+        "notes": "E1-6都有better，但语境不同，表达的意思也不同。E1-4可以归为泛赞，后面两个类似游戏的体验描述。"
+      },
+      "after": {
+        "coherence_rating": 0,
+        "proposed_name": "比较性泛评与综合体验",
+        "notes": "E1—E4 为比较或整体感受；E5 谈舒缓体验，E6 涉及画面、难度和 DLC。比较用词不能构成共同方面。"
+      },
+      "submitted_action": "",
+      "final_action": "rework",
+      "adjudication_rationale": "E1—E4 为比较或整体感受；E5 谈舒缓体验，E6 涉及画面、难度和 DLC。比较用词不能构成共同方面。"
+    },
+    {
+      "id": "G13",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "coherence_rating",
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "coherence_rating"
+      ],
+      "before": {
+        "coherence_rating": 2,
+        "proposed_name": "泛赞",
+        "notes": "都是泛赞"
+      },
+      "after": {
+        "coherence_rating": 0,
+        "proposed_name": "整体认可与值得玩",
+        "notes": "大部分仅说好玩或值得；E1 的 so much to do 可另记内容量。主体按泛赞处理，评分不按情绪一致性给 2。"
+      },
+      "submitted_action": "",
+      "final_action": "generic",
+      "adjudication_rationale": "大部分仅说好玩或值得；E1 的 so much to do 可另记内容量。主体按泛赞处理，评分不按情绪一致性给 2。"
+    },
+    {
+      "id": "G14",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "低信息短句",
+        "notes": "E1 谈 MOD，E2 含义不明，E3 为辱骂，E4 至 E6 只是疲惫、上瘾或简短感受。没有共同的具体方面，适合重做分组。"
+      },
+      "after": {
+        "proposed_name": "低信息短句与混杂表达",
+        "notes": "E1 提 MOD，E2、E3 语境或语言不清，E4—E6 是零散感受；没有可确认的共同具体方面。"
+      },
+      "submitted_action": "rework",
+      "final_action": "rework",
+      "adjudication_rationale": "E1 提 MOD，E2、E3 语境或语言不清，E4—E6 是零散感受；没有可确认的共同具体方面。"
+    },
+    {
+      "id": "G15",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "各方面的综合好评",
+        "notes": "基本好评且涵盖了剧情，玩法，美术等等，如E5，可以划分为多方面满意的好评"
+      },
+      "after": {
+        "proposed_name": "多方面综合好评",
+        "notes": "剧情、操作、玩法、视听等多方面并存；按方面保留多标签，不把共同好评当成单一研究主题。"
+      },
+      "submitted_action": "",
+      "final_action": "split",
+      "adjudication_rationale": "剧情、操作、玩法、视听等多方面并存；按方面保留多标签，不把共同好评当成单一研究主题。"
+    },
+    {
+      "id": "G16",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "notes": "除 E3 点名杀鲨鱼外，其余例子只有好、喜欢、美妙等总体赞语。E3 有具体游玩活动"
+      },
+      "after": {
+        "notes": "除 E3 明确杀鲨鱼的游戏行为外，其余是泛赞；E3 单列玩法，主体归泛赞。"
+      },
+      "submitted_action": "",
+      "final_action": "generic",
+      "adjudication_rationale": "除 E3 明确杀鲨鱼的游戏行为外，其余是泛赞；E3 单列玩法，主体归泛赞。"
+    },
+    {
+      "id": "G17",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "上手与操作困难",
+        "notes": "E1 至 E5 多次提到操作、学习门槛或战斗难度，E6 主要抱怨跑图和任务重复。E1 还谈收费和画面，E2、E4 混入运行问题"
+      },
+      "after": {
+        "proposed_name": "操作、难度与上手门槛",
+        "notes": "E1—E5 有操作、学习或战斗难度；E2、E4 另含性能问题，E6 是跑图和任务重复。难度部分与 G21 对齐，其余按方面拆分。"
+      },
+      "submitted_action": "",
+      "final_action": "split",
+      "adjudication_rationale": "E1—E5 有操作、学习或战斗难度；E2、E4 另含性能问题，E6 是跑图和任务重复。难度部分与 G21 对齐，其余按方面拆分。"
+    },
+    {
+      "id": "G18",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "group_kind",
+        "coherence_rating",
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "group_kind",
+        "coherence_rating"
+      ],
+      "before": {
+        "group_kind": "single_aspect",
+        "coherence_rating": 2,
+        "proposed_name": "长期游玩",
+        "notes": "E1 至 E4 围绕已玩或打算玩的时长，E5 是学习门槛，E6 是全成就后的类型评价。可一定程度反应耐玩性"
+      },
+      "after": {
+        "group_kind": "mixed_uninterpretable",
+        "coherence_rating": 0,
+        "proposed_name": "游玩时长与泛评",
+        "notes": "E1—E4 主要为时长与泛评，不直接证明内容量或重玩性；E5 是学习门槛，E6 是全成就后的类型评价。按实际方面重新分组。"
+      },
+      "submitted_action": "",
+      "final_action": "rework",
+      "adjudication_rationale": "E1—E4 主要为时长与泛评，不直接证明内容量或重玩性；E5 是学习门槛，E6 是全成就后的类型评价。按实际方面重新分组。"
+    },
+    {
+      "id": "G19",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "无",
+        "notes": "各式各样的泛评，不太能单独归为一类，部分可以考虑分到泛赞等类别"
+      },
+      "after": {
+        "proposed_name": "低信息感受与联机故障",
+        "notes": "前几例多为泛评或语境不明；E5 明确联机卡死，应归故障；E6 为生活感受。不能整体当成一个主题。"
+      },
+      "submitted_action": "",
+      "final_action": "rework",
+      "adjudication_rationale": "前几例多为泛评或语境不明；E5 明确联机卡死，应归故障；E6 为生活感受。不能整体当成一个主题。"
+    },
+    {
+      "id": "G20",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "泛评与玩梗",
+        "notes": "E1、E2 针对厂商或续作，E3 比较系列版本，E6 谈自动升级为重制版；E4、E5 只有泛赞。不适合作为一方面"
+      },
+      "after": {
+        "proposed_name": "厂商、版本与泛评混合",
+        "notes": "E1、E2 针对厂商或续作，E3 比较版本，E6 谈重制升级；E4、E5 是泛赞。按各自含义重新分组。"
+      },
+      "submitted_action": "rework",
+      "final_action": "rework",
+      "adjudication_rationale": "E1、E2 针对厂商或续作，E3 比较版本，E6 谈重制升级；E4、E5 是泛赞。按各自含义重新分组。"
+    },
+    {
+      "id": "G21",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "高难度",
+        "notes": "E1 至 E3 和 E6 都明确说难，同时有人觉得有趣。E4 主要批评过场、叙事节奏和政治内容，E5 看不太懂，不属于同一难度主题。"
+      },
+      "after": {
+        "proposed_name": "战斗与通关难度",
+        "notes": "E1—E3、E6 明确评价难度；E4 叙事和过场、E5 语境不明，不作支持例。保留候选并对齐 G17 的难度部分。"
+      },
+      "submitted_action": "",
+      "final_action": "retain",
+      "adjudication_rationale": "E1—E3、E6 明确评价难度；E4 叙事和过场、E5 语境不明，不作支持例。保留候选并对齐 G17 的难度部分。"
+    },
+    {
+      "id": "G22",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "涵盖多方面的中长评",
+        "notes": "前3个是有具体评分长评论，涵盖多个方面；E4应该归到泛赞；E5，6应该归到多方面的综合短评"
+      },
+      "after": {
+        "proposed_name": "多方面综合评论",
+        "notes": "E1—E3 是多方面长评，但并非全有评分模板；E4 是泛评，E5 有剧情和合作体验，E6 有重玩性。按方面拆分，篇幅仅作文本特征。"
+      },
+      "submitted_action": "split",
+      "final_action": "split",
+      "adjudication_rationale": "E1—E3 是多方面长评，但并非全有评分模板；E4 是泛评，E5 有剧情和合作体验，E6 有重玩性。按方面拆分，篇幅仅作文本特征。"
+    },
+    {
+      "id": "G23",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "朋友合作与联机",
+        "notes": "E1 至 E4 都把和朋友一起玩作为乐趣来源，E5 也支持联机主题，但同时抱怨延迟。E6 只谈配置，属于偏离例子；本组可与 G10 合并，保留联机体验的正负差异。"
+      },
+      "after": {
+        "proposed_name": "朋友合作与联机体验",
+        "notes": "E1—E4 支持朋友合作，E5 含联机乐趣和延迟，E6 仅配置。与 G10 统一语义主题，延迟同时记性能。"
+      },
+      "submitted_action": "",
+      "final_action": "merge",
+      "adjudication_rationale": "E1—E4 支持朋友合作，E5 含联机乐趣和延迟，E6 仅配置。与 G10 统一语义主题，延迟同时记性能。"
+    },
+    {
+      "id": "G24",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "group_kind",
+        "coherence_rating",
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "group_kind",
+        "coherence_rating"
+      ],
+      "before": {
+        "group_kind": "single_aspect",
+        "coherence_rating": 1,
+        "proposed_name": "上头感受",
+        "notes": "E1 至 E3 用小时数表达上头或长期投入，E4 却在讽刺找枪耗时，E5 是网络与封禁问题，E6 只是爱恨交织的感受。与 G18 同样受时长词影响，E5 应从该组移出。"
+      },
+      "after": {
+        "group_kind": "mixed_uninterpretable",
+        "coherence_rating": 0,
+        "proposed_name": "上头、时长与零散问题",
+        "notes": "E1—E3 是上头或时长，不直接证明耐玩；E4 谈找枪耗时，E5 是网络及封禁，E6 是总体感受。按具体诉求拆分。"
+      },
+      "submitted_action": "split",
+      "final_action": "split",
+      "adjudication_rationale": "E1—E3 是上头或时长，不直接证明耐玩；E4 谈找枪耗时，E5 是网络及封禁，E6 是总体感受。按具体诉求拆分。"
+    },
+    {
+      "id": "G25",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "无",
+        "notes": "E1 的 all time 是最高评价，E3 才是累计游玩最多；E2 说玩久后无聊，E4、E5 描述时间被占用，E6 只是总体满意。time 含义不同"
+      },
+      "after": {
+        "proposed_name": "time 多义词混合",
+        "notes": "E1 的 all time 是最高评价，E3 是累计时长，E2 是玩久后无聊，E4—E6 为零散体验。不能因 time 共词合成主题。"
+      },
+      "submitted_action": "rework",
+      "final_action": "rework",
+      "adjudication_rationale": "E1 的 all time 是最高评价，E3 是累计时长，E2 是玩久后无聊，E4—E6 为零散体验。不能因 time 共词合成主题。"
+    },
+    {
+      "id": "G26",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "好玩与泛赞",
+        "notes": "E1 至 E6 都在说好玩或上瘾"
+      },
+      "after": {
+        "proposed_name": "好玩与上瘾泛赞",
+        "notes": "六例都未展开具体玩法；上瘾不自动等于重玩性，统一归泛赞。"
+      },
+      "submitted_action": "",
+      "final_action": "generic",
+      "adjudication_rationale": "六例都未展开具体玩法；上瘾不自动等于重玩性，统一归泛赞。"
+    },
+    {
+      "id": "G27",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "group_kind",
+        "coherence_rating",
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "group_kind",
+        "coherence_rating"
+      ],
+      "before": {
+        "group_kind": "mixed_uninterpretable",
+        "coherence_rating": 0,
+        "proposed_name": "无",
+        "notes": "前面两个是多方面综合的打分，属于长评论，后面的基本是泛评和玩梗"
+      },
+      "after": {
+        "group_kind": "multiple_aspects",
+        "coherence_rating": 1,
+        "proposed_name": "多方面长评与表达混合",
+        "notes": "E1、E2 为评分长评；E3 也是有具体证据的综合长评，E4 谈画面和操作；E5、E6 语境有限。具体方面分别归类，不能将后三至四例统称泛评。"
+      },
+      "submitted_action": "",
+      "final_action": "split",
+      "adjudication_rationale": "E1、E2 为评分长评；E3 也是有具体证据的综合长评，E4 谈画面和操作；E5、E6 语境有限。具体方面分别归类，不能将后三至四例统称泛评。"
+    },
+    {
+      "id": "G28",
+      "stage": "groups",
+      "owner": "A_Cai",
+      "submitted_status": "pending",
+      "submitted_basis": "A",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "group_kind",
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [
+        "group_kind"
+      ],
+      "before": {
+        "group_kind": "single_aspect",
+        "proposed_name": "版本更新",
+        "notes": "所有例子都涵盖更新这一主题，但有好评有差评。涵盖更新后故障的例子应该划分到故障修复或优化这个主题下面，其余的可以划分至版本更新"
+      },
+      "after": {
+        "group_kind": "multiple_aspects",
+        "proposed_name": "更新维护与更新后故障",
+        "notes": "E1、E5 归更新后运行故障；E3、E4、E6 归内容更新或支持；E2 的慢可能指下载或发布频率，保留歧义，不强分。"
+      },
+      "submitted_action": "split",
+      "final_action": "split",
+      "adjudication_rationale": "E1、E5 归更新后运行故障；E3、E4、E6 归内容更新或支持；E2 的慢可能指下载或发布频率，保留歧义，不强分。"
+    },
+    {
+      "id": "G29",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "notes": "E1 至 E3 明确评价剧情，正负看法不同；E4 也肯定叙事，但兼谈美术和教程。E5 只是泛赞，E6 主要谈美术和开发者立场，不作为剧情主题的支持例子。"
+      },
+      "after": {
+        "notes": "E1—E3、E4 支持剧情，正负评价可共存；E5 为泛赞，E6 自称未充分了解剧情，不作剧情支持例。"
+      },
+      "submitted_action": "",
+      "final_action": "retain",
+      "adjudication_rationale": "E1—E3、E4 支持剧情，正负评价可共存；E5 为泛赞，E6 自称未充分了解剧情，不作剧情支持例。"
+    },
+    {
+      "id": "G30",
+      "stage": "groups",
+      "owner": "B_Lin",
+      "submitted_status": "pending",
+      "submitted_basis": "B",
+      "submitted_rationale": "",
+      "changed_answer_fields": [
+        "proposed_name",
+        "notes"
+      ],
+      "substantive_changed_fields": [],
+      "before": {
+        "proposed_name": "简短好评",
+        "notes": "E1、E2、E4 至 E6 都是整体好玩或优秀的短评；E3 补充了对续作版本的偏好。与 G05、G16、G26 大多重复，可并入泛评类别。"
+      },
+      "after": {
+        "proposed_name": "简短整体好评",
+        "notes": "E1、E2、E4—E6 是泛赞，E3 表达版本偏好；统一泛评类别，不形成具体方面主题。"
+      },
+      "submitted_action": "",
+      "final_action": "generic",
+      "adjudication_rationale": "E1、E2、E4—E6 是泛赞，E3 表达版本偏好；统一泛评类别，不形成具体方面主题。"
+    }
+  ]
+}

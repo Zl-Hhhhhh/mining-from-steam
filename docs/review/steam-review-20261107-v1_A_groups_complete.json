@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "package_id": "steam-review-20261107-v1",
+  "sample_sha256": "742ffb1c622ca87399b76a8e93c5daac73ef2a8b409ebe3fa5d60944f0ab0883",
+  "rater_id": "A",
+  "rater_name": "Cai_Xunzhi",
+  "stage": "groups",
+  "acknowledged_codebook": true,
+  "exported_at": "2026-11-08T07:08:24.992Z",
+  "complete": true,
+  "answers": {
+    "G17": {
+      "group_kind": "multiple_aspects",
+      "coherence_rating": 1,
+      "proposed_name": "多方面评价",
+      "notes": "E1是典型代表，对各个方面都有做评价。E16为混杂的例子，评价覆盖面广，但过于简单。整体聚类效果还可以，可以排除一些过于简短的"
+    },
+    "G26": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 2,
+      "proposed_name": "泛赞",
+      "notes": "几个例子全是好玩的简评，聚类质量高"
+    },
+    "G12": {
+      "group_kind": "mixed_uninterpretable",
+      "coherence_rating": 1,
+      "proposed_name": "游戏体验",
+      "notes": "E1-6都有better，但语境不同，表达的意思也不同。E1-4可以归为泛赞，后面两个类似游戏的体验描述。"
+    },
+    "G28": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "版本更新",
+      "notes": "所有例子都涵盖更新这一主题，但有好评有差评。"
+    },
+    "G25": {
+      "group_kind": "mixed_uninterpretable",
+      "coherence_rating": 0,
+      "proposed_name": "无",
+      "notes": "都有time这个词，但基本是一些表达上的习惯，和time本身关系不大，不应划为一个类"
+    },
+    "G15": {
+      "group_kind": "multiple_aspects",
+      "coherence_rating": 1,
+      "proposed_name": "各方面的综合好评",
+      "notes": "基本好评且涵盖了剧情，玩法，美术等等，如E5，可以划分为多方面满意的好评"
+    },
+    "G29": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 1,
+      "proposed_name": "good story",
+      "notes": "基本都讲到了剧情好，除了E5."
+    },
+    "G20": {
+      "group_kind": "mixed_uninterpretable",
+      "coherence_rating": 0,
+      "proposed_name": "无",
+      "notes": "没看出来一致性。"
+    },
+    "G03": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 1,
+      "proposed_name": "开放世界",
+      "notes": "E1，2，6关于开放世界，E4，5不相关应该去除。"
+    },
+    "G22": {
+      "group_kind": "multiple_aspects",
+      "coherence_rating": 1,
+      "proposed_name": "涵盖多方面评分的长评",
+      "notes": "前3个是有具体评分长评论，涵盖多个方面；E4应该归到泛赞；E5，6应该归到多方面的综合短评"
+    },
+    "G24": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 1,
+      "proposed_name": "游玩时长",
+      "notes": "前面几个和游戏时长有关，后面3个没关系应该删去"
+    },
+    "G05": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 1,
+      "proposed_name": "最好玩",
+      "notes": "除了最后一个都指玩过最好的游戏。"
+    },
+    "G18": {
+      "group_kind": "mixed_uninterpretable",
+      "coherence_rating": 1,
+      "proposed_name": "游玩时长",
+      "notes": "E1，2，3，5关于游玩时长，其余几个基本就是泛赞"
+    },
+    "G10": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "联机游玩",
+      "notes": "所有的评论都提到了和朋友一起玩"
+    },
+    "G01": {
+      "group_kind": "mixed_uninterpretable",
+      "coherence_rating": 0,
+      "proposed_name": "无",
+      "notes": "没什么一致性，无法归类"
+    },
+    "G06": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "无",
+      "notes": "基本是泛赞，没有看出特别的一致性，可以归到泛赞里"
+    },
+    "G08": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 0,
+      "proposed_name": "无",
+      "notes": "各个方面的评价都有，没有特别一致性，绝大部分可以归为泛评，和玩梗"
+    },
+    "G04": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "服务器问题",
+      "notes": "所有评论都是指向服务器"
+    },
+    "G11": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "童年经典",
+      "notes": "所有例子都指向童年经典或梦想"
+    },
+    "G13": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 2,
+      "proposed_name": "泛赞",
+      "notes": "都是泛赞"
+    },
+    "G19": {
+      "group_kind": "mixed_uninterpretable",
+      "coherence_rating": 0,
+      "proposed_name": "无",
+      "notes": "各式各样的泛评，不太能单独归为一类，部分可以考虑分到泛赞等类别"
+    },
+    "G30": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "泛赞",
+      "notes": "都是泛赞"
+    },
+    "G14": {
+      "group_kind": "mixed_uninterpretable",
+      "coherence_rating": 0,
+      "proposed_name": "无",
+      "notes": "大部分是泛评，没有什么一致性"
+    },
+    "G07": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 1,
+      "proposed_name": "优化",
+      "notes": "E3与优化无关，其他都和优化有关"
+    },
+    "G02": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "可玩性",
+      "notes": "都提到了可玩性，但好评和差评都有"
+    },
+    "G23": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 1,
+      "proposed_name": "联机游玩",
+      "notes": "除了E6，其他都提到和朋友一起玩。"
+    },
+    "G16": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 2,
+      "proposed_name": "泛赞",
+      "notes": "都是泛赞"
+    },
+    "G21": {
+      "group_kind": "single_aspect",
+      "coherence_rating": 1,
+      "proposed_name": "难度",
+      "notes": "E1，2，3，6都提到hard，E4，5没有提到，可以剔除一些不相关的，然后归类为难度。"
+    },
+    "G09": {
+      "group_kind": "generic_evaluation",
+      "coherence_rating": 2,
+      "proposed_name": "泛骂",
+      "notes": "都是泛骂"
+    },
+    "G27": {
+      "group_kind": "mixed_uninterpretable",
+      "coherence_rating": 0,
+      "proposed_name": "无",
+      "notes": "前面两个是多方面综合的打分，属于长评论，后面的基本是泛评和玩梗"
+    }
+  },
+  "stage1_import_confirmed": true
+}

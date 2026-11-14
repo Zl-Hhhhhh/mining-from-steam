@@ -20,3 +20,15 @@
 /output/embedding-bge/**/*.npy -diff
 /output/clustering-bge/**/*.npy -diff
 /output/clustering-bge/**/*.npz -diff
+
+# Task11 submissions and comparison provenance retain their original bytes.
+/docs/review/*.json -text
+/docs/review/CODEBOOK.md -text
+/scripts/review_topics_json.py -text
+/scripts/review_topics_json.html -text
+/tests/test_review_topics_json.py -text
+/scripts/split_review_adjudication.py -text
+/tests/test_split_review_adjudication.py -text
+/output/topic_review/** -text
+/scripts/adjudicate_review_round1.py -text
+/tests/test_adjudicate_review_round1.py -text
