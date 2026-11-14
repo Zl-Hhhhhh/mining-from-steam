@@ -1,0 +1,4504 @@
+{
+  "config": {
+    "version": "unsupervised-content-core-nmf-v1",
+    "output": "output/topic_selection/task12-20261114/nmf_rework",
+    "gate_config": "config/topic_rework_residual.json",
+    "tokenizer_config": "config/nmf_baseline_aspect.json",
+    "inputs": "data/derived/embedding-bge/freeze_20261101-v1/model_reviews.jsonl",
+    "metadata": "data/metadata/freeze_20261101/game_meta.csv",
+    "languages": [
+      "english",
+      "schinese"
+    ],
+    "topic_counts": [
+      6,
+      8
+    ],
+    "seeds": [
+      17,
+      42
+    ],
+    "resample_seeds": [
+      2026111401,
+      2026111402,
+      2026111403,
+      2026111404,
+      2026111405
+    ],
+    "sample_fraction": 0.8,
+    "min_df": 3,
+    "max_df": 0.9,
+    "max_features": 8000,
+    "max_iter": 600,
+    "tol": 0.0001,
+    "cpu_threads": 2,
+    "note": "Annotations and recommendation labels are excluded from training. Topic IDs remain language-specific until semantic alignment is confirmed."
+  },
+  "core_rows": 2916,
+  "profiles": [
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "language": "english",
+      "topic": 0,
+      "count": 1134,
+      "top_terms": [
+        "not",
+        "time",
+        "hours",
+        "worth",
+        "graphics",
+        "did",
+        "no",
+        "gameplay",
+        "easy",
+        "open",
+        "better",
+        "does"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "language": "english",
+      "topic": 1,
+      "count": 44,
+      "top_terms": [
+        "friend",
+        "makes",
+        "not friend",
+        "new",
+        "got",
+        "try",
+        "mad",
+        "grew",
+        "blast",
+        "died",
+        "better",
+        "sandbox"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "language": "english",
+      "topic": 2,
+      "count": 121,
+      "top_terms": [
+        "story",
+        "gameplay",
+        "characters",
+        "gameplay story",
+        "story gameplay",
+        "mechanics",
+        "options",
+        "different",
+        "story not",
+        "story line",
+        "line",
+        "lots"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "language": "english",
+      "topic": 3,
+      "count": 88,
+      "top_terms": [
+        "hard",
+        "easy",
+        "super",
+        "mode",
+        "worth",
+        "yeah",
+        "rewarding",
+        "hours",
+        "satisfying",
+        "stop",
+        "learn",
+        "makes"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "language": "english",
+      "topic": 4,
+      "count": 120,
+      "top_terms": [
+        "friends",
+        "better friends",
+        "better",
+        "solid",
+        "horror",
+        "none",
+        "ur",
+        "friends not",
+        "gets",
+        "enjoying",
+        "coop friends",
+        "especially friends"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "language": "english",
+      "topic": 5,
+      "count": 73,
+      "top_terms": [
+        "mods",
+        "better",
+        "kinda",
+        "make",
+        "base",
+        "got",
+        "without",
+        "need",
+        "gameplay",
+        "right mods",
+        "super",
+        "try"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "language": "english",
+      "topic": 0,
+      "count": 1138,
+      "top_terms": [
+        "mods",
+        "not",
+        "time",
+        "hours",
+        "worth",
+        "better",
+        "gameplay",
+        "no",
+        "graphics",
+        "did",
+        "got",
+        "make"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "language": "english",
+      "topic": 1,
+      "count": 85,
+      "top_terms": [
+        "hard",
+        "worth",
+        "super",
+        "hours",
+        "mode",
+        "rewarding",
+        "yeah",
+        "satisfying",
+        "stop",
+        "makes",
+        "learn",
+        "creativity"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "language": "english",
+      "topic": 2,
+      "count": 51,
+      "top_terms": [
+        "easy",
+        "hours",
+        "easy chill",
+        "chill",
+        "pick",
+        "bots",
+        "understand",
+        "loved",
+        "cozy",
+        "mad",
+        "modded",
+        "distract"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "language": "english",
+      "topic": 3,
+      "count": 121,
+      "top_terms": [
+        "friends",
+        "not",
+        "better friends",
+        "better",
+        "solid",
+        "horror",
+        "none",
+        "friends not",
+        "ur",
+        "gets",
+        "hours",
+        "enjoying"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "language": "english",
+      "topic": 4,
+      "count": 45,
+      "top_terms": [
+        "friend",
+        "makes",
+        "not friend",
+        "new",
+        "not",
+        "got",
+        "try",
+        "mad",
+        "grew",
+        "blast",
+        "died",
+        "sandbox"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "language": "english",
+      "topic": 5,
+      "count": 140,
+      "top_terms": [
+        "story",
+        "gameplay",
+        "characters",
+        "gameplay story",
+        "story gameplay",
+        "mechanics",
+        "options",
+        "different",
+        "story not",
+        "story line",
+        "line",
+        "lots"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "language": "english",
+      "topic": 0,
+      "count": 983,
+      "top_terms": [
+        "not",
+        "time",
+        "hours",
+        "worth",
+        "graphics",
+        "did",
+        "no",
+        "gameplay",
+        "does",
+        "did not",
+        "dlc",
+        "way"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "language": "english",
+      "topic": 1,
+      "count": 44,
+      "top_terms": [
+        "friend",
+        "makes",
+        "not friend",
+        "new",
+        "got",
+        "try",
+        "mad",
+        "better",
+        "grew",
+        "blast",
+        "died",
+        "sandbox"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "language": "english",
+      "topic": 2,
+      "count": 125,
+      "top_terms": [
+        "story",
+        "gameplay",
+        "characters",
+        "gameplay story",
+        "story gameplay",
+        "mechanics",
+        "options",
+        "different",
+        "story not",
+        "story line",
+        "line",
+        "lots"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "language": "english",
+      "topic": 3,
+      "count": 83,
+      "top_terms": [
+        "hard",
+        "super",
+        "worth",
+        "mode",
+        "rewarding",
+        "yeah",
+        "satisfying",
+        "hours",
+        "stop",
+        "makes",
+        "learn",
+        "guy"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "language": "english",
+      "topic": 4,
+      "count": 118,
+      "top_terms": [
+        "friends",
+        "better friends",
+        "better",
+        "solid",
+        "horror",
+        "none",
+        "ur",
+        "friends not",
+        "gets",
+        "enjoying",
+        "coop friends",
+        "especially friends"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "language": "english",
+      "topic": 5,
+      "count": 73,
+      "top_terms": [
+        "mods",
+        "better",
+        "kinda",
+        "make",
+        "base",
+        "got",
+        "without",
+        "need",
+        "gameplay",
+        "right mods",
+        "super",
+        "try"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "language": "english",
+      "topic": 6,
+      "count": 50,
+      "top_terms": [
+        "easy",
+        "hours",
+        "easy chill",
+        "pick",
+        "chill",
+        "bots",
+        "understand",
+        "loved",
+        "cozy",
+        "mad",
+        "modded",
+        "distract"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "language": "english",
+      "topic": 7,
+      "count": 104,
+      "top_terms": [
+        "open",
+        "combat",
+        "better",
+        "mechanics",
+        "immersive",
+        "building",
+        "movement",
+        "satisfying",
+        "time",
+        "pokemon",
+        "excellent",
+        "combat mechanics"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "language": "english",
+      "topic": 0,
+      "count": 1056,
+      "top_terms": [
+        "not",
+        "time",
+        "hours",
+        "worth",
+        "graphics",
+        "did",
+        "no",
+        "open",
+        "gameplay",
+        "better",
+        "does",
+        "dlc"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "language": "english",
+      "topic": 1,
+      "count": 83,
+      "top_terms": [
+        "hard",
+        "super",
+        "worth",
+        "mode",
+        "rewarding",
+        "yeah",
+        "satisfying",
+        "hours",
+        "stop",
+        "learn",
+        "makes",
+        "guy"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "language": "english",
+      "topic": 2,
+      "count": 50,
+      "top_terms": [
+        "easy",
+        "hours",
+        "easy chill",
+        "pick",
+        "chill",
+        "bots",
+        "understand",
+        "loved",
+        "cozy",
+        "mad",
+        "modded",
+        "distract"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "language": "english",
+      "topic": 3,
+      "count": 118,
+      "top_terms": [
+        "friends",
+        "better friends",
+        "better",
+        "solid",
+        "horror",
+        "none",
+        "ur",
+        "friends not",
+        "gets",
+        "enjoying",
+        "coop friends",
+        "especially friends"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "language": "english",
+      "topic": 4,
+      "count": 33,
+      "top_terms": [
+        "cheaters",
+        "lot",
+        "fix",
+        "alot",
+        "pay",
+        "miserable",
+        "dev",
+        "no",
+        "want",
+        "reporting",
+        "devs",
+        "rank"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "language": "english",
+      "topic": 5,
+      "count": 123,
+      "top_terms": [
+        "story",
+        "gameplay",
+        "characters",
+        "gameplay story",
+        "story gameplay",
+        "mechanics",
+        "options",
+        "different",
+        "story not",
+        "story line",
+        "line",
+        "lots"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "language": "english",
+      "topic": 6,
+      "count": 44,
+      "top_terms": [
+        "friend",
+        "makes",
+        "not friend",
+        "new",
+        "got",
+        "try",
+        "mad",
+        "grew",
+        "blast",
+        "died",
+        "better",
+        "sandbox"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "language": "english",
+      "topic": 7,
+      "count": 73,
+      "top_terms": [
+        "mods",
+        "better",
+        "kinda",
+        "make",
+        "base",
+        "got",
+        "without",
+        "need",
+        "gameplay",
+        "right mods",
+        "super",
+        "try"
+      ],
+      "zero_vector_rows": 19,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "language": "schinese",
+      "topic": 0,
+      "count": 930,
+      "top_terms": [
+        "更新",
+        "剧情",
+        "不",
+        "没",
+        "内容",
+        "没有",
+        "还有",
+        "bug",
+        "一直",
+        "体验",
+        "优化",
+        "现在"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "language": "schinese",
+      "topic": 1,
+      "count": 38,
+      "top_terms": [
+        "战斗",
+        "纯粹 战斗",
+        "战斗 系统",
+        "系统",
+        "纯粹",
+        "除了",
+        "一场",
+        "流畅",
+        "不要",
+        "画风",
+        "进化",
+        "放弃"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "language": "schinese",
+      "topic": 2,
+      "count": 102,
+      "top_terms": [
+        "服务器",
+        "土豆",
+        "优化",
+        "土豆 服务器",
+        "进不去",
+        "ea",
+        "一样",
+        "一样 服务器",
+        "服务器 土豆",
+        "一半",
+        "不能",
+        "官方"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "language": "schinese",
+      "topic": 3,
+      "count": 52,
+      "top_terms": [
+        "开放 世界",
+        "开放",
+        "世界",
+        "沉浸",
+        "最长",
+        "最高",
+        "其实",
+        "生存",
+        "真正",
+        "这种",
+        "完美",
+        "令人"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "language": "schinese",
+      "topic": 4,
+      "count": 56,
+      "top_terms": [
+        "联机",
+        "朋友 联机",
+        "一样",
+        "功能",
+        "适合 联机",
+        "舒服",
+        "模式",
+        "超时",
+        "无法",
+        "适合",
+        "依托",
+        "麻烦"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "language": "schinese",
+      "topic": 5,
+      "count": 95,
+      "top_terms": [
+        "朋友",
+        "一起",
+        "朋友 一起",
+        "有意思",
+        "玩完",
+        "快乐",
+        "朋友 联机",
+        "配置",
+        "真是",
+        "单人",
+        "所有",
+        "建议"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "language": "schinese",
+      "topic": 0,
+      "count": 875,
+      "top_terms": [
+        "剧情",
+        "不",
+        "没",
+        "没有",
+        "体验",
+        "战斗",
+        "优化",
+        "bug",
+        "内容",
+        "一直",
+        "还有",
+        "小时"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "language": "schinese",
+      "topic": 1,
+      "count": 51,
+      "top_terms": [
+        "开放 世界",
+        "开放",
+        "世界",
+        "沉浸",
+        "最长",
+        "最高",
+        "其实",
+        "生存",
+        "真正",
+        "这种",
+        "完美",
+        "令人"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "language": "schinese",
+      "topic": 2,
+      "count": 92,
+      "top_terms": [
+        "服务器",
+        "土豆",
+        "优化",
+        "土豆 服务器",
+        "进不去",
+        "ea",
+        "一样",
+        "一样 服务器",
+        "服务器 土豆",
+        "一半",
+        "不能",
+        "官方"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "language": "schinese",
+      "topic": 3,
+      "count": 54,
+      "top_terms": [
+        "联机",
+        "朋友 联机",
+        "功能",
+        "一样",
+        "适合 联机",
+        "舒服",
+        "模式",
+        "超时",
+        "无法",
+        "适合",
+        "时候",
+        "依托"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "language": "schinese",
+      "topic": 4,
+      "count": 97,
+      "top_terms": [
+        "朋友",
+        "一起",
+        "朋友 一起",
+        "有意思",
+        "玩完",
+        "快乐",
+        "朋友 联机",
+        "配置",
+        "真是",
+        "单人",
+        "不",
+        "所有"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "language": "schinese",
+      "topic": 5,
+      "count": 104,
+      "top_terms": [
+        "更新",
+        "不",
+        "不了",
+        "不 更新",
+        "还有",
+        "更新 不",
+        "希望",
+        "免费 更新",
+        "免费",
+        "强制",
+        "版本",
+        "狗屎"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "language": "schinese",
+      "topic": 0,
+      "count": 772,
+      "top_terms": [
+        "剧情",
+        "不",
+        "没",
+        "没有",
+        "体验",
+        "内容",
+        "一直",
+        "还有",
+        "bug",
+        "一样",
+        "小时",
+        "知道"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "language": "schinese",
+      "topic": 1,
+      "count": 38,
+      "top_terms": [
+        "战斗",
+        "纯粹 战斗",
+        "战斗 系统",
+        "系统",
+        "纯粹",
+        "除了",
+        "一场",
+        "流畅",
+        "不要",
+        "画风",
+        "进化",
+        "放弃"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "language": "schinese",
+      "topic": 2,
+      "count": 86,
+      "top_terms": [
+        "服务器",
+        "土豆",
+        "土豆 服务器",
+        "进不去",
+        "ea",
+        "一样",
+        "一样 服务器",
+        "服务器 土豆",
+        "一半",
+        "官方",
+        "官方 服务器",
+        "连接"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "language": "schinese",
+      "topic": 3,
+      "count": 51,
+      "top_terms": [
+        "开放 世界",
+        "开放",
+        "世界",
+        "沉浸",
+        "最长",
+        "最高",
+        "其实",
+        "生存",
+        "真正",
+        "这种",
+        "完美",
+        "令人"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "language": "schinese",
+      "topic": 4,
+      "count": 56,
+      "top_terms": [
+        "联机",
+        "朋友 联机",
+        "功能",
+        "一样",
+        "适合 联机",
+        "模式",
+        "舒服",
+        "超时",
+        "无法",
+        "适合",
+        "时候",
+        "麻烦"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "language": "schinese",
+      "topic": 5,
+      "count": 96,
+      "top_terms": [
+        "朋友",
+        "一起",
+        "朋友 一起",
+        "有意思",
+        "玩完",
+        "快乐",
+        "朋友 联机",
+        "配置",
+        "不",
+        "真是",
+        "单人",
+        "所有"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "language": "schinese",
+      "topic": 6,
+      "count": 67,
+      "top_terms": [
+        "优化",
+        "bug",
+        "一堆",
+        "不能",
+        "不好",
+        "时候",
+        "狗屎",
+        "模式",
+        "狗屎 优化",
+        "依托",
+        "一般",
+        "要死"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "language": "schinese",
+      "topic": 7,
+      "count": 107,
+      "top_terms": [
+        "更新",
+        "不",
+        "不了",
+        "不 更新",
+        "还有",
+        "更新 不",
+        "希望",
+        "免费 更新",
+        "内容",
+        "版本",
+        "免费",
+        "强制"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "language": "schinese",
+      "topic": 0,
+      "count": 794,
+      "top_terms": [
+        "剧情",
+        "不",
+        "没",
+        "战斗",
+        "没有",
+        "体验",
+        "内容",
+        "一直",
+        "还有",
+        "bug",
+        "小时",
+        "一样"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "language": "schinese",
+      "topic": 1,
+      "count": 54,
+      "top_terms": [
+        "联机",
+        "朋友 联机",
+        "功能",
+        "一样",
+        "适合 联机",
+        "模式",
+        "舒服",
+        "超时",
+        "无法",
+        "适合",
+        "时候",
+        "麻烦"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "language": "schinese",
+      "topic": 2,
+      "count": 86,
+      "top_terms": [
+        "服务器",
+        "土豆",
+        "土豆 服务器",
+        "进不去",
+        "ea",
+        "一样",
+        "一样 服务器",
+        "服务器 土豆",
+        "一半",
+        "官方",
+        "官方 服务器",
+        "连接"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "language": "schinese",
+      "topic": 3,
+      "count": 60,
+      "top_terms": [
+        "朋友",
+        "有意思",
+        "玩完",
+        "快乐",
+        "朋友 联机",
+        "真是",
+        "配置",
+        "所有",
+        "不",
+        "配合",
+        "开心",
+        "没"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "language": "schinese",
+      "topic": 4,
+      "count": 57,
+      "top_terms": [
+        "一起",
+        "朋友 一起",
+        "朋友",
+        "之一",
+        "女朋友",
+        "真好玩",
+        "组队",
+        "舒服",
+        "适合",
+        "趣味",
+        "太棒了",
+        "建议"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "language": "schinese",
+      "topic": 5,
+      "count": 67,
+      "top_terms": [
+        "优化",
+        "bug",
+        "一堆",
+        "不能",
+        "不好",
+        "时候",
+        "狗屎",
+        "模式",
+        "狗屎 优化",
+        "依托",
+        "一般",
+        "要死"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "language": "schinese",
+      "topic": 6,
+      "count": 50,
+      "top_terms": [
+        "开放 世界",
+        "开放",
+        "世界",
+        "沉浸",
+        "最长",
+        "最高",
+        "其实",
+        "生存",
+        "真正",
+        "这种",
+        "完美",
+        "令人"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "language": "schinese",
+      "topic": 7,
+      "count": 105,
+      "top_terms": [
+        "更新",
+        "不",
+        "不了",
+        "不 更新",
+        "还有",
+        "更新 不",
+        "希望",
+        "内容",
+        "免费 更新",
+        "版本",
+        "免费",
+        "强制"
+      ],
+      "zero_vector_rows": 44,
+      "converged": true
+    }
+  ],
+  "representatives": [
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238939330",
+      "text": "One of if not the best open world RPG's of all time."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238170671",
+      "text": "I should not have to do real world research and mess with my shader caches every single time I try to launch an UNMODDED game. It's asinine. I should not have to verify the integrity of game files every time I want to play a game THAT I DIDN'T TOUCH. This game did not used to behave this way. Now it does. Done with it."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "239039700",
+      "text": "fun time and money waster. dont know the lore? dont ask, nobody else does either. just play the game and wonder why everything is the way it is."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "237237829",
+      "text": "I dont know what yall did but i cant play 2042 or 6 now because yall messed with the graphics. i cant afford a nice graphics card and i know im not the only one that has that problem. why did yall raise the graphics? it was fine. now im stuck with a game i cant play... Thanks for that."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239140322",
+      "text": "retard devs catering to retard community"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239048424",
+      "text": "it is very fun and has many updates to come that give it lots of content to look forward too"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239137864",
+      "text": "fuh ts peace of shit ac hope this game dies i got vac IN 1 MONTH 7 TIMES WTF"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238175978",
+      "text": "PLAY THIS GAME with your friend or your significant others."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238422623",
+      "text": "fun game pretty with friend."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238860260",
+      "text": "Great game to play with a friend or two."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "239013188",
+      "text": "Very good and fun to play, must play with friend for more fun"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238782451",
+      "text": "Played with friends. Went to check door. Bomb on door. Go to defuse. Friend opens door and kills us all. 10/10. Dont know how we S ranked any mission."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238522388",
+      "text": "top 10 games even when your alone with a friend it makes it 10 times better"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238591286",
+      "text": "Sword + Birb = Mad friend 10-10 would play again"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "236852985",
+      "text": "awesomeness l story tho"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238278418",
+      "text": "Great game and I love the story!"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238600414",
+      "text": "Good story (67/10)"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238862994",
+      "text": "great story"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "238978703",
+      "text": "I like that the characters are naked and you can see their hairy balls, the game is fun do"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "239134575",
+      "text": "Great story, great immersion and great level of character customizability."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "237789189",
+      "text": "The story isnt anything special or ground breaking, but the gun play is one of the best in the series."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "236531788",
+      "text": "i like hard game like this"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237833404",
+      "text": "It's fucking hard but fun"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237907283",
+      "text": "This game is good, but it's so hard, it takes two to play this,"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238038056",
+      "text": "Its a hard and addicitve game"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239048586",
+      "text": "it's a good game. goty, it's really hard and very satisfying."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "235156951",
+      "text": "The worst game ever! Just remember if you wanna play this game u will never pick any type of vehicle or heli since every random PS player with lvl 1 will pick it easily while u trying hard to pick it on PC. Also u will now even see its available because PS players pick it unreasonable fast because of programmers left much of bags in this game"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239117332",
+      "text": "This is a very hard game but it is really fun and engaging, even though it is ragebaiting sometimes."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "236538880",
+      "text": "carried by friends, fun!"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "237171782",
+      "text": "i had fun with my friends"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "237254176",
+      "text": "great witth friends"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238316675",
+      "text": "Can be a great game with friends"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "238364966",
+      "text": "game is so fun too play with friends"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239123831",
+      "text": "good with friends maxwell dont starve"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239136922",
+      "text": "It's alright (I got threatened by my friends)"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238507296",
+      "text": "Its Bungie Halo!!! And all the mods. Cursed Halo is so much fun"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238733685",
+      "text": "Buen juego, aun mejor con mods."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238756897",
+      "text": "Din il-logħba hija tajba; nirrakkomandaha bil-qalb kollha. Madankollu, teħtieġ aktar aġġornamenti biex issir aktar interessanti—fil-fatt, il-logħba tibqa' ħajja grazzi għall-mods tagħha. Għandha bżonn kontenut addizzjonali biex tkun aktar involventi. L-aqwa ħaġa dwarha hija l-ottimizzazzjoni; hija ottimizzata tajjeb ħafna, għalkemm inħoss li mhux ħafna nies jitkellmu dwar dan. L-istil huwa sempliċi u pjaċevoli—hija logħba b'ritmu mgħaġġel u pjaċevoli biex tilgħabha. Mela, b'mod ġenerali, nirrakkomanda din il-logħba!"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238780491",
+      "text": "very fun with mods"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238947460",
+      "text": "This game has amazing Mods and amazing gameplay"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238901940",
+      "text": "good mods"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238733685",
+      "text": "Buen juego, aun mejor con mods."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238507296",
+      "text": "Its Bungie Halo!!! And all the mods. Cursed Halo is so much fun"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238733685",
+      "text": "Buen juego, aun mejor con mods."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238756897",
+      "text": "Din il-logħba hija tajba; nirrakkomandaha bil-qalb kollha. Madankollu, teħtieġ aktar aġġornamenti biex issir aktar interessanti—fil-fatt, il-logħba tibqa' ħajja grazzi għall-mods tagħha. Għandha bżonn kontenut addizzjonali biex tkun aktar involventi. L-aqwa ħaġa dwarha hija l-ottimizzazzjoni; hija ottimizzata tajjeb ħafna, għalkemm inħoss li mhux ħafna nies jitkellmu dwar dan. L-istil huwa sempliċi u pjaċevoli—hija logħba b'ritmu mgħaġġel u pjaċevoli biex tilgħabha. Mela, b'mod ġenerali, nirrakkomanda din il-logħba!"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238780491",
+      "text": "very fun with mods"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239140357",
+      "text": "Top 3 use of 10 dollars, games worth 20039$"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239049197",
+      "text": "it's Skyrim but with mods it can be anything between Animal Crossing and GTA if you want to."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239138127",
+      "text": "this is the perfect game if you like multiplayer"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "236531788",
+      "text": "i like hard game like this"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "237833404",
+      "text": "It's fucking hard but fun"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "237907283",
+      "text": "This game is good, but it's so hard, it takes two to play this,"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238038056",
+      "text": "Its a hard and addicitve game"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238607058",
+      "text": "Good Game. It is fun with players and solo. Achivment hunting is also fun. Hard mode too hard. Overall: 6/7"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238149088",
+      "text": "makes me hard"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238451425",
+      "text": "Hard, but worth it."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "232566138",
+      "text": "so amazing and easy to play"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238506783",
+      "text": "were it so easy"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238530429",
+      "text": "it's fun and more easy if multiplayers"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238648014",
+      "text": "I love this game it's fun and easy to play"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "238870706",
+      "text": "Fun game that is easy to jump into with good controller support."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "239126586",
+      "text": "First minute already loved this. better version of valorant easy to get to. cool maps. a must play in a lifetime i will be having some fun with this for months"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "237350290",
+      "text": "One of my favorite games on a computer. I think this is the best Civ game made. Straight forward, robust, and an easy chill way to enjoy a evening or weekend. It may be old now, but it's still amazing to me."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "236538880",
+      "text": "carried by friends, fun!"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237171782",
+      "text": "i had fun with my friends"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237254176",
+      "text": "great witth friends"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238316675",
+      "text": "Can be a great game with friends"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239072598",
+      "text": "I just keep coming back. Great to play with friends. Very high HIGHs and very low lows. The only game I flame my teammates. Peak gaming, 10/10 would recommend."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "236538880",
+      "text": "carried by friends, fun!"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239122055",
+      "text": "Nice game, fun to play with friends"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238175978",
+      "text": "PLAY THIS GAME with your friend or your significant others."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238422623",
+      "text": "fun game pretty with friend."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238860260",
+      "text": "Great game to play with a friend or two."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "239013188",
+      "text": "Very good and fun to play, must play with friend for more fun"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "238385802",
+      "text": "I like that it challenges my child while also giving us the opportunity to play and have fun together."
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239079488",
+      "text": "Cool game with friend"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239122908",
+      "text": "I farm, i grew, i become friend,"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "236852985",
+      "text": "awesomeness l story tho"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238278418",
+      "text": "Great game and I love the story!"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238600414",
+      "text": "Good story (67/10)"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238862994",
+      "text": "great story"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238939508",
+      "text": "10/10 story"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238895429",
+      "text": "It is very good I really enjoy it, what is crazy is that this was started by 2 people, inspiring story"
+    },
+    {
+      "candidate": "content_nmf_english_k6_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238688760",
+      "text": "lots of different builds and play styles...really good game"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238170671",
+      "text": "I should not have to do real world research and mess with my shader caches every single time I try to launch an UNMODDED game. It's asinine. I should not have to verify the integrity of game files every time I want to play a game THAT I DIDN'T TOUCH. This game did not used to behave this way. Now it does. Done with it."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "239039700",
+      "text": "fun time and money waster. dont know the lore? dont ask, nobody else does either. just play the game and wonder why everything is the way it is."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "237237829",
+      "text": "I dont know what yall did but i cant play 2042 or 6 now because yall messed with the graphics. i cant afford a nice graphics card and i know im not the only one that has that problem. why did yall raise the graphics? it was fine. now im stuck with a game i cant play... Thanks for that."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "236893043",
+      "text": "The game is difficult; if you haven't played COD or PUBG, this game isn't for you."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239140357",
+      "text": "Top 3 use of 10 dollars, games worth 20039$"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239053755",
+      "text": "i played for 5 mins and crashed. all while fondle kept asking about a random girl. that silly elf doesn't know that girl was two timing him with the local retard sven. 10/10"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239138236",
+      "text": "amazing no glitchs and no lag"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238175978",
+      "text": "PLAY THIS GAME with your friend or your significant others."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238422623",
+      "text": "fun game pretty with friend."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238860260",
+      "text": "Great game to play with a friend or two."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "239013188",
+      "text": "Very good and fun to play, must play with friend for more fun"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238782451",
+      "text": "Played with friends. Went to check door. Bomb on door. Go to defuse. Friend opens door and kills us all. 10/10. Dont know how we S ranked any mission."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238522388",
+      "text": "top 10 games even when your alone with a friend it makes it 10 times better"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238591286",
+      "text": "Sword + Birb = Mad friend 10-10 would play again"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "236852985",
+      "text": "awesomeness l story tho"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238278418",
+      "text": "Great game and I love the story!"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238600414",
+      "text": "Good story (67/10)"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238862994",
+      "text": "great story"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "238978703",
+      "text": "I like that the characters are naked and you can see their hairy balls, the game is fun do"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "239134575",
+      "text": "Great story, great immersion and great level of character customizability."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "237789189",
+      "text": "The story isnt anything special or ground breaking, but the gun play is one of the best in the series."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "236531788",
+      "text": "i like hard game like this"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237833404",
+      "text": "It's fucking hard but fun"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237907283",
+      "text": "This game is good, but it's so hard, it takes two to play this,"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238038056",
+      "text": "Its a hard and addicitve game"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239036702",
+      "text": "Great game but shadow kleiner bossfight is too hard"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "235156951",
+      "text": "The worst game ever! Just remember if you wanna play this game u will never pick any type of vehicle or heli since every random PS player with lvl 1 will pick it easily while u trying hard to pick it on PC. Also u will now even see its available because PS players pick it unreasonable fast because of programmers left much of bags in this game"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239116570",
+      "text": "Game is too hard, it´ll make you rage and take your sanity; 10/10 game"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "236538880",
+      "text": "carried by friends, fun!"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "237171782",
+      "text": "i had fun with my friends"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "237254176",
+      "text": "great witth friends"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238316675",
+      "text": "Can be a great game with friends"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "238364966",
+      "text": "game is so fun too play with friends"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239122055",
+      "text": "Nice game, fun to play with friends"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239136355",
+      "text": "good stuff, fun to play coop with friends"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238507296",
+      "text": "Its Bungie Halo!!! And all the mods. Cursed Halo is so much fun"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238733685",
+      "text": "Buen juego, aun mejor con mods."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238756897",
+      "text": "Din il-logħba hija tajba; nirrakkomandaha bil-qalb kollha. Madankollu, teħtieġ aktar aġġornamenti biex issir aktar interessanti—fil-fatt, il-logħba tibqa' ħajja grazzi għall-mods tagħha. Għandha bżonn kontenut addizzjonali biex tkun aktar involventi. L-aqwa ħaġa dwarha hija l-ottimizzazzjoni; hija ottimizzata tajjeb ħafna, għalkemm inħoss li mhux ħafna nies jitkellmu dwar dan. L-istil huwa sempliċi u pjaċevoli—hija logħba b'ritmu mgħaġġel u pjaċevoli biex tilgħabha. Mela, b'mod ġenerali, nirrakkomanda din il-logħba!"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238780491",
+      "text": "very fun with mods"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238947460",
+      "text": "This game has amazing Mods and amazing gameplay"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238901940",
+      "text": "good mods"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238733685",
+      "text": "Buen juego, aun mejor con mods."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "232566138",
+      "text": "so amazing and easy to play"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "238506783",
+      "text": "were it so easy"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "238530429",
+      "text": "it's fun and more easy if multiplayers"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "238648014",
+      "text": "I love this game it's fun and easy to play"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "238500080",
+      "text": "like minecraft meets jurrasic park survival mode......love it"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "238955136",
+      "text": "In my experience, most people cue for wildcard or bots so i cant get badges or stats. Bots are fun but they can be a bit easy sometimes. I do like that you can grind them for the passes though."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "238606580",
+      "text": "Perfect for an occasional gamer like me. It's easy to start and there is enough complexity that even at 33 hours, I don't never feel like I'm close to mastering it. The relics are super fun! There are a bunch of different ways to play. Also love that you can stop it whenever you want to and start again later."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238213820",
+      "text": "Amazing Open-World!!!"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238507990",
+      "text": "definate recommend this game if u like playing open world games"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238876572",
+      "text": "open world space fun. I love it."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238938599",
+      "text": "Best open world and game"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "239007501",
+      "text": "best space game i have played , i love the concept of infinite galaxies and planets , nonstop exploration,building ,nature,spacecrafts,combat,upgrades and best thing is alliance in a space exploration game"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "235514508",
+      "text": "very fun great combat mechanics very versitile action packed"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "238002216",
+      "text": "Great Zombie Open World Game"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238939330",
+      "text": "One of if not the best open world RPG's of all time."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238170671",
+      "text": "I should not have to do real world research and mess with my shader caches every single time I try to launch an UNMODDED game. It's asinine. I should not have to verify the integrity of game files every time I want to play a game THAT I DIDN'T TOUCH. This game did not used to behave this way. Now it does. Done with it."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "239039700",
+      "text": "fun time and money waster. dont know the lore? dont ask, nobody else does either. just play the game and wonder why everything is the way it is."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "237237829",
+      "text": "I dont know what yall did but i cant play 2042 or 6 now because yall messed with the graphics. i cant afford a nice graphics card and i know im not the only one that has that problem. why did yall raise the graphics? it was fine. now im stuck with a game i cant play... Thanks for that."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239140065",
+      "text": "I fully believe this is a russian cheater selling simulator"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239047065",
+      "text": "fun. (a bit laggy but not that much)"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239137700",
+      "text": "You wanna play Gta 5 for free BOOM u got the physics/Movements and everything here without wasting your money on games and Garrys mod has everything u can imagine ANND its cheaper i would highly recommend players that like sandbox games"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "236531788",
+      "text": "i like hard game like this"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "237833404",
+      "text": "It's fucking hard but fun"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "237907283",
+      "text": "This game is good, but it's so hard, it takes two to play this,"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238038056",
+      "text": "Its a hard and addicitve game"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238649328",
+      "text": "it is good game. police brutality at its finest unless you wanna play on hard mode and get s rank on all missions. its do-able but be prepared to shoot an unholy amount of bean bag rounds and die a million times. every move must be calculated every bullet counts and only you can prevent civilians from getting themselves killed. or hey just spray... cant have a hostage situation if there is no hostage. 10/10 will pucker asshole."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238159583",
+      "text": "good but too hard"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238497154",
+      "text": "Good game, kinda hard. very hard to learn if you aren't trying."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "232566138",
+      "text": "so amazing and easy to play"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238506783",
+      "text": "were it so easy"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238530429",
+      "text": "it's fun and more easy if multiplayers"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "238648014",
+      "text": "I love this game it's fun and easy to play"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "238888777",
+      "text": "best of the civ games in my opinion easy to learn and many different stratergy plays, good looking and easy interface"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "239126586",
+      "text": "First minute already loved this. better version of valorant easy to get to. cool maps. a must play in a lifetime i will be having some fun with this for months"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "237305389",
+      "text": "even though I've chosen \"easy\" mode - anyway it's a very hard game..."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "236538880",
+      "text": "carried by friends, fun!"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237171782",
+      "text": "i had fun with my friends"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237254176",
+      "text": "great witth friends"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238316675",
+      "text": "Can be a great game with friends"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239059411",
+      "text": "love this game is definatly better with friends"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "236538880",
+      "text": "carried by friends, fun!"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239118465",
+      "text": "If you want an advice for ur mental sanity, don't install this. It's fun the first 2-3 months, then they nerf surv perks and killers, and become a nightmare, full of traumatic teams if u play as a killer, but if u play as a surv, the most toxic killer with toxic perks. If u are alone NEVER plsy surv. ur randoms will be absolutely ass. If u play custom with friends can be really funny, if u play online, u will hate everyone, even ur friends, but it's fun, overall."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238872332",
+      "text": "really fun and heaps of cheaters"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "239125491",
+      "text": "cheaters"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "239133220",
+      "text": "more cheaters than in roblox"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "239139747",
+      "text": "Cheaters in every game this game is done"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "238708313",
+      "text": "game awesome i love it. devs as bad as it could get. literally disabling reporting and letting cheaters dominate"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239141552",
+      "text": "fix cheaters"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239145268",
+      "text": "fun until cheaters rape you ."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "236852985",
+      "text": "awesomeness l story tho"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238278418",
+      "text": "Great game and I love the story!"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238600414",
+      "text": "Good story (67/10)"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238862994",
+      "text": "great story"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238919970",
+      "text": "One of the best single player story games ever played!!"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238862994",
+      "text": "great story"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238624154",
+      "text": "Amazing game, out of every game I've played, this one is the most unique, and interesting. The story is also very good, the last game that made me feel this way was Deus ex Human Revolution. 10/10"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "238175978",
+      "text": "PLAY THIS GAME with your friend or your significant others."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "238422623",
+      "text": "fun game pretty with friend."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "238860260",
+      "text": "Great game to play with a friend or two."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "239013188",
+      "text": "Very good and fun to play, must play with friend for more fun"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "238591286",
+      "text": "Sword + Birb = Mad friend 10-10 would play again"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "239005017",
+      "text": "This games been in my library for YEARS as my friend has recommended it since it came out, decided to play it the other week for the first time, and DAYUM... bloody brilliant."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "238782451",
+      "text": "Played with friends. Went to check door. Bomb on door. Go to defuse. Friend opens door and kills us all. 10/10. Dont know how we S ranked any mission."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238507296",
+      "text": "Its Bungie Halo!!! And all the mods. Cursed Halo is so much fun"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238733685",
+      "text": "Buen juego, aun mejor con mods."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238756897",
+      "text": "Din il-logħba hija tajba; nirrakkomandaha bil-qalb kollha. Madankollu, teħtieġ aktar aġġornamenti biex issir aktar interessanti—fil-fatt, il-logħba tibqa' ħajja grazzi għall-mods tagħha. Għandha bżonn kontenut addizzjonali biex tkun aktar involventi. L-aqwa ħaġa dwarha hija l-ottimizzazzjoni; hija ottimizzata tajjeb ħafna, għalkemm inħoss li mhux ħafna nies jitkellmu dwar dan. L-istil huwa sempliċi u pjaċevoli—hija logħba b'ritmu mgħaġġel u pjaċevoli biex tilgħabha. Mela, b'mod ġenerali, nirrakkomanda din il-logħba!"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238780491",
+      "text": "very fun with mods"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "239037845",
+      "text": "A good game fun in multi just hope they add mods in multi"
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "237834324",
+      "text": "Best game. And amazing nsfw mods. I never beat it, but I did beat it."
+    },
+    {
+      "candidate": "content_nmf_english_k8_s42",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "238451999",
+      "text": "Great fun and great replayability"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "227629934",
+      "text": "你瞎jb更新什么"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "227854412",
+      "text": "没事乱更新啥呢"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238146666",
+      "text": "更新后 根本无法游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238593038",
+      "text": "更新怎么能慢成这样"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239092902",
+      "text": "游戏难度太大"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "238921313",
+      "text": "好玩快更新"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239086215",
+      "text": "多人合作就卡退"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "226319301",
+      "text": "节奏感强，操纵感很强，战斗节奏快"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "229818861",
+      "text": "战斗，爽！！！！！"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "233260723",
+      "text": "战斗。爽！？"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "237339635",
+      "text": "战斗爽"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238228519",
+      "text": "手游入坑，电脑操作更流畅"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "237223432",
+      "text": "古德古德，纯粹的战斗，极致的享受。"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "237603540",
+      "text": "画风和战斗都是顶级"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "233905970",
+      "text": "服务器太垃圾"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "235630569",
+      "text": "非常好玩 就是服务器太垃了"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "235901110",
+      "text": "垃圾服务器，"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "237114528",
+      "text": "服务器真垃圾"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "238750105",
+      "text": "构思ea能不能修修你的服务器"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "239077505",
+      "text": "依旧土豆服务器"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "228565192",
+      "text": "每次进去都要服务器连接,我就玩个单机!!!"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237604021",
+      "text": "开放世界的神作啊"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237672144",
+      "text": "很好玩的一款游戏 开放世界创造性拉满"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238602183",
+      "text": "开放世界"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238669969",
+      "text": "开放世界个人感觉都很可以"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239003085",
+      "text": "标签：开放世界 但是你已离开任务区域 死亡"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "231271034",
+      "text": "目前最喜欢玩的一个开放世界生存类型的游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239058866",
+      "text": "喜欢的就是这种慢慢悠悠的开放世界，想干什么干什么"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238513449",
+      "text": "最好玩的联机游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238523294",
+      "text": "联机一坨屎"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238836818",
+      "text": "挺好玩的，很喜欢联机"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238915856",
+      "text": "好玩的，能联机就好了"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "237215517",
+      "text": "联机可玩性无敌"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239091117",
+      "text": "联机模式全是外挂，这游戏已经没有正常人类了"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239106121",
+      "text": "联机游戏联机功能氏中事"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "237193953",
+      "text": "神 跟朋友一起爽玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "237208510",
+      "text": "好玩，和朋友一起特别好玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "237996114",
+      "text": "很好的游戏，和朋友一起玩会更好玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238077931",
+      "text": "跟朋友一起玩耍非常适合"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238740128",
+      "text": "和女朋友一起打的第一款电脑游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238654243",
+      "text": "太好玩了我的朋友"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238239048",
+      "text": "非常好玩的CQB合作游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "229619732",
+      "text": "剧情不错，但是是我玩过的引导性最差的游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "236862279",
+      "text": "差评，剧情太NT了，感觉就像日本电影里无能的丈夫"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "237461407",
+      "text": "剧情封神此生必玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238230583",
+      "text": "剧情不错"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239093598",
+      "text": "一把娱乐模式外挂都他妈转起来了还T不出去？"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "238915797",
+      "text": "人机做得过于恶心，莫名其妙附加的产能和简单粗暴增添的数值，玩家只会感到不公平而不是竞争的乐趣"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239086161",
+      "text": "经常卡死，穿模。。。"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "237604021",
+      "text": "开放世界的神作啊"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "237672144",
+      "text": "很好玩的一款游戏 开放世界创造性拉满"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238602183",
+      "text": "开放世界"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238669969",
+      "text": "开放世界个人感觉都很可以"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238309174",
+      "text": "电子游戏这种载体目前尚未发展成熟，新的时代也还没有真正到来。哪怕是到了2026年，上古卷轴5依然是最好的开放世界游戏，是电子游戏发展史中，中早期阶段的开拓者和探索者。"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "237460739",
+      "text": "开放世界最高的山最长的河"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "237672144",
+      "text": "很好玩的一款游戏 开放世界创造性拉满"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "233905970",
+      "text": "服务器太垃圾"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "235630569",
+      "text": "非常好玩 就是服务器太垃了"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "235901110",
+      "text": "垃圾服务器，"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "237114528",
+      "text": "服务器真垃圾"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "238828203",
+      "text": "一般般，当个休闲游戏还是挺好玩的，就是服务器比gta线上还逆天"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "239077778",
+      "text": "妈的 这优化垃圾 垃圾的要死"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "227888422",
+      "text": "非得登那个破服务器，是何意味"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238513449",
+      "text": "最好玩的联机游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238523294",
+      "text": "联机一坨屎"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238836818",
+      "text": "挺好玩的，很喜欢联机"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238915856",
+      "text": "好玩的，能联机就好了"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "238984054",
+      "text": "玩法不错，联机和游戏官方一样家里没办法进人，只能一辈子一个人玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "226139841",
+      "text": "纯纯垃圾，死亡后旅途会被重置，做了半天的旅途死了一次后全白做。系统逻辑设计也是一坨，我也就忍了，联机必须抱团活动不能离开主机一格范围是什么低能设计？吃屎吧"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239089797",
+      "text": "咱啥也不懂，咱只是老实巴交的农民🤓 联机和朋友玩乐趣多"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "237193953",
+      "text": "神 跟朋友一起爽玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "237208510",
+      "text": "好玩，和朋友一起特别好玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "237996114",
+      "text": "很好的游戏，和朋友一起玩会更好玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238077931",
+      "text": "跟朋友一起玩耍非常适合"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "237303981",
+      "text": "很好玩，很恐怖，跟朋友玩的话就不会觉得恐怖了"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239085561",
+      "text": "最好玩的大逃杀游戏 就是总凑不齐朋友三排"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239107389",
+      "text": "4.8买来和朋友玩真是值爆了"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "227629934",
+      "text": "你瞎jb更新什么"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "227854412",
+      "text": "没事乱更新啥呢"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238146666",
+      "text": "更新后 根本无法游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238593038",
+      "text": "更新怎么能慢成这样"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238317649",
+      "text": "狗屎动不动就报错"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238219688",
+      "text": "很好玩，非常上瘾。就是mod太过于复杂，还需要专门去中文站下，创意工坊版本还不是第一时间更新，很神奇。"
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "237912995",
+      "text": "所谓的十年无偿更新就是连打出中文都无法解决，十年到底更新了个啥就这还无脑吹无偿更新玩法简陋内核无脑就这质量真的难评价"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "229619732",
+      "text": "剧情不错，但是是我玩过的引导性最差的游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "236862279",
+      "text": "差评，剧情太NT了，感觉就像日本电影里无能的丈夫"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "237461407",
+      "text": "剧情封神此生必玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238230583",
+      "text": "剧情不错"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239093598",
+      "text": "一把娱乐模式外挂都他妈转起来了还T不出去？"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "238930397",
+      "text": "挺好玩的，带着队友到处探地图挖宝箱，推荐。"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239086266",
+      "text": "主观评价cs2所有地区队友 top1东欧:报点最清晰,枪法好,会丢道具,有战术,会交流,心态最好 top1.5北美:报道清晰,枪法好,会道具,有战术,会交流,美式英语没有英式清楚 top2东亚:加强版国服,没有老外自动切换中文,同时具有国服的枪法和国际服的战术,缺点是日韩不爱开麦 top2.5东南亚:国服mini,基本是华裔,因独行侠刷新概率高于东亚略输 top3南亚:永远听不懂他们在说什么,只能凭感觉猜 top10086东欧:报点只有a和b,战术只有rush b,道具永远不会起,残局卖队友,输了就开挂,一言不合踢队友,eco敢抢a大"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "226319301",
+      "text": "节奏感强，操纵感很强，战斗节奏快"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "229818861",
+      "text": "战斗，爽！！！！！"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "233260723",
+      "text": "战斗。爽！？"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "237339635",
+      "text": "战斗爽"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238228519",
+      "text": "手游入坑，电脑操作更流畅"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "237223432",
+      "text": "古德古德，纯粹的战斗，极致的享受。"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "237603540",
+      "text": "画风和战斗都是顶级"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "233905970",
+      "text": "服务器太垃圾"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "235630569",
+      "text": "非常好玩 就是服务器太垃了"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "235901110",
+      "text": "垃圾服务器，"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "237114528",
+      "text": "服务器真垃圾"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "238750105",
+      "text": "构思ea能不能修修你的服务器"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "239077505",
+      "text": "依旧土豆服务器"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "227609296",
+      "text": "啥都好，要是有个国内服务器就更好了，几年了卡顿问题还是在"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237604021",
+      "text": "开放世界的神作啊"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237672144",
+      "text": "很好玩的一款游戏 开放世界创造性拉满"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238602183",
+      "text": "开放世界"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238669969",
+      "text": "开放世界个人感觉都很可以"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "238988185",
+      "text": "这是我玩过最好玩的开放世界"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "231271034",
+      "text": "目前最喜欢玩的一个开放世界生存类型的游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239077290",
+      "text": "经典的开放世界，打折力度大可入"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238513449",
+      "text": "最好玩的联机游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238523294",
+      "text": "联机一坨屎"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238836818",
+      "text": "挺好玩的，很喜欢联机"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238915856",
+      "text": "好玩的，能联机就好了"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "237548267",
+      "text": "连接是史，动不动就有一个缓冲自动闪退"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239089797",
+      "text": "咱啥也不懂，咱只是老实巴交的农民🤓 联机和朋友玩乐趣多"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239106121",
+      "text": "联机游戏联机功能氏中事"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "237193953",
+      "text": "神 跟朋友一起爽玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "237208510",
+      "text": "好玩，和朋友一起特别好玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "237996114",
+      "text": "很好的游戏，和朋友一起玩会更好玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238077931",
+      "text": "跟朋友一起玩耍非常适合"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238746133",
+      "text": "跟朋友玩真的很快乐"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238654724",
+      "text": "朋友已就位，一起玩以撒"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238279153",
+      "text": "这个游戏特别的好玩和我一起组队一起玩."
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "235297237",
+      "text": "游戏好玩就是优化太差了，真的是又爱又恨"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "237993960",
+      "text": "仁济优化"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "238386641",
+      "text": "芬达优化"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "238602052",
+      "text": "游戏优化差"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "237438383",
+      "text": "优化依托"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "238914573",
+      "text": "勾八游戏，说网络波动给然后给我封禁了，淦，辣鸡游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "238162624",
+      "text": "垃圾游戏玩几分钟就报错崩溃"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "227629934",
+      "text": "你瞎jb更新什么"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "227854412",
+      "text": "没事乱更新啥呢"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238146666",
+      "text": "更新后 根本无法游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238593038",
+      "text": "更新怎么能慢成这样"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "238822965",
+      "text": "什么几把延迟啊 加速器都救不了 你要凉了啊"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "227640241",
+      "text": "开发人员让玩家体验极其恶劣，原因是玩到一半的成果被更新一下搞没了，要从头再来一遍游戏，而且订阅的mod也没有用了 2026年6月15日，想建个新档，发现不能设置“部分裸露”了，点击部分裸露不能选中，狗屁体验"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "235842940",
+      "text": "平衡越来越垃圾了，中国还砍是吧，救赎火炮骆驼，还禁骑射手，赶紧玩完吧"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "229619732",
+      "text": "剧情不错，但是是我玩过的引导性最差的游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "236862279",
+      "text": "差评，剧情太NT了，感觉就像日本电影里无能的丈夫"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "237461407",
+      "text": "剧情封神此生必玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 0,
+      "kind": "center",
+      "recommendationid": "238230583",
+      "text": "剧情不错"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239090578",
+      "text": "我说实话，生活太如意就来玩这个，我就想问（剧透警告）你可以担心我，你可以说我爬这个楼九死一生，但是我爬上去了并且修好了，你tm啥都不管鬼一样也爬上来，上来给我一巴掌然后说你爬上来给鞋爬坏了说让我给你买鞋，卧槽兄弟，这剧情谁看谁不脑溢血啊，第一次见面这傲娇谁啊，专门设计一个npc来ex人我理解，玩到后面我勒个天爷，你是女主啊"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "238914721",
+      "text": "9/10 1 本体+dlc的首发体验非常互补。dlc的米凯拉成功弥补了本体过于简单的事实。 2 轮椅还是得用，剩下的时间可以更多体验这个世界。 3 没有隐藏门可以提前暗示下，省得路过都得对着墙敲两下。"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 0,
+      "kind": "random",
+      "recommendationid": "239084629",
+      "text": "比较轻薄的本画质也很高"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238513449",
+      "text": "最好玩的联机游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238523294",
+      "text": "联机一坨屎"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238836818",
+      "text": "挺好玩的，很喜欢联机"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 1,
+      "kind": "center",
+      "recommendationid": "238915856",
+      "text": "好玩的，能联机就好了"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238544910",
+      "text": "死老母玩意，联机浪费老子一个小时还没进，肏你妈"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "237930535",
+      "text": "太尼玛难玩了 谁有这游戏的外挂包"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 1,
+      "kind": "random",
+      "recommendationid": "238244010",
+      "text": "联机一直超时"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "233905970",
+      "text": "服务器太垃圾"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "235630569",
+      "text": "非常好玩 就是服务器太垃了"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "235901110",
+      "text": "垃圾服务器，"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 2,
+      "kind": "center",
+      "recommendationid": "237114528",
+      "text": "服务器真垃圾"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "238750105",
+      "text": "构思ea能不能修修你的服务器"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "239077505",
+      "text": "依旧土豆服务器"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 2,
+      "kind": "random",
+      "recommendationid": "227609296",
+      "text": "啥都好，要是有个国内服务器就更好了，几年了卡顿问题还是在"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "237718019",
+      "text": "好玩跟朋友玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238364606",
+      "text": "坑朋友可以玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238621594",
+      "text": "有朋友玩就是好游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 3,
+      "kind": "center",
+      "recommendationid": "238654243",
+      "text": "太好玩了我的朋友"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239018309",
+      "text": "令人上头的种田游戏。 明明是种田养老游戏，但怎么感觉每天都好忙。。。但是忙的很快乐，特别是当大片田地收获时。"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "226009700",
+      "text": "引擎升级后很棒，游戏不贵，一起玩的朋友比较贵"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 3,
+      "kind": "random",
+      "recommendationid": "239085561",
+      "text": "最好玩的大逃杀游戏 就是总凑不齐朋友三排"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "237193953",
+      "text": "神 跟朋友一起爽玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "237208510",
+      "text": "好玩，和朋友一起特别好玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "237996114",
+      "text": "很好的游戏，和朋友一起玩会更好玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 4,
+      "kind": "center",
+      "recommendationid": "238077931",
+      "text": "跟朋友一起玩耍非常适合"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "237193953",
+      "text": "神 跟朋友一起爽玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239032479",
+      "text": "最喜欢的世界观之一呀"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 4,
+      "kind": "random",
+      "recommendationid": "239109743",
+      "text": "跟朋友一起玩很有意思"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "235297237",
+      "text": "游戏好玩就是优化太差了，真的是又爱又恨"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "237993960",
+      "text": "仁济优化"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238386641",
+      "text": "芬达优化"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 5,
+      "kind": "center",
+      "recommendationid": "238602052",
+      "text": "游戏优化差"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238602052",
+      "text": "游戏优化差"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "238383919",
+      "text": "服务器优化一坨"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 5,
+      "kind": "random",
+      "recommendationid": "237993960",
+      "text": "仁济优化"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "237604021",
+      "text": "开放世界的神作啊"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "237672144",
+      "text": "很好玩的一款游戏 开放世界创造性拉满"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "238602183",
+      "text": "开放世界"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 6,
+      "kind": "center",
+      "recommendationid": "238669969",
+      "text": "开放世界个人感觉都很可以"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "237671155",
+      "text": "超级超级好玩，有可玩性，比我想象的更耐玩"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "238931061",
+      "text": "可观测宇宙中最好玩的开放世界游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 6,
+      "kind": "random",
+      "recommendationid": "238214897",
+      "text": "可能在现在看来这个开放世界已经有点落后了但是他的沉浸感依旧相当优秀"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "227629934",
+      "text": "你瞎jb更新什么"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "227854412",
+      "text": "没事乱更新啥呢"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238146666",
+      "text": "更新后 根本无法游戏"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 7,
+      "kind": "center",
+      "recommendationid": "238593038",
+      "text": "更新怎么能慢成这样"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "238822965",
+      "text": "什么几把延迟啊 加速器都救不了 你要凉了啊"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "227640241",
+      "text": "开发人员让玩家体验极其恶劣，原因是玩到一半的成果被更新一下搞没了，要从头再来一遍游戏，而且订阅的mod也没有用了 2026年6月15日，想建个新档，发现不能设置“部分裸露”了，点击部分裸露不能选中，狗屁体验"
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s42",
+      "topic": 7,
+      "kind": "random",
+      "recommendationid": "235456548",
+      "text": "A卡玩不了啊，一直闪退"
+    }
+  ],
+  "seed_stability": [
+    {
+      "language": "english",
+      "k": 6,
+      "ari": 0.7558744231533117
+    },
+    {
+      "language": "english",
+      "k": 8,
+      "ari": 0.7879954917667374
+    },
+    {
+      "language": "schinese",
+      "k": 6,
+      "ari": 0.6959299372152385
+    },
+    {
+      "language": "schinese",
+      "k": 8,
+      "ari": 0.886292688012053
+    }
+  ],
+  "resampling_records": [
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "scope": "english_content_core",
+      "resample_seed": 2026111401,
+      "component_cosine": 0.997277816444787,
+      "converged": true,
+      "n": 1575,
+      "excluded_zero_or_outside": 24,
+      "ari": 0.9860896331486794,
+      "matched_accuracy": 0.9955555555555555,
+      "macro_cluster_jaccard": 0.9871268199308544,
+      "minimum_cluster_jaccard": 0.972972972972973,
+      "out_of_bag_n": 334,
+      "out_of_bag_ari": 0.9810201791081462,
+      "seconds": 0.04927339999994729
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "scope": "english_content_core",
+      "resample_seed": 2026111402,
+      "component_cosine": 0.9972025686377618,
+      "converged": true,
+      "n": 1576,
+      "excluded_zero_or_outside": 23,
+      "ari": 0.9716182534335289,
+      "matched_accuracy": 0.9898477157360406,
+      "macro_cluster_jaccard": 0.9672358667230069,
+      "minimum_cluster_jaccard": 0.9365079365079365,
+      "out_of_bag_n": 333,
+      "out_of_bag_ari": 0.9407286510460282,
+      "seconds": 0.04227280000122846
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "scope": "english_content_core",
+      "resample_seed": 2026111403,
+      "component_cosine": 0.8286698519158411,
+      "converged": true,
+      "n": 1575,
+      "excluded_zero_or_outside": 24,
+      "ari": 0.8093928383676524,
+      "matched_accuracy": 0.9276190476190476,
+      "macro_cluster_jaccard": 0.7802286745392079,
+      "minimum_cluster_jaccard": 0.0,
+      "out_of_bag_n": 332,
+      "out_of_bag_ari": 0.7843049290897709,
+      "seconds": 0.03964389999964624
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "scope": "english_content_core",
+      "resample_seed": 2026111404,
+      "component_cosine": 0.8268698849408685,
+      "converged": true,
+      "n": 1578,
+      "excluded_zero_or_outside": 21,
+      "ari": 0.7643983538233111,
+      "matched_accuracy": 0.9112801013941698,
+      "macro_cluster_jaccard": 0.7947436396982962,
+      "minimum_cluster_jaccard": 0.0,
+      "out_of_bag_n": 336,
+      "out_of_bag_ari": 0.7290127072689164,
+      "seconds": 0.04750310000235913
+    },
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "scope": "english_content_core",
+      "resample_seed": 2026111405,
+      "component_cosine": 0.8245142077955823,
+      "converged": true,
+      "n": 1576,
+      "excluded_zero_or_outside": 23,
+      "ari": 0.790700588890445,
+      "matched_accuracy": 0.9194162436548223,
+      "macro_cluster_jaccard": 0.7967207609058081,
+      "minimum_cluster_jaccard": 0.0,
+      "out_of_bag_n": 331,
+      "out_of_bag_ari": 0.8531444864798957,
+      "seconds": 0.042843399998673704
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "scope": "english_content_core",
+      "resample_seed": 2026111401,
+      "component_cosine": 0.747183813006614,
+      "converged": true,
+      "n": 1575,
+      "excluded_zero_or_outside": 24,
+      "ari": 0.6011880948914935,
+      "matched_accuracy": 0.8266666666666667,
+      "macro_cluster_jaccard": 0.6920262277251124,
+      "minimum_cluster_jaccard": 0.0,
+      "out_of_bag_n": 334,
+      "out_of_bag_ari": 0.6027655290896197,
+      "seconds": 0.05514319999929285
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "scope": "english_content_core",
+      "resample_seed": 2026111402,
+      "component_cosine": 0.9864744149298588,
+      "converged": true,
+      "n": 1576,
+      "excluded_zero_or_outside": 23,
+      "ari": 0.9207446997079878,
+      "matched_accuracy": 0.9701776649746193,
+      "macro_cluster_jaccard": 0.9301909039918189,
+      "minimum_cluster_jaccard": 0.7452830188679245,
+      "out_of_bag_n": 333,
+      "out_of_bag_ari": 0.9126872569671797,
+      "seconds": 0.05041549999805284
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "scope": "english_content_core",
+      "resample_seed": 2026111403,
+      "component_cosine": 0.8711737238431213,
+      "converged": true,
+      "n": 1575,
+      "excluded_zero_or_outside": 24,
+      "ari": 0.7175549680702645,
+      "matched_accuracy": 0.8768253968253968,
+      "macro_cluster_jaccard": 0.8230852335028795,
+      "minimum_cluster_jaccard": 0.0,
+      "out_of_bag_n": 332,
+      "out_of_bag_ari": 0.7532263018127291,
+      "seconds": 0.06874130000142031
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "scope": "english_content_core",
+      "resample_seed": 2026111404,
+      "component_cosine": 0.8426397566271935,
+      "converged": true,
+      "n": 1578,
+      "excluded_zero_or_outside": 21,
+      "ari": 0.792351560622776,
+      "matched_accuracy": 0.9144486692015209,
+      "macro_cluster_jaccard": 0.797823213010284,
+      "minimum_cluster_jaccard": 0.0,
+      "out_of_bag_n": 336,
+      "out_of_bag_ari": 0.7392493022422948,
+      "seconds": 0.05252900000050431
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "scope": "english_content_core",
+      "resample_seed": 2026111405,
+      "component_cosine": 0.8721774251995524,
+      "converged": true,
+      "n": 1576,
+      "excluded_zero_or_outside": 23,
+      "ari": 0.7345714859359074,
+      "matched_accuracy": 0.8851522842639594,
+      "macro_cluster_jaccard": 0.8382975145274432,
+      "minimum_cluster_jaccard": 0.0,
+      "out_of_bag_n": 331,
+      "out_of_bag_ari": 0.8103937508938045,
+      "seconds": 0.043854300001839874
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "scope": "schinese_content_core",
+      "resample_seed": 2026111401,
+      "component_cosine": 0.808812741833386,
+      "converged": true,
+      "n": 1272,
+      "excluded_zero_or_outside": 45,
+      "ari": 0.6418195000173258,
+      "matched_accuracy": 0.8553459119496856,
+      "macro_cluster_jaccard": 0.7293729025647995,
+      "minimum_cluster_jaccard": 0.012658227848101266,
+      "out_of_bag_n": 272,
+      "out_of_bag_ari": 0.5566698866441804,
+      "seconds": 0.04554250000001048
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "scope": "schinese_content_core",
+      "resample_seed": 2026111402,
+      "component_cosine": 0.8095816978227837,
+      "converged": true,
+      "n": 1269,
+      "excluded_zero_or_outside": 48,
+      "ari": 0.6429678329830345,
+      "matched_accuracy": 0.8644602048857368,
+      "macro_cluster_jaccard": 0.7424114433594423,
+      "minimum_cluster_jaccard": 0.0,
+      "out_of_bag_n": 270,
+      "out_of_bag_ari": 0.6564427843237873,
+      "seconds": 0.04487629999857745
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "scope": "schinese_content_core",
+      "resample_seed": 2026111403,
+      "component_cosine": 0.9954303063974863,
+      "converged": true,
+      "n": 1268,
+      "excluded_zero_or_outside": 49,
+      "ari": 0.920207208640994,
+      "matched_accuracy": 0.973186119873817,
+      "macro_cluster_jaccard": 0.9167933514439383,
+      "minimum_cluster_jaccard": 0.8305084745762712,
+      "out_of_bag_n": 272,
+      "out_of_bag_ari": 0.9648783260640706,
+      "seconds": 0.04233799999929033
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "scope": "schinese_content_core",
+      "resample_seed": 2026111404,
+      "component_cosine": 0.8088843994087602,
+      "converged": true,
+      "n": 1271,
+      "excluded_zero_or_outside": 46,
+      "ari": 0.6347278690554745,
+      "matched_accuracy": 0.8607395751376868,
+      "macro_cluster_jaccard": 0.7542251953448308,
+      "minimum_cluster_jaccard": 0.0,
+      "out_of_bag_n": 272,
+      "out_of_bag_ari": 0.6160605261791232,
+      "seconds": 0.04157150000173715
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "scope": "schinese_content_core",
+      "resample_seed": 2026111405,
+      "component_cosine": 0.8258888657306941,
+      "converged": true,
+      "n": 1269,
+      "excluded_zero_or_outside": 48,
+      "ari": 0.7680805374032574,
+      "matched_accuracy": 0.8754925137903862,
+      "macro_cluster_jaccard": 0.6683343818037998,
+      "minimum_cluster_jaccard": 0.007633587786259542,
+      "out_of_bag_n": 272,
+      "out_of_bag_ari": 0.7742579358775425,
+      "seconds": 0.0470448000014585
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "scope": "schinese_content_core",
+      "resample_seed": 2026111401,
+      "component_cosine": 0.9959803046846541,
+      "converged": true,
+      "n": 1272,
+      "excluded_zero_or_outside": 45,
+      "ari": 0.9424764825654327,
+      "matched_accuracy": 0.97562893081761,
+      "macro_cluster_jaccard": 0.9273817931639824,
+      "minimum_cluster_jaccard": 0.8356164383561644,
+      "out_of_bag_n": 272,
+      "out_of_bag_ari": 0.9476949127348543,
+      "seconds": 0.05689220000203932
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "scope": "schinese_content_core",
+      "resample_seed": 2026111402,
+      "component_cosine": 0.8681783468045458,
+      "converged": true,
+      "n": 1269,
+      "excluded_zero_or_outside": 48,
+      "ari": 0.8671749125978154,
+      "matched_accuracy": 0.9093774625689519,
+      "macro_cluster_jaccard": 0.7525343652664149,
+      "minimum_cluster_jaccard": 0.022222222222222223,
+      "out_of_bag_n": 270,
+      "out_of_bag_ari": 0.864747100792239,
+      "seconds": 0.04906000000119093
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "scope": "schinese_content_core",
+      "resample_seed": 2026111403,
+      "component_cosine": 0.8062604324425872,
+      "converged": true,
+      "n": 1268,
+      "excluded_zero_or_outside": 49,
+      "ari": 0.4660181881570611,
+      "matched_accuracy": 0.694794952681388,
+      "macro_cluster_jaccard": 0.5552523475502092,
+      "minimum_cluster_jaccard": 0.0,
+      "out_of_bag_n": 272,
+      "out_of_bag_ari": 0.4995683043733965,
+      "seconds": 0.05660440000065137
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "scope": "schinese_content_core",
+      "resample_seed": 2026111404,
+      "component_cosine": 0.8476070725588365,
+      "converged": true,
+      "n": 1271,
+      "excluded_zero_or_outside": 46,
+      "ari": 0.828920548490975,
+      "matched_accuracy": 0.8977183320220299,
+      "macro_cluster_jaccard": 0.7525730565189241,
+      "minimum_cluster_jaccard": 0.0,
+      "out_of_bag_n": 272,
+      "out_of_bag_ari": 0.7691828762605568,
+      "seconds": 0.050979600000573555
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "scope": "schinese_content_core",
+      "resample_seed": 2026111405,
+      "component_cosine": 0.9851454749278741,
+      "converged": true,
+      "n": 1269,
+      "excluded_zero_or_outside": 48,
+      "ari": 0.43099004773167837,
+      "matched_accuracy": 0.7533490937746257,
+      "macro_cluster_jaccard": 0.6342279459704909,
+      "minimum_cluster_jaccard": 0.40408163265306124,
+      "out_of_bag_n": 272,
+      "out_of_bag_ari": 0.429165261536086,
+      "seconds": 0.053437899998243665
+    }
+  ],
+  "resampling_summary": [
+    {
+      "candidate": "content_nmf_english_k6_s17",
+      "resamples": 5,
+      "scope": "english_content_core",
+      "ari": {
+        "mean": 0.8644399335327233,
+        "minimum": 0.7643983538233111,
+        "maximum": 0.9860896331486794
+      },
+      "out_of_bag_ari": {
+        "mean": 0.8576421905985514,
+        "minimum": 0.7290127072689164,
+        "maximum": 0.9810201791081462
+      },
+      "macro_cluster_jaccard": {
+        "mean": 0.8652111523594346,
+        "minimum": 0.7802286745392079,
+        "maximum": 0.9871268199308544
+      },
+      "minimum_cluster_jaccard": {
+        "mean": 0.3818961818961819,
+        "minimum": 0.0,
+        "maximum": 0.972972972972973
+      },
+      "component_cosine": {
+        "mean": 0.8949068659469681,
+        "minimum": 0.8245142077955823,
+        "maximum": 0.997277816444787
+      },
+      "nonconverged_runs": 0
+    },
+    {
+      "candidate": "content_nmf_english_k8_s17",
+      "resamples": 5,
+      "scope": "english_content_core",
+      "ari": {
+        "mean": 0.753282161845686,
+        "minimum": 0.6011880948914935,
+        "maximum": 0.9207446997079878
+      },
+      "out_of_bag_ari": {
+        "mean": 0.7636644282011256,
+        "minimum": 0.6027655290896197,
+        "maximum": 0.9126872569671797
+      },
+      "macro_cluster_jaccard": {
+        "mean": 0.8162846185515076,
+        "minimum": 0.6920262277251124,
+        "maximum": 0.9301909039918189
+      },
+      "minimum_cluster_jaccard": {
+        "mean": 0.1490566037735849,
+        "minimum": 0.0,
+        "maximum": 0.7452830188679245
+      },
+      "component_cosine": {
+        "mean": 0.8639298267212681,
+        "minimum": 0.747183813006614,
+        "maximum": 0.9864744149298588
+      },
+      "nonconverged_runs": 0
+    },
+    {
+      "candidate": "content_nmf_schinese_k6_s17",
+      "resamples": 5,
+      "scope": "schinese_content_core",
+      "ari": {
+        "mean": 0.7215605896200172,
+        "minimum": 0.6347278690554745,
+        "maximum": 0.920207208640994
+      },
+      "out_of_bag_ari": {
+        "mean": 0.7136618918177408,
+        "minimum": 0.5566698866441804,
+        "maximum": 0.9648783260640706
+      },
+      "macro_cluster_jaccard": {
+        "mean": 0.7622274549033621,
+        "minimum": 0.6683343818037998,
+        "maximum": 0.9167933514439383
+      },
+      "minimum_cluster_jaccard": {
+        "mean": 0.1701600580421264,
+        "minimum": 0.0,
+        "maximum": 0.8305084745762712
+      },
+      "component_cosine": {
+        "mean": 0.849719602238622,
+        "minimum": 0.808812741833386,
+        "maximum": 0.9954303063974863
+      },
+      "nonconverged_runs": 0
+    },
+    {
+      "candidate": "content_nmf_schinese_k8_s17",
+      "resamples": 5,
+      "scope": "schinese_content_core",
+      "ari": {
+        "mean": 0.7071160359085924,
+        "minimum": 0.43099004773167837,
+        "maximum": 0.9424764825654327
+      },
+      "out_of_bag_ari": {
+        "mean": 0.7020716911394265,
+        "minimum": 0.429165261536086,
+        "maximum": 0.9476949127348543
+      },
+      "macro_cluster_jaccard": {
+        "mean": 0.7243939016940043,
+        "minimum": 0.5552523475502092,
+        "maximum": 0.9273817931639824
+      },
+      "minimum_cluster_jaccard": {
+        "mean": 0.2523840586462896,
+        "minimum": 0.0,
+        "maximum": 0.8356164383561644
+      },
+      "component_cosine": {
+        "mean": 0.9006343262836995,
+        "minimum": 0.8062604324425872,
+        "maximum": 0.9959803046846541
+      },
+      "nonconverged_runs": 0
+    }
+  ],
+  "sources": {
+    "config/topic_rework_nmf.json": "8b935df9d6819a3f1a13e8aa6aa846117a2b0cf24164f721462cee068cf9ba96",
+    "config/topic_rework_residual.json": "2edf38cc20200a00e5c8bbcc2ed61018690976e29b34ecf12b6ae1dddec34174",
+    "config/nmf_baseline_aspect.json": "c9e8c011666b7003129927094dcbf03c76c9e9514161ec42f1a9144d2218763a",
+    "data/derived/embedding-bge/freeze_20261101-v1/model_reviews.jsonl": "ae68672beffbb8f424450296f9f418ad4c856125724fae80013e4a370aedcbde",
+    "data/metadata/freeze_20261101/game_meta.csv": "f10d70b21d39a3e5871a04cdc636ee31900b52c3c258f2b9c6bfdc443b32b546",
+    "scripts/rework_nmf_topics.py": "3c1338fe429c6ec690fe91b1a8bcc74be5ca09775e809329383d67b99f65c740",
+    "scripts/rework_unsupervised_topics.py": "a6b6ef802aa24d78e7ef41abfbeb9ae465c40d779a774835923e4774327e1c69",
+    "scripts/nmf_baseline.py": "cc64236466a2e43605e9b586983372fd308f8cc01951d4c5d527639ecfcd7d64",
+    "scripts/analysis_common.py": "0395246da340610d78101365aa3713f1f46be73243c6c0f946fd776f7412df3e",
+    "scripts/check_topic_stability.py": "50f4b27b0fdf7526365a1fb6b42d4a35e5fccb92ab6d38fa4b7341f6e3014167"
+  },
+  "human_labels_used_for_training": false,
+  "recommendation_labels_used": false,
+  "task12_topics_frozen": false,
+  "seconds": 1.9372746000008192
+}

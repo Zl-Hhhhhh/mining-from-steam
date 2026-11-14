@@ -1,0 +1,4412 @@
+{
+  "schema_version": "1.0",
+  "package_id": "steam-review-20261107-v1",
+  "generated_at": "2026-11-14T05:44:04.222574+00:00",
+  "original_coordinator_key_found": false,
+  "status": "all_30_group_anchors_reconstructed",
+  "method": "Exact text after whitespace normalization; all six examples must share one raw topic; one archived run per model/language family and distinct topics across its groups; BGE center examples must also occur in published center or center_language rows.",
+  "limitations": [
+    "This is a reconstruction within available archived candidates, not the original anonymization manifest.",
+    "A single group can match multiple runs; joint family coverage and center evidence disambiguate the anchor.",
+    "Repeated identical texts may leave the exact recommendation ID ambiguous; all compatible IDs are retained.",
+    "Source language is the dataset language field, not a new human actual-language annotation.",
+    "Raw NMF topic_index does not override provisional no_clear_theme or create a final theme.",
+    "Recovered k=10/seed=17 are review anchors, not a final model choice or topic freeze."
+  ],
+  "generator_sha256": "79fe3d6634e084538040e747126fa0a4549d70128fde0106e08779145327806f",
+  "sources": [
+    {
+      "path": "docs/review/review_sample.json",
+      "sha256": "3b26cf445258490656ec0b79dd379e208811ebc7ba283b442c4538fd5e7d626e"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/clean_master.csv",
+      "sha256": "800709f6e3a02e8631a7111b06c190213984122fed948fc0f82ef8fa72992c0c"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/representative_reviews.csv",
+      "sha256": "5b0f3a46439d1d651407664d9685ec47a9999e52c5e17966a1e9eb5903ea8ad5"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s17/assignments.csv",
+      "sha256": "6ddc6d18c47dde20d222e4606e4d5afccf0ad913e716b4310251a924ba4bb185"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k10_s42/assignments.csv",
+      "sha256": "802e0ea77bd2636e4b60322c8545813a4d25d2d0432cf84c56a164871c56b207"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s17/assignments.csv",
+      "sha256": "4ab8eb837bb9e4370fcfa33c780d7ac01416c83c5b56f62921f589943a40950c"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k14_s42/assignments.csv",
+      "sha256": "62f851bdf5241b7f2298e2635abb240cf01f584a0b8fc04c40f5ed9d7079e541"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s17/assignments.csv",
+      "sha256": "64fc7dfc59dc7b7ecc02bb143cdb2ac1a9ff319fadf064f1960aa6f4bcb50ee6"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/english_k6_s42/assignments.csv",
+      "sha256": "7a13af920a36b3c5333ec1095b00b88b39ad7d8d7bfc2a165be950e503147dd3"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s17/assignments.csv",
+      "sha256": "13e42a9b6cfca5c6488e8fc1168ffab7a4d3b7e05ad55bfc1c427d509b4d9ec2"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k10_s42/assignments.csv",
+      "sha256": "04454d4546365cb5736e4794f162c66470d79346c8eb11f8fbdb33544f934f1c"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s17/assignments.csv",
+      "sha256": "c9083b2ce0c62e125af7523500e9bb67d00a736ea59338ed02841ff4b650e17b"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k14_s42/assignments.csv",
+      "sha256": "2e0ac3b1d903e658ba4c1a8915ab3c4c713f9fc31e312135093eed9d3cd9174a"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s17/assignments.csv",
+      "sha256": "dae9f368d2d0ab58240e48e148299d98559dc0e3ea84b3a451317c28207d7960"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101/schinese_k6_s42/assignments.csv",
+      "sha256": "0712f3b2d277989a0760799a06b53c408229d2ef009685d530f47c04994b8d01"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv",
+      "sha256": "927d54df0f387b42842fa7df559585d3071b1b0d5c18ed0edf57c37298593325"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s42/assignments.csv",
+      "sha256": "e9eb61430a223ff2acd5e295704253f929ed477a34297c8b3028cb217069efd9"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s17/assignments.csv",
+      "sha256": "14c52bdc30e84c1aebbb11e35dea14603e7eedf68bdf6d64d49645e874fe0eb0"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s42/assignments.csv",
+      "sha256": "e5e1b6a38e6bfa158076325e7a6f0bfc9ccf8193b464b7c4aa583e35fa61d6db"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s17/assignments.csv",
+      "sha256": "0893befe70121560ed6468003a5650ed636ffcb307b2fd47cba411da5f6656b8"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s42/assignments.csv",
+      "sha256": "3f119774fd593f9bef0c84b5eb8c505e3b299c21ecdcbe3674a596de00f6538b"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv",
+      "sha256": "08c0bb1006b809f08a92a2d395d58a64c1fddef1bcc99b5c344d4a3d9060fff8"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s42/assignments.csv",
+      "sha256": "25a3c0f53214e8fa3b111289a9a094b2a4a7b32fd45aaab978c407d084e382bf"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s17/assignments.csv",
+      "sha256": "cad1cfadbf6ac8b79015ce6e2d99fa1f54f7098f7ed94b81d0c6211114e39172"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s42/assignments.csv",
+      "sha256": "9272023f3c2b4aa505cc91b7f27c172069cd006ac3638f19538768166bddd361"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s17/assignments.csv",
+      "sha256": "5419e596e47c713dae8b9894fb993af8dc78f61f4eb6284b7d1727847a8ad68d"
+    },
+    {
+      "path": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s42/assignments.csv",
+      "sha256": "a2a10b0267df5dcaec6a27b2b68ddae2d175efb15c2abf644fd6bd38989b3199"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/average_k10/assignments.csv",
+      "sha256": "1d3e3e7e3f0b2564e8142bdcae7bbe226ee5e22341ee7a1d5a815e533830862d"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/average_k14/assignments.csv",
+      "sha256": "c3c677416beedf8e6eaddc90289ea63876fb0602f99272b28003bb27a91b840d"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/average_k6/assignments.csv",
+      "sha256": "2801cd9d2aad684bc2b039ee2588fa2e122f1ed1de4faf703ccc61bf134daa04"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/common_kmeans_k10_s17/assignments.csv",
+      "sha256": "c7fa25e062daa08668e44c0080cfaf9a09e9caf7ed196b675f371948068c2b03"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/common_kmeans_k14_s17/assignments.csv",
+      "sha256": "e61a1a16a31f3a42ff4a5a024364efb74d79cdbbaa3d2a15e9fa35b87b3ce2e8"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/common_kmeans_k6_s17/assignments.csv",
+      "sha256": "d8dea4757dece03f8b39856406f93bb8f0f3a9f8e9e4695ac8757da6fb14020c"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv",
+      "sha256": "b8e102cf32c1ccf6921b8877135e5a1eee1e19c0cd51a65c166607ac1add317f"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s42/assignments.csv",
+      "sha256": "ec826ebfb782dbda1c15c9123849cd6c945c616fca068c17aae37b2e3195062b"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s17/assignments.csv",
+      "sha256": "70235b25589567d8c2154937b893c808d8659c164f0c16461c33b467ba242512"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s42/assignments.csv",
+      "sha256": "4a0732bec746628d749a0b38c458d7ea31e494b72dd64521e20a542e3b8dc42b"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s17/assignments.csv",
+      "sha256": "be92fdb8d9d38aff1573e0d0c87ea856f8512a03f3b9d423f1719491198bae51"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s42/assignments.csv",
+      "sha256": "13d8f4712e8bedf277493eba2b92e0e3abade0763cb99e6ebd9093e02fdfb76f"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/ward_k10/assignments.csv",
+      "sha256": "3391845ac16ffb312df68a4485368f93cb78a328b5ea28b9dfa6c582c5572228"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/ward_k14/assignments.csv",
+      "sha256": "7ece643a3a56d02ed94da4a7fec6110469c26b13b5b4666dfd0c2c8d044ff3f1"
+    },
+    {
+      "path": "output/clustering-bge/freeze_20261101-v1/ward_k6/assignments.csv",
+      "sha256": "4874b05590ee9bcb8a5130cede9211ddbdfd2b1efc24aef636736aa7188aea27"
+    }
+  ],
+  "anchors": [
+    {
+      "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "candidate": "full_kmeans_k10_s17",
+      "family": "bge_shared",
+      "source_language": "shared_multilingual",
+      "model": "BGE-M3 + KMeans",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv"
+    },
+    {
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "candidate": "english_k10_s17",
+      "family": "nmf_english",
+      "source_language": "english",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv"
+    },
+    {
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "candidate": "schinese_k10_s17",
+      "family": "nmf_schinese",
+      "source_language": "schinese",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv"
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "G01",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "candidate": "schinese_k10_s17",
+      "family": "nmf_schinese",
+      "source_language": "schinese",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv",
+      "topic_index": 0,
+      "topic_id": "schinese:T00",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G01-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237040142"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237040142"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G01-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237532481"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237532481"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G01-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238818325"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238818325"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G01-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239061217"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239061217"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G01-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "237351183"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237351183"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G01-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238535655"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238535655"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s42",
+          "topic_indices": [
+            8
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s42",
+          "topic_indices": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G02",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "candidate": "schinese_k10_s17",
+      "family": "nmf_schinese",
+      "source_language": "schinese",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv",
+      "topic_index": 3,
+      "topic_id": "schinese:T03",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G02-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237425895"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237425895"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G02-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237627684"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237627684"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G02-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237703827"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237703827"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G02-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238817242"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238817242"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G02-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238621314"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238621314"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G02-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238876295"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238876295"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/schinese_k6_s42",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s42",
+          "topic_indices": [
+            2
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s17",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s42",
+          "topic_indices": [
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G03",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "candidate": "schinese_k10_s17",
+      "family": "nmf_schinese",
+      "source_language": "schinese",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv",
+      "topic_index": 7,
+      "topic_id": "schinese:T07",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G03-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237604021"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237604021"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G03-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237672144"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237672144"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G03-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238602183"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238602183"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G03-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238304014"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238304014"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G03-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238588541"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238588541"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G03-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239058866"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239058866"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s42",
+          "topic_indices": [
+            7
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s17",
+          "topic_indices": [
+            7
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s42",
+          "topic_indices": [
+            7
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s17",
+          "topic_indices": [
+            4
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s42",
+          "topic_indices": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G04",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "candidate": "schinese_k10_s17",
+      "family": "nmf_schinese",
+      "source_language": "schinese",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv",
+      "topic_index": 2,
+      "topic_id": "schinese:T02",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G04-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "233905970"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "233905970"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G04-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "235630569"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "235630569"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G04-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "235901110"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "235901110"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G04-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238911966"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238911966"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G04-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238374640"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238374640"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G04-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "235297003"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "235297003"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/schinese_k14_s17",
+          "topic_indices": [
+            10
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s17",
+          "topic_indices": [
+            2
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s42",
+          "topic_indices": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G05",
+      "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "candidate": "full_kmeans_k10_s17",
+      "family": "bge_shared",
+      "source_language": "shared_multilingual",
+      "model": "BGE-M3 + KMeans",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv",
+      "topic_index": 4,
+      "topic_id": "4",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G05-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238656429"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238656429"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G05-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238865970",
+            "239115075"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238865970",
+            "239115075"
+          ],
+          "source_id_unique": false,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G05-E3",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238479681",
+            "239076853",
+            "239130173",
+            "239148525"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238479681",
+            "239076853",
+            "239130173",
+            "239148525"
+          ],
+          "source_id_unique": false,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G05-E4",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238675144"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238675144"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G05-E5",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238212891"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238212891"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G05-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238982194"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238982194"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s42",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s17",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s42",
+          "topic_indices": [
+            13
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s17",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s42",
+          "topic_indices": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G06",
+      "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "candidate": "full_kmeans_k10_s17",
+      "family": "bge_shared",
+      "source_language": "shared_multilingual",
+      "model": "BGE-M3 + KMeans",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv",
+      "topic_index": 2,
+      "topic_id": "2",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G06-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238636682"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238636682"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G06-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "239101492"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239101492"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G06-E3",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239059685"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239059685"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G06-E4",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238280489"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238280489"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G06-E5",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "236141939"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "236141939"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G06-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "234623038"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "234623038"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s42",
+          "topic_indices": [
+            8
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s42",
+          "topic_indices": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G07",
+      "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "candidate": "full_kmeans_k10_s17",
+      "family": "bge_shared",
+      "source_language": "shared_multilingual",
+      "model": "BGE-M3 + KMeans",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv",
+      "topic_index": 9,
+      "topic_id": "9",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G07-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238957763"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238957763"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G07-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238734492"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238734492"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G07-E3",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238134618"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238134618"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G07-E4",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "236955741"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "236955741"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G07-E5",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "231431841"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "231431841"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G07-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "237881896"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237881896"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s42",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s17",
+          "topic_indices": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G08",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "candidate": "english_k10_s17",
+      "family": "nmf_english",
+      "source_language": "english",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv",
+      "topic_index": 7,
+      "topic_id": "english:T07",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G08-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238179811"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238179811"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G08-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238340015"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238340015"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G08-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238605354"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238605354"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G08-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238456348"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238456348"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G08-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238483088"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238483088"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G08-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238986904"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238986904"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s17",
+          "topic_indices": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G09",
+      "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "candidate": "full_kmeans_k10_s17",
+      "family": "bge_shared",
+      "source_language": "shared_multilingual",
+      "model": "BGE-M3 + KMeans",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv",
+      "topic_index": 1,
+      "topic_id": "1",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G09-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238879933"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238879933"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G09-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "239139597"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239139597"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G09-E3",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238933014"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238933014"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G09-E4",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238985987"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238985987"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G09-E5",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238361193"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238361193"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G09-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238945100"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238945100"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s42",
+          "topic_indices": [
+            7
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s17",
+          "topic_indices": [
+            7
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s42",
+          "topic_indices": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G10",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "candidate": "english_k10_s17",
+      "family": "nmf_english",
+      "source_language": "english",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv",
+      "topic_index": 6,
+      "topic_id": "english:T06",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G10-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "236538880"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "236538880"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G10-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237171782"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237171782"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G10-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237254176"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237254176"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G10-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "236564499"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "236564499"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G10-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238574862"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238574862"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G10-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238803572"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238803572"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k10_s42",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k6_s17",
+          "topic_indices": [
+            4
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k6_s42",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s42",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s17",
+          "topic_indices": [
+            6
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s42",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s17",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s42",
+          "topic_indices": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G11",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "candidate": "schinese_k10_s17",
+      "family": "nmf_schinese",
+      "source_language": "schinese",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv",
+      "topic_index": 9,
+      "topic_id": "schinese:T09",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G11-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "233653995",
+            "239106694"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "233653995",
+            "239106694"
+          ],
+          "source_id_unique": false,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G11-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "235444489",
+            "239006979"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "235444489",
+            "239006979"
+          ],
+          "source_id_unique": false,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G11-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237930714"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237930714"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G11-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238792978"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238792978"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G11-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238014046"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238014046"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G11-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "236706535",
+            "238754847",
+            "238967693"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "236706535",
+            "238754847",
+            "238967693"
+          ],
+          "source_id_unique": false,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s42",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s17",
+          "topic_indices": [
+            9
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s42",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s17",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s42",
+          "topic_indices": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G12",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "candidate": "english_k10_s17",
+      "family": "nmf_english",
+      "source_language": "english",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv",
+      "topic_index": 3,
+      "topic_id": "english:T03",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G12-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238049756"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238049756"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G12-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238719297"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238719297"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G12-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238748269"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238748269"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G12-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "237321256"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237321256"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G12-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239030484"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239030484"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G12-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238390522"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238390522"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k10_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k10_s42",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s42",
+          "topic_indices": [
+            4
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s17",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s42",
+          "topic_indices": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G13",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "candidate": "english_k10_s17",
+      "family": "nmf_english",
+      "source_language": "english",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv",
+      "topic_index": 2,
+      "topic_id": "english:T02",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G13-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237102563"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237102563"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G13-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238310779"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238310779"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G13-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238651809"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238651809"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G13-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238686540"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238686540"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G13-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239148640"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239148640"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G13-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238588828"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238588828"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s17",
+          "topic_indices": [
+            8
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s42",
+          "topic_indices": [
+            12
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s17",
+          "topic_indices": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G14",
+      "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "candidate": "full_kmeans_k10_s17",
+      "family": "bge_shared",
+      "source_language": "shared_multilingual",
+      "model": "BGE-M3 + KMeans",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv",
+      "topic_index": 7,
+      "topic_id": "7",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G14-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238499086"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238499086"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G14-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238486393"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238486393"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G14-E3",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238837963"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238837963"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G14-E4",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238228185"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238228185"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G14-E5",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238614329"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238614329"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G14-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239099736"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239099736"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s42",
+          "topic_indices": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G15",
+      "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "candidate": "full_kmeans_k10_s17",
+      "family": "bge_shared",
+      "source_language": "shared_multilingual",
+      "model": "BGE-M3 + KMeans",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv",
+      "topic_index": 3,
+      "topic_id": "3",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G15-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238347901"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238347901"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G15-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238927659"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238927659"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G15-E3",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238814338"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238814338"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G15-E4",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "239105385"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239105385"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G15-E5",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238804790"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238804790"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G15-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239025924"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239025924"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s42",
+          "topic_indices": [
+            4
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s42",
+          "topic_indices": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G16",
+      "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "candidate": "full_kmeans_k10_s17",
+      "family": "bge_shared",
+      "source_language": "shared_multilingual",
+      "model": "BGE-M3 + KMeans",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv",
+      "topic_index": 6,
+      "topic_id": "6",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G16-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "239073136"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239073136"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G16-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238963201",
+            "239080533"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238963201",
+            "239080533"
+          ],
+          "source_id_unique": false,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G16-E3",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239092683"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239092683"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G16-E4",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "239080777"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239080777"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G16-E5",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237696812",
+            "239005429"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237696812",
+            "239005429"
+          ],
+          "source_id_unique": false,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G16-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238605576"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238605576"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s42",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s17",
+          "topic_indices": [
+            8
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s42",
+          "topic_indices": [
+            4
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s17",
+          "topic_indices": [
+            2
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s42",
+          "topic_indices": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G17",
+      "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "candidate": "full_kmeans_k10_s17",
+      "family": "bge_shared",
+      "source_language": "shared_multilingual",
+      "model": "BGE-M3 + KMeans",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv",
+      "topic_index": 8,
+      "topic_id": "8",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G17-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238381527"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238381527"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G17-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238680512"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238680512"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G17-E3",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239040563"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239040563"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G17-E4",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238518634"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238518634"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G17-E5",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "233642698"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "233642698"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G17-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238663781"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238663781"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s42",
+          "topic_indices": [
+            9
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s17",
+          "topic_indices": [
+            2
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s42",
+          "topic_indices": [
+            2
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s17",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s42",
+          "topic_indices": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G18",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "candidate": "english_k10_s17",
+      "family": "nmf_english",
+      "source_language": "english",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv",
+      "topic_index": 5,
+      "topic_id": "english:T05",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G18-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238830372"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238830372"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G18-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237036203"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237036203"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G18-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "236545030"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "236545030"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G18-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238702037"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238702037"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G18-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238786939"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238786939"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G18-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239110497"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239110497"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k10_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k10_s42",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k6_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k6_s42",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s42",
+          "topic_indices": [
+            7
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s17",
+          "topic_indices": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G19",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "candidate": "english_k10_s17",
+      "family": "nmf_english",
+      "source_language": "english",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv",
+      "topic_index": 1,
+      "topic_id": "english:T01",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G19-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238626769"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238626769"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G19-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238657260"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238657260"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G19-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238710797"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238710797"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G19-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238581728"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238581728"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G19-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238573383"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238573383"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G19-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238220460"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238220460"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s42",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s17",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s42",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s17",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s42",
+          "topic_indices": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G20",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "candidate": "schinese_k10_s17",
+      "family": "nmf_schinese",
+      "source_language": "schinese",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv",
+      "topic_index": 5,
+      "topic_id": "schinese:T05",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G20-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "233270396"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "233270396"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G20-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "233316858"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "233316858"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G20-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "235324650"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "235324650"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G20-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "237995064"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237995064"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G20-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239016195"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239016195"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G20-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238824828"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238824828"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s42",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s17",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s42",
+          "topic_indices": [
+            11
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s17",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s42",
+          "topic_indices": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G21",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "candidate": "english_k10_s17",
+      "family": "nmf_english",
+      "source_language": "english",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv",
+      "topic_index": 9,
+      "topic_id": "english:T09",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G21-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "236531788"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "236531788"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G21-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237833404"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237833404"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G21-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237907283"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237907283"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G21-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239139147"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239139147"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G21-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239138410"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239138410"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G21-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239030028"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239030028"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s42",
+          "topic_indices": [
+            2
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s17",
+          "topic_indices": [
+            9
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s42",
+          "topic_indices": [
+            11
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s17",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s42",
+          "topic_indices": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G22",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "candidate": "english_k10_s17",
+      "family": "nmf_english",
+      "source_language": "english",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv",
+      "topic_index": 0,
+      "topic_id": "english:T00",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G22-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238703411"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238703411"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G22-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "239008857"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239008857"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G22-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "239101054"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239101054"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G22-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239052526"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239052526"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G22-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238322695"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238322695"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G22-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238255553"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238255553"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k10_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k10_s42",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k14_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k14_s42",
+          "topic_indices": [
+            3
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k6_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k6_s42",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s42",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s42",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s17",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s42",
+          "topic_indices": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G23",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "candidate": "schinese_k10_s17",
+      "family": "nmf_schinese",
+      "source_language": "schinese",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv",
+      "topic_index": 1,
+      "topic_id": "schinese:T01",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G23-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237193953"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237193953"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G23-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237208510"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237208510"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G23-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237996114"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237996114"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G23-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239078138"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239078138"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G23-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "237941773"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237941773"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G23-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238974409"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238974409"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s42",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s17",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s42",
+          "topic_indices": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G24",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "candidate": "schinese_k10_s17",
+      "family": "nmf_schinese",
+      "source_language": "schinese",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv",
+      "topic_index": 4,
+      "topic_id": "schinese:T04",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G24-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238373914"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238373914"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G24-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238534578"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238534578"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G24-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238897010"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238897010"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G24-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238754156"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238754156"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G24-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238914573"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238914573"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G24-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238604336"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238604336"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s42",
+          "topic_indices": [
+            9
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s42",
+          "topic_indices": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G25",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "candidate": "english_k10_s17",
+      "family": "nmf_english",
+      "source_language": "english",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv",
+      "topic_index": 8,
+      "topic_id": "english:T08",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G25-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "235868401"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "235868401"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G25-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "236614933"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "236614933"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G25-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237088728"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237088728"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G25-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238621881"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238621881"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G25-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238874037"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238874037"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G25-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238583592"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238583592"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k10_s17",
+          "topic_indices": [
+            6
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k10_s42",
+          "topic_indices": [
+            6
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k14_s17",
+          "topic_indices": [
+            6
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k14_s42",
+          "topic_indices": [
+            6
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k6_s17",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/english_k6_s42",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s42",
+          "topic_indices": [
+            9
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s17",
+          "topic_indices": [
+            2
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k14_s42",
+          "topic_indices": [
+            2
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s17",
+          "topic_indices": [
+            2
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s42",
+          "topic_indices": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G26",
+      "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "candidate": "full_kmeans_k10_s17",
+      "family": "bge_shared",
+      "source_language": "shared_multilingual",
+      "model": "BGE-M3 + KMeans",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv",
+      "topic_index": 5,
+      "topic_id": "5",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G26-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238844908"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238844908"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G26-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237435208"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237435208"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G26-E3",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "236535959"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "236535959"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G26-E4",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "237634671"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237634671"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G26-E5",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "230213140",
+            "231665487",
+            "235007836",
+            "235595033",
+            "236691144",
+            "237610185",
+            "237913949",
+            "237937741",
+            "237999258",
+            "238066827",
+            "238290818",
+            "238388434",
+            "238451850",
+            "238522728",
+            "238525893",
+            "238593721",
+            "238607967",
+            "238615472",
+            "238623042",
+            "238674338",
+            "238680135",
+            "238690729",
+            "238722348",
+            "238728615",
+            "238731394",
+            "238742338",
+            "238796162",
+            "238808636",
+            "238815023",
+            "238895839",
+            "238906787",
+            "238911131",
+            "238911717",
+            "238961866",
+            "238987544",
+            "238988949",
+            "238992940",
+            "238997902",
+            "239016760",
+            "239016957",
+            "239018065",
+            "239018113",
+            "239018162",
+            "239019345",
+            "239022309",
+            "239024223",
+            "239062259",
+            "239070227",
+            "239072201",
+            "239076322",
+            "239078451",
+            "239094525"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "230213140",
+            "231665487",
+            "235007836",
+            "235595033",
+            "236691144",
+            "237610185",
+            "237913949",
+            "237937741",
+            "237999258",
+            "238066827",
+            "238290818",
+            "238388434",
+            "238451850",
+            "238522728",
+            "238525893",
+            "238593721",
+            "238607967",
+            "238615472",
+            "238623042",
+            "238674338",
+            "238680135",
+            "238690729",
+            "238722348",
+            "238728615",
+            "238731394",
+            "238742338",
+            "238796162",
+            "238808636",
+            "238815023",
+            "238895839",
+            "238906787",
+            "238911131",
+            "238911717",
+            "238961866",
+            "238987544",
+            "238988949",
+            "238992940",
+            "238997902",
+            "239016760",
+            "239016957",
+            "239018065",
+            "239018113",
+            "239018162",
+            "239019345",
+            "239022309",
+            "239024223",
+            "239062259",
+            "239070227",
+            "239072201",
+            "239076322",
+            "239078451",
+            "239094525"
+          ],
+          "source_id_unique": false,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G26-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238530310"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238530310"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s42",
+          "topic_indices": [
+            6
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s17",
+          "topic_indices": [
+            4
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s42",
+          "topic_indices": [
+            6
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s17",
+          "topic_indices": [
+            4
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k6_s42",
+          "topic_indices": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G27",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "candidate": "schinese_k10_s17",
+      "family": "nmf_schinese",
+      "source_language": "schinese",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv",
+      "topic_index": 6,
+      "topic_id": "schinese:T06",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G27-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238772505"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238772505"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G27-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238295067"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238295067"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G27-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238885474"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238885474"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G27-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "235637329"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "235637329"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G27-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "237279260"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "237279260"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G27-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238967987"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238967987"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/schinese_k10_s17",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/schinese_k10_s42",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/schinese_k14_s17",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/schinese_k14_s42",
+          "topic_indices": [
+            5
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/schinese_k6_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101/schinese_k6_s42",
+          "topic_indices": [
+            1
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s42",
+          "topic_indices": [
+            6
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s17",
+          "topic_indices": [
+            12
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s42",
+          "topic_indices": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G28",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "candidate": "schinese_k10_s17",
+      "family": "nmf_schinese",
+      "source_language": "schinese",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17/assignments.csv",
+      "topic_index": 8,
+      "topic_id": "schinese:T08",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G28-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238146666"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238146666"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G28-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238593038"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238593038"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G28-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238921313"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238921313"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G28-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238789909"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238789909"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G28-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "235346285"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "235346285"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G28-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "232591725"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "232591725"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s42",
+          "topic_indices": [
+            4
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s17",
+          "topic_indices": [
+            8
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k14_s42",
+          "topic_indices": [
+            10
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s17",
+          "topic_indices": [
+            0
+          ]
+        },
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k6_s42",
+          "topic_indices": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G29",
+      "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "candidate": "english_k10_s17",
+      "family": "nmf_english",
+      "source_language": "english",
+      "model": "TF-IDF + NMF",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17/assignments.csv",
+      "topic_index": 4,
+      "topic_id": "english:T04",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G29-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "236852985"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "236852985"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G29-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238278418"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238278418"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G29-E3",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238911039"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238911039"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G29-E4",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238442143"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238442143"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G29-E5",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "236535959"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "236535959"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G29-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "239082661"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239082661"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k6_s17",
+          "topic_indices": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "G30",
+      "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "candidate": "full_kmeans_k10_s17",
+      "family": "bge_shared",
+      "source_language": "shared_multilingual",
+      "model": "BGE-M3 + KMeans",
+      "k": 10,
+      "seed": 17,
+      "assignment_file": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17/assignments.csv",
+      "topic_index": 0,
+      "topic_id": "0",
+      "status": "reconstructed_from_archived_evidence",
+      "examples": [
+        {
+          "example_id": "G30-E1",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "239057106"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239057106"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G30-E2",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238798000"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238798000"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G30-E3",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "238754207"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238754207"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "english"
+          ],
+          "published_bge_center_match": null
+        },
+        {
+          "example_id": "G30-E4",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "238007146"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "238007146"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G30-E5",
+          "kind": "center",
+          "matching_review_ids_in_master": [
+            "239136256"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "239136256"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": true
+        },
+        {
+          "example_id": "G30-E6",
+          "kind": "random",
+          "matching_review_ids_in_master": [
+            "234831413"
+          ],
+          "matching_ids_in_anchor_topic": [
+            "234831413"
+          ],
+          "source_id_unique": true,
+          "source_languages": [
+            "schinese"
+          ],
+          "published_bge_center_match": null
+        }
+      ],
+      "other_six_example_compatible_runs": [
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s42",
+          "topic_indices": [
+            2
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s17",
+          "topic_indices": [
+            11
+          ]
+        },
+        {
+          "run_id": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k14_s42",
+          "topic_indices": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "task12_topics_frozen": false
+}

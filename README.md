@@ -10,7 +10,11 @@ AIAA3111 课程项目：通过 Steam 官方接口、GitHub 开源工具和研究
 
 ## Task11：双人核验与裁决（2026-11-14）
 
-A/B的300条标注和30组命名已导入[docs/review/](docs/review/README.md)，原始一致性统计保留。双方分工复核草稿已收齐，180条评论和30组已按意见及规则生成AI裁决，已进行简单人工review。打开[裁决检查页](output/topic_review/steam-review-20261107-v1/adjudicated-20261114/裁决检查.html)查看修改，[裁决说明](output/topic_review/steam-review-20261107-v1/adjudicated-20261114/裁决说明.md)列出处理结果。
+A/B的300条标注和30组命名已导入[docs/review/](docs/review/README.md)，原始一致性统计保留。双方分工复核草稿已收齐，180条评论和30组已按意见及规则生成AI裁决，已进行简单人工review。打开[裁决检查页](output/topic_review/steam-review-20261107-v1/adjudicated-20261114/裁决检查.html)查看修改，[裁决说明](output/topic_review/steam-review-20261107-v1/adjudicated-20261114/裁决说明.md)列出处理结果。[30组候选来源](output/topic_review/steam-review-20261107-v1/source_mapping/README.md)已依据归档逐条归属和中心例子重建；待落实候选调整、稳定性检查和Task12主题冻结。
+
+## Task12：稳定性与无监督重做
+
+已完成原18个候选的90次重采样，并新增20个纯无监督候选。当前仍有混杂，暂不冻结；[检查结果与下一步](output/topic_selection/task12-20261114/handoff/README.md)包含30组处理表及句子编码交接输入。
 
 ## 已配置的数据来源
 

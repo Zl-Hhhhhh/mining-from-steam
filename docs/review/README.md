@@ -1,6 +1,6 @@
 # Task11 双人答卷与人工复核
 
-2026-11-14：双方分工复核草稿已收齐，180条评论和30组均已填写；已按意见及规则生成本轮 AI 裁决，B-Lin 已在项目对话中表示认可。当前入口为[裁决说明](../../output/topic_review/steam-review-20261107-v1/adjudicated-20261114/裁决说明.md)和[裁决检查页](../../output/topic_review/steam-review-20261107-v1/adjudicated-20261114/裁决检查.html)。认可记录绑定结果哈希，见[human_confirmation.json](../../output/topic_review/steam-review-20261107-v1/adjudicated-20261114/human_confirmation.json)。Task12 尚未冻结。
+2026-11-14：双方分工复核草稿已收齐，180条评论和30组均已填写；已按意见及规则进行本轮裁决。当前入口为[裁决说明](../../output/topic_review/steam-review-20261107-v1/adjudicated-20261114/裁决说明.md)和[裁决检查页](../../output/topic_review/steam-review-20261107-v1/adjudicated-20261114/裁决检查.html)。认可记录绑定结果哈希，见[human_confirmation.json](../../output/topic_review/steam-review-20261107-v1/adjudicated-20261114/human_confirmation.json)。Task12 尚未冻结。
 
 本轮可复现命令（输出须为新目录）：
 
@@ -50,4 +50,16 @@
 
 ## 仍需协调人与全员完成
 
-当前目录没有匿名 G 编号到 NMF／BGE 模型、K、簇的协调人映射。先保存匿名组的裁决，补齐映射后再对应到各候选模型；不根据组名或例子猜来源。Task12 仍需模型稳定性检查、主题边界确认及全员冻结，之后才能开展正式 RQ2／RQ4 分析。
+原始匿名协调人对照表未入库，但已有归档信息足以重建全部30组的来源，见[来源表与核对口径](../../output/topic_review/steam-review-20261107-v1/source_mapping/README.md)及[逐例证据JSON](../../output/topic_review/steam-review-20261107-v1/source_mapping/group_source_mapping.json)。三个核验锚点分别是中文NMF、英文NMF、共享BGE KMeans，均为K=10、seed=17。
+
+重建比较了两个NMF版本及全部BGE候选的原始逐条归属，并核对BGE中心例子；同文多评论的ID歧义保留在JSON中。重建结果与原始匿名清单区分记录，原核验包、裁决和讨论前统计均保留。
+
+复现到新目录：
+
+```powershell
+.\.venv\Scripts\python.exe -X utf8 -B scripts\recover_review_group_sources.py --output output\topic_review\another-source-mapping
+```
+
+Task12后续：已完成处理表、90次原候选重采样及20个新无监督候选。当前暂不冻结，下一步为句子级无监督建模；结果及输入见[Task12检查](../../output/topic_selection/task12-20261114/handoff/README.md)。K=10、seed=17仍是原核验锚点。
+
+Task12提交保留配置、代码、统计、代表例子、逐次重采样及句子交接数据。未选定方案的模型、权重和临时分组可由脚本重建，已清理并加入忽略规则。原有NMF／BGE交付保留。

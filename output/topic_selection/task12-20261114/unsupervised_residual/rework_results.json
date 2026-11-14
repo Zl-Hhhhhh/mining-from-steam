@@ -1,0 +1,6371 @@
+{
+  "status": "candidates_ready_for_semantic_review",
+  "model_type": "unsupervised_kmeans_on_cached_bge_vectors",
+  "config": {
+    "version": "unsupervised-aspect-residual-v2",
+    "output": "output/topic_selection/task12-20261114/unsupervised_residual",
+    "cluster_counts": [
+      6,
+      8,
+      10
+    ],
+    "seeds": [
+      17,
+      42
+    ],
+    "resample_seeds": [
+      2026111401,
+      2026111402,
+      2026111403,
+      2026111404,
+      2026111405
+    ],
+    "sample_fraction": 0.8,
+    "n_init": 10,
+    "max_iter": 300,
+    "cpu_threads": 2,
+    "maximum_core_characters": 600,
+    "maximum_core_lexical_categories": 1,
+    "representatives_per_language": 3,
+    "random_representatives": 3,
+    "embedding_manifest": "output/embedding-bge/freeze_20261101-v1/cache/embedding_manifest.json",
+    "inputs": "data/derived/embedding-bge/freeze_20261101-v1/model_reviews.jsonl",
+    "master_index": "data/derived/embedding-bge/freeze_20261101-v1/master_index.jsonl",
+    "affinity_temperature": 0.1,
+    "patterns": {
+      "gameplay": "\\b(combat|craft\\w*|build\\w*|explor\\w*|quest\\w*|puzzl\\w*|resource\\w*|roguelike|survival|stealth)\\b|open.world|turn.based|机制|战斗|刷怪|关卡|探索|开放世界|回合|解谜|采集|建造|种田|背包|潜行",
+      "controls_difficulty": "\\b(difficult\\w*|hard(?:est)?|challeng\\w*|learn\\w*|control\\w*|keybind\\w*|balanc\\w*|easy|unfair|recoil)\\b|难度|困难|简单|上手|教学|教程|平衡|操作|手感|键位|打击感|数值",
+      "performance_stability": "\\b(lag\\w*|stutter\\w*|crash\\w*|freez\\w*|fps|bugs?|optimi[sz]\\w*|servers?|ping|connect\\w*|launch\\w*)\\b|frame.rate|卡顿|卡死|闪退|崩溃|进不去|打不开|无法启动|服务器|延迟|掉线|优化|报错",
+      "story_characters": "\\b(story|stories|narrat\\w*|characters?|plot|dialog\\w*|lore|ending)\\b|剧情|角色|叙事|人物|故事|结局|对话|世界观",
+      "audiovisual": "\\b(graphic\\w*|visual\\w*|music|soundtrack|sounds?|audio|animation\\w*)\\b|art.style|画面|画质|美术|音乐|音效|视听|建模|贴图|动画|配音",
+      "multiplayer_community": "\\b(multiplayer|matchmak\\w*|cheat\\w*|friends?|team.?mates?|community|toxic|hackers?|vac)\\b|co.?op|anti.?cheat|联机|合作|匹配|外挂|作弊|反作弊|队友|社区|朋友|组队|封禁|误封",
+      "price_monetization": "\\b(prices?|costs?|bucks?|dollars?|discount\\w*|microtransaction\\w*)\\b|worth.{0,15}(money|price|buck|dollar)|free.{0,8}(update|dlc)|on.sale|便宜|性价比|价格|售价|太贵|氪金|内购|收费",
+      "content_support": "\\b(replay\\w*|content|mods?|dlc|expansions?|updates?|patch\\w*|achievements?)\\b|内容|耐玩|重玩|模组|更新|维护|扩展|成就",
+      "other_concrete": "\\b(translat\\w*|locali[sz]\\w*)\\b|motion.sick|account.{0,15}(hack|secur)|support.ticket|字幕|翻译|汉化|眩晕|晕船|晕3|客服|账号安全"
+    },
+    "notes": "Single lexical-category texts fit the centroids; mean and top three unsupervised PCA directions are removed before L2 normalization. PCA is refit in each subsample. No annotation or recommendation labels enter fitting. This is an experimental representation change, subject to semantic review.",
+    "remove_top_components": 3,
+    "candidate_prefix": "residual_kmeans"
+  },
+  "core_rows": 2916,
+  "vector_rows": 19392,
+  "remove_top_components": 3,
+  "source_language_counts": {
+    "schinese": 1317,
+    "english": 1599
+  },
+  "input_exclusions": {
+    "no_lexical_evidence": 14497,
+    "templates": 10,
+    "long_or_many_aspects": 1995
+  },
+  "candidates": [
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "k": 6,
+      "seed": 17,
+      "fit_rows": 2916,
+      "smallest_cluster": 251,
+      "largest_cluster_share": 0.21021947873799726,
+      "source_language_ami": 0.11388903195361018,
+      "seconds": 0.9923101000003953
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "k": 6,
+      "seed": 42,
+      "fit_rows": 2916,
+      "smallest_cluster": 251,
+      "largest_cluster_share": 0.21296296296296297,
+      "source_language_ami": 0.11818846338005062,
+      "seconds": 0.9976134000007733
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "k": 8,
+      "seed": 17,
+      "fit_rows": 2916,
+      "smallest_cluster": 161,
+      "largest_cluster_share": 0.19958847736625515,
+      "source_language_ami": 0.09997877248324497,
+      "seconds": 1.2304128000014316
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "k": 8,
+      "seed": 42,
+      "fit_rows": 2916,
+      "smallest_cluster": 161,
+      "largest_cluster_share": 0.19547325102880658,
+      "source_language_ami": 0.10887931173632696,
+      "seconds": 1.0698582000004535
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "k": 10,
+      "seed": 17,
+      "fit_rows": 2916,
+      "smallest_cluster": 104,
+      "largest_cluster_share": 0.1882716049382716,
+      "source_language_ami": 0.10082292938909673,
+      "seconds": 1.408531999999468
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "k": 10,
+      "seed": 42,
+      "fit_rows": 2916,
+      "smallest_cluster": 157,
+      "largest_cluster_share": 0.17146776406035666,
+      "source_language_ami": 0.10835782622543123,
+      "seconds": 1.313797800001339
+    }
+  ],
+  "profiles": [
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 0,
+      "count": 251,
+      "source_languages": {
+        "schinese": 101,
+        "english": 150
+      },
+      "lexical_category_counts_diagnostic": {
+        "multiplayer_community": 235,
+        "performance_stability": 4,
+        "gameplay": 5,
+        "controls_difficulty": 2,
+        "story_characters": 2,
+        "content_support": 2,
+        "price_monetization": 1
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 1,
+      "count": 613,
+      "source_languages": {
+        "schinese": 384,
+        "english": 229
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 99,
+        "multiplayer_community": 70,
+        "gameplay": 172,
+        "performance_stability": 50,
+        "content_support": 116,
+        "story_characters": 60,
+        "audiovisual": 24,
+        "other_concrete": 2,
+        "price_monetization": 20
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 2,
+      "count": 485,
+      "source_languages": {
+        "schinese": 375,
+        "english": 110
+      },
+      "lexical_category_counts_diagnostic": {
+        "audiovisual": 61,
+        "price_monetization": 12,
+        "controls_difficulty": 43,
+        "gameplay": 33,
+        "story_characters": 169,
+        "content_support": 123,
+        "performance_stability": 26,
+        "multiplayer_community": 15,
+        "other_concrete": 3
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 3,
+      "count": 463,
+      "source_languages": {
+        "schinese": 102,
+        "english": 361
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 74,
+        "gameplay": 68,
+        "performance_stability": 68,
+        "story_characters": 77,
+        "audiovisual": 45,
+        "multiplayer_community": 47,
+        "content_support": 71,
+        "other_concrete": 3,
+        "price_monetization": 10
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 4,
+      "count": 587,
+      "source_languages": {
+        "schinese": 50,
+        "english": 537
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 189,
+        "gameplay": 91,
+        "audiovisual": 20,
+        "multiplayer_community": 110,
+        "performance_stability": 52,
+        "content_support": 58,
+        "price_monetization": 14,
+        "story_characters": 51,
+        "other_concrete": 2
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 5,
+      "count": 517,
+      "source_languages": {
+        "schinese": 305,
+        "english": 212
+      },
+      "lexical_category_counts_diagnostic": {
+        "performance_stability": 197,
+        "multiplayer_community": 88,
+        "content_support": 67,
+        "controls_difficulty": 50,
+        "audiovisual": 28,
+        "gameplay": 27,
+        "price_monetization": 15,
+        "story_characters": 42,
+        "other_concrete": 3
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 0,
+      "count": 586,
+      "source_languages": {
+        "schinese": 416,
+        "english": 170
+      },
+      "lexical_category_counts_diagnostic": {
+        "audiovisual": 24,
+        "controls_difficulty": 101,
+        "multiplayer_community": 70,
+        "gameplay": 179,
+        "performance_stability": 49,
+        "content_support": 88,
+        "story_characters": 60,
+        "other_concrete": 3,
+        "price_monetization": 12
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 1,
+      "count": 251,
+      "source_languages": {
+        "schinese": 100,
+        "english": 151
+      },
+      "lexical_category_counts_diagnostic": {
+        "multiplayer_community": 233,
+        "performance_stability": 5,
+        "controls_difficulty": 3,
+        "gameplay": 6,
+        "story_characters": 2,
+        "content_support": 1,
+        "price_monetization": 1
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 2,
+      "count": 621,
+      "source_languages": {
+        "schinese": 64,
+        "english": 557
+      },
+      "lexical_category_counts_diagnostic": {
+        "gameplay": 103,
+        "controls_difficulty": 181,
+        "audiovisual": 22,
+        "multiplayer_community": 109,
+        "performance_stability": 57,
+        "content_support": 68,
+        "story_characters": 64,
+        "other_concrete": 2,
+        "price_monetization": 15
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 3,
+      "count": 496,
+      "source_languages": {
+        "schinese": 99,
+        "english": 397
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 92,
+        "performance_stability": 100,
+        "audiovisual": 44,
+        "gameplay": 65,
+        "multiplayer_community": 61,
+        "other_concrete": 3,
+        "content_support": 58,
+        "price_monetization": 13,
+        "story_characters": 60
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 4,
+      "count": 354,
+      "source_languages": {
+        "schinese": 256,
+        "english": 98
+      },
+      "lexical_category_counts_diagnostic": {
+        "gameplay": 21,
+        "story_characters": 179,
+        "content_support": 59,
+        "audiovisual": 51,
+        "performance_stability": 4,
+        "price_monetization": 3,
+        "controls_difficulty": 29,
+        "multiplayer_community": 6,
+        "other_concrete": 2
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 5,
+      "count": 608,
+      "source_languages": {
+        "schinese": 382,
+        "english": 226
+      },
+      "lexical_category_counts_diagnostic": {
+        "price_monetization": 28,
+        "performance_stability": 182,
+        "controls_difficulty": 51,
+        "multiplayer_community": 86,
+        "audiovisual": 37,
+        "content_support": 163,
+        "story_characters": 36,
+        "other_concrete": 3,
+        "gameplay": 22
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 0,
+      "count": 436,
+      "source_languages": {
+        "schinese": 128,
+        "english": 308
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 62,
+        "gameplay": 101,
+        "performance_stability": 77,
+        "audiovisual": 44,
+        "multiplayer_community": 60,
+        "other_concrete": 3,
+        "story_characters": 44,
+        "content_support": 35,
+        "price_monetization": 10
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 1,
+      "count": 582,
+      "source_languages": {
+        "schinese": 55,
+        "english": 527
+      },
+      "lexical_category_counts_diagnostic": {
+        "story_characters": 68,
+        "controls_difficulty": 101,
+        "gameplay": 99,
+        "audiovisual": 18,
+        "performance_stability": 76,
+        "multiplayer_community": 133,
+        "content_support": 66,
+        "price_monetization": 19,
+        "other_concrete": 2
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 2,
+      "count": 429,
+      "source_languages": {
+        "schinese": 312,
+        "english": 117
+      },
+      "lexical_category_counts_diagnostic": {
+        "performance_stability": 158,
+        "controls_difficulty": 53,
+        "multiplayer_community": 88,
+        "price_monetization": 20,
+        "gameplay": 30,
+        "audiovisual": 22,
+        "story_characters": 34,
+        "content_support": 20,
+        "other_concrete": 4
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 3,
+      "count": 349,
+      "source_languages": {
+        "schinese": 184,
+        "english": 165
+      },
+      "lexical_category_counts_diagnostic": {
+        "price_monetization": 9,
+        "multiplayer_community": 17,
+        "audiovisual": 27,
+        "content_support": 205,
+        "performance_stability": 54,
+        "story_characters": 11,
+        "gameplay": 12,
+        "controls_difficulty": 12,
+        "other_concrete": 2
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 4,
+      "count": 161,
+      "source_languages": {
+        "schinese": 29,
+        "english": 132
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 147,
+        "multiplayer_community": 3,
+        "audiovisual": 1,
+        "content_support": 2,
+        "gameplay": 4,
+        "story_characters": 3,
+        "performance_stability": 1
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 5,
+      "count": 224,
+      "source_languages": {
+        "schinese": 90,
+        "english": 134
+      },
+      "lexical_category_counts_diagnostic": {
+        "multiplayer_community": 214,
+        "performance_stability": 2,
+        "controls_difficulty": 3,
+        "story_characters": 2,
+        "content_support": 1,
+        "price_monetization": 1,
+        "gameplay": 1
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 6,
+      "count": 316,
+      "source_languages": {
+        "schinese": 215,
+        "english": 101
+      },
+      "lexical_category_counts_diagnostic": {
+        "story_characters": 178,
+        "content_support": 43,
+        "audiovisual": 49,
+        "performance_stability": 3,
+        "price_monetization": 2,
+        "controls_difficulty": 24,
+        "multiplayer_community": 6,
+        "gameplay": 10,
+        "other_concrete": 1
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 7,
+      "count": 419,
+      "source_languages": {
+        "schinese": 304,
+        "english": 115
+      },
+      "lexical_category_counts_diagnostic": {
+        "audiovisual": 17,
+        "controls_difficulty": 55,
+        "multiplayer_community": 44,
+        "performance_stability": 26,
+        "gameplay": 139,
+        "content_support": 65,
+        "story_characters": 61,
+        "other_concrete": 1,
+        "price_monetization": 11
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 0,
+      "count": 570,
+      "source_languages": {
+        "schinese": 50,
+        "english": 520
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 101,
+        "gameplay": 101,
+        "audiovisual": 18,
+        "multiplayer_community": 147,
+        "performance_stability": 71,
+        "content_support": 62,
+        "story_characters": 52,
+        "other_concrete": 1,
+        "price_monetization": 17
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 1,
+      "count": 394,
+      "source_languages": {
+        "schinese": 86,
+        "english": 308
+      },
+      "lexical_category_counts_diagnostic": {
+        "story_characters": 71,
+        "performance_stability": 72,
+        "audiovisual": 45,
+        "gameplay": 68,
+        "controls_difficulty": 34,
+        "multiplayer_community": 49,
+        "other_concrete": 3,
+        "price_monetization": 9,
+        "content_support": 43
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 2,
+      "count": 161,
+      "source_languages": {
+        "schinese": 31,
+        "english": 130
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 144,
+        "gameplay": 6,
+        "multiplayer_community": 2,
+        "audiovisual": 1,
+        "content_support": 2,
+        "performance_stability": 2,
+        "story_characters": 4
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 3,
+      "count": 363,
+      "source_languages": {
+        "schinese": 191,
+        "english": 172
+      },
+      "lexical_category_counts_diagnostic": {
+        "price_monetization": 27,
+        "multiplayer_community": 19,
+        "audiovisual": 31,
+        "content_support": 196,
+        "performance_stability": 51,
+        "story_characters": 15,
+        "controls_difficulty": 13,
+        "other_concrete": 1,
+        "gameplay": 10
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 4,
+      "count": 223,
+      "source_languages": {
+        "schinese": 95,
+        "english": 128
+      },
+      "lexical_category_counts_diagnostic": {
+        "multiplayer_community": 214,
+        "performance_stability": 2,
+        "controls_difficulty": 2,
+        "story_characters": 2,
+        "content_support": 1,
+        "price_monetization": 1,
+        "gameplay": 1
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 5,
+      "count": 478,
+      "source_languages": {
+        "schinese": 329,
+        "english": 149
+      },
+      "lexical_category_counts_diagnostic": {
+        "audiovisual": 20,
+        "controls_difficulty": 87,
+        "gameplay": 154,
+        "multiplayer_community": 48,
+        "content_support": 69,
+        "story_characters": 57,
+        "performance_stability": 32,
+        "other_concrete": 1,
+        "price_monetization": 10
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 6,
+      "count": 385,
+      "source_languages": {
+        "schinese": 280,
+        "english": 105
+      },
+      "lexical_category_counts_diagnostic": {
+        "performance_stability": 162,
+        "multiplayer_community": 78,
+        "controls_difficulty": 42,
+        "gameplay": 34,
+        "price_monetization": 6,
+        "story_characters": 32,
+        "other_concrete": 4,
+        "content_support": 10,
+        "audiovisual": 17
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 7,
+      "count": 342,
+      "source_languages": {
+        "schinese": 255,
+        "english": 87
+      },
+      "lexical_category_counts_diagnostic": {
+        "story_characters": 168,
+        "content_support": 54,
+        "audiovisual": 46,
+        "performance_stability": 5,
+        "price_monetization": 2,
+        "controls_difficulty": 34,
+        "gameplay": 22,
+        "multiplayer_community": 8,
+        "other_concrete": 3
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 0,
+      "count": 220,
+      "source_languages": {
+        "schinese": 88,
+        "english": 132
+      },
+      "lexical_category_counts_diagnostic": {
+        "multiplayer_community": 212,
+        "performance_stability": 2,
+        "content_support": 1,
+        "story_characters": 2,
+        "controls_difficulty": 1,
+        "price_monetization": 1,
+        "gameplay": 1
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 1,
+      "count": 346,
+      "source_languages": {
+        "schinese": 56,
+        "english": 290
+      },
+      "lexical_category_counts_diagnostic": {
+        "story_characters": 67,
+        "performance_stability": 65,
+        "audiovisual": 41,
+        "gameplay": 36,
+        "controls_difficulty": 38,
+        "multiplayer_community": 51,
+        "other_concrete": 1,
+        "price_monetization": 9,
+        "content_support": 38
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 2,
+      "count": 208,
+      "source_languages": {
+        "schinese": 122,
+        "english": 86
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 50,
+        "gameplay": 72,
+        "story_characters": 20,
+        "multiplayer_community": 26,
+        "audiovisual": 12,
+        "content_support": 10,
+        "performance_stability": 17,
+        "price_monetization": 1
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 3,
+      "count": 365,
+      "source_languages": {
+        "schinese": 192,
+        "english": 173
+      },
+      "lexical_category_counts_diagnostic": {
+        "price_monetization": 25,
+        "controls_difficulty": 20,
+        "multiplayer_community": 19,
+        "audiovisual": 28,
+        "content_support": 204,
+        "performance_stability": 44,
+        "story_characters": 15,
+        "other_concrete": 1,
+        "gameplay": 9
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 4,
+      "count": 549,
+      "source_languages": {
+        "schinese": 63,
+        "english": 486
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 82,
+        "gameplay": 102,
+        "audiovisual": 17,
+        "multiplayer_community": 142,
+        "performance_stability": 64,
+        "content_support": 64,
+        "story_characters": 55,
+        "price_monetization": 21,
+        "other_concrete": 2
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 5,
+      "count": 167,
+      "source_languages": {
+        "schinese": 26,
+        "english": 141
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 152,
+        "multiplayer_community": 1,
+        "audiovisual": 1,
+        "content_support": 4,
+        "gameplay": 5,
+        "performance_stability": 2,
+        "story_characters": 2
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 6,
+      "count": 104,
+      "source_languages": {
+        "schinese": 91,
+        "english": 13
+      },
+      "lexical_category_counts_diagnostic": {
+        "performance_stability": 76,
+        "multiplayer_community": 24,
+        "gameplay": 2,
+        "controls_difficulty": 1,
+        "story_characters": 1
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 7,
+      "count": 296,
+      "source_languages": {
+        "schinese": 222,
+        "english": 74
+      },
+      "lexical_category_counts_diagnostic": {
+        "story_characters": 156,
+        "content_support": 44,
+        "audiovisual": 45,
+        "performance_stability": 5,
+        "price_monetization": 1,
+        "gameplay": 11,
+        "controls_difficulty": 26,
+        "multiplayer_community": 6,
+        "other_concrete": 2
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 8,
+      "count": 340,
+      "source_languages": {
+        "schinese": 242,
+        "english": 98
+      },
+      "lexical_category_counts_diagnostic": {
+        "audiovisual": 14,
+        "controls_difficulty": 45,
+        "multiplayer_community": 30,
+        "gameplay": 128,
+        "content_support": 48,
+        "story_characters": 48,
+        "performance_stability": 16,
+        "other_concrete": 3,
+        "price_monetization": 8
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 9,
+      "count": 321,
+      "source_languages": {
+        "schinese": 215,
+        "english": 106
+      },
+      "lexical_category_counts_diagnostic": {
+        "multiplayer_community": 54,
+        "controls_difficulty": 42,
+        "performance_stability": 106,
+        "audiovisual": 20,
+        "gameplay": 30,
+        "content_support": 24,
+        "price_monetization": 6,
+        "story_characters": 35,
+        "other_concrete": 4
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 0,
+      "count": 275,
+      "source_languages": {
+        "schinese": 143,
+        "english": 132
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 53,
+        "gameplay": 90,
+        "story_characters": 29,
+        "multiplayer_community": 37,
+        "performance_stability": 31,
+        "audiovisual": 16,
+        "content_support": 16,
+        "price_monetization": 3
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 1,
+      "count": 500,
+      "source_languages": {
+        "schinese": 50,
+        "english": 450
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 84,
+        "gameplay": 92,
+        "audiovisual": 16,
+        "multiplayer_community": 123,
+        "performance_stability": 55,
+        "content_support": 58,
+        "story_characters": 50,
+        "price_monetization": 20,
+        "other_concrete": 2
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 2,
+      "count": 157,
+      "source_languages": {
+        "schinese": 27,
+        "english": 130
+      },
+      "lexical_category_counts_diagnostic": {
+        "controls_difficulty": 144,
+        "multiplayer_community": 1,
+        "audiovisual": 1,
+        "content_support": 3,
+        "gameplay": 4,
+        "performance_stability": 2,
+        "story_characters": 2
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 3,
+      "count": 202,
+      "source_languages": {
+        "schinese": 85,
+        "english": 117
+      },
+      "lexical_category_counts_diagnostic": {
+        "content_support": 164,
+        "multiplayer_community": 10,
+        "performance_stability": 10,
+        "audiovisual": 4,
+        "other_concrete": 1,
+        "controls_difficulty": 7,
+        "gameplay": 2,
+        "story_characters": 2,
+        "price_monetization": 2
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 4,
+      "count": 371,
+      "source_languages": {
+        "schinese": 263,
+        "english": 108
+      },
+      "lexical_category_counts_diagnostic": {
+        "performance_stability": 161,
+        "multiplayer_community": 76,
+        "story_characters": 31,
+        "controls_difficulty": 28,
+        "content_support": 19,
+        "audiovisual": 23,
+        "price_monetization": 15,
+        "other_concrete": 3,
+        "gameplay": 15
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 5,
+      "count": 339,
+      "source_languages": {
+        "schinese": 267,
+        "english": 72
+      },
+      "lexical_category_counts_diagnostic": {
+        "price_monetization": 11,
+        "controls_difficulty": 36,
+        "audiovisual": 56,
+        "performance_stability": 22,
+        "story_characters": 118,
+        "content_support": 74,
+        "multiplayer_community": 8,
+        "gameplay": 12,
+        "other_concrete": 2
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 6,
+      "count": 205,
+      "source_languages": {
+        "schinese": 84,
+        "english": 121
+      },
+      "lexical_category_counts_diagnostic": {
+        "multiplayer_community": 199,
+        "performance_stability": 2,
+        "story_characters": 2,
+        "content_support": 1,
+        "gameplay": 1
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 7,
+      "count": 279,
+      "source_languages": {
+        "schinese": 73,
+        "english": 206
+      },
+      "lexical_category_counts_diagnostic": {
+        "multiplayer_community": 59,
+        "performance_stability": 45,
+        "audiovisual": 14,
+        "controls_difficulty": 48,
+        "gameplay": 63,
+        "other_concrete": 3,
+        "price_monetization": 10,
+        "story_characters": 20,
+        "content_support": 17
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 8,
+      "count": 236,
+      "source_languages": {
+        "schinese": 40,
+        "english": 196
+      },
+      "lexical_category_counts_diagnostic": {
+        "performance_stability": 54,
+        "story_characters": 88,
+        "content_support": 26,
+        "audiovisual": 32,
+        "multiplayer_community": 15,
+        "gameplay": 10,
+        "price_monetization": 4,
+        "controls_difficulty": 7
+      }
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 9,
+      "count": 352,
+      "source_languages": {
+        "schinese": 285,
+        "english": 67
+      },
+      "lexical_category_counts_diagnostic": {
+        "audiovisual": 16,
+        "controls_difficulty": 50,
+        "gameplay": 107,
+        "multiplayer_community": 37,
+        "content_support": 59,
+        "performance_stability": 15,
+        "story_characters": 59,
+        "other_concrete": 2,
+        "price_monetization": 7
+      }
+    }
+  ],
+  "representatives": [
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "238364966",
+      "source_language": "english",
+      "text": "game is so fun too play with friends",
+      "cosine": 0.7179207801818848,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "238901496",
+      "source_language": "english",
+      "text": "Game is very fun with friends.",
+      "cosine": 0.6963200569152832,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "238573515",
+      "source_language": "english",
+      "text": "it s a fun game and it s awesome to play with some friends",
+      "cosine": 0.6716179847717285,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "238898878",
+      "source_language": "schinese",
+      "text": "和朋友一起玩很好玩",
+      "cosine": 0.8067101836204529,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "239109743",
+      "source_language": "schinese",
+      "text": "跟朋友一起玩很有意思",
+      "cosine": 0.7030941247940063,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "237996114",
+      "source_language": "schinese",
+      "text": "很好的游戏，和朋友一起玩会更好玩",
+      "cosine": 0.6744344234466553,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239130056",
+      "source_language": "english",
+      "text": "Sh*t game, play against cheaters jumping around and killing me through walls but no one is banned. I join a premier match on a weekend to play 1 game and get banned for 7 days because my gameplay was irregular. Shittiest game with the shittiest dev team.",
+      "cosine": 0.2415471225976944,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239041246",
+      "source_language": "english",
+      "text": "good game super fun with friends",
+      "cosine": 0.6119920611381531,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239122055",
+      "source_language": "english",
+      "text": "Nice game, fun to play with friends",
+      "cosine": 0.6015236377716064,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "238938599",
+      "source_language": "english",
+      "text": "Best open world and game",
+      "cosine": 0.45325085520744324,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "239094799",
+      "source_language": "english",
+      "text": "one of the best open world game?",
+      "cosine": 0.4494006931781769,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "239105833",
+      "source_language": "english",
+      "text": "best open world game for pokemon lover",
+      "cosine": 0.42586103081703186,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "238658794",
+      "source_language": "schinese",
+      "text": "如果不确定自己喜不喜欢，可以先去玩骑马与砍杀 战团，更便宜",
+      "cosine": 0.47959238290786743,
+      "lexical_categories": [
+        "price_monetization"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "239067409",
+      "source_language": "schinese",
+      "text": "法环是真好玩吧，boss多，流派多，画面看着就舒服。就是感觉有点孤独了，有没有人愿意被我入侵 ：）",
+      "cosine": 0.4723820388317108,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "238974452",
+      "source_language": "schinese",
+      "text": "开放世界可玩性高",
+      "cosine": 0.4678826928138733,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238430072",
+      "source_language": "english",
+      "text": "Love the parkour and the mods in Dying Light 2. People are recreating E3 2019-2019 and it's worth playing.",
+      "cosine": 0.2044406235218048,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "237672144",
+      "source_language": "schinese",
+      "text": "很好玩的一款游戏 开放世界创造性拉满",
+      "cosine": 0.21723055839538574,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238124058",
+      "source_language": "schinese",
+      "text": "🥰🥰🥰什么叫盗贼为队友硬抗7次古神打击，最后不仅没死还爆了美德",
+      "cosine": 0.17827439308166504,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "239129264",
+      "source_language": "english",
+      "text": "Lots of story, and the customization options are great.",
+      "cosine": 0.4819374680519104,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "238938082",
+      "source_language": "english",
+      "text": "very enguaging with many fullfilling stories",
+      "cosine": 0.4605220854282379,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "239134575",
+      "source_language": "english",
+      "text": "Great story, great immersion and great level of character customizability.",
+      "cosine": 0.4572063088417053,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "238619430",
+      "source_language": "schinese",
+      "text": "内容丰富,画风优秀",
+      "cosine": 0.6236797571182251,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "238230583",
+      "source_language": "schinese",
+      "text": "剧情不错",
+      "cosine": 0.6234732866287231,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "239016987",
+      "source_language": "schinese",
+      "text": "剧情完整细腻",
+      "cosine": 0.5626586675643921,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "238876622",
+      "source_language": "english",
+      "text": "Very cool! Love the updates, keep them coming! <3",
+      "cosine": 0.3036743998527527,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "239106812",
+      "source_language": "english",
+      "text": "Great exploration!",
+      "cosine": 0.10900340229272842,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "235395151",
+      "source_language": "schinese",
+      "text": "垃圾平衡， 中国这么惨了， 还不停削， 还我骆驼骑射火炮救赎",
+      "cosine": 0.1597244292497635,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "239012399",
+      "source_language": "english",
+      "text": "the gameplay is good but story is ass",
+      "cosine": 0.5752255320549011,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238962513",
+      "source_language": "english",
+      "text": "Beautiful game, challenging but fun.",
+      "cosine": 0.5576211810112,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "239037786",
+      "source_language": "english",
+      "text": "There are good things about this game but combat is such an utter janky garbage.",
+      "cosine": 0.5542196035385132,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "238300969",
+      "source_language": "schinese",
+      "text": "This game is pretty good, but it has quite a few bugs.",
+      "cosine": 0.5411101579666138,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "236894306",
+      "source_language": "schinese",
+      "text": "没见过优化这么差，BUG这么多得游戏",
+      "cosine": 0.5052146911621094,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "238914841",
+      "source_language": "schinese",
+      "text": "nice game the visuals and environments are great",
+      "cosine": 0.46139660477638245,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "239006880",
+      "source_language": "schinese",
+      "text": "受击反馈很差，死亡惩罚太高，内容太少，这个游戏本来可以做得更好",
+      "cosine": 0.2367941439151764,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "229652804",
+      "source_language": "schinese",
+      "text": "玩这个游戏感觉在看动漫，建模真的很精致",
+      "cosine": 0.19612270593643188,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "239098680",
+      "source_language": "english",
+      "text": "Its a very fun game and i had loads of fun with the fnaf mods the only downside was that some mods didnt work",
+      "cosine": 0.31730273365974426,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "239135602",
+      "source_language": "english",
+      "text": "it can be difficult at the start but you'll pull through eventually",
+      "cosine": 0.49313047528266907,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "238289850",
+      "source_language": "english",
+      "text": "Addicting, you just wanna go again and its easy to pick up from where you left off. I probably will spend atleast another 20 - 30 hours before I get sick of it.",
+      "cosine": 0.48694920539855957,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "238976430",
+      "source_language": "english",
+      "text": "I used to think people who beat all the hard levels in this game were losers for wasting so much of their time. I still do but now I am a loser too.",
+      "cosine": 0.47671040892601013,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "235437408",
+      "source_language": "schinese",
+      "text": "Its like an abusive relationship for a masochist its really bad and toxic but you still love it.",
+      "cosine": 0.37190109491348267,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "226946215",
+      "source_language": "schinese",
+      "text": "It depends if you like a challenge and can keep a cool head during losses, its a fun game but if youre easily triggered, then this game is not for you/",
+      "cosine": 0.36309152841567993,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "237137147",
+      "source_language": "schinese",
+      "text": "确实是一场磨难，很痛苦，我只是普通地打完了第七章，战绩是9小时10分，2785次死亡，五十多颗草莓，这绝对不是一场愉快的体验，我再也不会再打开它，第七章的谢幕动画我看很感动，但是这对我而言更像是一场体面的告别，很难，不是专门来吃苦的人，不要玩",
+      "cosine": 0.29295095801353455,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "238112319",
+      "source_language": "english",
+      "text": "I'm gaming's toughest critic and wanna say despite many flaws this is one of only a handful of survival games that seem worth any time. Customization, exploration, almost complete player agency. Holiness allowed as well or I would not recommend. This game hits",
+      "cosine": 0.22228801250457764,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239135487",
+      "source_language": "english",
+      "text": "after years of not playing and finally coming back i can say that this game just isn't fun like it used to be. everything just felt awful from the gameplay to the movement. nothing they've done has made this game better than what it was at launch. really is a shame that most good games die and now we cant even find a decent game to play most of the time. rip apex",
+      "cosine": 0.2156161665916443,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239142178",
+      "source_language": "english",
+      "text": "​It's disappointing to see how the developers handled the Peanut situation. Tucking tail over claims from a few terminally online critics isn't a good look, and the community's reaction has only made the environment more toxic.",
+      "cosine": 0.17432838678359985,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238977543",
+      "source_language": "english",
+      "text": "super fun game; my gf and I always play when we get a chance and with the ability to modify your own server it makes it so much more fun. Also super happy it works on linux fedora so its definitely worth giving it a try",
+      "cosine": 0.46621379256248474,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238405971",
+      "source_language": "english",
+      "text": "really fun to play with friends and runs really smooth on older pcs like mine. :)",
+      "cosine": 0.36218100786209106,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238772038",
+      "source_language": "english",
+      "text": "Great game. I love the way it looks and performs on the Steam Machine and I cannot wait to play more of it. The upgrades are all very satisfying and the world feels vast and interesting both contextually and visually.",
+      "cosine": 0.345467209815979,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "238606642",
+      "source_language": "schinese",
+      "text": "这个游戏好玩的很啊，好玩好玩快来玩，这个游戏不会报错，这个游戏不会崩溃，服务器质量很好，总而言之快去玩，我不会骗你们的",
+      "cosine": 0.5953826904296875,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "235297003",
+      "source_language": "schinese",
+      "text": "卡闪退进不去服务器",
+      "cosine": 0.5238604545593262,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "237842649",
+      "source_language": "schinese",
+      "text": "什么垃圾启动器，折腾半天打不开。 你们家的游戏全都这么垃圾吗？不会做服务器别瞎几把做。",
+      "cosine": 0.478664755821228,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238682151",
+      "source_language": "schinese",
+      "text": "心里真正的NO.1，超越一切玩过的游戏，剧情演出无敌，装备搭配也让人上瘾，治好我的电子ed。",
+      "cosine": 0.15460734069347382,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238545316",
+      "source_language": "english",
+      "text": "Awesome game!! The art style is great, the bosses are cool—you can't be afraid to restart if you want to make progress.",
+      "cosine": 0.15906213223934174,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238179604",
+      "source_language": "schinese",
+      "text": "司马游戏，封老子号，客服四人",
+      "cosine": 0.1290721744298935,
+      "lexical_categories": [
+        "other_concrete"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "239094799",
+      "source_language": "english",
+      "text": "one of the best open world game?",
+      "cosine": 0.49598976969718933,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "238938599",
+      "source_language": "english",
+      "text": "Best open world and game",
+      "cosine": 0.48459386825561523,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "239105833",
+      "source_language": "english",
+      "text": "best open world game for pokemon lover",
+      "cosine": 0.43944329023361206,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "231271034",
+      "source_language": "schinese",
+      "text": "目前最喜欢玩的一个开放世界生存类型的游戏",
+      "cosine": 0.48983749747276306,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "239067409",
+      "source_language": "schinese",
+      "text": "法环是真好玩吧，boss多，流派多，画面看着就舒服。就是感觉有点孤独了，有没有人愿意被我入侵 ：）",
+      "cosine": 0.4893668293952942,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "238974452",
+      "source_language": "schinese",
+      "text": "开放世界可玩性高",
+      "cosine": 0.468677282333374,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239114078",
+      "source_language": "schinese",
+      "text": "破游戏 启动不了 进不去还",
+      "cosine": 0.13051104545593262,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "238960358",
+      "source_language": "english",
+      "text": "Legitimately will always be in the running for greatest game of all time certainly top 3 of its decade if not number 1. New remaster and dlc coming soon. AAA developers can get some wins like is the case for TW3.",
+      "cosine": 0.0864052101969719,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239102481",
+      "source_language": "english",
+      "text": "One thing i wanna say is that this new update isnt that good... I really loved to OG 2024 version and its item configs along with the old UI... even though the theme of the game and the intuitive mechanics are great... Best Game in this catagory",
+      "cosine": 0.04148981347680092,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "238364966",
+      "source_language": "english",
+      "text": "game is so fun too play with friends",
+      "cosine": 0.7192080020904541,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "238901496",
+      "source_language": "english",
+      "text": "Game is very fun with friends.",
+      "cosine": 0.700462818145752,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "238069213",
+      "source_language": "english",
+      "text": "Game is a blast and I highly recommend playing with someone close be it a good friend or SO.",
+      "cosine": 0.6756517291069031,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "238898878",
+      "source_language": "schinese",
+      "text": "和朋友一起玩很好玩",
+      "cosine": 0.8079959750175476,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "239109743",
+      "source_language": "schinese",
+      "text": "跟朋友一起玩很有意思",
+      "cosine": 0.7042356133460999,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "237996114",
+      "source_language": "schinese",
+      "text": "很好的游戏，和朋友一起玩会更好玩",
+      "cosine": 0.6721562147140503,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238746133",
+      "source_language": "schinese",
+      "text": "跟朋友玩真的很快乐",
+      "cosine": 0.6385053992271423,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238354931",
+      "source_language": "english",
+      "text": "Great game for a playthrough with a friend, solo is a bit boring imo. Not much of a modded scene to change up gameplay for another playthrough and gameloop gets stale after a bit.",
+      "cosine": 0.31733131408691406,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238574478",
+      "source_language": "english",
+      "text": "Really fun with friends!",
+      "cosine": 0.5677382946014404,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "238289850",
+      "source_language": "english",
+      "text": "Addicting, you just wanna go again and its easy to pick up from where you left off. I probably will spend atleast another 20 - 30 hours before I get sick of it.",
+      "cosine": 0.5322456955909729,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "239135602",
+      "source_language": "english",
+      "text": "it can be difficult at the start but you'll pull through eventually",
+      "cosine": 0.5082743167877197,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "238342338",
+      "source_language": "english",
+      "text": "very difficult, but once you manage long enough, its rewarding.",
+      "cosine": 0.46671903133392334,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "235437408",
+      "source_language": "schinese",
+      "text": "Its like an abusive relationship for a masochist its really bad and toxic but you still love it.",
+      "cosine": 0.3660084009170532,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "226946215",
+      "source_language": "schinese",
+      "text": "It depends if you like a challenge and can keep a cool head during losses, its a fun game but if youre easily triggered, then this game is not for you/",
+      "cosine": 0.34674179553985596,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "237137147",
+      "source_language": "schinese",
+      "text": "确实是一场磨难，很痛苦，我只是普通地打完了第七章，战绩是9小时10分，2785次死亡，五十多颗草莓，这绝对不是一场愉快的体验，我再也不会再打开它，第七章的谢幕动画我看很感动，但是这对我而言更像是一场体面的告别，很难，不是专门来吃苦的人，不要玩",
+      "cosine": 0.27962949872016907,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "238986569",
+      "source_language": "english",
+      "text": "Gameplay is difficult but if you play PvE it's worth every penny and then progress to normal gameplay.",
+      "cosine": 0.19288194179534912,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "239139679",
+      "source_language": "english",
+      "text": "You can choose how hard it is when you play solo.",
+      "cosine": 0.3171876072883606,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "237834623",
+      "source_language": "english",
+      "text": "i crashed multiple times, but the gravity physics are pretty cool",
+      "cosine": 0.21346494555473328,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238962513",
+      "source_language": "english",
+      "text": "Beautiful game, challenging but fun.",
+      "cosine": 0.5866708755493164,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "239037786",
+      "source_language": "english",
+      "text": "There are good things about this game but combat is such an utter janky garbage.",
+      "cosine": 0.5496668815612793,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238822470",
+      "source_language": "english",
+      "text": "great game and challenging",
+      "cosine": 0.5013857483863831,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "238300969",
+      "source_language": "schinese",
+      "text": "This game is pretty good, but it has quite a few bugs.",
+      "cosine": 0.5300465226173401,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "236894306",
+      "source_language": "schinese",
+      "text": "没见过优化这么差，BUG这么多得游戏",
+      "cosine": 0.48786669969558716,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "238370406",
+      "source_language": "schinese",
+      "text": "除了游戏的底层设计（不包括各项数值）之外，其他的一切都是巨大的狗屎。",
+      "cosine": 0.44182828068733215,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "239014045",
+      "source_language": "schinese",
+      "text": "游戏进不去！！！！！！！",
+      "cosine": 0.1841811090707779,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "231579282",
+      "source_language": "schinese",
+      "text": "游戏是好游戏, 但育碧的服务器懂得都懂",
+      "cosine": 0.2369488924741745,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "239113990",
+      "source_language": "english",
+      "text": "Game is absolute and utter peak, I wish they added more dialogue to NPC's than what they did but other than that it is amazing.",
+      "cosine": 0.1279233694076538,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "238938082",
+      "source_language": "english",
+      "text": "very enguaging with many fullfilling stories",
+      "cosine": 0.5368629693984985,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "239134290",
+      "source_language": "english",
+      "text": "Very good story telling.",
+      "cosine": 0.5349810719490051,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "238847662",
+      "source_language": "english",
+      "text": "It was fun and has a decent story line.",
+      "cosine": 0.5256803631782532,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "238230583",
+      "source_language": "schinese",
+      "text": "剧情不错",
+      "cosine": 0.6841904520988464,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "238632089",
+      "source_language": "schinese",
+      "text": "剧情做的非常非常非常棒",
+      "cosine": 0.6227197051048279,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "238619430",
+      "source_language": "schinese",
+      "text": "内容丰富,画风优秀",
+      "cosine": 0.611148476600647,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "237023362",
+      "source_language": "schinese",
+      "text": "内容丰富量大管饱",
+      "cosine": 0.4087774157524109,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239090140",
+      "source_language": "english",
+      "text": "D&D, amazing story, AND Astarion... 11/10!",
+      "cosine": 0.25839123129844666,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239131682",
+      "source_language": "english",
+      "text": "Story",
+      "cosine": 0.26923954486846924,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "237906322",
+      "source_language": "english",
+      "text": "It is good and holds up after all these years with the updates.",
+      "cosine": 0.46106576919555664,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238876622",
+      "source_language": "english",
+      "text": "Very cool! Love the updates, keep them coming! <3",
+      "cosine": 0.4106476604938507,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238977543",
+      "source_language": "english",
+      "text": "super fun game; my gf and I always play when we get a chance and with the ability to modify your own server it makes it so much more fun. Also super happy it works on linux fedora so its definitely worth giving it a try",
+      "cosine": 0.38063865900039673,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "227609296",
+      "source_language": "schinese",
+      "text": "啥都好，要是有个国内服务器就更好了，几年了卡顿问题还是在",
+      "cosine": 0.4853261113166809,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "238937015",
+      "source_language": "schinese",
+      "text": "这么久还能更新不管怎么说良心",
+      "cosine": 0.48209232091903687,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "237629113",
+      "source_language": "schinese",
+      "text": "一直卡验证更新",
+      "cosine": 0.46536555886268616,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238719818",
+      "source_language": "schinese",
+      "text": "适合多人联机，对新手不是很友好",
+      "cosine": 0.22214356064796448,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238569420",
+      "source_language": "english",
+      "text": "Game is great on its one but have to give a shoutout to the mod ROT or Realm Of thrones on nexus it kept me engaged in the game great mod great game all together would reccomend",
+      "cosine": 0.186187744140625,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k6_s42",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238157926",
+      "source_language": "schinese",
+      "text": "真的很好，除了早期那会儿外挂满天飞，佩岛一砍再砍，还有必须四人才能开的任务其他的都很好，非常好。",
+      "cosine": 0.19512367248535156,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "239037786",
+      "source_language": "english",
+      "text": "There are good things about this game but combat is such an utter janky garbage.",
+      "cosine": 0.608436644077301,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "234101024",
+      "source_language": "english",
+      "text": "very good combat gamee",
+      "cosine": 0.5372141003608704,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "237118313",
+      "source_language": "english",
+      "text": "Fancy graphics , nice gameplay .",
+      "cosine": 0.5135469436645508,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "236894306",
+      "source_language": "schinese",
+      "text": "没见过优化这么差，BUG这么多得游戏",
+      "cosine": 0.46557092666625977,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "238370406",
+      "source_language": "schinese",
+      "text": "除了游戏的底层设计（不包括各项数值）之外，其他的一切都是巨大的狗屎。",
+      "cosine": 0.46121248602867126,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "238914841",
+      "source_language": "schinese",
+      "text": "nice game the visuals and environments are great",
+      "cosine": 0.4585016965866089,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239135792",
+      "source_language": "english",
+      "text": "very nice game, non toxic community",
+      "cosine": 0.3238036334514618,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239003055",
+      "source_language": "english",
+      "text": "Worst default controller bindings I have ever witnessed. Couldn't get into it",
+      "cosine": 0.21914240717887878,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239131461",
+      "source_language": "english",
+      "text": "Great rogue like deck builder.",
+      "cosine": 0.1684354543685913,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "238289850",
+      "source_language": "english",
+      "text": "Addicting, you just wanna go again and its easy to pick up from where you left off. I probably will spend atleast another 20 - 30 hours before I get sick of it.",
+      "cosine": 0.5052739977836609,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "239149057",
+      "source_language": "english",
+      "text": "The game is not fun. Do not waste your time and money. The first few games can be exciting, but it turns bland and frustrating very quickly. The players you encounter in game are often toxic. The amount of grinding you need to do is absurd unless you choose to play this game full time. I find it to be unforgiving and unfriendly towards new players. There may be times when you think that playing a round or two would be fun, but do not come back to this game. You will remember why you left.",
+      "cosine": 0.46073344349861145,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "238976430",
+      "source_language": "english",
+      "text": "I used to think people who beat all the hard levels in this game were losers for wasting so much of their time. I still do but now I am a loser too.",
+      "cosine": 0.4276040196418762,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "226946215",
+      "source_language": "schinese",
+      "text": "It depends if you like a challenge and can keep a cool head during losses, its a fun game but if youre easily triggered, then this game is not for you/",
+      "cosine": 0.33298271894454956,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "235437408",
+      "source_language": "schinese",
+      "text": "Its like an abusive relationship for a masochist its really bad and toxic but you still love it.",
+      "cosine": 0.31119900941848755,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "237023985",
+      "source_language": "schinese",
+      "text": "刚玩的时候会有刺激的感觉，害怕鬼突然出来，玩久了之后习惯了，没有刚玩时的新鲜感和刺激感了，不过还可以拿诅咒道具坑朋友",
+      "cosine": 0.23529258370399475,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238758392",
+      "source_language": "english",
+      "text": "Greased Palms is as difficult as talking to girls my age. I recommend this game for solo players who listen to nightcore songs and know more about guns than their nearest military recruiter",
+      "cosine": 0.14917835593223572,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238322695",
+      "source_language": "english",
+      "text": "Finally managed to finish the game with my current partner, it was very cute and lovely. The ending was deff a bit different thsn I expected and rather open for interpretation. The chapters are very well made and it is generally very well fleshed out. There is many other things but I think other people mentioned that in their reviews already",
+      "cosine": 0.21664637327194214,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238556164",
+      "source_language": "english",
+      "text": "If you like hard games, and games that make you think, this one's for you. Top tier dungeon crawler. Only 9 hours but I look forward to many many more with this game. Once you start upgrading and succeeding, it feels so rewarding. Proper video game.",
+      "cosine": 0.12422610819339752,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "238977543",
+      "source_language": "english",
+      "text": "super fun game; my gf and I always play when we get a chance and with the ability to modify your own server it makes it so much more fun. Also super happy it works on linux fedora so its definitely worth giving it a try",
+      "cosine": 0.4136756360530853,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "239088777",
+      "source_language": "english",
+      "text": "Best Free Game Ever with non stop addition of top tier content. Definitely recommends everyone to play",
+      "cosine": 0.33068937063217163,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "239034266",
+      "source_language": "english",
+      "text": "It will always pull you back in, if you stopped playing for a week or month or years. Story is top notch and the gameplay is varied and fun. Best F2P",
+      "cosine": 0.29798609018325806,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "238606642",
+      "source_language": "schinese",
+      "text": "这个游戏好玩的很啊，好玩好玩快来玩，这个游戏不会报错，这个游戏不会崩溃，服务器质量很好，总而言之快去玩，我不会骗你们的",
+      "cosine": 0.610832691192627,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "235297003",
+      "source_language": "schinese",
+      "text": "卡闪退进不去服务器",
+      "cosine": 0.5372559428215027,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "237842649",
+      "source_language": "schinese",
+      "text": "什么垃圾启动器，折腾半天打不开。 你们家的游戏全都这么垃圾吗？不会做服务器别瞎几把做。",
+      "cosine": 0.531564474105835,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "238884938",
+      "source_language": "schinese",
+      "text": "有一定上手难度，不过有辅助模式，挺不错的，也是为童年补票了",
+      "cosine": 0.1510610729455948,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "239107477",
+      "source_language": "schinese",
+      "text": "垃圾 进都进不去",
+      "cosine": 0.16260254383087158,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "235537602",
+      "source_language": "schinese",
+      "text": "以前8G内存勉强能玩 现在连个小游戏都玩着卡闪退 你妈的是不是吃屎长大的 老子诅咒你们生孩子没屁眼",
+      "cosine": 0.1973746418952942,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238913682",
+      "source_language": "english",
+      "text": "Great Fun with the new update",
+      "cosine": 0.5279309749603271,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238733685",
+      "source_language": "english",
+      "text": "Buen juego, aun mejor con mods.",
+      "cosine": 0.5199355483055115,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238913252",
+      "source_language": "english",
+      "text": "get mods and you get extra fun",
+      "cosine": 0.5117050409317017,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "230814654",
+      "source_language": "schinese",
+      "text": "你他妈天天更你麻痹，强制更新还他妈把老子的mod全更没了",
+      "cosine": 0.5740819573402405,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "239009332",
+      "source_language": "schinese",
+      "text": "更新改底层代码搞得mod都不能用了到现在没搞好，不过还是好玩的",
+      "cosine": 0.5262419581413269,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "237530143",
+      "source_language": "schinese",
+      "text": "我的老天，臭狗屎商家，这b游戏多久没更新过没点必属吗？劳资三分之二的mod全爆炸了，我去下历史旧版也不行存档全失效了，我日你姥姥。死猪不滚去更新二代又跑来一代圈钱",
+      "cosine": 0.5187778472900391,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "238957763",
+      "source_language": "english",
+      "text": "Was good until recent updates made it unplayable",
+      "cosine": 0.23720864951610565,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "226139379",
+      "source_language": "schinese",
+      "text": "更新了就不让你玩",
+      "cosine": 0.3308693766593933,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "239073778",
+      "source_language": "english",
+      "text": "The updates and cross plat really make this game fun and accessible for all",
+      "cosine": 0.3477337956428528,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "238359704",
+      "source_language": "english",
+      "text": "good game, very difficult",
+      "cosine": 0.7275190949440002,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "239118116",
+      "source_language": "english",
+      "text": "very hard but fun",
+      "cosine": 0.7206966876983643,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "239131200",
+      "source_language": "english",
+      "text": "very difficult",
+      "cosine": 0.6808741092681885,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "239092902",
+      "source_language": "schinese",
+      "text": "游戏难度太大",
+      "cosine": 0.5435192584991455,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "238878359",
+      "source_language": "schinese",
+      "text": "难度很高，压力很爆，情况急转直下",
+      "cosine": 0.5152694582939148,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "238022452",
+      "source_language": "schinese",
+      "text": "难度不小 但确实是个好游戏",
+      "cosine": 0.4643510580062866,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "237787686",
+      "source_language": "schinese",
+      "text": "勾子的两天打了8小时，难度二王守影子都没碰到[苦笑]",
+      "cosine": 0.2329319566488266,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239117332",
+      "source_language": "english",
+      "text": "This is a very hard game but it is really fun and engaging, even though it is ragebaiting sometimes.",
+      "cosine": 0.5212504863739014,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239139679",
+      "source_language": "english",
+      "text": "You can choose how hard it is when you play solo.",
+      "cosine": 0.38633203506469727,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238364966",
+      "source_language": "english",
+      "text": "game is so fun too play with friends",
+      "cosine": 0.7327507138252258,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238901496",
+      "source_language": "english",
+      "text": "Game is very fun with friends.",
+      "cosine": 0.7141602039337158,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238913796",
+      "source_language": "english",
+      "text": "Very cool game to play with friends",
+      "cosine": 0.6874642372131348,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "238898878",
+      "source_language": "schinese",
+      "text": "和朋友一起玩很好玩",
+      "cosine": 0.812369704246521,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "239109743",
+      "source_language": "schinese",
+      "text": "跟朋友一起玩很有意思",
+      "cosine": 0.7106971740722656,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "237996114",
+      "source_language": "schinese",
+      "text": "很好的游戏，和朋友一起玩会更好玩",
+      "cosine": 0.6783683896064758,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238905253",
+      "source_language": "english",
+      "text": "fire concept and lots of fun especially with friends",
+      "cosine": 0.2439398169517517,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238834849",
+      "source_language": "english",
+      "text": "10/10 game. Perfect Game I would say Good Story, U will go trough lot of emotions if you play with your partner. Would recommend to anyone wanting to get into casual gaming with their partner.",
+      "cosine": 0.33757346868515015,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238630352",
+      "source_language": "english",
+      "text": "游戏很好玩，朋友玩了变成孙悟空了",
+      "cosine": 0.29160380363464355,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "239134290",
+      "source_language": "english",
+      "text": "Very good story telling.",
+      "cosine": 0.5816561579704285,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "238847662",
+      "source_language": "english",
+      "text": "It was fun and has a decent story line.",
+      "cosine": 0.5536960363388062,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "238938082",
+      "source_language": "english",
+      "text": "very enguaging with many fullfilling stories",
+      "cosine": 0.5447061657905579,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "238230583",
+      "source_language": "schinese",
+      "text": "剧情不错",
+      "cosine": 0.6918942928314209,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "238632089",
+      "source_language": "schinese",
+      "text": "剧情做的非常非常非常棒",
+      "cosine": 0.6370067000389099,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "236316503",
+      "source_language": "schinese",
+      "text": "剧情不错，游戏性略落后。",
+      "cosine": 0.6094248294830322,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "238087869",
+      "source_language": "schinese",
+      "text": "40小时初入门，不过剧情很好",
+      "cosine": 0.38366174697875977,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "238970326",
+      "source_language": "schinese",
+      "text": "体验感极加，内容很不错",
+      "cosine": 0.4530101716518402,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "238471543",
+      "source_language": "schinese",
+      "text": "80多个小时终于一周目真结局了，体验还是挺不错的",
+      "cosine": 0.3108954429626465,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "239094799",
+      "source_language": "english",
+      "text": "one of the best open world game?",
+      "cosine": 0.5718310475349426,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "238938599",
+      "source_language": "english",
+      "text": "Best open world and game",
+      "cosine": 0.5631915926933289,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "239105833",
+      "source_language": "english",
+      "text": "best open world game for pokemon lover",
+      "cosine": 0.5185961127281189,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "231271034",
+      "source_language": "schinese",
+      "text": "目前最喜欢玩的一个开放世界生存类型的游戏",
+      "cosine": 0.5599199533462524,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "238974452",
+      "source_language": "schinese",
+      "text": "开放世界可玩性高",
+      "cosine": 0.5522420406341553,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "239067409",
+      "source_language": "schinese",
+      "text": "法环是真好玩吧，boss多，流派多，画面看着就舒服。就是感觉有点孤独了，有没有人愿意被我入侵 ：）",
+      "cosine": 0.5258011817932129,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "238963309",
+      "source_language": "english",
+      "text": "the best space exploration game.",
+      "cosine": 0.3806315064430237,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "233642698",
+      "source_language": "schinese",
+      "text": "基本就是个不停突突突的游戏，2代难度还特别变态，喜欢弄一大堆敌人来360度伏击，掩体都不给一个，不死个几百次别想通关，我还玩的正常难度都能体验到极致的挫败感，就算侥幸过了伏击点也没感到喜悦，因为后面还有一堆类似的场景等着，玩一会就让人特别疲惫，只适合精力旺盛喜欢挑战FPS技术的玩家。",
+      "cosine": 0.11804203689098358,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "237745491",
+      "source_language": "english",
+      "text": "I played the original Conan Exiles obsessively for months & months, building & collecting like a madman, grinding through the quests, etc. etc. I find the current Enhanced Conan better looking & playing. However the world therein seems strangely empty, vast & endless except that every npc I encounter wants to kill me on sight. Doesn't matter: I play the game as a massive & exotic walking sim with combat & thrall collection. All I need is a bedroll & a campfire.",
+      "cosine": 0.1807885318994522,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "238289850",
+      "source_language": "english",
+      "text": "Addicting, you just wanna go again and its easy to pick up from where you left off. I probably will spend atleast another 20 - 30 hours before I get sick of it.",
+      "cosine": 0.5024960041046143,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "239149057",
+      "source_language": "english",
+      "text": "The game is not fun. Do not waste your time and money. The first few games can be exciting, but it turns bland and frustrating very quickly. The players you encounter in game are often toxic. The amount of grinding you need to do is absurd unless you choose to play this game full time. I find it to be unforgiving and unfriendly towards new players. There may be times when you think that playing a round or two would be fun, but do not come back to this game. You will remember why you left.",
+      "cosine": 0.492482453584671,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "238540169",
+      "source_language": "english",
+      "text": "Honestly speaking, this game can change how you live your life, like completely change it in a good way. A life-changing game; If you struggle with motivation, the systems in this game can be adapted to real life so you can make a schedule accordingly and suddenly you are now living a healthier life. Same goes for the social aspect, if you struggle socially like me, the confidants can motivate you to start looking for a close friend or friend group where everyone helps each other out; Very good",
+      "cosine": 0.4331972301006317,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "226946215",
+      "source_language": "schinese",
+      "text": "It depends if you like a challenge and can keep a cool head during losses, its a fun game but if youre easily triggered, then this game is not for you/",
+      "cosine": 0.3484129309654236,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "235437408",
+      "source_language": "schinese",
+      "text": "Its like an abusive relationship for a masochist its really bad and toxic but you still love it.",
+      "cosine": 0.2979012429714203,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "237023985",
+      "source_language": "schinese",
+      "text": "刚玩的时候会有刺激的感觉，害怕鬼突然出来，玩久了之后习惯了，没有刚玩时的新鲜感和刺激感了，不过还可以拿诅咒道具坑朋友",
+      "cosine": 0.23490586876869202,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239141552",
+      "source_language": "english",
+      "text": "fix cheaters",
+      "cosine": 0.12428933382034302,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239065642",
+      "source_language": "english",
+      "text": "This is a fun yet full featured turn based sim game that you can sink a lot of hours into and still enjoy.",
+      "cosine": 0.0846724659204483,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239140065",
+      "source_language": "english",
+      "text": "I fully believe this is a russian cheater selling simulator",
+      "cosine": 0.08358925580978394,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "239012399",
+      "source_language": "english",
+      "text": "the gameplay is good but story is ass",
+      "cosine": 0.6035316586494446,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "239037786",
+      "source_language": "english",
+      "text": "There are good things about this game but combat is such an utter janky garbage.",
+      "cosine": 0.5685133337974548,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "236402486",
+      "source_language": "english",
+      "text": "Fancy graphics , nice gameplay . but just full of bots",
+      "cosine": 0.5360441207885742,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "238300969",
+      "source_language": "schinese",
+      "text": "This game is pretty good, but it has quite a few bugs.",
+      "cosine": 0.5072407126426697,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "238376770",
+      "source_language": "schinese",
+      "text": "垃圾游戏，剧情搞得跟鬼一样",
+      "cosine": 0.5044993162155151,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "236894306",
+      "source_language": "schinese",
+      "text": "没见过优化这么差，BUG这么多得游戏",
+      "cosine": 0.5037870407104492,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238553316",
+      "source_language": "english",
+      "text": "graphics issues and the only playable language being russian made my 46 minutes of the gameplay one of the worst gaming experiences i ever had in my life",
+      "cosine": 0.33761218190193176,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "237834324",
+      "source_language": "english",
+      "text": "Best game. And amazing nsfw mods. I never beat it, but I did beat it.",
+      "cosine": 0.13092167675495148,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238219716",
+      "source_language": "english",
+      "text": "the combat mechanics are really dynamic and very \"fuck around and find out\" friendly",
+      "cosine": 0.20775140821933746,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "238359704",
+      "source_language": "english",
+      "text": "good game, very difficult",
+      "cosine": 0.7383121848106384,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "239118116",
+      "source_language": "english",
+      "text": "very hard but fun",
+      "cosine": 0.7173961400985718,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "239131200",
+      "source_language": "english",
+      "text": "very difficult",
+      "cosine": 0.6861615777015686,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "239092902",
+      "source_language": "schinese",
+      "text": "游戏难度太大",
+      "cosine": 0.5493791699409485,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "238878359",
+      "source_language": "schinese",
+      "text": "难度很高，压力很爆，情况急转直下",
+      "cosine": 0.521933913230896,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "238022452",
+      "source_language": "schinese",
+      "text": "难度不小 但确实是个好游戏",
+      "cosine": 0.46905800700187683,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "238864088",
+      "source_language": "english",
+      "text": "So many hours burned playing this game. Higher difficulty levels are definitely a challenge. Recommended for all fans of the series that don't have the specs to burn CIV VII",
+      "cosine": 0.29909855127334595,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "239131200",
+      "source_language": "english",
+      "text": "very difficult",
+      "cosine": 0.6861615777015686,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "237282799",
+      "source_language": "english",
+      "text": "The most challenging game that will make you feel adrenaline if you get distracted for less than one second",
+      "cosine": 0.28502556681632996,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "237906322",
+      "source_language": "english",
+      "text": "It is good and holds up after all these years with the updates.",
+      "cosine": 0.5295475125312805,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238913682",
+      "source_language": "english",
+      "text": "Great Fun with the new update",
+      "cosine": 0.5034562945365906,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "239124228",
+      "source_language": "english",
+      "text": "classic, kinda aged right now but the mods increase replayability",
+      "cosine": 0.4677070379257202,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "237530143",
+      "source_language": "schinese",
+      "text": "我的老天，臭狗屎商家，这b游戏多久没更新过没点必属吗？劳资三分之二的mod全爆炸了，我去下历史旧版也不行存档全失效了，我日你姥姥。死猪不滚去更新二代又跑来一代圈钱",
+      "cosine": 0.5363001227378845,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "230814654",
+      "source_language": "schinese",
+      "text": "你他妈天天更你麻痹，强制更新还他妈把老子的mod全更没了",
+      "cosine": 0.5289382338523865,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "238223100",
+      "source_language": "schinese",
+      "text": "希望能更新",
+      "cosine": 0.520797073841095,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "238970766",
+      "source_language": "schinese",
+      "text": "战斗，爽！本体是可以的，看测评果断没买DLC",
+      "cosine": 0.17460110783576965,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "226139379",
+      "source_language": "schinese",
+      "text": "更新了就不让你玩",
+      "cosine": 0.3178534507751465,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "239076833",
+      "source_language": "english",
+      "text": "Came from console rust a couple weeks ago and having a blast on the pc edition besides all the cheaters 8/10 would recommend",
+      "cosine": 0.15319235622882843,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "238364966",
+      "source_language": "english",
+      "text": "game is so fun too play with friends",
+      "cosine": 0.730600893497467,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "238901496",
+      "source_language": "english",
+      "text": "Game is very fun with friends.",
+      "cosine": 0.7037450075149536,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "238913796",
+      "source_language": "english",
+      "text": "Very cool game to play with friends",
+      "cosine": 0.688078761100769,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "238898878",
+      "source_language": "schinese",
+      "text": "和朋友一起玩很好玩",
+      "cosine": 0.8141618371009827,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "239109743",
+      "source_language": "schinese",
+      "text": "跟朋友一起玩很有意思",
+      "cosine": 0.7077363729476929,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "237996114",
+      "source_language": "schinese",
+      "text": "很好的游戏，和朋友一起玩会更好玩",
+      "cosine": 0.688238799571991,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "238214173",
+      "source_language": "english",
+      "text": "if you have a friend who is no so sure as to the concept of rougelikes, have them play this game",
+      "cosine": 0.247015580534935,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239109743",
+      "source_language": "schinese",
+      "text": "跟朋友一起玩很有意思",
+      "cosine": 0.7077363729476929,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239133012",
+      "source_language": "english",
+      "text": "If you want a game to play where all your teammates are braindead and you wish they would die, this is the game for you.",
+      "cosine": 0.3010636866092682,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "239094799",
+      "source_language": "english",
+      "text": "one of the best open world game?",
+      "cosine": 0.48404979705810547,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238938599",
+      "source_language": "english",
+      "text": "Best open world and game",
+      "cosine": 0.47585147619247437,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "239105833",
+      "source_language": "english",
+      "text": "best open world game for pokemon lover",
+      "cosine": 0.4472646415233612,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "238974452",
+      "source_language": "schinese",
+      "text": "开放世界可玩性高",
+      "cosine": 0.4943042993545532,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "231271034",
+      "source_language": "schinese",
+      "text": "目前最喜欢玩的一个开放世界生存类型的游戏",
+      "cosine": 0.4931744933128357,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "239067409",
+      "source_language": "schinese",
+      "text": "法环是真好玩吧，boss多，流派多，画面看着就舒服。就是感觉有点孤独了，有没有人愿意被我入侵 ：）",
+      "cosine": 0.4907022714614868,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238602059",
+      "source_language": "schinese",
+      "text": "你就玩吧，一玩一个不吱声，这游戏完全不把屠夫当人看，电机是不到一分钟修完一台的，屠夫移速是跟求生差不多的，抓到人要三挂才能减员的，被救下来的求生是有比你屠夫命还长的无敌的，抓手上是让你走不动路的，出刀是跟策划蚕蛹一样短的，距离地图是阴间的，在门前是要被蹲起手电筒嘲讽的，赛后是要被发ez的，玩了十几二十个小时的屠夫经常匹配到几千个小时的求生是很正常的。这游戏屠夫玩家可以玩的最舒服的方法就是不要玩屠夫了，去玩求生吧",
+      "cosine": 0.21039804816246033,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238500080",
+      "source_language": "english",
+      "text": "like minecraft meets jurrasic park survival mode......love it",
+      "cosine": 0.2316618710756302,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238293351",
+      "source_language": "schinese",
+      "text": "剧情没法跳过，这个是缺点，因为不能跳过剧情，就没法畅快打枪。",
+      "cosine": 0.17323702573776245,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "238977543",
+      "source_language": "english",
+      "text": "super fun game; my gf and I always play when we get a chance and with the ability to modify your own server it makes it so much more fun. Also super happy it works on linux fedora so its definitely worth giving it a try",
+      "cosine": 0.4201678931713104,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "239088777",
+      "source_language": "english",
+      "text": "Best Free Game Ever with non stop addition of top tier content. Definitely recommends everyone to play",
+      "cosine": 0.3278205692768097,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "238397758",
+      "source_language": "english",
+      "text": "Amazing game, highly recommend! Great depth, music and AI. I can play this game for hours and not get bored..",
+      "cosine": 0.326025128364563,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "238606642",
+      "source_language": "schinese",
+      "text": "这个游戏好玩的很啊，好玩好玩快来玩，这个游戏不会报错，这个游戏不会崩溃，服务器质量很好，总而言之快去玩，我不会骗你们的",
+      "cosine": 0.6332599520683289,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "235297003",
+      "source_language": "schinese",
+      "text": "卡闪退进不去服务器",
+      "cosine": 0.5709934830665588,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "237842649",
+      "source_language": "schinese",
+      "text": "什么垃圾启动器，折腾半天打不开。 你们家的游戏全都这么垃圾吗？不会做服务器别瞎几把做。",
+      "cosine": 0.5434005856513977,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "237872751",
+      "source_language": "schinese",
+      "text": "瞎乱封号，才玩一小时不到新手教程没过呢号没了",
+      "cosine": 0.21898651123046875,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "238919615",
+      "source_language": "english",
+      "text": "This is one amazing game with great mechanics and combat with a variety of weapons to use, plenty of references to other games and a great core gameplay loop!",
+      "cosine": 0.16108740866184235,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "238347901",
+      "source_language": "english",
+      "text": "One of THE BEST games i have played, the story is amazing, characters are interesting, and the gameplay is engaging, Even though i have not played for to long.",
+      "cosine": 0.2219991832971573,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "238938082",
+      "source_language": "english",
+      "text": "very enguaging with many fullfilling stories",
+      "cosine": 0.5457381010055542,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "239134290",
+      "source_language": "english",
+      "text": "Very good story telling.",
+      "cosine": 0.5251128077507019,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "238847662",
+      "source_language": "english",
+      "text": "It was fun and has a decent story line.",
+      "cosine": 0.4990788698196411,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "238230583",
+      "source_language": "schinese",
+      "text": "剧情不错",
+      "cosine": 0.6598483324050903,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "239016987",
+      "source_language": "schinese",
+      "text": "剧情完整细腻",
+      "cosine": 0.6090115904808044,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "238545389",
+      "source_language": "schinese",
+      "text": "剧情很有代入感",
+      "cosine": 0.6031368970870972,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "238998022",
+      "source_language": "schinese",
+      "text": "虽然人物都很丑，其他都还好，挺好玩的",
+      "cosine": 0.38592836260795593,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "233813204",
+      "source_language": "schinese",
+      "text": "内容太少",
+      "cosine": 0.4464290738105774,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k8_s42",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "237761752",
+      "source_language": "schinese",
+      "text": "梦中情游，满足了我对自由探索太空的幻想",
+      "cosine": 0.23328928649425507,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "238364966",
+      "source_language": "english",
+      "text": "game is so fun too play with friends",
+      "cosine": 0.7316265106201172,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "238901496",
+      "source_language": "english",
+      "text": "Game is very fun with friends.",
+      "cosine": 0.7118732929229736,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "238913796",
+      "source_language": "english",
+      "text": "Very cool game to play with friends",
+      "cosine": 0.6848984956741333,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "238898878",
+      "source_language": "schinese",
+      "text": "和朋友一起玩很好玩",
+      "cosine": 0.8110610246658325,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "239109743",
+      "source_language": "schinese",
+      "text": "跟朋友一起玩很有意思",
+      "cosine": 0.7082908749580383,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "237996114",
+      "source_language": "schinese",
+      "text": "很好的游戏，和朋友一起玩会更好玩",
+      "cosine": 0.6822046041488647,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239130056",
+      "source_language": "english",
+      "text": "Sh*t game, play against cheaters jumping around and killing me through walls but no one is banned. I join a premier match on a weekend to play 1 game and get banned for 7 days because my gameplay was irregular. Shittiest game with the shittiest dev team.",
+      "cosine": 0.24508340656757355,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239032746",
+      "source_language": "english",
+      "text": "fck this, always being paired st2pd teammates, Even after reporting those idiots who engage in griefing, nothing happens. The admins or game masters seem to be lacking in action.",
+      "cosine": 0.23506903648376465,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239119131",
+      "source_language": "schinese",
+      "text": "太好玩了，强推，我有个朋友死在了游戏里",
+      "cosine": 0.37645676732063293,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "239012399",
+      "source_language": "english",
+      "text": "the gameplay is good but story is ass",
+      "cosine": 0.600376546382904,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "238452468",
+      "source_language": "english",
+      "text": "Good game design but gay ass story line and ending.",
+      "cosine": 0.5380209684371948,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "238951437",
+      "source_language": "english",
+      "text": "obnoxious pretentious story, overrated gameplay, demented evil game devs.",
+      "cosine": 0.5293670296669006,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "238300969",
+      "source_language": "schinese",
+      "text": "This game is pretty good, but it has quite a few bugs.",
+      "cosine": 0.534257173538208,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "236894306",
+      "source_language": "schinese",
+      "text": "没见过优化这么差，BUG这么多得游戏",
+      "cosine": 0.4904462397098541,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "238376770",
+      "source_language": "schinese",
+      "text": "垃圾游戏，剧情搞得跟鬼一样",
+      "cosine": 0.4826575815677643,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238607058",
+      "source_language": "english",
+      "text": "Good Game. It is fun with players and solo. Achivment hunting is also fun. Hard mode too hard. Overall: 6/7",
+      "cosine": 0.09562224894762039,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "237956471",
+      "source_language": "english",
+      "text": "excellent card game. the perfect card roguelike",
+      "cosine": 0.21358221769332886,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238328513",
+      "source_language": "english",
+      "text": "Really unique and creative game. Towards the end it get kinda easy.",
+      "cosine": 0.2543684244155884,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "235560351",
+      "source_language": "english",
+      "text": "The combat is fast ,smooth, and insanely satisfying",
+      "cosine": 0.5989276766777039,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "238697551",
+      "source_language": "english",
+      "text": "Really fun combat system",
+      "cosine": 0.5617562532424927,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "234101024",
+      "source_language": "english",
+      "text": "very good combat gamee",
+      "cosine": 0.5452198386192322,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "226319301",
+      "source_language": "schinese",
+      "text": "节奏感强，操纵感很强，战斗节奏快",
+      "cosine": 0.6315506100654602,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "238816930",
+      "source_language": "schinese",
+      "text": "战斗，爽",
+      "cosine": 0.6298983693122864,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "238376816",
+      "source_language": "schinese",
+      "text": "战斗！爽！",
+      "cosine": 0.6079472899436951,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "238697551",
+      "source_language": "english",
+      "text": "Really fun combat system",
+      "cosine": 0.5617562532424927,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "239099957",
+      "source_language": "english",
+      "text": "its really cool how they put the freedom of building and destroying the entire world and gave a good combat side of the game, its a wonder",
+      "cosine": 0.2404579520225525,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "233725599",
+      "source_language": "english",
+      "text": "combat loop got stale fast and the rest felt like busywork, kept waiting for it to click but it never did",
+      "cosine": 0.31808409094810486,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238913252",
+      "source_language": "english",
+      "text": "get mods and you get extra fun",
+      "cosine": 0.5043429732322693,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238733685",
+      "source_language": "english",
+      "text": "Buen juego, aun mejor con mods.",
+      "cosine": 0.49607038497924805,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238913682",
+      "source_language": "english",
+      "text": "Great Fun with the new update",
+      "cosine": 0.49003171920776367,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "230814654",
+      "source_language": "schinese",
+      "text": "你他妈天天更你麻痹，强制更新还他妈把老子的mod全更没了",
+      "cosine": 0.5486581921577454,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "237530143",
+      "source_language": "schinese",
+      "text": "我的老天，臭狗屎商家，这b游戏多久没更新过没点必属吗？劳资三分之二的mod全爆炸了，我去下历史旧版也不行存档全失效了，我日你姥姥。死猪不滚去更新二代又跑来一代圈钱",
+      "cosine": 0.5281415581703186,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "238820886",
+      "source_language": "schinese",
+      "text": "好玩爱玩，dlc还免费更新",
+      "cosine": 0.5135807991027832,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "238949559",
+      "source_language": "english",
+      "text": "this is so much better than the dlc",
+      "cosine": 0.20999740064144135,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "226063782",
+      "source_language": "schinese",
+      "text": "重置后画面好多了",
+      "cosine": 0.259483277797699,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "239065723",
+      "source_language": "english",
+      "text": "good mods and great for doing rolplays and for doing horror in woods",
+      "cosine": 0.1735796183347702,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "238289850",
+      "source_language": "english",
+      "text": "Addicting, you just wanna go again and its easy to pick up from where you left off. I probably will spend atleast another 20 - 30 hours before I get sick of it.",
+      "cosine": 0.498125821352005,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "239149057",
+      "source_language": "english",
+      "text": "The game is not fun. Do not waste your time and money. The first few games can be exciting, but it turns bland and frustrating very quickly. The players you encounter in game are often toxic. The amount of grinding you need to do is absurd unless you choose to play this game full time. I find it to be unforgiving and unfriendly towards new players. There may be times when you think that playing a round or two would be fun, but do not come back to this game. You will remember why you left.",
+      "cosine": 0.44227519631385803,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "239050545",
+      "source_language": "english",
+      "text": "Takes a while to understand and I had to watch and research several things, but after that I have enjoyed it a ton, especially playing with friends.",
+      "cosine": 0.4176357090473175,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "235437408",
+      "source_language": "schinese",
+      "text": "Its like an abusive relationship for a masochist its really bad and toxic but you still love it.",
+      "cosine": 0.3068665564060211,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "226946215",
+      "source_language": "schinese",
+      "text": "It depends if you like a challenge and can keep a cool head during losses, its a fun game but if youre easily triggered, then this game is not for you/",
+      "cosine": 0.298219233751297,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "237023985",
+      "source_language": "schinese",
+      "text": "刚玩的时候会有刺激的感觉，害怕鬼突然出来，玩久了之后习惯了，没有刚玩时的新鲜感和刺激感了，不过还可以拿诅咒道具坑朋友",
+      "cosine": 0.2607364058494568,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "238237797",
+      "source_language": "english",
+      "text": "100 I PLAY THES GAME AND 50h of them i try to play and XD jast crash",
+      "cosine": 0.20490995049476624,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239137035",
+      "source_language": "english",
+      "text": "Anti cheat is great! I was only able to cheat for two hours :)",
+      "cosine": 0.2637993097305298,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239143080",
+      "source_language": "english",
+      "text": "I love this game, you can do whatever you want. Yeah there has been issues with it but what doesn't have issues. I enjoy that you can just chill and go mine for resources. Its a very chill game. I enjoy the exploration aspect of it but also the management piece with settlements. If you like games that is just a fun chill time, this is for you.",
+      "cosine": 0.23748993873596191,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238359704",
+      "source_language": "english",
+      "text": "good game, very difficult",
+      "cosine": 0.7229601740837097,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "239118116",
+      "source_language": "english",
+      "text": "very hard but fun",
+      "cosine": 0.7155573964118958,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "239131200",
+      "source_language": "english",
+      "text": "very difficult",
+      "cosine": 0.6776459217071533,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "239092902",
+      "source_language": "schinese",
+      "text": "游戏难度太大",
+      "cosine": 0.5433661341667175,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "238878359",
+      "source_language": "schinese",
+      "text": "难度很高，压力很爆，情况急转直下",
+      "cosine": 0.5056902170181274,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "238022452",
+      "source_language": "schinese",
+      "text": "难度不小 但确实是个好游戏",
+      "cosine": 0.45707204937934875,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238759536",
+      "source_language": "english",
+      "text": "Tough af, with 108h I've gotten to the 3rd out of the 5 extra difficulties and I expect to stay here for at least another 30 hours. And I love every second of it, it isn't impossible due to how easy it is to slowly get better with each attempt. 9/10 would recommend.",
+      "cosine": 0.37671756744384766,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238672927",
+      "source_language": "english",
+      "text": "Fun and hard, it's one of those games I love even though i'm shit at it",
+      "cosine": 0.383935809135437,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238411372",
+      "source_language": "english",
+      "text": "Very grindy and challenging, but overall very fun game",
+      "cosine": 0.4449239671230316,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "238977543",
+      "source_language": "english",
+      "text": "super fun game; my gf and I always play when we get a chance and with the ability to modify your own server it makes it so much more fun. Also super happy it works on linux fedora so its definitely worth giving it a try",
+      "cosine": 0.44133755564689636,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "236518967",
+      "source_language": "english",
+      "text": "They can't even bother to put a server browser. Don't spend your money on this worthless company.",
+      "cosine": 0.4045882821083069,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "236432650",
+      "source_language": "english",
+      "text": "It's a decent game with smooth performance, though the servers have been feeling a little dead lately. Even though the player count is dropping, it's still fun and definitely worth playing.",
+      "cosine": 0.4032522141933441,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "237114528",
+      "source_language": "schinese",
+      "text": "服务器真垃圾",
+      "cosine": 0.7005705833435059,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "235901110",
+      "source_language": "schinese",
+      "text": "垃圾服务器，",
+      "cosine": 0.692785382270813,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "233905970",
+      "source_language": "schinese",
+      "text": "服务器太垃圾",
+      "cosine": 0.6886184811592102,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "237114528",
+      "source_language": "schinese",
+      "text": "服务器真垃圾",
+      "cosine": 0.7005705833435059,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "238914569",
+      "source_language": "schinese",
+      "text": "傻福游戏，逼游戏能最重要的服务器这么卡玩你妈",
+      "cosine": 0.4699486196041107,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "238030330",
+      "source_language": "schinese",
+      "text": "联机功能是真尼玛的傻逼！",
+      "cosine": 0.3269026577472687,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "238938082",
+      "source_language": "english",
+      "text": "very enguaging with many fullfilling stories",
+      "cosine": 0.5539847612380981,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "239134290",
+      "source_language": "english",
+      "text": "Very good story telling.",
+      "cosine": 0.5446470379829407,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "238847662",
+      "source_language": "english",
+      "text": "It was fun and has a decent story line.",
+      "cosine": 0.5277079939842224,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "238230583",
+      "source_language": "schinese",
+      "text": "剧情不错",
+      "cosine": 0.6856708526611328,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "239016987",
+      "source_language": "schinese",
+      "text": "剧情完整细腻",
+      "cosine": 0.6240201592445374,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "238619430",
+      "source_language": "schinese",
+      "text": "内容丰富,画风优秀",
+      "cosine": 0.6144139170646667,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "238995723",
+      "source_language": "schinese",
+      "text": "也是终于全成就了，游戏是好游戏，但是缺点也很明显，游戏的引导实在太弱，刚开宁姆格福的门的时候，的确十分震撼，但紧接着就是一种迷茫感，根本不知道要怎么走，要干嘛，还有就是支线问题，游戏是没有任务日志的，所有支线任务都需要你自己记住，支线相关的NPC也经常找不到，至于DLC，我认为就是最后那个城（忘了叫啥了），里面粪怪太多了，尤其是那个长着狮子头拿着刀的那个怪，我怀疑他的韧性是不是无限高，血条再厚点能当boss了，那个鸟也是个粪怪，玩的时候真要恶心吐了，最终boss米塔恩也是史中史，攻击频率简直是疯狗，还有就是艾尔登法环在网上被吹的太神了，确实是个好玩的游戏，也值得一玩，但网上对这个游戏的评价的确是过誉了",
+      "cosine": 0.19500859081745148,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "233666303",
+      "source_language": "schinese",
+      "text": "主要是突出一个两大管饱吧，买了好几年了，今天才打完剧情，但是作为非《Halo》系列的铁杆粉丝不想再来一遍了。老制作剧情宏大，但是游戏性不佳，前两代寻路指引糟糕；至于343重工，交给诸位评价吧。建议打折时入手体验一遍剧情，我之前一直以为光环是类似《星际穿越》中那种环形人造宜居带hhh。",
+      "cosine": 0.2937452495098114,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "237707751",
+      "source_language": "english",
+      "text": "im enjoying it but story is a drag",
+      "cosine": 0.4230280816555023,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 8,
+      "kind": "center_english",
+      "recommendationid": "239094799",
+      "source_language": "english",
+      "text": "one of the best open world game?",
+      "cosine": 0.6222803592681885,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 8,
+      "kind": "center_english",
+      "recommendationid": "238938599",
+      "source_language": "english",
+      "text": "Best open world and game",
+      "cosine": 0.6123833060264587,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 8,
+      "kind": "center_english",
+      "recommendationid": "239105833",
+      "source_language": "english",
+      "text": "best open world game for pokemon lover",
+      "cosine": 0.5447142720222473,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 8,
+      "kind": "center_schinese",
+      "recommendationid": "231271034",
+      "source_language": "schinese",
+      "text": "目前最喜欢玩的一个开放世界生存类型的游戏",
+      "cosine": 0.596904993057251,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 8,
+      "kind": "center_schinese",
+      "recommendationid": "238974452",
+      "source_language": "schinese",
+      "text": "开放世界可玩性高",
+      "cosine": 0.57209712266922,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 8,
+      "kind": "center_schinese",
+      "recommendationid": "238988185",
+      "source_language": "schinese",
+      "text": "这是我玩过最好玩的开放世界",
+      "cosine": 0.5650407075881958,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 8,
+      "kind": "random",
+      "recommendationid": "238876572",
+      "source_language": "english",
+      "text": "open world space fun. I love it.",
+      "cosine": 0.16733579337596893,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 8,
+      "kind": "random",
+      "recommendationid": "238819734",
+      "source_language": "schinese",
+      "text": "被朋友推荐来的，真的很好玩，很享受狩猎龙的过程，等太刀玩完去试试大剑",
+      "cosine": 0.3064286410808563,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 8,
+      "kind": "random",
+      "recommendationid": "238499514",
+      "source_language": "schinese",
+      "text": "有点吃操作，新手不建议玩道心容易崩塌",
+      "cosine": 0.15157373249530792,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 9,
+      "kind": "center_english",
+      "recommendationid": "238397758",
+      "source_language": "english",
+      "text": "Amazing game, highly recommend! Great depth, music and AI. I can play this game for hours and not get bored..",
+      "cosine": 0.3885861933231354,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 9,
+      "kind": "center_english",
+      "recommendationid": "239143622",
+      "source_language": "english",
+      "text": "This game is so fun to play, every new run can be different and the story is engaging. 100% recommended.",
+      "cosine": 0.38556578755378723,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 9,
+      "kind": "center_english",
+      "recommendationid": "239093494",
+      "source_language": "english",
+      "text": "There is no alternative for this game. Absolutely fantastic. Gameplay is amazing and story is just unforgettable. It is worth every penny i spent on this game",
+      "cosine": 0.36632809042930603,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 9,
+      "kind": "center_schinese",
+      "recommendationid": "238097147",
+      "source_language": "schinese",
+      "text": "一直打不开",
+      "cosine": 0.5222758054733276,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 9,
+      "kind": "center_schinese",
+      "recommendationid": "235297003",
+      "source_language": "schinese",
+      "text": "卡闪退进不去服务器",
+      "cosine": 0.5165029168128967,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 9,
+      "kind": "center_schinese",
+      "recommendationid": "239040289",
+      "source_language": "schinese",
+      "text": "怎么一直卡闪退",
+      "cosine": 0.5103614330291748,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 9,
+      "kind": "random",
+      "recommendationid": "238994511",
+      "source_language": "schinese",
+      "text": "挺好玩的，帅，不怎么氪金，玩着就是爽，但有些费时间和吃运气",
+      "cosine": 0.18616488575935364,
+      "lexical_categories": [
+        "price_monetization"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 9,
+      "kind": "random",
+      "recommendationid": "239031408",
+      "source_language": "english",
+      "text": "I was super excited about the Remastered edition. But it broke the steam workshop. I cannot get the game to run without a script error. I hope they patch it and fix it soon really wanted to play the Remastered edition but now it won't run at all. I Tried: File verification Deleting the entire game folder and re-downloading Turning off all mods Deleting the mod folder",
+      "cosine": 0.14332225918769836,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "cluster": 9,
+      "kind": "random",
+      "recommendationid": "236775254",
+      "source_language": "schinese",
+      "text": "这游戏怎么样？ 朋友，这可太伟大了！他是国王G胖的最宠爱的儿子！整个steam王朝都因为他的降生而蓬勃发展！ 是我们的王子殿下呀！",
+      "cosine": 0.05870688706636429,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "238697551",
+      "source_language": "english",
+      "text": "Really fun combat system",
+      "cosine": 0.5535242557525635,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "234101024",
+      "source_language": "english",
+      "text": "very good combat gamee",
+      "cosine": 0.5331795811653137,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 0,
+      "kind": "center_english",
+      "recommendationid": "235560351",
+      "source_language": "english",
+      "text": "The combat is fast ,smooth, and insanely satisfying",
+      "cosine": 0.5254254937171936,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "226319301",
+      "source_language": "schinese",
+      "text": "节奏感强，操纵感很强，战斗节奏快",
+      "cosine": 0.6273115277290344,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "238816930",
+      "source_language": "schinese",
+      "text": "战斗，爽",
+      "cosine": 0.578210711479187,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 0,
+      "kind": "center_schinese",
+      "recommendationid": "236974789",
+      "source_language": "schinese",
+      "text": "枪械手感超好，战场氛围不错，没有过度，氛围非常舒适",
+      "cosine": 0.5516790747642517,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239117765",
+      "source_language": "english",
+      "text": "My depression is bigger then soviet tank depression rate. Soviet tech tree is in worse shape then my grandmas back, theyre armor are like paper, ammo like paper ball and they got worse reverse speed than my grandpas in his sleepwalk. Also when I try to launch war thunder it loads longer than ISU-152 reload",
+      "cosine": 0.1850683093070984,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "238949736",
+      "source_language": "english",
+      "text": "Good game, very linear but lots of options for side quests. Combat is so fire. If you like soulslikes then you should like this.",
+      "cosine": 0.288114070892334,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 0,
+      "kind": "random",
+      "recommendationid": "239110077",
+      "source_language": "schinese",
+      "text": "我的天呐，杰森大人，外挂也能强杀",
+      "cosine": 0.20991724729537964,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "238289850",
+      "source_language": "english",
+      "text": "Addicting, you just wanna go again and its easy to pick up from where you left off. I probably will spend atleast another 20 - 30 hours before I get sick of it.",
+      "cosine": 0.548717737197876,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "239149057",
+      "source_language": "english",
+      "text": "The game is not fun. Do not waste your time and money. The first few games can be exciting, but it turns bland and frustrating very quickly. The players you encounter in game are often toxic. The amount of grinding you need to do is absurd unless you choose to play this game full time. I find it to be unforgiving and unfriendly towards new players. There may be times when you think that playing a round or two would be fun, but do not come back to this game. You will remember why you left.",
+      "cosine": 0.4604790508747101,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 1,
+      "kind": "center_english",
+      "recommendationid": "238835582",
+      "source_language": "english",
+      "text": "This game did interesting things to me.... After 1 hour my arm hairs fell off.... After 5, my dearest weiner....... After 10 hours, my dear friend, I became a.......... Woman Hour 12: Why are my teeth highlighter yellow?",
+      "cosine": 0.44800201058387756,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "226946215",
+      "source_language": "schinese",
+      "text": "It depends if you like a challenge and can keep a cool head during losses, its a fun game but if youre easily triggered, then this game is not for you/",
+      "cosine": 0.3389805853366852,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "235437408",
+      "source_language": "schinese",
+      "text": "Its like an abusive relationship for a masochist its really bad and toxic but you still love it.",
+      "cosine": 0.2784634232521057,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 1,
+      "kind": "center_schinese",
+      "recommendationid": "237023985",
+      "source_language": "schinese",
+      "text": "刚玩的时候会有刺激的感觉，害怕鬼突然出来，玩久了之后习惯了，没有刚玩时的新鲜感和刺激感了，不过还可以拿诅咒道具坑朋友",
+      "cosine": 0.255563884973526,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238772033",
+      "source_language": "english",
+      "text": "One of those games you can easily lose hours playing without realizing it. The play at your own pace, while you explore, catch, build, craft, grind, and level up gives you tons of options.",
+      "cosine": 0.2747209966182709,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238409768",
+      "source_language": "english",
+      "text": "My favourite of all AoE games. I love the Definitive Edition because it combines all previous versions into one. Maybe it is my favourite because it's about the Middle Ages, maybe it's because it was my first AoE game I played. Whatever it is, it definitely is a lot of fun and really cool solo and with friends.",
+      "cosine": 0.11656911671161652,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 1,
+      "kind": "random",
+      "recommendationid": "238583590",
+      "source_language": "english",
+      "text": "Played this years ago and then set it aside. Recently came back and having a blast. I only play SP, but it's still fun building, killing and enslaving...",
+      "cosine": 0.26723870635032654,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "238359704",
+      "source_language": "english",
+      "text": "good game, very difficult",
+      "cosine": 0.7334381937980652,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "239118116",
+      "source_language": "english",
+      "text": "very hard but fun",
+      "cosine": 0.723835825920105,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 2,
+      "kind": "center_english",
+      "recommendationid": "239131200",
+      "source_language": "english",
+      "text": "very difficult",
+      "cosine": 0.6882904171943665,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "239092902",
+      "source_language": "schinese",
+      "text": "游戏难度太大",
+      "cosine": 0.5460298657417297,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "238878359",
+      "source_language": "schinese",
+      "text": "难度很高，压力很爆，情况急转直下",
+      "cosine": 0.5134895443916321,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 2,
+      "kind": "center_schinese",
+      "recommendationid": "238022452",
+      "source_language": "schinese",
+      "text": "难度不小 但确实是个好游戏",
+      "cosine": 0.47362035512924194,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "238868002",
+      "source_language": "english",
+      "text": "Difficult but very fun with he tricks 10/10",
+      "cosine": 0.38176363706588745,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "239127217",
+      "source_language": "english",
+      "text": "Easy to start, Hard to master, impossible to forget.",
+      "cosine": 0.46570679545402527,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 2,
+      "kind": "random",
+      "recommendationid": "237305389",
+      "source_language": "english",
+      "text": "even though I've chosen \"easy\" mode - anyway it's a very hard game...",
+      "cosine": 0.5168472528457642,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238780491",
+      "source_language": "english",
+      "text": "very fun with mods",
+      "cosine": 0.7039868235588074,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238913252",
+      "source_language": "english",
+      "text": "get mods and you get extra fun",
+      "cosine": 0.6956760287284851,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 3,
+      "kind": "center_english",
+      "recommendationid": "238892488",
+      "source_language": "english",
+      "text": "mods",
+      "cosine": 0.6257944107055664,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "230814654",
+      "source_language": "schinese",
+      "text": "你他妈天天更你麻痹，强制更新还他妈把老子的mod全更没了",
+      "cosine": 0.6318600177764893,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "239094135",
+      "source_language": "schinese",
+      "text": "mod 玩爽了",
+      "cosine": 0.6246203780174255,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 3,
+      "kind": "center_schinese",
+      "recommendationid": "238377089",
+      "source_language": "schinese",
+      "text": "更新了mod全炸，这游戏就屎一坨，本来内容就不算多，加点mod还能多点玩法",
+      "cosine": 0.59727942943573,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "239009904",
+      "source_language": "english",
+      "text": "\"What if we combined Metroid and Hades?\" Yes. Fast, furious, fun and well worth the $20 I paid for the complete bundle on sale.",
+      "cosine": 0.17076720297336578,
+      "lexical_categories": [
+        "price_monetization"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "227629934",
+      "source_language": "schinese",
+      "text": "你瞎jb更新什么",
+      "cosine": 0.2661610543727875,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 3,
+      "kind": "random",
+      "recommendationid": "239080478",
+      "source_language": "english",
+      "text": "MOBA needs update.",
+      "cosine": 0.36646395921707153,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "238977543",
+      "source_language": "english",
+      "text": "super fun game; my gf and I always play when we get a chance and with the ability to modify your own server it makes it so much more fun. Also super happy it works on linux fedora so its definitely worth giving it a try",
+      "cosine": 0.4674679636955261,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "239124753",
+      "source_language": "english",
+      "text": "SERVER PROBLEM",
+      "cosine": 0.3198643624782562,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 4,
+      "kind": "center_english",
+      "recommendationid": "238405971",
+      "source_language": "english",
+      "text": "really fun to play with friends and runs really smooth on older pcs like mine. :)",
+      "cosine": 0.31834250688552856,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "238606642",
+      "source_language": "schinese",
+      "text": "这个游戏好玩的很啊，好玩好玩快来玩，这个游戏不会报错，这个游戏不会崩溃，服务器质量很好，总而言之快去玩，我不会骗你们的",
+      "cosine": 0.6145967841148376,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "235297003",
+      "source_language": "schinese",
+      "text": "卡闪退进不去服务器",
+      "cosine": 0.563079833984375,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 4,
+      "kind": "center_schinese",
+      "recommendationid": "237842649",
+      "source_language": "schinese",
+      "text": "什么垃圾启动器，折腾半天打不开。 你们家的游戏全都这么垃圾吗？不会做服务器别瞎几把做。",
+      "cosine": 0.5340782403945923,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "236502910",
+      "source_language": "english",
+      "text": "Even though this says its fro Mac, please DO NOT play it on a mac, you will get frustrated. It's a stutter fest when the area gets crowded and then comes the input lag. If you do not have a Windows PC for this, do not play it. The game itself is not bad. It's just not compatible for Mac.",
+      "cosine": 0.15255582332611084,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239086215",
+      "source_language": "schinese",
+      "text": "多人合作就卡退",
+      "cosine": 0.2307567000389099,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 4,
+      "kind": "random",
+      "recommendationid": "239120973",
+      "source_language": "english",
+      "text": "Fun to play, choices matter, graphics are good. Runs on old hardware too.",
+      "cosine": 0.21425852179527283,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "239129264",
+      "source_language": "english",
+      "text": "Lots of story, and the customization options are great.",
+      "cosine": 0.4777999818325043,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238938082",
+      "source_language": "english",
+      "text": "very enguaging with many fullfilling stories",
+      "cosine": 0.46605563163757324,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 5,
+      "kind": "center_english",
+      "recommendationid": "238847662",
+      "source_language": "english",
+      "text": "It was fun and has a decent story line.",
+      "cosine": 0.454349547624588,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "238230583",
+      "source_language": "schinese",
+      "text": "剧情不错",
+      "cosine": 0.6349212527275085,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "238619430",
+      "source_language": "schinese",
+      "text": "内容丰富,画风优秀",
+      "cosine": 0.6283841133117676,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 5,
+      "kind": "center_schinese",
+      "recommendationid": "239016987",
+      "source_language": "schinese",
+      "text": "剧情完整细腻",
+      "cosine": 0.5926212072372437,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238687841",
+      "source_language": "schinese",
+      "text": "剧情玩进去了真的很好",
+      "cosine": 0.4716237783432007,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238597025",
+      "source_language": "schinese",
+      "text": "画质也太差了",
+      "cosine": 0.42585718631744385,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 5,
+      "kind": "random",
+      "recommendationid": "238223100",
+      "source_language": "schinese",
+      "text": "希望能更新",
+      "cosine": 0.4211507737636566,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "238364966",
+      "source_language": "english",
+      "text": "game is so fun too play with friends",
+      "cosine": 0.7378489971160889,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "238901496",
+      "source_language": "english",
+      "text": "Game is very fun with friends.",
+      "cosine": 0.7188786268234253,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 6,
+      "kind": "center_english",
+      "recommendationid": "238913796",
+      "source_language": "english",
+      "text": "Very cool game to play with friends",
+      "cosine": 0.6873894333839417,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "238898878",
+      "source_language": "schinese",
+      "text": "和朋友一起玩很好玩",
+      "cosine": 0.8223192691802979,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "239109743",
+      "source_language": "schinese",
+      "text": "跟朋友一起玩很有意思",
+      "cosine": 0.7222164273262024,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 6,
+      "kind": "center_schinese",
+      "recommendationid": "238621594",
+      "source_language": "schinese",
+      "text": "有朋友玩就是好游戏",
+      "cosine": 0.6853554248809814,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "238502601",
+      "source_language": "schinese",
+      "text": "很吃朋友配置的游戏慎入",
+      "cosine": 0.29876285791397095,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "239013188",
+      "source_language": "english",
+      "text": "Very good and fun to play, must play with friend for more fun",
+      "cosine": 0.5609491467475891,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 6,
+      "kind": "random",
+      "recommendationid": "238679111",
+      "source_language": "schinese",
+      "text": "特喜欢游戏之一，特别是跟朋友一起",
+      "cosine": 0.5994141101837158,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "239016332",
+      "source_language": "english",
+      "text": "the worst game ever filled with BOTS AND CHEATERS and EA is useless shit gaming company",
+      "cosine": 0.596077024936676,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "238250870",
+      "source_language": "english",
+      "text": "One of the worst survival games out there. Have fun convincing yourself it's worth your time.",
+      "cosine": 0.5283870697021484,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 7,
+      "kind": "center_english",
+      "recommendationid": "237818186",
+      "source_language": "english",
+      "text": "terrible game chrashes imediatly when launched steam is absolutly useless no customer support no refund no help at all steam support sucks and so does this game.",
+      "cosine": 0.4767827093601227,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "238376770",
+      "source_language": "schinese",
+      "text": "垃圾游戏，剧情搞得跟鬼一样",
+      "cosine": 0.5397542715072632,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "238370406",
+      "source_language": "schinese",
+      "text": "除了游戏的底层设计（不包括各项数值）之外，其他的一切都是巨大的狗屎。",
+      "cosine": 0.4952329397201538,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 7,
+      "kind": "center_schinese",
+      "recommendationid": "238972146",
+      "source_language": "schinese",
+      "text": "垃圾游戏，垃圾平衡",
+      "cosine": 0.48864495754241943,
+      "lexical_categories": [
+        "controls_difficulty"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "239004967",
+      "source_language": "english",
+      "text": "Bug ridden game, literally abandoned after years since no fixes even are coming.",
+      "cosine": 0.31721726059913635,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "235824812",
+      "source_language": "english",
+      "text": "trash game, bugs from the age of stones",
+      "cosine": 0.30352783203125,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 7,
+      "kind": "random",
+      "recommendationid": "237904760",
+      "source_language": "schinese",
+      "text": "恶心的垃圾游戏，好不容易拿到一把很不错的牌，特么就随些超级恶心的关卡，在岩浆地图弄出来6个精英地狱传道者，全图放子弹不说，还一直站在岩浆里又不扣血",
+      "cosine": 0.2898498475551605,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 8,
+      "kind": "center_english",
+      "recommendationid": "239012399",
+      "source_language": "english",
+      "text": "the gameplay is good but story is ass",
+      "cosine": 0.7032830715179443,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 8,
+      "kind": "center_english",
+      "recommendationid": "236852019",
+      "source_language": "english",
+      "text": "STORY BAD, GAMEPLAY GOOD.",
+      "cosine": 0.6327329874038696,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 8,
+      "kind": "center_english",
+      "recommendationid": "238059883",
+      "source_language": "english",
+      "text": "Good story and gameplay",
+      "cosine": 0.6297955513000488,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 8,
+      "kind": "center_schinese",
+      "recommendationid": "238300969",
+      "source_language": "schinese",
+      "text": "This game is pretty good, but it has quite a few bugs.",
+      "cosine": 0.6638500690460205,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 8,
+      "kind": "center_schinese",
+      "recommendationid": "238594477",
+      "source_language": "schinese",
+      "text": "游戏内容可以，但是各种bug层出不穷。。。",
+      "cosine": 0.5251168012619019,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 8,
+      "kind": "center_schinese",
+      "recommendationid": "236316503",
+      "source_language": "schinese",
+      "text": "剧情不错，游戏性略落后。",
+      "cosine": 0.5205778479576111,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 8,
+      "kind": "random",
+      "recommendationid": "238951842",
+      "source_language": "english",
+      "text": "Great music.",
+      "cosine": 0.18138912320137024,
+      "lexical_categories": [
+        "audiovisual"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 8,
+      "kind": "random",
+      "recommendationid": "238932006",
+      "source_language": "english",
+      "text": "Poorly optimized, bugs, UI is tiny",
+      "cosine": 0.45171451568603516,
+      "lexical_categories": [
+        "performance_stability"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 8,
+      "kind": "random",
+      "recommendationid": "238706531",
+      "source_language": "english",
+      "text": "The game overall is so fun, but dialog can be boring and for the ending they probably fired the writer cause wth is that ending....",
+      "cosine": 0.3238995671272278,
+      "lexical_categories": [
+        "story_characters"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 9,
+      "kind": "center_english",
+      "recommendationid": "239094799",
+      "source_language": "english",
+      "text": "one of the best open world game?",
+      "cosine": 0.5474196672439575,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 9,
+      "kind": "center_english",
+      "recommendationid": "238938599",
+      "source_language": "english",
+      "text": "Best open world and game",
+      "cosine": 0.5192930102348328,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 9,
+      "kind": "center_english",
+      "recommendationid": "239105833",
+      "source_language": "english",
+      "text": "best open world game for pokemon lover",
+      "cosine": 0.502661406993866,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 9,
+      "kind": "center_schinese",
+      "recommendationid": "238974452",
+      "source_language": "schinese",
+      "text": "开放世界可玩性高",
+      "cosine": 0.53558748960495,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 9,
+      "kind": "center_schinese",
+      "recommendationid": "238988185",
+      "source_language": "schinese",
+      "text": "这是我玩过最好玩的开放世界",
+      "cosine": 0.5308250188827515,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 9,
+      "kind": "center_schinese",
+      "recommendationid": "231271034",
+      "source_language": "schinese",
+      "text": "目前最喜欢玩的一个开放世界生存类型的游戏",
+      "cosine": 0.5246844291687012,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 9,
+      "kind": "random",
+      "recommendationid": "238939330",
+      "source_language": "english",
+      "text": "One of if not the best open world RPG's of all time.",
+      "cosine": 0.38255757093429565,
+      "lexical_categories": [
+        "gameplay"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 9,
+      "kind": "random",
+      "recommendationid": "238990963",
+      "source_language": "schinese",
+      "text": "很休闲的一款游戏，能很好的体验田园风光，里面内容玩法很丰富",
+      "cosine": 0.3627810478210449,
+      "lexical_categories": [
+        "content_support"
+      ]
+    },
+    {
+      "candidate": "residual_kmeans_k10_s42",
+      "cluster": 9,
+      "kind": "random",
+      "recommendationid": "236875785",
+      "source_language": "schinese",
+      "text": "一坨根本匹配不到人",
+      "cosine": 0.10389164090156555,
+      "lexical_categories": [
+        "multiplayer_community"
+      ]
+    }
+  ],
+  "seed_stability": [
+    {
+      "k": 6,
+      "ari": 0.6353391061000503
+    },
+    {
+      "k": 8,
+      "ari": 0.6773533493445466
+    },
+    {
+      "k": 10,
+      "ari": 0.5349470201104726
+    }
+  ],
+  "resampling_summary": [
+    {
+      "candidate": "residual_kmeans_k10_s17",
+      "resamples": 5,
+      "scope": "filtered_core",
+      "ari": {
+        "mean": 0.5644164461539857,
+        "minimum": 0.5001522174529491,
+        "maximum": 0.624947454134234
+      },
+      "out_of_bag_ari": {
+        "mean": 0.5690650378040927,
+        "minimum": 0.5083591756627187,
+        "maximum": 0.6566734834978439
+      },
+      "macro_cluster_jaccard": {
+        "mean": 0.6181923923621548,
+        "minimum": 0.5140356864564926,
+        "maximum": 0.6868655078168451
+      },
+      "minimum_cluster_jaccard": {
+        "mean": 0.23514903807161774,
+        "minimum": 0.0,
+        "maximum": 0.5073891625615764
+      },
+      "component_cosine": {
+        "mean": 0.887433123588562,
+        "minimum": 0.7954916954040527,
+        "maximum": 0.9475714564323425
+      },
+      "nonconverged_runs": 0
+    },
+    {
+      "candidate": "residual_kmeans_k6_s17",
+      "resamples": 5,
+      "scope": "filtered_core",
+      "ari": {
+        "mean": 0.6294432041676777,
+        "minimum": 0.5642415070547987,
+        "maximum": 0.7215960264218925
+      },
+      "out_of_bag_ari": {
+        "mean": 0.6453115693492422,
+        "minimum": 0.5561863425089066,
+        "maximum": 0.7265934688146551
+      },
+      "macro_cluster_jaccard": {
+        "mean": 0.7232700336369408,
+        "minimum": 0.6741046219162277,
+        "maximum": 0.785450163907009
+      },
+      "minimum_cluster_jaccard": {
+        "mean": 0.566572905529874,
+        "minimum": 0.5154061624649859,
+        "maximum": 0.640746500777605
+      },
+      "component_cosine": {
+        "mean": 0.9408158302307129,
+        "minimum": 0.9168686866760254,
+        "maximum": 0.9688851237297058
+      },
+      "nonconverged_runs": 0
+    },
+    {
+      "candidate": "residual_kmeans_k8_s17",
+      "resamples": 5,
+      "scope": "filtered_core",
+      "ari": {
+        "mean": 0.6086043154255678,
+        "minimum": 0.513220149591627,
+        "maximum": 0.6907494064292187
+      },
+      "out_of_bag_ari": {
+        "mean": 0.6333725680713993,
+        "minimum": 0.5553333054156047,
+        "maximum": 0.7096203547509194
+      },
+      "macro_cluster_jaccard": {
+        "mean": 0.6896237949261295,
+        "minimum": 0.6045766931247017,
+        "maximum": 0.7743067053670989
+      },
+      "minimum_cluster_jaccard": {
+        "mean": 0.4193708500055555,
+        "minimum": 0.018223234624145785,
+        "maximum": 0.6211849192100538
+      },
+      "component_cosine": {
+        "mean": 0.9148113012313843,
+        "minimum": 0.8132854700088501,
+        "maximum": 0.9682592749595642
+      },
+      "nonconverged_runs": 0
+    }
+  ],
+  "sources": {
+    "scripts/rework_unsupervised_topics.py": "a6b6ef802aa24d78e7ef41abfbeb9ae465c40d779a774835923e4774327e1c69",
+    "scripts/check_topic_stability.py": "50f4b27b0fdf7526365a1fb6b42d4a35e5fccb92ab6d38fa4b7341f6e3014167",
+    "config/topic_rework_residual.json": "2edf38cc20200a00e5c8bbcc2ed61018690976e29b34ecf12b6ae1dddec34174",
+    "output/embedding-bge/freeze_20261101-v1/cache/embedding_manifest.json": "5a4ffb70bb5b8c8b18fb72d9f8c3a4609a90336248c0910503997d99f197cabe",
+    "data/derived/embedding-bge/freeze_20261101-v1/model_reviews.jsonl": "ae68672beffbb8f424450296f9f418ad4c856125724fae80013e4a370aedcbde",
+    "output/embedding-bge/freeze_20261101-v1/cache/review_vectors.npy": "693c02eedb156efbaf50b3b13ba171f40caa50b15f7ee763b3a307ee26788d9b",
+    "output/embedding-bge/freeze_20261101-v1/cache/review_ids.json": "0932fdef3da4a1b941df7fc50cbe42b8ab785610acef5ec379043ce5081ba7f3"
+  },
+  "human_labels_used_for_training": false,
+  "recommendation_labels_used": false,
+  "encoder_loaded": false,
+  "new_embeddings": 0,
+  "task12_topics_frozen": false,
+  "limitations": [
+    "Lexical screening defines a restricted fitting scope; it can miss implicit aspects and cannot establish their absence.",
+    "Long/multi-aspect/template reviews are withheld from centroid fitting and require separate application checks.",
+    "Source-language fields are not new actual-language annotations. Cluster numbers are not shared aspect labels."
+  ]
+}

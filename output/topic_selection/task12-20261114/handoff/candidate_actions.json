@@ -1,0 +1,386 @@
+{
+  "status": "adjudication_applied_to_candidate_catalog",
+  "rows": [
+    {
+      "group_id": "G01",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "source_topic": "schinese:T00",
+      "action": "rework",
+      "name": "混杂短评与联机故障",
+      "score": 0,
+      "related_groups": [],
+      "reason": "E1、E3、E5 为泛评或梗；E4 有视听和游玩经历；E6 是联机故障及惩罚。没有共同方面，按原文重新分组。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G02",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "source_topic": "schinese:T03",
+      "action": "split",
+      "name": "可玩性泛评",
+      "score": 0,
+      "related_groups": [],
+      "reason": "E1—E4 只有可玩性评价；E5 单列匹配公平，E6 单列挂钩机制。泛评主体不设玩法主题。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G03",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "source_topic": "schinese:T07",
+      "action": "retain",
+      "name": "开放世界与自由探索",
+      "score": 1,
+      "related_groups": [],
+      "reason": "E1、E2、E6 支持开放世界，E3 仅提类型；E4、E5 不作支持例，清理后保留候选。",
+      "implementation": "retain_as_candidate_and_recheck_outliers"
+    },
+    {
+      "group_id": "G04",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "source_topic": "schinese:T02",
+      "action": "retain",
+      "name": "服务器与运行故障",
+      "score": 2,
+      "related_groups": [],
+      "reason": "E1—E3、E6 支持服务器问题；E5 涉及下载与优化。E4 夹杂政治内容，不用于推断具体故障。",
+      "implementation": "retain_as_candidate_and_recheck_outliers"
+    },
+    {
+      "group_id": "G05",
+      "candidate": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "source_topic": "4",
+      "action": "generic",
+      "name": "最佳游戏泛赞",
+      "score": 0,
+      "related_groups": [
+        "G13",
+        "G16",
+        "G26",
+        "G30"
+      ],
+      "reason": "六例均为整体认可，没有共同具体方面；归泛赞参考类。",
+      "implementation": "exclude_from_concrete_theme_catalog"
+    },
+    {
+      "group_id": "G06",
+      "candidate": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "source_topic": "2",
+      "action": "split",
+      "name": "入门、联机、MOD与综合体验",
+      "score": 1,
+      "related_groups": [],
+      "reason": "E1、E5 谈上手；E2、E3 谈朋友同玩；E2、E4 谈 MOD；E6 涉及操作、视听、剧情和性能。不能整体当泛赞，按方面拆分。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G07",
+      "candidate": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "source_topic": "9",
+      "action": "retain",
+      "name": "无法游玩与运行故障",
+      "score": 1,
+      "related_groups": [],
+      "reason": "E1、E4—E6 支持无法游玩；E2 只明确画面模糊，E3 是卡牌构筑。保留故障核心，视听与玩法例子另分。",
+      "implementation": "retain_as_candidate_and_recheck_outliers"
+    },
+    {
+      "group_id": "G08",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "source_topic": "english:T07",
+      "action": "rework",
+      "name": "梗、泛评与具体问题混合",
+      "score": 0,
+      "related_groups": [],
+      "reason": "E2 为版本泛评，E1、E3 语境有限；E4 明确技术闪烁，E5 谈重玩和重复性，E6 涉及能力门槛。不能一律归泛评。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G09",
+      "candidate": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "source_topic": "1",
+      "action": "generic",
+      "name": "负面泛评",
+      "score": 0,
+      "related_groups": [],
+      "reason": "E1、E2、E4—E6 为笼统负评；E3 的玩家评价单列社区。泛评主体具体方面一致性为 0。",
+      "implementation": "exclude_from_concrete_theme_catalog"
+    },
+    {
+      "group_id": "G10",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "source_topic": "english:T06",
+      "action": "merge",
+      "name": "朋友合作与联机体验",
+      "score": 2,
+      "related_groups": [
+        "G23"
+      ],
+      "reason": "E1—E3、E6 支持朋友同玩；E4 谈合作与设置，E5 同时肯定朋友游玩和跑酷。与 G23 统一语义主题，保留多标签。",
+      "implementation": "align_semantic_name_only_across_independent_models"
+    },
+    {
+      "group_id": "G11",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "source_topic": "schinese:T09",
+      "action": "generic",
+      "name": "怀旧与童年回忆",
+      "score": 0,
+      "related_groups": [],
+      "reason": "六例共同点是怀旧动机；E4 提卡牌肉鸽，但没有跨例共同具体玩法。保留怀旧描述，不作为具体方面主题。",
+      "implementation": "exclude_from_concrete_theme_catalog"
+    },
+    {
+      "group_id": "G12",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "source_topic": "english:T03",
+      "action": "rework",
+      "name": "比较性泛评与综合体验",
+      "score": 0,
+      "related_groups": [],
+      "reason": "E1—E4 为比较或整体感受；E5 谈舒缓体验，E6 涉及画面、难度和 DLC。比较用词不能构成共同方面。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G13",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "source_topic": "english:T02",
+      "action": "generic",
+      "name": "整体认可与值得玩",
+      "score": 0,
+      "related_groups": [
+        "G05",
+        "G16",
+        "G26",
+        "G30"
+      ],
+      "reason": "大部分仅说好玩或值得；E1 的 so much to do 可另记内容量。主体按泛赞处理，评分不按情绪一致性给 2。",
+      "implementation": "exclude_from_concrete_theme_catalog"
+    },
+    {
+      "group_id": "G14",
+      "candidate": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "source_topic": "7",
+      "action": "rework",
+      "name": "低信息短句与混杂表达",
+      "score": 0,
+      "related_groups": [],
+      "reason": "E1 提 MOD，E2、E3 语境或语言不清，E4—E6 是零散感受；没有可确认的共同具体方面。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G15",
+      "candidate": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "source_topic": "3",
+      "action": "split",
+      "name": "多方面综合好评",
+      "score": 1,
+      "related_groups": [],
+      "reason": "剧情、操作、玩法、视听等多方面并存；按方面保留多标签，不把共同好评当成单一研究主题。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G16",
+      "candidate": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "source_topic": "6",
+      "action": "generic",
+      "name": "简短泛赞",
+      "score": 0,
+      "related_groups": [
+        "G05",
+        "G13",
+        "G26",
+        "G30"
+      ],
+      "reason": "除 E3 明确杀鲨鱼的游戏行为外，其余是泛赞；E3 单列玩法，主体归泛赞。",
+      "implementation": "exclude_from_concrete_theme_catalog"
+    },
+    {
+      "group_id": "G17",
+      "candidate": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "source_topic": "8",
+      "action": "split",
+      "name": "操作、难度与上手门槛",
+      "score": 1,
+      "related_groups": [
+        "G21"
+      ],
+      "reason": "E1—E5 有操作、学习或战斗难度；E2、E4 另含性能问题，E6 是跑图和任务重复。难度部分与 G21 对齐，其余按方面拆分。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G18",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "source_topic": "english:T05",
+      "action": "rework",
+      "name": "游玩时长与泛评",
+      "score": 0,
+      "related_groups": [
+        "G24"
+      ],
+      "reason": "E1—E4 主要为时长与泛评，不直接证明内容量或重玩性；E5 是学习门槛，E6 是全成就后的类型评价。按实际方面重新分组。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G19",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "source_topic": "english:T01",
+      "action": "rework",
+      "name": "低信息感受与联机故障",
+      "score": 0,
+      "related_groups": [],
+      "reason": "前几例多为泛评或语境不明；E5 明确联机卡死，应归故障；E6 为生活感受。不能整体当成一个主题。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G20",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "source_topic": "schinese:T05",
+      "action": "rework",
+      "name": "厂商、版本与泛评混合",
+      "score": 0,
+      "related_groups": [],
+      "reason": "E1、E2 针对厂商或续作，E3 比较版本，E6 谈重制升级；E4、E5 是泛赞。按各自含义重新分组。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G21",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "source_topic": "english:T09",
+      "action": "retain",
+      "name": "战斗与通关难度",
+      "score": 2,
+      "related_groups": [
+        "G17"
+      ],
+      "reason": "E1—E3、E6 明确评价难度；E4 叙事和过场、E5 语境不明，不作支持例。保留候选并对齐 G17 的难度部分。",
+      "implementation": "retain_as_candidate_and_recheck_outliers"
+    },
+    {
+      "group_id": "G22",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "source_topic": "english:T00",
+      "action": "split",
+      "name": "多方面综合评论",
+      "score": 1,
+      "related_groups": [
+        "G27"
+      ],
+      "reason": "E1—E3 是多方面长评，但并非全有评分模板；E4 是泛评，E5 有剧情和合作体验，E6 有重玩性。按方面拆分，篇幅仅作文本特征。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G23",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "source_topic": "schinese:T01",
+      "action": "merge",
+      "name": "朋友合作与联机体验",
+      "score": 2,
+      "related_groups": [
+        "G10"
+      ],
+      "reason": "E1—E4 支持朋友合作，E5 含联机乐趣和延迟，E6 仅配置。与 G10 统一语义主题，延迟同时记性能。",
+      "implementation": "align_semantic_name_only_across_independent_models"
+    },
+    {
+      "group_id": "G24",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "source_topic": "schinese:T04",
+      "action": "split",
+      "name": "上头、时长与零散问题",
+      "score": 0,
+      "related_groups": [
+        "G18"
+      ],
+      "reason": "E1—E3 是上头或时长，不直接证明耐玩；E4 谈找枪耗时，E5 是网络及封禁，E6 是总体感受。按具体诉求拆分。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G25",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "source_topic": "english:T08",
+      "action": "rework",
+      "name": "time 多义词混合",
+      "score": 0,
+      "related_groups": [],
+      "reason": "E1 的 all time 是最高评价，E3 是累计时长，E2 是玩久后无聊，E4—E6 为零散体验。不能因 time 共词合成主题。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G26",
+      "candidate": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "source_topic": "5",
+      "action": "generic",
+      "name": "好玩与上瘾泛赞",
+      "score": 0,
+      "related_groups": [
+        "G05",
+        "G13",
+        "G16",
+        "G30"
+      ],
+      "reason": "六例都未展开具体玩法；上瘾不自动等于重玩性，统一归泛赞。",
+      "implementation": "exclude_from_concrete_theme_catalog"
+    },
+    {
+      "group_id": "G27",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "source_topic": "schinese:T06",
+      "action": "split",
+      "name": "多方面长评与表达混合",
+      "score": 1,
+      "related_groups": [
+        "G22"
+      ],
+      "reason": "E1、E2 为评分长评；E3 也是有具体证据的综合长评，E4 谈画面和操作；E5、E6 语境有限。具体方面分别归类，不能将后三至四例统称泛评。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G28",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/schinese_k10_s17",
+      "source_topic": "schinese:T08",
+      "action": "split",
+      "name": "更新维护与更新后故障",
+      "score": 1,
+      "related_groups": [
+        "G07"
+      ],
+      "reason": "E1、E5 归更新后运行故障；E3、E4、E6 归内容更新或支持；E2 的慢可能指下载或发布频率，保留歧义，不强分。",
+      "implementation": "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"
+    },
+    {
+      "group_id": "G29",
+      "candidate": "output/baseline_nmf/freeze_20261101_aspect_v2/english_k10_s17",
+      "source_topic": "english:T04",
+      "action": "retain",
+      "name": "剧情与叙事",
+      "score": 2,
+      "related_groups": [],
+      "reason": "E1—E3、E4 支持剧情，正负评价可共存；E5 为泛赞，E6 自称未充分了解剧情，不作剧情支持例。",
+      "implementation": "retain_as_candidate_and_recheck_outliers"
+    },
+    {
+      "group_id": "G30",
+      "candidate": "output/clustering-bge/freeze_20261101-v1/full_kmeans_k10_s17",
+      "source_topic": "0",
+      "action": "generic",
+      "name": "简短整体好评",
+      "score": 0,
+      "related_groups": [
+        "G05",
+        "G13",
+        "G16",
+        "G26"
+      ],
+      "reason": "E1、E2、E4—E6 是泛赞，E3 表达版本偏好；统一泛评类别，不形成具体方面主题。",
+      "implementation": "exclude_from_concrete_theme_catalog"
+    }
+  ],
+  "counts": {
+    "rework": 8,
+    "split": 8,
+    "retain": 5,
+    "generic": 7,
+    "merge": 2
+  },
+  "task12_topics_frozen": false
+}

@@ -1,0 +1,17 @@
+{
+  "version": "task12-resampling-v1",
+  "output": "output/topic_selection/task12-20261114",
+  "topic_counts": [6, 10, 14],
+  "anchor_seed": 17,
+  "resample_seeds": [2026111401, 2026111402, 2026111403, 2026111404, 2026111405],
+  "sample_fraction": 0.8,
+  "cpu_threads": 2,
+  "nmf_root": "output/baseline_nmf/freeze_20261101_aspect_v2",
+  "bge_root": "output/clustering-bge/freeze_20261101-v1",
+  "nmf_config": "config/nmf_baseline_aspect.json",
+  "bge_config": "config/clustering_bge.json",
+  "selection_uses_recommendation_labels": false,
+  "nmf_refits_vocabulary_and_idf": true,
+  "sampling": "80% without replacement within source-language/game strata",
+  "interpretation": "Five perturbations describe stability, not a confidence interval or annotation accuracy."
+}

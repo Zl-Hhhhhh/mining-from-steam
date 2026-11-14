@@ -10,3 +10,9 @@ external/
 tmp/
 /.venv-topic/
 /.cache-topic/
+
+# Regenerable fits from the Task12 exploratory round.
+/output/topic_selection/task12-20261114/**/*.npz
+/output/topic_selection/task12-20261114/**/*.joblib
+/output/topic_selection/task12-20261114/**/fit_assignments.json
+/output/topic_selection/task12-20261114/unsupervised_*/config.json

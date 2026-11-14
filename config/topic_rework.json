@@ -1,0 +1,31 @@
+{
+  "version": "unsupervised-aspect-filter-v1",
+  "output": "output/topic_selection/task12-20261114/unsupervised_rework",
+  "cluster_counts": [6, 8, 10],
+  "seeds": [17, 42],
+  "resample_seeds": [2026111401, 2026111402, 2026111403, 2026111404, 2026111405],
+  "sample_fraction": 0.8,
+  "n_init": 10,
+  "max_iter": 300,
+  "cpu_threads": 2,
+  "maximum_core_characters": 600,
+  "maximum_core_lexical_categories": 2,
+  "representatives_per_language": 3,
+  "random_representatives": 3,
+  "embedding_manifest": "output/embedding-bge/freeze_20261101-v1/cache/embedding_manifest.json",
+  "inputs": "data/derived/embedding-bge/freeze_20261101-v1/model_reviews.jsonl",
+  "master_index": "data/derived/embedding-bge/freeze_20261101-v1/master_index.jsonl",
+  "affinity_temperature": 0.1,
+  "patterns": {
+    "gameplay": "\\b(combat|craft\\w*|build\\w*|explor\\w*|quest\\w*|puzzl\\w*|resource\\w*|roguelike|survival|stealth)\\b|open.world|turn.based|机制|战斗|刷怪|关卡|探索|开放世界|回合|解谜|采集|建造|种田|背包|潜行",
+    "controls_difficulty": "\\b(difficult\\w*|hard(?:est)?|challeng\\w*|learn\\w*|control\\w*|keybind\\w*|balanc\\w*|easy|unfair|recoil)\\b|难度|困难|简单|上手|教学|教程|平衡|操作|手感|键位|打击感|数值",
+    "performance_stability": "\\b(lag\\w*|stutter\\w*|crash\\w*|freez\\w*|fps|bugs?|optimi[sz]\\w*|servers?|ping|connect\\w*|launch\\w*)\\b|frame.rate|卡顿|卡死|闪退|崩溃|进不去|打不开|无法启动|服务器|延迟|掉线|优化|报错",
+    "story_characters": "\\b(story|stories|narrat\\w*|characters?|plot|dialog\\w*|lore|ending)\\b|剧情|角色|叙事|人物|故事|结局|对话|世界观",
+    "audiovisual": "\\b(graphic\\w*|visual\\w*|music|soundtrack|sounds?|audio|animation\\w*)\\b|art.style|画面|画质|美术|音乐|音效|视听|建模|贴图|动画|配音",
+    "multiplayer_community": "\\b(multiplayer|matchmak\\w*|cheat\\w*|friends?|team.?mates?|community|toxic|hackers?|vac)\\b|co.?op|anti.?cheat|联机|合作|匹配|外挂|作弊|反作弊|队友|社区|朋友|组队|封禁|误封",
+    "price_monetization": "\\b(prices?|costs?|bucks?|dollars?|discount\\w*|microtransaction\\w*)\\b|worth.{0,15}(money|price|buck|dollar)|free.{0,8}(update|dlc)|on.sale|便宜|性价比|价格|售价|太贵|氪金|内购|收费",
+    "content_support": "\\b(replay\\w*|content|mods?|dlc|expansions?|updates?|patch\\w*|achievements?)\\b|内容|耐玩|重玩|模组|更新|维护|扩展|成就",
+    "other_concrete": "\\b(translat\\w*|locali[sz]\\w*)\\b|motion.sick|account.{0,15}(hack|secur)|support.ticket|字幕|翻译|汉化|眩晕|晕船|晕3|客服|账号安全"
+  },
+  "notes": "Rules only filter fitting texts and flag application records. They are not learned from review labels and do not assign final research themes. Generic praise, long/many-aspect reviews and checkbox templates are excluded from centroid fitting. Cached whole-review vectors remain unchanged."
+}

@@ -1,0 +1,38 @@
+{
+  "input": "sentence_units.jsonl",
+  "input_sha256": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+  "id_field": "unit_id",
+  "text_field": "text",
+  "encode_all_units": true,
+  "ordered_unit_ids_sha256": "e3ebc2157d84cafe31be36f0e3e194653439b2d67c113fb05d1df12724abce23",
+  "order_hash_format": "UTF-8 unit IDs in JSONL order, each followed by LF",
+  "required_shape": [
+    8979,
+    1024
+  ],
+  "model_name": "BAAI/bge-m3",
+  "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "pooling": "cls",
+  "normalize_embeddings": true,
+  "dtype": "float32",
+  "max_seq_length": 8192,
+  "cpu_threads": 2,
+  "max_batch_size": 8,
+  "output_files": [
+    "sentence_vectors.npy",
+    "unit_ids.json",
+    "sentence_embedding_manifest.json"
+  ],
+  "manifest_required_fields": [
+    "model_revision",
+    "input_sha256",
+    "vectors_sha256",
+    "ordered_unit_ids_sha256",
+    "shape",
+    "pooling",
+    "normalize_embeddings"
+  ],
+  "silent_truncation_allowed": false,
+  "existing_whole_review_cache_applicable": false,
+  "note": "This JSONL is a new unit schema, not a drop-in model_reviews.jsonl for the old fixed-row-count encoder. C should adapt the encoder input and preserve this ID order."
+}

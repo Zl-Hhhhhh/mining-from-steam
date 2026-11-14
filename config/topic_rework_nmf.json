@@ -1,0 +1,20 @@
+{
+  "version": "unsupervised-content-core-nmf-v1",
+  "output": "output/topic_selection/task12-20261114/nmf_rework",
+  "gate_config": "config/topic_rework_residual.json",
+  "tokenizer_config": "config/nmf_baseline_aspect.json",
+  "inputs": "data/derived/embedding-bge/freeze_20261101-v1/model_reviews.jsonl",
+  "metadata": "data/metadata/freeze_20261101/game_meta.csv",
+  "languages": ["english", "schinese"],
+  "topic_counts": [6, 8],
+  "seeds": [17, 42],
+  "resample_seeds": [2026111401, 2026111402, 2026111403, 2026111404, 2026111405],
+  "sample_fraction": 0.8,
+  "min_df": 3,
+  "max_df": 0.9,
+  "max_features": 8000,
+  "max_iter": 600,
+  "tol": 0.0001,
+  "cpu_threads": 2,
+  "note": "Annotations and recommendation labels are excluded from training. Topic IDs remain language-specific until semantic alignment is confirmed."
+}

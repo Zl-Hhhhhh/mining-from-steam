@@ -32,3 +32,13 @@
 /output/topic_review/** -text
 /scripts/adjudicate_review_round1.py -text
 /tests/test_adjudicate_review_round1.py -text
+/scripts/recover_review_group_sources.py -text
+/tests/test_recover_review_group_sources.py -text
+/config/topic_stability.json -text
+/config/topic_rework*.json -text
+/scripts/check_topic_stability.py -text
+/scripts/rework_unsupervised_topics.py -text
+/scripts/rework_nmf_topics.py -text
+/scripts/prepare_task12_handoff.py -text
+/tests/test_task12_selection.py -text
+/output/topic_selection/** -text
