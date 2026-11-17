@@ -1,0 +1,1180 @@
+{
+  "status": "pilot_runtime_checks_passed_semantic_examples_for_review",
+  "fingerprint": "945921f227ec8864cb88102d3409e706899bcd5a528e1a34a29c7b6e5ab7e5c0",
+  "real_units": 48,
+  "language_hints": {
+    "Han-dominant": 21,
+    "Latin-script": 27
+  },
+  "fit_candidate_counts": {
+    "True": 30,
+    "False": 18
+  },
+  "max_tokens_in_all_input": 1543,
+  "truncated_units": 0,
+  "synthetic_controls": [
+    {
+      "pair": "crash",
+      "english": "The game keeps crashing.",
+      "chinese": "游戏总是闪退。",
+      "paired_cosine": 0.7895199656486511,
+      "paired_rank_among_six_chinese": 1,
+      "closest_chinese": "游戏总是闪退。"
+    },
+    {
+      "pair": "music",
+      "english": "The soundtrack is excellent.",
+      "chinese": "配乐非常出色。",
+      "paired_cosine": 0.8994325399398804,
+      "paired_rank_among_six_chinese": 1,
+      "closest_chinese": "配乐非常出色。"
+    },
+    {
+      "pair": "story",
+      "english": "The story is boring.",
+      "chinese": "剧情很无聊。",
+      "paired_cosine": 0.8701577186584473,
+      "paired_rank_among_six_chinese": 1,
+      "closest_chinese": "剧情很无聊。"
+    },
+    {
+      "pair": "cheating",
+      "english": "There are too many cheaters in matches.",
+      "chinese": "对局里的外挂太多。",
+      "paired_cosine": 0.7553650736808777,
+      "paired_rank_among_six_chinese": 1,
+      "closest_chinese": "对局里的外挂太多。"
+    },
+    {
+      "pair": "price",
+      "english": "The DLC is too expensive.",
+      "chinese": "这个DLC太贵了。",
+      "paired_cosine": 0.9628949761390686,
+      "paired_rank_among_six_chinese": 1,
+      "closest_chinese": "这个DLC太贵了。"
+    },
+    {
+      "pair": "friends",
+      "english": "Playing with friends is fun.",
+      "chinese": "和朋友联机很开心。",
+      "paired_cosine": 0.7858003973960876,
+      "paired_rank_among_six_chinese": 1,
+      "closest_chinese": "和朋友联机很开心。"
+    }
+  ],
+  "real_unit_neighbors": [
+    {
+      "unit_id": "S06831f5eec15e63505c6",
+      "text": "单人模式的ai队友也很傻逼，有时会不听指挥擅自开门闯入未清理区域",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sd83ae947dc971291b46a",
+          "text": "Aiming that makes me question whether my controller is broken",
+          "cosine": 0.579047679901123
+        },
+        {
+          "unit_id": "Sd359f5360a54c2b792af",
+          "text": "Amazing modding community, sadly can't speak to multiplayer function I think that would stress out my PC to much as I do have some issues late game if I don't stay in space for it",
+          "cosine": 0.5715237259864807
+        },
+        {
+          "unit_id": "S814c594b3536f504f427",
+          "text": "One thing I was slightly let down by was the fact that some builds just aren't viable long-term, so you can easily end up with characters who are frustratingly weak and others who are borderline broken, without intending any of it",
+          "cosine": 0.5529533624649048
+        }
+      ]
+    },
+    {
+      "unit_id": "S06b7cab19069f68003c4",
+      "text": "This is BG3 in a nutshell: a strong opening that stumbles so hard in the final lap that it actively undermines everything that came before",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S7f1bdb3c7febc21d656e",
+          "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+          "cosine": 0.47831758856773376
+        },
+        {
+          "unit_id": "Saeb4f559f9c4b12e15eb",
+          "text": "游戏闪屏bug官方不修，居然还要靠民间打补丁，天天更新他那个b启动器，结果启动器做的也是一坨屎",
+          "cosine": 0.45922404527664185
+        },
+        {
+          "unit_id": "Sa561fda082997af4460d",
+          "text": "给我这种想象力过剩的ADHD屁孩玩的完美游戏，大杂拌很乐趣，也经常开着地图当氛围音干别的事情，玩家社群非常classy，除了三年前那个在沙盒服务器恼羞成怒疯狂用HUGE ASS火车模型卡我的那个管理员，如果只能在余生玩最后一款游戏我只会选择基mod，11/10",
+          "cosine": 0.4404083490371704
+        }
+      ]
+    },
+    {
+      "unit_id": "S087be08b3794b0e64025",
+      "text": "肉鸽类型，像素类型，堪称无敌，就是关卡有些少，已经停更了，dlc还是有些意思的，自定义模式降低游戏难度还是可以适合新手的",
+      "language_hint": "Han-dominant",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sc70e94e66c043427d883",
+          "text": "Pros: Para mi una obra maestra, del genero, la variedad de armas que ofrece el juego permite que explores varios tipos de arma para descubrir cual te gusta mas, El sistema de ecosistemas vivos le dan a este monster hunter algo que no tenian entregas anteriores, ver monstruos comiendose otros le da un toque especial a este, en cuanto al sistema de seguimiento de los monstruos sigue guardando un poco la escensia de los anteriores de tener que descubir un monstruo que no conocia, pero con un extra que serian los lafarillos te ayudan a seguir monstruos o materiales que en entregas anteriores era realmente engorroso de realizar, Cons: El hecho de que el mundo sea tan grande en cada uno de los ecosistemas, se siente a veces abrumador cuando estas empezando, la historia es un poco vacia y parece como solo darle una vago sentido al porque cazas monstruos, Los menus y la interfaz si bien mejoraron en cuanto a entregas anteriores siguen siendo bastante complicadas de entender, mas que todo para nuevos jugadores, El sistema de emparejamiento al jugar multijugador es un asco, si estoy jugando con mis amigos me gustaria poder verlos por ahi justo como en MH RIse no solo en una sala random que nadie visita",
+          "cosine": 0.6386404037475586
+        },
+        {
+          "unit_id": "S0ca0d75e50f9ae2c0433",
+          "text": "very cozy calming game with a lot of fun mechanics and stories",
+          "cosine": 0.5797892808914185
+        },
+        {
+          "unit_id": "S859a25fcffe2021a9fa8",
+          "text": "Про это в следующем разделе. Система заданий: в игре есть сюжетные, дополнительные, событийные и особые задания, и расследования. Так вот, за годы их наделали столько разных, что глаза разбегаются. И вот тут кроется главная ошибка: дополнительные задания стоит выполнять практически все. Даже если там нет очевидных призов в описании, то прохождение может дать проход к нужному заданию или просто выпадет что-то крайне полезное. Так я и профукал за одним невыполненным заданием без приза в описании длинную цепочку прокачки своего главного помощника - палико. О палико: это прямоходящий кот, который помогает тебе если игрешь один или вдвоём. Т.к. в пати не может быть больше 4 членов, то при игре вчетвером палико остаются в стороне. Он прокачивается вместе с тобой и обрастает арсеналом весьма полезных инструментов. Так что не пропускайте его квесты, т.к. инструменты отнюдь не единственная причина, по которой стоит пройти все дополнительные квесты компаньона. Особенно, если играете в одиночку. С сюжетными, думаю, всё понятно. Событийные - скорее проверка умений. Они часто требуются в еженедельных квестах и за них дают неплохую награду. А особые квесты - это DLC и походы на самых элитных боссов. Тут по желанию, я пропустил всякие кроссоверы, а остальные все прошёл. В одном из таких квестов получил самую полезную накидку в игре. Про онлайн: несмотря на почётные 8 лет с выхода, онлайн в игре стабилен. Почти всегда на трудных боссов можно призвать помощь. Однако, в сюжетных миссиях сначала нужно посмотреть сюжетные же вставки, а только после них откроется возможность призыва. Про трудных боссов: думаю всех их вполне можно пройти в одиночку, но я не советую. В одиночку можно и задушниться, мне кажется, даже если играешь с нонеймами из сети. В первую очередь - это кооперативная игра. И двух человек тут вполне достаточно, чтобы сделать её незабываемой и обрести кучу совместных воспоминаний. Однако, не стоит забывать, что каждая охота требует подготовки: нужная броня и камни в ней, подходящее оружие, лечилки и антидоты, ловушки, и, главное, хорошо покушать перед заходом - всё это крайне важно для успеха. Если выполнить все пункты, то даже самый трудный босс не устоит перед вашим напором. Ну и в конце: почему именно World, а не более новые Rise или Wilds",
+          "cosine": 0.5766395926475525
+        }
+      ]
+    },
+    {
+      "unit_id": "S0ca0d75e50f9ae2c0433",
+      "text": "very cozy calming game with a lot of fun mechanics and stories",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S87d77c2819b42641580a",
+          "text": "“反作弊功能完善 英雄强度平衡 玩家态度友好 服务器运行流畅 公司智商惊人 ”",
+          "cosine": 0.6481295228004456
+        },
+        {
+          "unit_id": "Sa561fda082997af4460d",
+          "text": "给我这种想象力过剩的ADHD屁孩玩的完美游戏，大杂拌很乐趣，也经常开着地图当氛围音干别的事情，玩家社群非常classy，除了三年前那个在沙盒服务器恼羞成怒疯狂用HUGE ASS火车模型卡我的那个管理员，如果只能在余生玩最后一款游戏我只会选择基mod，11/10",
+          "cosine": 0.5983003377914429
+        },
+        {
+          "unit_id": "S52deeffd0ee0c44ccee9",
+          "text": "给你们看屁屁能点个赞吗 ⣿⣿⣿⣿⠛⠛⠉⠄⠁⠄⠄⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡟⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⠄⠄⠐⠄⠄⠄⠄⠄⠄⠄⠠⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⢀⡀⠠⠃⡐⡀⠠⣶⠄⠄⢀⣿⣿⣿⣿⣿⣿ ⣿⣿⣶⠄⠰⣤⣕⣿⣾⡇⠄⢛⠃⠄⢈⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡇⢀⣻⠟⣻⣿⡇⠄⠧⠄⢀⣾⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣟⢸⣻⣭⡙⢄⢀⠄⠄⠄⠈⢹⣯⣿⣿⣿⣿⣿ ⣿⣿⣿⣭⣿⣿⣿⣧⢸⠄⠄⠄⠄⠄⠈⢸⣿⣿⣿⣿⣿ ⣿⣿⣿⣼⣿⣿⣿⣽⠘⡄⠄⠄⠄⠄⢀⠸⣿⣿⣿⣿⣿ ⡿⣿⣳⣿⣿⣿⣿⣿⠄⠓⠦⠤⠤⠤⠼⢸⣿⣿⣿⣿⣿ ⡹⣧⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⢇⣓⣾⣿⣿⣿⣿⣿ ⡞⣸⣿⣿⢏⣼⣶⣶⣶⣶⣤⣶⡤⠐⣿⣿⣿⣿⣿⣿⣿ ⣯⣽⣛⠅⣾⣿⣿⣿⣿⣿⡽⣿⣧⡸⢿⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡷⠹⠛⠉⠁⠄⠄⠄⠄⠄⠄⠐⠛⠻⣿⣿⣿⣿ ⣿⣿⣿⠃⠄⠄⠄⠄⠄⣠⣤⣤⣤⡄⢤⣤⣤⣤⡘⠻⣿ ⣿⣿⡟⠄⠄⣀⣤⣶⣿⣿⣿⣿⣿⣿⣆⢻⣿⣿⣿⡎⠝ ⣿⡏⠄⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡎⣿⣿⣿⣿⠐ ⣿⡏⣲⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢇⣿⣿⣿⡟⣼ ⣿⡠⠜⣿⣿⣿⣿⣟⡛⠿⠿⠿⠿⠟⠃⠾⠿⢟⡋⢶⣿ ⣿⣧⣄⠙⢿⣿⣿⣿⣿⣿⣷⣦⡀⢰⣾⣿⣿⡿⢣⣿⣿ ⣿⣿⣿⠂⣷⣶⣬⣭⣭⣭⣭⣵⢰⣴⣤⣤⣶⡾⢐⣿⣿ ⣿⣿⣿⣷⡘⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⢃⣼⣿⣿ 上古卷轴5犹如一篇悠久的史诗，令人回味悠长，加上顶级配乐，哪怕是老游戏画质，依旧令人心神激荡",
+          "cosine": 0.5929260849952698
+        }
+      ]
+    },
+    {
+      "unit_id": "S0d9cab5856565c8c2430",
+      "text": "Overall, Mount & Blade II: Bannerlord is a very good game with excellent large-scale battles, a unique sandbox experience, and plenty of replayability",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S52deeffd0ee0c44ccee9",
+          "text": "给你们看屁屁能点个赞吗 ⣿⣿⣿⣿⠛⠛⠉⠄⠁⠄⠄⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡟⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⠄⠄⠐⠄⠄⠄⠄⠄⠄⠄⠠⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⢀⡀⠠⠃⡐⡀⠠⣶⠄⠄⢀⣿⣿⣿⣿⣿⣿ ⣿⣿⣶⠄⠰⣤⣕⣿⣾⡇⠄⢛⠃⠄⢈⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡇⢀⣻⠟⣻⣿⡇⠄⠧⠄⢀⣾⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣟⢸⣻⣭⡙⢄⢀⠄⠄⠄⠈⢹⣯⣿⣿⣿⣿⣿ ⣿⣿⣿⣭⣿⣿⣿⣧⢸⠄⠄⠄⠄⠄⠈⢸⣿⣿⣿⣿⣿ ⣿⣿⣿⣼⣿⣿⣿⣽⠘⡄⠄⠄⠄⠄⢀⠸⣿⣿⣿⣿⣿ ⡿⣿⣳⣿⣿⣿⣿⣿⠄⠓⠦⠤⠤⠤⠼⢸⣿⣿⣿⣿⣿ ⡹⣧⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⢇⣓⣾⣿⣿⣿⣿⣿ ⡞⣸⣿⣿⢏⣼⣶⣶⣶⣶⣤⣶⡤⠐⣿⣿⣿⣿⣿⣿⣿ ⣯⣽⣛⠅⣾⣿⣿⣿⣿⣿⡽⣿⣧⡸⢿⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡷⠹⠛⠉⠁⠄⠄⠄⠄⠄⠄⠐⠛⠻⣿⣿⣿⣿ ⣿⣿⣿⠃⠄⠄⠄⠄⠄⣠⣤⣤⣤⡄⢤⣤⣤⣤⡘⠻⣿ ⣿⣿⡟⠄⠄⣀⣤⣶⣿⣿⣿⣿⣿⣿⣆⢻⣿⣿⣿⡎⠝ ⣿⡏⠄⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡎⣿⣿⣿⣿⠐ ⣿⡏⣲⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢇⣿⣿⣿⡟⣼ ⣿⡠⠜⣿⣿⣿⣿⣟⡛⠿⠿⠿⠿⠟⠃⠾⠿⢟⡋⢶⣿ ⣿⣧⣄⠙⢿⣿⣿⣿⣿⣿⣷⣦⡀⢰⣾⣿⣿⡿⢣⣿⣿ ⣿⣿⣿⠂⣷⣶⣬⣭⣭⣭⣭⣵⢰⣴⣤⣤⣶⡾⢐⣿⣿ ⣿⣿⣿⣷⡘⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⢃⣼⣿⣿ 上古卷轴5犹如一篇悠久的史诗，令人回味悠长，加上顶级配乐，哪怕是老游戏画质，依旧令人心神激荡",
+          "cosine": 0.6020481586456299
+        },
+        {
+          "unit_id": "S087be08b3794b0e64025",
+          "text": "肉鸽类型，像素类型，堪称无敌，就是关卡有些少，已经停更了，dlc还是有些意思的，自定义模式降低游戏难度还是可以适合新手的",
+          "cosine": 0.5707785487174988
+        },
+        {
+          "unit_id": "S87d77c2819b42641580a",
+          "text": "“反作弊功能完善 英雄强度平衡 玩家态度友好 服务器运行流畅 公司智商惊人 ”",
+          "cosine": 0.5507841110229492
+        }
+      ]
+    },
+    {
+      "unit_id": "S1a8af762da4737d1cbc3",
+      "text": "It's been 25 years and the developers haven't learned that sometimes, less is more. - Servers are struggling and causing rubber banding",
+      "language_hint": "Latin-script",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S7f1bdb3c7febc21d656e",
+          "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+          "cosine": 0.5330266356468201
+        },
+        {
+          "unit_id": "S8806215f75b05a669166",
+          "text": "联机困难",
+          "cosine": 0.5292612910270691
+        },
+        {
+          "unit_id": "S8815bdafee0488556a53",
+          "text": "育碧不维护了，新的显卡玩着游戏又卡又闪屏，别买",
+          "cosine": 0.5290766358375549
+        }
+      ]
+    },
+    {
+      "unit_id": "S1e27c51e0b8ef1fffb27",
+      "text": "游戏给9.5分，画面和动作以及优化都挺粗糙的，但耐不住这种类型的游戏在steam上你是第一个",
+      "language_hint": "Han-dominant",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S814c594b3536f504f427",
+          "text": "One thing I was slightly let down by was the fact that some builds just aren't viable long-term, so you can easily end up with characters who are frustratingly weak and others who are borderline broken, without intending any of it",
+          "cosine": 0.6418828964233398
+        },
+        {
+          "unit_id": "S581b131ebe7a1ec6c834",
+          "text": "Game is absolute and utter peak, I wish they added more dialogue to NPC's than what they did",
+          "cosine": 0.6033912897109985
+        },
+        {
+          "unit_id": "Sc70e94e66c043427d883",
+          "text": "Pros: Para mi una obra maestra, del genero, la variedad de armas que ofrece el juego permite que explores varios tipos de arma para descubrir cual te gusta mas, El sistema de ecosistemas vivos le dan a este monster hunter algo que no tenian entregas anteriores, ver monstruos comiendose otros le da un toque especial a este, en cuanto al sistema de seguimiento de los monstruos sigue guardando un poco la escensia de los anteriores de tener que descubir un monstruo que no conocia, pero con un extra que serian los lafarillos te ayudan a seguir monstruos o materiales que en entregas anteriores era realmente engorroso de realizar, Cons: El hecho de que el mundo sea tan grande en cada uno de los ecosistemas, se siente a veces abrumador cuando estas empezando, la historia es un poco vacia y parece como solo darle una vago sentido al porque cazas monstruos, Los menus y la interfaz si bien mejoraron en cuanto a entregas anteriores siguen siendo bastante complicadas de entender, mas que todo para nuevos jugadores, El sistema de emparejamiento al jugar multijugador es un asco, si estoy jugando con mis amigos me gustaria poder verlos por ahi justo como en MH RIse no solo en una sala random que nadie visita",
+          "cosine": 0.5937636494636536
+        }
+      ]
+    },
+    {
+      "unit_id": "S207b90a7357ede8fb25e",
+      "text": "Whatever you like best you can spend time on, and if making a base or hunting bosses, or seafaring isn't up your alley there's enough content to skip your least favorite parts and still have so so much to do",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S087be08b3794b0e64025",
+          "text": "肉鸽类型，像素类型，堪称无敌，就是关卡有些少，已经停更了，dlc还是有些意思的，自定义模式降低游戏难度还是可以适合新手的",
+          "cosine": 0.5396938323974609
+        },
+        {
+          "unit_id": "Sa561fda082997af4460d",
+          "text": "给我这种想象力过剩的ADHD屁孩玩的完美游戏，大杂拌很乐趣，也经常开着地图当氛围音干别的事情，玩家社群非常classy，除了三年前那个在沙盒服务器恼羞成怒疯狂用HUGE ASS火车模型卡我的那个管理员，如果只能在余生玩最后一款游戏我只会选择基mod，11/10",
+          "cosine": 0.5294116735458374
+        },
+        {
+          "unit_id": "S6a17eac625547a2a1d2b",
+          "text": "爬塔模拟器，找卡组挺有乐趣，但需要很多学习成本，上手难度不低",
+          "cosine": 0.5280788540840149
+        }
+      ]
+    },
+    {
+      "unit_id": "S2dbb0e329159350b1b30",
+      "text": "The base game isn't even fun, so him ranting over the VRO mod like the second coming of the lord is ridiculous",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Saeb4f559f9c4b12e15eb",
+          "text": "游戏闪屏bug官方不修，居然还要靠民间打补丁，天天更新他那个b启动器，结果启动器做的也是一坨屎",
+          "cosine": 0.5673340559005737
+        },
+        {
+          "unit_id": "S7f1bdb3c7febc21d656e",
+          "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+          "cosine": 0.5534577965736389
+        },
+        {
+          "unit_id": "Sb24241d7474ddedfb88d",
+          "text": "尼玛的，我是听说这游戏是战斗爽才买的，玩的时候发现完全不是这么回事，为什么会有怪打到一半自己跑这种恶心机制，尤其是那些会飞的一跑就不知道去哪了，我玩这游戏一大半时间在无意义且重复的跑图上，还有及其杂乱的物品，我玩物语2的时候都没这种感觉，还有那些各种看不懂的名词，你要是塞在剧情里谁管你，很多游戏道具不仔细看根本不知道什么意思，像出招疯狗，多动症，一直飞天不下来，都是小问题，这种冗长繁杂的地图配合怪物打到一半就跑还要招痕迹的机制，使劲拖时间有意思吗",
+          "cosine": 0.5515463352203369
+        }
+      ]
+    },
+    {
+      "unit_id": "S303a288691f82c622eae",
+      "text": "便宜",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sdea4eaa2bb032f3fd196",
+          "text": "very fun with friends",
+          "cosine": 0.5374055504798889
+        },
+        {
+          "unit_id": "Sde230d44f35066bd0dd1",
+          "text": "Good game with a decent story and a must buy when on sale :)",
+          "cosine": 0.48027923703193665
+        },
+        {
+          "unit_id": "S0ca0d75e50f9ae2c0433",
+          "text": "very cozy calming game with a lot of fun mechanics and stories",
+          "cosine": 0.4776195287704468
+        }
+      ]
+    },
+    {
+      "unit_id": "S33a3140831d6e8cffa72",
+      "text": "闪退",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sd83ae947dc971291b46a",
+          "text": "Aiming that makes me question whether my controller is broken",
+          "cosine": 0.5068458914756775
+        },
+        {
+          "unit_id": "S695073cb6649c0a43675",
+          "text": "mods",
+          "cosine": 0.4748011529445648
+        },
+        {
+          "unit_id": "Sed5465b9220df9ce176d",
+          "text": "hard",
+          "cosine": 0.4435378313064575
+        }
+      ]
+    },
+    {
+      "unit_id": "S47e0f4f64060b389e7d4",
+      "text": "高度优秀的数值设计，精美的卡牌",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sde230d44f35066bd0dd1",
+          "text": "Good game with a decent story and a must buy when on sale :)",
+          "cosine": 0.5920975208282471
+        },
+        {
+          "unit_id": "Scf1b1e3b8a2e8cb1fe26",
+          "text": "Really cool story and world building",
+          "cosine": 0.5732255578041077
+        },
+        {
+          "unit_id": "Sdea4eaa2bb032f3fd196",
+          "text": "very fun with friends",
+          "cosine": 0.5730780959129333
+        }
+      ]
+    },
+    {
+      "unit_id": "S52deeffd0ee0c44ccee9",
+      "text": "给你们看屁屁能点个赞吗 ⣿⣿⣿⣿⠛⠛⠉⠄⠁⠄⠄⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡟⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⠄⠄⠐⠄⠄⠄⠄⠄⠄⠄⠠⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⢀⡀⠠⠃⡐⡀⠠⣶⠄⠄⢀⣿⣿⣿⣿⣿⣿ ⣿⣿⣶⠄⠰⣤⣕⣿⣾⡇⠄⢛⠃⠄⢈⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡇⢀⣻⠟⣻⣿⡇⠄⠧⠄⢀⣾⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣟⢸⣻⣭⡙⢄⢀⠄⠄⠄⠈⢹⣯⣿⣿⣿⣿⣿ ⣿⣿⣿⣭⣿⣿⣿⣧⢸⠄⠄⠄⠄⠄⠈⢸⣿⣿⣿⣿⣿ ⣿⣿⣿⣼⣿⣿⣿⣽⠘⡄⠄⠄⠄⠄⢀⠸⣿⣿⣿⣿⣿ ⡿⣿⣳⣿⣿⣿⣿⣿⠄⠓⠦⠤⠤⠤⠼⢸⣿⣿⣿⣿⣿ ⡹⣧⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⢇⣓⣾⣿⣿⣿⣿⣿ ⡞⣸⣿⣿⢏⣼⣶⣶⣶⣶⣤⣶⡤⠐⣿⣿⣿⣿⣿⣿⣿ ⣯⣽⣛⠅⣾⣿⣿⣿⣿⣿⡽⣿⣧⡸⢿⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡷⠹⠛⠉⠁⠄⠄⠄⠄⠄⠄⠐⠛⠻⣿⣿⣿⣿ ⣿⣿⣿⠃⠄⠄⠄⠄⠄⣠⣤⣤⣤⡄⢤⣤⣤⣤⡘⠻⣿ ⣿⣿⡟⠄⠄⣀⣤⣶⣿⣿⣿⣿⣿⣿⣆⢻⣿⣿⣿⡎⠝ ⣿⡏⠄⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡎⣿⣿⣿⣿⠐ ⣿⡏⣲⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢇⣿⣿⣿⡟⣼ ⣿⡠⠜⣿⣿⣿⣿⣟⡛⠿⠿⠿⠿⠟⠃⠾⠿⢟⡋⢶⣿ ⣿⣧⣄⠙⢿⣿⣿⣿⣿⣿⣷⣦⡀⢰⣾⣿⣿⡿⢣⣿⣿ ⣿⣿⣿⠂⣷⣶⣬⣭⣭⣭⣭⣵⢰⣴⣤⣤⣶⡾⢐⣿⣿ ⣿⣿⣿⣷⡘⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⢃⣼⣿⣿ 上古卷轴5犹如一篇悠久的史诗，令人回味悠长，加上顶级配乐，哪怕是老游戏画质，依旧令人心神激荡",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Se495128372172d52cc11",
+          "text": "The deep lore is brought to life through excellent voice acting and an amazing soundtrack that perfectly complements the scale of the world",
+          "cosine": 0.6107310056686401
+        },
+        {
+          "unit_id": "S0d9cab5856565c8c2430",
+          "text": "Overall, Mount & Blade II: Bannerlord is a very good game with excellent large-scale battles, a unique sandbox experience, and plenty of replayability",
+          "cosine": 0.6020481586456299
+        },
+        {
+          "unit_id": "Sc70e94e66c043427d883",
+          "text": "Pros: Para mi una obra maestra, del genero, la variedad de armas que ofrece el juego permite que explores varios tipos de arma para descubrir cual te gusta mas, El sistema de ecosistemas vivos le dan a este monster hunter algo que no tenian entregas anteriores, ver monstruos comiendose otros le da un toque especial a este, en cuanto al sistema de seguimiento de los monstruos sigue guardando un poco la escensia de los anteriores de tener que descubir un monstruo que no conocia, pero con un extra que serian los lafarillos te ayudan a seguir monstruos o materiales que en entregas anteriores era realmente engorroso de realizar, Cons: El hecho de que el mundo sea tan grande en cada uno de los ecosistemas, se siente a veces abrumador cuando estas empezando, la historia es un poco vacia y parece como solo darle una vago sentido al porque cazas monstruos, Los menus y la interfaz si bien mejoraron en cuanto a entregas anteriores siguen siendo bastante complicadas de entender, mas que todo para nuevos jugadores, El sistema de emparejamiento al jugar multijugador es un asco, si estoy jugando con mis amigos me gustaria poder verlos por ahi justo como en MH RIse no solo en una sala random que nadie visita",
+          "cosine": 0.5943305492401123
+        }
+      ]
+    },
+    {
+      "unit_id": "S564467e113a14dfb3312",
+      "text": "艾尔登法环游戏评价 前言: 我是洛云 在过去两个月里我给这部游戏《艾尔登法环》打通关了 现在距离影之刃零发布还有七小时 我决定在这个时间段卸载法环 并在Steam上发布我的第一篇游戏评价 下面对《艾尔登法环》的描述将其简称为法环 事先声明: 我不是什么专业测评媒体也不是全职游戏博主，本评价仅为一名热爱电子游戏的普通玩家结合自己的游玩体验对本游戏的所有看法和见解，每个人评分标准不同，每个游戏评分标准也不一样，所以如有不同观点欢迎在评论区讨论指正，不可能拿休闲游戏和动作游戏比操作上限，不可能拿肉鸽游戏和剧情游戏比剧情演出，最后评价如有雷同算你抄我 用一句话来概括艾尔登法环: 一场关于未知地域和神祇的宏大史诗 优点:想去哪就去哪😡 体量巨大玩法出色 同时独特的怪诞诡谲的美术和恢宏庞大的音乐风格直接给到一个夯爆了 缺点:剧情极度碎片化 对剧情的了解基本只能靠碎片去猜 有时候不看攻略根本不知道干什么 后期数值崩坏 不玩强势武器游戏体验拉完了 同时优化一坨史 综合评分:9.5分 注:综合评分取各项评分结合游戏类型加权计算后得出 玩法设计:9分 ①游戏类型和地图设计: 法环主打游戏类型开放性世界rpg游戏，每个区域都有属于自己的特色，游戏开局在推开引导之始的大门时，就能看到游戏最终目标—那棵顶天立地的黄金树",
+      "language_hint": "Han-dominant",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sc70e94e66c043427d883",
+          "text": "Pros: Para mi una obra maestra, del genero, la variedad de armas que ofrece el juego permite que explores varios tipos de arma para descubrir cual te gusta mas, El sistema de ecosistemas vivos le dan a este monster hunter algo que no tenian entregas anteriores, ver monstruos comiendose otros le da un toque especial a este, en cuanto al sistema de seguimiento de los monstruos sigue guardando un poco la escensia de los anteriores de tener que descubir un monstruo que no conocia, pero con un extra que serian los lafarillos te ayudan a seguir monstruos o materiales que en entregas anteriores era realmente engorroso de realizar, Cons: El hecho de que el mundo sea tan grande en cada uno de los ecosistemas, se siente a veces abrumador cuando estas empezando, la historia es un poco vacia y parece como solo darle una vago sentido al porque cazas monstruos, Los menus y la interfaz si bien mejoraron en cuanto a entregas anteriores siguen siendo bastante complicadas de entender, mas que todo para nuevos jugadores, El sistema de emparejamiento al jugar multijugador es un asco, si estoy jugando con mis amigos me gustaria poder verlos por ahi justo como en MH RIse no solo en una sala random que nadie visita",
+          "cosine": 0.5449819564819336
+        },
+        {
+          "unit_id": "S9e588a5affc06e217fb9",
+          "text": "The combination of freedom of movement, atmosphere, and survival elements is what makes Dying Light 2 stand out. **My Rating: 9/10 – Highly Recommended",
+          "cosine": 0.5395647287368774
+        },
+        {
+          "unit_id": "S581b131ebe7a1ec6c834",
+          "text": "Game is absolute and utter peak, I wish they added more dialogue to NPC's than what they did",
+          "cosine": 0.5388745665550232
+        }
+      ]
+    },
+    {
+      "unit_id": "S581b131ebe7a1ec6c834",
+      "text": "Game is absolute and utter peak, I wish they added more dialogue to NPC's than what they did",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S1e27c51e0b8ef1fffb27",
+          "text": "游戏给9.5分，画面和动作以及优化都挺粗糙的，但耐不住这种类型的游戏在steam上你是第一个",
+          "cosine": 0.6033912897109985
+        },
+        {
+          "unit_id": "Sa561fda082997af4460d",
+          "text": "给我这种想象力过剩的ADHD屁孩玩的完美游戏，大杂拌很乐趣，也经常开着地图当氛围音干别的事情，玩家社群非常classy，除了三年前那个在沙盒服务器恼羞成怒疯狂用HUGE ASS火车模型卡我的那个管理员，如果只能在余生玩最后一款游戏我只会选择基mod，11/10",
+          "cosine": 0.5956165790557861
+        },
+        {
+          "unit_id": "S6de336a307b636d066e8",
+          "text": "总得来说一直以来游戏就是一个半成品，哪怕是更新到了2.5版本也还是半成品，个人认为玩家完全是靠边缘行者的动漫ip支撑着把游戏玩下去，但实话说如果赛博朋克2077不是一个游戏而是一部电影，这种引人入胜的剧情可以说是让人沉浸其中，支线剧情把夜之城从底层到上层人民，从V的朋友到V的仇人等角色描述出了他们的血肉，让玩家仿佛和真实存在的人物共同生活在这样一座光怪陆离的城市",
+          "cosine": 0.5740756988525391
+        }
+      ]
+    },
+    {
+      "unit_id": "S58bc61543a5822480762",
+      "text": "So Im seeing a lot of people say they cant open 2077 through launcher after updating to 2.5 with mods (Im having the same issue) however, I updated all my mods that needed an update for the 2.5",
+      "language_hint": "Latin-script",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S6de336a307b636d066e8",
+          "text": "总得来说一直以来游戏就是一个半成品，哪怕是更新到了2.5版本也还是半成品，个人认为玩家完全是靠边缘行者的动漫ip支撑着把游戏玩下去，但实话说如果赛博朋克2077不是一个游戏而是一部电影，这种引人入胜的剧情可以说是让人沉浸其中，支线剧情把夜之城从底层到上层人民，从V的朋友到V的仇人等角色描述出了他们的血肉，让玩家仿佛和真实存在的人物共同生活在这样一座光怪陆离的城市",
+          "cosine": 0.5890530347824097
+        },
+        {
+          "unit_id": "Saeb4f559f9c4b12e15eb",
+          "text": "游戏闪屏bug官方不修，居然还要靠民间打补丁，天天更新他那个b启动器，结果启动器做的也是一坨屎",
+          "cosine": 0.5505654811859131
+        },
+        {
+          "unit_id": "S8806215f75b05a669166",
+          "text": "联机困难",
+          "cosine": 0.5112141966819763
+        }
+      ]
+    },
+    {
+      "unit_id": "S67266c5d8e7c380b4d38",
+      "text": "对萌新很不友好吧 第一次玩不知道是不是进了PVE官方服务器 刚开始跟对象玩挺开心的，才刚到40级 来了一群外国人把我们家拆了 还把我们都杀了 把奴隶也杀掉了....",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S814c594b3536f504f427",
+          "text": "One thing I was slightly let down by was the fact that some builds just aren't viable long-term, so you can easily end up with characters who are frustratingly weak and others who are borderline broken, without intending any of it",
+          "cosine": 0.5940990447998047
+        },
+        {
+          "unit_id": "S859a25fcffe2021a9fa8",
+          "text": "Про это в следующем разделе. Система заданий: в игре есть сюжетные, дополнительные, событийные и особые задания, и расследования. Так вот, за годы их наделали столько разных, что глаза разбегаются. И вот тут кроется главная ошибка: дополнительные задания стоит выполнять практически все. Даже если там нет очевидных призов в описании, то прохождение может дать проход к нужному заданию или просто выпадет что-то крайне полезное. Так я и профукал за одним невыполненным заданием без приза в описании длинную цепочку прокачки своего главного помощника - палико. О палико: это прямоходящий кот, который помогает тебе если игрешь один или вдвоём. Т.к. в пати не может быть больше 4 членов, то при игре вчетвером палико остаются в стороне. Он прокачивается вместе с тобой и обрастает арсеналом весьма полезных инструментов. Так что не пропускайте его квесты, т.к. инструменты отнюдь не единственная причина, по которой стоит пройти все дополнительные квесты компаньона. Особенно, если играете в одиночку. С сюжетными, думаю, всё понятно. Событийные - скорее проверка умений. Они часто требуются в еженедельных квестах и за них дают неплохую награду. А особые квесты - это DLC и походы на самых элитных боссов. Тут по желанию, я пропустил всякие кроссоверы, а остальные все прошёл. В одном из таких квестов получил самую полезную накидку в игре. Про онлайн: несмотря на почётные 8 лет с выхода, онлайн в игре стабилен. Почти всегда на трудных боссов можно призвать помощь. Однако, в сюжетных миссиях сначала нужно посмотреть сюжетные же вставки, а только после них откроется возможность призыва. Про трудных боссов: думаю всех их вполне можно пройти в одиночку, но я не советую. В одиночку можно и задушниться, мне кажется, даже если играешь с нонеймами из сети. В первую очередь - это кооперативная игра. И двух человек тут вполне достаточно, чтобы сделать её незабываемой и обрести кучу совместных воспоминаний. Однако, не стоит забывать, что каждая охота требует подготовки: нужная броня и камни в ней, подходящее оружие, лечилки и антидоты, ловушки, и, главное, хорошо покушать перед заходом - всё это крайне важно для успеха. Если выполнить все пункты, то даже самый трудный босс не устоит перед вашим напором. Ну и в конце: почему именно World, а не более новые Rise или Wilds",
+          "cosine": 0.5583518743515015
+        },
+        {
+          "unit_id": "Sd359f5360a54c2b792af",
+          "text": "Amazing modding community, sadly can't speak to multiplayer function I think that would stress out my PC to much as I do have some issues late game if I don't stay in space for it",
+          "cosine": 0.5226593017578125
+        }
+      ]
+    },
+    {
+      "unit_id": "S695073cb6649c0a43675",
+      "text": "mods",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S33a3140831d6e8cffa72",
+          "text": "闪退",
+          "cosine": 0.4748011529445648
+        },
+        {
+          "unit_id": "S8806215f75b05a669166",
+          "text": "联机困难",
+          "cosine": 0.4702763855457306
+        },
+        {
+          "unit_id": "Sc3d3f737509ef550e383",
+          "text": "快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，",
+          "cosine": 0.4664841592311859
+        }
+      ]
+    },
+    {
+      "unit_id": "S6a17eac625547a2a1d2b",
+      "text": "爬塔模拟器，找卡组挺有乐趣，但需要很多学习成本，上手难度不低",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S859a25fcffe2021a9fa8",
+          "text": "Про это в следующем разделе. Система заданий: в игре есть сюжетные, дополнительные, событийные и особые задания, и расследования. Так вот, за годы их наделали столько разных, что глаза разбегаются. И вот тут кроется главная ошибка: дополнительные задания стоит выполнять практически все. Даже если там нет очевидных призов в описании, то прохождение может дать проход к нужному заданию или просто выпадет что-то крайне полезное. Так я и профукал за одним невыполненным заданием без приза в описании длинную цепочку прокачки своего главного помощника - палико. О палико: это прямоходящий кот, который помогает тебе если игрешь один или вдвоём. Т.к. в пати не может быть больше 4 членов, то при игре вчетвером палико остаются в стороне. Он прокачивается вместе с тобой и обрастает арсеналом весьма полезных инструментов. Так что не пропускайте его квесты, т.к. инструменты отнюдь не единственная причина, по которой стоит пройти все дополнительные квесты компаньона. Особенно, если играете в одиночку. С сюжетными, думаю, всё понятно. Событийные - скорее проверка умений. Они часто требуются в еженедельных квестах и за них дают неплохую награду. А особые квесты - это DLC и походы на самых элитных боссов. Тут по желанию, я пропустил всякие кроссоверы, а остальные все прошёл. В одном из таких квестов получил самую полезную накидку в игре. Про онлайн: несмотря на почётные 8 лет с выхода, онлайн в игре стабилен. Почти всегда на трудных боссов можно призвать помощь. Однако, в сюжетных миссиях сначала нужно посмотреть сюжетные же вставки, а только после них откроется возможность призыва. Про трудных боссов: думаю всех их вполне можно пройти в одиночку, но я не советую. В одиночку можно и задушниться, мне кажется, даже если играешь с нонеймами из сети. В первую очередь - это кооперативная игра. И двух человек тут вполне достаточно, чтобы сделать её незабываемой и обрести кучу совместных воспоминаний. Однако, не стоит забывать, что каждая охота требует подготовки: нужная броня и камни в ней, подходящее оружие, лечилки и антидоты, ловушки, и, главное, хорошо покушать перед заходом - всё это крайне важно для успеха. Если выполнить все пункты, то даже самый трудный босс не устоит перед вашим напором. Ну и в конце: почему именно World, а не более новые Rise или Wilds",
+          "cosine": 0.5913504958152771
+        },
+        {
+          "unit_id": "Sf764d90412bbd707d56c",
+          "text": "it does take a little to understand the controls and figure out good stratagies for each battle",
+          "cosine": 0.5894060134887695
+        },
+        {
+          "unit_id": "Sc70e94e66c043427d883",
+          "text": "Pros: Para mi una obra maestra, del genero, la variedad de armas que ofrece el juego permite que explores varios tipos de arma para descubrir cual te gusta mas, El sistema de ecosistemas vivos le dan a este monster hunter algo que no tenian entregas anteriores, ver monstruos comiendose otros le da un toque especial a este, en cuanto al sistema de seguimiento de los monstruos sigue guardando un poco la escensia de los anteriores de tener que descubir un monstruo que no conocia, pero con un extra que serian los lafarillos te ayudan a seguir monstruos o materiales que en entregas anteriores era realmente engorroso de realizar, Cons: El hecho de que el mundo sea tan grande en cada uno de los ecosistemas, se siente a veces abrumador cuando estas empezando, la historia es un poco vacia y parece como solo darle una vago sentido al porque cazas monstruos, Los menus y la interfaz si bien mejoraron en cuanto a entregas anteriores siguen siendo bastante complicadas de entender, mas que todo para nuevos jugadores, El sistema de emparejamiento al jugar multijugador es un asco, si estoy jugando con mis amigos me gustaria poder verlos por ahi justo como en MH RIse no solo en una sala random que nadie visita",
+          "cosine": 0.5772055983543396
+        }
+      ]
+    },
+    {
+      "unit_id": "S6de336a307b636d066e8",
+      "text": "总得来说一直以来游戏就是一个半成品，哪怕是更新到了2.5版本也还是半成品，个人认为玩家完全是靠边缘行者的动漫ip支撑着把游戏玩下去，但实话说如果赛博朋克2077不是一个游戏而是一部电影，这种引人入胜的剧情可以说是让人沉浸其中，支线剧情把夜之城从底层到上层人民，从V的朋友到V的仇人等角色描述出了他们的血肉，让玩家仿佛和真实存在的人物共同生活在这样一座光怪陆离的城市",
+      "language_hint": "Han-dominant",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S814c594b3536f504f427",
+          "text": "One thing I was slightly let down by was the fact that some builds just aren't viable long-term, so you can easily end up with characters who are frustratingly weak and others who are borderline broken, without intending any of it",
+          "cosine": 0.5938262343406677
+        },
+        {
+          "unit_id": "S58bc61543a5822480762",
+          "text": "So Im seeing a lot of people say they cant open 2077 through launcher after updating to 2.5 with mods (Im having the same issue) however, I updated all my mods that needed an update for the 2.5",
+          "cosine": 0.5890530347824097
+        },
+        {
+          "unit_id": "Sc70e94e66c043427d883",
+          "text": "Pros: Para mi una obra maestra, del genero, la variedad de armas que ofrece el juego permite que explores varios tipos de arma para descubrir cual te gusta mas, El sistema de ecosistemas vivos le dan a este monster hunter algo que no tenian entregas anteriores, ver monstruos comiendose otros le da un toque especial a este, en cuanto al sistema de seguimiento de los monstruos sigue guardando un poco la escensia de los anteriores de tener que descubir un monstruo que no conocia, pero con un extra que serian los lafarillos te ayudan a seguir monstruos o materiales que en entregas anteriores era realmente engorroso de realizar, Cons: El hecho de que el mundo sea tan grande en cada uno de los ecosistemas, se siente a veces abrumador cuando estas empezando, la historia es un poco vacia y parece como solo darle una vago sentido al porque cazas monstruos, Los menus y la interfaz si bien mejoraron en cuanto a entregas anteriores siguen siendo bastante complicadas de entender, mas que todo para nuevos jugadores, El sistema de emparejamiento al jugar multijugador es un asco, si estoy jugando con mis amigos me gustaria poder verlos por ahi justo como en MH RIse no solo en una sala random que nadie visita",
+          "cosine": 0.5790194272994995
+        }
+      ]
+    },
+    {
+      "unit_id": "S71c03bffa185bc1a8807",
+      "text": "If you intend to play this with friends though that wont be a problem of course",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sb5f4c72c2d4c4cb7fbd8",
+          "text": "通常情况只需要右键就可以驾驭 新手建议直接简单难度，不了解武器不了解敌人的情况下即使是普通难度也可能死得很惨，玩游戏无脑爽就好 多人老是匹不到人，",
+          "cosine": 0.5652701258659363
+        },
+        {
+          "unit_id": "S6a17eac625547a2a1d2b",
+          "text": "爬塔模拟器，找卡组挺有乐趣，但需要很多学习成本，上手难度不低",
+          "cosine": 0.561994194984436
+        },
+        {
+          "unit_id": "S7f1bdb3c7febc21d656e",
+          "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+          "cosine": 0.5509603023529053
+        }
+      ]
+    },
+    {
+      "unit_id": "S73a7a56bb43f50eafe96",
+      "text": "掉线",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sd83ae947dc971291b46a",
+          "text": "Aiming that makes me question whether my controller is broken",
+          "cosine": 0.5532406568527222
+        },
+        {
+          "unit_id": "S859a25fcffe2021a9fa8",
+          "text": "Про это в следующем разделе. Система заданий: в игре есть сюжетные, дополнительные, событийные и особые задания, и расследования. Так вот, за годы их наделали столько разных, что глаза разбегаются. И вот тут кроется главная ошибка: дополнительные задания стоит выполнять практически все. Даже если там нет очевидных призов в описании, то прохождение может дать проход к нужному заданию или просто выпадет что-то крайне полезное. Так я и профукал за одним невыполненным заданием без приза в описании длинную цепочку прокачки своего главного помощника - палико. О палико: это прямоходящий кот, который помогает тебе если игрешь один или вдвоём. Т.к. в пати не может быть больше 4 членов, то при игре вчетвером палико остаются в стороне. Он прокачивается вместе с тобой и обрастает арсеналом весьма полезных инструментов. Так что не пропускайте его квесты, т.к. инструменты отнюдь не единственная причина, по которой стоит пройти все дополнительные квесты компаньона. Особенно, если играете в одиночку. С сюжетными, думаю, всё понятно. Событийные - скорее проверка умений. Они часто требуются в еженедельных квестах и за них дают неплохую награду. А особые квесты - это DLC и походы на самых элитных боссов. Тут по желанию, я пропустил всякие кроссоверы, а остальные все прошёл. В одном из таких квестов получил самую полезную накидку в игре. Про онлайн: несмотря на почётные 8 лет с выхода, онлайн в игре стабилен. Почти всегда на трудных боссов можно призвать помощь. Однако, в сюжетных миссиях сначала нужно посмотреть сюжетные же вставки, а только после них откроется возможность призыва. Про трудных боссов: думаю всех их вполне можно пройти в одиночку, но я не советую. В одиночку можно и задушниться, мне кажется, даже если играешь с нонеймами из сети. В первую очередь - это кооперативная игра. И двух человек тут вполне достаточно, чтобы сделать её незабываемой и обрести кучу совместных воспоминаний. Однако, не стоит забывать, что каждая охота требует подготовки: нужная броня и камни в ней, подходящее оружие, лечилки и антидоты, ловушки, и, главное, хорошо покушать перед заходом - всё это крайне важно для успеха. Если выполнить все пункты, то даже самый трудный босс не устоит перед вашим напором. Ну и в конце: почему именно World, а не более новые Rise или Wilds",
+          "cosine": 0.4718676507472992
+        },
+        {
+          "unit_id": "Sed5465b9220df9ce176d",
+          "text": "hard",
+          "cosine": 0.4698978662490845
+        }
+      ]
+    },
+    {
+      "unit_id": "S7f1bdb3c7febc21d656e",
+      "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S814c594b3536f504f427",
+          "text": "One thing I was slightly let down by was the fact that some builds just aren't viable long-term, so you can easily end up with characters who are frustratingly weak and others who are borderline broken, without intending any of it",
+          "cosine": 0.6310102939605713
+        },
+        {
+          "unit_id": "Sd359f5360a54c2b792af",
+          "text": "Amazing modding community, sadly can't speak to multiplayer function I think that would stress out my PC to much as I do have some issues late game if I don't stay in space for it",
+          "cosine": 0.609184741973877
+        },
+        {
+          "unit_id": "S859a25fcffe2021a9fa8",
+          "text": "Про это в следующем разделе. Система заданий: в игре есть сюжетные, дополнительные, событийные и особые задания, и расследования. Так вот, за годы их наделали столько разных, что глаза разбегаются. И вот тут кроется главная ошибка: дополнительные задания стоит выполнять практически все. Даже если там нет очевидных призов в описании, то прохождение может дать проход к нужному заданию или просто выпадет что-то крайне полезное. Так я и профукал за одним невыполненным заданием без приза в описании длинную цепочку прокачки своего главного помощника - палико. О палико: это прямоходящий кот, который помогает тебе если игрешь один или вдвоём. Т.к. в пати не может быть больше 4 членов, то при игре вчетвером палико остаются в стороне. Он прокачивается вместе с тобой и обрастает арсеналом весьма полезных инструментов. Так что не пропускайте его квесты, т.к. инструменты отнюдь не единственная причина, по которой стоит пройти все дополнительные квесты компаньона. Особенно, если играете в одиночку. С сюжетными, думаю, всё понятно. Событийные - скорее проверка умений. Они часто требуются в еженедельных квестах и за них дают неплохую награду. А особые квесты - это DLC и походы на самых элитных боссов. Тут по желанию, я пропустил всякие кроссоверы, а остальные все прошёл. В одном из таких квестов получил самую полезную накидку в игре. Про онлайн: несмотря на почётные 8 лет с выхода, онлайн в игре стабилен. Почти всегда на трудных боссов можно призвать помощь. Однако, в сюжетных миссиях сначала нужно посмотреть сюжетные же вставки, а только после них откроется возможность призыва. Про трудных боссов: думаю всех их вполне можно пройти в одиночку, но я не советую. В одиночку можно и задушниться, мне кажется, даже если играешь с нонеймами из сети. В первую очередь - это кооперативная игра. И двух человек тут вполне достаточно, чтобы сделать её незабываемой и обрести кучу совместных воспоминаний. Однако, не стоит забывать, что каждая охота требует подготовки: нужная броня и камни в ней, подходящее оружие, лечилки и антидоты, ловушки, и, главное, хорошо покушать перед заходом - всё это крайне важно для успеха. Если выполнить все пункты, то даже самый трудный босс не устоит перед вашим напором. Ну и в конце: почему именно World, а не более новые Rise или Wilds",
+          "cosine": 0.5933103561401367
+        }
+      ]
+    },
+    {
+      "unit_id": "S814c594b3536f504f427",
+      "text": "One thing I was slightly let down by was the fact that some builds just aren't viable long-term, so you can easily end up with characters who are frustratingly weak and others who are borderline broken, without intending any of it",
+      "language_hint": "Latin-script",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sb24241d7474ddedfb88d",
+          "text": "尼玛的，我是听说这游戏是战斗爽才买的，玩的时候发现完全不是这么回事，为什么会有怪打到一半自己跑这种恶心机制，尤其是那些会飞的一跑就不知道去哪了，我玩这游戏一大半时间在无意义且重复的跑图上，还有及其杂乱的物品，我玩物语2的时候都没这种感觉，还有那些各种看不懂的名词，你要是塞在剧情里谁管你，很多游戏道具不仔细看根本不知道什么意思，像出招疯狗，多动症，一直飞天不下来，都是小问题，这种冗长繁杂的地图配合怪物打到一半就跑还要招痕迹的机制，使劲拖时间有意思吗",
+          "cosine": 0.6525445580482483
+        },
+        {
+          "unit_id": "S1e27c51e0b8ef1fffb27",
+          "text": "游戏给9.5分，画面和动作以及优化都挺粗糙的，但耐不住这种类型的游戏在steam上你是第一个",
+          "cosine": 0.6418828964233398
+        },
+        {
+          "unit_id": "S7f1bdb3c7febc21d656e",
+          "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+          "cosine": 0.6310102939605713
+        }
+      ]
+    },
+    {
+      "unit_id": "S859a25fcffe2021a9fa8",
+      "text": "Про это в следующем разделе. Система заданий: в игре есть сюжетные, дополнительные, событийные и особые задания, и расследования. Так вот, за годы их наделали столько разных, что глаза разбегаются. И вот тут кроется главная ошибка: дополнительные задания стоит выполнять практически все. Даже если там нет очевидных призов в описании, то прохождение может дать проход к нужному заданию или просто выпадет что-то крайне полезное. Так я и профукал за одним невыполненным заданием без приза в описании длинную цепочку прокачки своего главного помощника - палико. О палико: это прямоходящий кот, который помогает тебе если игрешь один или вдвоём. Т.к. в пати не может быть больше 4 членов, то при игре вчетвером палико остаются в стороне. Он прокачивается вместе с тобой и обрастает арсеналом весьма полезных инструментов. Так что не пропускайте его квесты, т.к. инструменты отнюдь не единственная причина, по которой стоит пройти все дополнительные квесты компаньона. Особенно, если играете в одиночку. С сюжетными, думаю, всё понятно. Событийные - скорее проверка умений. Они часто требуются в еженедельных квестах и за них дают неплохую награду. А особые квесты - это DLC и походы на самых элитных боссов. Тут по желанию, я пропустил всякие кроссоверы, а остальные все прошёл. В одном из таких квестов получил самую полезную накидку в игре. Про онлайн: несмотря на почётные 8 лет с выхода, онлайн в игре стабилен. Почти всегда на трудных боссов можно призвать помощь. Однако, в сюжетных миссиях сначала нужно посмотреть сюжетные же вставки, а только после них откроется возможность призыва. Про трудных боссов: думаю всех их вполне можно пройти в одиночку, но я не советую. В одиночку можно и задушниться, мне кажется, даже если играешь с нонеймами из сети. В первую очередь - это кооперативная игра. И двух человек тут вполне достаточно, чтобы сделать её незабываемой и обрести кучу совместных воспоминаний. Однако, не стоит забывать, что каждая охота требует подготовки: нужная броня и камни в ней, подходящее оружие, лечилки и антидоты, ловушки, и, главное, хорошо покушать перед заходом - всё это крайне важно для успеха. Если выполнить все пункты, то даже самый трудный босс не устоит перед вашим напором. Ну и в конце: почему именно World, а не более новые Rise или Wilds",
+      "language_hint": "Latin-script",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sb24241d7474ddedfb88d",
+          "text": "尼玛的，我是听说这游戏是战斗爽才买的，玩的时候发现完全不是这么回事，为什么会有怪打到一半自己跑这种恶心机制，尤其是那些会飞的一跑就不知道去哪了，我玩这游戏一大半时间在无意义且重复的跑图上，还有及其杂乱的物品，我玩物语2的时候都没这种感觉，还有那些各种看不懂的名词，你要是塞在剧情里谁管你，很多游戏道具不仔细看根本不知道什么意思，像出招疯狗，多动症，一直飞天不下来，都是小问题，这种冗长繁杂的地图配合怪物打到一半就跑还要招痕迹的机制，使劲拖时间有意思吗",
+          "cosine": 0.6242780089378357
+        },
+        {
+          "unit_id": "Sb5f4c72c2d4c4cb7fbd8",
+          "text": "通常情况只需要右键就可以驾驭 新手建议直接简单难度，不了解武器不了解敌人的情况下即使是普通难度也可能死得很惨，玩游戏无脑爽就好 多人老是匹不到人，",
+          "cosine": 0.594312310218811
+        },
+        {
+          "unit_id": "S7f1bdb3c7febc21d656e",
+          "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+          "cosine": 0.5933103561401367
+        }
+      ]
+    },
+    {
+      "unit_id": "S87d77c2819b42641580a",
+      "text": "“反作弊功能完善 英雄强度平衡 玩家态度友好 服务器运行流畅 公司智商惊人 ”",
+      "language_hint": "Han-dominant",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S0ca0d75e50f9ae2c0433",
+          "text": "very cozy calming game with a lot of fun mechanics and stories",
+          "cosine": 0.6481295228004456
+        },
+        {
+          "unit_id": "Sde230d44f35066bd0dd1",
+          "text": "Good game with a decent story and a must buy when on sale :)",
+          "cosine": 0.6363836526870728
+        },
+        {
+          "unit_id": "Sc70e94e66c043427d883",
+          "text": "Pros: Para mi una obra maestra, del genero, la variedad de armas que ofrece el juego permite que explores varios tipos de arma para descubrir cual te gusta mas, El sistema de ecosistemas vivos le dan a este monster hunter algo que no tenian entregas anteriores, ver monstruos comiendose otros le da un toque especial a este, en cuanto al sistema de seguimiento de los monstruos sigue guardando un poco la escensia de los anteriores de tener que descubir un monstruo que no conocia, pero con un extra que serian los lafarillos te ayudan a seguir monstruos o materiales que en entregas anteriores era realmente engorroso de realizar, Cons: El hecho de que el mundo sea tan grande en cada uno de los ecosistemas, se siente a veces abrumador cuando estas empezando, la historia es un poco vacia y parece como solo darle una vago sentido al porque cazas monstruos, Los menus y la interfaz si bien mejoraron en cuanto a entregas anteriores siguen siendo bastante complicadas de entender, mas que todo para nuevos jugadores, El sistema de emparejamiento al jugar multijugador es un asco, si estoy jugando con mis amigos me gustaria poder verlos por ahi justo como en MH RIse no solo en una sala random que nadie visita",
+          "cosine": 0.5790086388587952
+        }
+      ]
+    },
+    {
+      "unit_id": "S8806215f75b05a669166",
+      "text": "联机困难",
+      "language_hint": "Han-dominant",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sed5465b9220df9ce176d",
+          "text": "hard",
+          "cosine": 0.5669997930526733
+        },
+        {
+          "unit_id": "Sd359f5360a54c2b792af",
+          "text": "Amazing modding community, sadly can't speak to multiplayer function I think that would stress out my PC to much as I do have some issues late game if I don't stay in space for it",
+          "cosine": 0.5523040890693665
+        },
+        {
+          "unit_id": "S9e73f8fa9cb76c441b31",
+          "text": "Hard",
+          "cosine": 0.5408218502998352
+        }
+      ]
+    },
+    {
+      "unit_id": "S8815bdafee0488556a53",
+      "text": "育碧不维护了，新的显卡玩着游戏又卡又闪屏，别买",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S814c594b3536f504f427",
+          "text": "One thing I was slightly let down by was the fact that some builds just aren't viable long-term, so you can easily end up with characters who are frustratingly weak and others who are borderline broken, without intending any of it",
+          "cosine": 0.5342716574668884
+        },
+        {
+          "unit_id": "S1a8af762da4737d1cbc3",
+          "text": "It's been 25 years and the developers haven't learned that sometimes, less is more. - Servers are struggling and causing rubber banding",
+          "cosine": 0.5290766358375549
+        },
+        {
+          "unit_id": "Sd83ae947dc971291b46a",
+          "text": "Aiming that makes me question whether my controller is broken",
+          "cosine": 0.5275988578796387
+        }
+      ]
+    },
+    {
+      "unit_id": "S9e588a5affc06e217fb9",
+      "text": "The combination of freedom of movement, atmosphere, and survival elements is what makes Dying Light 2 stand out. **My Rating: 9/10 – Highly Recommended",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S52deeffd0ee0c44ccee9",
+          "text": "给你们看屁屁能点个赞吗 ⣿⣿⣿⣿⠛⠛⠉⠄⠁⠄⠄⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡟⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⠄⠄⠐⠄⠄⠄⠄⠄⠄⠄⠠⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⢀⡀⠠⠃⡐⡀⠠⣶⠄⠄⢀⣿⣿⣿⣿⣿⣿ ⣿⣿⣶⠄⠰⣤⣕⣿⣾⡇⠄⢛⠃⠄⢈⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡇⢀⣻⠟⣻⣿⡇⠄⠧⠄⢀⣾⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣟⢸⣻⣭⡙⢄⢀⠄⠄⠄⠈⢹⣯⣿⣿⣿⣿⣿ ⣿⣿⣿⣭⣿⣿⣿⣧⢸⠄⠄⠄⠄⠄⠈⢸⣿⣿⣿⣿⣿ ⣿⣿⣿⣼⣿⣿⣿⣽⠘⡄⠄⠄⠄⠄⢀⠸⣿⣿⣿⣿⣿ ⡿⣿⣳⣿⣿⣿⣿⣿⠄⠓⠦⠤⠤⠤⠼⢸⣿⣿⣿⣿⣿ ⡹⣧⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⢇⣓⣾⣿⣿⣿⣿⣿ ⡞⣸⣿⣿⢏⣼⣶⣶⣶⣶⣤⣶⡤⠐⣿⣿⣿⣿⣿⣿⣿ ⣯⣽⣛⠅⣾⣿⣿⣿⣿⣿⡽⣿⣧⡸⢿⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡷⠹⠛⠉⠁⠄⠄⠄⠄⠄⠄⠐⠛⠻⣿⣿⣿⣿ ⣿⣿⣿⠃⠄⠄⠄⠄⠄⣠⣤⣤⣤⡄⢤⣤⣤⣤⡘⠻⣿ ⣿⣿⡟⠄⠄⣀⣤⣶⣿⣿⣿⣿⣿⣿⣆⢻⣿⣿⣿⡎⠝ ⣿⡏⠄⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡎⣿⣿⣿⣿⠐ ⣿⡏⣲⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢇⣿⣿⣿⡟⣼ ⣿⡠⠜⣿⣿⣿⣿⣟⡛⠿⠿⠿⠿⠟⠃⠾⠿⢟⡋⢶⣿ ⣿⣧⣄⠙⢿⣿⣿⣿⣿⣿⣷⣦⡀⢰⣾⣿⣿⡿⢣⣿⣿ ⣿⣿⣿⠂⣷⣶⣬⣭⣭⣭⣭⣵⢰⣴⣤⣤⣶⡾⢐⣿⣿ ⣿⣿⣿⣷⡘⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⢃⣼⣿⣿ 上古卷轴5犹如一篇悠久的史诗，令人回味悠长，加上顶级配乐，哪怕是老游戏画质，依旧令人心神激荡",
+          "cosine": 0.5782330632209778
+        },
+        {
+          "unit_id": "S6de336a307b636d066e8",
+          "text": "总得来说一直以来游戏就是一个半成品，哪怕是更新到了2.5版本也还是半成品，个人认为玩家完全是靠边缘行者的动漫ip支撑着把游戏玩下去，但实话说如果赛博朋克2077不是一个游戏而是一部电影，这种引人入胜的剧情可以说是让人沉浸其中，支线剧情把夜之城从底层到上层人民，从V的朋友到V的仇人等角色描述出了他们的血肉，让玩家仿佛和真实存在的人物共同生活在这样一座光怪陆离的城市",
+          "cosine": 0.5750296711921692
+        },
+        {
+          "unit_id": "S1e27c51e0b8ef1fffb27",
+          "text": "游戏给9.5分，画面和动作以及优化都挺粗糙的，但耐不住这种类型的游戏在steam上你是第一个",
+          "cosine": 0.5592239499092102
+        }
+      ]
+    },
+    {
+      "unit_id": "S9e73f8fa9cb76c441b31",
+      "text": "Hard",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S8806215f75b05a669166",
+          "text": "联机困难",
+          "cosine": 0.5408218502998352
+        },
+        {
+          "unit_id": "S7f1bdb3c7febc21d656e",
+          "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+          "cosine": 0.4587423503398895
+        },
+        {
+          "unit_id": "S73a7a56bb43f50eafe96",
+          "text": "掉线",
+          "cosine": 0.44711896777153015
+        }
+      ]
+    },
+    {
+      "unit_id": "S9e7b0290eb96adb8c188",
+      "text": "not necessary biome deep underground known as the shimmer, search it up if you want a deeper look) - Prepare arenas for upcoming bosses and events Mid Pre-Hardmode (Post Eye/Evil Boss/Queen Bee): - Talk to that guy you may have met at the dungeon and summon his curse with your well-earned gear - Explore the dungeons depths once you have beaten Skeletron - Search the gold chests with the gold key drops (can drop from dungeon pots, dungeon enemies, dungeon slimes most commonly or rarely wood chests in the dungeon) - Grab your dungeon loot alongside the possibility of an obsidian key to unlock those locked chests in hell if you've stumbled into there yet - Grab your hell loot from the chests and build a long platform in hell, you're gonna need it End Pre-Hardmode: - Find a guide voodoo doll dropped from voodoo demons in hell into a pocket of lava, if you can't get this to drop make a house for the guide to move in just above hell and cause him to fall into lava in hell - Kill the Wall of Flesh and you're officially halfway through the game (at least in my eyes) I'll leave it at this as to not ruin the exciting changes hardmode brings, bare in mind hardmode is not a difficulty changer",
+      "language_hint": "Latin-script",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sb5f4c72c2d4c4cb7fbd8",
+          "text": "通常情况只需要右键就可以驾驭 新手建议直接简单难度，不了解武器不了解敌人的情况下即使是普通难度也可能死得很惨，玩游戏无脑爽就好 多人老是匹不到人，",
+          "cosine": 0.5495803356170654
+        },
+        {
+          "unit_id": "S087be08b3794b0e64025",
+          "text": "肉鸽类型，像素类型，堪称无敌，就是关卡有些少，已经停更了，dlc还是有些意思的，自定义模式降低游戏难度还是可以适合新手的",
+          "cosine": 0.5279054641723633
+        },
+        {
+          "unit_id": "S6a17eac625547a2a1d2b",
+          "text": "爬塔模拟器，找卡组挺有乐趣，但需要很多学习成本，上手难度不低",
+          "cosine": 0.5132932662963867
+        }
+      ]
+    },
+    {
+      "unit_id": "Sa561fda082997af4460d",
+      "text": "给我这种想象力过剩的ADHD屁孩玩的完美游戏，大杂拌很乐趣，也经常开着地图当氛围音干别的事情，玩家社群非常classy，除了三年前那个在沙盒服务器恼羞成怒疯狂用HUGE ASS火车模型卡我的那个管理员，如果只能在余生玩最后一款游戏我只会选择基mod，11/10",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sc70e94e66c043427d883",
+          "text": "Pros: Para mi una obra maestra, del genero, la variedad de armas que ofrece el juego permite que explores varios tipos de arma para descubrir cual te gusta mas, El sistema de ecosistemas vivos le dan a este monster hunter algo que no tenian entregas anteriores, ver monstruos comiendose otros le da un toque especial a este, en cuanto al sistema de seguimiento de los monstruos sigue guardando un poco la escensia de los anteriores de tener que descubir un monstruo que no conocia, pero con un extra que serian los lafarillos te ayudan a seguir monstruos o materiales que en entregas anteriores era realmente engorroso de realizar, Cons: El hecho de que el mundo sea tan grande en cada uno de los ecosistemas, se siente a veces abrumador cuando estas empezando, la historia es un poco vacia y parece como solo darle una vago sentido al porque cazas monstruos, Los menus y la interfaz si bien mejoraron en cuanto a entregas anteriores siguen siendo bastante complicadas de entender, mas que todo para nuevos jugadores, El sistema de emparejamiento al jugar multijugador es un asco, si estoy jugando con mis amigos me gustaria poder verlos por ahi justo como en MH RIse no solo en una sala random que nadie visita",
+          "cosine": 0.6267976760864258
+        },
+        {
+          "unit_id": "S0ca0d75e50f9ae2c0433",
+          "text": "very cozy calming game with a lot of fun mechanics and stories",
+          "cosine": 0.5983003377914429
+        },
+        {
+          "unit_id": "S581b131ebe7a1ec6c834",
+          "text": "Game is absolute and utter peak, I wish they added more dialogue to NPC's than what they did",
+          "cosine": 0.5956165790557861
+        }
+      ]
+    },
+    {
+      "unit_id": "Saeb4f559f9c4b12e15eb",
+      "text": "游戏闪屏bug官方不修，居然还要靠民间打补丁，天天更新他那个b启动器，结果启动器做的也是一坨屎",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S2dbb0e329159350b1b30",
+          "text": "The base game isn't even fun, so him ranting over the VRO mod like the second coming of the lord is ridiculous",
+          "cosine": 0.5673340559005737
+        },
+        {
+          "unit_id": "S58bc61543a5822480762",
+          "text": "So Im seeing a lot of people say they cant open 2077 through launcher after updating to 2.5 with mods (Im having the same issue) however, I updated all my mods that needed an update for the 2.5",
+          "cosine": 0.5505654811859131
+        },
+        {
+          "unit_id": "S814c594b3536f504f427",
+          "text": "One thing I was slightly let down by was the fact that some builds just aren't viable long-term, so you can easily end up with characters who are frustratingly weak and others who are borderline broken, without intending any of it",
+          "cosine": 0.5400242805480957
+        }
+      ]
+    },
+    {
+      "unit_id": "Sb24241d7474ddedfb88d",
+      "text": "尼玛的，我是听说这游戏是战斗爽才买的，玩的时候发现完全不是这么回事，为什么会有怪打到一半自己跑这种恶心机制，尤其是那些会飞的一跑就不知道去哪了，我玩这游戏一大半时间在无意义且重复的跑图上，还有及其杂乱的物品，我玩物语2的时候都没这种感觉，还有那些各种看不懂的名词，你要是塞在剧情里谁管你，很多游戏道具不仔细看根本不知道什么意思，像出招疯狗，多动症，一直飞天不下来，都是小问题，这种冗长繁杂的地图配合怪物打到一半就跑还要招痕迹的机制，使劲拖时间有意思吗",
+      "language_hint": "Han-dominant",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S814c594b3536f504f427",
+          "text": "One thing I was slightly let down by was the fact that some builds just aren't viable long-term, so you can easily end up with characters who are frustratingly weak and others who are borderline broken, without intending any of it",
+          "cosine": 0.6525445580482483
+        },
+        {
+          "unit_id": "S859a25fcffe2021a9fa8",
+          "text": "Про это в следующем разделе. Система заданий: в игре есть сюжетные, дополнительные, событийные и особые задания, и расследования. Так вот, за годы их наделали столько разных, что глаза разбегаются. И вот тут кроется главная ошибка: дополнительные задания стоит выполнять практически все. Даже если там нет очевидных призов в описании, то прохождение может дать проход к нужному заданию или просто выпадет что-то крайне полезное. Так я и профукал за одним невыполненным заданием без приза в описании длинную цепочку прокачки своего главного помощника - палико. О палико: это прямоходящий кот, который помогает тебе если игрешь один или вдвоём. Т.к. в пати не может быть больше 4 членов, то при игре вчетвером палико остаются в стороне. Он прокачивается вместе с тобой и обрастает арсеналом весьма полезных инструментов. Так что не пропускайте его квесты, т.к. инструменты отнюдь не единственная причина, по которой стоит пройти все дополнительные квесты компаньона. Особенно, если играете в одиночку. С сюжетными, думаю, всё понятно. Событийные - скорее проверка умений. Они часто требуются в еженедельных квестах и за них дают неплохую награду. А особые квесты - это DLC и походы на самых элитных боссов. Тут по желанию, я пропустил всякие кроссоверы, а остальные все прошёл. В одном из таких квестов получил самую полезную накидку в игре. Про онлайн: несмотря на почётные 8 лет с выхода, онлайн в игре стабилен. Почти всегда на трудных боссов можно призвать помощь. Однако, в сюжетных миссиях сначала нужно посмотреть сюжетные же вставки, а только после них откроется возможность призыва. Про трудных боссов: думаю всех их вполне можно пройти в одиночку, но я не советую. В одиночку можно и задушниться, мне кажется, даже если играешь с нонеймами из сети. В первую очередь - это кооперативная игра. И двух человек тут вполне достаточно, чтобы сделать её незабываемой и обрести кучу совместных воспоминаний. Однако, не стоит забывать, что каждая охота требует подготовки: нужная броня и камни в ней, подходящее оружие, лечилки и антидоты, ловушки, и, главное, хорошо покушать перед заходом - всё это крайне важно для успеха. Если выполнить все пункты, то даже самый трудный босс не устоит перед вашим напором. Ну и в конце: почему именно World, а не более новые Rise или Wilds",
+          "cosine": 0.6242780089378357
+        },
+        {
+          "unit_id": "Sc70e94e66c043427d883",
+          "text": "Pros: Para mi una obra maestra, del genero, la variedad de armas que ofrece el juego permite que explores varios tipos de arma para descubrir cual te gusta mas, El sistema de ecosistemas vivos le dan a este monster hunter algo que no tenian entregas anteriores, ver monstruos comiendose otros le da un toque especial a este, en cuanto al sistema de seguimiento de los monstruos sigue guardando un poco la escensia de los anteriores de tener que descubir un monstruo que no conocia, pero con un extra que serian los lafarillos te ayudan a seguir monstruos o materiales que en entregas anteriores era realmente engorroso de realizar, Cons: El hecho de que el mundo sea tan grande en cada uno de los ecosistemas, se siente a veces abrumador cuando estas empezando, la historia es un poco vacia y parece como solo darle una vago sentido al porque cazas monstruos, Los menus y la interfaz si bien mejoraron en cuanto a entregas anteriores siguen siendo bastante complicadas de entender, mas que todo para nuevos jugadores, El sistema de emparejamiento al jugar multijugador es un asco, si estoy jugando con mis amigos me gustaria poder verlos por ahi justo como en MH RIse no solo en una sala random que nadie visita",
+          "cosine": 0.6178117990493774
+        }
+      ]
+    },
+    {
+      "unit_id": "Sb5f4c72c2d4c4cb7fbd8",
+      "text": "通常情况只需要右键就可以驾驭 新手建议直接简单难度，不了解武器不了解敌人的情况下即使是普通难度也可能死得很惨，玩游戏无脑爽就好 多人老是匹不到人，",
+      "language_hint": "Han-dominant",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sf764d90412bbd707d56c",
+          "text": "it does take a little to understand the controls and figure out good stratagies for each battle",
+          "cosine": 0.6319103240966797
+        },
+        {
+          "unit_id": "S859a25fcffe2021a9fa8",
+          "text": "Про это в следующем разделе. Система заданий: в игре есть сюжетные, дополнительные, событийные и особые задания, и расследования. Так вот, за годы их наделали столько разных, что глаза разбегаются. И вот тут кроется главная ошибка: дополнительные задания стоит выполнять практически все. Даже если там нет очевидных призов в описании, то прохождение может дать проход к нужному заданию или просто выпадет что-то крайне полезное. Так я и профукал за одним невыполненным заданием без приза в описании длинную цепочку прокачки своего главного помощника - палико. О палико: это прямоходящий кот, который помогает тебе если игрешь один или вдвоём. Т.к. в пати не может быть больше 4 членов, то при игре вчетвером палико остаются в стороне. Он прокачивается вместе с тобой и обрастает арсеналом весьма полезных инструментов. Так что не пропускайте его квесты, т.к. инструменты отнюдь не единственная причина, по которой стоит пройти все дополнительные квесты компаньона. Особенно, если играете в одиночку. С сюжетными, думаю, всё понятно. Событийные - скорее проверка умений. Они часто требуются в еженедельных квестах и за них дают неплохую награду. А особые квесты - это DLC и походы на самых элитных боссов. Тут по желанию, я пропустил всякие кроссоверы, а остальные все прошёл. В одном из таких квестов получил самую полезную накидку в игре. Про онлайн: несмотря на почётные 8 лет с выхода, онлайн в игре стабилен. Почти всегда на трудных боссов можно призвать помощь. Однако, в сюжетных миссиях сначала нужно посмотреть сюжетные же вставки, а только после них откроется возможность призыва. Про трудных боссов: думаю всех их вполне можно пройти в одиночку, но я не советую. В одиночку можно и задушниться, мне кажется, даже если играешь с нонеймами из сети. В первую очередь - это кооперативная игра. И двух человек тут вполне достаточно, чтобы сделать её незабываемой и обрести кучу совместных воспоминаний. Однако, не стоит забывать, что каждая охота требует подготовки: нужная броня и камни в ней, подходящее оружие, лечилки и антидоты, ловушки, и, главное, хорошо покушать перед заходом - всё это крайне важно для успеха. Если выполнить все пункты, то даже самый трудный босс не устоит перед вашим напором. Ну и в конце: почему именно World, а не более новые Rise или Wilds",
+          "cosine": 0.594312310218811
+        },
+        {
+          "unit_id": "Sc70e94e66c043427d883",
+          "text": "Pros: Para mi una obra maestra, del genero, la variedad de armas que ofrece el juego permite que explores varios tipos de arma para descubrir cual te gusta mas, El sistema de ecosistemas vivos le dan a este monster hunter algo que no tenian entregas anteriores, ver monstruos comiendose otros le da un toque especial a este, en cuanto al sistema de seguimiento de los monstruos sigue guardando un poco la escensia de los anteriores de tener que descubir un monstruo que no conocia, pero con un extra que serian los lafarillos te ayudan a seguir monstruos o materiales que en entregas anteriores era realmente engorroso de realizar, Cons: El hecho de que el mundo sea tan grande en cada uno de los ecosistemas, se siente a veces abrumador cuando estas empezando, la historia es un poco vacia y parece como solo darle una vago sentido al porque cazas monstruos, Los menus y la interfaz si bien mejoraron en cuanto a entregas anteriores siguen siendo bastante complicadas de entender, mas que todo para nuevos jugadores, El sistema de emparejamiento al jugar multijugador es un asco, si estoy jugando con mis amigos me gustaria poder verlos por ahi justo como en MH RIse no solo en una sala random que nadie visita",
+          "cosine": 0.565595269203186
+        }
+      ]
+    },
+    {
+      "unit_id": "Sb94d4e82135e83eef4e3",
+      "text": "Watch_Dogs 2 is a third person open world action/stealth game that takes the few things that were good about the first Watch_Dogs and pumps them up to 11",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sb24241d7474ddedfb88d",
+          "text": "尼玛的，我是听说这游戏是战斗爽才买的，玩的时候发现完全不是这么回事，为什么会有怪打到一半自己跑这种恶心机制，尤其是那些会飞的一跑就不知道去哪了，我玩这游戏一大半时间在无意义且重复的跑图上，还有及其杂乱的物品，我玩物语2的时候都没这种感觉，还有那些各种看不懂的名词，你要是塞在剧情里谁管你，很多游戏道具不仔细看根本不知道什么意思，像出招疯狗，多动症，一直飞天不下来，都是小问题，这种冗长繁杂的地图配合怪物打到一半就跑还要招痕迹的机制，使劲拖时间有意思吗",
+          "cosine": 0.5102097392082214
+        },
+        {
+          "unit_id": "Sb5f4c72c2d4c4cb7fbd8",
+          "text": "通常情况只需要右键就可以驾驭 新手建议直接简单难度，不了解武器不了解敌人的情况下即使是普通难度也可能死得很惨，玩游戏无脑爽就好 多人老是匹不到人，",
+          "cosine": 0.5063799023628235
+        },
+        {
+          "unit_id": "S6de336a307b636d066e8",
+          "text": "总得来说一直以来游戏就是一个半成品，哪怕是更新到了2.5版本也还是半成品，个人认为玩家完全是靠边缘行者的动漫ip支撑着把游戏玩下去，但实话说如果赛博朋克2077不是一个游戏而是一部电影，这种引人入胜的剧情可以说是让人沉浸其中，支线剧情把夜之城从底层到上层人民，从V的朋友到V的仇人等角色描述出了他们的血肉，让玩家仿佛和真实存在的人物共同生活在这样一座光怪陆离的城市",
+          "cosine": 0.5024011731147766
+        }
+      ]
+    },
+    {
+      "unit_id": "Sc3d3f737509ef550e383",
+      "text": "快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，快点更新阿，",
+      "language_hint": "Han-dominant",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sde230d44f35066bd0dd1",
+          "text": "Good game with a decent story and a must buy when on sale :)",
+          "cosine": 0.5096849799156189
+        },
+        {
+          "unit_id": "S581b131ebe7a1ec6c834",
+          "text": "Game is absolute and utter peak, I wish they added more dialogue to NPC's than what they did",
+          "cosine": 0.5078796148300171
+        },
+        {
+          "unit_id": "S859a25fcffe2021a9fa8",
+          "text": "Про это в следующем разделе. Система заданий: в игре есть сюжетные, дополнительные, событийные и особые задания, и расследования. Так вот, за годы их наделали столько разных, что глаза разбегаются. И вот тут кроется главная ошибка: дополнительные задания стоит выполнять практически все. Даже если там нет очевидных призов в описании, то прохождение может дать проход к нужному заданию или просто выпадет что-то крайне полезное. Так я и профукал за одним невыполненным заданием без приза в описании длинную цепочку прокачки своего главного помощника - палико. О палико: это прямоходящий кот, который помогает тебе если игрешь один или вдвоём. Т.к. в пати не может быть больше 4 членов, то при игре вчетвером палико остаются в стороне. Он прокачивается вместе с тобой и обрастает арсеналом весьма полезных инструментов. Так что не пропускайте его квесты, т.к. инструменты отнюдь не единственная причина, по которой стоит пройти все дополнительные квесты компаньона. Особенно, если играете в одиночку. С сюжетными, думаю, всё понятно. Событийные - скорее проверка умений. Они часто требуются в еженедельных квестах и за них дают неплохую награду. А особые квесты - это DLC и походы на самых элитных боссов. Тут по желанию, я пропустил всякие кроссоверы, а остальные все прошёл. В одном из таких квестов получил самую полезную накидку в игре. Про онлайн: несмотря на почётные 8 лет с выхода, онлайн в игре стабилен. Почти всегда на трудных боссов можно призвать помощь. Однако, в сюжетных миссиях сначала нужно посмотреть сюжетные же вставки, а только после них откроется возможность призыва. Про трудных боссов: думаю всех их вполне можно пройти в одиночку, но я не советую. В одиночку можно и задушниться, мне кажется, даже если играешь с нонеймами из сети. В первую очередь - это кооперативная игра. И двух человек тут вполне достаточно, чтобы сделать её незабываемой и обрести кучу совместных воспоминаний. Однако, не стоит забывать, что каждая охота требует подготовки: нужная броня и камни в ней, подходящее оружие, лечилки и антидоты, ловушки, и, главное, хорошо покушать перед заходом - всё это крайне важно для успеха. Если выполнить все пункты, то даже самый трудный босс не устоит перед вашим напором. Ну и в конце: почему именно World, а не более новые Rise или Wilds",
+          "cosine": 0.5054064989089966
+        }
+      ]
+    },
+    {
+      "unit_id": "Sc70e94e66c043427d883",
+      "text": "Pros: Para mi una obra maestra, del genero, la variedad de armas que ofrece el juego permite que explores varios tipos de arma para descubrir cual te gusta mas, El sistema de ecosistemas vivos le dan a este monster hunter algo que no tenian entregas anteriores, ver monstruos comiendose otros le da un toque especial a este, en cuanto al sistema de seguimiento de los monstruos sigue guardando un poco la escensia de los anteriores de tener que descubir un monstruo que no conocia, pero con un extra que serian los lafarillos te ayudan a seguir monstruos o materiales que en entregas anteriores era realmente engorroso de realizar, Cons: El hecho de que el mundo sea tan grande en cada uno de los ecosistemas, se siente a veces abrumador cuando estas empezando, la historia es un poco vacia y parece como solo darle una vago sentido al porque cazas monstruos, Los menus y la interfaz si bien mejoraron en cuanto a entregas anteriores siguen siendo bastante complicadas de entender, mas que todo para nuevos jugadores, El sistema de emparejamiento al jugar multijugador es un asco, si estoy jugando con mis amigos me gustaria poder verlos por ahi justo como en MH RIse no solo en una sala random que nadie visita",
+      "language_hint": "Latin-script",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S087be08b3794b0e64025",
+          "text": "肉鸽类型，像素类型，堪称无敌，就是关卡有些少，已经停更了，dlc还是有些意思的，自定义模式降低游戏难度还是可以适合新手的",
+          "cosine": 0.6386404037475586
+        },
+        {
+          "unit_id": "Sa561fda082997af4460d",
+          "text": "给我这种想象力过剩的ADHD屁孩玩的完美游戏，大杂拌很乐趣，也经常开着地图当氛围音干别的事情，玩家社群非常classy，除了三年前那个在沙盒服务器恼羞成怒疯狂用HUGE ASS火车模型卡我的那个管理员，如果只能在余生玩最后一款游戏我只会选择基mod，11/10",
+          "cosine": 0.6267976760864258
+        },
+        {
+          "unit_id": "Sb24241d7474ddedfb88d",
+          "text": "尼玛的，我是听说这游戏是战斗爽才买的，玩的时候发现完全不是这么回事，为什么会有怪打到一半自己跑这种恶心机制，尤其是那些会飞的一跑就不知道去哪了，我玩这游戏一大半时间在无意义且重复的跑图上，还有及其杂乱的物品，我玩物语2的时候都没这种感觉，还有那些各种看不懂的名词，你要是塞在剧情里谁管你，很多游戏道具不仔细看根本不知道什么意思，像出招疯狗，多动症，一直飞天不下来，都是小问题，这种冗长繁杂的地图配合怪物打到一半就跑还要招痕迹的机制，使劲拖时间有意思吗",
+          "cosine": 0.6178117990493774
+        }
+      ]
+    },
+    {
+      "unit_id": "Scf1b1e3b8a2e8cb1fe26",
+      "text": "Really cool story and world building",
+      "language_hint": "Latin-script",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S47e0f4f64060b389e7d4",
+          "text": "高度优秀的数值设计，精美的卡牌",
+          "cosine": 0.5732255578041077
+        },
+        {
+          "unit_id": "S52deeffd0ee0c44ccee9",
+          "text": "给你们看屁屁能点个赞吗 ⣿⣿⣿⣿⠛⠛⠉⠄⠁⠄⠄⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡟⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⠄⠄⠐⠄⠄⠄⠄⠄⠄⠄⠠⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⢀⡀⠠⠃⡐⡀⠠⣶⠄⠄⢀⣿⣿⣿⣿⣿⣿ ⣿⣿⣶⠄⠰⣤⣕⣿⣾⡇⠄⢛⠃⠄⢈⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡇⢀⣻⠟⣻⣿⡇⠄⠧⠄⢀⣾⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣟⢸⣻⣭⡙⢄⢀⠄⠄⠄⠈⢹⣯⣿⣿⣿⣿⣿ ⣿⣿⣿⣭⣿⣿⣿⣧⢸⠄⠄⠄⠄⠄⠈⢸⣿⣿⣿⣿⣿ ⣿⣿⣿⣼⣿⣿⣿⣽⠘⡄⠄⠄⠄⠄⢀⠸⣿⣿⣿⣿⣿ ⡿⣿⣳⣿⣿⣿⣿⣿⠄⠓⠦⠤⠤⠤⠼⢸⣿⣿⣿⣿⣿ ⡹⣧⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⢇⣓⣾⣿⣿⣿⣿⣿ ⡞⣸⣿⣿⢏⣼⣶⣶⣶⣶⣤⣶⡤⠐⣿⣿⣿⣿⣿⣿⣿ ⣯⣽⣛⠅⣾⣿⣿⣿⣿⣿⡽⣿⣧⡸⢿⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡷⠹⠛⠉⠁⠄⠄⠄⠄⠄⠄⠐⠛⠻⣿⣿⣿⣿ ⣿⣿⣿⠃⠄⠄⠄⠄⠄⣠⣤⣤⣤⡄⢤⣤⣤⣤⡘⠻⣿ ⣿⣿⡟⠄⠄⣀⣤⣶⣿⣿⣿⣿⣿⣿⣆⢻⣿⣿⣿⡎⠝ ⣿⡏⠄⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡎⣿⣿⣿⣿⠐ ⣿⡏⣲⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢇⣿⣿⣿⡟⣼ ⣿⡠⠜⣿⣿⣿⣿⣟⡛⠿⠿⠿⠿⠟⠃⠾⠿⢟⡋⢶⣿ ⣿⣧⣄⠙⢿⣿⣿⣿⣿⣿⣷⣦⡀⢰⣾⣿⣿⡿⢣⣿⣿ ⣿⣿⣿⠂⣷⣶⣬⣭⣭⣭⣭⣵⢰⣴⣤⣤⣶⡾⢐⣿⣿ ⣿⣿⣿⣷⡘⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⢃⣼⣿⣿ 上古卷轴5犹如一篇悠久的史诗，令人回味悠长，加上顶级配乐，哪怕是老游戏画质，依旧令人心神激荡",
+          "cosine": 0.5263283252716064
+        },
+        {
+          "unit_id": "S87d77c2819b42641580a",
+          "text": "“反作弊功能完善 英雄强度平衡 玩家态度友好 服务器运行流畅 公司智商惊人 ”",
+          "cosine": 0.5038403272628784
+        }
+      ]
+    },
+    {
+      "unit_id": "Sd359f5360a54c2b792af",
+      "text": "Amazing modding community, sadly can't speak to multiplayer function I think that would stress out my PC to much as I do have some issues late game if I don't stay in space for it",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S7f1bdb3c7febc21d656e",
+          "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+          "cosine": 0.609184741973877
+        },
+        {
+          "unit_id": "Sa561fda082997af4460d",
+          "text": "给我这种想象力过剩的ADHD屁孩玩的完美游戏，大杂拌很乐趣，也经常开着地图当氛围音干别的事情，玩家社群非常classy，除了三年前那个在沙盒服务器恼羞成怒疯狂用HUGE ASS火车模型卡我的那个管理员，如果只能在余生玩最后一款游戏我只会选择基mod，11/10",
+          "cosine": 0.5932244062423706
+        },
+        {
+          "unit_id": "S06831f5eec15e63505c6",
+          "text": "单人模式的ai队友也很傻逼，有时会不听指挥擅自开门闯入未清理区域",
+          "cosine": 0.5715237259864807
+        }
+      ]
+    },
+    {
+      "unit_id": "Sd83ae947dc971291b46a",
+      "text": "Aiming that makes me question whether my controller is broken",
+      "language_hint": "Latin-script",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S06831f5eec15e63505c6",
+          "text": "单人模式的ai队友也很傻逼，有时会不听指挥擅自开门闯入未清理区域",
+          "cosine": 0.579047679901123
+        },
+        {
+          "unit_id": "S73a7a56bb43f50eafe96",
+          "text": "掉线",
+          "cosine": 0.5532406568527222
+        },
+        {
+          "unit_id": "Sb24241d7474ddedfb88d",
+          "text": "尼玛的，我是听说这游戏是战斗爽才买的，玩的时候发现完全不是这么回事，为什么会有怪打到一半自己跑这种恶心机制，尤其是那些会飞的一跑就不知道去哪了，我玩这游戏一大半时间在无意义且重复的跑图上，还有及其杂乱的物品，我玩物语2的时候都没这种感觉，还有那些各种看不懂的名词，你要是塞在剧情里谁管你，很多游戏道具不仔细看根本不知道什么意思，像出招疯狗，多动症，一直飞天不下来，都是小问题，这种冗长繁杂的地图配合怪物打到一半就跑还要招痕迹的机制，使劲拖时间有意思吗",
+          "cosine": 0.5505965948104858
+        }
+      ]
+    },
+    {
+      "unit_id": "Sddae5b846cabce359c7f",
+      "text": "We beat the entire story without finding a single llama, because they just didn't spawn",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S06831f5eec15e63505c6",
+          "text": "单人模式的ai队友也很傻逼，有时会不听指挥擅自开门闯入未清理区域",
+          "cosine": 0.4494343400001526
+        },
+        {
+          "unit_id": "Sb24241d7474ddedfb88d",
+          "text": "尼玛的，我是听说这游戏是战斗爽才买的，玩的时候发现完全不是这么回事，为什么会有怪打到一半自己跑这种恶心机制，尤其是那些会飞的一跑就不知道去哪了，我玩这游戏一大半时间在无意义且重复的跑图上，还有及其杂乱的物品，我玩物语2的时候都没这种感觉，还有那些各种看不懂的名词，你要是塞在剧情里谁管你，很多游戏道具不仔细看根本不知道什么意思，像出招疯狗，多动症，一直飞天不下来，都是小问题，这种冗长繁杂的地图配合怪物打到一半就跑还要招痕迹的机制，使劲拖时间有意思吗",
+          "cosine": 0.42367812991142273
+        },
+        {
+          "unit_id": "S7f1bdb3c7febc21d656e",
+          "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+          "cosine": 0.4209546148777008
+        }
+      ]
+    },
+    {
+      "unit_id": "Sde230d44f35066bd0dd1",
+      "text": "Good game with a decent story and a must buy when on sale :)",
+      "language_hint": "Latin-script",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S87d77c2819b42641580a",
+          "text": "“反作弊功能完善 英雄强度平衡 玩家态度友好 服务器运行流畅 公司智商惊人 ”",
+          "cosine": 0.6363836526870728
+        },
+        {
+          "unit_id": "S47e0f4f64060b389e7d4",
+          "text": "高度优秀的数值设计，精美的卡牌",
+          "cosine": 0.5920975208282471
+        },
+        {
+          "unit_id": "S52deeffd0ee0c44ccee9",
+          "text": "给你们看屁屁能点个赞吗 ⣿⣿⣿⣿⠛⠛⠉⠄⠁⠄⠄⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡟⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⠄⠄⠐⠄⠄⠄⠄⠄⠄⠄⠠⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⢀⡀⠠⠃⡐⡀⠠⣶⠄⠄⢀⣿⣿⣿⣿⣿⣿ ⣿⣿⣶⠄⠰⣤⣕⣿⣾⡇⠄⢛⠃⠄⢈⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡇⢀⣻⠟⣻⣿⡇⠄⠧⠄⢀⣾⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣟⢸⣻⣭⡙⢄⢀⠄⠄⠄⠈⢹⣯⣿⣿⣿⣿⣿ ⣿⣿⣿⣭⣿⣿⣿⣧⢸⠄⠄⠄⠄⠄⠈⢸⣿⣿⣿⣿⣿ ⣿⣿⣿⣼⣿⣿⣿⣽⠘⡄⠄⠄⠄⠄⢀⠸⣿⣿⣿⣿⣿ ⡿⣿⣳⣿⣿⣿⣿⣿⠄⠓⠦⠤⠤⠤⠼⢸⣿⣿⣿⣿⣿ ⡹⣧⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⢇⣓⣾⣿⣿⣿⣿⣿ ⡞⣸⣿⣿⢏⣼⣶⣶⣶⣶⣤⣶⡤⠐⣿⣿⣿⣿⣿⣿⣿ ⣯⣽⣛⠅⣾⣿⣿⣿⣿⣿⡽⣿⣧⡸⢿⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡷⠹⠛⠉⠁⠄⠄⠄⠄⠄⠄⠐⠛⠻⣿⣿⣿⣿ ⣿⣿⣿⠃⠄⠄⠄⠄⠄⣠⣤⣤⣤⡄⢤⣤⣤⣤⡘⠻⣿ ⣿⣿⡟⠄⠄⣀⣤⣶⣿⣿⣿⣿⣿⣿⣆⢻⣿⣿⣿⡎⠝ ⣿⡏⠄⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡎⣿⣿⣿⣿⠐ ⣿⡏⣲⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢇⣿⣿⣿⡟⣼ ⣿⡠⠜⣿⣿⣿⣿⣟⡛⠿⠿⠿⠿⠟⠃⠾⠿⢟⡋⢶⣿ ⣿⣧⣄⠙⢿⣿⣿⣿⣿⣿⣷⣦⡀⢰⣾⣿⣿⡿⢣⣿⣿ ⣿⣿⣿⠂⣷⣶⣬⣭⣭⣭⣭⣵⢰⣴⣤⣤⣶⡾⢐⣿⣿ ⣿⣿⣿⣷⡘⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⢃⣼⣿⣿ 上古卷轴5犹如一篇悠久的史诗，令人回味悠长，加上顶级配乐，哪怕是老游戏画质，依旧令人心神激荡",
+          "cosine": 0.5728092193603516
+        }
+      ]
+    },
+    {
+      "unit_id": "Sdea4eaa2bb032f3fd196",
+      "text": "very fun with friends",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sa561fda082997af4460d",
+          "text": "给我这种想象力过剩的ADHD屁孩玩的完美游戏，大杂拌很乐趣，也经常开着地图当氛围音干别的事情，玩家社群非常classy，除了三年前那个在沙盒服务器恼羞成怒疯狂用HUGE ASS火车模型卡我的那个管理员，如果只能在余生玩最后一款游戏我只会选择基mod，11/10",
+          "cosine": 0.5773265361785889
+        },
+        {
+          "unit_id": "S47e0f4f64060b389e7d4",
+          "text": "高度优秀的数值设计，精美的卡牌",
+          "cosine": 0.5730780959129333
+        },
+        {
+          "unit_id": "S87d77c2819b42641580a",
+          "text": "“反作弊功能完善 英雄强度平衡 玩家态度友好 服务器运行流畅 公司智商惊人 ”",
+          "cosine": 0.5616424083709717
+        }
+      ]
+    },
+    {
+      "unit_id": "Se495128372172d52cc11",
+      "text": "The deep lore is brought to life through excellent voice acting and an amazing soundtrack that perfectly complements the scale of the world",
+      "language_hint": "Latin-script",
+      "fit_candidate": false,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S52deeffd0ee0c44ccee9",
+          "text": "给你们看屁屁能点个赞吗 ⣿⣿⣿⣿⠛⠛⠉⠄⠁⠄⠄⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡟⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⠄⠄⠐⠄⠄⠄⠄⠄⠄⠄⠠⣿⣿⣿⣿⣿⣿ ⣿⣿⡇⠄⢀⡀⠠⠃⡐⡀⠠⣶⠄⠄⢀⣿⣿⣿⣿⣿⣿ ⣿⣿⣶⠄⠰⣤⣕⣿⣾⡇⠄⢛⠃⠄⢈⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡇⢀⣻⠟⣻⣿⡇⠄⠧⠄⢀⣾⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⣟⢸⣻⣭⡙⢄⢀⠄⠄⠄⠈⢹⣯⣿⣿⣿⣿⣿ ⣿⣿⣿⣭⣿⣿⣿⣧⢸⠄⠄⠄⠄⠄⠈⢸⣿⣿⣿⣿⣿ ⣿⣿⣿⣼⣿⣿⣿⣽⠘⡄⠄⠄⠄⠄⢀⠸⣿⣿⣿⣿⣿ ⡿⣿⣳⣿⣿⣿⣿⣿⠄⠓⠦⠤⠤⠤⠼⢸⣿⣿⣿⣿⣿ ⡹⣧⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⢇⣓⣾⣿⣿⣿⣿⣿ ⡞⣸⣿⣿⢏⣼⣶⣶⣶⣶⣤⣶⡤⠐⣿⣿⣿⣿⣿⣿⣿ ⣯⣽⣛⠅⣾⣿⣿⣿⣿⣿⡽⣿⣧⡸⢿⣿⣿⣿⣿⣿⣿ ⣿⣿⣿⡷⠹⠛⠉⠁⠄⠄⠄⠄⠄⠄⠐⠛⠻⣿⣿⣿⣿ ⣿⣿⣿⠃⠄⠄⠄⠄⠄⣠⣤⣤⣤⡄⢤⣤⣤⣤⡘⠻⣿ ⣿⣿⡟⠄⠄⣀⣤⣶⣿⣿⣿⣿⣿⣿⣆⢻⣿⣿⣿⡎⠝ ⣿⡏⠄⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡎⣿⣿⣿⣿⠐ ⣿⡏⣲⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢇⣿⣿⣿⡟⣼ ⣿⡠⠜⣿⣿⣿⣿⣟⡛⠿⠿⠿⠿⠟⠃⠾⠿⢟⡋⢶⣿ ⣿⣧⣄⠙⢿⣿⣿⣿⣿⣿⣷⣦⡀⢰⣾⣿⣿⡿⢣⣿⣿ ⣿⣿⣿⠂⣷⣶⣬⣭⣭⣭⣭⣵⢰⣴⣤⣤⣶⡾⢐⣿⣿ ⣿⣿⣿⣷⡘⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⢃⣼⣿⣿ 上古卷轴5犹如一篇悠久的史诗，令人回味悠长，加上顶级配乐，哪怕是老游戏画质，依旧令人心神激荡",
+          "cosine": 0.6107310056686401
+        },
+        {
+          "unit_id": "Sa561fda082997af4460d",
+          "text": "给我这种想象力过剩的ADHD屁孩玩的完美游戏，大杂拌很乐趣，也经常开着地图当氛围音干别的事情，玩家社群非常classy，除了三年前那个在沙盒服务器恼羞成怒疯狂用HUGE ASS火车模型卡我的那个管理员，如果只能在余生玩最后一款游戏我只会选择基mod，11/10",
+          "cosine": 0.5564562678337097
+        },
+        {
+          "unit_id": "S47e0f4f64060b389e7d4",
+          "text": "高度优秀的数值设计，精美的卡牌",
+          "cosine": 0.556341826915741
+        }
+      ]
+    },
+    {
+      "unit_id": "Seae3f8cd3881865f8cdb",
+      "text": "Never have I ever, said so foul words towards teammates and enemy team in my entire life except for when im playing this shitty, rage inducing mongrel game",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S06831f5eec15e63505c6",
+          "text": "单人模式的ai队友也很傻逼，有时会不听指挥擅自开门闯入未清理区域",
+          "cosine": 0.498818576335907
+        },
+        {
+          "unit_id": "Sb24241d7474ddedfb88d",
+          "text": "尼玛的，我是听说这游戏是战斗爽才买的，玩的时候发现完全不是这么回事，为什么会有怪打到一半自己跑这种恶心机制，尤其是那些会飞的一跑就不知道去哪了，我玩这游戏一大半时间在无意义且重复的跑图上，还有及其杂乱的物品，我玩物语2的时候都没这种感觉，还有那些各种看不懂的名词，你要是塞在剧情里谁管你，很多游戏道具不仔细看根本不知道什么意思，像出招疯狗，多动症，一直飞天不下来，都是小问题，这种冗长繁杂的地图配合怪物打到一半就跑还要招痕迹的机制，使劲拖时间有意思吗",
+          "cosine": 0.4866645932197571
+        },
+        {
+          "unit_id": "Sa561fda082997af4460d",
+          "text": "给我这种想象力过剩的ADHD屁孩玩的完美游戏，大杂拌很乐趣，也经常开着地图当氛围音干别的事情，玩家社群非常classy，除了三年前那个在沙盒服务器恼羞成怒疯狂用HUGE ASS火车模型卡我的那个管理员，如果只能在余生玩最后一款游戏我只会选择基mod，11/10",
+          "cosine": 0.47661125659942627
+        }
+      ]
+    },
+    {
+      "unit_id": "Sed5465b9220df9ce176d",
+      "text": "hard",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "S8806215f75b05a669166",
+          "text": "联机困难",
+          "cosine": 0.5669997930526733
+        },
+        {
+          "unit_id": "S7f1bdb3c7febc21d656e",
+          "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+          "cosine": 0.48095083236694336
+        },
+        {
+          "unit_id": "S73a7a56bb43f50eafe96",
+          "text": "掉线",
+          "cosine": 0.4698978662490845
+        }
+      ]
+    },
+    {
+      "unit_id": "Sf764d90412bbd707d56c",
+      "text": "it does take a little to understand the controls and figure out good stratagies for each battle",
+      "language_hint": "Latin-script",
+      "fit_candidate": true,
+      "cross_language_neighbors": [
+        {
+          "unit_id": "Sb5f4c72c2d4c4cb7fbd8",
+          "text": "通常情况只需要右键就可以驾驭 新手建议直接简单难度，不了解武器不了解敌人的情况下即使是普通难度也可能死得很惨，玩游戏无脑爽就好 多人老是匹不到人，",
+          "cosine": 0.6319103240966797
+        },
+        {
+          "unit_id": "S6a17eac625547a2a1d2b",
+          "text": "爬塔模拟器，找卡组挺有乐趣，但需要很多学习成本，上手难度不低",
+          "cosine": 0.5894060134887695
+        },
+        {
+          "unit_id": "S7f1bdb3c7febc21d656e",
+          "text": "服务器非常牛逼，基本上都是走个十几步就给我卡回来了，并且这游戏对新手非常不友善，全都是见到人就开干的",
+          "cosine": 0.5785598754882812
+        }
+      ]
+    }
+  ],
+  "input": {
+    "units": 8979,
+    "fit_candidate_units": 7269,
+    "reviews_with_units": 4885,
+    "input_sha256": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+    "ordered_unit_ids_sha256": "e3ebc2157d84cafe31be36f0e3e194653439b2d67c113fb05d1df12724abce23"
+  },
+  "peak_process_memory_gib": 2.0483856201171875,
+  "interpretation": "Control pairs are constructed sanity probes, not independent gold accuracy. Real neighbors are limited to the pilot subset, not a full-corpus retrieval result. No topic labels assigned."
+}

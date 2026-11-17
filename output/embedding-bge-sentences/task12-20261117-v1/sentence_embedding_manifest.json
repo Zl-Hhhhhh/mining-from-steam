@@ -1,0 +1,63 @@
+{
+  "model_name": "BAAI/bge-m3",
+  "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "pooling": "cls",
+  "normalize_embeddings": true,
+  "dtype": "float32",
+  "max_seq_length": 8192,
+  "cpu_threads": 2,
+  "max_batch_size": 8,
+  "max_padded_tokens_per_batch": 4096,
+  "schema_version": "1.0",
+  "vector_file": "sentence_vectors.npy",
+  "unit_ids_file": "unit_ids.json",
+  "shape": [
+    8979,
+    1024
+  ],
+  "input_path": "output/topic_selection/task12-20261114/handoff/sentence_units.jsonl",
+  "input_sha256": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+  "ordered_unit_ids_sha256": "e3ebc2157d84cafe31be36f0e3e194653439b2d67c113fb05d1df12724abce23",
+  "vectors_sha256": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd",
+  "unit_ids_file_sha256": "73207e17a2ada4367c01c2fa46a4b412547f96e0e3762debc03fb2371e75de2f",
+  "fit_candidate_units": 7269,
+  "reviews_with_units": 4885,
+  "source_commit": "1ee364d5cf41d58b829d56f2ef44dbf7961d9abf",
+  "encoding_request_sha256": "beb847826e531bc81680da41c37525723114c67c592316f8c18198ad9c3b47cc",
+  "model_files_sha256": {
+    "1_Pooling/config.json": "e54c164a07274f2eb45bb724f54a79d1efcc90c41573887cd9a29aeee0597352",
+    "config.json": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa",
+    "config_sentence_transformers.json": "1eef72430e7194a1e59680e635aed81ffa083f05668dbc5bb1c56c04c0999c38",
+    "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+    "pytorch_model.bin": "b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38",
+    "sentence_bert_config.json": "eb9b44b13c0f52a3b3685c3b1cbdea1ba8b04bea123b98f61610048940776eb1",
+    "sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+    "special_tokens_map.json": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835",
+    "tokenizer.json": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+    "tokenizer_config.json": "a62b2b6784f990259fddef5f16388693a8043be4f69179e6a5257eeb3f9abac4"
+  },
+  "runtime_versions": {
+    "torch": "2.15.0+cpu",
+    "transformers": "5.22.1",
+    "sentence-transformers": "5.7.0",
+    "numpy": "2.5.4",
+    "huggingface_hub": "2.4.0"
+  },
+  "generator_sha256": "6753d334768b44147bd84afe557ac2f9c85d986ade84e1595f4609fb7bd10ff1",
+  "checkpoint_fingerprint": "945921f227ec8864cb88102d3409e706899bcd5a528e1a34a29c7b6e5ab7e5c0",
+  "max_observed_tokens": 1543,
+  "units_over512_tokens": 2,
+  "truncated_units": 0,
+  "old_whole_review_vectors_reused": false,
+  "topic_labels_used_for_encoding": false,
+  "recommendation_labels_used": false,
+  "topic_assignment_performed": false,
+  "run_statistics": {
+    "newly_encoded": 8931,
+    "encoding_seconds": 1187.3858576,
+    "batches": 1117,
+    "cache_units_reused_at_start": 48,
+    "elapsed_seconds_this_process": 1201.6658759,
+    "peak_process_memory_gib": 2.1814804077148438
+  }
+}

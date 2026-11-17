@@ -1,0 +1,4 @@
+{"phase": "encoder_ready", "model_files_verified": 10, "cpu_threads": 2, "seconds": 5.16}
+{"phase": "token_lengths_checked", "units": 8979, "max_tokens": 1543, "over512": 2, "truncated": 0}
+{"phase": "encoding", "batch": 7, "batches": 7, "completed": 48, "total": 8979, "seconds": 25.9}
+{"phase": "pilot_complete", "units": 48, "synthetic_pair_ranks": [1, 1, 1, 1, 1, 1], "report": "C:\\Users\\24828\\.codex\\visualizations\\2026\\10\\31\\01a19154-975b-79a0-b63a-926032f70c08\\steam-task10-upload\\output\\embedding-bge-sentences\\task12-20261117-v1\\pilot\\report.html"}

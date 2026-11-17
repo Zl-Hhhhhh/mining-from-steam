@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "title": "BGE句子编码小批量检查",
+  "real_example_cards": 48,
+  "control_rows": 6,
+  "expanded_example": true,
+  "mobile_layout": {
+    "scroll": 390,
+    "client": 390
+  },
+  "page_errors": []
+}

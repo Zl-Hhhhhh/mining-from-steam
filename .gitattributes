@@ -42,3 +42,11 @@
 /scripts/prepare_task12_handoff.py -text
 /tests/test_task12_selection.py -text
 /output/topic_selection/** -text
+
+# Sentence-level BGE handoff keeps checksummed inputs and generated evidence.
+/scripts/embedding_bge_sentences.py -text
+/config/embedding_bge_sentences.json -text
+/tests/test_embedding_bge_sentences.py -text
+/docs/embedding-bge-sentences.md -text
+/output/embedding-bge-sentences/** -text
+/output/embedding-bge-sentences/**/*.npy -diff

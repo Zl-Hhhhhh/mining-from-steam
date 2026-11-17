@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "date_local": "2026-11-17",
+  "shape": [
+    8979,
+    1024
+  ],
+  "dtype": "float32",
+  "all_values_finite": true,
+  "norm_min": 0.9999998211860657,
+  "norm_max": 1.0000001192092896,
+  "input_sha256": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+  "vectors_sha256": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd",
+  "ordered_unit_ids_sha256": "e3ebc2157d84cafe31be36f0e3e194653439b2d67c113fb05d1df12724abce23",
+  "unit_ids_exact_source_order": true,
+  "all_48_pilot_vectors_bitwise_reused": true,
+  "fit_candidate_units": 7269,
+  "nonfit_units_encoded": 1710,
+  "master_reviews": 19486,
+  "reviews_with_units": 4885,
+  "review_unit_inverse_mapping_verified": true,
+  "max_observed_tokens": 1543,
+  "truncated_units": 0,
+  "cached_encode_guarded_model_imports": [
+    "huggingface_hub",
+    "sentence_transformers",
+    "torch",
+    "transformers"
+  ],
+  "cached_encode_seconds": 0.2358,
+  "cached_encode_loaded_encoder": false,
+  "cached_encode_outputs_unchanged": true,
+  "unit_test_count": 58,
+  "unit_tests_status": "passed",
+  "html_checks": {
+    "status": "passed",
+    "title": "BGE句子编码小批量检查",
+    "real_example_cards": 48,
+    "control_rows": 6,
+    "expanded_example": true,
+    "mobile_layout": {
+      "scroll": 390,
+      "client": 390
+    },
+    "page_errors": []
+  },
+  "run_statistics": {
+    "newly_encoded": 8931,
+    "encoding_seconds": 1187.3858576,
+    "batches": 1117,
+    "cache_units_reused_at_start": 48,
+    "elapsed_seconds_this_process": 1201.6658759,
+    "peak_process_memory_gib": 2.1814804077148438
+  },
+  "scope": "Input adapter, pilot and full sentence encoding only; no clustering, final topic assignments or proportions."
+}
