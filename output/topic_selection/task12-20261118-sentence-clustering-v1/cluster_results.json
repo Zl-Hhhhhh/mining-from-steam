@@ -1,0 +1,196 @@
+{
+  "status": "cluster_candidates_ready_for_semantic_review",
+  "config": {
+    "version": "task12-sentence-clustering-v1",
+    "input_units": "output/topic_selection/task12-20261114/handoff/sentence_units.jsonl",
+    "embedding_dir": "output/embedding-bge-sentences/task12-20261117-v1",
+    "topic_draft": "output/topic_selection/task12-20261114/topic-list-draft.json",
+    "output": "output/topic_selection/task12-20261118-sentence-clustering-v1",
+    "cluster_counts": [
+      6,
+      8,
+      10
+    ],
+    "seeds": [
+      17,
+      42
+    ],
+    "resample_seeds": [
+      2026111801,
+      2026111802,
+      2026111803,
+      2026111804,
+      2026111805
+    ],
+    "sample_fraction": 0.8,
+    "n_init": 10,
+    "max_iter": 300,
+    "cpu_threads": 2,
+    "representatives_per_cluster": 8,
+    "selection_uses_recommendation_labels": false,
+    "assignment_policy": "fit_candidate_units_fit_centroids; nonfit_units_nearest_centroid_application_only"
+  },
+  "config_sha256": "c89d06758f2e4e9b3e3a3300977ab3a5f827121c98cab625d46527125a20897a",
+  "provenance": {
+    "input_units": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+    "embedding_manifest": "46f983005195b328a86e7edc4e8ed72ea68ffc9d691067f28981c94a325a3a31",
+    "vectors": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd",
+    "unit_ids": "73207e17a2ada4367c01c2fa46a4b412547f96e0e3762debc03fb2371e75de2f",
+    "topic_draft": "5975c4d0024724ff9d034b21143a6f6ef628c9c4666f6fde36c5a4383e3e6e71",
+    "fit_candidate_units": 7269,
+    "all_units": 8979,
+    "reviews_with_units": 4885
+  },
+  "candidates": [
+    {
+      "candidate": "sentence_k6_s17",
+      "k": 6,
+      "seed": 17,
+      "fit_units": 7269,
+      "all_units_assigned": 8979,
+      "smallest_cluster": 442,
+      "largest_cluster_share": 0.234420140321915,
+      "inertia": 3390.88916015625,
+      "assignment_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k6_s17/assignments.csv",
+      "profile_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k6_s17/cluster_profiles.json",
+      "representative_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k6_s17/representatives.json"
+    },
+    {
+      "candidate": "sentence_k6_s42",
+      "k": 6,
+      "seed": 42,
+      "fit_units": 7269,
+      "all_units_assigned": 8979,
+      "smallest_cluster": 459,
+      "largest_cluster_share": 0.23373228779749622,
+      "inertia": 3390.935546875,
+      "assignment_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k6_s42/assignments.csv",
+      "profile_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k6_s42/cluster_profiles.json",
+      "representative_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k6_s42/representatives.json"
+    },
+    {
+      "candidate": "sentence_k8_s17",
+      "k": 8,
+      "seed": 17,
+      "fit_units": 7269,
+      "all_units_assigned": 8979,
+      "smallest_cluster": 390,
+      "largest_cluster_share": 0.16357133030678223,
+      "inertia": 3336.6435546875,
+      "assignment_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k8_s17/assignments.csv",
+      "profile_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k8_s17/cluster_profiles.json",
+      "representative_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k8_s17/representatives.json"
+    },
+    {
+      "candidate": "sentence_k8_s42",
+      "k": 8,
+      "seed": 42,
+      "fit_units": 7269,
+      "all_units_assigned": 8979,
+      "smallest_cluster": 401,
+      "largest_cluster_share": 0.1577933691016646,
+      "inertia": 3336.77587890625,
+      "assignment_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k8_s42/assignments.csv",
+      "profile_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k8_s42/cluster_profiles.json",
+      "representative_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k8_s42/representatives.json"
+    },
+    {
+      "candidate": "sentence_k10_s17",
+      "k": 10,
+      "seed": 17,
+      "fit_units": 7269,
+      "all_units_assigned": 8979,
+      "smallest_cluster": 370,
+      "largest_cluster_share": 0.12849085156142523,
+      "inertia": 3294.36181640625,
+      "assignment_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s17/assignments.csv",
+      "profile_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s17/cluster_profiles.json",
+      "representative_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s17/representatives.json"
+    },
+    {
+      "candidate": "sentence_k10_s42",
+      "k": 10,
+      "seed": 42,
+      "fit_units": 7269,
+      "all_units_assigned": 8979,
+      "smallest_cluster": 357,
+      "largest_cluster_share": 0.13248039620305407,
+      "inertia": 3294.31640625,
+      "assignment_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/assignments.csv",
+      "profile_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/cluster_profiles.json",
+      "representative_file": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/representatives.json"
+    }
+  ],
+  "resampling_summary": [
+    {
+      "candidate": "sentence_k10_s17",
+      "resamples": 5,
+      "ari_mean": 0.7023218948404755,
+      "ari_min": 0.6358424154315254,
+      "ari_max": 0.8139356461396134,
+      "out_of_bag_ari_mean": 0.7181228544214433,
+      "minimum_cluster_jaccard_min": 0.007069913589945012,
+      "component_cosine_mean": 0.989745032787323
+    },
+    {
+      "candidate": "sentence_k10_s42",
+      "resamples": 5,
+      "ari_mean": 0.8337190674355878,
+      "ari_min": 0.788269076635515,
+      "ari_max": 0.8878492079525601,
+      "out_of_bag_ari_mean": 0.8510651141547871,
+      "minimum_cluster_jaccard_min": 0.6289592760180995,
+      "component_cosine_mean": 0.9990389466285705
+    },
+    {
+      "candidate": "sentence_k6_s17",
+      "resamples": 5,
+      "ari_mean": 0.7255431666082592,
+      "ari_min": 0.37225619743828164,
+      "ari_max": 0.9191423682150305,
+      "out_of_bag_ari_mean": 0.7277537379996505,
+      "minimum_cluster_jaccard_min": 0.13205786280914605,
+      "component_cosine_mean": 0.9934074640274048
+    },
+    {
+      "candidate": "sentence_k6_s42",
+      "resamples": 5,
+      "ari_mean": 0.7361241042484218,
+      "ari_min": 0.5911512357481817,
+      "ari_max": 0.9432983537894872,
+      "out_of_bag_ari_mean": 0.7335664551400292,
+      "minimum_cluster_jaccard_min": 0.44662034112444726,
+      "component_cosine_mean": 0.9970377445220947
+    },
+    {
+      "candidate": "sentence_k8_s17",
+      "resamples": 5,
+      "ari_mean": 0.8127986707172793,
+      "ari_min": 0.7312836112809671,
+      "ari_max": 0.8910558676267685,
+      "out_of_bag_ari_mean": 0.8154046005854727,
+      "minimum_cluster_jaccard_min": 0.6163563829787234,
+      "component_cosine_mean": 0.9986749887466431
+    },
+    {
+      "candidate": "sentence_k8_s42",
+      "resamples": 5,
+      "ari_mean": 0.7646780816658036,
+      "ari_min": 0.6159704497149853,
+      "ari_max": 0.9164367434938331,
+      "out_of_bag_ari_mean": 0.76458359793665,
+      "minimum_cluster_jaccard_min": 0.006442376521116679,
+      "component_cosine_mean": 0.9943909406661987
+    }
+  ],
+  "selection_uses_recommendation_labels": false,
+  "topic_assignment_performed": false,
+  "task12_topics_frozen": false,
+  "elapsed_seconds": 188.25732669999707,
+  "limitations": [
+    "Cluster numbers are candidate partitions and are not final topic IDs.",
+    "Non-fit units receive application-only nearest-centroid assignments and do not define centroids.",
+    "Diagnostic lexical categories are input metadata and do not assign final topics.",
+    "Semantic review and topic-list-draft confirmation remain required before topics-v1."
+  ]
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "cluster": 0,
+    "unit_count": 977,
+    "unit_share": 0.1344063832714266,
+    "review_count": 772,
+    "source_languages": {
+      "english": 749,
+      "schinese": 228
+    },
+    "lexical_categories_diagnostic": {
+      "content_support": 103,
+      "audiovisual": 158,
+      "controls_difficulty": 135,
+      "story_characters": 320,
+      "gameplay": 177,
+      "multiplayer_community": 38,
+      "price_monetization": 28,
+      "performance_stability": 14,
+      "other_concrete": 4
+    }
+  },
+  {
+    "cluster": 1,
+    "unit_count": 1699,
+    "unit_share": 0.23373228779749622,
+    "review_count": 1355,
+    "source_languages": {
+      "schinese": 461,
+      "english": 1238
+    },
+    "lexical_categories_diagnostic": {
+      "multiplayer_community": 105,
+      "content_support": 313,
+      "gameplay": 458,
+      "story_characters": 322,
+      "controls_difficulty": 222,
+      "audiovisual": 153,
+      "price_monetization": 59,
+      "performance_stability": 65,
+      "other_concrete": 2
+    }
+  },
+  {
+    "cluster": 2,
+    "unit_count": 1289,
+    "unit_share": 0.17732838079515753,
+    "review_count": 956,
+    "source_languages": {
+      "schinese": 870,
+      "english": 419
+    },
+    "lexical_categories_diagnostic": {
+      "story_characters": 250,
+      "controls_difficulty": 239,
+      "audiovisual": 80,
+      "price_monetization": 23,
+      "content_support": 171,
+      "multiplayer_community": 142,
+      "other_concrete": 8,
+      "gameplay": 203,
+      "performance_stability": 173
+    }
+  },
+  {
+    "cluster": 3,
+    "unit_count": 459,
+    "unit_share": 0.06314486174164259,
+    "review_count": 439,
+    "source_languages": {
+      "schinese": 148,
+      "english": 311
+    },
+    "lexical_categories_diagnostic": {
+      "multiplayer_community": 370,
+      "audiovisual": 4,
+      "content_support": 18,
+      "controls_difficulty": 38,
+      "gameplay": 15,
+      "performance_stability": 6,
+      "price_monetization": 4,
+      "story_characters": 4
+    }
+  },
+  {
+    "cluster": 4,
+    "unit_count": 1397,
+    "unit_share": 0.19218599532260283,
+    "review_count": 978,
+    "source_languages": {
+      "english": 1083,
+      "schinese": 314
+    },
+    "lexical_categories_diagnostic": {
+      "controls_difficulty": 262,
+      "content_support": 270,
+      "gameplay": 320,
+      "story_characters": 154,
+      "audiovisual": 58,
+      "price_monetization": 70,
+      "performance_stability": 115,
+      "multiplayer_community": 142,
+      "other_concrete": 6
+    }
+  },
+  {
+    "cluster": 5,
+    "unit_count": 1448,
+    "unit_share": 0.19920209107167422,
+    "review_count": 1142,
+    "source_languages": {
+      "schinese": 456,
+      "english": 992
+    },
+    "lexical_categories_diagnostic": {
+      "other_concrete": 10,
+      "story_characters": 227,
+      "controls_difficulty": 186,
+      "performance_stability": 349,
+      "gameplay": 135,
+      "multiplayer_community": 263,
+      "content_support": 168,
+      "audiovisual": 61,
+      "price_monetization": 49
+    }
+  }
+]

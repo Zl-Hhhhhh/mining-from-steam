@@ -1,0 +1,33 @@
+{
+  "version": "topics-v1-exploratory-20261118",
+  "candidate": "sentence_k10_s42",
+  "units": "output/topic_selection/task12-20261114/handoff/sentence_units.jsonl",
+  "review_to_units": "output/topic_selection/task12-20261114/handoff/review_to_units.json",
+  "vectors_dir": "output/embedding-bge-sentences/task12-20261117-v1",
+  "assignments": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/assignments.csv",
+  "cluster_profiles": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/cluster_profiles.json",
+  "topic_draft": "output/topic_selection/task12-20261114/topic-list-draft.json",
+  "topic_seeds": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/topic-seed-units.json",
+  "output": "output/topic_selection/topics-v1-exploratory-20261118",
+  "min_topic_score": 0.45,
+  "secondary_min_score": 0.50,
+  "secondary_margin": 0.04,
+  "cluster_topic_map": {
+    "0": {"topic_ids": ["T07", "T08"], "confidence": "low", "route": "multi_candidate"},
+    "1": {"topic_ids": ["T06"], "confidence": "high", "route": "single"},
+    "2": {"topic_ids": ["T03", "T08"], "confidence": "medium", "route": "multi_candidate"},
+    "3": {"topic_ids": ["T01", "T02", "T04", "T05", "T08"], "confidence": "low", "route": "multi_candidate"},
+    "4": {"topic_ids": ["T01", "T08"], "confidence": "medium", "route": "multi_candidate"},
+    "5": {"topic_ids": ["T01", "T02", "T03", "T04", "T05", "T06", "T07", "T08"], "confidence": "low", "route": "multi_candidate"},
+    "6": {"topic_ids": ["T02"], "confidence": "high", "route": "single"},
+    "7": {"topic_ids": ["T01", "T02", "T04", "T05", "T08"], "confidence": "low", "route": "multi_candidate"},
+    "8": {"topic_ids": ["T01", "T02", "T04", "T08"], "confidence": "low", "route": "multi_candidate"},
+    "9": {"topic_ids": ["T04", "T05"], "confidence": "medium", "route": "multi_candidate"}
+  },
+  "selection_uses_recommendation_labels": false,
+  "assignment_method": "approved topic seed prototypes with cluster-restricted cosine similarity",
+  "review_weight_method": "equal contribution across assigned topics, normalized within each review",
+  "application_only_policy": "retain nearest-centroid cluster assignment and lower confidence for non-fit units",
+  "analysis_scope": "exploratory_RQ1_RQ2_RQ3_RQ4",
+  "confirmatory_semantic_validation": false
+}

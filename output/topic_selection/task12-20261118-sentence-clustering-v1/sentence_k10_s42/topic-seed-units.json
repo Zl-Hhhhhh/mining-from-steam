@@ -1,0 +1,84 @@
+{
+  "schema_version": "0.1-topic-seed-review",
+  "status": "approved_seed_version_pending_calibration",
+  "candidate": "sentence_k10_s42",
+  "topic_draft": "output/topic_selection/task12-20261114/topic-list-draft.json",
+  "source_units": "output/topic_selection/task12-20261114/handoff/sentence_units.jsonl",
+  "source_vectors": "output/embedding-bge-sentences/task12-20261117-v1/sentence_vectors.npy",
+  "purpose": "Choose semantic prototype units and boundary examples before sentence-level multi-topic assignment.",
+  "review_instruction": "For each seed, mark keep, replace, or reject. For each boundary, mark the correct topic IDs or auxiliary route. These decisions define prototype sets and rules, not final labels for all units.",
+  "seed_units": [
+    {"topic_id":"T01","topic_name":"玩法与机制","unit_id":"S01b9954a79a22eb0a857","text":"The formula Slay the Spire has with its well-executed roguelike mechanic combined with satisfying deckbuilding and combat makes it such a good time-waster","role":"positive_mechanics","why":"明确描述 roguelike 机制、构筑和战斗循环。"},
+    {"topic_id":"T01","topic_name":"玩法与机制","unit_id":"S0133c4c7b8c8e5f21cc7","text":"I enjoy that you can just chill and go mine for resources","role":"positive_mechanics","why":"明确描述资源采集这一玩法行为。"},
+    {"topic_id":"T01","topic_name":"玩法与机制","unit_id":"Sb42503c567c1948611df","text":"Lot of skill and build options too","role":"positive_mechanics","why":"明确描述技能和构筑选择。"},
+    {"topic_id":"T01","topic_name":"玩法与机制","unit_id":"S0c569b921f7e91bbb5b0","text":"The play at your own pace, while you explore, catch, build, craft, grind, and level up gives you tons of options.","role":"positive_mechanics","secondary_topic_ids":["T08"],"why":"列出探索、建造、制作、刷取和升级等核心行为，也涉及内容和重玩边界。"},
+    {"topic_id":"T01","topic_name":"玩法与机制","unit_id":"S00c82cc5bf031552f720","text":"战斗系统真是一坨，重制了再次赤石","role":"negative_mechanics","why":"明确评价战斗系统，负面情绪不影响主题存在。"},
+
+    {"topic_id":"T02","topic_name":"操作、难度与平衡","unit_id":"S002c87c6de9fcc8c1b3e","text":"Difficulty: Absurdly punishing","role":"negative_difficulty","why":"明确评价难度和惩罚程度。"},
+    {"topic_id":"T02","topic_name":"操作、难度与平衡","unit_id":"S00ba2db7404b21f27522","text":"新手教程很完整","role":"positive_onboarding","why":"明确评价新手教程。"},
+    {"topic_id":"T02","topic_name":"操作、难度与平衡","unit_id":"S00a1ed87813f3ac7236e","text":"极致的打击感","role":"positive_controls","why":"明确评价操作手感。"},
+    {"topic_id":"T02","topic_name":"操作、难度与平衡","unit_id":"Sa0e5a996ba89bc396370","text":"The game is difficult","role":"negative_difficulty","why":"代表难度主题的短句表达。"},
+
+    {"topic_id":"T03","topic_name":"性能、稳定性与故障","unit_id":"S0182e47889494f60224a","text":"i cant connect to ea servers","role":"negative_network","why":"明确描述服务器连接故障。"},
+    {"topic_id":"T03","topic_name":"性能、稳定性与故障","unit_id":"S034ac1199998ca0515cc","text":"Cant fix lost connection bug for over a year","role":"negative_network","why":"明确描述持续的断线故障。"},
+    {"topic_id":"T03","topic_name":"性能、稳定性与故障","unit_id":"Sd7cfc20e1ae65f34d393","text":"老是闪退，垃圾游戏","role":"negative_crash","why":"明确描述闪退。"},
+    {"topic_id":"T03","topic_name":"性能、稳定性与故障","unit_id":"Sb242d02bad1271517d34","text":"重置版后出现各种各样的BUG，重要还要经常卡死，玩的真TM闹心","role":"negative_bug_freeze","secondary_topic_ids":["T08"],"why":"明确描述 BUG 和卡死，同时涉及重置版后的更新或版本变化。"},
+    {"topic_id":"T03","topic_name":"性能、稳定性与故障","unit_id":"S0772d56f4a64811e0436","text":"在主界面崩溃，闪退","role":"negative_crash","why":"明确描述启动阶段崩溃和闪退。"},
+
+    {"topic_id":"T04","topic_name":"剧情与角色","unit_id":"S005f3d894306bfef1e5e","text":"And THIS Game is still amazing, it still has all the depth of story telling, characters that we can love and hate and form our own truths with","role":"positive_story_characters","why":"同时明确评价叙事深度和角色。"},
+    {"topic_id":"T04","topic_name":"剧情与角色","unit_id":"S00cea81f3bae5ac28808","text":"It's very underrated because the main story takes a lot to gain momentum and be any good writing-wise,","role":"negative_story_writing","why":"明确评价主线推进和写作质量。"},
+    {"topic_id":"T04","topic_name":"剧情与角色","unit_id":"S00e03e01e9c1bb85c717","text":"剧情方面确实不太好，","role":"negative_story","why":"明确评价剧情，表达简短但方面清楚。"},
+    {"topic_id":"T04","topic_name":"剧情与角色","unit_id":"S07d37d6c2b23c1b80d10","text":"Geralt is one of the best protagonists in gaming, and his relationships with Ciri, Yennefer and the other characters make rhe game even better","role":"positive_characters","why":"明确评价主角和角色关系。"},
+    {"topic_id":"T04","topic_name":"剧情与角色","unit_id":"Sfb6ca2c44526b75ed437","text":"The story line is fun to follow as well","role":"positive_story","why":"来自簇 9 的剧情中心代表句。"},
+
+    {"topic_id":"T05","topic_name":"画面、美术、音乐与音效","unit_id":"S001477cbee3a3273aee8","text":"With music it'll make you tear up with how beautiful it is","role":"positive_music","why":"明确评价音乐带来的视听体验。"},
+    {"topic_id":"T05","topic_name":"画面、美术、音乐与音效","unit_id":"S00d81e425cd36be8097c","text":"The art style is fantastic and so immersive","role":"positive_art_style","why":"明确评价美术风格。"},
+    {"topic_id":"T05","topic_name":"画面、美术、音乐与音效","unit_id":"Sfb2228f0feda41d3cc55","text":"The games graphics also just not good at all","role":"negative_graphics","why":"明确评价画面，负面表达。"},
+    {"topic_id":"T05","topic_name":"画面、美术、音乐与音效","unit_id":"S3fcd7609b6e1db71abfd","text":"nice game the visuals and environments are great","role":"positive_visuals","why":"明确评价视觉和环境表现。"},
+
+    {"topic_id":"T06","topic_name":"联机、匹配、作弊与社区","unit_id":"Sd998edafeabe8e855ae6","text":"和朋友一起玩很好玩","role":"positive_coop","why":"来自簇 1 的联机中心代表句。"},
+    {"topic_id":"T06","topic_name":"联机、匹配、作弊与社区","unit_id":"S0173350e5b0e9b024360","text":"its more fun with friends and also dont use discord or any other vc, use the ingame vc its good and thats how its meant to be played","role":"positive_coop_voice","why":"明确涉及朋友同玩和游戏内语音。"},
+    {"topic_id":"T06","topic_name":"联机、匹配、作弊与社区","unit_id":"S0ca1ba41050c18513c02","text":"Cheating is absolutely atrocious and yet we are told relentlessly that it is being, \"looked into.\" Horrible devs ruined what could have been a wonderful game. 0/10","role":"negative_cheating","why":"明确提到作弊和开发者处理不力，表达比原候选更适合作为语义原型。"},
+    {"topic_id":"T06","topic_name":"联机、匹配、作弊与社区","unit_id":"S00829350bcf162a9f5c0","text":"A perfectly executed team fight, a game-winning Black Hole, an unexpected Rampage, or that one teammate who actually knows what they're doing","role":"positive_teamplay","why":"明确描述团队对战和队友互动。"},
+    {"topic_id":"T06","topic_name":"联机、匹配、作弊与社区","unit_id":"S01921a60e08137e660b3","text":"Too toxic to enjoy.","role":"negative_community","prototype_weight":"low","why":"可能评价社区环境，也可能是整体体验。需要上下文，作为低权重原型。"},
+
+    {"topic_id":"T07","topic_name":"价格、付费与 DLC 收费","unit_id":"S00dfec322186d9328513","text":"大表哥好像史低七十多，小黑盒和ST对照着看，说不定GTA6出来了会更便宜","role":"price_comparison","why":"明确讨论历史低价和购买时机。"},
+    {"topic_id":"T07","topic_name":"价格、付费与 DLC 收费","unit_id":"S032c9c28326b6dcd1dd7","text":"I bought this game again after having it on ps4 for a while, worth every dollar","role":"positive_value","why":"明确评价购买价值。"},
+    {"topic_id":"T07","topic_name":"价格、付费与 DLC 收费","unit_id":"S0390eb3cf0fc20303be8","text":"I shall spend some $ on them microtransactions, i want to support this otherwise 'free to play' game","role":"monetization","why":"明确涉及内购和免费游戏的付费机制。"},
+    {"topic_id":"T07","topic_name":"价格、付费与 DLC 收费","unit_id":"S07474510ae7753b543cd","text":"If you like souls-inspired boss rushes, I'd suggest buying at a fairly discounted price.","role":"price_condition","why":"明确提出折扣购买条件。"},
+    {"topic_id":"T07","topic_name":"价格、付费与 DLC 收费","unit_id":"S075ed5f3567901a274df","text":"It is a deeply disappointing entry that completely abandons key series staples, offering a thin, unpolished package that fails to justify its full asking price","role":"negative_value","secondary_topic_ids":["T08"],"why":"明确认为内容和质量不足以支撑售价，同时涉及内容质量。"},
+
+    {"topic_id":"T08","topic_name":"内容量、重玩、MOD 与更新维护","unit_id":"S00e7e93b06e8b017a492","text":"如果能到2077年还在更新就好了，会是本游戏最酷最赛博的一点","role":"positive_updates","why":"明确表达对长期更新维护的期待。"},
+    {"topic_id":"T08","topic_name":"内容量、重玩、MOD 与更新维护","unit_id":"S0189cee3fc86e0432321","text":"横向内容很多，","role":"positive_content_volume","prototype_weight":"low","why":"明确评价内容量，但句子很短，作为低权重原型。"},
+    {"topic_id":"T08","topic_name":"内容量、重玩、MOD 与更新维护","unit_id":"S01bb7450909d0ecc1798","text":"this game is cooked without 3rd party mods","role":"mod_support","why":"明确表达 MOD 对内容体验的重要性。"},
+    {"topic_id":"T08","topic_name":"内容量、重玩、MOD 与更新维护","unit_id":"S0734dbe02611a1f88291","text":"The dev supports mods for the game which is always a plus because it allows personalization in your experience","role":"mod_support","why":"明确评价开发者的 MOD 支持。"}
+  ],
+  "boundary_units": [
+    {"unit_id":"S4be3cb14ee5f4d2ae51c","text":"好玩，很有成就感","suggested_route":"A01","candidate_topic_ids":[],"reason":"整体正面评价，没有具体方面证据。"},
+    {"unit_id":"S8d82aebf3dabefcddc68","text":"Graphics are amazing and the gameplay is too","suggested_route":"A02","candidate_topic_ids":["T01","T05"],"reason":"同一句明确涉及玩法和视听。"},
+    {"unit_id":"S73108312f5201eef4f9f","text":"This game's story and gameplay are both so enjoyable","suggested_route":"A02","candidate_topic_ids":["T01","T04"],"reason":"剧情和玩法同时出现。"},
+    {"unit_id":"Sd6a86b001ac0e9c0c6b6","text":"更新后直接玩不了了","suggested_route":"A02","candidate_topic_ids":["T03","T08"],"reason":"需要区分更新维护和更新造成的无法运行。"},
+    {"unit_id":"S72f9870a8c1745977b93","text":"买这个游戏到现在，玩都没有50局，游戏突然崩溃已经20局了，游戏闪退之后重新登陆，还要给我禁赛，你们他妈的能不能给我把服务器优化好了啊","suggested_route":"A02","candidate_topic_ids":["T03","T06"],"reason":"购买只是背景，具体方面是崩溃、服务器和禁赛。"},
+    {"unit_id":"S305423fb44d7c33081db","text":"the game is to slow, to expensive and the story isn't enjoyable","suggested_route":"A02","candidate_topic_ids":["T04","T07"],"reason":"价格和剧情明确，slow 的含义需要上下文，不强行归入 T02。"},
+    {"unit_id":"S01c16c376643900659d7","text":"You must learn the boss mechanics by heart, and the game doesn't teach you those mechanics. * It is extremely imbalanced","suggested_route":"A02","candidate_topic_ids":["T01","T02"],"reason":"机制学习、教程和数值平衡同时出现。"},
+    {"unit_id":"S081b17aeb61cfe04da40","text":"I love the animation and voiceovers, the story is amazing and super entertaining","suggested_route":"A02","candidate_topic_ids":["T04","T05"],"reason":"角色故事和视听表现同时出现。"},
+    {"unit_id":"S0889e8a7b511f0c66fa5","text":"反作弊报错","suggested_route":"A02","candidate_topic_ids":["T03","T06"],"reason":"同时涉及反作弊系统和技术报错。"},
+    {"unit_id":"S027c0d0036fa3b2bd43c","text":"There is never a death i have disagreed with and the soundtrack beautiful","suggested_route":"A02","candidate_topic_ids":["T01","T05"],"reason":"前半句涉及游戏判定或机制，后半句涉及 soundtrack。"},
+    {"unit_id":"S000d0b420c15930573d2","text":"I would happily pay for more expansions of this quality","suggested_route":"A02","candidate_topic_ids":["T07","T08"],"reason":"同时涉及扩展内容和为扩展付费的意愿。"}
+  ],
+  "review_decision_fields": [
+    "keep_or_replace",
+    "approved_topic_ids",
+    "boundary_notes",
+    "language_or_translation_issue",
+    "fit_for_prototype"
+  ],
+  "provenance": {
+    "cluster_assignments": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/assignments.csv",
+    "cluster_representatives": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/representatives.json",
+    "cluster_profiles": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/cluster_profiles.json",
+    "topic_draft": "output/topic_selection/task12-20261114/topic-list-draft.json",
+    "human_signoff": false,
+    "final_topic_assignment_performed": false
+  }
+}

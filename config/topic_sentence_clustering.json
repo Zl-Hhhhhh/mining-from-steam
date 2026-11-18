@@ -1,0 +1,17 @@
+{
+  "version": "task12-sentence-clustering-v1",
+  "input_units": "output/topic_selection/task12-20261114/handoff/sentence_units.jsonl",
+  "embedding_dir": "output/embedding-bge-sentences/task12-20261117-v1",
+  "topic_draft": "output/topic_selection/task12-20261114/topic-list-draft.json",
+  "output": "output/topic_selection/task12-20261118-sentence-clustering-v1",
+  "cluster_counts": [6, 8, 10],
+  "seeds": [17, 42],
+  "resample_seeds": [2026111801, 2026111802, 2026111803, 2026111804, 2026111805],
+  "sample_fraction": 0.8,
+  "n_init": 10,
+  "max_iter": 300,
+  "cpu_threads": 2,
+  "representatives_per_cluster": 8,
+  "selection_uses_recommendation_labels": false,
+  "assignment_policy": "fit_candidate_units_fit_centroids; nonfit_units_nearest_centroid_application_only"
+}

@@ -1,0 +1,98 @@
+{
+  "candidate": "sentence_k10_s42",
+  "mapping": {
+    "0": {
+      "topic_ids": [
+        "T07",
+        "T08"
+      ],
+      "confidence": "low",
+      "route": "multi_candidate"
+    },
+    "1": {
+      "topic_ids": [
+        "T06"
+      ],
+      "confidence": "high",
+      "route": "single"
+    },
+    "2": {
+      "topic_ids": [
+        "T03",
+        "T08"
+      ],
+      "confidence": "medium",
+      "route": "multi_candidate"
+    },
+    "3": {
+      "topic_ids": [
+        "T01",
+        "T02",
+        "T04",
+        "T05",
+        "T08"
+      ],
+      "confidence": "low",
+      "route": "multi_candidate"
+    },
+    "4": {
+      "topic_ids": [
+        "T01",
+        "T08"
+      ],
+      "confidence": "medium",
+      "route": "multi_candidate"
+    },
+    "5": {
+      "topic_ids": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08"
+      ],
+      "confidence": "low",
+      "route": "multi_candidate"
+    },
+    "6": {
+      "topic_ids": [
+        "T02"
+      ],
+      "confidence": "high",
+      "route": "single"
+    },
+    "7": {
+      "topic_ids": [
+        "T01",
+        "T02",
+        "T04",
+        "T05",
+        "T08"
+      ],
+      "confidence": "low",
+      "route": "multi_candidate"
+    },
+    "8": {
+      "topic_ids": [
+        "T01",
+        "T02",
+        "T04",
+        "T08"
+      ],
+      "confidence": "low",
+      "route": "multi_candidate"
+    },
+    "9": {
+      "topic_ids": [
+        "T04",
+        "T05"
+      ],
+      "confidence": "medium",
+      "route": "multi_candidate"
+    }
+  },
+  "source": "config/topics_v1_exploratory.json"
+}

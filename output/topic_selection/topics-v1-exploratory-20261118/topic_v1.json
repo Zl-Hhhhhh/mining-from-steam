@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0-topics-v1-cluster-derived",
+  "topic_version": "topics-v1-exploratory-20261118",
+  "status": "cluster_derived_provisional",
+  "derivation": "sentence_k10_s42 cluster mapping plus topic seed prototypes",
+  "topics": [
+    {
+      "topic_id": "T01",
+      "name_zh": "玩法与机制",
+      "name_en": "gameplay_mechanics",
+      "definition": "核心循环、关卡、战斗、策略、探索、构筑和明确的游戏行为。",
+      "include": [
+        "明确描述怎么玩",
+        "评价某个游戏机制或核心循环",
+        "评价关卡、探索、战斗或构筑"
+      ],
+      "exclude": [
+        "只有好玩、上瘾或值得玩",
+        "没有具体证据的整体评价"
+      ],
+      "confidence": "medium",
+      "validation_priority": "high"
+    },
+    {
+      "topic_id": "T02",
+      "name_zh": "操作、难度与平衡",
+      "name_en": "controls_difficulty",
+      "definition": "输入响应、手感、按键、学习门槛、教程、战斗难度和数值平衡。",
+      "include": [
+        "操作和手感",
+        "新手引导和学习门槛",
+        "难度和战斗平衡"
+      ],
+      "exclude": [
+        "卡顿、崩溃和网络技术故障"
+      ],
+      "confidence": "high",
+      "validation_priority": "medium"
+    },
+    {
+      "topic_id": "T03",
+      "name_zh": "性能、稳定性与故障",
+      "name_en": "performance_stability",
+      "definition": "帧率、卡顿、崩溃、无法启动、无响应、兼容性、服务器技术故障和 BUG。",
+      "include": [
+        "运行性能",
+        "稳定性和崩溃",
+        "技术性服务器或网络故障"
+      ],
+      "exclude": [
+        "联机乐趣、匹配关系和玩家互动本身"
+      ],
+      "confidence": "high",
+      "validation_priority": "medium"
+    },
+    {
+      "topic_id": "T04",
+      "name_zh": "剧情与角色",
+      "name_en": "story_characters",
+      "definition": "故事、叙事结构、人物塑造、对白和剧情表达。",
+      "include": [
+        "明确评价故事或叙事",
+        "明确评价角色或人物塑造"
+      ],
+      "exclude": [
+        "只有角色名、台词或无法解释的引用"
+      ],
+      "confidence": "high",
+      "validation_priority": "medium"
+    },
+    {
+      "topic_id": "T05",
+      "name_zh": "画面、美术、音乐与音效",
+      "name_en": "audiovisual",
+      "definition": "视觉风格、美术质量、动画、音乐、音效和整体视听表现。",
+      "include": [
+        "画面和美术",
+        "音乐和音效",
+        "明确的视听风格评价"
+      ],
+      "exclude": [
+        "没有视听证据的沉浸感或整体好评"
+      ],
+      "confidence": "medium",
+      "validation_priority": "high"
+    },
+    {
+      "topic_id": "T06",
+      "name_zh": "联机、匹配、作弊与社区",
+      "name_en": "multiplayer_community",
+      "definition": "合作、对战、匹配、公平性、外挂、玩家互动和社区体验。",
+      "include": [
+        "朋友同玩或合作",
+        "对战和匹配",
+        "作弊和玩家社区"
+      ],
+      "exclude": [
+        "没有联机语境的骂人",
+        "单独的网络技术故障"
+      ],
+      "confidence": "high",
+      "validation_priority": "medium"
+    },
+    {
+      "topic_id": "T07",
+      "name_zh": "价格、付费与 DLC 收费",
+      "name_en": "price_monetization",
+      "definition": "价格、性价比、内购、付费公平、购买成本和 DLC 收费。",
+      "include": [
+        "价格和价值",
+        "内购或购买成本",
+        "DLC 收费和付费公平"
+      ],
+      "exclude": [
+        "DLC 内容量和任务质量本身"
+      ],
+      "confidence": "medium",
+      "validation_priority": "high"
+    },
+    {
+      "topic_id": "T08",
+      "name_zh": "内容量、重玩、MOD 与更新维护",
+      "name_en": "content_support",
+      "definition": "内容数量、任务或地图规模、重玩价值、模组、DLC 内容和更新支持。",
+      "include": [
+        "内容量和任务规模",
+        "重玩价值",
+        "MOD",
+        "DLC 内容",
+        "更新和维护支持"
+      ],
+      "exclude": [
+        "只有游玩时长或上头表达",
+        "更新造成的技术故障本身"
+      ],
+      "confidence": "medium",
+      "validation_priority": "high"
+    }
+  ],
+  "auxiliary_routing": [
+    {
+      "id": "A01",
+      "name_zh": "泛评价",
+      "counts_as_primary_topic": false
+    },
+    {
+      "id": "A02",
+      "name_zh": "多方面综合评论",
+      "counts_as_primary_topic": false
+    },
+    {
+      "id": "A03",
+      "name_zh": "低信息、语境不足或语言不确定",
+      "counts_as_primary_topic": false
+    },
+    {
+      "id": "A04",
+      "name_zh": "其他具体方面",
+      "counts_as_primary_topic": false
+    }
+  ],
+  "cluster_topic_map": {
+    "0": {
+      "topic_ids": [
+        "T07",
+        "T08"
+      ],
+      "confidence": "low",
+      "route": "multi_candidate"
+    },
+    "1": {
+      "topic_ids": [
+        "T06"
+      ],
+      "confidence": "high",
+      "route": "single"
+    },
+    "2": {
+      "topic_ids": [
+        "T03",
+        "T08"
+      ],
+      "confidence": "medium",
+      "route": "multi_candidate"
+    },
+    "3": {
+      "topic_ids": [
+        "T01",
+        "T02",
+        "T04",
+        "T05",
+        "T08"
+      ],
+      "confidence": "low",
+      "route": "multi_candidate"
+    },
+    "4": {
+      "topic_ids": [
+        "T01",
+        "T08"
+      ],
+      "confidence": "medium",
+      "route": "multi_candidate"
+    },
+    "5": {
+      "topic_ids": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08"
+      ],
+      "confidence": "low",
+      "route": "multi_candidate"
+    },
+    "6": {
+      "topic_ids": [
+        "T02"
+      ],
+      "confidence": "high",
+      "route": "single"
+    },
+    "7": {
+      "topic_ids": [
+        "T01",
+        "T02",
+        "T04",
+        "T05",
+        "T08"
+      ],
+      "confidence": "low",
+      "route": "multi_candidate"
+    },
+    "8": {
+      "topic_ids": [
+        "T01",
+        "T02",
+        "T04",
+        "T08"
+      ],
+      "confidence": "low",
+      "route": "multi_candidate"
+    },
+    "9": {
+      "topic_ids": [
+        "T04",
+        "T05"
+      ],
+      "confidence": "medium",
+      "route": "multi_candidate"
+    }
+  },
+  "assignment_policy": {
+    "unit_of_evidence": "sentence_or_clause",
+    "multi_label_allowed": true,
+    "generic_route": "A01",
+    "mixed_route": "A02",
+    "unknown_route": "A03",
+    "recommendation_is_topic": false,
+    "selection_uses_recommendation_labels": false
+  },
+  "counts": {
+    "units": 8979,
+    "fit_candidate_units": 7269,
+    "application_only_units": 1710,
+    "reviews": 19486,
+    "reviews_with_topic_evidence": 4879,
+    "reviews_without_topic_evidence": 14607
+  },
+  "source_files": {
+    "config": "0535a90d55d8a7b0267895e992e666a9365e62ff0f1a1f80c00be0dec5c79542",
+    "units": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+    "assignments": "a04b0feb141c1603b2c800ad24da2eb39036916fc4132265fb181ace65fe9609",
+    "vectors": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd",
+    "review_to_units": "a1eb3a0a88b76b7ca8fda70ce5d69092e32556ebc040a7d9aec77a11188dab91",
+    "topic_draft": "5975c4d0024724ff9d034b21143a6f6ef628c9c4666f6fde36c5a4383e3e6e71",
+    "topic_seeds": "ca721c8c6bcf5ced911228d5d6e4a9174452178a57e9c531358eb1cfd4eff0d8"
+  },
+  "semantic_review_status": "cluster-level review completed, unit-level manual signoff pending",
+  "frozen_for_cluster_derived_analysis": true,
+  "frozen_for_final_semantic_analysis": false,
+  "limitations": [
+    "Cluster-derived assignments inherit mixed semantics from clusters 0, 2, 3, 5, 7, 8 and 9.",
+    "Topic prototypes use the current unreviewed seed proposal and should be revised if seed decisions change.",
+    "Application-only units were assigned by nearest cluster centroid and receive lower confidence.",
+    "Review weights are normalized equal contributions across assigned topics and are not model probabilities.",
+    "This version supports exploratory RQ1 summaries. Final causal or confirmatory claims require semantic review."
+  ]
+}

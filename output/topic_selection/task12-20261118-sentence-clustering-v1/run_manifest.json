@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "config_sha256": "c89d06758f2e4e9b3e3a3300977ab3a5f827121c98cab625d46527125a20897a",
+  "provenance": {
+    "input_units": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+    "embedding_manifest": "46f983005195b328a86e7edc4e8ed72ea68ffc9d691067f28981c94a325a3a31",
+    "vectors": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd",
+    "unit_ids": "73207e17a2ada4367c01c2fa46a4b412547f96e0e3762debc03fb2371e75de2f",
+    "topic_draft": "5975c4d0024724ff9d034b21143a6f6ef628c9c4666f6fde36c5a4383e3e6e71",
+    "fit_candidate_units": 7269,
+    "all_units": 8979,
+    "reviews_with_units": 4885
+  },
+  "candidate_count": 6,
+  "resampling_record_count": 30,
+  "topic_assignment_performed": false,
+  "task12_topics_frozen": false
+}

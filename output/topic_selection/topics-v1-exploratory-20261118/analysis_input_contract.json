@@ -1,0 +1,17 @@
+{
+  "topic_version": "topics-v1-exploratory-20261118",
+  "analysis_scope": ["RQ1", "RQ2", "RQ3", "RQ4"],
+  "primary_review_table": "review_topic_weights.csv",
+  "primary_topic_columns": "fit_T01 through fit_T08",
+  "sensitivity_topic_columns": "all_T01 through all_T08",
+  "review_join_key": "review_id",
+  "sentence_join_key": "unit_id",
+  "recommendation_label_used_for_topic_generation": false,
+  "playtime_used_for_topic_generation": false,
+  "topic_weights_are_probabilities": false,
+  "application_only_units_require_sensitivity": true,
+  "confirmatory_semantic_validation": false,
+  "required_rq2_checks": ["game_fixed_effects", "language_covariate", "fit_vs_all_sensitivity"],
+  "required_rq3_checks": ["within_game_language_comparison", "paired_language_support", "game_equal_weighted_summary"],
+  "required_rq4_checks": ["log1p_playtime", "quantile_groups", "missing_and_extreme_playtime_sensitivity"]
+}

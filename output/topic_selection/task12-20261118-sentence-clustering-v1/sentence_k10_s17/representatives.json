@@ -1,0 +1,1282 @@
+[
+  {
+    "cluster": 0,
+    "rank": 1,
+    "unit_id": "Sd998edafeabe8e855ae6",
+    "text": "和朋友一起玩很好玩",
+    "review_ids": [
+      "238898878"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "multiplayer_community"
+    ],
+    "cosine_to_center": 0.9440476894378662
+  },
+  {
+    "cluster": 0,
+    "rank": 2,
+    "unit_id": "S85d5488cde227755dd86",
+    "text": "Game is very fun with friends.",
+    "review_ids": [
+      "238901496"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "multiplayer_community"
+    ],
+    "cosine_to_center": 0.9423957467079163
+  },
+  {
+    "cluster": 0,
+    "rank": 3,
+    "unit_id": "S450abf903f2b65e1829e",
+    "text": "game is so fun too play with friends",
+    "review_ids": [
+      "238364966"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "multiplayer_community"
+    ],
+    "cosine_to_center": 0.9403201341629028
+  },
+  {
+    "cluster": 0,
+    "rank": 4,
+    "unit_id": "S8c1003edc3d6f05a8beb",
+    "text": "It's a good game, especially with friends.",
+    "review_ids": [
+      "239063582"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "multiplayer_community"
+    ],
+    "cosine_to_center": 0.9392685890197754
+  },
+  {
+    "cluster": 0,
+    "rank": 5,
+    "unit_id": "Sfa2d27adfe38aba916ed",
+    "text": "Its a fun game to play with a friend",
+    "review_ids": [
+      "239017763"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "multiplayer_community"
+    ],
+    "cosine_to_center": 0.938832700252533
+  },
+  {
+    "cluster": 0,
+    "rank": 6,
+    "unit_id": "S459b1724504285b14f5b",
+    "text": "it s a fun game and it s awesome to play with some friends",
+    "review_ids": [
+      "238573515"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "multiplayer_community"
+    ],
+    "cosine_to_center": 0.9388264417648315
+  },
+  {
+    "cluster": 0,
+    "rank": 7,
+    "unit_id": "S1bc4eb796a252ef4863c",
+    "text": "Nice game, fun to play with friends",
+    "review_ids": [
+      "239122055"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "multiplayer_community"
+    ],
+    "cosine_to_center": 0.9347870349884033
+  },
+  {
+    "cluster": 0,
+    "rank": 8,
+    "unit_id": "S41c197cc5b809042d1fe",
+    "text": "Very fun game to play with friends",
+    "review_ids": [
+      "238943231"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "multiplayer_community"
+    ],
+    "cosine_to_center": 0.9321125149726868
+  },
+  {
+    "cluster": 1,
+    "rank": 1,
+    "unit_id": "Sb42503c567c1948611df",
+    "text": "Lot of skill and build options too",
+    "review_ids": [
+      "237730350"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "gameplay"
+    ],
+    "cosine_to_center": 0.8171514272689819
+  },
+  {
+    "cluster": 1,
+    "rank": 2,
+    "unit_id": "Sf7b3497d8457793dbde7",
+    "text": "It adds another layer of complexity, forces you to think more tactically, make better use of every character's abilities, and really get the most out of your party",
+    "review_ids": [
+      "239007456"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8149962425231934
+  },
+  {
+    "cluster": 1,
+    "rank": 3,
+    "unit_id": "S0c569b921f7e91bbb5b0",
+    "text": "The play at your own pace, while you explore, catch, build, craft, grind, and level up gives you tons of options.",
+    "review_ids": [
+      "238772033"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "gameplay"
+    ],
+    "cosine_to_center": 0.8127518892288208
+  },
+  {
+    "cluster": 1,
+    "rank": 4,
+    "unit_id": "S29e11adc5bda5057d3e5",
+    "text": "It is a roguelike game, therefore, it gives you different experience on how the game should be played",
+    "review_ids": [
+      "238518491"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "gameplay"
+    ],
+    "cosine_to_center": 0.8038517832756042
+  },
+  {
+    "cluster": 1,
+    "rank": 5,
+    "unit_id": "S1bd54b387ac5bb842a5b",
+    "text": "you can try new killers and new builds to keep it fun",
+    "review_ids": [
+      "239100761"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "gameplay"
+    ],
+    "cosine_to_center": 0.8032062649726868
+  },
+  {
+    "cluster": 1,
+    "rank": 6,
+    "unit_id": "S33a74216cce83f90dfea",
+    "text": "Also there is a story to the game just have to look for it.",
+    "review_ids": [
+      "238877652"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.7953256368637085
+  },
+  {
+    "cluster": 1,
+    "rank": 7,
+    "unit_id": "S8fcbaf1cf79af4a132d5",
+    "text": "the multiplayer needs more things added and th game can get quite a bit repeatitive,",
+    "review_ids": [
+      "238876350"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "multiplayer_community"
+    ],
+    "cosine_to_center": 0.7952015399932861
+  },
+  {
+    "cluster": 1,
+    "rank": 8,
+    "unit_id": "Sf1eaee5713de8f655bf5",
+    "text": "getting in the game and \"getting caught up\" to understanding how to play the current build is worth it",
+    "review_ids": [
+      "238976498"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "gameplay"
+    ],
+    "cosine_to_center": 0.794770359992981
+  },
+  {
+    "cluster": 2,
+    "rank": 1,
+    "unit_id": "Sfaa60c30192255b02d7b",
+    "text": "，仇恨也很远，不打死就一直跟着我，甚至有些跑得比我还快，死掉之后什么都要重新打一遍 难度高还不能自行调整难度，这对玩家充满恶意，不能给我带来快乐，对我来说就算不得好游戏",
+    "review_ids": [
+      "239006712"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.8682953119277954
+  },
+  {
+    "cluster": 2,
+    "rank": 2,
+    "unit_id": "S090180cebc94896792fa",
+    "text": "难度太大，不看攻略完全玩不了，没什么乐趣",
+    "review_ids": [
+      "238751382"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.8679039478302002
+  },
+  {
+    "cluster": 2,
+    "rank": 3,
+    "unit_id": "Saed471942a53c558504e",
+    "text": "缺点就是引导太差，内容太多，普通玩家需要搜攻略才能完美体验",
+    "review_ids": [
+      "238824346"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.8667120933532715
+  },
+  {
+    "cluster": 2,
+    "rank": 4,
+    "unit_id": "S2bd542650d4348978015",
+    "text": "基本就是个不停突突突的游戏，2代难度还特别变态，喜欢弄一大堆敌人来360度伏击，掩体都不给一个，不死个几百次别想通关，我还玩的正常难度都能体验到极致的挫败感，就算侥幸过了伏击点也没感到喜悦，因为后面还有一堆类似的场景等着，玩一会就让人特别疲惫，只适合精力旺盛喜欢挑战FPS技术的玩家",
+    "review_ids": [
+      "233642698"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.8605503439903259
+  },
+  {
+    "cluster": 2,
+    "rank": 5,
+    "unit_id": "Sc55386bcd9a5af9684e6",
+    "text": "剧情也非常逆天，看起来非常无聊，哦对了，它还有单机fps设计最垃圾的跟随角色，听角色讲废话，玩起来非常影响心流，玩得正爽呢，打完一个战点不求你搞个解密，起码别搞这种跟随吧",
+    "review_ids": [
+      "237630423"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8602674007415771
+  },
+  {
+    "cluster": 2,
+    "rank": 6,
+    "unit_id": "S9df5e2ca95d1b76de9a2",
+    "text": "牺牲流畅性，玩不了，牺牲画面感，像在看恐怖片，各个长得是千奇百怪不可直视",
+    "review_ids": [
+      "239023404"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "audiovisual"
+    ],
+    "cosine_to_center": 0.8588736653327942
+  },
+  {
+    "cluster": 2,
+    "rank": 7,
+    "unit_id": "S6cad7384ddd0d3e09ead",
+    "text": "但运气味重，进阶一开全逼你玩无限流，开局不成型就纯坐牢，画面也糙",
+    "review_ids": [
+      "238550659"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "audiovisual"
+    ],
+    "cosine_to_center": 0.8560464978218079
+  },
+  {
+    "cluster": 2,
+    "rank": 8,
+    "unit_id": "S6d1907cfea0b3cd5a644",
+    "text": "游戏挺好玩的，就是重复性太高了，前面玩着很好玩，后面如果追求全成就的话非常痛苦",
+    "review_ids": [
+      "238299391"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.8557421565055847
+  },
+  {
+    "cluster": 3,
+    "rank": 1,
+    "unit_id": "S941f5b7d63165f36bb48",
+    "text": "剧情挺好，作为一款剧情向游戏自由度也挺高，有的地方挺有感染力的",
+    "review_ids": [
+      "235839791"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8742037415504456
+  },
+  {
+    "cluster": 3,
+    "rank": 2,
+    "unit_id": "S27b16488b94dde441882",
+    "text": "我很喜欢的一个游戏，不管是背景还是剧情还是玩法我都很喜欢",
+    "review_ids": [
+      "239013172"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8714709281921387
+  },
+  {
+    "cluster": 3,
+    "rank": 3,
+    "unit_id": "Sb63bda8235d0a732c04d",
+    "text": "剧情和武器方面都很强，体验不错，",
+    "review_ids": [
+      "238998076"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8709596991539001
+  },
+  {
+    "cluster": 3,
+    "rank": 4,
+    "unit_id": "S57339175cf3c8935ef1c",
+    "text": "游戏的玩法与关卡设计确实精彩，总能在熟悉一种机制之后，又带来新的机制和玩法",
+    "review_ids": [
+      "238703391"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "gameplay"
+    ],
+    "cosine_to_center": 0.8675497174263
+  },
+  {
+    "cluster": 3,
+    "rank": 5,
+    "unit_id": "S6ff4f7c97ff975c50c33",
+    "text": "可玩性挺高，游戏画面和音乐都不错",
+    "review_ids": [
+      "237606556"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "audiovisual"
+    ],
+    "cosine_to_center": 0.8635517358779907
+  },
+  {
+    "cluster": 3,
+    "rank": 6,
+    "unit_id": "S149337e7f2e7303eeb98",
+    "text": "好玩,游戏体验非常充实,新世代玩家多花点时间也能上手,唯一缺点就是一玩天色就变",
+    "review_ids": [
+      "236141939"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.8615913391113281
+  },
+  {
+    "cluster": 3,
+    "rank": 7,
+    "unit_id": "Safcc0c72dea9f357c489",
+    "text": "太好玩了，比现在某些“3A”游戏的互动反馈还有物理引擎好多了，还有超级清晰的指引以及有趣的玩法，剧情也是很好的",
+    "review_ids": [
+      "237119034"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8603541254997253
+  },
+  {
+    "cluster": 3,
+    "rank": 8,
+    "unit_id": "S702f4892618634d0aa06",
+    "text": "我觉得特别好玩，尤其是你玩多了之后会连招的成就感，真心爱玩",
+    "review_ids": [
+      "238754814"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.8598750829696655
+  },
+  {
+    "cluster": 4,
+    "rank": 1,
+    "unit_id": "Sae1f8a73ab4a45d36d12",
+    "text": "The story doesn't justify the easiness of the game.",
+    "review_ids": [
+      "237902735"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8577157258987427
+  },
+  {
+    "cluster": 4,
+    "rank": 2,
+    "unit_id": "S305423fb44d7c33081db",
+    "text": "the game is to slow, to expensive and the story isn't enjoyable",
+    "review_ids": [
+      "239025668"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8367247581481934
+  },
+  {
+    "cluster": 4,
+    "rank": 3,
+    "unit_id": "Se33487c44e45f0e00857",
+    "text": "The story sucks and for some number of hours the gameplay sucks",
+    "review_ids": [
+      "238647945"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.829840898513794
+  },
+  {
+    "cluster": 4,
+    "rank": 4,
+    "unit_id": "S31844a6d3c56370c1f7c",
+    "text": "I guess the devs forgot that the point of a game is to play it, and they added too much idle dialogue",
+    "review_ids": [
+      "237142782"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8249897360801697
+  },
+  {
+    "cluster": 4,
+    "rank": 5,
+    "unit_id": "S07d7e164bcac678d8415",
+    "text": "Only bad thing is that it doesnt get major abouts frequently and the combat feels bit lacking.",
+    "review_ids": [
+      "238866570"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "gameplay"
+    ],
+    "cosine_to_center": 0.8243869543075562
+  },
+  {
+    "cluster": 4,
+    "rank": 6,
+    "unit_id": "Sfb2228f0feda41d3cc55",
+    "text": "The games graphics also just not good at all",
+    "review_ids": [
+      "239143157"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "audiovisual"
+    ],
+    "cosine_to_center": 0.8213481903076172
+  },
+  {
+    "cluster": 4,
+    "rank": 7,
+    "unit_id": "Sb33d8aec8a7ffee8569d",
+    "text": "the story does'nt seem interesting",
+    "review_ids": [
+      "236929086"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8201392889022827
+  },
+  {
+    "cluster": 4,
+    "rank": 8,
+    "unit_id": "S5222da45fe3048ea3265",
+    "text": "I feel like there is so much content that it is to a detriment to the game itself.",
+    "review_ids": [
+      "236986843"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.816903829574585
+  },
+  {
+    "cluster": 5,
+    "rank": 1,
+    "unit_id": "S00be849f69d51443862c",
+    "text": "i got mods on it",
+    "review_ids": [
+      "238499086"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.8022938966751099
+  },
+  {
+    "cluster": 5,
+    "rank": 2,
+    "unit_id": "S42f4f19eb5a27e3958ff",
+    "text": "They are a bit DLC-happy imo.",
+    "review_ids": [
+      "237799277"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.7969728708267212
+  },
+  {
+    "cluster": 5,
+    "rank": 3,
+    "unit_id": "S0ab97938660a4dbadce9",
+    "text": "also, play with controller.",
+    "review_ids": [
+      "238989858"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.7968709468841553
+  },
+  {
+    "cluster": 5,
+    "rank": 4,
+    "unit_id": "S04c07ae897cecdf0d2fe",
+    "text": "get mods and you get extra fun",
+    "review_ids": [
+      "238913252"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.7956734895706177
+  },
+  {
+    "cluster": 5,
+    "rank": 5,
+    "unit_id": "S0b52c1267075eb0e7820",
+    "text": "mod 玩爽了",
+    "review_ids": [
+      "239094135"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.7950558066368103
+  },
+  {
+    "cluster": 5,
+    "rank": 6,
+    "unit_id": "Sff1e33556646e9f1e69b",
+    "text": "Going to update as I complete the game",
+    "review_ids": [
+      "238663187"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.794125497341156
+  },
+  {
+    "cluster": 5,
+    "rank": 7,
+    "unit_id": "Se10184c493a96e0820c7",
+    "text": "Tried again recently with some mods,",
+    "review_ids": [
+      "239043769"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.7856031656265259
+  },
+  {
+    "cluster": 5,
+    "rank": 8,
+    "unit_id": "S525f23f2e82c321ce449",
+    "text": "Good mod support.",
+    "review_ids": [
+      "237431393"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.7833734154701233
+  },
+  {
+    "cluster": 6,
+    "rank": 1,
+    "unit_id": "S8d82aebf3dabefcddc68",
+    "text": "Graphics are amazing and the gameplay is too",
+    "review_ids": [
+      "238778460"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "audiovisual"
+    ],
+    "cosine_to_center": 0.9088299870491028
+  },
+  {
+    "cluster": 6,
+    "rank": 2,
+    "unit_id": "S73108312f5201eef4f9f",
+    "text": "This game's story and gameplay are both so enjoyable",
+    "review_ids": [
+      "238568793"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.9037209153175354
+  },
+  {
+    "cluster": 6,
+    "rank": 3,
+    "unit_id": "S8880b1d448c63b4a8172",
+    "text": "it is a very fun and replayable game",
+    "review_ids": [
+      "239077079"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.9008972644805908
+  },
+  {
+    "cluster": 6,
+    "rank": 4,
+    "unit_id": "Saa307f70e971ea3852a2",
+    "text": "Great game with tons of content",
+    "review_ids": [
+      "239018595"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.9002788066864014
+  },
+  {
+    "cluster": 6,
+    "rank": 5,
+    "unit_id": "Se8c3568f7220d6b3eaec",
+    "text": "确实很好玩，画面和游戏性都很高",
+    "review_ids": [
+      "239114802"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "audiovisual"
+    ],
+    "cosine_to_center": 0.9002276659011841
+  },
+  {
+    "cluster": 6,
+    "rank": 6,
+    "unit_id": "S0789316e95a056c5d196",
+    "text": "The game is visually stunning",
+    "review_ids": [
+      "237902735"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "audiovisual"
+    ],
+    "cosine_to_center": 0.8974830508232117
+  },
+  {
+    "cluster": 6,
+    "rank": 7,
+    "unit_id": "S3fcd7609b6e1db71abfd",
+    "text": "nice game the visuals and environments are great",
+    "review_ids": [
+      "238914841"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "audiovisual"
+    ],
+    "cosine_to_center": 0.8972053527832031
+  },
+  {
+    "cluster": 6,
+    "rank": 8,
+    "unit_id": "S2793594dfdb9cb9f2326",
+    "text": "This game is pretty cool for what it is and has plenty of interesting mechanics and content",
+    "review_ids": [
+      "238295442"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.8970578908920288
+  },
+  {
+    "cluster": 7,
+    "rank": 1,
+    "unit_id": "Sfb6ca2c44526b75ed437",
+    "text": "The story line is fun to follow as well",
+    "review_ids": [
+      "238959643"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8854297995567322
+  },
+  {
+    "cluster": 7,
+    "rank": 2,
+    "unit_id": "Sc8748f207341dcd4b5b1",
+    "text": "The story is also very good and captivating",
+    "review_ids": [
+      "238836497"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8704901337623596
+  },
+  {
+    "cluster": 7,
+    "rank": 3,
+    "unit_id": "Sf1867d8a920937bab752",
+    "text": "Story and world are also pretty appealing",
+    "review_ids": [
+      "239123184"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8691892623901367
+  },
+  {
+    "cluster": 7,
+    "rank": 4,
+    "unit_id": "S5a3d389d6e97b5d1e845",
+    "text": "very fun and lots of different options in story",
+    "review_ids": [
+      "238034788"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8668519854545593
+  },
+  {
+    "cluster": 7,
+    "rank": 5,
+    "unit_id": "Sc65c435c5c1ab01b87ee",
+    "text": "It was fun and has a decent story line.",
+    "review_ids": [
+      "238847662"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.864268958568573
+  },
+  {
+    "cluster": 7,
+    "rank": 6,
+    "unit_id": "S4be3cb14ee5f4d2ae51c",
+    "text": "好玩，很有成就感",
+    "review_ids": [
+      "238999105"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.8630936145782471
+  },
+  {
+    "cluster": 7,
+    "rank": 7,
+    "unit_id": "Sb7c9f5f4fe62795c7030",
+    "text": "Very good story telling.",
+    "review_ids": [
+      "239134290"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "story_characters"
+    ],
+    "cosine_to_center": 0.8605408072471619
+  },
+  {
+    "cluster": 7,
+    "rank": 8,
+    "unit_id": "Sed19697cb18a847f542f",
+    "text": "画面很好，",
+    "review_ids": [
+      "238681535"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "audiovisual"
+    ],
+    "cosine_to_center": 0.8593323826789856
+  },
+  {
+    "cluster": 8,
+    "rank": 1,
+    "unit_id": "Sa0e5a996ba89bc396370",
+    "text": "The game is difficult",
+    "review_ids": [
+      "236893043"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.8949919939041138
+  },
+  {
+    "cluster": 8,
+    "rank": 2,
+    "unit_id": "S34b49e75e1899a0021ad",
+    "text": "This game is difficult",
+    "review_ids": [
+      "238789851"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.8891481161117554
+  },
+  {
+    "cluster": 8,
+    "rank": 3,
+    "unit_id": "S7deb1ab021edcad341de",
+    "text": "it is pretty hard",
+    "review_ids": [
+      "238720006"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.8746552467346191
+  },
+  {
+    "cluster": 8,
+    "rank": 4,
+    "unit_id": "S7e18b5854989af8539a7",
+    "text": "The way the game is difficult",
+    "review_ids": [
+      "239017847"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.8708337545394897
+  },
+  {
+    "cluster": 8,
+    "rank": 5,
+    "unit_id": "S8cf99c26db7fc823714e",
+    "text": "good game, very difficult",
+    "review_ids": [
+      "238359704"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.8690425753593445
+  },
+  {
+    "cluster": 8,
+    "rank": 6,
+    "unit_id": "S87c20467f6396342f455",
+    "text": "a difficult game",
+    "review_ids": [
+      "238722721"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.866745114326477
+  },
+  {
+    "cluster": 8,
+    "rank": 7,
+    "unit_id": "S9f3d9fe7ae1095910eef",
+    "text": "This game is so difficult that its good",
+    "review_ids": [
+      "239028100"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.865983247756958
+  },
+  {
+    "cluster": 8,
+    "rank": 8,
+    "unit_id": "Saef6e9333b3128241291",
+    "text": "Its a hard game,",
+    "review_ids": [
+      "238977153"
+    ],
+    "source_languages": [
+      "english"
+    ],
+    "lexical_categories_diagnostic": [
+      "controls_difficulty"
+    ],
+    "cosine_to_center": 0.8656654357910156
+  },
+  {
+    "cluster": 9,
+    "rank": 1,
+    "unit_id": "Sd6a86b001ac0e9c0c6b6",
+    "text": "更新后直接玩不了了",
+    "review_ids": [
+      "236955741"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.8513587117195129
+  },
+  {
+    "cluster": 9,
+    "rank": 2,
+    "unit_id": "S622f9abc74c7a58ab78e",
+    "text": "更新后 根本无法游戏",
+    "review_ids": [
+      "238146666"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.8476439118385315
+  },
+  {
+    "cluster": 9,
+    "rank": 3,
+    "unit_id": "Sd7cfc20e1ae65f34d393",
+    "text": "老是闪退，垃圾游戏",
+    "review_ids": [
+      "239072550"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "performance_stability"
+    ],
+    "cosine_to_center": 0.8454289436340332
+  },
+  {
+    "cluster": 9,
+    "rank": 4,
+    "unit_id": "Sc5d7e737932b06f03912",
+    "text": "更新了就不让你玩",
+    "review_ids": [
+      "226139379"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.8340297937393188
+  },
+  {
+    "cluster": 9,
+    "rank": 5,
+    "unit_id": "Sb242d02bad1271517d34",
+    "text": "重置版后出现各种各样的BUG，重要还要经常卡死，玩的真TM闹心",
+    "review_ids": [
+      "238898382"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "performance_stability"
+    ],
+    "cosine_to_center": 0.8300851583480835
+  },
+  {
+    "cluster": 9,
+    "rank": 6,
+    "unit_id": "S2a6e0e825f66af9c7b11",
+    "text": "没见过优化这么差，BUG这么多得游戏",
+    "review_ids": [
+      "236894306"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "performance_stability"
+    ],
+    "cosine_to_center": 0.8297005891799927
+  },
+  {
+    "cluster": 9,
+    "rank": 7,
+    "unit_id": "Sd18ef6496dc08a89ef4d",
+    "text": "之前可以正常玩，更新之后就一直这样，根本解决不了，制作组根本不管这种BUG",
+    "review_ids": [
+      "224823278"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "content_support"
+    ],
+    "cosine_to_center": 0.829069972038269
+  },
+  {
+    "cluster": 9,
+    "rank": 8,
+    "unit_id": "Sbd65cc0468cfbb7d385b",
+    "text": "真是卡的要崩溃",
+    "review_ids": [
+      "239101173"
+    ],
+    "source_languages": [
+      "schinese"
+    ],
+    "lexical_categories_diagnostic": [
+      "performance_stability"
+    ],
+    "cosine_to_center": 0.8209521770477295
+  }
+]

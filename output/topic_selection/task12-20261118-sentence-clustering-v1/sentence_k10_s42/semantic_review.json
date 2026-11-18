@@ -1,0 +1,148 @@
+{
+  "schema_version": "0.1-semantic-review",
+  "candidate": "sentence_k10_s42",
+  "status": "provisional_review_complete_not_frozen",
+  "review_scope": {
+    "fit_units": 7269,
+    "representatives_reviewed_per_cluster": 5,
+    "diagnostic_profiles_used": true,
+    "review_basis": "center representatives plus lexical diagnostic distribution",
+    "final_topic_assignment_performed": false
+  },
+  "cluster_reviews": [
+    {
+      "cluster": 0,
+      "provisional_label": "MOD、DLC 与内容支持混合",
+      "draft_topic_ids": ["T08", "T07"],
+      "decision": "rework",
+      "confidence": "low",
+      "diagnostic_dominant_category": "content_support",
+      "diagnostic_dominant_share": 0.32,
+      "evidence": ["i got mods on it", "They are a bit DLC-happy imo.", "get mods and you get extra fun"],
+      "boundary_issue": "内容支持、DLC 收费、联机和性能均有记录，不能作为单一主题。",
+      "next_action": "将 MOD 和 DLC 内容保留为 T08，将明确价格或付费评价转入 T07，再检查剩余单元。"
+    },
+    {
+      "cluster": 1,
+      "provisional_label": "朋友合作与联机体验",
+      "draft_topic_ids": ["T06"],
+      "decision": "retain_candidate",
+      "confidence": "high",
+      "diagnostic_dominant_category": "multiplayer_community",
+      "diagnostic_dominant_share": 0.88,
+      "evidence": ["和朋友一起玩很好玩", "Game is very fun with friends.", "Its a fun game to play with a friend"],
+      "boundary_issue": "部分单元可能只表达整体好玩，但代表句明确把朋友同玩作为体验来源。",
+      "next_action": "作为 T06 的主要语义锚点，补查负面合作、匹配和作弊例子。"
+    },
+    {
+      "cluster": 2,
+      "provisional_label": "更新后故障与运行稳定性",
+      "draft_topic_ids": ["T03", "T08"],
+      "decision": "retain_with_boundary_review",
+      "confidence": "medium",
+      "diagnostic_dominant_category": "performance_stability",
+      "diagnostic_dominant_share": 0.50,
+      "evidence": ["更新后直接玩不了了", "老是闪退，垃圾游戏", "重置版后出现各种各样的BUG，重要还要经常卡死"],
+      "boundary_issue": "更新内容和更新造成的技术故障被相似表达混合。",
+      "next_action": "将实际闪退、卡死、无法运行归 T03，只有更新内容和维护支持归 T08。"
+    },
+    {
+      "cluster": 3,
+      "provisional_label": "多方面综合评价",
+      "draft_topic_ids": ["A02"],
+      "decision": "route_auxiliary",
+      "confidence": "low",
+      "diagnostic_dominant_category": "story_characters",
+      "diagnostic_dominant_share": 0.22,
+      "evidence": ["剧情挺好，作为一款剧情向游戏自由度也挺高，有的地方挺有感染力的", "游戏的玩法与关卡设计确实精彩，总能在熟悉一种机制之后，又带来新的机制和玩法", "可玩性挺高，游戏画面和音乐都不错"],
+      "boundary_issue": "剧情、玩法、内容和视听同时出现，主导类别不足以支持单一主题。",
+      "next_action": "按句子或片段保留多主题标签，不把该簇作为一个主题。"
+    },
+    {
+      "cluster": 4,
+      "provisional_label": "玩法、机制与构筑选择",
+      "draft_topic_ids": ["T01", "T08"],
+      "decision": "retain_candidate_with_boundary_review",
+      "confidence": "medium",
+      "diagnostic_dominant_category": "gameplay",
+      "diagnostic_dominant_share": 0.43,
+      "evidence": ["Lot of skill and build options too", "The play at your own pace, while you explore, catch, build, craft, grind, and level up gives you tons of options.", "It is a roguelike game, therefore, it gives you different experience on how the game should be played"],
+      "boundary_issue": "构筑和探索属于玩法，重复体验和内容量可能属于 T08，联机内容也会进入该簇。",
+      "next_action": "保留为 T01 候选，单独检查重玩和内容量证据，避免把所有正面长评归入玩法。"
+    },
+    {
+      "cluster": 5,
+      "provisional_label": "剧情与综合负面评价混合",
+      "draft_topic_ids": ["T04", "T01", "T05", "T06"],
+      "decision": "rework",
+      "confidence": "low",
+      "diagnostic_dominant_category": "story_characters",
+      "diagnostic_dominant_share": 0.30,
+      "evidence": ["The story doesn't justify the easiness of the game.", "The story sucks and for some number of hours the gameplay sucks", "The game is too slow, too expensive and the story isn't enjoyable"],
+      "boundary_issue": "剧情、难度、玩法、价格和性能均可能共同出现。",
+      "next_action": "保留明确剧情片段为 T04，其他方面分别拆出，不用该簇代表单一主题。"
+    },
+    {
+      "cluster": 6,
+      "provisional_label": "难度与挑战",
+      "draft_topic_ids": ["T02"],
+      "decision": "retain_candidate",
+      "confidence": "high",
+      "diagnostic_dominant_category": "controls_difficulty",
+      "diagnostic_dominant_share": 0.83,
+      "evidence": ["The game is difficult", "This game is difficult", "it is pretty hard"],
+      "boundary_issue": "短句的具体难度方向不足，操作、平衡和学习门槛需要依原文补充。",
+      "next_action": "作为 T02 的主要语义锚点，补查教程、操作和数值平衡的正负例子。"
+    },
+    {
+      "cluster": 7,
+      "provisional_label": "整体好评与多方面综合表达",
+      "draft_topic_ids": ["A01", "A02"],
+      "decision": "route_auxiliary",
+      "confidence": "low",
+      "diagnostic_dominant_category": "gameplay",
+      "diagnostic_dominant_share": 0.33,
+      "evidence": ["Graphics are amazing and the gameplay is too", "This game's story and gameplay are both so enjoyable", "it is a very fun and replayable game"],
+      "boundary_issue": "多方面正面表达和泛评共存，玩法诊断占比不足以形成单一主题。",
+      "next_action": "具体证据按方面多标签记录，只有整体表达的单元转入 A01。"
+    },
+    {
+      "cluster": 8,
+      "provisional_label": "难度、引导、剧情与玩法混合",
+      "draft_topic_ids": ["T02", "T04", "T01", "A02"],
+      "decision": "route_auxiliary",
+      "confidence": "low",
+      "diagnostic_dominant_category": "story_characters",
+      "diagnostic_dominant_share": 0.22,
+      "evidence": ["缺点就是引导太差，内容太多，普通玩家需要搜攻略才能完美体验", "难度太大，不看攻略完全玩不了，没什么乐趣", "移动很拉 引导很差 游戏性很一般 剧情可以"],
+      "boundary_issue": "中文综合评论包含操作、引导、内容、剧情和玩法，无法保留为单一主题。",
+      "next_action": "按片段拆分或保留多标签，避免把中文长评集中解释为剧情主题。"
+    },
+    {
+      "cluster": 9,
+      "provisional_label": "剧情与叙事，混入视听和泛评",
+      "draft_topic_ids": ["T04", "T05", "A01"],
+      "decision": "retain_candidate_with_boundary_review",
+      "confidence": "medium",
+      "diagnostic_dominant_category": "story_characters",
+      "diagnostic_dominant_share": 0.39,
+      "evidence": ["The story line is fun to follow as well", "The story is also very good and captivating", "Story and world are also pretty appealing"],
+      "boundary_issue": "部分单元只表达整体好评，另有视听评价进入同一簇。",
+      "next_action": "作为 T04 的候选锚点，单独检查视听片段并转入 T05。"
+    }
+  ],
+  "topic_level_conclusion": {
+    "strong_candidates": ["T02", "T06"],
+    "candidate_topics_requiring_boundary_review": ["T01", "T03", "T04", "T05", "T07", "T08"],
+    "topics_without_a_clean_dedicated_cluster": ["T05", "T07"],
+    "auxiliary_routes_required": ["A01", "A02", "A03"],
+    "topics_v1_ready": false,
+    "reason": "只有联机和难度簇具有较高诊断纯度，其他簇仍存在多方面混合或泛评价。"
+  },
+  "reviewer_notes": [
+    "诊断类别来自输入筛选元数据，只用于辅助阅读，不是人工真值。",
+    "簇编号不是最终主题 ID。",
+    "本复核使用每簇中心代表句前五条，未替代全量单元级人工确认。",
+    "推荐标签未参与聚类或语义命名。"
+  ]
+}
