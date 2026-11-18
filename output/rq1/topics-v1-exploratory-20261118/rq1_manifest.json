@@ -1,0 +1,120 @@
+{
+  "schema_version": "rq1-results-1",
+  "analysis": "RQ1 topic discovery and distribution",
+  "topic_version": "topics-v1-exploratory-20261118",
+  "topic_status": "cluster_derived_provisional",
+  "primary_weight_prefix": "fit",
+  "sensitivity_weight_prefix": "all",
+  "counts": {
+    "reviews": 19486,
+    "games": 50,
+    "fit_topic_evidence_reviews": 4218,
+    "all_topic_evidence_reviews": 4879,
+    "representative_comments": 48
+  },
+  "parameters": {
+    "topic_ids": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "T06",
+      "T07",
+      "T08"
+    ],
+    "genre_field": "project_primary_genre",
+    "topic_share_denominator": "sum of topic weights among reviews with topic evidence",
+    "language_labels": {
+      "english": "English",
+      "schinese": "Simplified Chinese"
+    }
+  },
+  "sources": [
+    {
+      "path": "output/topic_selection/topics-v1-exploratory-20261118/topic_v1.json",
+      "sha256": "3b36b145d6ffa1f8e80643ace243f26cbe5d664cc215bfb9a77d200dcbeed45e"
+    },
+    {
+      "path": "output/topic_selection/topics-v1-exploratory-20261118/review_topic_weights.csv",
+      "sha256": "8ed17af4f6033b04fc1179824370fba9f2c2b72e99a2ff443a6b9609de79925f"
+    },
+    {
+      "path": "output/topic_selection/topics-v1-exploratory-20261118/unit_topic_assignments.jsonl",
+      "sha256": "367b55bd518ffd506d0c445698742feb636c8e6e2e858e44ce669d5aa7bdc81a"
+    },
+    {
+      "path": "data/cleaned/freeze_20261101/clean_master.jsonl",
+      "sha256": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26"
+    },
+    {
+      "path": "data/metadata/freeze_20261101/game_meta.csv",
+      "sha256": "f10d70b21d39a3e5871a04cdc636ee31900b52c3c258f2b9c6bfdc443b32b546"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/coverage_diagnostics.csv",
+      "sha256": "597831663bae968f400e70bbecbdfafd0194a42a18bf700cc8e269c7971519ea"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/game_topic_distribution.csv",
+      "sha256": "f80adc282a887fb6a9f2e710e81da5b6dfc8f06a782e45fa4eb36947654a8db0"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/game_topic_heatmap.png",
+      "sha256": "7c929ba2cf9a14763ec6dc87b7d69185e0603985ed372c17545f641ac4aa01a5"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/genre_topic_distribution.csv",
+      "sha256": "6947fa706c5ca35d3552c950d27459189842eda9a75e00760cb3b5fb73a668fb"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/genre_topic_heatmap.png",
+      "sha256": "b364b7c30e423355da13d6dc32058759f4e980799683b8ddd98728855280efef"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/language_topic_distribution.csv",
+      "sha256": "b1ea0f4ce465bc8a355381219e06b05e70b8a958fe6d4f90df0af1b1e7f8d5c4"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/language_topic_share.png",
+      "sha256": "158858ed7d36dd6282d134ddd605056925d1f17fcfcaba897bf2857916d5b92d"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/overall_topic_distribution.csv",
+      "sha256": "88c849cfc93f2ec8d90406eedde1313387dba84de5e12456f7f7afac9a7d3b2a"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/overall_topic_share.png",
+      "sha256": "e5a0a8232fb0a7a648cae22b5ac668c044b1a3b6519430326ed756eac4615406"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/README.md",
+      "sha256": "ebd24922dcce233d97c1dd18cc82b00f3bc31bcaad09c0708bdb8f5a3e2019df"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/representative_comments.csv",
+      "sha256": "2c9732c9693bfbfade194b1f05075ad1a78c955b7a5a693f76cca40b0032e2bb"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/sensitivity_overall.csv",
+      "sha256": "71a4e3fdb715a64db0c5bd4a553ec96d7aa3ef735a0a11fba6df684d79bf45d8"
+    },
+    {
+      "path": "output/rq1/topics-v1-exploratory-20261118/topic_definitions.csv",
+      "sha256": "b658749b4aec32d651d89dc41f2ba9a92acc817a88b8737cbb7652ad1ed7a761"
+    }
+  ],
+  "runtime": {
+    "python": "3.13.14",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "statsmodels": "0.15.0",
+    "jieba": "0.42.1",
+    "joblib": "1.6.0"
+  }
+}
