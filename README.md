@@ -16,7 +16,7 @@ A/B的300条标注和30组命名已导入[docs/review/](docs/review/README.md)�
 
 已完成原18个候选的90次重采样，并新增20个纯无监督候选。当前仍有混杂，暂不冻结；[检查结果与下一步](output/topic_selection/task12-20261114/handoff/README.md)包含30组处理表及句子编码交接输入。
 
-2026-11-17 已完成全部 **8,979 × 1,024** 句子／片段级 BGE-M3 向量，ID顺序、归一化、无截断及缓存复用检查通过。队友更新仓库后可直接使用[向量缓存](output/embedding-bge-sentences/task12-20261117-v1/README.md)，无需另传模型权重或重新编码；具体入口见[编码与交接说明](docs/embedding-bge-sentences.md)。句子聚类、主题定向确认及 `topics-v1` 冻结另行推进。
+2026-11-17 已完成全部 **8,979 × 1,024** 句子／片段级 BGE-M3 向量，见[向量缓存](output/embedding-bge-sentences/task12-20261117-v1/README.md)及[编码说明](docs/embedding-bge-sentences.md)。2026-11-18 已完成 K=6/8/10 句子聚类、30 次重采样及八项草案主题的证据检查。K=10 优先复核，`topics-v1` 待全员确认。[句子聚类结果](output/topic_selection/task12-20261118-sentence-v1/README.md)
 
 ## 已配置的数据来源
 

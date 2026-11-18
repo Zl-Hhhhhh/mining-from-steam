@@ -45,6 +45,7 @@
 
 # Sentence-level BGE handoff keeps checksummed inputs and generated evidence.
 /scripts/embedding_bge_sentences.py -text
+/scripts/cluster_bge_sentences.py -text
 /config/embedding_bge_sentences.json -text
 /tests/test_embedding_bge_sentences.py -text
 /docs/embedding-bge-sentences.md -text
