@@ -1,0 +1,767 @@
+﻿scenario,appid,game,topic_minimum_per_language,english_n,english_evidence_n,schinese_n,schinese_evidence_n,paired_for_coverage,paired_for_theme,coverage_exclusion,theme_exclusion
+primary_fit,105600,Terraria,20,199,32,198,23,True,True,,
+primary_fit,1086940,Baldur's Gate 3,20,197,48,200,34,True,True,,
+primary_fit,1091500,Cyberpunk 2077,20,199,60,198,40,True,True,,
+primary_fit,1144200,Ready or Not,20,198,54,200,45,True,True,,
+primary_fit,1145360,Hades,20,199,59,200,42,True,True,,
+primary_fit,1172470,Apex Legends,20,200,38,198,24,True,True,,
+primary_fit,1174180,Red Dead Redemption 2,20,199,43,198,35,True,True,,
+primary_fit,1203220,NARAKA: BLADEPOINT,20,200,56,200,31,True,True,,
+primary_fit,1245620,Elden Ring,20,200,45,200,27,True,True,,
+primary_fit,1426210,It Takes Two,20,200,67,199,36,True,True,,
+primary_fit,1517290,Battlefield 2042,20,200,57,200,53,True,True,,
+primary_fit,1623730,Palworld,20,198,64,199,26,True,True,,
+primary_fit,1687950,Persona 5 Royal,20,200,36,197,35,True,True,,
+primary_fit,220,Half-Life 2,20,198,29,199,30,True,True,,
+primary_fit,230410,Warframe,20,200,58,199,20,True,True,,
+primary_fit,2358720,Black Myth: Wukong,20,199,62,199,33,True,True,,
+primary_fit,236390,War Thunder,20,199,19,200,24,True,False,,insufficient_topic_language_support
+primary_fit,238960,Path of Exile,20,198,49,22,6,False,False,insufficient_base_language_support,insufficient_base_language_support
+primary_fit,244850,Space Engineers,20,199,70,35,10,False,False,insufficient_base_language_support,insufficient_base_language_support
+primary_fit,250900,The Binding of Isaac: Rebirth,20,199,30,199,19,True,False,,insufficient_topic_language_support
+primary_fit,252490,Rust,20,200,38,200,40,True,True,,
+primary_fit,261550,Mount & Blade II: Bannerlord,20,197,51,200,33,True,True,,
+primary_fit,262060,Darkest Dungeon,20,199,55,200,40,True,True,,
+primary_fit,271590,Grand Theft Auto V,20,200,19,195,20,True,False,,insufficient_topic_language_support
+primary_fit,275850,No Man's Sky,20,199,77,199,40,True,True,,
+primary_fit,289070,Sid Meier's Civilization VI,20,196,39,200,33,True,True,,
+primary_fit,291550,Brawlhalla,20,199,28,150,48,True,True,,
+primary_fit,292030,The Witcher 3: Wild Hunt,20,199,59,200,53,True,True,,
+primary_fit,322330,Don't Starve Together,20,200,48,200,37,True,True,,
+primary_fit,346110,ARK: Survival Evolved,20,199,47,200,30,True,True,,
+primary_fit,367520,Hollow Knight,20,199,52,200,26,True,True,,
+primary_fit,381210,Dead by Daylight,20,200,58,200,38,True,True,,
+primary_fit,397540,Borderlands 3,20,199,79,199,49,True,True,,
+primary_fit,4000,Garry's Mod,20,199,39,200,25,True,True,,
+primary_fit,413150,Stardew Valley,20,197,47,199,15,True,False,,insufficient_topic_language_support
+primary_fit,440900,Conan Exiles,20,199,98,200,74,True,True,,
+primary_fit,447040,Watch Dogs 2,20,198,65,200,28,True,True,,
+primary_fit,489830,The Elder Scrolls V: Skyrim Special Edition,20,199,48,199,48,True,True,,
+primary_fit,504230,Celeste,20,199,58,199,44,True,True,,
+primary_fit,534380,Dying Light 2,20,199,81,200,59,True,True,,
+primary_fit,570,Dota 2,20,200,32,200,34,True,True,,
+primary_fit,582010,Monster Hunter: World,20,199,33,199,21,True,True,,
+primary_fit,588650,Dead Cells,20,198,65,196,35,True,True,,
+primary_fit,646570,Slay the Spire,20,200,61,199,21,True,True,,
+primary_fit,648800,Raft,20,198,68,200,33,True,True,,
+primary_fit,730,Counter-Strike 2,20,199,42,200,23,True,True,,
+primary_fit,739630,Phasmophobia,20,200,49,199,43,True,True,,
+primary_fit,813780,Age of Empires II: Definitive Edition,20,198,29,200,42,True,True,,
+primary_fit,8930,Sid Meier's Civilization V,20,198,36,78,13,True,False,,insufficient_topic_language_support
+primary_fit,976730,Halo: The Master Chief Collection,20,198,48,199,55,True,True,,
+all_units,105600,Terraria,20,199,36,198,25,True,True,,
+all_units,1086940,Baldur's Gate 3,20,197,56,200,42,True,True,,
+all_units,1091500,Cyberpunk 2077,20,199,67,198,45,True,True,,
+all_units,1144200,Ready or Not,20,198,57,200,55,True,True,,
+all_units,1145360,Hades,20,199,72,200,62,True,True,,
+all_units,1172470,Apex Legends,20,200,40,198,36,True,True,,
+all_units,1174180,Red Dead Redemption 2,20,199,52,198,37,True,True,,
+all_units,1203220,NARAKA: BLADEPOINT,20,200,61,200,38,True,True,,
+all_units,1245620,Elden Ring,20,200,52,200,31,True,True,,
+all_units,1426210,It Takes Two,20,200,70,199,41,True,True,,
+all_units,1517290,Battlefield 2042,20,200,61,200,61,True,True,,
+all_units,1623730,Palworld,20,198,66,199,32,True,True,,
+all_units,1687950,Persona 5 Royal,20,200,42,197,42,True,True,,
+all_units,220,Half-Life 2,20,198,35,199,32,True,True,,
+all_units,230410,Warframe,20,200,65,199,27,True,True,,
+all_units,2358720,Black Myth: Wukong,20,199,79,199,42,True,True,,
+all_units,236390,War Thunder,20,199,21,200,29,True,True,,
+all_units,238960,Path of Exile,20,198,57,22,7,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_units,244850,Space Engineers,20,199,79,35,10,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_units,250900,The Binding of Isaac: Rebirth,20,199,31,199,26,True,True,,
+all_units,252490,Rust,20,200,42,200,45,True,True,,
+all_units,261550,Mount & Blade II: Bannerlord,20,197,61,200,35,True,True,,
+all_units,262060,Darkest Dungeon,20,199,60,200,44,True,True,,
+all_units,271590,Grand Theft Auto V,20,200,23,195,20,True,True,,
+all_units,275850,No Man's Sky,20,199,89,199,50,True,True,,
+all_units,289070,Sid Meier's Civilization VI,20,196,45,200,35,True,True,,
+all_units,291550,Brawlhalla,20,199,30,150,59,True,True,,
+all_units,292030,The Witcher 3: Wild Hunt,20,199,70,200,77,True,True,,
+all_units,322330,Don't Starve Together,20,200,54,200,41,True,True,,
+all_units,346110,ARK: Survival Evolved,20,199,56,200,34,True,True,,
+all_units,367520,Hollow Knight,20,199,56,200,31,True,True,,
+all_units,381210,Dead by Daylight,20,200,62,200,50,True,True,,
+all_units,397540,Borderlands 3,20,199,87,199,60,True,True,,
+all_units,4000,Garry's Mod,20,199,41,200,28,True,True,,
+all_units,413150,Stardew Valley,20,197,49,199,18,True,False,,insufficient_topic_language_support
+all_units,440900,Conan Exiles,20,199,107,200,94,True,True,,
+all_units,447040,Watch Dogs 2,20,198,71,200,34,True,True,,
+all_units,489830,The Elder Scrolls V: Skyrim Special Edition,20,199,53,199,60,True,True,,
+all_units,504230,Celeste,20,199,65,199,60,True,True,,
+all_units,534380,Dying Light 2,20,199,90,200,81,True,True,,
+all_units,570,Dota 2,20,200,36,200,49,True,True,,
+all_units,582010,Monster Hunter: World,20,199,41,199,30,True,True,,
+all_units,588650,Dead Cells,20,198,70,196,41,True,True,,
+all_units,646570,Slay the Spire,20,200,67,199,22,True,True,,
+all_units,648800,Raft,20,198,69,200,40,True,True,,
+all_units,730,Counter-Strike 2,20,199,42,200,27,True,True,,
+all_units,739630,Phasmophobia,20,200,56,199,47,True,True,,
+all_units,813780,Age of Empires II: Definitive Edition,20,198,33,200,46,True,True,,
+all_units,8930,Sid Meier's Civilization V,20,198,43,78,17,True,False,,insufficient_topic_language_support
+all_units,976730,Halo: The Master Chief Collection,20,198,53,199,64,True,True,,
+all_same_fit_population,105600,Terraria,20,32,32,23,23,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,1086940,Baldur's Gate 3,20,48,48,34,34,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,1091500,Cyberpunk 2077,20,60,60,40,40,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,1144200,Ready or Not,20,54,54,45,45,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,1145360,Hades,20,59,59,42,42,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,1172470,Apex Legends,20,38,38,24,24,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,1174180,Red Dead Redemption 2,20,43,43,35,35,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,1203220,NARAKA: BLADEPOINT,20,56,56,31,31,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,1245620,Elden Ring,20,45,45,27,27,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,1426210,It Takes Two,20,67,67,36,36,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,1517290,Battlefield 2042,20,57,57,53,53,True,True,,
+all_same_fit_population,1623730,Palworld,20,64,64,26,26,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,1687950,Persona 5 Royal,20,36,36,35,35,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,220,Half-Life 2,20,29,29,30,30,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,230410,Warframe,20,58,58,20,20,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,2358720,Black Myth: Wukong,20,62,62,33,33,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,236390,War Thunder,20,19,19,24,24,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,238960,Path of Exile,20,49,49,6,6,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,244850,Space Engineers,20,70,70,10,10,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,250900,The Binding of Isaac: Rebirth,20,30,30,19,19,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,252490,Rust,20,38,38,40,40,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,261550,Mount & Blade II: Bannerlord,20,51,51,33,33,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,262060,Darkest Dungeon,20,55,55,40,40,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,271590,Grand Theft Auto V,20,19,19,20,20,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,275850,No Man's Sky,20,77,77,40,40,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,289070,Sid Meier's Civilization VI,20,39,39,33,33,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,291550,Brawlhalla,20,28,28,48,48,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,292030,The Witcher 3: Wild Hunt,20,59,59,53,53,True,True,,
+all_same_fit_population,322330,Don't Starve Together,20,48,48,37,37,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,346110,ARK: Survival Evolved,20,47,47,30,30,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,367520,Hollow Knight,20,52,52,26,26,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,381210,Dead by Daylight,20,58,58,38,38,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,397540,Borderlands 3,20,79,79,49,49,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,4000,Garry's Mod,20,39,39,25,25,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,413150,Stardew Valley,20,47,47,15,15,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,440900,Conan Exiles,20,98,98,74,74,True,True,,
+all_same_fit_population,447040,Watch Dogs 2,20,65,65,28,28,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,489830,The Elder Scrolls V: Skyrim Special Edition,20,48,48,48,48,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,504230,Celeste,20,58,58,44,44,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,534380,Dying Light 2,20,81,81,59,59,True,True,,
+all_same_fit_population,570,Dota 2,20,32,32,34,34,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,582010,Monster Hunter: World,20,33,33,21,21,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,588650,Dead Cells,20,65,65,35,35,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,646570,Slay the Spire,20,61,61,21,21,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,648800,Raft,20,68,68,33,33,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,730,Counter-Strike 2,20,42,42,23,23,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,739630,Phasmophobia,20,49,49,43,43,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,813780,Age of Empires II: Definitive Edition,20,29,29,42,42,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,8930,Sid Meier's Civilization V,20,36,36,13,13,False,False,insufficient_base_language_support,insufficient_base_language_support
+all_same_fit_population,976730,Halo: The Master Chief Collection,20,48,48,55,55,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,105600,Terraria,20,199,32,177,19,True,False,,insufficient_topic_language_support
+common_window,1086940,Baldur's Gate 3,20,197,48,72,12,True,False,,insufficient_topic_language_support
+common_window,1091500,Cyberpunk 2077,20,199,60,94,19,True,False,,insufficient_topic_language_support
+common_window,1144200,Ready or Not,20,198,54,86,20,True,True,,
+common_window,1145360,Hades,20,199,59,69,14,True,False,,insufficient_topic_language_support
+common_window,1172470,Apex Legends,20,168,32,198,24,True,True,,
+common_window,1174180,Red Dead Redemption 2,20,199,43,163,32,True,True,,
+common_window,1203220,NARAKA: BLADEPOINT,20,19,9,200,31,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,1245620,Elden Ring,20,200,45,129,19,True,False,,insufficient_topic_language_support
+common_window,1426210,It Takes Two,20,113,40,199,36,True,True,,
+common_window,1517290,Battlefield 2042,20,165,50,200,53,True,True,,
+common_window,1623730,Palworld,20,198,64,130,18,True,False,,insufficient_topic_language_support
+common_window,1687950,Persona 5 Royal,20,200,36,197,35,True,True,,
+common_window,220,Half-Life 2,20,198,29,14,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,230410,Warframe,20,200,58,93,5,True,False,,insufficient_topic_language_support
+common_window,2358720,Black Myth: Wukong,20,35,11,199,33,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,236390,War Thunder,20,199,19,118,18,True,False,,insufficient_topic_language_support
+common_window,238960,Path of Exile,20,149,38,4,2,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,244850,Space Engineers,20,170,59,8,3,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,250900,The Binding of Isaac: Rebirth,20,199,30,77,6,True,False,,insufficient_topic_language_support
+common_window,252490,Rust,20,200,38,9,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,261550,Mount & Blade II: Bannerlord,20,197,51,200,33,True,True,,
+common_window,262060,Darkest Dungeon,20,199,55,167,31,True,True,,
+common_window,271590,Grand Theft Auto V,20,200,19,78,6,True,False,,insufficient_topic_language_support
+common_window,275850,No Man's Sky,20,199,77,67,17,True,False,,insufficient_topic_language_support
+common_window,289070,Sid Meier's Civilization VI,20,196,39,200,33,True,True,,
+common_window,291550,Brawlhalla,20,199,28,7,3,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,292030,The Witcher 3: Wild Hunt,20,199,59,98,31,True,True,,
+common_window,322330,Don't Starve Together,20,98,20,200,37,True,True,,
+common_window,346110,ARK: Survival Evolved,20,199,47,163,22,True,True,,
+common_window,367520,Hollow Knight,20,199,52,58,8,True,False,,insufficient_topic_language_support
+common_window,381210,Dead by Daylight,20,200,58,26,4,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,397540,Borderlands 3,20,195,78,74,21,True,True,,
+common_window,4000,Garry's Mod,20,199,39,33,2,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,413150,Stardew Valley,20,197,47,199,15,True,False,,insufficient_topic_language_support
+common_window,440900,Conan Exiles,20,195,97,15,3,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,447040,Watch Dogs 2,20,198,65,200,28,True,True,,
+common_window,489830,The Elder Scrolls V: Skyrim Special Edition,20,199,48,40,11,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,504230,Celeste,20,199,58,49,8,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,534380,Dying Light 2,20,199,81,109,34,True,True,,
+common_window,570,Dota 2,20,200,32,72,14,True,False,,insufficient_topic_language_support
+common_window,582010,Monster Hunter: World,20,199,33,194,21,True,True,,
+common_window,588650,Dead Cells,20,188,61,196,35,True,True,,
+common_window,646570,Slay the Spire,20,198,60,199,21,True,True,,
+common_window,648800,Raft,20,198,68,187,32,True,True,,
+common_window,730,Counter-Strike 2,20,199,42,187,21,True,True,,
+common_window,739630,Phasmophobia,20,200,49,34,8,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,813780,Age of Empires II: Definitive Edition,20,181,28,34,7,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,8930,Sid Meier's Civilization V,20,194,35,12,4,False,False,insufficient_base_language_support,insufficient_base_language_support
+common_window,976730,Halo: The Master Chief Collection,20,174,39,8,2,False,False,insufficient_base_language_support,insufficient_base_language_support
+original_same_common_games,1144200,Ready or Not,20,198,54,200,45,True,True,,
+original_same_common_games,1172470,Apex Legends,20,200,38,198,24,True,True,,
+original_same_common_games,1174180,Red Dead Redemption 2,20,199,43,198,35,True,True,,
+original_same_common_games,1426210,It Takes Two,20,200,67,199,36,True,True,,
+original_same_common_games,1517290,Battlefield 2042,20,200,57,200,53,True,True,,
+original_same_common_games,1687950,Persona 5 Royal,20,200,36,197,35,True,True,,
+original_same_common_games,261550,Mount & Blade II: Bannerlord,20,197,51,200,33,True,True,,
+original_same_common_games,262060,Darkest Dungeon,20,199,55,200,40,True,True,,
+original_same_common_games,289070,Sid Meier's Civilization VI,20,196,39,200,33,True,True,,
+original_same_common_games,292030,The Witcher 3: Wild Hunt,20,199,59,200,53,True,True,,
+original_same_common_games,322330,Don't Starve Together,20,200,48,200,37,True,True,,
+original_same_common_games,346110,ARK: Survival Evolved,20,199,47,200,30,True,True,,
+original_same_common_games,397540,Borderlands 3,20,199,79,199,49,True,True,,
+original_same_common_games,447040,Watch Dogs 2,20,198,65,200,28,True,True,,
+original_same_common_games,534380,Dying Light 2,20,199,81,200,59,True,True,,
+original_same_common_games,582010,Monster Hunter: World,20,199,33,199,21,True,True,,
+original_same_common_games,588650,Dead Cells,20,198,65,196,35,True,True,,
+original_same_common_games,646570,Slay the Spire,20,200,61,199,21,True,True,,
+original_same_common_games,648800,Raft,20,198,68,200,33,True,True,,
+original_same_common_games,730,Counter-Strike 2,20,199,42,200,23,True,True,,
+unique_text,105600,Terraria,20,182,32,154,23,True,True,,
+unique_text,1086940,Baldur's Gate 3,20,190,48,174,34,True,True,,
+unique_text,1091500,Cyberpunk 2077,20,191,60,167,40,True,True,,
+unique_text,1144200,Ready or Not,20,192,54,173,45,True,True,,
+unique_text,1145360,Hades,20,193,59,162,40,True,True,,
+unique_text,1172470,Apex Legends,20,188,38,163,24,True,True,,
+unique_text,1174180,Red Dead Redemption 2,20,185,43,150,35,True,True,,
+unique_text,1203220,NARAKA: BLADEPOINT,20,189,56,181,31,True,True,,
+unique_text,1245620,Elden Ring,20,191,45,168,27,True,True,,
+unique_text,1426210,It Takes Two,20,191,67,153,36,True,True,,
+unique_text,1517290,Battlefield 2042,20,188,57,192,53,True,True,,
+unique_text,1623730,Palworld,20,186,64,150,26,True,True,,
+unique_text,1687950,Persona 5 Royal,20,192,36,172,35,True,True,,
+unique_text,220,Half-Life 2,20,187,29,176,30,True,True,,
+unique_text,230410,Warframe,20,187,58,167,20,True,True,,
+unique_text,2358720,Black Myth: Wukong,20,186,62,156,33,True,True,,
+unique_text,236390,War Thunder,20,192,19,193,24,True,False,,insufficient_topic_language_support
+unique_text,238960,Path of Exile,20,194,49,21,6,False,False,insufficient_base_language_support,insufficient_base_language_support
+unique_text,244850,Space Engineers,20,189,70,34,10,False,False,insufficient_base_language_support,insufficient_base_language_support
+unique_text,250900,The Binding of Isaac: Rebirth,20,186,30,165,19,True,False,,insufficient_topic_language_support
+unique_text,252490,Rust,20,188,38,172,40,True,True,,
+unique_text,261550,Mount & Blade II: Bannerlord,20,182,51,169,33,True,True,,
+unique_text,262060,Darkest Dungeon,20,196,55,178,40,True,True,,
+unique_text,271590,Grand Theft Auto V,20,174,19,155,20,True,False,,insufficient_topic_language_support
+unique_text,275850,No Man's Sky,20,195,77,168,40,True,True,,
+unique_text,289070,Sid Meier's Civilization VI,20,186,39,168,33,True,True,,
+unique_text,291550,Brawlhalla,20,196,28,137,47,True,True,,
+unique_text,292030,The Witcher 3: Wild Hunt,20,195,59,184,53,True,True,,
+unique_text,322330,Don't Starve Together,20,191,48,162,37,True,True,,
+unique_text,346110,ARK: Survival Evolved,20,189,47,160,30,True,True,,
+unique_text,367520,Hollow Knight,20,190,52,161,26,True,True,,
+unique_text,381210,Dead by Daylight,20,197,58,182,38,True,True,,
+unique_text,397540,Borderlands 3,20,191,79,180,49,True,True,,
+unique_text,4000,Garry's Mod,20,183,39,162,25,True,True,,
+unique_text,413150,Stardew Valley,20,193,47,151,15,True,False,,insufficient_topic_language_support
+unique_text,440900,Conan Exiles,20,192,98,189,73,True,True,,
+unique_text,447040,Watch Dogs 2,20,189,65,170,27,True,True,,
+unique_text,489830,The Elder Scrolls V: Skyrim Special Edition,20,192,48,176,48,True,True,,
+unique_text,504230,Celeste,20,196,58,185,43,True,True,,
+unique_text,534380,Dying Light 2,20,195,81,184,59,True,True,,
+unique_text,570,Dota 2,20,186,32,181,34,True,True,,
+unique_text,582010,Monster Hunter: World,20,179,33,170,21,True,True,,
+unique_text,588650,Dead Cells,20,185,65,151,34,True,True,,
+unique_text,646570,Slay the Spire,20,191,61,157,20,True,True,,
+unique_text,648800,Raft,20,188,68,152,33,True,True,,
+unique_text,730,Counter-Strike 2,20,180,42,164,23,True,True,,
+unique_text,739630,Phasmophobia,20,192,49,173,43,True,True,,
+unique_text,813780,Age of Empires II: Definitive Edition,20,189,29,182,42,True,True,,
+unique_text,8930,Sid Meier's Civilization V,20,197,36,73,13,True,False,,insufficient_topic_language_support
+unique_text,976730,Halo: The Master Chief Collection,20,194,47,193,55,True,True,,
+one_per_author,105600,Terraria,20,191,29,194,22,True,True,,
+one_per_author,1086940,Baldur's Gate 3,20,194,48,189,31,True,True,,
+one_per_author,1091500,Cyberpunk 2077,20,197,58,192,40,True,True,,
+one_per_author,1144200,Ready or Not,20,194,51,197,44,True,True,,
+one_per_author,1145360,Hades,20,194,58,191,40,True,True,,
+one_per_author,1172470,Apex Legends,20,196,37,196,23,True,True,,
+one_per_author,1174180,Red Dead Redemption 2,20,193,40,189,31,True,True,,
+one_per_author,1203220,NARAKA: BLADEPOINT,20,197,53,196,31,True,True,,
+one_per_author,1245620,Elden Ring,20,192,43,193,26,True,True,,
+one_per_author,1426210,It Takes Two,20,194,64,188,31,True,True,,
+one_per_author,1517290,Battlefield 2042,20,198,56,196,52,True,True,,
+one_per_author,1623730,Palworld,20,190,59,194,25,True,True,,
+one_per_author,1687950,Persona 5 Royal,20,199,35,193,34,True,True,,
+one_per_author,220,Half-Life 2,20,194,29,195,30,True,True,,
+one_per_author,230410,Warframe,20,195,57,197,20,True,True,,
+one_per_author,2358720,Black Myth: Wukong,20,194,60,193,31,True,True,,
+one_per_author,236390,War Thunder,20,197,19,198,23,True,False,,insufficient_topic_language_support
+one_per_author,238960,Path of Exile,20,194,48,22,6,False,False,insufficient_base_language_support,insufficient_base_language_support
+one_per_author,244850,Space Engineers,20,195,68,35,10,False,False,insufficient_base_language_support,insufficient_base_language_support
+one_per_author,250900,The Binding of Isaac: Rebirth,20,198,30,196,19,True,False,,insufficient_topic_language_support
+one_per_author,252490,Rust,20,199,37,200,40,True,True,,
+one_per_author,261550,Mount & Blade II: Bannerlord,20,193,50,198,33,True,True,,
+one_per_author,262060,Darkest Dungeon,20,193,53,195,38,True,True,,
+one_per_author,271590,Grand Theft Auto V,20,197,18,194,20,True,False,,insufficient_topic_language_support
+one_per_author,275850,No Man's Sky,20,196,75,198,40,True,True,,
+one_per_author,289070,Sid Meier's Civilization VI,20,188,36,197,32,True,True,,
+one_per_author,291550,Brawlhalla,20,197,28,150,48,True,True,,
+one_per_author,292030,The Witcher 3: Wild Hunt,20,193,58,192,51,True,True,,
+one_per_author,322330,Don't Starve Together,20,194,48,193,33,True,True,,
+one_per_author,346110,ARK: Survival Evolved,20,196,46,197,29,True,True,,
+one_per_author,367520,Hollow Knight,20,196,52,192,25,True,True,,
+one_per_author,381210,Dead by Daylight,20,196,58,199,38,True,True,,
+one_per_author,397540,Borderlands 3,20,197,79,198,49,True,True,,
+one_per_author,4000,Garry's Mod,20,196,38,198,25,True,True,,
+one_per_author,413150,Stardew Valley,20,192,46,197,15,True,False,,insufficient_topic_language_support
+one_per_author,440900,Conan Exiles,20,197,97,200,74,True,True,,
+one_per_author,447040,Watch Dogs 2,20,196,65,197,28,True,True,,
+one_per_author,489830,The Elder Scrolls V: Skyrim Special Edition,20,195,48,196,47,True,True,,
+one_per_author,504230,Celeste,20,195,57,195,43,True,True,,
+one_per_author,534380,Dying Light 2,20,197,80,195,56,True,True,,
+one_per_author,570,Dota 2,20,199,32,199,34,True,True,,
+one_per_author,582010,Monster Hunter: World,20,195,33,195,21,True,True,,
+one_per_author,588650,Dead Cells,20,195,63,187,34,True,True,,
+one_per_author,646570,Slay the Spire,20,197,60,192,18,True,False,,insufficient_topic_language_support
+one_per_author,648800,Raft,20,194,64,194,31,True,True,,
+one_per_author,730,Counter-Strike 2,20,199,42,198,23,True,True,,
+one_per_author,739630,Phasmophobia,20,193,48,195,42,True,True,,
+one_per_author,813780,Age of Empires II: Definitive Edition,20,197,28,197,41,True,True,,
+one_per_author,8930,Sid Meier's Civilization V,20,192,35,77,13,True,False,,insufficient_topic_language_support
+one_per_author,976730,Halo: The Master Chief Collection,20,192,48,197,54,True,True,,
+complete_games,105600,Terraria,20,199,32,198,23,True,True,,
+complete_games,1086940,Baldur's Gate 3,20,197,48,200,34,True,True,,
+complete_games,1091500,Cyberpunk 2077,20,199,60,198,40,True,True,,
+complete_games,1144200,Ready or Not,20,198,54,200,45,True,True,,
+complete_games,1145360,Hades,20,199,59,200,42,True,True,,
+complete_games,1172470,Apex Legends,20,200,38,198,24,True,True,,
+complete_games,1174180,Red Dead Redemption 2,20,199,43,198,35,True,True,,
+complete_games,1203220,NARAKA: BLADEPOINT,20,200,56,200,31,True,True,,
+complete_games,1245620,Elden Ring,20,200,45,200,27,True,True,,
+complete_games,1426210,It Takes Two,20,200,67,199,36,True,True,,
+complete_games,1517290,Battlefield 2042,20,200,57,200,53,True,True,,
+complete_games,1623730,Palworld,20,198,64,199,26,True,True,,
+complete_games,1687950,Persona 5 Royal,20,200,36,197,35,True,True,,
+complete_games,220,Half-Life 2,20,198,29,199,30,True,True,,
+complete_games,230410,Warframe,20,200,58,199,20,True,True,,
+complete_games,2358720,Black Myth: Wukong,20,199,62,199,33,True,True,,
+complete_games,236390,War Thunder,20,199,19,200,24,True,False,,insufficient_topic_language_support
+complete_games,250900,The Binding of Isaac: Rebirth,20,199,30,199,19,True,False,,insufficient_topic_language_support
+complete_games,252490,Rust,20,200,38,200,40,True,True,,
+complete_games,261550,Mount & Blade II: Bannerlord,20,197,51,200,33,True,True,,
+complete_games,262060,Darkest Dungeon,20,199,55,200,40,True,True,,
+complete_games,271590,Grand Theft Auto V,20,200,19,195,20,True,False,,insufficient_topic_language_support
+complete_games,275850,No Man's Sky,20,199,77,199,40,True,True,,
+complete_games,289070,Sid Meier's Civilization VI,20,196,39,200,33,True,True,,
+complete_games,292030,The Witcher 3: Wild Hunt,20,199,59,200,53,True,True,,
+complete_games,322330,Don't Starve Together,20,200,48,200,37,True,True,,
+complete_games,346110,ARK: Survival Evolved,20,199,47,200,30,True,True,,
+complete_games,367520,Hollow Knight,20,199,52,200,26,True,True,,
+complete_games,381210,Dead by Daylight,20,200,58,200,38,True,True,,
+complete_games,397540,Borderlands 3,20,199,79,199,49,True,True,,
+complete_games,4000,Garry's Mod,20,199,39,200,25,True,True,,
+complete_games,413150,Stardew Valley,20,197,47,199,15,True,False,,insufficient_topic_language_support
+complete_games,440900,Conan Exiles,20,199,98,200,74,True,True,,
+complete_games,447040,Watch Dogs 2,20,198,65,200,28,True,True,,
+complete_games,489830,The Elder Scrolls V: Skyrim Special Edition,20,199,48,199,48,True,True,,
+complete_games,504230,Celeste,20,199,58,199,44,True,True,,
+complete_games,534380,Dying Light 2,20,199,81,200,59,True,True,,
+complete_games,570,Dota 2,20,200,32,200,34,True,True,,
+complete_games,582010,Monster Hunter: World,20,199,33,199,21,True,True,,
+complete_games,588650,Dead Cells,20,198,65,196,35,True,True,,
+complete_games,646570,Slay the Spire,20,200,61,199,21,True,True,,
+complete_games,648800,Raft,20,198,68,200,33,True,True,,
+complete_games,730,Counter-Strike 2,20,199,42,200,23,True,True,,
+complete_games,739630,Phasmophobia,20,200,49,199,43,True,True,,
+complete_games,813780,Age of Empires II: Definitive Edition,20,198,29,200,42,True,True,,
+complete_games,976730,Halo: The Master Chief Collection,20,198,48,199,55,True,True,,
+exclude_short,105600,Terraria,20,143,32,61,18,True,False,,insufficient_topic_language_support
+exclude_short,1086940,Baldur's Gate 3,20,163,48,103,32,True,True,,
+exclude_short,1091500,Cyberpunk 2077,20,159,59,94,37,True,True,,
+exclude_short,1144200,Ready or Not,20,165,54,93,36,True,True,,
+exclude_short,1145360,Hades,20,162,58,99,36,True,True,,
+exclude_short,1172470,Apex Legends,20,152,38,77,19,True,False,,insufficient_topic_language_support
+exclude_short,1174180,Red Dead Redemption 2,20,152,42,69,28,True,True,,
+exclude_short,1203220,NARAKA: BLADEPOINT,20,165,55,75,25,True,True,,
+exclude_short,1245620,Elden Ring,20,158,45,96,25,True,True,,
+exclude_short,1426210,It Takes Two,20,160,67,72,33,True,True,,
+exclude_short,1517290,Battlefield 2042,20,157,57,126,41,True,True,,
+exclude_short,1623730,Palworld,20,159,64,73,17,True,False,,insufficient_topic_language_support
+exclude_short,1687950,Persona 5 Royal,20,167,36,108,33,True,True,,
+exclude_short,220,Half-Life 2,20,158,29,99,29,True,True,,
+exclude_short,230410,Warframe,20,155,58,80,17,True,False,,insufficient_topic_language_support
+exclude_short,2358720,Black Myth: Wukong,20,156,62,83,28,True,True,,
+exclude_short,236390,War Thunder,20,164,19,93,14,True,False,,insufficient_topic_language_support
+exclude_short,238960,Path of Exile,20,161,49,13,6,False,False,insufficient_base_language_support,insufficient_base_language_support
+exclude_short,244850,Space Engineers,20,164,69,22,10,False,False,insufficient_base_language_support,insufficient_base_language_support
+exclude_short,250900,The Binding of Isaac: Rebirth,20,149,29,89,17,True,False,,insufficient_topic_language_support
+exclude_short,252490,Rust,20,144,38,87,35,True,True,,
+exclude_short,261550,Mount & Blade II: Bannerlord,20,152,50,73,28,True,True,,
+exclude_short,262060,Darkest Dungeon,20,173,55,110,37,True,True,,
+exclude_short,271590,Grand Theft Auto V,20,108,18,58,17,True,False,,insufficient_topic_language_support
+exclude_short,275850,No Man's Sky,20,176,77,112,39,True,True,,
+exclude_short,289070,Sid Meier's Civilization VI,20,160,39,82,30,True,True,,
+exclude_short,291550,Brawlhalla,20,157,28,83,39,True,True,,
+exclude_short,292030,The Witcher 3: Wild Hunt,20,173,59,120,51,True,True,,
+exclude_short,322330,Don't Starve Together,20,146,48,82,30,True,True,,
+exclude_short,346110,ARK: Survival Evolved,20,152,47,60,21,True,True,,
+exclude_short,367520,Hollow Knight,20,160,51,87,24,True,True,,
+exclude_short,381210,Dead by Daylight,20,169,58,105,31,True,True,,
+exclude_short,397540,Borderlands 3,20,160,79,99,42,True,True,,
+exclude_short,4000,Garry's Mod,20,132,38,76,20,True,True,,
+exclude_short,413150,Stardew Valley,20,169,47,67,13,True,False,,insufficient_topic_language_support
+exclude_short,440900,Conan Exiles,20,174,98,149,68,True,True,,
+exclude_short,447040,Watch Dogs 2,20,160,64,74,23,True,True,,
+exclude_short,489830,The Elder Scrolls V: Skyrim Special Edition,20,167,47,113,44,True,True,,
+exclude_short,504230,Celeste,20,175,58,127,39,True,True,,
+exclude_short,534380,Dying Light 2,20,163,81,122,56,True,True,,
+exclude_short,570,Dota 2,20,127,31,92,32,True,True,,
+exclude_short,582010,Monster Hunter: World,20,158,33,90,18,True,False,,insufficient_topic_language_support
+exclude_short,588650,Dead Cells,20,158,65,70,25,True,True,,
+exclude_short,646570,Slay the Spire,20,162,61,78,17,True,False,,insufficient_topic_language_support
+exclude_short,648800,Raft,20,144,68,66,27,True,True,,
+exclude_short,730,Counter-Strike 2,20,131,40,55,17,True,False,,insufficient_topic_language_support
+exclude_short,739630,Phasmophobia,20,156,49,87,36,True,True,,
+exclude_short,813780,Age of Empires II: Definitive Edition,20,161,29,100,37,True,True,,
+exclude_short,8930,Sid Meier's Civilization V,20,169,36,45,11,False,False,insufficient_base_language_support,insufficient_base_language_support
+exclude_short,976730,Halo: The Master Chief Collection,20,177,48,134,55,True,True,,
+script_consistent,105600,Terraria,20,196,32,196,23,True,True,,
+script_consistent,1086940,Baldur's Gate 3,20,197,48,195,34,True,True,,
+script_consistent,1091500,Cyberpunk 2077,20,198,60,190,37,True,True,,
+script_consistent,1144200,Ready or Not,20,197,54,188,41,True,True,,
+script_consistent,1145360,Hades,20,197,59,191,40,True,True,,
+script_consistent,1172470,Apex Legends,20,198,38,188,23,True,True,,
+script_consistent,1174180,Red Dead Redemption 2,20,198,43,189,35,True,True,,
+script_consistent,1203220,NARAKA: BLADEPOINT,20,199,56,196,31,True,True,,
+script_consistent,1245620,Elden Ring,20,200,45,195,27,True,True,,
+script_consistent,1426210,It Takes Two,20,199,66,191,36,True,True,,
+script_consistent,1517290,Battlefield 2042,20,200,57,192,52,True,True,,
+script_consistent,1623730,Palworld,20,197,63,193,26,True,True,,
+script_consistent,1687950,Persona 5 Royal,20,198,36,194,34,True,True,,
+script_consistent,220,Half-Life 2,20,194,29,186,28,True,True,,
+script_consistent,230410,Warframe,20,200,58,192,20,True,True,,
+script_consistent,2358720,Black Myth: Wukong,20,194,62,198,33,True,True,,
+script_consistent,236390,War Thunder,20,194,19,190,23,True,False,,insufficient_topic_language_support
+script_consistent,238960,Path of Exile,20,198,49,14,2,False,False,insufficient_base_language_support,insufficient_base_language_support
+script_consistent,244850,Space Engineers,20,197,70,31,9,False,False,insufficient_base_language_support,insufficient_base_language_support
+script_consistent,250900,The Binding of Isaac: Rebirth,20,197,30,193,19,True,False,,insufficient_topic_language_support
+script_consistent,252490,Rust,20,195,38,188,35,True,True,,
+script_consistent,261550,Mount & Blade II: Bannerlord,20,196,50,191,31,True,True,,
+script_consistent,262060,Darkest Dungeon,20,197,55,195,40,True,True,,
+script_consistent,271590,Grand Theft Auto V,20,198,19,181,20,True,False,,insufficient_topic_language_support
+script_consistent,275850,No Man's Sky,20,199,77,194,39,True,True,,
+script_consistent,289070,Sid Meier's Civilization VI,20,194,39,191,30,True,True,,
+script_consistent,291550,Brawlhalla,20,199,28,123,40,True,True,,
+script_consistent,292030,The Witcher 3: Wild Hunt,20,198,59,194,51,True,True,,
+script_consistent,322330,Don't Starve Together,20,196,47,194,37,True,True,,
+script_consistent,346110,ARK: Survival Evolved,20,198,47,191,30,True,True,,
+script_consistent,367520,Hollow Knight,20,198,52,195,26,True,True,,
+script_consistent,381210,Dead by Daylight,20,199,58,197,37,True,True,,
+script_consistent,397540,Borderlands 3,20,199,79,193,49,True,True,,
+script_consistent,4000,Garry's Mod,20,197,39,182,24,True,True,,
+script_consistent,413150,Stardew Valley,20,196,47,197,15,True,False,,insufficient_topic_language_support
+script_consistent,440900,Conan Exiles,20,199,98,187,70,True,True,,
+script_consistent,447040,Watch Dogs 2,20,196,65,186,26,True,True,,
+script_consistent,489830,The Elder Scrolls V: Skyrim Special Edition,20,199,48,186,46,True,True,,
+script_consistent,504230,Celeste,20,196,57,194,44,True,True,,
+script_consistent,534380,Dying Light 2,20,195,81,196,59,True,True,,
+script_consistent,570,Dota 2,20,184,32,181,30,True,True,,
+script_consistent,582010,Monster Hunter: World,20,195,32,198,21,True,True,,
+script_consistent,588650,Dead Cells,20,189,65,190,35,True,True,,
+script_consistent,646570,Slay the Spire,20,199,61,198,21,True,True,,
+script_consistent,648800,Raft,20,197,68,195,32,True,True,,
+script_consistent,730,Counter-Strike 2,20,191,42,187,20,True,True,,
+script_consistent,739630,Phasmophobia,20,197,49,196,42,True,True,,
+script_consistent,813780,Age of Empires II: Definitive Edition,20,198,29,190,39,True,True,,
+script_consistent,8930,Sid Meier's Civilization V,20,198,36,76,13,True,False,,insufficient_topic_language_support
+script_consistent,976730,Halo: The Master Chief Collection,20,198,48,191,54,True,True,,
+no_auxiliary,105600,Terraria,20,199,22,198,11,True,False,,insufficient_topic_language_support
+no_auxiliary,1086940,Baldur's Gate 3,20,197,31,200,15,True,False,,insufficient_topic_language_support
+no_auxiliary,1091500,Cyberpunk 2077,20,199,33,198,16,True,False,,insufficient_topic_language_support
+no_auxiliary,1144200,Ready or Not,20,198,33,200,28,True,True,,
+no_auxiliary,1145360,Hades,20,199,42,200,19,True,False,,insufficient_topic_language_support
+no_auxiliary,1172470,Apex Legends,20,200,21,198,17,True,False,,insufficient_topic_language_support
+no_auxiliary,1174180,Red Dead Redemption 2,20,199,19,198,16,True,False,,insufficient_topic_language_support
+no_auxiliary,1203220,NARAKA: BLADEPOINT,20,200,31,200,22,True,True,,
+no_auxiliary,1245620,Elden Ring,20,200,29,200,7,True,False,,insufficient_topic_language_support
+no_auxiliary,1426210,It Takes Two,20,200,44,199,30,True,True,,
+no_auxiliary,1517290,Battlefield 2042,20,200,31,200,30,True,True,,
+no_auxiliary,1623730,Palworld,20,198,42,199,13,True,False,,insufficient_topic_language_support
+no_auxiliary,1687950,Persona 5 Royal,20,200,18,197,22,True,False,,insufficient_topic_language_support
+no_auxiliary,220,Half-Life 2,20,198,16,199,13,True,False,,insufficient_topic_language_support
+no_auxiliary,230410,Warframe,20,200,34,199,7,True,False,,insufficient_topic_language_support
+no_auxiliary,2358720,Black Myth: Wukong,20,199,41,199,14,True,False,,insufficient_topic_language_support
+no_auxiliary,236390,War Thunder,20,199,10,200,13,True,False,,insufficient_topic_language_support
+no_auxiliary,238960,Path of Exile,20,198,27,22,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+no_auxiliary,244850,Space Engineers,20,199,42,35,6,False,False,insufficient_base_language_support,insufficient_base_language_support
+no_auxiliary,250900,The Binding of Isaac: Rebirth,20,199,17,199,9,True,False,,insufficient_topic_language_support
+no_auxiliary,252490,Rust,20,200,27,200,27,True,True,,
+no_auxiliary,261550,Mount & Blade II: Bannerlord,20,197,28,200,11,True,False,,insufficient_topic_language_support
+no_auxiliary,262060,Darkest Dungeon,20,199,33,200,12,True,False,,insufficient_topic_language_support
+no_auxiliary,271590,Grand Theft Auto V,20,200,11,195,16,True,False,,insufficient_topic_language_support
+no_auxiliary,275850,No Man's Sky,20,199,38,199,19,True,False,,insufficient_topic_language_support
+no_auxiliary,289070,Sid Meier's Civilization VI,20,196,28,200,12,True,False,,insufficient_topic_language_support
+no_auxiliary,291550,Brawlhalla,20,199,17,150,26,True,False,,insufficient_topic_language_support
+no_auxiliary,292030,The Witcher 3: Wild Hunt,20,199,27,200,22,True,True,,
+no_auxiliary,322330,Don't Starve Together,20,200,34,200,18,True,False,,insufficient_topic_language_support
+no_auxiliary,346110,ARK: Survival Evolved,20,199,22,200,19,True,False,,insufficient_topic_language_support
+no_auxiliary,367520,Hollow Knight,20,199,27,200,9,True,False,,insufficient_topic_language_support
+no_auxiliary,381210,Dead by Daylight,20,200,36,200,22,True,True,,
+no_auxiliary,397540,Borderlands 3,20,199,51,199,25,True,True,,
+no_auxiliary,4000,Garry's Mod,20,199,22,200,12,True,False,,insufficient_topic_language_support
+no_auxiliary,413150,Stardew Valley,20,197,27,199,9,True,False,,insufficient_topic_language_support
+no_auxiliary,440900,Conan Exiles,20,199,63,200,46,True,True,,
+no_auxiliary,447040,Watch Dogs 2,20,198,31,200,16,True,False,,insufficient_topic_language_support
+no_auxiliary,489830,The Elder Scrolls V: Skyrim Special Edition,20,199,31,199,22,True,True,,
+no_auxiliary,504230,Celeste,20,199,39,199,20,True,True,,
+no_auxiliary,534380,Dying Light 2,20,199,52,200,25,True,True,,
+no_auxiliary,570,Dota 2,20,200,19,200,14,True,False,,insufficient_topic_language_support
+no_auxiliary,582010,Monster Hunter: World,20,199,18,199,8,True,False,,insufficient_topic_language_support
+no_auxiliary,588650,Dead Cells,20,198,35,196,9,True,False,,insufficient_topic_language_support
+no_auxiliary,646570,Slay the Spire,20,200,38,199,11,True,False,,insufficient_topic_language_support
+no_auxiliary,648800,Raft,20,198,55,200,22,True,True,,
+no_auxiliary,730,Counter-Strike 2,20,199,28,200,10,True,False,,insufficient_topic_language_support
+no_auxiliary,739630,Phasmophobia,20,200,39,199,29,True,True,,
+no_auxiliary,813780,Age of Empires II: Definitive Edition,20,198,13,200,21,True,False,,insufficient_topic_language_support
+no_auxiliary,8930,Sid Meier's Civilization V,20,198,17,78,5,True,False,,insufficient_topic_language_support
+no_auxiliary,976730,Halo: The Master Chief Collection,20,198,34,199,28,True,True,,
+high_confidence_T02_T06,105600,Terraria,20,4,4,4,4,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1086940,Baldur's Gate 3,20,1,1,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1091500,Cyberpunk 2077,20,3,3,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1144200,Ready or Not,20,6,6,4,4,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1145360,Hades,20,2,2,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1172470,Apex Legends,20,5,5,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1174180,Red Dead Redemption 2,20,1,1,3,3,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1203220,NARAKA: BLADEPOINT,20,1,1,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1245620,Elden Ring,20,4,4,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1426210,It Takes Two,20,16,16,15,15,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1517290,Battlefield 2042,20,4,4,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1623730,Palworld,20,7,7,3,3,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,1687950,Persona 5 Royal,20,1,1,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,220,Half-Life 2,20,3,3,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,230410,Warframe,20,3,3,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,2358720,Black Myth: Wukong,20,9,9,2,2,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,236390,War Thunder,20,4,4,2,2,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,238960,Path of Exile,20,2,2,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,244850,Space Engineers,20,8,8,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,250900,The Binding of Isaac: Rebirth,20,5,5,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,252490,Rust,20,7,7,3,3,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,261550,Mount & Blade II: Bannerlord,20,1,1,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,262060,Darkest Dungeon,20,10,10,4,4,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,271590,Grand Theft Auto V,20,0,0,3,3,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,275850,No Man's Sky,20,2,2,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,289070,Sid Meier's Civilization VI,20,6,6,3,3,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,291550,Brawlhalla,20,6,6,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,292030,The Witcher 3: Wild Hunt,20,1,1,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,322330,Don't Starve Together,20,18,18,8,8,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,346110,ARK: Survival Evolved,20,5,5,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,367520,Hollow Knight,20,7,7,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,381210,Dead by Daylight,20,6,6,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,397540,Borderlands 3,20,4,4,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,4000,Garry's Mod,20,9,9,2,2,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,413150,Stardew Valley,20,11,11,5,5,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,440900,Conan Exiles,20,8,8,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,447040,Watch Dogs 2,20,1,1,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,489830,The Elder Scrolls V: Skyrim Special Edition,20,3,3,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,504230,Celeste,20,17,17,3,3,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,534380,Dying Light 2,20,5,5,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,570,Dota 2,20,6,6,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,582010,Monster Hunter: World,20,4,4,2,2,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,588650,Dead Cells,20,7,7,2,2,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,646570,Slay the Spire,20,6,6,2,2,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,648800,Raft,20,19,19,7,7,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,730,Counter-Strike 2,20,6,6,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,739630,Phasmophobia,20,22,22,15,15,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,813780,Age of Empires II: Definitive Edition,20,3,3,2,2,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,8930,Sid Meier's Civilization V,20,4,4,1,1,False,False,insufficient_base_language_support,insufficient_base_language_support
+high_confidence_T02_T06,976730,Halo: The Master Chief Collection,20,5,5,0,0,False,False,insufficient_base_language_support,insufficient_base_language_support
+support_30,105600,Terraria,30,199,32,198,23,True,False,,insufficient_topic_language_support
+support_30,1086940,Baldur's Gate 3,30,197,48,200,34,True,True,,
+support_30,1091500,Cyberpunk 2077,30,199,60,198,40,True,True,,
+support_30,1144200,Ready or Not,30,198,54,200,45,True,True,,
+support_30,1145360,Hades,30,199,59,200,42,True,True,,
+support_30,1172470,Apex Legends,30,200,38,198,24,True,False,,insufficient_topic_language_support
+support_30,1174180,Red Dead Redemption 2,30,199,43,198,35,True,True,,
+support_30,1203220,NARAKA: BLADEPOINT,30,200,56,200,31,True,True,,
+support_30,1245620,Elden Ring,30,200,45,200,27,True,False,,insufficient_topic_language_support
+support_30,1426210,It Takes Two,30,200,67,199,36,True,True,,
+support_30,1517290,Battlefield 2042,30,200,57,200,53,True,True,,
+support_30,1623730,Palworld,30,198,64,199,26,True,False,,insufficient_topic_language_support
+support_30,1687950,Persona 5 Royal,30,200,36,197,35,True,True,,
+support_30,220,Half-Life 2,30,198,29,199,30,True,False,,insufficient_topic_language_support
+support_30,230410,Warframe,30,200,58,199,20,True,False,,insufficient_topic_language_support
+support_30,2358720,Black Myth: Wukong,30,199,62,199,33,True,True,,
+support_30,236390,War Thunder,30,199,19,200,24,True,False,,insufficient_topic_language_support
+support_30,238960,Path of Exile,30,198,49,22,6,False,False,insufficient_base_language_support,insufficient_base_language_support
+support_30,244850,Space Engineers,30,199,70,35,10,False,False,insufficient_base_language_support,insufficient_base_language_support
+support_30,250900,The Binding of Isaac: Rebirth,30,199,30,199,19,True,False,,insufficient_topic_language_support
+support_30,252490,Rust,30,200,38,200,40,True,True,,
+support_30,261550,Mount & Blade II: Bannerlord,30,197,51,200,33,True,True,,
+support_30,262060,Darkest Dungeon,30,199,55,200,40,True,True,,
+support_30,271590,Grand Theft Auto V,30,200,19,195,20,True,False,,insufficient_topic_language_support
+support_30,275850,No Man's Sky,30,199,77,199,40,True,True,,
+support_30,289070,Sid Meier's Civilization VI,30,196,39,200,33,True,True,,
+support_30,291550,Brawlhalla,30,199,28,150,48,True,False,,insufficient_topic_language_support
+support_30,292030,The Witcher 3: Wild Hunt,30,199,59,200,53,True,True,,
+support_30,322330,Don't Starve Together,30,200,48,200,37,True,True,,
+support_30,346110,ARK: Survival Evolved,30,199,47,200,30,True,True,,
+support_30,367520,Hollow Knight,30,199,52,200,26,True,False,,insufficient_topic_language_support
+support_30,381210,Dead by Daylight,30,200,58,200,38,True,True,,
+support_30,397540,Borderlands 3,30,199,79,199,49,True,True,,
+support_30,4000,Garry's Mod,30,199,39,200,25,True,False,,insufficient_topic_language_support
+support_30,413150,Stardew Valley,30,197,47,199,15,True,False,,insufficient_topic_language_support
+support_30,440900,Conan Exiles,30,199,98,200,74,True,True,,
+support_30,447040,Watch Dogs 2,30,198,65,200,28,True,False,,insufficient_topic_language_support
+support_30,489830,The Elder Scrolls V: Skyrim Special Edition,30,199,48,199,48,True,True,,
+support_30,504230,Celeste,30,199,58,199,44,True,True,,
+support_30,534380,Dying Light 2,30,199,81,200,59,True,True,,
+support_30,570,Dota 2,30,200,32,200,34,True,True,,
+support_30,582010,Monster Hunter: World,30,199,33,199,21,True,False,,insufficient_topic_language_support
+support_30,588650,Dead Cells,30,198,65,196,35,True,True,,
+support_30,646570,Slay the Spire,30,200,61,199,21,True,False,,insufficient_topic_language_support
+support_30,648800,Raft,30,198,68,200,33,True,True,,
+support_30,730,Counter-Strike 2,30,199,42,200,23,True,False,,insufficient_topic_language_support
+support_30,739630,Phasmophobia,30,200,49,199,43,True,True,,
+support_30,813780,Age of Empires II: Definitive Edition,30,198,29,200,42,True,False,,insufficient_topic_language_support
+support_30,8930,Sid Meier's Civilization V,30,198,36,78,13,True,False,,insufficient_topic_language_support
+support_30,976730,Halo: The Master Chief Collection,30,198,48,199,55,True,True,,
+unrestricted_seeds,105600,Terraria,20,199,32,198,23,True,True,,
+unrestricted_seeds,1086940,Baldur's Gate 3,20,197,48,200,34,True,True,,
+unrestricted_seeds,1091500,Cyberpunk 2077,20,199,60,198,40,True,True,,
+unrestricted_seeds,1144200,Ready or Not,20,198,54,200,45,True,True,,
+unrestricted_seeds,1145360,Hades,20,199,59,200,42,True,True,,
+unrestricted_seeds,1172470,Apex Legends,20,200,38,198,25,True,True,,
+unrestricted_seeds,1174180,Red Dead Redemption 2,20,199,43,198,35,True,True,,
+unrestricted_seeds,1203220,NARAKA: BLADEPOINT,20,200,56,200,31,True,True,,
+unrestricted_seeds,1245620,Elden Ring,20,200,45,200,27,True,True,,
+unrestricted_seeds,1426210,It Takes Two,20,200,67,199,36,True,True,,
+unrestricted_seeds,1517290,Battlefield 2042,20,200,57,200,53,True,True,,
+unrestricted_seeds,1623730,Palworld,20,198,64,199,26,True,True,,
+unrestricted_seeds,1687950,Persona 5 Royal,20,200,36,197,35,True,True,,
+unrestricted_seeds,220,Half-Life 2,20,198,29,199,30,True,True,,
+unrestricted_seeds,230410,Warframe,20,200,58,199,20,True,True,,
+unrestricted_seeds,2358720,Black Myth: Wukong,20,199,62,199,33,True,True,,
+unrestricted_seeds,236390,War Thunder,20,199,19,200,24,True,False,,insufficient_topic_language_support
+unrestricted_seeds,238960,Path of Exile,20,198,49,22,6,False,False,insufficient_base_language_support,insufficient_base_language_support
+unrestricted_seeds,244850,Space Engineers,20,199,70,35,10,False,False,insufficient_base_language_support,insufficient_base_language_support
+unrestricted_seeds,250900,The Binding of Isaac: Rebirth,20,199,30,199,19,True,False,,insufficient_topic_language_support
+unrestricted_seeds,252490,Rust,20,200,38,200,40,True,True,,
+unrestricted_seeds,261550,Mount & Blade II: Bannerlord,20,197,51,200,33,True,True,,
+unrestricted_seeds,262060,Darkest Dungeon,20,199,55,200,40,True,True,,
+unrestricted_seeds,271590,Grand Theft Auto V,20,200,19,195,20,True,False,,insufficient_topic_language_support
+unrestricted_seeds,275850,No Man's Sky,20,199,78,199,40,True,True,,
+unrestricted_seeds,289070,Sid Meier's Civilization VI,20,196,39,200,33,True,True,,
+unrestricted_seeds,291550,Brawlhalla,20,199,28,150,48,True,True,,
+unrestricted_seeds,292030,The Witcher 3: Wild Hunt,20,199,59,200,53,True,True,,
+unrestricted_seeds,322330,Don't Starve Together,20,200,48,200,37,True,True,,
+unrestricted_seeds,346110,ARK: Survival Evolved,20,199,47,200,30,True,True,,
+unrestricted_seeds,367520,Hollow Knight,20,199,53,200,26,True,True,,
+unrestricted_seeds,381210,Dead by Daylight,20,200,58,200,38,True,True,,
+unrestricted_seeds,397540,Borderlands 3,20,199,79,199,49,True,True,,
+unrestricted_seeds,4000,Garry's Mod,20,199,39,200,25,True,True,,
+unrestricted_seeds,413150,Stardew Valley,20,197,47,199,15,True,False,,insufficient_topic_language_support
+unrestricted_seeds,440900,Conan Exiles,20,199,98,200,74,True,True,,
+unrestricted_seeds,447040,Watch Dogs 2,20,198,65,200,28,True,True,,
+unrestricted_seeds,489830,The Elder Scrolls V: Skyrim Special Edition,20,199,48,199,48,True,True,,
+unrestricted_seeds,504230,Celeste,20,199,58,199,44,True,True,,
+unrestricted_seeds,534380,Dying Light 2,20,199,81,200,59,True,True,,
+unrestricted_seeds,570,Dota 2,20,200,32,200,34,True,True,,
+unrestricted_seeds,582010,Monster Hunter: World,20,199,33,199,21,True,True,,
+unrestricted_seeds,588650,Dead Cells,20,198,65,196,35,True,True,,
+unrestricted_seeds,646570,Slay the Spire,20,200,61,199,21,True,True,,
+unrestricted_seeds,648800,Raft,20,198,68,200,33,True,True,,
+unrestricted_seeds,730,Counter-Strike 2,20,199,42,200,23,True,True,,
+unrestricted_seeds,739630,Phasmophobia,20,200,49,199,43,True,True,,
+unrestricted_seeds,813780,Age of Empires II: Definitive Edition,20,198,29,200,42,True,True,,
+unrestricted_seeds,8930,Sid Meier's Civilization V,20,198,36,78,13,True,False,,insufficient_topic_language_support
+unrestricted_seeds,976730,Halo: The Master Chief Collection,20,198,48,199,56,True,True,,
+k8_overlap_proxy,105600,Terraria,20,199,32,198,23,True,True,,
+k8_overlap_proxy,1086940,Baldur's Gate 3,20,197,48,200,34,True,True,,
+k8_overlap_proxy,1091500,Cyberpunk 2077,20,199,60,198,40,True,True,,
+k8_overlap_proxy,1144200,Ready or Not,20,198,54,200,45,True,True,,
+k8_overlap_proxy,1145360,Hades,20,199,59,200,42,True,True,,
+k8_overlap_proxy,1172470,Apex Legends,20,200,38,198,25,True,True,,
+k8_overlap_proxy,1174180,Red Dead Redemption 2,20,199,43,198,35,True,True,,
+k8_overlap_proxy,1203220,NARAKA: BLADEPOINT,20,200,56,200,31,True,True,,
+k8_overlap_proxy,1245620,Elden Ring,20,200,45,200,27,True,True,,
+k8_overlap_proxy,1426210,It Takes Two,20,200,67,199,36,True,True,,
+k8_overlap_proxy,1517290,Battlefield 2042,20,200,57,200,53,True,True,,
+k8_overlap_proxy,1623730,Palworld,20,198,64,199,26,True,True,,
+k8_overlap_proxy,1687950,Persona 5 Royal,20,200,36,197,35,True,True,,
+k8_overlap_proxy,220,Half-Life 2,20,198,29,199,30,True,True,,
+k8_overlap_proxy,230410,Warframe,20,200,58,199,20,True,True,,
+k8_overlap_proxy,2358720,Black Myth: Wukong,20,199,61,199,33,True,True,,
+k8_overlap_proxy,236390,War Thunder,20,199,19,200,24,True,False,,insufficient_topic_language_support
+k8_overlap_proxy,238960,Path of Exile,20,198,49,22,6,False,False,insufficient_base_language_support,insufficient_base_language_support
+k8_overlap_proxy,244850,Space Engineers,20,199,70,35,10,False,False,insufficient_base_language_support,insufficient_base_language_support
+k8_overlap_proxy,250900,The Binding of Isaac: Rebirth,20,199,30,199,19,True,False,,insufficient_topic_language_support
+k8_overlap_proxy,252490,Rust,20,200,38,200,40,True,True,,
+k8_overlap_proxy,261550,Mount & Blade II: Bannerlord,20,197,51,200,33,True,True,,
+k8_overlap_proxy,262060,Darkest Dungeon,20,199,55,200,40,True,True,,
+k8_overlap_proxy,271590,Grand Theft Auto V,20,200,19,195,20,True,False,,insufficient_topic_language_support
+k8_overlap_proxy,275850,No Man's Sky,20,199,78,199,40,True,True,,
+k8_overlap_proxy,289070,Sid Meier's Civilization VI,20,196,39,200,33,True,True,,
+k8_overlap_proxy,291550,Brawlhalla,20,199,28,150,48,True,True,,
+k8_overlap_proxy,292030,The Witcher 3: Wild Hunt,20,199,59,200,53,True,True,,
+k8_overlap_proxy,322330,Don't Starve Together,20,200,48,200,37,True,True,,
+k8_overlap_proxy,346110,ARK: Survival Evolved,20,199,47,200,30,True,True,,
+k8_overlap_proxy,367520,Hollow Knight,20,199,53,200,26,True,True,,
+k8_overlap_proxy,381210,Dead by Daylight,20,200,58,200,38,True,True,,
+k8_overlap_proxy,397540,Borderlands 3,20,199,79,199,49,True,True,,
+k8_overlap_proxy,4000,Garry's Mod,20,199,39,200,25,True,True,,
+k8_overlap_proxy,413150,Stardew Valley,20,197,47,199,15,True,False,,insufficient_topic_language_support
+k8_overlap_proxy,440900,Conan Exiles,20,199,98,200,74,True,True,,
+k8_overlap_proxy,447040,Watch Dogs 2,20,198,65,200,28,True,True,,
+k8_overlap_proxy,489830,The Elder Scrolls V: Skyrim Special Edition,20,199,48,199,48,True,True,,
+k8_overlap_proxy,504230,Celeste,20,199,58,199,44,True,True,,
+k8_overlap_proxy,534380,Dying Light 2,20,199,81,200,59,True,True,,
+k8_overlap_proxy,570,Dota 2,20,200,32,200,34,True,True,,
+k8_overlap_proxy,582010,Monster Hunter: World,20,199,33,199,21,True,True,,
+k8_overlap_proxy,588650,Dead Cells,20,198,65,196,35,True,True,,
+k8_overlap_proxy,646570,Slay the Spire,20,200,61,199,21,True,True,,
+k8_overlap_proxy,648800,Raft,20,198,68,200,33,True,True,,
+k8_overlap_proxy,730,Counter-Strike 2,20,199,42,200,23,True,True,,
+k8_overlap_proxy,739630,Phasmophobia,20,200,49,199,43,True,True,,
+k8_overlap_proxy,813780,Age of Empires II: Definitive Edition,20,198,29,200,42,True,True,,
+k8_overlap_proxy,8930,Sid Meier's Civilization V,20,198,36,78,13,True,False,,insufficient_topic_language_support
+k8_overlap_proxy,976730,Halo: The Master Chief Collection,20,198,48,199,55,True,True,,
+raw_master_denominator,105600,Terraria,20,200,32,200,23,True,True,,
+raw_master_denominator,1086940,Baldur's Gate 3,20,200,48,200,34,True,True,,
+raw_master_denominator,1091500,Cyberpunk 2077,20,200,60,200,40,True,True,,
+raw_master_denominator,1144200,Ready or Not,20,200,54,200,45,True,True,,
+raw_master_denominator,1145360,Hades,20,200,59,200,42,True,True,,
+raw_master_denominator,1172470,Apex Legends,20,200,38,200,24,True,True,,
+raw_master_denominator,1174180,Red Dead Redemption 2,20,200,43,200,35,True,True,,
+raw_master_denominator,1203220,NARAKA: BLADEPOINT,20,200,56,200,31,True,True,,
+raw_master_denominator,1245620,Elden Ring,20,200,45,200,27,True,True,,
+raw_master_denominator,1426210,It Takes Two,20,200,67,200,36,True,True,,
+raw_master_denominator,1517290,Battlefield 2042,20,200,57,200,53,True,True,,
+raw_master_denominator,1623730,Palworld,20,200,64,200,26,True,True,,
+raw_master_denominator,1687950,Persona 5 Royal,20,200,36,200,35,True,True,,
+raw_master_denominator,220,Half-Life 2,20,200,29,200,30,True,True,,
+raw_master_denominator,230410,Warframe,20,200,58,200,20,True,True,,
+raw_master_denominator,2358720,Black Myth: Wukong,20,200,62,200,33,True,True,,
+raw_master_denominator,236390,War Thunder,20,200,19,200,24,True,False,,insufficient_topic_language_support
+raw_master_denominator,238960,Path of Exile,20,200,49,22,6,False,False,insufficient_base_language_support,insufficient_base_language_support
+raw_master_denominator,244850,Space Engineers,20,200,70,35,10,False,False,insufficient_base_language_support,insufficient_base_language_support
+raw_master_denominator,250900,The Binding of Isaac: Rebirth,20,200,30,200,19,True,False,,insufficient_topic_language_support
+raw_master_denominator,252490,Rust,20,200,38,200,40,True,True,,
+raw_master_denominator,261550,Mount & Blade II: Bannerlord,20,200,51,200,33,True,True,,
+raw_master_denominator,262060,Darkest Dungeon,20,200,55,200,40,True,True,,
+raw_master_denominator,271590,Grand Theft Auto V,20,200,19,200,20,True,False,,insufficient_topic_language_support
+raw_master_denominator,275850,No Man's Sky,20,200,77,200,40,True,True,,
+raw_master_denominator,289070,Sid Meier's Civilization VI,20,200,39,200,33,True,True,,
+raw_master_denominator,291550,Brawlhalla,20,200,28,150,48,True,True,,
+raw_master_denominator,292030,The Witcher 3: Wild Hunt,20,200,59,200,53,True,True,,
+raw_master_denominator,322330,Don't Starve Together,20,200,48,200,37,True,True,,
+raw_master_denominator,346110,ARK: Survival Evolved,20,200,47,200,30,True,True,,
+raw_master_denominator,367520,Hollow Knight,20,200,52,200,26,True,True,,
+raw_master_denominator,381210,Dead by Daylight,20,200,58,200,38,True,True,,
+raw_master_denominator,397540,Borderlands 3,20,200,79,200,49,True,True,,
+raw_master_denominator,4000,Garry's Mod,20,200,39,200,25,True,True,,
+raw_master_denominator,413150,Stardew Valley,20,200,47,200,15,True,False,,insufficient_topic_language_support
+raw_master_denominator,440900,Conan Exiles,20,200,98,200,74,True,True,,
+raw_master_denominator,447040,Watch Dogs 2,20,200,65,200,28,True,True,,
+raw_master_denominator,489830,The Elder Scrolls V: Skyrim Special Edition,20,200,48,200,48,True,True,,
+raw_master_denominator,504230,Celeste,20,200,58,200,44,True,True,,
+raw_master_denominator,534380,Dying Light 2,20,200,81,200,59,True,True,,
+raw_master_denominator,570,Dota 2,20,200,32,200,34,True,True,,
+raw_master_denominator,582010,Monster Hunter: World,20,200,33,200,21,True,True,,
+raw_master_denominator,588650,Dead Cells,20,200,65,200,35,True,True,,
+raw_master_denominator,646570,Slay the Spire,20,200,61,200,21,True,True,,
+raw_master_denominator,648800,Raft,20,200,68,200,33,True,True,,
+raw_master_denominator,730,Counter-Strike 2,20,200,42,200,23,True,True,,
+raw_master_denominator,739630,Phasmophobia,20,200,49,200,43,True,True,,
+raw_master_denominator,813780,Age of Empires II: Definitive Edition,20,200,29,200,42,True,True,,
+raw_master_denominator,8930,Sid Meier's Civilization V,20,200,36,79,13,True,False,,insufficient_topic_language_support
+raw_master_denominator,976730,Halo: The Master Chief Collection,20,200,48,200,55,True,True,,

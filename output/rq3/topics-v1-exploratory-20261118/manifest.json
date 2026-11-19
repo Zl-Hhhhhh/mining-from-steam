@@ -1,0 +1,178 @@
+{
+  "analysis_version": "rq3-exploratory-20261119-v1",
+  "topic_version": "topics-v1-exploratory-20261118",
+  "source_commit": "2d2f28abb6b6aa8a6e8f60ba0acb5ae78425602a",
+  "config_sha256": "e235b1e1d5bacb3b89681f4f3465e735e487a27fa11979907215733f9ebe4b5d",
+  "inputs": {
+    "clean_manifest": {
+      "path": "data/cleaned/freeze_20261101/cleaning_manifest.json",
+      "sha256": "442f7e9884745a0bc17ce6a85af2e6a576edd00bac8373c3fb8455f11021b57a",
+      "expected_sha256": "d88a7ef548666f0b8120a0bd673403bf2f30d4860cfb3b0fc7d4caab01f11420",
+      "match": "LF-equivalent"
+    },
+    "master": {
+      "path": "data/cleaned/freeze_20261101/clean_master.jsonl",
+      "sha256": "8a62b9df2b2c2fe1ac82c483c4a5c87ae5c28805fd62593f699a88c12648ba8a",
+      "expected_sha256": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26",
+      "match": "LF-equivalent"
+    },
+    "metadata_manifest": {
+      "path": "data/metadata/freeze_20261101/metadata_manifest.json",
+      "sha256": "0de0e9f26e269cedc291e6a1b7e270ba5b5277154f6214ac4de6e357c76fb4b3",
+      "expected_sha256": "46103171ebf6a12844d665138a3631effdd53c8f93d27ec6c671dbb5dd0e45f2",
+      "match": "LF-equivalent"
+    },
+    "metadata": {
+      "path": "data/metadata/freeze_20261101/game_meta.csv",
+      "sha256": "f10d70b21d39a3e5871a04cdc636ee31900b52c3c258f2b9c6bfdc443b32b546",
+      "expected_sha256": "f369a0d5e5f02a5b802f3bbc607c7754a50fe5fd80f7a7b8a1441100c89b4204",
+      "match": "LF-equivalent"
+    },
+    "freeze_manifest": {
+      "path": "data/freeze_20261101/freeze_manifest.json",
+      "sha256": "b688696c15ea6f626f788dad113beacf2618ff15c455ea21509550ba7e501f26",
+      "expected_sha256": "fe31e19f1d002b038b09e33f9b8abdcf84e07c9c43bdf4c4e43d5cf806482bbd",
+      "match": "LF-equivalent"
+    },
+    "topic_manifest": {
+      "path": "output/topic_selection/topics-v1-exploratory-20261118/topic_v1.json",
+      "sha256": "3b36b145d6ffa1f8e80643ace243f26cbe5d664cc215bfb9a77d200dcbeed45e",
+      "expected_sha256": "3b36b145d6ffa1f8e80643ace243f26cbe5d664cc215bfb9a77d200dcbeed45e",
+      "match": "exact"
+    },
+    "contract": {
+      "path": "output/topic_selection/topics-v1-exploratory-20261118/analysis_input_contract.json",
+      "sha256": "8562b5fe76fbc9ffd8e7fa431558dc93f1f5a34fd3cc421efe53414a44456cf9",
+      "expected_sha256": "8562b5fe76fbc9ffd8e7fa431558dc93f1f5a34fd3cc421efe53414a44456cf9",
+      "match": "exact"
+    },
+    "reviews": {
+      "path": "output/topic_selection/topics-v1-exploratory-20261118/review_topic_weights.jsonl",
+      "sha256": "eaecacd6aa43b34d328704d7c346c26c7910b2570773dbab0e038136f2147689",
+      "expected_sha256": "eaecacd6aa43b34d328704d7c346c26c7910b2570773dbab0e038136f2147689",
+      "match": "exact"
+    },
+    "labels": {
+      "path": "output/topic_selection/topics-v1-exploratory-20261118/unit_topic_assignments.jsonl",
+      "sha256": "367b55bd518ffd506d0c445698742feb636c8e6e2e858e44ce669d5aa7bdc81a",
+      "expected_sha256": "367b55bd518ffd506d0c445698742feb636c8e6e2e858e44ce669d5aa7bdc81a",
+      "match": "exact"
+    },
+    "topic_config": {
+      "path": "config/topics_v1_exploratory.json",
+      "sha256": "c02c080bbaef7c6ea137a9935048cda29d07a7dabb0a7b7f93e0d38fc0f39b1e",
+      "expected_sha256": "0535a90d55d8a7b0267895e992e666a9365e62ff0f1a1f80c00be0dec5c79542",
+      "match": "LF-equivalent"
+    },
+    "units": {
+      "path": "output/topic_selection/task12-20261114/handoff/sentence_units.jsonl",
+      "sha256": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+      "expected_sha256": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+      "match": "exact"
+    },
+    "review_map": {
+      "path": "output/topic_selection/task12-20261114/handoff/review_to_units.json",
+      "sha256": "a1eb3a0a88b76b7ca8fda70ce5d69092e32556ebc040a7d9aec77a11188dab91",
+      "expected_sha256": "a1eb3a0a88b76b7ca8fda70ce5d69092e32556ebc040a7d9aec77a11188dab91",
+      "match": "exact"
+    },
+    "draft": {
+      "path": "output/topic_selection/task12-20261114/topic-list-draft.json",
+      "sha256": "5975c4d0024724ff9d034b21143a6f6ef628c9c4666f6fde36c5a4383e3e6e71",
+      "expected_sha256": "5975c4d0024724ff9d034b21143a6f6ef628c9c4666f6fde36c5a4383e3e6e71",
+      "match": "exact"
+    },
+    "seeds": {
+      "path": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/topic-seed-units.json",
+      "sha256": "ca721c8c6bcf5ced911228d5d6e4a9174452178a57e9c531358eb1cfd4eff0d8",
+      "expected_sha256": "ca721c8c6bcf5ced911228d5d6e4a9174452178a57e9c531358eb1cfd4eff0d8",
+      "match": "exact"
+    },
+    "vector_manifest": {
+      "path": "output/embedding-bge-sentences/task12-20261117-v1/sentence_embedding_manifest.json",
+      "sha256": "46f983005195b328a86e7edc4e8ed72ea68ffc9d691067f28981c94a325a3a31",
+      "expected_sha256": "46f983005195b328a86e7edc4e8ed72ea68ffc9d691067f28981c94a325a3a31",
+      "match": "exact"
+    },
+    "vector_ids": {
+      "path": "output/embedding-bge-sentences/task12-20261117-v1/unit_ids.json",
+      "sha256": "73207e17a2ada4367c01c2fa46a4b412547f96e0e3762debc03fb2371e75de2f",
+      "expected_sha256": "73207e17a2ada4367c01c2fa46a4b412547f96e0e3762debc03fb2371e75de2f",
+      "match": "exact"
+    },
+    "vectors": {
+      "path": "output/embedding-bge-sentences/task12-20261117-v1/sentence_vectors.npy",
+      "sha256": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd",
+      "expected_sha256": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd",
+      "match": "exact"
+    },
+    "clusters": {
+      "path": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/assignments.csv",
+      "sha256": "a04b0feb141c1603b2c800ad24da2eb39036916fc4132265fb181ace65fe9609",
+      "expected_sha256": "a04b0feb141c1603b2c800ad24da2eb39036916fc4132265fb181ace65fe9609",
+      "match": "exact"
+    },
+    "k8_clusters": {
+      "path": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k8_s17/assignments.csv",
+      "sha256": "a76543634fd3760b3a04e3cb56d4538a95ecca61b85340a8b174577fa449349d",
+      "expected_sha256": "a76543634fd3760b3a04e3cb56d4538a95ecca61b85340a8b174577fa449349d",
+      "match": "exact"
+    }
+  },
+  "generators": [
+    {
+      "path": "scripts/analyze_rq3.py",
+      "sha256": "91867100e63089e6f11041b058fff589e088fd38f734cd31bb06d0e51553b871"
+    },
+    {
+      "path": "scripts/rq3_inputs.py",
+      "sha256": "7fc044ea7e66020f9c7b1b71ee5ad4ad0a3ad11eee3dca2e1249e9ff71007a1e"
+    },
+    {
+      "path": "scripts/rq3_statistics.py",
+      "sha256": "d56483a6bc5be248d9a920214d94d1e39b1f1ff36c43360c2d13f4bfcdb5ae54"
+    },
+    {
+      "path": "scripts/rq3_report.py",
+      "sha256": "a50be8123726f986634890a56dfb03b0b514ceae13a6909d605b14b8734bba51"
+    },
+    {
+      "path": "scripts/analysis_common.py",
+      "sha256": "0395246da340610d78101365aa3713f1f46be73243c6c0f946fd776f7412df3e"
+    },
+    {
+      "path": "scripts/assign_topics_v1_cluster_derived.py",
+      "sha256": "faf8a4b941db2e8ec32c1e96af2e0fe5dc6a0edadb630b1aadc82be92887383a"
+    }
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "output_scope": "Exploratory RQ3; source language is not nationality, theme weights are not probabilities.",
+  "outputs_sha256": {
+    "diagnostics.json": "7cdd0294e773f18c779823e966899d3221136c9e37dadd5e74839d307d464880",
+    "figures/coverage_by_game.png": "b59590c54fd45f7b958ae00e2125af19353b68827f16a6e5fb9c14616e218721",
+    "figures/game_topic_difference_heatmap.png": "f33eb0caa1abe0a3eb31b1e48000052906649c2ca7828432ab02b37907756817",
+    "figures/sensitivity_comparison.png": "88845ce6ccfb26887386b47026cbb3d3e28fa323f68f495c525afdd3b47cc1e5",
+    "figures/topic_language_differences.png": "afb675279ee72c7e63ec4641bbcf37753981ca6180ba78fbc7ff0cfc8060d395",
+    "figures/topic_language_interactions.png": "522fbfb42472e8a74a9fec66fd5ab166558ebc3a65b80fe2f7b7eeaadc8502fe",
+    "game_language_differences.csv": "aa5b7fb9293feadb65464154e32a7cb096e36782f6a4747dfd4d092005736f95",
+    "game_support.csv": "1affaacfab73f47d9e3661d1687d88185edcd7ea19b75350955eb5558def8969",
+    "interaction_effects.csv": "b49840117994bd0f3c96841725ba140b542e507e9136d4145a62596a2be97cc9",
+    "model_diagnostics.csv": "78d9d5532cad8bb79f33fed01d45784762839da2c3d7a1953ca2e5ddb3692a4c",
+    "paired_estimates.csv": "b8104ce102bb5339479de899af0f97d9d365e03b8605281a48e0ad43a5093d40",
+    "README.md": "40198fd7605d4ab7af7d95693f03233d008c6a20657a2c1da1de69d8d502e977",
+    "report.html": "be259110ec2c760882ce4d5c5a49691f647ecd66131400d201e147d50bc47bfa",
+    "review_inclusion.csv": "e926f1d2cb3df64b248fb7fe081aadda3db0994a70394503e479122308ee37f1",
+    "robustness_summary.csv": "f7e021828e2bb36f5417d1d3620c69acf91a265676b37046de74cb8632637c15",
+    "sample_flow.csv": "fdca9b00ac417770df0093ef629566dadff260594c98ca1b15804652c6ffb176",
+    "source_coverage.csv": "2fe446cfaee088c6774bf8adb65bc39bd219490e862d42438d9475319fcaab8d"
+  }
+}

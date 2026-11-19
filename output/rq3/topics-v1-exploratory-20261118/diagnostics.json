@@ -1,0 +1,1222 @@
+{
+  "review_weights_reaggregated": true,
+  "master_reviews": 19486,
+  "fit_evidence_reviews": 4218,
+  "all_evidence_reviews": 4879,
+  "unit_confidence_counts": {
+    "low": 8165,
+    "high": 750,
+    "medium": 64
+  },
+  "high_confidence_topics": {
+    "T06": 393,
+    "T02": 357
+  },
+  "k8_proxy_mapping": {
+    "0": {
+      "fit_overlaps": {
+        "7": 908,
+        "4": 7,
+        "0": 8,
+        "9": 11,
+        "3": 5,
+        "6": 18
+      },
+      "parents_used": [
+        "7"
+      ],
+      "policy": {
+        "topic_ids": [
+          "T01",
+          "T02",
+          "T04",
+          "T05",
+          "T08"
+        ],
+        "confidence": "low",
+        "route": "multi_candidate"
+      }
+    },
+    "1": {
+      "fit_overlaps": {
+        "2": 655,
+        "8": 4,
+        "5": 31,
+        "0": 79,
+        "3": 1
+      },
+      "parents_used": [
+        "2"
+      ],
+      "policy": {
+        "topic_ids": [
+          "T03",
+          "T08"
+        ],
+        "confidence": "medium",
+        "route": "multi_candidate"
+      }
+    },
+    "2": {
+      "fit_overlaps": {
+        "3": 887,
+        "4": 118,
+        "9": 6,
+        "7": 41,
+        "6": 8,
+        "1": 3,
+        "0": 13
+      },
+      "parents_used": [
+        "3"
+      ],
+      "policy": {
+        "topic_ids": [
+          "T01",
+          "T02",
+          "T04",
+          "T05",
+          "T08"
+        ],
+        "confidence": "low",
+        "route": "multi_candidate"
+      }
+    },
+    "3": {
+      "fit_overlaps": {
+        "0": 75,
+        "9": 735,
+        "6": 42,
+        "3": 4,
+        "4": 6,
+        "7": 3,
+        "1": 1
+      },
+      "parents_used": [
+        "9"
+      ],
+      "policy": {
+        "topic_ids": [
+          "T04",
+          "T05"
+        ],
+        "confidence": "medium",
+        "route": "multi_candidate"
+      }
+    },
+    "4": {
+      "fit_overlaps": {
+        "1": 381,
+        "2": 1,
+        "4": 4,
+        "6": 2,
+        "3": 1,
+        "0": 1
+      },
+      "parents_used": [
+        "1"
+      ],
+      "policy": {
+        "topic_ids": [
+          "T06"
+        ],
+        "confidence": "high",
+        "route": "single"
+      }
+    },
+    "5": {
+      "fit_overlaps": {
+        "8": 822,
+        "2": 32,
+        "5": 46,
+        "4": 83,
+        "6": 24,
+        "0": 2,
+        "3": 8
+      },
+      "parents_used": [
+        "8"
+      ],
+      "policy": {
+        "topic_ids": [
+          "T01",
+          "T02",
+          "T04",
+          "T08"
+        ],
+        "confidence": "low",
+        "route": "multi_candidate"
+      }
+    },
+    "6": {
+      "fit_overlaps": {
+        "6": 171,
+        "5": 770,
+        "9": 1,
+        "0": 31,
+        "2": 11,
+        "4": 13,
+        "8": 5,
+        "1": 2
+      },
+      "parents_used": [
+        "5"
+      ],
+      "policy": {
+        "topic_ids": [
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T08"
+        ],
+        "confidence": "low",
+        "route": "multi_candidate"
+      }
+    },
+    "7": {
+      "fit_overlaps": {
+        "4": 522,
+        "0": 543,
+        "6": 92,
+        "7": 11,
+        "5": 6,
+        "9": 5,
+        "3": 2,
+        "2": 2,
+        "1": 6
+      },
+      "parents_used": [
+        "0",
+        "4"
+      ],
+      "policy": {
+        "topic_ids": [
+          "T01",
+          "T07",
+          "T08"
+        ],
+        "confidence": "low",
+        "route": "multi_candidate"
+      }
+    }
+  },
+  "script_diagnostic_is_language_identification": false,
+  "alternative_mapping_uses_outcomes": false,
+  "samples": {
+    "primary_fit": {
+      "after_filters": 19395,
+      "paired_base_reviews": 18941,
+      "paired_topic_reviews": 3841,
+      "paired_base_ids_sha256": "187657c5dacd6105b54fb5103d6c6804bb7d7f47d237f6dd0a8f3c2723fa3bf9",
+      "paired_topic_ids_sha256": "b4e4d8d1eb01e8e093344684a7accef6d0da0a0ac9becb0021c559f9a19cc5fb"
+    },
+    "all_units": {
+      "after_filters": 19395,
+      "paired_base_reviews": 18941,
+      "paired_topic_reviews": 4599,
+      "paired_base_ids_sha256": "187657c5dacd6105b54fb5103d6c6804bb7d7f47d237f6dd0a8f3c2723fa3bf9",
+      "paired_topic_ids_sha256": "acf0bd39d9b118002943f86b9ee67061b2d94dd33bd9e1a04f0601ecd65b40e6"
+    },
+    "all_same_fit_population": {
+      "after_filters": 4218,
+      "paired_base_reviews": 534,
+      "paired_topic_reviews": 534,
+      "paired_base_ids_sha256": "4a9f2423f58784f2b1af310b2cafcc1042910ce6afda205eb75f65dd7d27fc95",
+      "paired_topic_ids_sha256": "4a9f2423f58784f2b1af310b2cafcc1042910ce6afda205eb75f65dd7d27fc95"
+    },
+    "common_window": {
+      "after_filters": 14743,
+      "paired_base_reviews": 11340,
+      "paired_topic_reviews": 1614,
+      "paired_base_ids_sha256": "149aeea0363368024aa8157c3bf37b8e20ac6869213a0d5f397e911b84cac8a5",
+      "paired_topic_ids_sha256": "077eaee87cd1dc45ff1378e7ffd6258ba92e4dff8174ff1de53c9418381eae85"
+    },
+    "original_same_common_games": {
+      "after_filters": 7962,
+      "paired_base_reviews": 7962,
+      "paired_topic_reviews": 1811,
+      "paired_base_ids_sha256": "e774e8048d59465105cd00a4fb29309afaaed21477e533db38f754abddd997d2",
+      "paired_topic_ids_sha256": "1656163de2c0b5a325038f2d4ca13d6c0f373d94a05d8935724cf71e04b8517e"
+    },
+    "unique_text": {
+      "after_filters": 17530,
+      "paired_base_reviews": 17092,
+      "paired_topic_reviews": 3832,
+      "paired_base_ids_sha256": "b92aa6017beade43501041ec9d255e9aefd5285e2bdeb13e6f1b1167d4fe7253",
+      "paired_topic_ids_sha256": "9e03fea21ec7652bc162aaee057a01c2c92bd0be68cb3f858b229bc56732bff5"
+    },
+    "one_per_author": {
+      "after_filters": 19008,
+      "paired_base_reviews": 18562,
+      "paired_topic_reviews": 3660,
+      "paired_base_ids_sha256": "b4e637e821c168849dcf1392a2a9149971ba926b2d8adf5e4c7f63208b08105a",
+      "paired_topic_ids_sha256": "60c84f9b81e46ad719d4d4ea3ad14e154e5f3e9ee8b8f94d6ed9680acd77bacb"
+    },
+    "complete_games": {
+      "after_filters": 18316,
+      "paired_base_reviews": 18316,
+      "paired_topic_reviews": 3765,
+      "paired_base_ids_sha256": "70a86fb3d634e0a593f4e40d59a5edb7d5070cd295874c1b8f7e59dd3ce29495",
+      "paired_topic_ids_sha256": "727361903236c10f4757967929bc2e67b9fe363617db0acd53c4a72fcf1a5c52"
+    },
+    "exclude_short": {
+      "after_filters": 12210,
+      "paired_base_reviews": 11636,
+      "paired_topic_reviews": 3169,
+      "paired_base_ids_sha256": "7dd947ccddb1a451fc2a245b4b99e4b6fa42b33103f5990a37b7d43f3a0f922f",
+      "paired_topic_ids_sha256": "07daa5c537e5768921e196a6518a92b5c00d12b28ba4c6a4f2c8af2153a93284"
+    },
+    "script_consistent": {
+      "after_filters": 18897,
+      "paired_base_reviews": 18457,
+      "paired_topic_reviews": 3777,
+      "paired_base_ids_sha256": "e3090e78e9c5a46bfa1512161ccaea4256f0e367f65214c95d8206ab1bdadd81",
+      "paired_topic_ids_sha256": "8c5f8ddb98174cb4d86a3c479362e28f241ab4be7316f3b56621008c07aa8316"
+    },
+    "no_auxiliary": {
+      "after_filters": 19395,
+      "paired_base_reviews": 18941,
+      "paired_topic_reviews": 991,
+      "paired_base_ids_sha256": "187657c5dacd6105b54fb5103d6c6804bb7d7f47d237f6dd0a8f3c2723fa3bf9",
+      "paired_topic_ids_sha256": "6002acd23d7943619ccac2bb686ae5b3edac7e0a7d163df2824dfe5506e82932"
+    },
+    "high_confidence_T02_T06": {
+      "after_filters": 404,
+      "paired_base_reviews": 0,
+      "paired_topic_reviews": 0,
+      "paired_base_ids_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "paired_topic_ids_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "support_30": {
+      "after_filters": 19395,
+      "paired_base_reviews": 18941,
+      "paired_topic_reviews": 2842,
+      "paired_base_ids_sha256": "187657c5dacd6105b54fb5103d6c6804bb7d7f47d237f6dd0a8f3c2723fa3bf9",
+      "paired_topic_ids_sha256": "617c19d23999b1c180d2057de9e9d77f96a368641a2d4543ce69bfbc047a2501"
+    },
+    "unrestricted_seeds": {
+      "after_filters": 19395,
+      "paired_base_reviews": 18941,
+      "paired_topic_reviews": 3845,
+      "paired_base_ids_sha256": "187657c5dacd6105b54fb5103d6c6804bb7d7f47d237f6dd0a8f3c2723fa3bf9",
+      "paired_topic_ids_sha256": "7a4591890ae36d2a50c77e52e5dc312d64e11dc0fab10981a9f98597f8ebdbef"
+    },
+    "k8_overlap_proxy": {
+      "after_filters": 19395,
+      "paired_base_reviews": 18941,
+      "paired_topic_reviews": 3843,
+      "paired_base_ids_sha256": "187657c5dacd6105b54fb5103d6c6804bb7d7f47d237f6dd0a8f3c2723fa3bf9",
+      "paired_topic_ids_sha256": "d2f076ba1390bb07f38a06849f2af3c3e9b12330a273f66d477a2957a0804659"
+    },
+    "raw_master_denominator": {
+      "after_filters": 19486,
+      "paired_base_reviews": 19029,
+      "paired_topic_reviews": 3841,
+      "paired_base_ids_sha256": "5ec0609a5d8e3258dd39c5f187a687d34d8257e4bd5db162c687c2635f5731be",
+      "paired_topic_ids_sha256": "b4e4d8d1eb01e8e093344684a7accef6d0da0a0ac9becb0021c559f9a19cc5fb"
+    }
+  },
+  "interaction_models": [
+    {
+      "status": "ok",
+      "n_input": 3841,
+      "n_used": 3841,
+      "games_used": 43,
+      "excluded_single_outcome_games": [],
+      "reference": "T01",
+      "weight_step": 0.1,
+      "confidence_interval": "game-clustered t, df=G-1, finite-sample correction",
+      "formula": "recommend ~ game + language + log1p(hours) + seven topic weights + language:seven topic weights",
+      "topic_support": {
+        "T01": {
+          "english": {
+            "n": 851,
+            "recommended": 693,
+            "not_recommended": 158
+          },
+          "schinese": {
+            "n": 577,
+            "recommended": 429,
+            "not_recommended": 148
+          }
+        },
+        "T02": {
+          "english": {
+            "n": 411,
+            "recommended": 310,
+            "not_recommended": 101
+          },
+          "schinese": {
+            "n": 182,
+            "recommended": 111,
+            "not_recommended": 71
+          }
+        },
+        "T03": {
+          "english": {
+            "n": 293,
+            "recommended": 111,
+            "not_recommended": 182
+          },
+          "schinese": {
+            "n": 394,
+            "recommended": 102,
+            "not_recommended": 292
+          }
+        },
+        "T04": {
+          "english": {
+            "n": 768,
+            "recommended": 664,
+            "not_recommended": 104
+          },
+          "schinese": {
+            "n": 571,
+            "recommended": 474,
+            "not_recommended": 97
+          }
+        },
+        "T05": {
+          "english": {
+            "n": 691,
+            "recommended": 632,
+            "not_recommended": 59
+          },
+          "schinese": {
+            "n": 180,
+            "recommended": 170,
+            "not_recommended": 10
+          }
+        },
+        "T06": {
+          "english": {
+            "n": 550,
+            "recommended": 350,
+            "not_recommended": 200
+          },
+          "schinese": {
+            "n": 168,
+            "recommended": 138,
+            "not_recommended": 30
+          }
+        },
+        "T07": {
+          "english": {
+            "n": 316,
+            "recommended": 212,
+            "not_recommended": 104
+          },
+          "schinese": {
+            "n": 103,
+            "recommended": 78,
+            "not_recommended": 25
+          }
+        },
+        "T08": {
+          "english": {
+            "n": 835,
+            "recommended": 632,
+            "not_recommended": 203
+          },
+          "schinese": {
+            "n": 767,
+            "recommended": 522,
+            "not_recommended": 245
+          }
+        }
+      },
+      "unsupported_report_contrasts": [],
+      "parameters": 59,
+      "rank": 59,
+      "recommended": 2817,
+      "not_recommended": 1024,
+      "separation": "none",
+      "warnings": [],
+      "converged": true,
+      "iterations": 7,
+      "max_absolute_coefficient": 4.13098873214238,
+      "fitted_probability_min": 0.023977507332526828,
+      "fitted_probability_max": 0.999292109701853,
+      "joint_interaction_test": {
+        "F": 13.565469806651203,
+        "df_num": 7,
+        "df_den": 42,
+        "p": 5.182768827606481e-09
+      },
+      "scenario": "primary_fit"
+    },
+    {
+      "status": "ok",
+      "n_input": 4599,
+      "n_used": 4599,
+      "games_used": 46,
+      "excluded_single_outcome_games": [],
+      "reference": "T01",
+      "weight_step": 0.1,
+      "confidence_interval": "game-clustered t, df=G-1, finite-sample correction",
+      "formula": "recommend ~ game + language + log1p(hours) + seven topic weights + language:seven topic weights",
+      "topic_support": {
+        "T01": {
+          "english": {
+            "n": 1041,
+            "recommended": 845,
+            "not_recommended": 196
+          },
+          "schinese": {
+            "n": 807,
+            "recommended": 583,
+            "not_recommended": 224
+          }
+        },
+        "T02": {
+          "english": {
+            "n": 454,
+            "recommended": 340,
+            "not_recommended": 114
+          },
+          "schinese": {
+            "n": 211,
+            "recommended": 130,
+            "not_recommended": 81
+          }
+        },
+        "T03": {
+          "english": {
+            "n": 349,
+            "recommended": 125,
+            "not_recommended": 224
+          },
+          "schinese": {
+            "n": 488,
+            "recommended": 117,
+            "not_recommended": 371
+          }
+        },
+        "T04": {
+          "english": {
+            "n": 957,
+            "recommended": 829,
+            "not_recommended": 128
+          },
+          "schinese": {
+            "n": 759,
+            "recommended": 630,
+            "not_recommended": 129
+          }
+        },
+        "T05": {
+          "english": {
+            "n": 830,
+            "recommended": 766,
+            "not_recommended": 64
+          },
+          "schinese": {
+            "n": 225,
+            "recommended": 215,
+            "not_recommended": 10
+          }
+        },
+        "T06": {
+          "english": {
+            "n": 606,
+            "recommended": 388,
+            "not_recommended": 218
+          },
+          "schinese": {
+            "n": 183,
+            "recommended": 149,
+            "not_recommended": 34
+          }
+        },
+        "T07": {
+          "english": {
+            "n": 352,
+            "recommended": 233,
+            "not_recommended": 119
+          },
+          "schinese": {
+            "n": 116,
+            "recommended": 87,
+            "not_recommended": 29
+          }
+        },
+        "T08": {
+          "english": {
+            "n": 991,
+            "recommended": 750,
+            "not_recommended": 241
+          },
+          "schinese": {
+            "n": 1006,
+            "recommended": 666,
+            "not_recommended": 340
+          }
+        }
+      },
+      "unsupported_report_contrasts": [],
+      "parameters": 62,
+      "rank": 62,
+      "recommended": 3327,
+      "not_recommended": 1272,
+      "separation": "none",
+      "warnings": [],
+      "converged": true,
+      "iterations": 7,
+      "max_absolute_coefficient": 4.331746793853782,
+      "fitted_probability_min": 0.020450803976369263,
+      "fitted_probability_max": 0.999797210675551,
+      "joint_interaction_test": {
+        "F": 15.097391283338753,
+        "df_num": 7,
+        "df_den": 45,
+        "p": 5.825050684172027e-10
+      },
+      "scenario": "all_units"
+    },
+    {
+      "status": "ok",
+      "n_input": 1614,
+      "n_used": 1614,
+      "games_used": 20,
+      "excluded_single_outcome_games": [],
+      "reference": "T01",
+      "weight_step": 0.1,
+      "confidence_interval": "game-clustered t, df=G-1, finite-sample correction",
+      "formula": "recommend ~ game + language + log1p(hours) + seven topic weights + language:seven topic weights",
+      "topic_support": {
+        "T01": {
+          "english": {
+            "n": 376,
+            "recommended": 293,
+            "not_recommended": 83
+          },
+          "schinese": {
+            "n": 203,
+            "recommended": 146,
+            "not_recommended": 57
+          }
+        },
+        "T02": {
+          "english": {
+            "n": 167,
+            "recommended": 117,
+            "not_recommended": 50
+          },
+          "schinese": {
+            "n": 68,
+            "recommended": 45,
+            "not_recommended": 23
+          }
+        },
+        "T03": {
+          "english": {
+            "n": 147,
+            "recommended": 50,
+            "not_recommended": 97
+          },
+          "schinese": {
+            "n": 166,
+            "recommended": 44,
+            "not_recommended": 122
+          }
+        },
+        "T04": {
+          "english": {
+            "n": 374,
+            "recommended": 324,
+            "not_recommended": 50
+          },
+          "schinese": {
+            "n": 204,
+            "recommended": 165,
+            "not_recommended": 39
+          }
+        },
+        "T05": {
+          "english": {
+            "n": 287,
+            "recommended": 257,
+            "not_recommended": 30
+          },
+          "schinese": {
+            "n": 50,
+            "recommended": 47,
+            "not_recommended": 3
+          }
+        },
+        "T06": {
+          "english": {
+            "n": 255,
+            "recommended": 167,
+            "not_recommended": 88
+          },
+          "schinese": {
+            "n": 77,
+            "recommended": 72,
+            "not_recommended": 5
+          }
+        },
+        "T07": {
+          "english": {
+            "n": 154,
+            "recommended": 102,
+            "not_recommended": 52
+          },
+          "schinese": {
+            "n": 42,
+            "recommended": 32,
+            "not_recommended": 10
+          }
+        },
+        "T08": {
+          "english": {
+            "n": 370,
+            "recommended": 275,
+            "not_recommended": 95
+          },
+          "schinese": {
+            "n": 267,
+            "recommended": 167,
+            "not_recommended": 100
+          }
+        }
+      },
+      "unsupported_report_contrasts": [
+        "T05"
+      ],
+      "parameters": 36,
+      "rank": 36,
+      "recommended": 1158,
+      "not_recommended": 456,
+      "separation": "none",
+      "warnings": [],
+      "converged": true,
+      "iterations": 7,
+      "max_absolute_coefficient": 2.433653085064445,
+      "fitted_probability_min": 0.017240891815407895,
+      "fitted_probability_max": 0.9988564707079294,
+      "joint_interaction_test": {
+        "F": 13.468545457529704,
+        "df_num": 7,
+        "df_den": 19,
+        "p": 3.628109496619646e-06
+      },
+      "scenario": "common_window"
+    },
+    {
+      "status": "ok",
+      "n_input": 3832,
+      "n_used": 3832,
+      "games_used": 43,
+      "excluded_single_outcome_games": [],
+      "reference": "T01",
+      "weight_step": 0.1,
+      "confidence_interval": "game-clustered t, df=G-1, finite-sample correction",
+      "formula": "recommend ~ game + language + log1p(hours) + seven topic weights + language:seven topic weights",
+      "topic_support": {
+        "T01": {
+          "english": {
+            "n": 851,
+            "recommended": 693,
+            "not_recommended": 158
+          },
+          "schinese": {
+            "n": 576,
+            "recommended": 428,
+            "not_recommended": 148
+          }
+        },
+        "T02": {
+          "english": {
+            "n": 410,
+            "recommended": 309,
+            "not_recommended": 101
+          },
+          "schinese": {
+            "n": 182,
+            "recommended": 111,
+            "not_recommended": 71
+          }
+        },
+        "T03": {
+          "english": {
+            "n": 293,
+            "recommended": 111,
+            "not_recommended": 182
+          },
+          "schinese": {
+            "n": 392,
+            "recommended": 102,
+            "not_recommended": 290
+          }
+        },
+        "T04": {
+          "english": {
+            "n": 768,
+            "recommended": 664,
+            "not_recommended": 104
+          },
+          "schinese": {
+            "n": 571,
+            "recommended": 474,
+            "not_recommended": 97
+          }
+        },
+        "T05": {
+          "english": {
+            "n": 691,
+            "recommended": 632,
+            "not_recommended": 59
+          },
+          "schinese": {
+            "n": 180,
+            "recommended": 170,
+            "not_recommended": 10
+          }
+        },
+        "T06": {
+          "english": {
+            "n": 550,
+            "recommended": 350,
+            "not_recommended": 200
+          },
+          "schinese": {
+            "n": 168,
+            "recommended": 138,
+            "not_recommended": 30
+          }
+        },
+        "T07": {
+          "english": {
+            "n": 316,
+            "recommended": 212,
+            "not_recommended": 104
+          },
+          "schinese": {
+            "n": 98,
+            "recommended": 73,
+            "not_recommended": 25
+          }
+        },
+        "T08": {
+          "english": {
+            "n": 835,
+            "recommended": 632,
+            "not_recommended": 203
+          },
+          "schinese": {
+            "n": 762,
+            "recommended": 517,
+            "not_recommended": 245
+          }
+        }
+      },
+      "unsupported_report_contrasts": [],
+      "parameters": 59,
+      "rank": 59,
+      "recommended": 2810,
+      "not_recommended": 1022,
+      "separation": "none",
+      "warnings": [],
+      "converged": true,
+      "iterations": 7,
+      "max_absolute_coefficient": 4.130093053696557,
+      "fitted_probability_min": 0.024306921267774707,
+      "fitted_probability_max": 0.9992962728600971,
+      "joint_interaction_test": {
+        "F": 13.367568773554131,
+        "df_num": 7,
+        "df_den": 42,
+        "p": 6.348741425001658e-09
+      },
+      "scenario": "unique_text"
+    },
+    {
+      "status": "ok",
+      "n_input": 3765,
+      "n_used": 3765,
+      "games_used": 42,
+      "excluded_single_outcome_games": [],
+      "reference": "T01",
+      "weight_step": 0.1,
+      "confidence_interval": "game-clustered t, df=G-1, finite-sample correction",
+      "formula": "recommend ~ game + language + log1p(hours) + seven topic weights + language:seven topic weights",
+      "topic_support": {
+        "T01": {
+          "english": {
+            "n": 844,
+            "recommended": 690,
+            "not_recommended": 154
+          },
+          "schinese": {
+            "n": 553,
+            "recommended": 410,
+            "not_recommended": 143
+          }
+        },
+        "T02": {
+          "english": {
+            "n": 409,
+            "recommended": 310,
+            "not_recommended": 99
+          },
+          "schinese": {
+            "n": 171,
+            "recommended": 103,
+            "not_recommended": 68
+          }
+        },
+        "T03": {
+          "english": {
+            "n": 290,
+            "recommended": 110,
+            "not_recommended": 180
+          },
+          "schinese": {
+            "n": 386,
+            "recommended": 98,
+            "not_recommended": 288
+          }
+        },
+        "T04": {
+          "english": {
+            "n": 763,
+            "recommended": 660,
+            "not_recommended": 103
+          },
+          "schinese": {
+            "n": 550,
+            "recommended": 455,
+            "not_recommended": 95
+          }
+        },
+        "T05": {
+          "english": {
+            "n": 688,
+            "recommended": 630,
+            "not_recommended": 58
+          },
+          "schinese": {
+            "n": 170,
+            "recommended": 160,
+            "not_recommended": 10
+          }
+        },
+        "T06": {
+          "english": {
+            "n": 532,
+            "recommended": 342,
+            "not_recommended": 190
+          },
+          "schinese": {
+            "n": 162,
+            "recommended": 133,
+            "not_recommended": 29
+          }
+        },
+        "T07": {
+          "english": {
+            "n": 314,
+            "recommended": 212,
+            "not_recommended": 102
+          },
+          "schinese": {
+            "n": 101,
+            "recommended": 77,
+            "not_recommended": 24
+          }
+        },
+        "T08": {
+          "english": {
+            "n": 830,
+            "recommended": 631,
+            "not_recommended": 199
+          },
+          "schinese": {
+            "n": 753,
+            "recommended": 512,
+            "not_recommended": 241
+          }
+        }
+      },
+      "unsupported_report_contrasts": [],
+      "parameters": 58,
+      "rank": 58,
+      "recommended": 2768,
+      "not_recommended": 997,
+      "separation": "none",
+      "warnings": [],
+      "converged": true,
+      "iterations": 7,
+      "max_absolute_coefficient": 4.158530545220727,
+      "fitted_probability_min": 0.022297638709122956,
+      "fitted_probability_max": 0.9991539904079136,
+      "joint_interaction_test": {
+        "F": 12.708747307924645,
+        "df_num": 7,
+        "df_den": 41,
+        "p": 1.5380784585608978e-08
+      },
+      "scenario": "complete_games"
+    },
+    {
+      "status": "ok",
+      "n_input": 3777,
+      "n_used": 3777,
+      "games_used": 43,
+      "excluded_single_outcome_games": [],
+      "reference": "T01",
+      "weight_step": 0.1,
+      "confidence_interval": "game-clustered t, df=G-1, finite-sample correction",
+      "formula": "recommend ~ game + language + log1p(hours) + seven topic weights + language:seven topic weights",
+      "topic_support": {
+        "T01": {
+          "english": {
+            "n": 850,
+            "recommended": 692,
+            "not_recommended": 158
+          },
+          "schinese": {
+            "n": 560,
+            "recommended": 418,
+            "not_recommended": 142
+          }
+        },
+        "T02": {
+          "english": {
+            "n": 411,
+            "recommended": 310,
+            "not_recommended": 101
+          },
+          "schinese": {
+            "n": 172,
+            "recommended": 107,
+            "not_recommended": 65
+          }
+        },
+        "T03": {
+          "english": {
+            "n": 291,
+            "recommended": 111,
+            "not_recommended": 180
+          },
+          "schinese": {
+            "n": 374,
+            "recommended": 97,
+            "not_recommended": 277
+          }
+        },
+        "T04": {
+          "english": {
+            "n": 765,
+            "recommended": 661,
+            "not_recommended": 104
+          },
+          "schinese": {
+            "n": 550,
+            "recommended": 457,
+            "not_recommended": 93
+          }
+        },
+        "T05": {
+          "english": {
+            "n": 690,
+            "recommended": 631,
+            "not_recommended": 59
+          },
+          "schinese": {
+            "n": 167,
+            "recommended": 159,
+            "not_recommended": 8
+          }
+        },
+        "T06": {
+          "english": {
+            "n": 549,
+            "recommended": 349,
+            "not_recommended": 200
+          },
+          "schinese": {
+            "n": 155,
+            "recommended": 135,
+            "not_recommended": 20
+          }
+        },
+        "T07": {
+          "english": {
+            "n": 316,
+            "recommended": 212,
+            "not_recommended": 104
+          },
+          "schinese": {
+            "n": 92,
+            "recommended": 73,
+            "not_recommended": 19
+          }
+        },
+        "T08": {
+          "english": {
+            "n": 833,
+            "recommended": 630,
+            "not_recommended": 203
+          },
+          "schinese": {
+            "n": 740,
+            "recommended": 504,
+            "not_recommended": 236
+          }
+        }
+      },
+      "unsupported_report_contrasts": [],
+      "parameters": 59,
+      "rank": 59,
+      "recommended": 2777,
+      "not_recommended": 1000,
+      "separation": "none",
+      "warnings": [],
+      "converged": true,
+      "iterations": 7,
+      "max_absolute_coefficient": 4.116350374545428,
+      "fitted_probability_min": 0.02331729002292005,
+      "fitted_probability_max": 0.9991921282766612,
+      "joint_interaction_test": {
+        "F": 13.606040322042759,
+        "df_num": 7,
+        "df_den": 42,
+        "p": 4.972763043263515e-09
+      },
+      "scenario": "script_consistent"
+    },
+    {
+      "status": "separated_or_solver_failed",
+      "n_input": 991,
+      "n_used": 991,
+      "games_used": 15,
+      "excluded_single_outcome_games": [],
+      "reference": "T01",
+      "weight_step": 0.1,
+      "confidence_interval": "game-clustered t, df=G-1, finite-sample correction",
+      "formula": "recommend ~ game + language + log1p(hours) + seven topic weights + language:seven topic weights",
+      "topic_support": {
+        "T01": {
+          "english": {
+            "n": 88,
+            "recommended": 63,
+            "not_recommended": 25
+          },
+          "schinese": {
+            "n": 25,
+            "recommended": 20,
+            "not_recommended": 5
+          }
+        },
+        "T02": {
+          "english": {
+            "n": 105,
+            "recommended": 92,
+            "not_recommended": 13
+          },
+          "schinese": {
+            "n": 18,
+            "recommended": 13,
+            "not_recommended": 5
+          }
+        },
+        "T03": {
+          "english": {
+            "n": 93,
+            "recommended": 26,
+            "not_recommended": 67
+          },
+          "schinese": {
+            "n": 167,
+            "recommended": 30,
+            "not_recommended": 137
+          }
+        },
+        "T04": {
+          "english": {
+            "n": 105,
+            "recommended": 90,
+            "not_recommended": 15
+          },
+          "schinese": {
+            "n": 73,
+            "recommended": 59,
+            "not_recommended": 14
+          }
+        },
+        "T05": {
+          "english": {
+            "n": 55,
+            "recommended": 46,
+            "not_recommended": 9
+          },
+          "schinese": {
+            "n": 10,
+            "recommended": 10,
+            "not_recommended": 0
+          }
+        },
+        "T06": {
+          "english": {
+            "n": 184,
+            "recommended": 130,
+            "not_recommended": 54
+          },
+          "schinese": {
+            "n": 69,
+            "recommended": 64,
+            "not_recommended": 5
+          }
+        },
+        "T07": {
+          "english": {
+            "n": 53,
+            "recommended": 31,
+            "not_recommended": 22
+          },
+          "schinese": {
+            "n": 5,
+            "recommended": 4,
+            "not_recommended": 1
+          }
+        },
+        "T08": {
+          "english": {
+            "n": 92,
+            "recommended": 62,
+            "not_recommended": 30
+          },
+          "schinese": {
+            "n": 67,
+            "recommended": 35,
+            "not_recommended": 32
+          }
+        }
+      },
+      "unsupported_report_contrasts": [
+        "T05",
+        "T07"
+      ],
+      "parameters": 31,
+      "rank": 31,
+      "recommended": 634,
+      "not_recommended": 357,
+      "separation": "quasi",
+      "scenario": "no_auxiliary"
+    }
+  ],
+  "bootstrap": {
+    "unit": "paired game means",
+    "reps": 10000,
+    "seed": 20261119,
+    "interval": "pointwise percentile 95%",
+    "does_not_model_topic_measurement_error": true
+  },
+  "p_values": "Paired-game t tests; Holm within eight themes per scenario and separately two diagnostic outcomes. Exploratory, not probability-sampled population inference."
+}

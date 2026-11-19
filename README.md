@@ -18,7 +18,12 @@ A/B的300条标注和30组命名已导入[docs/review/](docs/review/README.md)�
 
 2026-11-17 已完成全部 **8,979 × 1,024** 句子／片段级 BGE-M3 向量，见[向量缓存](output/embedding-bge-sentences/task12-20261117-v1/README.md)及[编码说明](docs/embedding-bge-sentences.md)。2026-11-18 已完成 K=6/8/10 句子聚类、30 次重采样及八项草案主题的证据检查。K=10 优先复核，`topics-v1` 待全员确认。[句子聚类结果](output/topic_selection/task12-20261118-sentence-v1/README.md)
 
+## RQ3：中英文来源评论差异（2026-11-19）
+
+已完成独立的探索性RQ3：[方法与复现](docs/rq3-exploratory.md)、[浏览器报告](output/rq3/topics-v1-exploratory-20261118/report.html)、[结果表与诊断](output/rq3/topics-v1-exploratory-20261118/README.md)。主主题比较为43款游戏、3,841条有证据评论；另报告覆盖率、推荐率、16种分析口径和主题×语言交互。来源语言不等于国籍，未检出主题不等于没有主题。固定配置和输入哈希，使用现成句子缓存，无需重新编码BGE。
+
 ## 已配置的数据来源
+
 
 | 来源 | 内容 | 本项目入口 |
 | --- | --- | --- |

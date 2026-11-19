@@ -51,3 +51,12 @@
 /docs/embedding-bge-sentences.md -text
 /output/embedding-bge-sentences/** -text
 /output/embedding-bge-sentences/**/*.npy -diff
+
+# RQ3 reproducible analysis and checksummed results.
+/scripts/*rq3*.py -text
+/config/rq3_exploratory.json -text
+/tests/test_rq3_analysis.py -text
+/docs/rq3-exploratory.md -text
+/requirements-rq3-lock.txt -text
+/output/rq3/** -text
+/output/rq3/**/*.png -diff

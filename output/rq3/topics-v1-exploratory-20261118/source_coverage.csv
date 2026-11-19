@@ -1,0 +1,5 @@
+﻿population,language,n,fit_evidence,all_evidence,source_script_mismatch,mixed_script
+master,english,10000,2525,2820,106,1
+association_eligible,english,9945,2525,2820,106,1
+master,schinese,9486,1693,2059,317,74
+association_eligible,schinese,9450,1693,2059,317,74
