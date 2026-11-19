@@ -9,6 +9,7 @@ external/
 %SystemDrive%/
 tmp/
 /.venv-topic/
+/.venv-rq3/
 /.cache-topic/
 
 # Regenerable fits from the Task12 exploratory round.
