@@ -12,9 +12,9 @@
     },
     "master": {
       "path": "data/cleaned/freeze_20261101/clean_master.jsonl",
-      "sha256": "8a62b9df2b2c2fe1ac82c483c4a5c87ae5c28805fd62593f699a88c12648ba8a",
+      "sha256": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26",
       "expected_sha256": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26",
-      "match": "LF-equivalent"
+      "match": "exact"
     },
     "metadata_manifest": {
       "path": "data/metadata/freeze_20261101/metadata_manifest.json",
@@ -60,9 +60,9 @@
     },
     "topic_config": {
       "path": "config/topics_v1_exploratory.json",
-      "sha256": "c02c080bbaef7c6ea137a9935048cda29d07a7dabb0a7b7f93e0d38fc0f39b1e",
+      "sha256": "0535a90d55d8a7b0267895e992e666a9365e62ff0f1a1f80c00be0dec5c79542",
       "expected_sha256": "0535a90d55d8a7b0267895e992e666a9365e62ff0f1a1f80c00be0dec5c79542",
-      "match": "LF-equivalent"
+      "match": "exact"
     },
     "units": {
       "path": "output/topic_selection/task12-20261114/handoff/sentence_units.jsonl",
@@ -142,11 +142,11 @@
     },
     {
       "path": "scripts/assign_topics_v1_cluster_derived.py",
-      "sha256": "faf8a4b941db2e8ec32c1e96af2e0fe5dc6a0edadb630b1aadc82be92887383a"
+      "sha256": "dff0631e7e1504b271da09202644c6b16eb6445583cf69be8cb53814ca0c4d0c"
     }
   ],
   "runtime": {
-    "python": "3.12.14",
+    "python": "3.13.14",
     "numpy": "2.5.4",
     "pandas": "3.1.0",
     "scipy": "1.18.1",
@@ -157,19 +157,19 @@
   },
   "output_scope": "Exploratory RQ3; source language is not nationality, theme weights are not probabilities.",
   "outputs_sha256": {
-    "diagnostics.json": "7cdd0294e773f18c779823e966899d3221136c9e37dadd5e74839d307d464880",
+    "diagnostics.json": "02f5ab227be1869a77998b62e39f217e4e74c4d4fd54c0258e9b28cfed833f90",
     "figures/coverage_by_game.png": "b59590c54fd45f7b958ae00e2125af19353b68827f16a6e5fb9c14616e218721",
     "figures/game_topic_difference_heatmap.png": "f33eb0caa1abe0a3eb31b1e48000052906649c2ca7828432ab02b37907756817",
     "figures/sensitivity_comparison.png": "88845ce6ccfb26887386b47026cbb3d3e28fa323f68f495c525afdd3b47cc1e5",
     "figures/topic_language_differences.png": "afb675279ee72c7e63ec4641bbcf37753981ca6180ba78fbc7ff0cfc8060d395",
-    "figures/topic_language_interactions.png": "522fbfb42472e8a74a9fec66fd5ab166558ebc3a65b80fe2f7b7eeaadc8502fe",
+    "figures/topic_language_interactions.png": "45865330595317e874489acb5f2ae5cb00d2597d28e18a8a6ec860f7f77689de",
     "game_language_differences.csv": "aa5b7fb9293feadb65464154e32a7cb096e36782f6a4747dfd4d092005736f95",
     "game_support.csv": "1affaacfab73f47d9e3661d1687d88185edcd7ea19b75350955eb5558def8969",
-    "interaction_effects.csv": "b49840117994bd0f3c96841725ba140b542e507e9136d4145a62596a2be97cc9",
+    "interaction_effects.csv": "2ae8dbaa5eedc184789ed3307254ce8921e4253e99f1e0a5c937759e0986912d",
     "model_diagnostics.csv": "78d9d5532cad8bb79f33fed01d45784762839da2c3d7a1953ca2e5ddb3692a4c",
     "paired_estimates.csv": "b8104ce102bb5339479de899af0f97d9d365e03b8605281a48e0ad43a5093d40",
     "README.md": "40198fd7605d4ab7af7d95693f03233d008c6a20657a2c1da1de69d8d502e977",
-    "report.html": "be259110ec2c760882ce4d5c5a49691f647ecd66131400d201e147d50bc47bfa",
+    "report.html": "473676d235b32eb2dfb8c795439d743c307ead98a822313da25df4c8cfccd55a",
     "review_inclusion.csv": "e926f1d2cb3df64b248fb7fe081aadda3db0994a70394503e479122308ee37f1",
     "robustness_summary.csv": "f7e021828e2bb36f5417d1d3620c69acf91a265676b37046de74cb8632637c15",
     "sample_flow.csv": "fdca9b00ac417770df0093ef629566dadff260594c98ca1b15804652c6ffb176",

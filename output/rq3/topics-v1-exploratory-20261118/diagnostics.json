@@ -438,14 +438,14 @@
       "warnings": [],
       "converged": true,
       "iterations": 7,
-      "max_absolute_coefficient": 4.13098873214238,
-      "fitted_probability_min": 0.023977507332526828,
+      "max_absolute_coefficient": 4.130988732142372,
+      "fitted_probability_min": 0.0239775073325273,
       "fitted_probability_max": 0.999292109701853,
       "joint_interaction_test": {
-        "F": 13.565469806651203,
+        "F": 13.565469806650833,
         "df_num": 7,
         "df_den": 42,
-        "p": 5.182768827606481e-09
+        "p": 5.182768827608391e-09
       },
       "scenario": "primary_fit"
     },
@@ -566,14 +566,14 @@
       "warnings": [],
       "converged": true,
       "iterations": 7,
-      "max_absolute_coefficient": 4.331746793853782,
-      "fitted_probability_min": 0.020450803976369263,
+      "max_absolute_coefficient": 4.33174679385378,
+      "fitted_probability_min": 0.02045080397636884,
       "fitted_probability_max": 0.999797210675551,
       "joint_interaction_test": {
-        "F": 15.097391283338753,
+        "F": 15.09739128333869,
         "df_num": 7,
         "df_den": 45,
-        "p": 5.825050684172027e-10
+        "p": 5.825050684172417e-10
       },
       "scenario": "all_units"
     },
@@ -696,14 +696,14 @@
       "warnings": [],
       "converged": true,
       "iterations": 7,
-      "max_absolute_coefficient": 2.433653085064445,
-      "fitted_probability_min": 0.017240891815407895,
+      "max_absolute_coefficient": 2.433653085064451,
+      "fitted_probability_min": 0.017240891815408076,
       "fitted_probability_max": 0.9988564707079294,
       "joint_interaction_test": {
-        "F": 13.468545457529704,
+        "F": 13.468545457529673,
         "df_num": 7,
         "df_den": 19,
-        "p": 3.628109496619646e-06
+        "p": 3.6281094966197035e-06
       },
       "scenario": "common_window"
     },
@@ -824,14 +824,14 @@
       "warnings": [],
       "converged": true,
       "iterations": 7,
-      "max_absolute_coefficient": 4.130093053696557,
-      "fitted_probability_min": 0.024306921267774707,
+      "max_absolute_coefficient": 4.130093053696549,
+      "fitted_probability_min": 0.024306921267775488,
       "fitted_probability_max": 0.9992962728600971,
       "joint_interaction_test": {
-        "F": 13.367568773554131,
+        "F": 13.36756877355422,
         "df_num": 7,
         "df_den": 42,
-        "p": 6.348741425001658e-09
+        "p": 6.34874142500108e-09
       },
       "scenario": "unique_text"
     },
@@ -952,14 +952,14 @@
       "warnings": [],
       "converged": true,
       "iterations": 7,
-      "max_absolute_coefficient": 4.158530545220727,
-      "fitted_probability_min": 0.022297638709122956,
-      "fitted_probability_max": 0.9991539904079136,
+      "max_absolute_coefficient": 4.158530545220732,
+      "fitted_probability_min": 0.02229763870912343,
+      "fitted_probability_max": 0.9991539904079134,
       "joint_interaction_test": {
-        "F": 12.708747307924645,
+        "F": 12.708747307925126,
         "df_num": 7,
         "df_den": 41,
-        "p": 1.5380784585608978e-08
+        "p": 1.538078458560119e-08
       },
       "scenario": "complete_games"
     },
@@ -1080,14 +1080,14 @@
       "warnings": [],
       "converged": true,
       "iterations": 7,
-      "max_absolute_coefficient": 4.116350374545428,
-      "fitted_probability_min": 0.02331729002292005,
+      "max_absolute_coefficient": 4.116350374545435,
+      "fitted_probability_min": 0.02331729002292068,
       "fitted_probability_max": 0.9991921282766612,
       "joint_interaction_test": {
-        "F": 13.606040322042759,
+        "F": 13.606040322042904,
         "df_num": 7,
         "df_den": 42,
-        "p": 4.972763043263515e-09
+        "p": 4.9727630432627726e-09
       },
       "scenario": "script_consistent"
     },
