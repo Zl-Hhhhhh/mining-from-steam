@@ -1,0 +1,8 @@
+﻿scenario,status,n_input,n_used,games_used,parameters,rank,separation,converged
+primary_fit,ok,3841,3841,43,59,59,none,True
+all_units,ok,4599,4599,46,62,62,none,True
+common_window,ok,1614,1614,20,36,36,none,True
+unique_text,ok,3832,3832,43,59,59,none,True
+complete_games,ok,3765,3765,42,58,58,none,True
+script_consistent,ok,3777,3777,43,59,59,none,True
+no_auxiliary,separated_or_solver_failed,991,991,15,31,31,quasi,

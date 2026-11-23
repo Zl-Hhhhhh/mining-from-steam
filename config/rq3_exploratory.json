@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "analysis_version": "rq3-exploratory-20261119-v1",
+  "source_commit": "2d2f28abb6b6aa8a6e8f60ba0acb5ae78425602a",
+  "topic_version": "topics-v1-exploratory-20261118",
+  "output": "output/rq3/topics-v1-exploratory-20261118",
+  "seed": 20261119,
+  "bootstrap_replicates": 10000,
+  "confidence_level": 0.95,
+  "minimum_reviews_per_language": 50,
+  "minimum_topic_reviews_per_language": 20,
+  "strict_topic_minimum": 30,
+  "topic_reference": "T01",
+  "primary_scope": "fit",
+  "primary_cleaning": "association_eligible",
+  "interaction_minimum_topic_reviews_per_language": 10,
+  "interaction_minimum_outcomes_per_language": 5,
+  "inputs": {
+    "clean_manifest": {
+      "path": "data/cleaned/freeze_20261101/cleaning_manifest.json",
+      "sha256": "d88a7ef548666f0b8120a0bd673403bf2f30d4860cfb3b0fc7d4caab01f11420"
+    },
+    "master": {
+      "path": "data/cleaned/freeze_20261101/clean_master.jsonl",
+      "sha256": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26"
+    },
+    "metadata_manifest": {
+      "path": "data/metadata/freeze_20261101/metadata_manifest.json",
+      "sha256": "46103171ebf6a12844d665138a3631effdd53c8f93d27ec6c671dbb5dd0e45f2"
+    },
+    "metadata": {
+      "path": "data/metadata/freeze_20261101/game_meta.csv",
+      "sha256": "f369a0d5e5f02a5b802f3bbc607c7754a50fe5fd80f7a7b8a1441100c89b4204"
+    },
+    "freeze_manifest": {
+      "path": "data/freeze_20261101/freeze_manifest.json",
+      "sha256": "fe31e19f1d002b038b09e33f9b8abdcf84e07c9c43bdf4c4e43d5cf806482bbd"
+    },
+    "topic_manifest": {
+      "path": "output/topic_selection/topics-v1-exploratory-20261118/topic_v1.json",
+      "sha256": "3b36b145d6ffa1f8e80643ace243f26cbe5d664cc215bfb9a77d200dcbeed45e"
+    },
+    "contract": {
+      "path": "output/topic_selection/topics-v1-exploratory-20261118/analysis_input_contract.json",
+      "sha256": "8562b5fe76fbc9ffd8e7fa431558dc93f1f5a34fd3cc421efe53414a44456cf9"
+    },
+    "reviews": {
+      "path": "output/topic_selection/topics-v1-exploratory-20261118/review_topic_weights.jsonl",
+      "sha256": "eaecacd6aa43b34d328704d7c346c26c7910b2570773dbab0e038136f2147689"
+    },
+    "labels": {
+      "path": "output/topic_selection/topics-v1-exploratory-20261118/unit_topic_assignments.jsonl",
+      "sha256": "367b55bd518ffd506d0c445698742feb636c8e6e2e858e44ce669d5aa7bdc81a"
+    },
+    "topic_config": {
+      "path": "config/topics_v1_exploratory.json",
+      "sha256": "0535a90d55d8a7b0267895e992e666a9365e62ff0f1a1f80c00be0dec5c79542"
+    },
+    "units": {
+      "path": "output/topic_selection/task12-20261114/handoff/sentence_units.jsonl",
+      "sha256": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29"
+    },
+    "review_map": {
+      "path": "output/topic_selection/task12-20261114/handoff/review_to_units.json",
+      "sha256": "a1eb3a0a88b76b7ca8fda70ce5d69092e32556ebc040a7d9aec77a11188dab91"
+    },
+    "draft": {
+      "path": "output/topic_selection/task12-20261114/topic-list-draft.json",
+      "sha256": "5975c4d0024724ff9d034b21143a6f6ef628c9c4666f6fde36c5a4383e3e6e71"
+    },
+    "seeds": {
+      "path": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/topic-seed-units.json",
+      "sha256": "ca721c8c6bcf5ced911228d5d6e4a9174452178a57e9c531358eb1cfd4eff0d8"
+    },
+    "vector_manifest": {
+      "path": "output/embedding-bge-sentences/task12-20261117-v1/sentence_embedding_manifest.json",
+      "sha256": "46f983005195b328a86e7edc4e8ed72ea68ffc9d691067f28981c94a325a3a31"
+    },
+    "vector_ids": {
+      "path": "output/embedding-bge-sentences/task12-20261117-v1/unit_ids.json",
+      "sha256": "73207e17a2ada4367c01c2fa46a4b412547f96e0e3762debc03fb2371e75de2f"
+    },
+    "vectors": {
+      "path": "output/embedding-bge-sentences/task12-20261117-v1/sentence_vectors.npy",
+      "sha256": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd"
+    },
+    "clusters": {
+      "path": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/assignments.csv",
+      "sha256": "a04b0feb141c1603b2c800ad24da2eb39036916fc4132265fb181ace65fe9609"
+    },
+    "k8_clusters": {
+      "path": "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k8_s17/assignments.csv",
+      "sha256": "a76543634fd3760b3a04e3cb56d4538a95ecca61b85340a8b174577fa449349d"
+    }
+  },
+  "interpretation": "Exploratory comparisons of source-language review samples; unknown topics are not absent topics; no nationality or causal claims."
+}
