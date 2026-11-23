@@ -1,0 +1,94 @@
+% Build with pdfLaTeX in poster/. The course PDF is 800 mm wide by 1000 mm tall.
+% Palette and university emblem adapted from course example D (NavyGold).
+\documentclass[tikz,border=0pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{tgheros,graphicx}
+\renewcommand{\familydefault}{\sfdefault}
+\definecolor{navy}{HTML}{102F50}
+\definecolor{ink}{HTML}{142E44}
+\definecolor{muted}{HTML}{425C70}
+\definecolor{gold}{HTML}{E8BE67}
+\definecolor{ochre}{HTML}{9C6018}
+\definecolor{blue}{HTML}{27668A}
+\definecolor{ice}{HTML}{EAF2F5}
+\definecolor{rulegray}{HTML}{C2D0D8}
+\newcommand{\sz}[1]{\fontsize{#1}{\fpeval{1.18*#1}}\selectfont}
+\newcommand{\txt}[6]{\node[anchor=north west,inner sep=0pt,outer sep=0pt,align=left,text width=#3mm,text=#4,font=\sz{#5}] at (#1,#2) {#6};}
+\newcommand{\markat}[5]{\node[anchor=#3,inner sep=0pt,outer sep=0pt,text=ink,font=\sz{#4}] at (#1,#2) {#5};}
+\hyphenpenalty=10000
+\begin{document}
+\begin{tikzpicture}[x=1mm,y=-1mm]
+\path[use as bounding box] (0,0) rectangle (800,1000);
+\fill[navy] (0,0) rectangle (800,157);
+\fill[gold] (0,154) rectangle (800,157);
+\txt{30}{16}{655}{gold}{32}{\bfseries AIAA 3111 \quad / \quad DATA MINING}
+\txt{29}{43}{662}{white}{81}{\bfseries Behind the Steam thumbs-up}
+\txt{31}{87}{647}{white}{34}{How review topics relate to player recommendations across 50 games}
+\txt{31}{125}{655}{white}{37}{\bfseries Group 4 \quad \textnormal{Wenjun LU \quad Xunzhi CAI \quad Zihan LIN}}
+\fill[white,rounded corners=3mm] (708,23) rectangle (768,108);
+\node[inner sep=0pt] at (738,65){\includegraphics[height=65mm]{HKUSTGZ-emblem.png}};
+
+\txt{30}{176}{740}{navy}{53}{\bfseries Reviews about technical problems were less likely to recommend}
+\txt{30}{206}{735}{ink}{40}{Content, gameplay and story had the largest topic shares. Compared with gameplay, more emphasis on bugs went with fewer recommendations. More emphasis on visuals or sound went with more. Both patterns held across alternative analyses.}
+
+% Aligned measures use the same topic row and different analysis populations.
+\txt{30}{281}{157}{navy}{36}{\bfseries Review topic}
+\txt{203}{281}{160}{navy}{36}{\bfseries Overall share}
+\txt{365}{281}{193}{navy}{36}{\bfseries Language gap}
+\txt{564}{281}{205}{navy}{36}{\bfseries Recommendation odds}
+\txt{30}{300}{160}{ink}{29}{By topic weight}
+\txt{203}{300}{155}{ink}{29}{4,218 reviews}
+\txt{365}{300}{191}{ink}{29}{Chinese minus English (pp)}
+\txt{564}{300}{208}{ink}{29}{Ratio [95\% CI]}
+\draw[navy,line width=1.8pt] (30,319)--(770,319);
+\foreach \row/\topic/\share/\gap/\odds/\lo/\hi in {
+  0/{Content \& updates}/20.0/+7.3/0.95/0.91/1.00,
+  1/{Gameplay}/17.1/+0.9/1.00/1.00/1.00,
+  2/{Story \& characters}/16.3/+3.5/1.09/1.04/1.15,
+  3/{Performance \& bugs}/11.7/+11.5/0.75/0.72/0.78,
+  4/{Multiplayer \& community}/11.6/-8.0/1.00/0.95/1.06,
+  5/{Visuals \& sound}/10.4/-8.0/1.32/1.21/1.43,
+  6/{Controls \& difficulty}/8.0/-4.7/0.98/0.94/1.02,
+  7/{Price \& purchases}/4.8/-2.5/0.94/0.89/1.00}{
+  \pgfmathsetmacro{\yy}{336+28*\row}
+  \def\topicweight{}\def\pointcolor{muted}
+  \ifnum\row=3 \fill[ice] (30,\yy-12) rectangle (770,\yy+12);\def\topicweight{\bfseries}\def\pointcolor{navy}\fi
+  \ifnum\row=5 \fill[ice] (30,\yy-12) rectangle (770,\yy+12);\def\topicweight{\bfseries}\def\pointcolor{navy}\fi
+  \markat{33}{\yy}{west}{34}{\topicweight\topic}
+  \fill[blue] (203,\yy-2.6) rectangle ({203+4.05*\share},\yy+2.6);
+  \markat{335}{\yy}{east}{33}{\share\%}
+  \draw[rulegray,line width=1.5pt] (429,\yy-12)--(429,\yy+12);
+  \ifdim\gap pt>0pt \def\gapcolor{ochre}\else\def\gapcolor{blue}\fi
+  \fill[\gapcolor] (429,\yy-2.6) rectangle ({429+5.1*(\gap)},\yy+2.6);
+  \markat{539}{\yy}{east}{33}{\gap}
+  \draw[rulegray,line width=1.5pt] (603,\yy-12)--(603,\yy+12);
+  \ifnum\row=1
+    \markat{765}{\yy}{east}{30}{Reference}
+  \else
+    \draw[\pointcolor,line width=2.4pt] ({603+108*ln(\lo)},\yy)--({603+108*ln(\hi)},\yy);
+    \fill[\pointcolor] ({603+108*ln(\odds)},\yy) circle[radius=2.15mm];
+    \markat{765}{\yy}{east}{30}{\topicweight\odds\ [\lo, \hi]}
+  \fi
+}
+\draw[navy,line width=1.4pt] (30,550)--(770,550);
+\txt{30}{563}{350}{ink}{35}{\bfseries Comparing languages.\ \normalfont Gaps show percentage-point differences in topic weight. Each of 43 games counts equally (3,841 reviews).}
+\txt{417}{563}{350}{ink}{35}{\bfseries Comparing votes.\ \normalfont Ratios compare reviews with 10 points more weight on each topic and 10 less on gameplay, adjusting for game, language and playtime (4,156 reviews, 49 games).}
+
+\fill[ice] (0,632) rectangle (800,806);
+\txt{30}{653}{740}{navy}{46}{\bfseries Recommendation rates peaked in the middle playtime group}
+\txt{30}{687}{314}{ink}{36}{We grouped 19,395 reviews by playtime within each game. The middle group had higher recommendation odds than the low group (adjusted ratio 1.39, 95\% CI 1.13 to 1.70). The high--low difference was inconclusive.}
+\foreach \xx/\lab/\rate/\hours in {370/Low/82.2/7.8,509/Middle/86.0/46.5,648/High/84.8/216.1}{
+  \txt{\xx}{693}{119}{ink}{32}{\lab\ playtime}
+  \txt{\xx}{720}{120}{navy}{52}{\bfseries \rate\%}
+  \txt{\xx}{751}{120}{ink}{29}{Median \hours\ hours}
+}
+\txt{370}{774}{398}{ink}{31}{After multiple testing, no topic clearly varied with playtime.}
+
+\txt{30}{830}{346}{navy}{41}{\bfseries How the topics were identified}
+\txt{30}{854}{345}{ink}{36}{We compared word-based NMF with BGE-M3 clustering of 8,979 review fragments. Ten clusters were most stable under resampling. We mapped fragments to eight topics using 37 reference examples.}
+\txt{416}{830}{354}{navy}{41}{\bfseries Whose reviews are represented?}
+\txt{416}{854}{352}{ink}{36}{Only 21.6\% of 19,486 reviews had usable topic evidence. Across 48 matched games, coverage was 17.9\% for Chinese and 25.2\% for English sources. Some audiovisual labels include general praise.}
+\draw[rulegray,line width=1.2pt] (30,952)--(770,952);
+\txt{30}{967}{740}{ink}{29}{Steam user reviews \quad / \quad Group 4 analysis \quad / \quad Exploratory topics, November 2026}
+\end{tikzpicture}
+\end{document}
