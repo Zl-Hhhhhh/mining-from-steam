@@ -1,0 +1,49 @@
+﻿topic_id,topic_name_zh,topic_name_en,review_id,appid,game,language,language_label,confidence,sentence_score,review_topic_weight,text,rank
+T01,玩法与机制,gameplay_mechanics,237730350,397540,Borderlands 3,english,English,low,0.869301,0.3,Lot of skill and build options too,1
+T01,玩法与机制,gameplay_mechanics,238772033,1623730,Palworld,english,English,low,0.84361,1.0,"The play at your own pace, while you explore, catch, build, craft, grind, and level up gives you tons of options.",2
+T01,玩法与机制,gameplay_mechanics,238744027,2358720,Black Myth: Wukong,english,English,low,0.821502,0.1,"Gameplay is smooth, addicting, and you can get really creative with builds",3
+T01,玩法与机制,gameplay_mechanics,238169670,1203220,NARAKA: BLADEPOINT,schinese,Simplified Chinese,low,0.798848,0.5,还是很好玩，操作空间很大,1
+T01,玩法与机制,gameplay_mechanics,231254823,976730,Halo: The Master Chief Collection,schinese,Simplified Chinese,low,0.797409,0.166667,精彩的故事，丰富的武器和载具又让我玩爽了,2
+T01,玩法与机制,gameplay_mechanics,238417885,289070,Sid Meier's Civilization VI,schinese,Simplified Chinese,low,0.793526,0.5,游戏设计很棒，很耐玩,3
+T02,操作、难度与平衡,controls_difficulty,236893043,1517290,Battlefield 2042,english,English,high,0.848884,1.0,The game is difficult,1
+T02,操作、难度与平衡,controls_difficulty,238789851,1245620,Elden Ring,english,English,high,0.839803,0.666667,This game is difficult,2
+T02,操作、难度与平衡,controls_difficulty,238511516,322330,Don't Starve Together,english,English,high,0.826003,0.5,This game is hard,3
+T02,操作、难度与平衡,controls_difficulty,239092902,2358720,Black Myth: Wukong,schinese,Simplified Chinese,high,0.792678,1.0,游戏难度太大,1
+T02,操作、难度与平衡,controls_difficulty,238672352,570,Dota 2,schinese,Simplified Chinese,high,0.783303,1.0,上手难度挺高的,2
+T02,操作、难度与平衡,controls_difficulty,239077988,504230,Celeste,schinese,Simplified Chinese,high,0.780819,0.5,总体游戏难度挺高的,3
+T03,性能、稳定性与故障,performance_stability,238267083,534380,Dying Light 2,english,English,low,0.774905,0.136364,I really couldn't even after the updates to fix it,1
+T03,性能、稳定性与故障,performance_stability,239042490,105600,Terraria,english,English,low,0.770784,1.0,Cant fix lost connection bug for over a year,2
+T03,性能、稳定性与故障,performance_stability,236414298,1203220,NARAKA: BLADEPOINT,english,English,low,0.76993,1.0,Bad connection,3
+T03,性能、稳定性与故障,performance_stability,239072550,1203220,NARAKA: BLADEPOINT,schinese,Simplified Chinese,low,0.874679,1.0,老是闪退，垃圾游戏,1
+T03,性能、稳定性与故障,performance_stability,224823278,244850,Space Engineers,schinese,Simplified Chinese,low,0.852524,1.0,在主界面崩溃，闪退,2
+T03,性能、稳定性与故障,performance_stability,238898382,292030,The Witcher 3: Wild Hunt,schinese,Simplified Chinese,low,0.838739,1.0,重置版后出现各种各样的BUG，重要还要经常卡死，玩的真TM闹心,3
+T04,剧情与角色,story_characters,239111164,976730,Halo: The Master Chief Collection,english,English,low,0.848529,1.0,its a great game and the story line make it interesting to plau,1
+T04,剧情与角色,story_characters,238959643,648800,Raft,english,English,low,0.842943,0.5,The story line is fun to follow as well,2
+T04,剧情与角色,story_characters,238949403,489830,The Elder Scrolls V: Skyrim Special Edition,english,English,low,0.838043,0.5,"And THIS Game is still amazing, it still has all the depth of story telling, characters that we can love and hate and form our own truths with",3
+T04,剧情与角色,story_characters,229619732,976730,Halo: The Master Chief Collection,schinese,Simplified Chinese,low,0.846016,1.0,剧情不错，,1
+T04,剧情与角色,story_characters,238087869,1145360,Hades,schinese,Simplified Chinese,low,0.843569,1.0,剧情很好,2
+T04,剧情与角色,story_characters,237722424,1145360,Hades,schinese,Simplified Chinese,low,0.838109,0.5,它剧情挺不错的，文本啥的也有那味,3
+T05,画面、美术、音乐与音效,audiovisual,238782099,1145360,Hades,english,English,low,0.902556,1.0,The graphics and the music are incredible,1
+T05,画面、美术、音乐与音效,audiovisual,237902735,1426210,It Takes Two,english,English,low,0.901114,0.25,The game is visually stunning,2
+T05,画面、美术、音乐与音效,audiovisual,239116050,1086940,Baldur's Gate 3,english,English,low,0.887147,0.5,the graphics are amazing,3
+T05,画面、美术、音乐与音效,audiovisual,238914841,1144200,Ready or Not,schinese,Simplified Chinese,low,0.886232,1.0,nice game the visuals and environments are great,1
+T05,画面、美术、音乐与音效,audiovisual,237382109,504230,Celeste,schinese,Simplified Chinese,low,0.828305,1.0,且音乐是真的顶级，美术也是非常到位,2
+T05,画面、美术、音乐与音效,audiovisual,239114802,1245620,Elden Ring,schinese,Simplified Chinese,low,0.823898,0.5,确实很好玩，画面和游戏性都很高,3
+T06,联机、匹配、作弊与社区,multiplayer_community,238901496,739630,Phasmophobia,english,English,high,0.837105,1.0,Game is very fun with friends.,1
+T06,联机、匹配、作弊与社区,multiplayer_community,239063582,739630,Phasmophobia,english,English,high,0.836795,1.0,"It's a good game, especially with friends.",2
+T06,联机、匹配、作弊与社区,multiplayer_community,238831782,739630,Phasmophobia,english,English,high,0.831855,1.0,"its more fun with friends and also dont use discord or any other vc, use the ingame vc its good and thats how its meant to be played",3
+T06,联机、匹配、作弊与社区,multiplayer_community,238898878,105600,Terraria,schinese,Simplified Chinese,high,0.823356,1.0,和朋友一起玩很好玩,1
+T06,联机、匹配、作弊与社区,multiplayer_community,237208510,739630,Phasmophobia,schinese,Simplified Chinese,high,0.819908,1.0,好玩，和朋友一起特别好玩,2
+T06,联机、匹配、作弊与社区,multiplayer_community,237996114,4000,Garry's Mod,schinese,Simplified Chinese,high,0.819627,1.0,很好的游戏，和朋友一起玩会更好玩,3
+T07,价格、付费与 DLC 收费,price_monetization,239029796,238960,Path of Exile,english,English,low,0.828011,0.333333,"I shall spend some $ on them microtransactions, i want to support this otherwise 'free to play' game",1
+T07,价格、付费与 DLC 收费,price_monetization,238794887,220,Half-Life 2,english,English,low,0.802555,1.0,Would recommend paying full price for the game,2
+T07,价格、付费与 DLC 收费,price_monetization,238413013,2358720,Black Myth: Wukong,english,English,low,0.789612,0.125,"If you like souls-inspired boss rushes, I'd suggest buying at a fairly discounted price.",3
+T07,价格、付费与 DLC 收费,price_monetization,225472690,244850,Space Engineers,schinese,Simplified Chinese,low,0.747137,1.0,你这DLC价格是认真的,1
+T07,价格、付费与 DLC 收费,price_monetization,238681804,646570,Slay the Spire,schinese,Simplified Chinese,low,0.742066,1.0,这游戏根本不值这个价钱，内容太少,2
+T07,价格、付费与 DLC 收费,price_monetization,230012062,291550,Brawlhalla,schinese,Simplified Chinese,low,0.740423,0.5,:) 游戏内有角色供玩家购买,3
+T08,内容量、重玩、MOD 与更新维护,content_support,238867781,1623730,Palworld,english,English,low,0.835341,1.0,The dev supports mods for the game which is always a plus because it allows personalization in your experience,1
+T08,内容量、重玩、MOD 与更新维护,content_support,238733685,220,Half-Life 2,english,English,low,0.821167,1.0,"Buen juego, aun mejor con mods.",2
+T08,内容量、重玩、MOD 与更新维护,content_support,238206656,262060,Darkest Dungeon,english,English,low,0.807014,0.25,"There's beauty in it though, and the mods gives the game significantly more depth",3
+T08,内容量、重玩、MOD 与更新维护,content_support,230839846,440900,Conan Exiles,schinese,Simplified Chinese,low,0.814826,1.0,玩法深度够，MOD内容多,1
+T08,内容量、重玩、MOD 与更新维护,content_support,236147857,813780,Age of Empires II: Definitive Edition,schinese,Simplified Chinese,low,0.798824,0.5,更新也相当勤快，游戏内容丰富有趣，制作组和善,2
+T08,内容量、重玩、MOD 与更新维护,content_support,239013997,1091500,Cyberpunk 2077,schinese,Simplified Chinese,low,0.792346,0.272727,如果能到2077年还在更新就好了，会是本游戏最酷最赛博的一点,3
