@@ -1,0 +1,127 @@
+{
+  "topic_version": "topics-v1-exploratory-20261118",
+  "status": "exploratory",
+  "inputs": {
+    "data/cleaned/freeze_20261101/cleaning_manifest.json": {
+      "sha256": "442f7e9884745a0bc17ce6a85af2e6a576edd00bac8373c3fb8455f11021b57a",
+      "recorded_sha256": null,
+      "match": "snapshot"
+    },
+    "data/cleaned/freeze_20261101/clean_master.jsonl": {
+      "sha256": "8a62b9df2b2c2fe1ac82c483c4a5c87ae5c28805fd62593f699a88c12648ba8a",
+      "recorded_sha256": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26",
+      "match": "LF-equivalent"
+    },
+    "data/metadata/freeze_20261101/metadata_manifest.json": {
+      "sha256": "0de0e9f26e269cedc291e6a1b7e270ba5b5277154f6214ac4de6e357c76fb4b3",
+      "recorded_sha256": null,
+      "match": "snapshot"
+    },
+    "data/metadata/freeze_20261101/game_meta.csv": {
+      "sha256": "f10d70b21d39a3e5871a04cdc636ee31900b52c3c258f2b9c6bfdc443b32b546",
+      "recorded_sha256": "f10d70b21d39a3e5871a04cdc636ee31900b52c3c258f2b9c6bfdc443b32b546",
+      "match": "exact"
+    },
+    "output/topic_selection/topics-v1-exploratory-20261118/topic_v1.json": {
+      "sha256": "3b36b145d6ffa1f8e80643ace243f26cbe5d664cc215bfb9a77d200dcbeed45e",
+      "recorded_sha256": null,
+      "match": "snapshot"
+    },
+    "output/topic_selection/topics-v1-exploratory-20261118/analysis_input_contract.json": {
+      "sha256": "8562b5fe76fbc9ffd8e7fa431558dc93f1f5a34fd3cc421efe53414a44456cf9",
+      "recorded_sha256": null,
+      "match": "snapshot"
+    },
+    "config/topics_v1_exploratory.json": {
+      "sha256": "c02c080bbaef7c6ea137a9935048cda29d07a7dabb0a7b7f93e0d38fc0f39b1e",
+      "recorded_sha256": "0535a90d55d8a7b0267895e992e666a9365e62ff0f1a1f80c00be0dec5c79542",
+      "match": "LF-equivalent"
+    },
+    "output/topic_selection/task12-20261114/handoff/sentence_units.jsonl": {
+      "sha256": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+      "recorded_sha256": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+      "match": "exact"
+    },
+    "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/assignments.csv": {
+      "sha256": "a04b0feb141c1603b2c800ad24da2eb39036916fc4132265fb181ace65fe9609",
+      "recorded_sha256": "a04b0feb141c1603b2c800ad24da2eb39036916fc4132265fb181ace65fe9609",
+      "match": "exact"
+    },
+    "output/topic_selection/task12-20261114/topic-list-draft.json": {
+      "sha256": "5975c4d0024724ff9d034b21143a6f6ef628c9c4666f6fde36c5a4383e3e6e71",
+      "recorded_sha256": "5975c4d0024724ff9d034b21143a6f6ef628c9c4666f6fde36c5a4383e3e6e71",
+      "match": "exact"
+    },
+    "output/topic_selection/task12-20261114/handoff/review_to_units.json": {
+      "sha256": "a1eb3a0a88b76b7ca8fda70ce5d69092e32556ebc040a7d9aec77a11188dab91",
+      "recorded_sha256": "a1eb3a0a88b76b7ca8fda70ce5d69092e32556ebc040a7d9aec77a11188dab91",
+      "match": "exact"
+    },
+    "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/topic-seed-units.json": {
+      "sha256": "ca721c8c6bcf5ced911228d5d6e4a9174452178a57e9c531358eb1cfd4eff0d8",
+      "recorded_sha256": "ca721c8c6bcf5ced911228d5d6e4a9174452178a57e9c531358eb1cfd4eff0d8",
+      "match": "exact"
+    },
+    "output/embedding-bge-sentences/task12-20261117-v1/sentence_embedding_manifest.json": {
+      "sha256": "46f983005195b328a86e7edc4e8ed72ea68ffc9d691067f28981c94a325a3a31",
+      "recorded_sha256": null,
+      "match": "snapshot"
+    },
+    "output/embedding-bge-sentences/task12-20261117-v1/unit_ids.json": {
+      "sha256": "73207e17a2ada4367c01c2fa46a4b412547f96e0e3762debc03fb2371e75de2f",
+      "recorded_sha256": "73207e17a2ada4367c01c2fa46a4b412547f96e0e3762debc03fb2371e75de2f",
+      "match": "exact"
+    },
+    "output/embedding-bge-sentences/task12-20261117-v1/sentence_vectors.npy": {
+      "sha256": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd",
+      "recorded_sha256": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd",
+      "match": "exact"
+    },
+    "output/topic_selection/topics-v1-exploratory-20261118/unit_topic_assignments.jsonl": {
+      "sha256": "367b55bd518ffd506d0c445698742feb636c8e6e2e858e44ce669d5aa7bdc81a",
+      "recorded_sha256": null,
+      "match": "snapshot"
+    },
+    "output/topic_selection/topics-v1-exploratory-20261118/review_topic_weights.jsonl": {
+      "sha256": "eaecacd6aa43b34d328704d7c346c26c7910b2570773dbab0e038136f2147689",
+      "recorded_sha256": null,
+      "match": "snapshot"
+    },
+    "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k8_s17/assignments.csv": {
+      "sha256": "a76543634fd3760b3a04e3cb56d4538a95ecca61b85340a8b174577fa449349d",
+      "recorded_sha256": null,
+      "match": "snapshot"
+    }
+  },
+  "code_sha256": {
+    "scripts/analyze_rq2_rq4.py": "f02ede172739ec4ba1620ccdcc657b1874460c1de9b21b1984f82db1fc143c11",
+    "scripts/rq24_inputs.py": "efc489ecd16f3e1322955893ea1e239e6844b9b39c9c7e400ac4fdafc6cc15d0",
+    "scripts/rq24_models.py": "e740e06444795a9600eaf465da7217a39a1e5992057ae12921576d02285c0edc",
+    "scripts/analysis_common.py": "0395246da340610d78101365aa3713f1f46be73243c6c0f946fd776f7412df3e",
+    "scripts/assign_topics_v1_cluster_derived.py": "faf8a4b941db2e8ec32c1e96af2e0fe5dc6a0edadb630b1aadc82be92887383a",
+    "requirements-analysis.txt": "906c2a0102f401e62a275029b5279019932dfeb21facb898649e8b64ee55d5ff"
+  },
+  "outputs_sha256": {
+    "annotation_sample.csv": "1d448ccd8e6f3c770e024f02f1e756f238d5a05b5ee47f01e5b1aaef29af9d1a",
+    "diagnostics.json": "13db656f42d112f5e447681874e1d5e69257bc402a2db4b4d07c74fa5fd515ba",
+    "review_coverage.csv": "0fa761436208fbec4d2d223ae77777a0a5663f7dda4fe1dabef42c6008b54352",
+    "rq2_models.csv": "93a5fcaf9dc4eca958449da972ae4eebe5c31cee94a7f9c3cd063499dd93a006",
+    "rq2_topic_odds.png": "6ed4b69107015a8501f6d8f8a94ae54529304ec6e69eef36c2012e380f7b52cb",
+    "rq2_topic_support.csv": "5a4688447354ac7b3a7308b005adee0d96f5b363ad9c39c70192c2eef70b8834",
+    "rq4_groups.csv": "5122d64cfee48c185427ec2c1b3948d6138e62edede4aa70870eecdce30b5002",
+    "rq4_models.csv": "caabbcec502f3c951a54ce3c7085553e89526eb0daa657df90dca8892e4289e9",
+    "rq4_playtime_groups.png": "d2b0305ad61b0f3d7221067b06fe3a7f5f181e35df1efc160f0f0ba9056bafcf",
+    "rq4_tertile_cutoffs.csv": "9fcd6be09687270439966954e3740a36abda4a09e43c5052e9e1e6a71ee807dc"
+  },
+  "runtime": {
+    "python": "3.13.17",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "statsmodels": "0.15.0",
+    "jieba": "0.42.1",
+    "joblib": "1.6.0"
+  }
+}

@@ -60,3 +60,9 @@
 /requirements-rq3-lock.txt -text
 /output/rq3/** -text
 /output/rq3/**/*.png -diff
+# RQ2/RQ4 exploratory results retain the bytes recorded in the analysis manifest.
+/scripts/analyze_rq2_rq4.py -text
+/scripts/rq24_inputs.py -text
+/scripts/rq24_models.py -text
+/output/rq2_rq4/** -text
+/output/rq2_rq4/**/*.png -diff

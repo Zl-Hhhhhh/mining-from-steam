@@ -151,6 +151,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup-local.ps1
 
 ## 主题挖掘基线
 
-B 的任务 9 已完成：中英文 TF-IDF + NMF、不同主题数及随机种子、候选比较、代表评论和双人盲核验材料。运行命令与结果入口见 [docs/topic-baseline.md](docs/topic-baseline.md)。任务 11 已收齐答卷并形成依据复核意见的 AI 裁决；任务 12 的主题冻结及正式 RQ2/RQ4 主题关联分析尚未完成。
+B 的任务 9 已完成中英文 TF-IDF + NMF 基线与核验材料，见 [主题基线说明](docs/topic-baseline.md)。任务 11 已收齐答卷并按复核意见完成 AI 裁决。B 已使用团队交付的探索性主题权重完成 RQ2／RQ4、敏感性对照和复现脚本，审阅入口见 [RQ2／RQ4 审阅稿](output/rq2_rq4/topics-v1-exploratory-20261118/README.md)。
 
 本次 setup 和实际采集结果见 [docs/setup-results.md](docs/setup-results.md)。数据的 Git 跟踪规则以 `.gitignore` 为准；新增分析产物记录输入版本、配置和文件哈希。
