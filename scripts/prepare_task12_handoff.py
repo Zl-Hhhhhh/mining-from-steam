@@ -12,6 +12,7 @@ from pathlib import Path
 import analysis_common as common
 import check_topic_stability as stability
 from rework_unsupervised_topics import lexical_flags
+import task12_review_structure as structure
 
 ROOT = common.ROOT
 BASE = ROOT / "output/topic_selection/task12-20261114"
@@ -30,14 +31,27 @@ def split_units(text):
     return [re.sub(r"\s+", " ", p).strip() for p in pieces if re.sub(r"\s+", " ", p).strip()]
 
 
-def prepare_units(source, master, gate, *, allow_unmatched=False):
+def prepare_units(source, master, gate, *, allow_unmatched=False, raw_reviews=None):
     units, review_map, generic_units = {}, {}, {}
     for row in source:
         review_id = row["recommendationid"]
         selected = review_map[review_id] = []
-        if lexical_flags(row["text_clean"], gate)["template"]:
-            continue
-        for text in split_units(row["text_clean"]):
+        clean = row["text_clean"]
+        legacy_template = lexical_flags(clean, gate)["template"]
+        legacy = [] if legacy_template else split_units(clean)
+        pieces = legacy
+        if raw_reviews is not None:
+            raw = raw_reviews[review_id]
+            if legacy_template or len(raw.strip()) > structure.LONG_REVIEW_CHARACTERS or structure.has_checkbox_items(raw):
+                pieces = structure.extract_units(raw)
+        legacy_texts = set(legacy)
+        for text in pieces:
+            # Reuse the legacy representation when a final English period is
+            # the only difference introduced by the restored paragraph break.
+            if raw_reviews is not None and text not in legacy_texts:
+                alternate = text[:-1] if text.endswith(".") else text + "."
+                if alternate in legacy_texts:
+                    text = alternate
             generic = allow_unmatched and GENERIC_REVIEW.fullmatch(text.casefold().strip(" .!?。！？…"))
             flags = lexical_flags(text, gate)
             matched = bool(flags["matches"])
@@ -53,7 +67,7 @@ def prepare_units(source, master, gate, *, allow_unmatched=False):
                 target = units
                 classification = {
                     "lexical_categories_diagnostic": list(flags["matches"]),
-                    "fit_candidate": matched and not flags["template"] and not flags["long_or_many_aspects"],
+                    "fit_candidate": text in legacy_texts and matched and not flags["template"] and not flags["long_or_many_aspects"],
                 }
                 if key not in selected:
                     selected.append(key)
@@ -63,6 +77,8 @@ def prepare_units(source, master, gate, *, allow_unmatched=False):
             })
             if item["text"] != text:
                 raise ValueError("Unit ID hash collision")
+            if not generic and classification["fit_candidate"]:
+                item["fit_candidate"] = True
             for field, value in (("review_ids", review_id), ("appids", row["appid"]),
                                  ("source_languages", row["language"])):
                 if value not in item[field]:
@@ -72,7 +88,7 @@ def prepare_units(source, master, gate, *, allow_unmatched=False):
     return units, review_map, generic_units
 
 
-def run(destination, *, allow_unmatched=False):
+def run(destination, *, allow_unmatched=False, restore_review_structure=False):
     destination = Path(destination)
     if destination.exists():
         raise FileExistsError("Use a new handoff directory")
@@ -81,6 +97,9 @@ def run(destination, *, allow_unmatched=False):
              BASE / "unsupervised_residual/rework_results.json", BASE / "nmf_rework/rework_results.json",
              ROOT / "config/topic_rework_residual.json", ROOT / "data/derived/embedding-bge/freeze_20261101-v1/model_reviews.jsonl",
              ROOT / "data/derived/embedding-bge/freeze_20261101-v1/master_index.jsonl", Path(__file__), ROOT / "config/embedding_bge.json"]
+    raw_path = ROOT / "data/cleaned/freeze_20261101/clean_master.jsonl"
+    if restore_review_structure:
+        paths.extend([raw_path, Path(structure.__file__)])
     hashes = {p.relative_to(ROOT).as_posix(): common.sha256(p) for p in paths}
     mapping, decisions, baseline, filtered, residual, nmf, gate = [common.read_json(p) for p in paths[:7]]
     actions = []
@@ -95,7 +114,15 @@ def run(destination, *, allow_unmatched=False):
                               "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"})
     source = [json.loads(line) for line in paths[7].read_text(encoding="utf-8").splitlines()]
     master = [json.loads(line) for line in paths[8].read_text(encoding="utf-8").splitlines()]
-    units, review_map, generic_units = prepare_units(source, master, gate, allow_unmatched=allow_unmatched)
+    raw_reviews = None
+    if restore_review_structure:
+        with raw_path.open(encoding="utf-8") as handle:
+            raw_reviews = {str(row["recommendationid"]): row["review"] for row in map(json.loads, handle)}
+        if set(raw_reviews) != {str(row["recommendationid"]) for row in master}:
+            raise ValueError("Original reviews do not cover the embedding master index")
+    units, review_map, generic_units = prepare_units(
+        source, master, gate, allow_unmatched=allow_unmatched, raw_reviews=raw_reviews
+    )
     destination.mkdir(parents=True)
     stability.write(destination / "candidate_actions.json", {"status": "adjudication_applied_to_candidate_catalog",
         "rows": actions, "counts": dict(Counter(x["action"] for x in actions)), "task12_topics_frozen": False})
@@ -145,6 +172,21 @@ def run(destination, *, allow_unmatched=False):
         }
         manifest["screening"] = screening
         manifest["notes"][0] = "Unmatched units are application-only candidates. Whole-fragment generic matches go to A01, outside the encoding input."
+    if restore_review_structure:
+        manifest["structure"] = {
+            "long_review_characters_exclusive": structure.LONG_REVIEW_CHARACTERS,
+            "long_input_reviews": sum(len(raw_reviews[row["recommendationid"]].strip()) > structure.LONG_REVIEW_CHARACTERS
+                                      for row in source),
+            "new_structural_units_are_application_only": True,
+        }
+        manifest["notes"][2] = "Long reviews use original paragraph, list and sentence boundaries. Checkbox evidence combines a heading and an explicitly selected option."
+        manifest["notes"][3] = "Unit IDs hash the extracted text. Review IDs link back to the original text; template headings and choices may be joined."
+        manifest["next_experiment"] = {
+            "representation": "Same BGE-M3 revision as the relaxed handoff",
+            "embedding_reuse": "Reuse existing embeddings for identical unit IDs and text hashes",
+            "topic_reference": "Use the existing K=10 cluster centers and original seed vectors for the comparison",
+            "aggregation": "Compare review-level topic coverage using the same assignment policy",
+        }
     output_names = [*unit_files, "review_to_units.json", "candidate_actions.json", "encoding_request.json"]
     manifest["outputs"] = [{"path": name, "sha256": common.sha256(destination / name)} for name in output_names]
     stability.write(destination / "manifest.json", manifest)
@@ -182,9 +224,17 @@ def run(destination, *, allow_unmatched=False):
             f"- [A01 泛评片段](auxiliary_units.jsonl)共 {screening['generic_auxiliary_units']:,} 个去重片段，不进入编码。",
             "",
         ])
+    if restore_review_structure:
+        lines.extend([
+            "## 长评与模板入口", "",
+            f"- 字符数超过 {structure.LONG_REVIEW_CHARACTERS} 的评论用原文划分段落、列表和可拆分的分句。",
+            "- 勾选模板保留小节标题和已选内容，也保留独立正文。新提取的片段用于主题应用。",
+            "- 后续对照沿用原有 K=10 簇中心和种子向量。按单元 ID 和文本哈希复用现成向量，补算重新切分的片段。",
+            "",
+        ])
     (destination / "README.md").write_text("\n".join(lines),encoding="utf-8",newline="\n")
     if any(common.sha256(ROOT/path)!=digest for path,digest in hashes.items()):raise RuntimeError("Source changed")
-    fields = ("unit_count", "fit_candidate_units", "master_review_count", "reviews_with_units", "screening")
+    fields = ("unit_count", "fit_candidate_units", "master_review_count", "reviews_with_units", "screening", "structure")
     print(json.dumps({key: manifest[key] for key in fields if key in manifest}, ensure_ascii=False))
     return manifest
 
@@ -193,5 +243,6 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=BASE / "handoff")
     parser.add_argument("--allow-unmatched", action="store_true", help="Retain unmatched text for topic application and export A01 generic fragments.")
+    parser.add_argument("--restore-review-structure", action="store_true", help="Use original paragraphs, lists and checked options for long or templated reviews.")
     args = parser.parse_args()
-    run(args.output, allow_unmatched=args.allow_unmatched)
+    run(args.output, allow_unmatched=args.allow_unmatched, restore_review_structure=args.restore_review_structure)

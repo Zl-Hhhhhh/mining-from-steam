@@ -10,6 +10,7 @@ import rework_unsupervised_topics as rework
 import rework_nmf_topics as nmf_rework
 import prepare_task12_handoff as handoff
 import analysis_common as common
+import task12_review_structure as structure
 
 
 class StabilityTests(unittest.TestCase):
@@ -90,6 +91,56 @@ class StabilityTests(unittest.TestCase):
         self.assertEqual(review_map["4"], [])
         self.assertEqual({row["text"] for row in generic.values()}, {"好玩", "10/10"})
         self.assertTrue(all(row["auxiliary_route"] == "A01" for row in generic.values()))
+
+    def test_structured_prose_keeps_list_boundaries_and_dependent_negation(self):
+        raw = (
+            "The camera shakes on my PC, but not if I disable motion blur. "
+            "I like the level design, but the last chapter is not balanced.\n\n"
+            "1. Graphics are good\n2. The price is 14.70 on sale\n\n"
+            "It is not only cheap but also well made. E.g. it features a replay mode.\n\n"
+            "好玩，就是一进城就只剩十几帧。\n\n1、开启光追后卡顿\n（二）关闭光追以后就正常"
+        )
+        self.assertEqual(structure.extract_units(raw), [
+            "The camera shakes on my PC, but not if I disable motion blur",
+            "I like the level design", "but the last chapter is not balanced.",
+            "Graphics are good", "The price is 14.70 on sale",
+            "It is not only cheap but also well made", "E.g. it features a replay mode.",
+            "好玩", "就是一进城就只剩十几帧", "开启光追后卡顿", "关闭光追以后就正常",
+        ])
+
+    def test_template_recovers_selected_options_and_preserves_prose(self):
+        raw = (
+            "The save system crashes on PC.\n\n---{ Graphics }---\n\n"
+            "☐ Poor lighting\n  not my selection\n☑ Beautiful lighting\n"
+            "  with strong colours\n\nAudio:\n"
+            "- [ ] No sound [x] Rich vocals\n\n---{ My Rating }---\n[x] 9 / 10\n\n"
+            "I also had to restart the game twice."
+        )
+        self.assertEqual(structure.extract_units(raw), [
+            "The save system crashes on PC.",
+            "Graphics: Beautiful lighting with strong colours",
+            "Audio: Rich vocals",
+            "I also had to restart the game twice.",
+        ])
+
+    def test_structure_routes_new_template_and_long_fragments_to_application(self):
+        gate = common.read_json(common.ROOT / "config/topic_rework_residual.json")
+        raw = {
+            "1": "---{ Graphics }---\n☐ Ugly\n☑ Beautiful",
+            "2": "The graphics look great!\n\n" + "This is a deliberately long intro. " * 10
+                 + "\n\n- I have waited on a black screen\n- Audio disappears after restarting",
+            "3": "剧情很好。",
+        }
+        source = [{"recommendationid": key, "appid": 101, "language": "english",
+                   "text_clean": structure.compact(text)} for key, text in raw.items()]
+        baseline, old_map, _ = handoff.prepare_units(source, source, gate, allow_unmatched=True)
+        units, new_map, _ = handoff.prepare_units(source, source, gate, allow_unmatched=True, raw_reviews=raw)
+        self.assertFalse(old_map["1"])
+        self.assertEqual([units[key]["text"] for key in new_map["1"]], ["Graphics: Beautiful"])
+        self.assertEqual(old_map["3"], new_map["3"])
+        self.assertEqual(units[new_map["3"][0]], baseline[old_map["3"][0]])
+        self.assertTrue(any(units[key]["text"] == "Audio disappears after restarting" for key in new_map["2"]))
+        self.assertTrue(all(not units[key]["fit_candidate"] for key in units.keys() - baseline.keys()))
 
 
 if __name__=='__main__':unittest.main()

@@ -1,0 +1,288 @@
+{
+  "status": "exploratory_cluster_candidates",
+  "settings": {
+    "cluster_counts": [
+      8,
+      10,
+      12
+    ],
+    "seeds": [
+      17,
+      42
+    ],
+    "n_init": 5,
+    "max_iter": 300,
+    "cpu_threads": 6
+  },
+  "provenance": {
+    "input_units": "output/topic_selection/task12-20261114/handoff-structured-20261125/sentence_units.jsonl",
+    "input_sha256": "b38d7454bdf4a5ff3d8161c895b71128c11fdbff1e09575706f514c13aeeb512",
+    "vectors_sha256": "940aa5261613fc5ba24709a7abbb1949d7992263215edbf29fd2ec942991aac8",
+    "embedding_model": "BAAI/bge-m3",
+    "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181"
+  },
+  "relaxed_input_sha256": "824ec146558d65e8ce9f79e9447efdbf5549a98847da3b938d4366ae1f2ce7d1",
+  "script_sha256": "41864b7e7cdeb025d9537ee67fefdda9ad18e1e51c3a8b591cf5fdfa71da7cb8",
+  "policy": "Lloyd KMeans on normalized cached BGE-M3 vectors. Exclude whole-fragment generic text. No lexical gate, old topic score, old allowlist or review labels used.",
+  "units_fit": 34228,
+  "units_excluded_by_generic_rule": 263,
+  "reviews_with_fit_units": 16613,
+  "fit_units_from_new_structure": 7539,
+  "fit_units_without_lexical_hit": 24876,
+  "candidates": [
+    {
+      "candidate": "k8_s17",
+      "k": 8,
+      "seed": 17,
+      "iterations": 94,
+      "script_ami": 0.043706672984263784,
+      "cluster_sizes": [
+        4106,
+        4538,
+        3572,
+        5629,
+        4155,
+        2239,
+        4509,
+        5480
+      ]
+    },
+    {
+      "candidate": "k8_s42",
+      "k": 8,
+      "seed": 42,
+      "iterations": 67,
+      "script_ami": 0.06186703293508507,
+      "cluster_sizes": [
+        3682,
+        3316,
+        4409,
+        5483,
+        3497,
+        4800,
+        4454,
+        4587
+      ]
+    },
+    {
+      "candidate": "k10_s17",
+      "k": 10,
+      "seed": 17,
+      "iterations": 82,
+      "script_ami": 0.0611753594902071,
+      "cluster_sizes": [
+        3855,
+        3092,
+        3691,
+        3387,
+        4166,
+        2295,
+        3525,
+        3123,
+        2212,
+        4882
+      ]
+    },
+    {
+      "candidate": "k10_s42",
+      "k": 10,
+      "seed": 42,
+      "iterations": 125,
+      "script_ami": 0.05936925517022098,
+      "cluster_sizes": [
+        2852,
+        3560,
+        3379,
+        3962,
+        4611,
+        3663,
+        1987,
+        2960,
+        4222,
+        3032
+      ]
+    },
+    {
+      "candidate": "k12_s17",
+      "k": 12,
+      "seed": 17,
+      "iterations": 169,
+      "script_ami": 0.0630471073609297,
+      "cluster_sizes": [
+        1967,
+        2701,
+        3193,
+        3440,
+        3451,
+        2022,
+        3147,
+        2737,
+        1810,
+        3447,
+        3290,
+        3023
+      ]
+    },
+    {
+      "candidate": "k12_s42",
+      "k": 12,
+      "seed": 42,
+      "iterations": 92,
+      "script_ami": 0.05820474277237664,
+      "cluster_sizes": [
+        3152,
+        2671,
+        1987,
+        3161,
+        3452,
+        2449,
+        3176,
+        2012,
+        2710,
+        3352,
+        2831,
+        3275
+      ]
+    }
+  ],
+  "seed_stability": [
+    {
+      "k": 8,
+      "ari": 0.6993239689465536,
+      "matched_clusters": {
+        "0": {
+          "cluster": 5,
+          "jaccard": 0.7018918402446016
+        },
+        "1": {
+          "cluster": 2,
+          "jaccard": 0.776961271102284
+        },
+        "2": {
+          "cluster": 0,
+          "jaccard": 0.9328537170263789
+        },
+        "3": {
+          "cluster": 4,
+          "jaccard": 0.4414784394250513
+        },
+        "4": {
+          "cluster": 6,
+          "jaccard": 0.6923530568114803
+        },
+        "5": {
+          "cluster": 1,
+          "jaccard": 0.005611875452570601
+        },
+        "6": {
+          "cluster": 7,
+          "jaccard": 0.8712199135980251
+        },
+        "7": {
+          "cluster": 3,
+          "jaccard": 0.7992778598391597
+        }
+      }
+    },
+    {
+      "k": 10,
+      "ari": 0.657575635891164,
+      "matched_clusters": {
+        "0": {
+          "cluster": 9,
+          "jaccard": 0.7391414141414141
+        },
+        "1": {
+          "cluster": 0,
+          "jaccard": 0.6492785793562708
+        },
+        "2": {
+          "cluster": 3,
+          "jaccard": 0.8458755426917511
+        },
+        "3": {
+          "cluster": 8,
+          "jaccard": 0.4435590969455511
+        },
+        "4": {
+          "cluster": 5,
+          "jaccard": 0.8135279129024786
+        },
+        "5": {
+          "cluster": 7,
+          "jaccard": 0.006319417847567982
+        },
+        "6": {
+          "cluster": 2,
+          "jaccard": 0.8564130142511428
+        },
+        "7": {
+          "cluster": 1,
+          "jaccard": 0.8324650397587058
+        },
+        "8": {
+          "cluster": 6,
+          "jaccard": 0.8728813559322034
+        },
+        "9": {
+          "cluster": 4,
+          "jaccard": 0.5792713358842123
+        }
+      }
+    },
+    {
+      "k": 12,
+      "ari": 0.8171174488916163,
+      "matched_clusters": {
+        "0": {
+          "cluster": 10,
+          "jaccard": 0.5892679695263332
+        },
+        "1": {
+          "cluster": 5,
+          "jaccard": 0.8419170243204578
+        },
+        "2": {
+          "cluster": 0,
+          "jaccard": 0.9054054054054054
+        },
+        "3": {
+          "cluster": 6,
+          "jaccard": 0.8205833791964777
+        },
+        "4": {
+          "cluster": 9,
+          "jaccard": 0.8617952928297756
+        },
+        "5": {
+          "cluster": 7,
+          "jaccard": 0.9487922705314009
+        },
+        "6": {
+          "cluster": 3,
+          "jaccard": 0.9463128663992595
+        },
+        "7": {
+          "cluster": 1,
+          "jaccard": 0.946023749550198
+        },
+        "8": {
+          "cluster": 2,
+          "jaccard": 0.8485881207400194
+        },
+        "9": {
+          "cluster": 4,
+          "jaccard": 0.8510866648779178
+        },
+        "10": {
+          "cluster": 11,
+          "jaccard": 0.9342958161461402
+        },
+        "11": {
+          "cluster": 8,
+          "jaccard": 0.4282511210762332
+        }
+      }
+    }
+  ]
+}

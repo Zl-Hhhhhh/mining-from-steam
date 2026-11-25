@@ -1,0 +1,101 @@
+{
+  "topic_version": "topics-v1-structured-exploratory-20261125",
+  "status": "exploratory_delivery",
+  "files": {
+    "topic_v1.json": {
+      "bytes": 19132,
+      "sha256": "636679b03ac32034b07a23b37804d14c3c3359cce3e72946b1af236f4f0a0d04"
+    },
+    "unit_topic_assignments.jsonl": {
+      "bytes": 22691329,
+      "sha256": "7f6200d611a1aadc7030fc718a93f59675577dc347854e9cf79aeb2f3816a63c"
+    },
+    "review_topic_weights.csv": {
+      "bytes": 2066224,
+      "sha256": "08149d63eb01ea26c63f5b1ff20c6f0e3cff6dc35bdfa0f6ce379b35add78e34"
+    },
+    "review_topic_weights.jsonl": {
+      "bytes": 7266325,
+      "sha256": "d9372e3ef5fd1c923035f5bc5d6e961774a0080ac7576cbba7c4c24292ec2eda"
+    },
+    "summary.json": {
+      "bytes": 8766,
+      "sha256": "15b339f0a34a4247b20843748a3ffc7d860da14689474da3bf6c129fb5e22bc4"
+    }
+  },
+  "counts": {
+    "primary_topics": 8,
+    "proposed_subtopics": 4,
+    "units": 34491,
+    "fit_candidate_units": 5784,
+    "reviews": 19486,
+    "all_evidence_reviews": 5301,
+    "fit_evidence_reviews": 3996
+  },
+  "topic_ids": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08"
+  ],
+  "review_join_key": "review_id",
+  "unit_join_key": "unit_id",
+  "review_table": {
+    "path": "review_topic_weights.csv",
+    "structured_coverage_columns": [
+      "all_T01",
+      "all_T02",
+      "all_T03",
+      "all_T04",
+      "all_T05",
+      "all_T06",
+      "all_T07",
+      "all_T08"
+    ],
+    "legacy_fit_scope_columns": [
+      "fit_T01",
+      "fit_T02",
+      "fit_T03",
+      "fit_T04",
+      "fit_T05",
+      "fit_T06",
+      "fit_T07",
+      "fit_T08"
+    ]
+  },
+  "verification": {
+    "all_unit_and_review_ids_checked": true,
+    "review_weights_reaggregated": true,
+    "csv_jsonl_match": true,
+    "rq1_input_and_aggregate_smoke_test_passed": true
+  },
+  "matching_policy": {
+    "minimum_score": 0.65,
+    "minimum_gap": 0.06,
+    "nearest_cluster_agreement_required": true,
+    "generic_rejection": "whole_fragment_only",
+    "original_units_use_frozen_v1_labels": true
+  },
+  "source_checksums": {
+    "topic_config": "0535a90d55d8a7b0267895e992e666a9365e62ff0f1a1f80c00be0dec5c79542",
+    "seeds": "ca721c8c6bcf5ced911228d5d6e4a9174452178a57e9c531358eb1cfd4eff0d8",
+    "centers": "0fa6f1025cd6b9a3793655998220839b9dcee92ff886c21bd1db8b926b4ea51d",
+    "matcher": "4a88071ca707504cbf489a3cdb7d29aa91923433fb6a80c010c8b0d188c434fc",
+    "generic_rule": "d8e486c93646fcdbd9848e8aaf627311735bd1afbf962c0e905d989c35a597da",
+    "encoding_request": "a941f312aa44d3505bc38b41c3fe5d4d1942aafe5056a577b60457787da7035e",
+    "candidate_topic_list": "6001a7db184b0fbc89c07dc90d07a598f069afbcd7918acb75171828a178f5cc",
+    "structured_units": "b38d7454bdf4a5ff3d8161c895b71128c11fdbff1e09575706f514c13aeeb512",
+    "structured_review_map": "3a84a75a441555248a5b423dc86ca379812484a50629a0419d33e41e3eb86bb9"
+  },
+  "known_limitations": [
+    "The four provisional subtopics have no per-review labels or weights.",
+    "Some semantically valid checklist options fall below the current automated margin.",
+    "Review weights reflect a hybrid of retained v1 assignments and strict matching for added units.",
+    "Current RQ2/RQ3/RQ4 drivers require separate version integration.",
+    "Independent semantic validation and final sign-off are pending."
+  ]
+}

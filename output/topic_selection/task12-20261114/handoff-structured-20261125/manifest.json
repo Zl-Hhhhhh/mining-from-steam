@@ -1,0 +1,80 @@
+{
+  "status": "sentence_inputs_ready_encoding_not_run",
+  "sources": {
+    "output/topic_review/steam-review-20261107-v1/source_mapping/group_source_mapping.json": "3e32638682d83cec3b846a28c1407d246c4beea827af02bc4a8655e8eef8705d",
+    "output/topic_review/steam-review-20261107-v1/adjudicated-20261114/adjudication.json": "5569f2fbd39b119e3e5ebd0770c3001ba459a46854ced0df571aa2bee8ce12cb",
+    "output/topic_selection/task12-20261114/resampling_results.json": "e8d6f9ec7a3d8b12e60bd34c16c55ad2c75770bd6b8ad01a508a619ab9755c05",
+    "output/topic_selection/task12-20261114/unsupervised_rework/rework_results.json": "91542b5ed7b11ba6a478240b05660a8ec06e727c25014c15b7f17699b23814e3",
+    "output/topic_selection/task12-20261114/unsupervised_residual/rework_results.json": "00bbfaf15f95df331268390beca06fdc5db91037e93a181f00cd9b7f6a0cfd81",
+    "output/topic_selection/task12-20261114/nmf_rework/rework_results.json": "96b6024dbcbc5f3885c8b57a57557c1919e8e3e1f5c0914fb9d3c919fd2bc887",
+    "config/topic_rework_residual.json": "2edf38cc20200a00e5c8bbcc2ed61018690976e29b34ecf12b6ae1dddec34174",
+    "data/derived/embedding-bge/freeze_20261101-v1/model_reviews.jsonl": "ae68672beffbb8f424450296f9f418ad4c856125724fae80013e4a370aedcbde",
+    "data/derived/embedding-bge/freeze_20261101-v1/master_index.jsonl": "6f3f3855adc8a90e386435a4c4b919eb61fd40d8a2634cff3e9ba7044df328cc",
+    "scripts/prepare_task12_handoff.py": "50b56b176255cc7e8019c51f067b4d20d8f51154b4102b0ff5cca37c3e813c24",
+    "config/embedding_bge.json": "383e6803d740301716c64db815baab799237a7820b917569748b332ec181cc04",
+    "data/cleaned/freeze_20261101/clean_master.jsonl": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26",
+    "scripts/task12_review_structure.py": "6a6d6a77a303807fd0a6d382774f4dc477dccfab08532e8caa8c8e1ea01b3778"
+  },
+  "unit_count": 34491,
+  "fit_candidate_units": 5784,
+  "master_review_count": 19486,
+  "reviews_with_units": 16907,
+  "human_labels_used_for_training": false,
+  "recommendation_labels_used": false,
+  "old_whole_review_vectors_reused_for_sentence_units": false,
+  "task12_topics_frozen": false,
+  "next_experiment": {
+    "representation": "Same BGE-M3 revision as the relaxed handoff",
+    "embedding_reuse": "Reuse existing embeddings for identical unit IDs and text hashes",
+    "topic_reference": "Use the existing K=10 cluster centers and original seed vectors for the comparison",
+    "aggregation": "Compare review-level topic coverage using the same assignment policy"
+  },
+  "notes": [
+    "Unmatched units are application-only candidates. Whole-fragment generic matches go to A01, outside the encoding input.",
+    "No units does not establish that a review has no concrete aspect.",
+    "Long reviews use original paragraph, list and sentence boundaries. Checkbox evidence combines a heading and an explicitly selected option.",
+    "Unit IDs hash the extracted text. Review IDs link back to the original text; template headings and choices may be joined."
+  ],
+  "local_encoding_prerequisites": {
+    "missing_packages": [
+      "torch",
+      "sentence_transformers",
+      "transformers"
+    ],
+    "model_cache_present": true
+  },
+  "screening": {
+    "policy": "allow_unmatched_application_units",
+    "unmatched_application_units": 25139,
+    "reviews_with_only_unmatched_units": 12012,
+    "generic_auxiliary_units": 164,
+    "reviews_with_generic_auxiliary_units": 2196
+  },
+  "structure": {
+    "long_review_characters_exclusive": 250,
+    "long_input_reviews": 1570,
+    "new_structural_units_are_application_only": true
+  },
+  "outputs": [
+    {
+      "path": "sentence_units.jsonl",
+      "sha256": "b38d7454bdf4a5ff3d8161c895b71128c11fdbff1e09575706f514c13aeeb512"
+    },
+    {
+      "path": "auxiliary_units.jsonl",
+      "sha256": "ce572133ad5b8d3df7493e23f2b9efd4438ab1ac4d82a577f57b3e8fc5d9a692"
+    },
+    {
+      "path": "review_to_units.json",
+      "sha256": "3a84a75a441555248a5b423dc86ca379812484a50629a0419d33e41e3eb86bb9"
+    },
+    {
+      "path": "candidate_actions.json",
+      "sha256": "5e011a082cad8acfbd1811f8d3f0a12767b205ae2d28d1f32c6c06eee2a7a41f"
+    },
+    {
+      "path": "encoding_request.json",
+      "sha256": "a941f312aa44d3505bc38b41c3fe5d4d1942aafe5056a577b60457787da7035e"
+    }
+  ]
+}

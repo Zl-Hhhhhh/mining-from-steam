@@ -1,0 +1,306 @@
+{
+  "status": "exploratory_structured_comparison",
+  "policy": {
+    "minimum_score": 0.65,
+    "minimum_gap": 0.06,
+    "nearest_cluster_agreement_required": true,
+    "generic_rejection": "whole_fragment_only",
+    "original_units_use_frozen_v1_labels": true
+  },
+  "source_checksums": {
+    "topic_config": "0535a90d55d8a7b0267895e992e666a9365e62ff0f1a1f80c00be0dec5c79542",
+    "seeds": "ca721c8c6bcf5ced911228d5d6e4a9174452178a57e9c531358eb1cfd4eff0d8",
+    "centers": "0fa6f1025cd6b9a3793655998220839b9dcee92ff886c21bd1db8b926b4ea51d",
+    "matcher": "4a88071ca707504cbf489a3cdb7d29aa91923433fb6a80c010c8b0d188c434fc",
+    "generic_rule": "d8e486c93646fcdbd9848e8aaf627311735bd1afbf962c0e905d989c35a597da",
+    "encoding_request": "a941f312aa44d3505bc38b41c3fe5d4d1942aafe5056a577b60457787da7035e"
+  },
+  "frozen_seed_count": 37,
+  "vectors": {
+    "original": 7016,
+    "relaxed_delta": 19929,
+    "structured_delta": 7546
+  },
+  "new_structural_units_matched": 513,
+  "structural_unit_decisions": {
+    "score_or_margin": 6954,
+    "assigned": 513,
+    "whole_fragment_generic": 7,
+    "cluster_disagreement": 72
+  },
+  "matched_structural_unit_topics": {
+    "T06": 41,
+    "T04": 127,
+    "T05": 109,
+    "T02": 49,
+    "T01": 75,
+    "T03": 54,
+    "T07": 39,
+    "T08": 19
+  },
+  "all_reviews": {
+    "reviews": 19486,
+    "before_detected": 5442,
+    "after_detected": 5301,
+    "first_detected": 17,
+    "lost_detection": 158,
+    "gained_topic_pairs": 86,
+    "lost_topic_pairs": 1045,
+    "review_topics_changed": 659,
+    "by_source_language": {
+      "english": [
+        3144,
+        3025
+      ],
+      "schinese": [
+        2298,
+        2276
+      ]
+    }
+  },
+  "reviews_with_changed_candidates": {
+    "reviews": 1280,
+    "before_detected": 1135,
+    "after_detected": 994,
+    "first_detected": 17,
+    "lost_detection": 158,
+    "gained_topic_pairs": 86,
+    "lost_topic_pairs": 1045,
+    "review_topics_changed": 659,
+    "by_source_language": {
+      "english": [
+        954,
+        835
+      ],
+      "schinese": [
+        181,
+        159
+      ]
+    }
+  },
+  "reviewer_A": {
+    "all": {
+      "reviews": 156,
+      "reference_pairs": 152,
+      "before_true": 80,
+      "before_unsupported": 77,
+      "before_missing": 72,
+      "after_true": 80,
+      "after_unsupported": 75,
+      "after_missing": 72,
+      "gained_supported": 4,
+      "lost_supported": 4,
+      "gained_unsupported": 2,
+      "lost_unsupported": 4
+    },
+    "long": {
+      "reviews": 36,
+      "reference_pairs": 94,
+      "before_true": 56,
+      "before_unsupported": 37,
+      "before_missing": 38,
+      "after_true": 56,
+      "after_unsupported": 35,
+      "after_missing": 38,
+      "gained_supported": 4,
+      "lost_supported": 4,
+      "gained_unsupported": 2,
+      "lost_unsupported": 4
+    },
+    "answer_sha256": "d213b369b7b3b25edbf2d478e861a933e01532f17a90771234369002284b9dd7",
+    "sample_sha256": "5fb6e6848332a5e1588666709c9e46af346de95aedea981e4389eeae19b8bb1f",
+    "R097": {
+      "before": [],
+      "after": [
+        "T01",
+        "T02",
+        "T04"
+      ],
+      "units": [
+        {
+          "text": "Graphics: Beautiful",
+          "topic_ids": [],
+          "global_top_topic": "T05",
+          "global_top_score": 0.665001,
+          "global_gap": 0.050937,
+          "decision": "score_or_margin"
+        },
+        {
+          "text": "Gameplay: Very good",
+          "topic_ids": [],
+          "global_top_topic": "T05",
+          "global_top_score": 0.764443,
+          "global_gap": 0.013575,
+          "decision": "score_or_margin"
+        },
+        {
+          "text": "Audio: Good",
+          "topic_ids": [],
+          "global_top_topic": "T02",
+          "global_top_score": 0.633549,
+          "global_gap": 0.009495,
+          "decision": "score_or_margin"
+        },
+        {
+          "text": "Audience: Teens",
+          "topic_ids": [],
+          "global_top_topic": "T02",
+          "global_top_score": 0.587297,
+          "global_gap": 0.041763,
+          "decision": "score_or_margin"
+        },
+        {
+          "text": "Audience: Adults",
+          "topic_ids": [],
+          "global_top_topic": "T02",
+          "global_top_score": 0.626269,
+          "global_gap": 0.072887,
+          "decision": "score_or_margin"
+        },
+        {
+          "text": "PC Requirements: Decent",
+          "topic_ids": [],
+          "global_top_topic": "T02",
+          "global_top_score": 0.651897,
+          "global_gap": 0.027604,
+          "decision": "score_or_margin"
+        },
+        {
+          "text": "Game Size: Old Fashioned",
+          "topic_ids": [],
+          "global_top_topic": "T02",
+          "global_top_score": 0.642981,
+          "global_gap": 0.027215,
+          "decision": "score_or_margin"
+        },
+        {
+          "text": "Difficulty: Easy to learn / Hard to master",
+          "topic_ids": [
+            "T02"
+          ],
+          "global_top_topic": "T02",
+          "global_top_score": 0.710626,
+          "global_gap": 0.128534,
+          "decision": "assigned"
+        },
+        {
+          "text": "Difficulty: Difficult",
+          "topic_ids": [
+            "T02"
+          ],
+          "global_top_topic": "T02",
+          "global_top_score": 0.760933,
+          "global_gap": 0.183119,
+          "decision": "assigned"
+        },
+        {
+          "text": "Grind: If you want to get better gear faster (You can also just play normally)",
+          "topic_ids": [
+            "T01"
+          ],
+          "global_top_topic": "T01",
+          "global_top_score": 0.684645,
+          "global_gap": 0.062996,
+          "decision": "assigned"
+        },
+        {
+          "text": "Story: Good",
+          "topic_ids": [
+            "T04"
+          ],
+          "global_top_topic": "T04",
+          "global_top_score": 0.68846,
+          "global_gap": 0.076792,
+          "decision": "assigned"
+        },
+        {
+          "text": "Game Time: To infinity and beyond",
+          "topic_ids": [],
+          "global_top_topic": "T02",
+          "global_top_score": 0.652469,
+          "global_gap": 0.039919,
+          "decision": "score_or_margin"
+        },
+        {
+          "text": "Price: Worth the price",
+          "topic_ids": [],
+          "global_top_topic": "T07",
+          "global_top_score": 0.696818,
+          "global_gap": 0.058083,
+          "decision": "score_or_margin"
+        },
+        {
+          "text": "Bugs: Never heard of",
+          "topic_ids": [],
+          "global_top_topic": "T02",
+          "global_top_score": 0.538188,
+          "global_gap": 0.032329,
+          "decision": "score_or_margin"
+        },
+        {
+          "text": "Bugs: Actually has bugs... real bugs",
+          "topic_ids": [],
+          "global_top_topic": "T02",
+          "global_top_score": 0.632312,
+          "global_gap": 0.039373,
+          "decision": "score_or_margin"
+        }
+      ]
+    }
+  },
+  "same_rule_sensitivity": {
+    "scope": "Apply the same score, gap, cluster and generic rules to every unit on both sides.",
+    "all_reviews": {
+      "reviews": 19486,
+      "before_detected": 1899,
+      "after_detected": 1978,
+      "first_detected": 111,
+      "lost_detection": 32,
+      "gained_topic_pairs": 198,
+      "lost_topic_pairs": 56,
+      "review_topics_changed": 219,
+      "by_source_language": {
+        "english": [
+          1162,
+          1231
+        ],
+        "schinese": [
+          737,
+          747
+        ]
+      }
+    },
+    "reviewer_A": {
+      "all": {
+        "reviews": 156,
+        "reference_pairs": 152,
+        "before_true": 22,
+        "before_unsupported": 24,
+        "before_missing": 130,
+        "after_true": 30,
+        "after_unsupported": 25,
+        "after_missing": 122,
+        "gained_supported": 8,
+        "lost_supported": 0,
+        "gained_unsupported": 2,
+        "lost_unsupported": 1
+      },
+      "long": {
+        "reviews": 36,
+        "reference_pairs": 94,
+        "before_true": 14,
+        "before_unsupported": 7,
+        "before_missing": 80,
+        "after_true": 22,
+        "after_unsupported": 8,
+        "after_missing": 72,
+        "gained_supported": 8,
+        "lost_supported": 0,
+        "gained_unsupported": 2,
+        "lost_unsupported": 1
+      },
+      "answer_sha256": "d213b369b7b3b25edbf2d478e861a933e01532f17a90771234369002284b9dd7",
+      "sample_sha256": "5fb6e6848332a5e1588666709c9e46af346de95aedea981e4389eeae19b8bb1f"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "base_policy": "score_065_gap_006",
+  "semantic_topics": ["T05"],
+  "minimum_topic_over_generic_margin": 0.02,
+  "generic_examples": {
+    "english_praise": [
+      "An absolute masterpiece. I enjoyed it so much.",
+      "This game is genuinely fantastic.",
+      "I adore this game with all my heart.",
+      "Easily one of my all-time favourites."
+    ],
+    "english_criticism": [
+      "I hated this game from start to finish.",
+      "This is one of the worst games I have played.",
+      "Absolutely awful. What a disappointment.",
+      "I really wanted to like it, but I just didn't."
+    ],
+    "english_recommendation": [
+      "I would definitely recommend this game.",
+      "Give it a go. You won't regret it.",
+      "Do yourself a favour and skip this one.",
+      "Highly recommended. Just try it."
+    ],
+    "chinese_praise": [
+      "太好玩了，真的是神作。",
+      "特别喜欢这个游戏，太棒了。",
+      "很久没遇到这么好玩的游戏了。",
+      "是我最喜欢的游戏之一。"
+    ],
+    "chinese_criticism": [
+      "这游戏太差了，我一点也不喜欢。",
+      "玩完觉得特别失望。",
+      "实在是太烂了。",
+      "我真的喜欢不起来。"
+    ],
+    "chinese_recommendation": [
+      "强烈推荐，大家可以试一下。",
+      "挺不错的，推荐体验一下。",
+      "别玩了，不推荐。",
+      "喜欢的可以试试，整体还是推荐。"
+    ]
+  }
+}

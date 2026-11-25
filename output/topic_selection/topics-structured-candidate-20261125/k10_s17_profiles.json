@@ -1,0 +1,3364 @@
+[
+  {
+    "cluster": 0,
+    "units": 3855,
+    "reviews": 3203,
+    "script_hints": {
+      "Latin-script": 3426,
+      "Han-dominant": 416,
+      "other_or_uncertain": 13
+    },
+    "source_languages": {
+      "english": 3381,
+      "schinese": 477
+    },
+    "new_structural_units": 547,
+    "no_lexical_hit": 3159,
+    "lexical_categories_diagnostic": {
+      "multiplayer_community": 100,
+      "gameplay": 172,
+      "story_characters": 158,
+      "audiovisual": 86,
+      "price_monetization": 39,
+      "content_support": 105,
+      "performance_stability": 35,
+      "controls_difficulty": 92,
+      "other_concrete": 1
+    },
+    "samples": [
+      {
+        "unit_id": "S42eb87d7b63b91740da6",
+        "text": "这个有 25 年之长历史的游戏系列在今天依然出色",
+        "script_hint": "Han-dominant",
+        "distance": 0.7087982892990112,
+        "margin": 0.03657037019729614,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S2153ef9918f02110111e",
+        "text": "神作无需多言，战斗流畅，爽感十足",
+        "script_hint": "Han-dominant",
+        "distance": 0.6400363445281982,
+        "margin": 0.015417695045471191,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S032c9c28326b6dcd1dd7",
+        "text": "I bought this game again after having it on ps4 for a while, worth every dollar",
+        "script_hint": "Latin-script",
+        "distance": 0.5948107838630676,
+        "margin": 0.05825817584991455,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S57b6bc86ff3a6353d6b4",
+        "text": "Fun game that had me addicted the first time I played it",
+        "script_hint": "Latin-script",
+        "distance": 0.5676121115684509,
+        "margin": 0.038021981716156006,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S6ae5e3d7e57b41f0e11c",
+        "text": "This game is gonna make you ragequit the more you play",
+        "script_hint": "Latin-script",
+        "distance": 0.609512209892273,
+        "margin": 0.049234747886657715,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S2b49bf3c8044d5a9e0e9",
+        "text": "nice good game",
+        "script_hint": "Latin-script",
+        "distance": 0.5165120959281921,
+        "margin": 0.03827720880508423,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S3acb8444431b1caa9de9",
+        "text": "This game is addicting",
+        "script_hint": "Latin-script",
+        "distance": 0.4355885982513428,
+        "margin": 0.06698238849639893,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S091d55de7a0a36935453",
+        "text": "The game is good requires some practice",
+        "script_hint": "Latin-script",
+        "distance": 0.638952374458313,
+        "margin": 0.012733995914459229,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Saef306e2d1a13ea1cd59",
+        "text": "太好玩了，绝对的神作",
+        "script_hint": "Han-dominant",
+        "distance": 0.6242156624794006,
+        "margin": 0.00850534439086914,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S334863a4b8f56cf8d322",
+        "text": "worth a play as the repeatability is massive",
+        "script_hint": "Latin-script",
+        "distance": 0.5440112352371216,
+        "margin": 0.054192185401916504,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S4c71c48ea05d4d1f7fcf",
+        "text": "one of the very best ARPGs out there",
+        "script_hint": "Latin-script",
+        "distance": 0.6441003680229187,
+        "margin": 0.036111414432525635,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sdd79812a7833625bc7d9",
+        "text": "great game runs nice",
+        "script_hint": "Latin-script",
+        "distance": 0.5384718775749207,
+        "margin": 0.04495960474014282,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S9cdcb9a579e660a644f5",
+        "text": "很棒的一款游戏",
+        "script_hint": "Han-dominant",
+        "distance": 0.4435405731201172,
+        "margin": 0.09232831001281738,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sec1e605373963e892cac",
+        "text": "很棒的游戏",
+        "script_hint": "Han-dominant",
+        "distance": 0.443973571062088,
+        "margin": 0.07682707905769348,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S8069acaad46ce341b9d0",
+        "text": "很棒的游戏，",
+        "script_hint": "Han-dominant",
+        "distance": 0.4488607943058014,
+        "margin": 0.07883760333061218,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sc9d8d54c3eb4e4bb4212",
+        "text": "非常好的游戏",
+        "script_hint": "Han-dominant",
+        "distance": 0.45436590909957886,
+        "margin": 0.06843477487564087,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S40fee697a7c3377fbef0",
+        "text": "很棒的游戏，给我玩爽了",
+        "script_hint": "Han-dominant",
+        "distance": 0.46084460616111755,
+        "margin": 0.017047137022018433,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S60aa0c2920c8d692535d",
+        "text": "游戏本身很优秀",
+        "script_hint": "Han-dominant",
+        "distance": 0.5068180561065674,
+        "margin": 0.029598116874694824,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S392fa28073e9aea00139",
+        "text": "游戏是好的",
+        "script_hint": "Han-dominant",
+        "distance": 0.526897132396698,
+        "margin": 0.021237432956695557,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Saefc9b2d030ff731260a",
+        "text": "这个游戏真的每玩一次都有不一样的新体验",
+        "script_hint": "Han-dominant",
+        "distance": 0.5377376675605774,
+        "margin": 0.0391770601272583,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S927e5dbd624677744d82",
+        "text": "这是一款陪伴了我几乎整个大学时光的游戏",
+        "script_hint": "Han-dominant",
+        "distance": 0.5707724690437317,
+        "margin": 0.08044910430908203,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S8441648835df95f7c921",
+        "text": "也是终于全成就了，游戏是好游戏",
+        "script_hint": "Han-dominant",
+        "distance": 0.5842921733856201,
+        "margin": 0.0008775591850280762,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S6660860a87f6919fb65a",
+        "text": "The game is awesome",
+        "script_hint": "Latin-script",
+        "distance": 0.39891353249549866,
+        "margin": 0.11582037806510925,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Se07552d1c147f70ecbd5",
+        "text": "The game is amazing",
+        "script_hint": "Latin-script",
+        "distance": 0.4103572368621826,
+        "margin": 0.11567890644073486,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S9548734ddd03c3df8a25",
+        "text": "The game is fantastic",
+        "script_hint": "Latin-script",
+        "distance": 0.410795122385025,
+        "margin": 0.11778613924980164,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S0962905daef7f63f833e",
+        "text": "this game is highly recommended",
+        "script_hint": "Latin-script",
+        "distance": 0.41514259576797485,
+        "margin": 0.13396739959716797,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S744d8a6a1e3440cba903",
+        "text": "this game very good",
+        "script_hint": "Latin-script",
+        "distance": 0.41605231165885925,
+        "margin": 0.11200222373008728,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sf141d9b8e4369770c9a2",
+        "text": "this game is absolutely worth it",
+        "script_hint": "Latin-script",
+        "distance": 0.4427335858345032,
+        "margin": 0.12935012578964233,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sfbdd5a0bd7b7aff42714",
+        "text": "Honestly, awesome game",
+        "script_hint": "Latin-script",
+        "distance": 0.4561983048915863,
+        "margin": 0.0955798327922821,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sbaec3c5f254712d0158e",
+        "text": "it's easily one of my favorite games ever",
+        "script_hint": "Latin-script",
+        "distance": 0.4569145143032074,
+        "margin": 0.14080289006233215,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S92bb5b1f22154ad15a69",
+        "text": "This game is cool",
+        "script_hint": "Latin-script",
+        "distance": 0.46269336342811584,
+        "margin": 0.03923240303993225,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S79694cfa150a56635d6c",
+        "text": "One of the best games I’ve ever played",
+        "script_hint": "Latin-script",
+        "distance": 0.46403947472572327,
+        "margin": 0.15811315178871155,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      }
+    ]
+  },
+  {
+    "cluster": 1,
+    "units": 3092,
+    "reviews": 2162,
+    "script_hints": {
+      "Latin-script": 2514,
+      "Han-dominant": 541,
+      "other_or_uncertain": 37
+    },
+    "source_languages": {
+      "english": 2488,
+      "schinese": 604
+    },
+    "new_structural_units": 622,
+    "no_lexical_hit": 2362,
+    "lexical_categories_diagnostic": {
+      "performance_stability": 193,
+      "gameplay": 83,
+      "multiplayer_community": 179,
+      "story_characters": 74,
+      "content_support": 91,
+      "controls_difficulty": 124,
+      "audiovisual": 38,
+      "other_concrete": 5,
+      "price_monetization": 23
+    },
+    "samples": [
+      {
+        "unit_id": "S48c0c44b83e749db9a06",
+        "text": "THIS IS THE WORST OF ALL TIME IT MAKES ME WANT TO RIP MY EARS I RATHER EAT POOP THAN THIS GAME I RATHER CUT UP MY PLUSHIES THAN PLAY THIS GAME WHO EVER MADE THIS IS A RUFFIAN AND NEEDS TO STOP MAKING GAMES THIS SCULLION MADE THE WORST GAME OF ALL TIME I RATHER EAT BIRD POOP",
+        "script_hint": "Latin-script",
+        "distance": 0.695568859577179,
+        "margin": 0.05216062068939209,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S13dcafd39d2f884c84a4",
+        "text": "If you thought you'd try this game for the PVE, don't..",
+        "script_hint": "Latin-script",
+        "distance": 0.6950309872627258,
+        "margin": 0.030172228813171387,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S0239d16aba3b46f80904",
+        "text": "but as with anything Bethesda related its a click mod install away from improvement",
+        "script_hint": "Latin-script",
+        "distance": 0.7172076106071472,
+        "margin": 0.003499925136566162,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sd96dd2c24e96682367be",
+        "text": "辣鸡游戏 我玩你妈",
+        "script_hint": "Han-dominant",
+        "distance": 0.7094799280166626,
+        "margin": 0.04724222421646118,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S9163f2e1ecd367d839a5",
+        "text": "It wasn’t. The ending was just as bad as the rest of the game",
+        "script_hint": "Latin-script",
+        "distance": 0.6418948173522949,
+        "margin": 0.054557740688323975,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S4fac762d3085cbab761a",
+        "text": "Devs are shit, game is shit, bunch of reddit mods playing ranked Insta deinstall, bunch of retards",
+        "script_hint": "Latin-script",
+        "distance": 0.6921493411064148,
+        "margin": 0.028047025203704834,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S4b463979e6654753c622",
+        "text": "谢谢看门狗2 让我第一次玩到这么垃圾的游戏",
+        "script_hint": "Han-dominant",
+        "distance": 0.6393275260925293,
+        "margin": 0.02884089946746826,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sc6d41d98b02573094294",
+        "text": "just play the game and wonder why everything is the way it is.",
+        "script_hint": "Latin-script",
+        "distance": 0.6433994770050049,
+        "margin": 0.0106772780418396,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S47c3e8c494c6d56941f1",
+        "text": "独狼玩这个游戏很不友好",
+        "script_hint": "Han-dominant",
+        "distance": 0.6446782946586609,
+        "margin": 0.01914769411087036,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sc1853c0bc0c992316588",
+        "text": "I tried to gaslight myself into liking this game (hence my hours)",
+        "script_hint": "Latin-script",
+        "distance": 0.6546581983566284,
+        "margin": 0.003530561923980713,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sc88b93d122fc71ede089",
+        "text": "but learning the game has been greatly altered since it released feels strange",
+        "script_hint": "Latin-script",
+        "distance": 0.6557245254516602,
+        "margin": 0.0213472843170166,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S12286bd0f8228861673a",
+        "text": "Hollow Knight is a good game that every other Indievania took the wrong lessons from",
+        "script_hint": "Latin-script",
+        "distance": 0.7740206122398376,
+        "margin": 0.027122199535369873,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S5273ec0aa5401e50e31f",
+        "text": "完全没有好的游戏体验",
+        "script_hint": "Han-dominant",
+        "distance": 0.5203255414962769,
+        "margin": 0.013534367084503174,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sdb13fcffb649f2fd3901",
+        "text": "垃圾游戏，时间都给你了，我都没时间做其他事了",
+        "script_hint": "Han-dominant",
+        "distance": 0.5457353591918945,
+        "margin": 0.07035219669342041,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S041370076680f63eefc6",
+        "text": "垃圾游戏不好玩",
+        "script_hint": "Han-dominant",
+        "distance": 0.5524370670318604,
+        "margin": 0.06180846691131592,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S60621c292f0dc9e0d87e",
+        "text": "恶心的游戏 充满了对玩家的恶意",
+        "script_hint": "Han-dominant",
+        "distance": 0.5570627450942993,
+        "margin": 0.08288317918777466,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S81abfa25fc38026fc1ba",
+        "text": "垃圾游戏，也是半天匹不到人",
+        "script_hint": "Han-dominant",
+        "distance": 0.5602485537528992,
+        "margin": 0.033969223499298096,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sadfa8369c7c455a65283",
+        "text": "就是实在是玩不下去，💩",
+        "script_hint": "Han-dominant",
+        "distance": 0.5657618045806885,
+        "margin": 0.02057480812072754,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S590dba7f0128a38e2009",
+        "text": "它带着老游戏固有的缺陷",
+        "script_hint": "Han-dominant",
+        "distance": 0.5997294187545776,
+        "margin": 0.01104801893234253,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S67dac81d9df42cec2423",
+        "text": "就是这游戏真的有点像育碧的那种罐头游戏",
+        "script_hint": "Han-dominant",
+        "distance": 0.6183477640151978,
+        "margin": 0.016622185707092285,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sc4a8e5dfb70d26b7308a",
+        "text": "但当这个游戏我花了钱",
+        "script_hint": "Han-dominant",
+        "distance": 0.6242768168449402,
+        "margin": 0.03116321563720703,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S2362059e95c7ba01a604",
+        "text": "但用现在的游戏眼光看狗屎的地方太多",
+        "script_hint": "Han-dominant",
+        "distance": 0.6369772553443909,
+        "margin": 0.010608315467834473,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S2e0cf3e506b9906d7774",
+        "text": "The game is bad",
+        "script_hint": "Latin-script",
+        "distance": 0.4928903579711914,
+        "margin": 0.07766371965408325,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S969891b96bd64027b995",
+        "text": "game is bad",
+        "script_hint": "Latin-script",
+        "distance": 0.4988531470298767,
+        "margin": 0.08988434076309204,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sb136d204400d5e675c58",
+        "text": "The game is not fun",
+        "script_hint": "Latin-script",
+        "distance": 0.5021383762359619,
+        "margin": 0.06009376049041748,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S9bfe95bbf5c1c4ee9fe8",
+        "text": "this game sucks ass",
+        "script_hint": "Latin-script",
+        "distance": 0.5101706981658936,
+        "margin": 0.1042625904083252,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S27836befded142e152da",
+        "text": "This game is horrible",
+        "script_hint": "Latin-script",
+        "distance": 0.5103631019592285,
+        "margin": 0.09480684995651245,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sec5d7d4006fe0011c3d1",
+        "text": "But the game is bad",
+        "script_hint": "Latin-script",
+        "distance": 0.5190010666847229,
+        "margin": 0.07586705684661865,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S3b5e43a9f7daaa6512e5",
+        "text": "This game is really bad and incredibly boring",
+        "script_hint": "Latin-script",
+        "distance": 0.537723958492279,
+        "margin": 0.10818755626678467,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Scbd5ccc75961ae7a84fc",
+        "text": ">This game is ungodly buggy",
+        "script_hint": "Latin-script",
+        "distance": 0.5395241975784302,
+        "margin": 0.06854605674743652,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sa6e14e071ecac13ec842",
+        "text": "now im stuck with a game i cant play..",
+        "script_hint": "Latin-script",
+        "distance": 0.5497826933860779,
+        "margin": 0.09008175134658813,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S4621a3897c122641e619",
+        "text": "It doesn't help that the game is prone to crashes",
+        "script_hint": "Latin-script",
+        "distance": 0.5501477122306824,
+        "margin": 0.033171117305755615,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      }
+    ]
+  },
+  {
+    "cluster": 2,
+    "units": 3691,
+    "reviews": 2932,
+    "script_hints": {
+      "Latin-script": 2955,
+      "Han-dominant": 711,
+      "other_or_uncertain": 25
+    },
+    "source_languages": {
+      "english": 2916,
+      "schinese": 781
+    },
+    "new_structural_units": 910,
+    "no_lexical_hit": 2842,
+    "lexical_categories_diagnostic": {
+      "content_support": 102,
+      "audiovisual": 174,
+      "story_characters": 286,
+      "controls_difficulty": 112,
+      "gameplay": 149,
+      "multiplayer_community": 48,
+      "price_monetization": 40,
+      "performance_stability": 16,
+      "other_concrete": 3
+    },
+    "samples": [
+      {
+        "unit_id": "S51f37607dce4404ac5d2",
+        "text": "classic, kinda aged right now",
+        "script_hint": "Latin-script",
+        "distance": 0.6910135746002197,
+        "margin": 0.0014497637748718262,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sabc2167d7a0d80d99a00",
+        "text": "It has some great moments, likable characters",
+        "script_hint": "Latin-script",
+        "distance": 0.602407693862915,
+        "margin": 0.060381948947906494,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sa0ca0bfe3330205e51a8",
+        "text": "Bought this on a whim when it was on sale and I'm so glad I did",
+        "script_hint": "Latin-script",
+        "distance": 0.664422333240509,
+        "margin": 0.06481236219406128,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S705089633034026c3302",
+        "text": "love how a big ass cat jumps on my argentavis in red forest and kills me in 5 secs",
+        "script_hint": "Latin-script",
+        "distance": 0.7963436841964722,
+        "margin": 0.0012593865394592285,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S5ca6ae79c9489b93e9b9",
+        "text": "Fantastic atmosphere",
+        "script_hint": "Latin-script",
+        "distance": 0.5919766426086426,
+        "margin": 0.10049659013748169,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sa298f1c917f7bc56db83",
+        "text": "This one looks much better",
+        "script_hint": "Latin-script",
+        "distance": 0.6690961718559265,
+        "margin": 0.025413811206817627,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S9b7560b25a1b9750d46b",
+        "text": "太美妙了",
+        "script_hint": "Han-dominant",
+        "distance": 0.6438018083572388,
+        "margin": 0.09721648693084717,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S62129fa98074f685e8dd",
+        "text": "Definitely recommend.",
+        "script_hint": "Latin-script",
+        "distance": 0.5908582210540771,
+        "margin": 0.08791846036911011,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S47c7e41e7b010b64ae52",
+        "text": "The clock level, snow level, the attic level, it's all so beautiful and so unique",
+        "script_hint": "Latin-script",
+        "distance": 0.6862879991531372,
+        "margin": 0.08014833927154541,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S98232cdac7738d4bd1fe",
+        "text": "one of the best collections if all time. 10/10",
+        "script_hint": "Latin-script",
+        "distance": 0.6744361519813538,
+        "margin": 0.04095888137817383,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Scd32b1d42d2e9d6560b5",
+        "text": "can't ask for more",
+        "script_hint": "Latin-script",
+        "distance": 0.6972429752349854,
+        "margin": 0.015517354011535645,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sce610956d87b9bf5f656",
+        "text": "神了，还免费",
+        "script_hint": "Han-dominant",
+        "distance": 0.6995018124580383,
+        "margin": 0.024573206901550293,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S4c079e41d1d01c739327",
+        "text": "很棒，很喜欢",
+        "script_hint": "Han-dominant",
+        "distance": 0.5194333791732788,
+        "margin": 0.098277747631073,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S6222e957e2b1f5555104",
+        "text": "非常不错",
+        "script_hint": "Han-dominant",
+        "distance": 0.5318238735198975,
+        "margin": 0.08689916133880615,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sb6a862363f364b4b4dbb",
+        "text": "画面很棒 故事很好",
+        "script_hint": "Han-dominant",
+        "distance": 0.5323323011398315,
+        "margin": 0.08785390853881836,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sed19697cb18a847f542f",
+        "text": "画面很好，",
+        "script_hint": "Han-dominant",
+        "distance": 0.5326204895973206,
+        "margin": 0.03816932439804077,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S3f09fa19a03920b26aef",
+        "text": "非常不错啊",
+        "script_hint": "Han-dominant",
+        "distance": 0.5358039736747742,
+        "margin": 0.08541631698608398,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sfe13ab508e89551ec10d",
+        "text": "故事情节很好",
+        "script_hint": "Han-dominant",
+        "distance": 0.5889689922332764,
+        "margin": 0.03915834426879883,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S37e721add99cd6520135",
+        "text": "通关时，我觉得非常值",
+        "script_hint": "Han-dominant",
+        "distance": 0.6366806030273438,
+        "margin": 0.06972759962081909,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sa39d734803626454a073",
+        "text": "两个字，神作，在此推荐所有人来体验它的魅力",
+        "script_hint": "Han-dominant",
+        "distance": 0.6486477851867676,
+        "margin": 0.0535963773727417,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S499065672cbb1851976e",
+        "text": "但也足够讨人喜爱",
+        "script_hint": "Han-dominant",
+        "distance": 0.6525295972824097,
+        "margin": 0.03558349609375,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S233341d4b8329bbb5d9e",
+        "text": "以上是我认为的优点",
+        "script_hint": "Han-dominant",
+        "distance": 0.6593608260154724,
+        "margin": 0.031526267528533936,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S64d4a2b3d8b89f13abd8",
+        "text": "its good i like it very much",
+        "script_hint": "Latin-script",
+        "distance": 0.5260599255561829,
+        "margin": 0.10139554738998413,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sf0a21e92dfac975ba9ac",
+        "text": "it's very exciting",
+        "script_hint": "Latin-script",
+        "distance": 0.5284742712974548,
+        "margin": 0.06281638145446777,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S0d2100b2eeec97a777a7",
+        "text": "It's very entertaining and definitely worth it",
+        "script_hint": "Latin-script",
+        "distance": 0.5300344228744507,
+        "margin": 0.020404696464538574,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S2ae2969cc8bbf406d571",
+        "text": "I really enjoyed it.",
+        "script_hint": "Latin-script",
+        "distance": 0.5310201644897461,
+        "margin": 0.06484973430633545,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S52ff644845e412b7b8b1",
+        "text": "is good.",
+        "script_hint": "Latin-script",
+        "distance": 0.5321228504180908,
+        "margin": 0.0837705135345459,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S909de49e294c31966db6",
+        "text": "and it's worth it.",
+        "script_hint": "Latin-script",
+        "distance": 0.5362265110015869,
+        "margin": 0.08658987283706665,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S6a14a02a5d235fbef5a4",
+        "text": "and I really enjoyed it",
+        "script_hint": "Latin-script",
+        "distance": 0.5448804497718811,
+        "margin": 0.07181894779205322,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S00a391498d0f628494cd",
+        "text": "and have really enjoyed it",
+        "script_hint": "Latin-script",
+        "distance": 0.5472707748413086,
+        "margin": 0.06633812189102173,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sba39d9b3d94ffb76a700",
+        "text": "I thoroughly enjoyed it",
+        "script_hint": "Latin-script",
+        "distance": 0.5480929017066956,
+        "margin": 0.0720561146736145,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S2d694b7ed8e3cf9d9c3d",
+        "text": "and it's actually compelling",
+        "script_hint": "Latin-script",
+        "distance": 0.5495619177818298,
+        "margin": 0.10195451974868774,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      }
+    ]
+  },
+  {
+    "cluster": 3,
+    "units": 3387,
+    "reviews": 2249,
+    "script_hints": {
+      "Latin-script": 2404,
+      "Han-dominant": 956,
+      "other_or_uncertain": 27
+    },
+    "source_languages": {
+      "english": 2347,
+      "schinese": 1041
+    },
+    "new_structural_units": 842,
+    "no_lexical_hit": 2639,
+    "lexical_categories_diagnostic": {
+      "controls_difficulty": 153,
+      "performance_stability": 182,
+      "multiplayer_community": 130,
+      "gameplay": 61,
+      "audiovisual": 49,
+      "story_characters": 120,
+      "other_concrete": 5,
+      "price_monetization": 19,
+      "content_support": 77
+    },
+    "samples": [
+      {
+        "unit_id": "S94d8d18559ab8f69c0e4",
+        "text": "Looking back I was upset that it won GOTY..",
+        "script_hint": "Latin-script",
+        "distance": 0.707102358341217,
+        "margin": 0.033914148807525635,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S25e8eab187f5a859364f",
+        "text": "劳资的档呢，我草泥马",
+        "script_hint": "Han-dominant",
+        "distance": 0.7505248785018921,
+        "margin": 0.001611948013305664,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S68ee088eb8ac008ef2f6",
+        "text": "Just wanted to say RNM, give me a refund",
+        "script_hint": "Latin-script",
+        "distance": 0.7201055884361267,
+        "margin": 0.0035206079483032227,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S0e00e3409fe2898049d4",
+        "text": "什么叫模组全部错误",
+        "script_hint": "Han-dominant",
+        "distance": 0.8197444081306458,
+        "margin": 0.022602975368499756,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S6f11acf8508b4b926cf9",
+        "text": "不咋地， 打",
+        "script_hint": "Han-dominant",
+        "distance": 0.6315143704414368,
+        "margin": 0.03501546382904053,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S93271192fb48f89ebcae",
+        "text": "dlc是什么一坨狗屎",
+        "script_hint": "Han-dominant",
+        "distance": 0.8164095878601074,
+        "margin": 0.030229568481445312,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S4f11e3aac6148bf6cd4d",
+        "text": "一开始我以为他只是油嘴滑舌的贵族，看着性子跳脱，只是人设有意思",
+        "script_hint": "Han-dominant",
+        "distance": 0.7639477849006653,
+        "margin": 0.012910544872283936,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Se4a1fcd1d1109006d621",
+        "text": "Fun with survivor friends, hell on solo survivor Kind of toxic community",
+        "script_hint": "Latin-script",
+        "distance": 0.7573686242103577,
+        "margin": 0.02384287118911743,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sf4a2c8db95be94bd2e77",
+        "text": "the next, I’m flying off the stage because I missed one attack by a pixel",
+        "script_hint": "Latin-script",
+        "distance": 0.7127289772033691,
+        "margin": 0.01605325937271118,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S740fd727020b66f0b803",
+        "text": "What a betrayal lmao",
+        "script_hint": "Latin-script",
+        "distance": 0.7925395369529724,
+        "margin": 0.019293487071990967,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S8721a96ad41d1cdb3123",
+        "text": "教程都卡的一批，全是bug",
+        "script_hint": "Han-dominant",
+        "distance": 0.7160617709159851,
+        "margin": 0.009267330169677734,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sd6c4396b96a70f6dc8c5",
+        "text": "随风倒士大夫撒旦",
+        "script_hint": "Han-dominant",
+        "distance": 0.8439637422561646,
+        "margin": 0.0007139444351196289,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S5d1c3b128f26083e25f8",
+        "text": "这下拿我没办法啦",
+        "script_hint": "Han-dominant",
+        "distance": 0.5801759362220764,
+        "margin": 0.0681501030921936,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S87f771b4c41e81e6936b",
+        "text": "有毛病吧",
+        "script_hint": "Han-dominant",
+        "distance": 0.5921384692192078,
+        "margin": 0.06630539894104004,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sbd65cc0468cfbb7d385b",
+        "text": "真是卡的要崩溃",
+        "script_hint": "Han-dominant",
+        "distance": 0.6093844175338745,
+        "margin": 0.04495042562484741,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S98d3153d4970a798502c",
+        "text": "非常折磨人",
+        "script_hint": "Han-dominant",
+        "distance": 0.6117873191833496,
+        "margin": 0.10360860824584961,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S34b8642b275de23f7321",
+        "text": "很折磨",
+        "script_hint": "Han-dominant",
+        "distance": 0.613906979560852,
+        "margin": 0.09349828958511353,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S444d71d571883cabc615",
+        "text": "但是带不动，很是悲哀",
+        "script_hint": "Han-dominant",
+        "distance": 0.6447759866714478,
+        "margin": 0.027821063995361328,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S913ba353e10c9f4bb27e",
+        "text": "不过遇到Boss就傻眼了",
+        "script_hint": "Han-dominant",
+        "distance": 0.6616801023483276,
+        "margin": 0.02136451005935669,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S845d828820abd94e9b00",
+        "text": "但救不了我自己",
+        "script_hint": "Han-dominant",
+        "distance": 0.670044481754303,
+        "margin": 0.0008929967880249023,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sdea426b8100f77f5254a",
+        "text": "但是明显撑不起这样的世界观",
+        "script_hint": "Han-dominant",
+        "distance": 0.6738053560256958,
+        "margin": 0.0071260929107666016,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S42d8f7e71b7fa8ee5717",
+        "text": "但还是比较麻烦",
+        "script_hint": "Han-dominant",
+        "distance": 0.6742838621139526,
+        "margin": 0.01107412576675415,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sefa3ed8c36162dd5f54f",
+        "text": "It's not fun.",
+        "script_hint": "Latin-script",
+        "distance": 0.5492287278175354,
+        "margin": 0.045151472091674805,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sa105bec203be77cb9818",
+        "text": "It's just annoying.",
+        "script_hint": "Latin-script",
+        "distance": 0.5601750016212463,
+        "margin": 0.05959320068359375,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S10c36bec71794df53e9f",
+        "text": "and it’s so frustrating.",
+        "script_hint": "Latin-script",
+        "distance": 0.5737441182136536,
+        "margin": 0.09419697523117065,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S3a61e9feca9235b145af",
+        "text": "but it gets repetitive",
+        "script_hint": "Latin-script",
+        "distance": 0.5796520709991455,
+        "margin": 0.07801967859268188,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Se0c649db74b79d42d9de",
+        "text": "Please fix it 😭",
+        "script_hint": "Latin-script",
+        "distance": 0.5844828486442566,
+        "margin": 0.06514865159988403,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S3e93c6a19acdc016ceb2",
+        "text": "and the UI is goofy",
+        "script_hint": "Latin-script",
+        "distance": 0.5879403352737427,
+        "margin": 0.05144977569580078,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S095f2894f2d4443aceef",
+        "text": "and it's not fun for me",
+        "script_hint": "Latin-script",
+        "distance": 0.5883132815361023,
+        "margin": 0.030049264430999756,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      }
+    ]
+  },
+  {
+    "cluster": 4,
+    "units": 4166,
+    "reviews": 2488,
+    "script_hints": {
+      "Han-dominant": 1679,
+      "Latin-script": 2460,
+      "other_or_uncertain": 27
+    },
+    "source_languages": {
+      "schinese": 1705,
+      "english": 2461
+    },
+    "new_structural_units": 993,
+    "no_lexical_hit": 1980,
+    "lexical_categories_diagnostic": {
+      "multiplayer_community": 242,
+      "content_support": 470,
+      "story_characters": 607,
+      "gameplay": 720,
+      "controls_difficulty": 392,
+      "price_monetization": 71,
+      "audiovisual": 323,
+      "performance_stability": 122,
+      "other_concrete": 2
+    },
+    "samples": [
+      {
+        "unit_id": "S217c11949fa82f73b200",
+        "text": "比帝国3更有味道",
+        "script_hint": "Han-dominant",
+        "distance": 0.7659004926681519,
+        "margin": 0.007979154586791992,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S00cf26d1d716b640bc0c",
+        "text": "si queres perder tu vida y tener una experiencia aproximada a un ex adicto a la heroina,este es tu juego perfecto.",
+        "script_hint": "Latin-script",
+        "distance": 0.7276850938796997,
+        "margin": 0.0067310333251953125,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S97e3ff8656b615e51dac",
+        "text": "值得游玩的经典之作，我前两个小时并没有觉得有那么的好玩，但大概玩了8个小时左右，开始真正玩进去了，之后瞬间就无法自拔了，接连玩完了主线与两个dlc，真的是单机游戏史上不可多得的佳作",
+        "script_hint": "Han-dominant",
+        "distance": 0.6106455326080322,
+        "margin": 0.0593104362487793,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S3f7313f395143b6aaa19",
+        "text": "但我想如果你不是太空发烧友，可能没那么感冒，还有这半熟的玩法机制终归是要扣分的、、、 综合评价应给到四星半，次神作，该玩，入手绝对不亏",
+        "script_hint": "Han-dominant",
+        "distance": 0.6258654594421387,
+        "margin": 0.0238034725189209,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S301acf56c0275fd16dc0",
+        "text": "伟大，无需多言 高自由度的游戏和丰富的mod社区 一座电子游戏不容小觑的丰碑 :D 快买来玩吧喵",
+        "script_hint": "Han-dominant",
+        "distance": 0.6178367137908936,
+        "margin": 0.054648637771606445,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S0921abc0c99e65158279",
+        "text": "我心中的神作，游戏的冒险感和探索感无与伦比，我玩的第一款类银河恶魔城游戏",
+        "script_hint": "Han-dominant",
+        "distance": 0.647808849811554,
+        "margin": 0.032566189765930176,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S2d132250a555dddd1840",
+        "text": "Play is strictly first person (from the cockpit) and the maps range from 64 x 64km to 128 x 128km",
+        "script_hint": "Latin-script",
+        "distance": 0.7384459972381592,
+        "margin": 0.0070680975914001465,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S65ff2b8fb34021a6307f",
+        "text": "剧情驱动更是让我能一天玩10h，很久没有玩过这种游戏了",
+        "script_hint": "Han-dominant",
+        "distance": 0.5696370005607605,
+        "margin": 0.03792464733123779,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Saae28e578a4a5f80af70",
+        "text": "I highly recommend the SEA server to play too, it bring too much joy to play them with",
+        "script_hint": "Latin-script",
+        "distance": 0.6296499967575073,
+        "margin": 0.03515279293060303,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S993fb927300f3ba7b536",
+        "text": "just like the rest of the games in the borderlands series... cant wait to play BL3 on PC",
+        "script_hint": "Latin-script",
+        "distance": 0.7085826396942139,
+        "margin": 0.036721885204315186,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sbd127652c72b97ce4461",
+        "text": "In fact, since playing this game, playing JRPGs has become much more tolerable",
+        "script_hint": "Latin-script",
+        "distance": 0.6184508800506592,
+        "margin": 0.024231016635894775,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sd820e52e4c5caab6aac1",
+        "text": "AMAZING character design, fun character, cool lore, great combat mecanics",
+        "script_hint": "Latin-script",
+        "distance": 0.6357711553573608,
+        "margin": 0.010130524635314941,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Se8c3568f7220d6b3eaec",
+        "text": "确实很好玩，画面和游戏性都很高",
+        "script_hint": "Han-dominant",
+        "distance": 0.473966121673584,
+        "margin": 0.03071516752243042,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sdbd380e07a64b737100c",
+        "text": "游戏还是蛮好玩的，可玩性也很高，",
+        "script_hint": "Han-dominant",
+        "distance": 0.4978593587875366,
+        "margin": 0.02285301685333252,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sac9be45cd8f0bca7f93b",
+        "text": "好玩，战斗爽，随机有趣，战斗以外的部分也很细腻，对各个角色形象的刻画太赞了",
+        "script_hint": "Han-dominant",
+        "distance": 0.5035511255264282,
+        "margin": 0.10110914707183838,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sefa3a8ce793d7263e0c4",
+        "text": "很好玩，道具种类多，交互功能丰富，每局都有惊喜",
+        "script_hint": "Han-dominant",
+        "distance": 0.5068169832229614,
+        "margin": 0.04282653331756592,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sb63bda8235d0a732c04d",
+        "text": "剧情和武器方面都很强，体验不错，",
+        "script_hint": "Han-dominant",
+        "distance": 0.5121030211448669,
+        "margin": 0.09132617712020874,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S1d4f94c26f8e42950b9f",
+        "text": "但游戏本身可玩性极强，推荐",
+        "script_hint": "Han-dominant",
+        "distance": 0.533224880695343,
+        "margin": 0.05790144205093384,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S1a7b94a3c9885d4be30d",
+        "text": "非常好的游戏，刚玩的时候感觉内容非常多，材料以及武器，装备啥的都有很多可选的",
+        "script_hint": "Han-dominant",
+        "distance": 0.5557464957237244,
+        "margin": 0.09129202365875244,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S1c33a2b0e7677a7f9dde",
+        "text": "不过在玩法这么有趣的底子之上，除了期待后续更完美的版本也别无他法",
+        "script_hint": "Han-dominant",
+        "distance": 0.5579071640968323,
+        "margin": 0.07056319713592529,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Saaff97102c5c461a55eb",
+        "text": "但是游戏的剧情真的是很棒，2代开始的CG也很有黄金时代的感觉",
+        "script_hint": "Han-dominant",
+        "distance": 0.5603768229484558,
+        "margin": 0.08068108558654785,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S91a75c8caa1dc9325100",
+        "text": "但这游戏硬是设计出了一片高低错落的，令人充满探索欲的大世界，画风既写实又魔幻也很加分，再加上有爬墙这个打破空间限制的功能，整个大地图的探索是充满了趣味的，哪怕没有奖励，有时候我就想爬上某个高塔上看看也很满足",
+        "script_hint": "Han-dominant",
+        "distance": 0.5657228231430054,
+        "margin": 0.10775315761566162,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S0acb29340f13cbee46ce",
+        "text": "The gameplay and the visuals are good",
+        "script_hint": "Latin-script",
+        "distance": 0.514681875705719,
+        "margin": 0.0056285858154296875,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S2793594dfdb9cb9f2326",
+        "text": "This game is pretty cool for what it is and has plenty of interesting mechanics and content",
+        "script_hint": "Latin-script",
+        "distance": 0.5172025561332703,
+        "margin": 0.004047870635986328,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S362c3663a79cb07cd420",
+        "text": "Fun to play, choices matter, graphics are good",
+        "script_hint": "Latin-script",
+        "distance": 0.5214915871620178,
+        "margin": 0.01790231466293335,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S4dd6d19af6c20a264bca",
+        "text": "I like how the combat system is in game and the variety of game modes as well.",
+        "script_hint": "Latin-script",
+        "distance": 0.5276087522506714,
+        "margin": 0.0452045202255249,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S338eeffaf5d2db95120a",
+        "text": "although this game is fun especially with all the updates they have had",
+        "script_hint": "Latin-script",
+        "distance": 0.5308369398117065,
+        "margin": 0.01725834608078003,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Scbb01c0c7b0248825988",
+        "text": "The graphics are impressive, the animations are polished, the gunplay can feel satisfying",
+        "script_hint": "Latin-script",
+        "distance": 0.5381626486778259,
+        "margin": 0.054893553256988525,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S337c44688229585bfa4c",
+        "text": "The game also has good optimization.",
+        "script_hint": "Latin-script",
+        "distance": 0.5427908897399902,
+        "margin": 0.002211451530456543,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S043115a7129b4ac75e02",
+        "text": "The complexity is rewarding, you can achieve so much in this game",
+        "script_hint": "Latin-script",
+        "distance": 0.5454824566841125,
+        "margin": 0.001371622085571289,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S4acfbaf9183dc8a30a64",
+        "text": "On the plus side: The gameplay loop is fun, there is a plenty of different modes",
+        "script_hint": "Latin-script",
+        "distance": 0.5468198657035828,
+        "margin": 0.0015895962715148926,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S5fe0b43eaaf2bd50ec45",
+        "text": "The levels are well designed, combat feels good, the locales are varied",
+        "script_hint": "Latin-script",
+        "distance": 0.5536937117576599,
+        "margin": 0.06239819526672363,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      }
+    ]
+  },
+  {
+    "cluster": 5,
+    "units": 2295,
+    "reviews": 1507,
+    "script_hints": {
+      "Latin-script": 1723,
+      "Han-dominant": 549,
+      "other_or_uncertain": 23
+    },
+    "source_languages": {
+      "english": 1710,
+      "schinese": 585
+    },
+    "new_structural_units": 754,
+    "no_lexical_hit": 1816,
+    "lexical_categories_diagnostic": {
+      "story_characters": 133,
+      "performance_stability": 40,
+      "gameplay": 79,
+      "content_support": 67,
+      "multiplayer_community": 67,
+      "controls_difficulty": 58,
+      "price_monetization": 41,
+      "audiovisual": 25,
+      "other_concrete": 6
+    },
+    "samples": [
+      {
+        "unit_id": "S3b9ab7a5cc11e8c9ac6a",
+        "text": "史低7块钱买的也不值当一个差评了",
+        "script_hint": "Han-dominant",
+        "distance": 0.704562246799469,
+        "margin": 0.03996485471725464,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S65b2649553bc34e8fcd1",
+        "text": "我不会",
+        "script_hint": "Han-dominant",
+        "distance": 0.6852584481239319,
+        "margin": 0.06294137239456177,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sb4e42e626a5512f3e058",
+        "text": "and it's a surprise no one talks about it",
+        "script_hint": "Latin-script",
+        "distance": 0.7340215444564819,
+        "margin": 0.10273629426956177,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S43880468d91b3aecd8ff",
+        "text": "I really don't understand the love Dead Cells gets",
+        "script_hint": "Latin-script",
+        "distance": 0.7711230516433716,
+        "margin": 0.007160007953643799,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S7ce9a252b0900e7390b1",
+        "text": "it was said you would destroy them not join them",
+        "script_hint": "Latin-script",
+        "distance": 0.7992919683456421,
+        "margin": 0.01427161693572998,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Saaa8dd5cce909c3e3b67",
+        "text": "not this one, not today.",
+        "script_hint": "Latin-script",
+        "distance": 0.6589862108230591,
+        "margin": 0.06597870588302612,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S9ea3470eaaf8ff074ab7",
+        "text": "but I still gave it a try because you don't judge a book by it's cover",
+        "script_hint": "Latin-script",
+        "distance": 0.7471276521682739,
+        "margin": 0.0052223801612854,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S431239c3733b8d3cec89",
+        "text": "也正是因为某些重要情结被剧透，之后我便刻意避开所有相关视频，想把剩下的惊喜留到真正游玩的那一天",
+        "script_hint": "Han-dominant",
+        "distance": 0.7680168747901917,
+        "margin": 0.01998347043991089,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S8538a03430da7aea7859",
+        "text": "почти не играл. наверное, это и к лучшему",
+        "script_hint": "other_or_uncertain",
+        "distance": 0.7033012509346008,
+        "margin": 0.04275226593017578,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sc4cf1c1af9f6f89206d5",
+        "text": "but you get nails from scrap which can't be likewise melted down",
+        "script_hint": "Latin-script",
+        "distance": 0.7984822988510132,
+        "margin": 0.011221110820770264,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S1fb9c3aab5084bb35591",
+        "text": "but died at 94% because google said that dying in the white palace does not delete your save",
+        "script_hint": "Latin-script",
+        "distance": 0.8374667763710022,
+        "margin": 0.033952176570892334,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S0af309358d604011c591",
+        "text": "但没体现在战斗或选择里）",
+        "script_hint": "Han-dominant",
+        "distance": 0.6673554182052612,
+        "margin": 0.08675134181976318,
+        "sample_groups": [
+          "random",
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S10108b6822946ee15507",
+        "text": "不是特别好玩",
+        "script_hint": "Han-dominant",
+        "distance": 0.6096650958061218,
+        "margin": 0.04627352952957153,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sbacd91d5a3eea7774f69",
+        "text": "一点都不好玩",
+        "script_hint": "Han-dominant",
+        "distance": 0.6097426414489746,
+        "margin": 0.0024596452713012695,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S8ae9e7de3218207ca560",
+        "text": "一点不好玩",
+        "script_hint": "Han-dominant",
+        "distance": 0.6120395660400391,
+        "margin": 0.010824263095855713,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S9f241d481de4bc64d013",
+        "text": "我怎么一点感觉也没有",
+        "script_hint": "Han-dominant",
+        "distance": 0.6279692053794861,
+        "margin": 0.0775376558303833,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sbce50a64e0a9c53ad420",
+        "text": "感受不到一点共鸣",
+        "script_hint": "Han-dominant",
+        "distance": 0.6351749300956726,
+        "margin": 0.049371957778930664,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sea630469faa7507f69e8",
+        "text": "不说了，不想再刷了",
+        "script_hint": "Han-dominant",
+        "distance": 0.6544235944747925,
+        "margin": 0.03688514232635498,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S16ed80eb33af483bfff1",
+        "text": "但没玩到那",
+        "script_hint": "Han-dominant",
+        "distance": 0.6593727469444275,
+        "margin": 0.020270705223083496,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S28b8ea0c2dee8dca695e",
+        "text": "却抓不住证据",
+        "script_hint": "Han-dominant",
+        "distance": 0.6646752953529358,
+        "margin": 0.018504023551940918,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sd769dc2480fb8684f12f",
+        "text": "剧情一般",
+        "script_hint": "Han-dominant",
+        "distance": 0.675606906414032,
+        "margin": 0.01778888702392578,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S70d76e10a98a17a128f4",
+        "text": "but the frustration is just not worth it.",
+        "script_hint": "Latin-script",
+        "distance": 0.5999886393547058,
+        "margin": 0.03587603569030762,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S0181aa2edb206adb7157",
+        "text": "Frustrating enough that it gets no recommendation from me.",
+        "script_hint": "Latin-script",
+        "distance": 0.6051810383796692,
+        "margin": 0.05889701843261719,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sb33d8aec8a7ffee8569d",
+        "text": "the story does'nt seem interesting",
+        "script_hint": "Latin-script",
+        "distance": 0.6069417595863342,
+        "margin": 0.05723917484283447,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sf3b2996947f7ca12ecca",
+        "text": "but isn't really worth the price",
+        "script_hint": "Latin-script",
+        "distance": 0.6092620491981506,
+        "margin": 0.05242258310317993,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Scd1622859312de770937",
+        "text": "Other than that, not worth the time.",
+        "script_hint": "Latin-script",
+        "distance": 0.6116886734962463,
+        "margin": 0.059730708599090576,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S636a65f247f2bfd9a2ef",
+        "text": "and on top of that i don't have a controller",
+        "script_hint": "Latin-script",
+        "distance": 0.6210700273513794,
+        "margin": 0.05793964862823486,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S3f96fe436b2059c1094f",
+        "text": "but can't give a positive review",
+        "script_hint": "Latin-script",
+        "distance": 0.6217620968818665,
+        "margin": 0.059637367725372314,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S88ebb67247a4b6259d75",
+        "text": "but.....it really does NOT make much sense and doesn't play as nice",
+        "script_hint": "Latin-script",
+        "distance": 0.6223723292350769,
+        "margin": 0.005450546741485596,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      }
+    ]
+  },
+  {
+    "cluster": 6,
+    "units": 3525,
+    "reviews": 2170,
+    "script_hints": {
+      "Han-dominant": 2609,
+      "other_or_uncertain": 32,
+      "Latin-script": 884
+    },
+    "source_languages": {
+      "schinese": 2617,
+      "english": 908
+    },
+    "new_structural_units": 766,
+    "no_lexical_hit": 1687,
+    "lexical_categories_diagnostic": {
+      "story_characters": 402,
+      "other_concrete": 20,
+      "controls_difficulty": 415,
+      "gameplay": 381,
+      "audiovisual": 159,
+      "price_monetization": 38,
+      "content_support": 354,
+      "performance_stability": 398,
+      "multiplayer_community": 321
+    },
+    "samples": [
+      {
+        "unit_id": "S1152930512eb091995bd",
+        "text": "Journey progression is locked on linear (if you shoot a bow without being in the archer journey, you don't get the bow shooting journey step)",
+        "script_hint": "Latin-script",
+        "distance": 0.7890734672546387,
+        "margin": 0.03248786926269531,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S3b618a8e7dc8dfbd1d1f",
+        "text": "不要说这些是不重要的细节，首先开放世界游戏的NPC要有生态这本就是基本要求，不然哪来的“世界”感，再者这游戏地图做得这么庞大瑰丽，结果内里空空洞洞，本来旺盛的探索欲逐渐变成了习得性无助的疲惫感，大优点硬是被拖成了缺点",
+        "script_hint": "Han-dominant",
+        "distance": 0.5997335910797119,
+        "margin": 0.08058702945709229,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S91317d6acd88a0c5150a",
+        "text": "我曾花费数十个小时，寻找、下载、调试各类Mod，忍受百度网盘那半死不活的限速，权游、战锤、欧陆、流浪星星，每一个Mod都陪伴了我很长的时间，每一个也都曾因各种报错而困扰着我",
+        "script_hint": "Han-dominant",
+        "distance": 0.6981557011604309,
+        "margin": 0.0520632266998291,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S26b68a723d76ffb00d79",
+        "text": "作为第二个被我中途放弃的游戏，我想是我配不上它，让我们放过彼此，各自安好",
+        "script_hint": "Han-dominant",
+        "distance": 0.625565230846405,
+        "margin": 0.010744869709014893,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S101f35726d0ee7068644",
+        "text": "but I have also played on a laptop as well as a Nintendo Switch (but not a Steam Deck, so might be different) and I found handheld/console really frustrating",
+        "script_hint": "Latin-script",
+        "distance": 0.7223695516586304,
+        "margin": 0.0068433284759521484,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sa75de00926265575bffd",
+        "text": "每次我忘得差不多了下载回来，就又是新游戏了",
+        "script_hint": "Han-dominant",
+        "distance": 0.6478452086448669,
+        "margin": 0.007237136363983154,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S7795fdd7adc0d8257eb1",
+        "text": "但如果真的从引导之始开始一路打到黄金树的话那你就会发现:这一路上我到底干了啥",
+        "script_hint": "Han-dominant",
+        "distance": 0.7121189832687378,
+        "margin": 0.01179492473602295,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sadd19f8afa212bea045d",
+        "text": "维护现状：游戏已发售约十年，育碧基本停止主动维护，RTX 闪烁等已知问题长期未获官方修复，社区普遍认为 IP 已被搁置",
+        "script_hint": "Han-dominant",
+        "distance": 0.7038734555244446,
+        "margin": 0.04028207063674927,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S37b18a268758730203f8",
+        "text": "伤害类法术整体而言太传统、太平凡，不像《神原2》一样，里面一些技能的效果明显就不是凡人能用的法术 尽管如此，游戏还是值得200+元的价位的，游戏内容量够多，画面还不错，剧情上也会对你的选择做出基本上正确的反馈，战斗上能够让你体会到回合制游戏居然可以这样做",
+        "script_hint": "Han-dominant",
+        "distance": 0.6575727462768555,
+        "margin": 0.036765217781066895,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sad533f5ced72cfa2ed8b",
+        "text": "Однако, в сюжетных миссиях сначала нужно посмотреть сюжетные же вставки, а только после них откроется возможность призыва.",
+        "script_hint": "other_or_uncertain",
+        "distance": 0.8200715780258179,
+        "margin": 0.0014995932579040527,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sab6256bb4a67f0974e27",
+        "text": "Here, every dungeon has to be cleared multiple times - yes, they added a roguelike concept - because your heroes get scared, fall into depression, die and so on",
+        "script_hint": "Latin-script",
+        "distance": 0.671891987323761,
+        "margin": 0.03136330842971802,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Scb2f445e59985896d558",
+        "text": "Quests don't give time to expand on these characters individually instead having each mission play hot potato on who its focusing on and so most characters are hard to remember especially during the first half of the game",
+        "script_hint": "Latin-script",
+        "distance": 0.6888307332992554,
+        "margin": 0.053959548473358154,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S090180cebc94896792fa",
+        "text": "难度太大，不看攻略完全玩不了，没什么乐趣",
+        "script_hint": "Han-dominant",
+        "distance": 0.5160903930664062,
+        "margin": 0.0707775354385376,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Saed471942a53c558504e",
+        "text": "缺点就是引导太差，内容太多，普通玩家需要搜攻略才能完美体验",
+        "script_hint": "Han-dominant",
+        "distance": 0.5305688381195068,
+        "margin": 0.1374826431274414,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sfd7f7bf34e3e948442c2",
+        "text": "游戏初期就很难让新人继续游玩，各种操作与配置不清楚，难度不低，中后期才开始变得好玩，至少不会死，但各种模式很需要玩家去操作，间谍可以背图，拦截跟不上趟，其他各种强制组队模式就很恶心，本来就是个多人联机游戏，这垃圾服务器还各种bug，最不缺的就是人，但单人根本匹配不到，也不知道怎么回事，就很恶心",
+        "script_hint": "Han-dominant",
+        "distance": 0.5311291813850403,
+        "margin": 0.1400797963142395,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sfaa60c30192255b02d7b",
+        "text": "，仇恨也很远，不打死就一直跟着我，甚至有些跑得比我还快，死掉之后什么都要重新打一遍 难度高还不能自行调整难度，这对玩家充满恶意，不能给我带来快乐，对我来说就算不得好游戏",
+        "script_hint": "Han-dominant",
+        "distance": 0.5330689549446106,
+        "margin": 0.11544787883758545,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S28d0a7d8739a2b0938ac",
+        "text": "太影响游戏体验了",
+        "script_hint": "Han-dominant",
+        "distance": 0.533283531665802,
+        "margin": 0.0080757737159729,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sb2dddbf0b56347264b40",
+        "text": "而且剧情也非常逆天，看起来非常无聊，哦对了，它还有单机fps设计最垃圾的跟随角色，听角色讲废话，玩起来非常影响心流，玩得正爽呢，打完一个战点不求你搞个解密，起码别搞这种跟随吧",
+        "script_hint": "Han-dominant",
+        "distance": 0.5357454419136047,
+        "margin": 0.11163586378097534,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S271237a489083814777f",
+        "text": "但是原版不打mod不看攻略 游玩体验会非常恶心，就感觉很刻意的为了难而难，制作组在追求那种硬核随机性的时候走偏了路，有很多方面都能感觉到这是设计缺陷，而不是正常的创作理念",
+        "script_hint": "Han-dominant",
+        "distance": 0.5382760763168335,
+        "margin": 0.11305034160614014,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S99a3bc42d158a3fa8264",
+        "text": "不过游戏的优化不太好，服务器很土豆，并且有些BUG很影响游玩体验",
+        "script_hint": "Han-dominant",
+        "distance": 0.5465131402015686,
+        "margin": 0.10224562883377075,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S4059d1bd6509814091e6",
+        "text": "而且战斗机制与队伍搭配 自相矛盾严重 （设计问题吐槽太多省略十万字）",
+        "script_hint": "Han-dominant",
+        "distance": 0.5508655905723572,
+        "margin": 0.08182179927825928,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S88613a4bdf3798d5ed86",
+        "text": "就是入门有点难，敌人分布有点问题",
+        "script_hint": "Han-dominant",
+        "distance": 0.5581273436546326,
+        "margin": 0.11645126342773438,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S013ef644599d6c9f39f4",
+        "text": "The game can be buggy, the AI is inconsistent, some systems feel unfinished",
+        "script_hint": "Latin-script",
+        "distance": 0.5722399353981018,
+        "margin": 0.02384817600250244,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S0df3f3fb692e3fe76ce8",
+        "text": "this game is trash lag is stupid all the characters are unbalances hitboxes are broken and sometimes they dop what they want donst waste your time trying this shit theres so many better games outside",
+        "script_hint": "Latin-script",
+        "distance": 0.586901068687439,
+        "margin": 0.012807726860046387,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sbef02b68da2efc8042b0",
+        "text": "In my opinion the game is overhyped, bosses are pointlessly overpowered, some with 2nd stages, while you have no abilities, spells or whatsoever (especially at the start, cause fighting a single boss for 2 hours is crazy)..",
+        "script_hint": "Latin-script",
+        "distance": 0.5900029540061951,
+        "margin": 0.06670165061950684,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S07d7e164bcac678d8415",
+        "text": "Only bad thing is that it doesnt get major abouts frequently and the combat feels bit lacking.",
+        "script_hint": "Latin-script",
+        "distance": 0.5900112986564636,
+        "margin": 0.06047534942626953,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S01a63206ee4332f00a7a",
+        "text": "Probably not for me, the gameplay is a bit too basic from my perspective",
+        "script_hint": "Latin-script",
+        "distance": 0.5916343927383423,
+        "margin": 0.03480583429336548,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S8d486f3ca84c09915d96",
+        "text": "And that's the biggest problem, it's trying to be a fast paced game without really nailing what makes a fast game work, it has annoying side missions, missing keys, obscure shortcuts",
+        "script_hint": "Latin-script",
+        "distance": 0.5941665172576904,
+        "margin": 0.07574141025543213,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sde9a4f51edfdd9a33440",
+        "text": "CONS:: ➖Enemy AI seems buggy and occasionally just “Shuts off” ➖Excessive pointless zombie spawns - literally 3 melee attacks suddenly spawns multiple fast infected ➖Sorting in inventory never saves ➖Narrative isn’t that interesting ➖Most quests are boring fetch quests ➖Obnoxious and constant audio cues that you cannot disable (constantly notifies of ANY nearby event) ➖Combat skill tree is boring",
+        "script_hint": "Latin-script",
+        "distance": 0.5970298647880554,
+        "margin": 0.11435580253601074,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S601fc02ef8fbd123ee2e",
+        "text": "but some gameplay can get repetitive until you advance",
+        "script_hint": "Latin-script",
+        "distance": 0.6008511185646057,
+        "margin": 0.024394750595092773,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      }
+    ]
+  },
+  {
+    "cluster": 7,
+    "units": 3123,
+    "reviews": 3843,
+    "script_hints": {
+      "Latin-script": 2134,
+      "Han-dominant": 545,
+      "other_or_uncertain": 444
+    },
+    "source_languages": {
+      "english": 2141,
+      "schinese": 1023
+    },
+    "new_structural_units": 274,
+    "no_lexical_hit": 2985,
+    "lexical_categories_diagnostic": {
+      "controls_difficulty": 20,
+      "performance_stability": 27,
+      "gameplay": 15,
+      "multiplayer_community": 21,
+      "price_monetization": 8,
+      "audiovisual": 17,
+      "content_support": 22,
+      "story_characters": 8
+    },
+    "samples": [
+      {
+        "unit_id": "Sa05df06fc5bcd7970f8b",
+        "text": "I love my autistic wife",
+        "script_hint": "Latin-script",
+        "distance": 0.794823408126831,
+        "margin": 0.0009374618530273438,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sf061369b7c53d21f2a1c",
+        "text": "dhzer",
+        "script_hint": "Latin-script",
+        "distance": 0.8317311406135559,
+        "margin": 0.0753445029258728,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S15d24023654d93a23260",
+        "text": "addicting",
+        "script_hint": "Latin-script",
+        "distance": 0.6697798371315002,
+        "margin": 0.014791131019592285,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S47aafd7828cf95378d6e",
+        "text": "nbnbnbnbnbnbnb",
+        "script_hint": "Latin-script",
+        "distance": 0.7498016953468323,
+        "margin": 0.11679452657699585,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S12eacc3ecc5b4932597d",
+        "text": "Banger music, especially \"Listen Not\".",
+        "script_hint": "Latin-script",
+        "distance": 0.7861588597297668,
+        "margin": 0.0010791420936584473,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sfd1dc723a2665b8cbd3e",
+        "text": "or \"Who's that",
+        "script_hint": "Latin-script",
+        "distance": 0.7795267701148987,
+        "margin": 0.06230974197387695,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S5a4d67ba53d6fe8a036f",
+        "text": "ayay bbpt",
+        "script_hint": "Latin-script",
+        "distance": 0.7759860157966614,
+        "margin": 0.081531822681427,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S328c5022ccc950d0bc9c",
+        "text": "dfs",
+        "script_hint": "other_or_uncertain",
+        "distance": 0.8266251683235168,
+        "margin": 0.055966973304748535,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sa0dcd86ca390c0a83a35",
+        "text": "TURN",
+        "script_hint": "Latin-script",
+        "distance": 0.7162944674491882,
+        "margin": 0.053278982639312744,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S8f1c55a2a722d229f3ed",
+        "text": "Effing eff",
+        "script_hint": "Latin-script",
+        "distance": 0.7080931067466736,
+        "margin": 0.057325899600982666,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S7190009f6e90ef5064e9",
+        "text": "PEAK ISAAC",
+        "script_hint": "Latin-script",
+        "distance": 0.8316366672515869,
+        "margin": 0.055610835552215576,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S5649581b9b8ea4bab5c8",
+        "text": "dinoaster",
+        "script_hint": "Latin-script",
+        "distance": 0.7921268343925476,
+        "margin": 0.05985063314437866,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S3aedf2780b8f34886698",
+        "text": "嘿嘿",
+        "script_hint": "Han-dominant",
+        "distance": 0.6417307257652283,
+        "margin": 0.02962636947631836,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S2ce2464352653aad662d",
+        "text": "好啊",
+        "script_hint": "Han-dominant",
+        "distance": 0.6429975628852844,
+        "margin": 0.0032459497451782227,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S73c0134b51632ec99898",
+        "text": "我需要",
+        "script_hint": "Han-dominant",
+        "distance": 0.6537650227546692,
+        "margin": 0.025273561477661133,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S670d9743542cae3ea7eb",
+        "text": "你好",
+        "script_hint": "Han-dominant",
+        "distance": 0.6540660858154297,
+        "margin": 0.043169379234313965,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S63aff16927ed7802af4a",
+        "text": "嗯嗯",
+        "script_hint": "Han-dominant",
+        "distance": 0.6541485786437988,
+        "margin": 0.05759274959564209,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S005ef7692c22b97763d9",
+        "text": "您好，",
+        "script_hint": "Han-dominant",
+        "distance": 0.693041980266571,
+        "margin": 0.051979899406433105,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sea37e567bcc4babea1fc",
+        "text": "------分界线------",
+        "script_hint": "Han-dominant",
+        "distance": 0.7401915192604065,
+        "margin": 0.05120962858200073,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Se65c0c030ae88c4c2113",
+        "text": "✅完整版",
+        "script_hint": "Han-dominant",
+        "distance": 0.7438810467720032,
+        "margin": 0.02969181537628174,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Se53fd5442160c4efd286",
+        "text": "这是第一款",
+        "script_hint": "Han-dominant",
+        "distance": 0.7473204135894775,
+        "margin": 0.004943668842315674,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S0c3eb1a50c0fcc457951",
+        "text": "[h3] 但是",
+        "script_hint": "Han-dominant",
+        "distance": 0.755887508392334,
+        "margin": 0.023816466331481934,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S042fc066a584771f7e57",
+        "text": "please.",
+        "script_hint": "Latin-script",
+        "distance": 0.6002941131591797,
+        "margin": 0.05998760461807251,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S130deb9847838292ff1a",
+        "text": "It is",
+        "script_hint": "Latin-script",
+        "distance": 0.6083291172981262,
+        "margin": 0.013463616371154785,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S6781dbb669aeaeb8d4e2",
+        "text": "PLEASE.",
+        "script_hint": "Latin-script",
+        "distance": 0.6090478301048279,
+        "margin": 0.05603450536727905,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S64410594d70e5b06ec7d",
+        "text": "good luck",
+        "script_hint": "Latin-script",
+        "distance": 0.6110394597053528,
+        "margin": 0.03710240125656128,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S2ed45c1e72889e577887",
+        "text": "nice nice",
+        "script_hint": "Latin-script",
+        "distance": 0.6139436364173889,
+        "margin": 0.014825940132141113,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S6766f09fdc5eb26a9e0e",
+        "text": "Please.",
+        "script_hint": "Latin-script",
+        "distance": 0.6169833540916443,
+        "margin": 0.05533570051193237,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S28e16587cefb9ed171e9",
+        "text": "like.",
+        "script_hint": "Latin-script",
+        "distance": 0.6203874349594116,
+        "margin": 0.013590514659881592,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S3fc96cc70eab1f1e4887",
+        "text": "seriously",
+        "script_hint": "Latin-script",
+        "distance": 0.6258040070533752,
+        "margin": 0.03739708662033081,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      }
+    ]
+  },
+  {
+    "cluster": 8,
+    "units": 2212,
+    "reviews": 2263,
+    "script_hints": {
+      "Latin-script": 1144,
+      "Han-dominant": 1060,
+      "other_or_uncertain": 8
+    },
+    "source_languages": {
+      "english": 1142,
+      "schinese": 1071
+    },
+    "new_structural_units": 206,
+    "no_lexical_hit": 1694,
+    "lexical_categories_diagnostic": {
+      "audiovisual": 18,
+      "gameplay": 81,
+      "controls_difficulty": 106,
+      "multiplayer_community": 231,
+      "content_support": 55,
+      "price_monetization": 9,
+      "performance_stability": 9,
+      "story_characters": 38
+    },
+    "samples": [
+      {
+        "unit_id": "S8dc5ee05977f76e80a37",
+        "text": "很好玩的游戏",
+        "script_hint": "Han-dominant",
+        "distance": 0.44916659593582153,
+        "margin": 0.031181365251541138,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sb0d8efa751acc80d45b6",
+        "text": "It was fun until I got pushed by highlands giga",
+        "script_hint": "Latin-script",
+        "distance": 0.7215319275856018,
+        "margin": 0.0033808350563049316,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sd7148859913ac57c0e69",
+        "text": "怎么玩啊",
+        "script_hint": "Han-dominant",
+        "distance": 0.649053692817688,
+        "margin": 0.028710007667541504,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S7d2e09881d99ad077ce6",
+        "text": "As far as I was concerned, I still had tons of fun farming",
+        "script_hint": "Latin-script",
+        "distance": 0.7152624130249023,
+        "margin": 0.00027567148208618164,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sa0b5f86a45f228422961",
+        "text": "So you'll still have fun",
+        "script_hint": "Latin-script",
+        "distance": 0.6747643947601318,
+        "margin": 0.060239195823669434,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S76b7b3aeb190a13c0855",
+        "text": "It can be challenging or as casual as you want",
+        "script_hint": "Latin-script",
+        "distance": 0.6797407269477844,
+        "margin": 0.029361188411712646,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S9d2abfd2d8a76fdf5fd1",
+        "text": "but it's still fun to play",
+        "script_hint": "Latin-script",
+        "distance": 0.5107269287109375,
+        "margin": 0.10123252868652344,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S8a1735f5e19767adca42",
+        "text": "很好玩呀",
+        "script_hint": "Han-dominant",
+        "distance": 0.3908892869949341,
+        "margin": 0.17130130529403687,
+        "sample_groups": [
+          "random",
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S3f6c45adfbb6c8174897",
+        "text": "我这个老爷机都带得动，非常好玩，不买一辈子亏了",
+        "script_hint": "Han-dominant",
+        "distance": 0.6608363389968872,
+        "margin": 0.030843257904052734,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S96a145b1a3a0bb3e94b4",
+        "text": "好玩，可以试试",
+        "script_hint": "Han-dominant",
+        "distance": 0.4828723073005676,
+        "margin": 0.14471876621246338,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S4835e2c8970989852984",
+        "text": "Challenging but fun",
+        "script_hint": "Latin-script",
+        "distance": 0.5945386290550232,
+        "margin": 0.07578355073928833,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S1b7e53d8b6561b69b4f1",
+        "text": "adictive, hard to stop playing",
+        "script_hint": "Latin-script",
+        "distance": 0.5678556561470032,
+        "margin": 0.015421926975250244,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S086bc5329b7e9a3da629",
+        "text": "很好玩啊",
+        "script_hint": "Han-dominant",
+        "distance": 0.38370954990386963,
+        "margin": 0.1695670485496521,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S527c13ce4bdb935ba1f4",
+        "text": "好玩的很",
+        "script_hint": "Han-dominant",
+        "distance": 0.4055689573287964,
+        "margin": 0.1712523102760315,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S861f9728ed683fb39da7",
+        "text": "很好玩 有挑战性",
+        "script_hint": "Han-dominant",
+        "distance": 0.4100334048271179,
+        "margin": 0.14231204986572266,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S6a688460429f9c1dd518",
+        "text": "好玩，很好玩，感觉很不错",
+        "script_hint": "Han-dominant",
+        "distance": 0.4117756187915802,
+        "margin": 0.1250169575214386,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S744f80f0b957063d4e51",
+        "text": "但是值得一玩",
+        "script_hint": "Han-dominant",
+        "distance": 0.5454341173171997,
+        "margin": 0.05723625421524048,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S7d51d8e97aef05e787d7",
+        "text": "但这个游戏不会晕，很神奇",
+        "script_hint": "Han-dominant",
+        "distance": 0.5820375680923462,
+        "margin": 0.016868233680725098,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S7be3281d1fc2b995b32f",
+        "text": "战斗很爽",
+        "script_hint": "Han-dominant",
+        "distance": 0.5838812589645386,
+        "margin": 0.026081562042236328,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S26ac03417449e0567799",
+        "text": "玩的赞恩切枪流，打架对我来说很有趣",
+        "script_hint": "Han-dominant",
+        "distance": 0.6289166808128357,
+        "margin": 0.01613008975982666,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Scb71a11b2ec1ac2c7baf",
+        "text": "玩了快两百个小时",
+        "script_hint": "Han-dominant",
+        "distance": 0.6329877972602844,
+        "margin": 0.0027472376823425293,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S62188622d25b63e67fd7",
+        "text": "It's really fun to play",
+        "script_hint": "Latin-script",
+        "distance": 0.39865079522132874,
+        "margin": 0.11582240462303162,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Se5d2b6b89c7883273794",
+        "text": "Very fun to play",
+        "script_hint": "Latin-script",
+        "distance": 0.4114333391189575,
+        "margin": 0.12964290380477905,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S690d2f804562c1abf874",
+        "text": "it is quite fun",
+        "script_hint": "Latin-script",
+        "distance": 0.41663190722465515,
+        "margin": 0.11061939597129822,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S13500acddfa0f914db6e",
+        "text": "This game is definitely fun",
+        "script_hint": "Latin-script",
+        "distance": 0.41698938608169556,
+        "margin": 0.0033759772777557373,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sd5a8b7fff5f17afc9412",
+        "text": "Gameplay is fun.",
+        "script_hint": "Latin-script",
+        "distance": 0.4172540009021759,
+        "margin": 0.07151800394058228,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S2e0fa1bab94362c48058",
+        "text": "The game is very enjoyable",
+        "script_hint": "Latin-script",
+        "distance": 0.4295820891857147,
+        "margin": 0.011688470840454102,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S99e18dbdde849099f447",
+        "text": "This game can be fun",
+        "script_hint": "Latin-script",
+        "distance": 0.43344876170158386,
+        "margin": 0.0609014630317688,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S19642b186738d2eb4f56",
+        "text": "A fun game that's worth trying",
+        "script_hint": "Latin-script",
+        "distance": 0.43809080123901367,
+        "margin": 0.052073508501052856,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "Sb48d279ee59220af6d66",
+        "text": "Game is fun",
+        "script_hint": "Latin-script",
+        "distance": 0.44332650303840637,
+        "margin": 0.0650624930858612,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S2a6bfe79d1f289493d52",
+        "text": "however, really fun to play with friends",
+        "script_hint": "Latin-script",
+        "distance": 0.46929219365119934,
+        "margin": 0.1508360207080841,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      }
+    ]
+  },
+  {
+    "cluster": 9,
+    "units": 4882,
+    "reviews": 2523,
+    "script_hints": {
+      "Latin-script": 3495,
+      "other_or_uncertain": 85,
+      "Han-dominant": 1302
+    },
+    "source_languages": {
+      "english": 3478,
+      "schinese": 1404
+    },
+    "new_structural_units": 1625,
+    "no_lexical_hit": 3712,
+    "lexical_categories_diagnostic": {
+      "content_support": 238,
+      "story_characters": 204,
+      "controls_difficulty": 193,
+      "gameplay": 319,
+      "multiplayer_community": 157,
+      "audiovisual": 38,
+      "performance_stability": 92,
+      "price_monetization": 49,
+      "other_concrete": 6
+    },
+    "samples": [
+      {
+        "unit_id": "S49943a3e86791abc1fec",
+        "text": "有种充钱变强的商法",
+        "script_hint": "Han-dominant",
+        "distance": 0.7440780997276306,
+        "margin": 0.05898469686508179,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S8f1ae98f66f129f9bb06",
+        "text": "Check the mods out too.",
+        "script_hint": "Latin-script",
+        "distance": 0.6668667197227478,
+        "margin": 0.056079983711242676,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S18ce92e266788039d280",
+        "text": "这段 detour 似乎长的望不见边际 塞满了惊险刺激的一波三折 可当你见缝插针的去读书 锻炼 泡咖啡 侍弄花草 在大街小巷吃汉堡 打街机 看电影 泡温泉之时以及把一段段偶然进入自己人生的邂逅 在契机之下 由共同的审美或追求 变成超越“泛泛之交”的关系之时 它又显得如此短暂 只等你从那个还会在涩谷站的立交结构迷路的青涩少年刚刚毕业时 列车的报站铃声就就催促你登上下一程",
+        "script_hint": "Han-dominant",
+        "distance": 0.7471731305122375,
+        "margin": 0.040326714515686035,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sb7f57d1f6baef65abe31",
+        "text": "ehhhh its like 2d minecraft",
+        "script_hint": "Latin-script",
+        "distance": 0.6879539489746094,
+        "margin": 0.004828035831451416,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sf44335c799bf588151af",
+        "text": "The complaint is about **value and respect for the existing customer base.**",
+        "script_hint": "Latin-script",
+        "distance": 0.7665956616401672,
+        "margin": 0.006844699382781982,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S219404a92b2f2c3371e8",
+        "text": "幻象并不天然等同于欺骗 它同样可以是诚实的——在自身的框架内自洽 并清楚地承认其来源与边界",
+        "script_hint": "Han-dominant",
+        "distance": 0.8183320760726929,
+        "margin": 0.024080276489257812,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sfb5a92fde5313b69d4e2",
+        "text": "and every time I say, “Okay, last match,” I somehow end up playing five more.",
+        "script_hint": "Latin-script",
+        "distance": 0.6790425777435303,
+        "margin": 0.027197301387786865,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sfff1c0c44f4a94911dcb",
+        "text": "ngl , its like cs2 mixed with smth like the forest...",
+        "script_hint": "Latin-script",
+        "distance": 0.7398520112037659,
+        "margin": 0.019922733306884766,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S07e79d4a798d02d7016b",
+        "text": "what does getting lawans shoes add to the story",
+        "script_hint": "Latin-script",
+        "distance": 0.8176673650741577,
+        "margin": 0.03957831859588623,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sb1d4bb5cb5bf234257e2",
+        "text": "half life 3 pls i need this",
+        "script_hint": "Latin-script",
+        "distance": 0.6953530311584473,
+        "margin": 0.034214913845062256,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Sfacc8baf0901461184fb",
+        "text": "**We are the people who supported Conan Exiles when it needed us.**",
+        "script_hint": "Latin-script",
+        "distance": 0.7903861999511719,
+        "margin": 0.027465522289276123,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "Saf47789fbdd75f1594b2",
+        "text": "You can spend hours creating the perfect character, adjusting every little detail until everything looks just right",
+        "script_hint": "Latin-script",
+        "distance": 0.7283303141593933,
+        "margin": 0.008579790592193604,
+        "sample_groups": [
+          "random"
+        ]
+      },
+      {
+        "unit_id": "S16944eb04d3fb16feee2",
+        "text": "我已爽飞，其次，加强军团",
+        "script_hint": "Han-dominant",
+        "distance": 0.6307001113891602,
+        "margin": 0.053751230239868164,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sa26f4121776829127348",
+        "text": "也要点脸吧，至少把游戏做好吧",
+        "script_hint": "Han-dominant",
+        "distance": 0.6333810687065125,
+        "margin": 0.0030151009559631348,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sea7019b93630f03f498f",
+        "text": "有时间再来刷吧",
+        "script_hint": "Han-dominant",
+        "distance": 0.6459876298904419,
+        "margin": 0.04970008134841919,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S671d2996a183d67726e4",
+        "text": "我好像真的在变强",
+        "script_hint": "Han-dominant",
+        "distance": 0.6508546471595764,
+        "margin": 0.012737572193145752,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S5ae4339d3629b1dbe213",
+        "text": "偶尔打打人机而已，",
+        "script_hint": "Han-dominant",
+        "distance": 0.6515781283378601,
+        "margin": 0.01621556282043457,
+        "sample_groups": [
+          "center_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sb3438d42741a257ea28c",
+        "text": "这种引导，解谜在游戏中还有很多",
+        "script_hint": "Han-dominant",
+        "distance": 0.6544190049171448,
+        "margin": 0.0048201680183410645,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S03bb71181db5bc7cb593",
+        "text": "但真正玩下去却发现一切早都准备好了",
+        "script_hint": "Han-dominant",
+        "distance": 0.6572515368461609,
+        "margin": 0.0206792950630188,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Sefa4aba1141aedcd4d24",
+        "text": "不过游戏里有很多训练老师可以帮忙升级",
+        "script_hint": "Han-dominant",
+        "distance": 0.6681329607963562,
+        "margin": 0.0024784207344055176,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S7d662afac41c865aa76f",
+        "text": "游戏我会通关的",
+        "script_hint": "Han-dominant",
+        "distance": 0.6701329946517944,
+        "margin": 0.0037606358528137207,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "Se75755727ca12e9795ae",
+        "text": "但是还是能给一个高分",
+        "script_hint": "Han-dominant",
+        "distance": 0.6725966930389404,
+        "margin": 0.005901932716369629,
+        "sample_groups": [
+          "new_structure_Han-dominant"
+        ]
+      },
+      {
+        "unit_id": "S5ccda2d3042d65a6b79a",
+        "text": "Anyway, skill issue i get it, lol.",
+        "script_hint": "Latin-script",
+        "distance": 0.6217045187950134,
+        "margin": 0.042339444160461426,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S69ecdd6f95b20cd08841",
+        "text": "but in a remodeled game atmosphere.",
+        "script_hint": "Latin-script",
+        "distance": 0.6223020553588867,
+        "margin": 0.016289114952087402,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S009e87dd0d551becb989",
+        "text": "but I have seen other peoples' gameplay with the same effect.",
+        "script_hint": "Latin-script",
+        "distance": 0.6256101131439209,
+        "margin": 0.0018650293350219727,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S527c16c6e371463d3521",
+        "text": "There might be lots of dungeons",
+        "script_hint": "Latin-script",
+        "distance": 0.6280505657196045,
+        "margin": 0.04100239276885986,
+        "sample_groups": [
+          "center_Latin-script",
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S7e2ccd4e84b17e357124",
+        "text": "There are layers to this.",
+        "script_hint": "Latin-script",
+        "distance": 0.6297106742858887,
+        "margin": 0.008068680763244629,
+        "sample_groups": [
+          "center_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S3c58513f4ad975f4c7ac",
+        "text": "I get wanting a challenge",
+        "script_hint": "Latin-script",
+        "distance": 0.6301364898681641,
+        "margin": 0.03979283571243286,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      },
+      {
+        "unit_id": "S410d37719563ee1c73de",
+        "text": "but because you feel like playing something else.",
+        "script_hint": "Latin-script",
+        "distance": 0.6320750117301941,
+        "margin": 0.0121690034866333,
+        "sample_groups": [
+          "new_structure_Latin-script"
+        ]
+      }
+    ]
+  }
+]

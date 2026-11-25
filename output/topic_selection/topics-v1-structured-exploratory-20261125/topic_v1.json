@@ -1,0 +1,662 @@
+{
+  "schema_version": "1.0-topics-v1-cluster-derived",
+  "topic_version": "topics-v1-structured-exploratory-20261125",
+  "status": "exploratory_delivery",
+  "topics": [
+    {
+      "topic_id": "T01",
+      "name_zh": "玩法与机制",
+      "name_en": "gameplay_mechanics",
+      "definition": "核心循环、关卡、战斗、策略、探索、构筑和明确的游戏行为。",
+      "include": [
+        "明确描述怎么玩",
+        "评价某个游戏机制或核心循环",
+        "评价关卡、探索、战斗或构筑"
+      ],
+      "exclude": [
+        "只有好玩、上瘾或值得玩",
+        "没有具体证据的整体评价"
+      ],
+      "confidence": "medium",
+      "validation_priority": "high",
+      "list_decision": "retain_v1_scope",
+      "candidate_evidence": [
+        {
+          "unit_id": "Sae8d52b6ce38f2c5516e",
+          "excerpt": "a huge variety of Warframes and weapons to build",
+          "appids": [
+            230410
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "Sa213a431f6e9d306ded9",
+          "excerpt": "不能洗词条，只能反复刷取",
+          "appids": [
+            397540
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": false
+        }
+      ]
+    },
+    {
+      "topic_id": "T02",
+      "name_zh": "操作、难度与平衡",
+      "name_en": "controls_difficulty",
+      "definition": "输入响应、手感、按键、学习门槛、教程、战斗难度和数值平衡。",
+      "include": [
+        "操作和手感",
+        "新手引导和学习门槛",
+        "难度和战斗平衡"
+      ],
+      "exclude": [
+        "卡顿、崩溃和网络技术故障"
+      ],
+      "confidence": "high",
+      "validation_priority": "medium",
+      "list_decision": "retain_v1_scope",
+      "candidate_evidence": [
+        {
+          "unit_id": "S48df4a42e664c21a435e",
+          "excerpt": "新手门槛偏高",
+          "appids": [
+            1203220
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": false
+        },
+        {
+          "unit_id": "Sadc80bea115293be36c1",
+          "excerpt": "The learning curve can make getting started frustrating",
+          "appids": [
+            244850
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        }
+      ]
+    },
+    {
+      "topic_id": "T03",
+      "name_zh": "性能、稳定性与故障",
+      "name_en": "performance_stability",
+      "definition": "帧率、卡顿、崩溃、无法启动、无响应、兼容性、服务器技术故障和 BUG。",
+      "include": [
+        "运行性能",
+        "稳定性和崩溃",
+        "技术性服务器或网络故障"
+      ],
+      "exclude": [
+        "联机乐趣、匹配关系和玩家互动本身"
+      ],
+      "confidence": "high",
+      "validation_priority": "medium",
+      "list_decision": "retain_v1_scope",
+      "candidate_evidence": [
+        {
+          "unit_id": "S54b1df4fffd95224faf9",
+          "excerpt": "现代硬件兼容性差",
+          "appids": [
+            447040
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "S4b65804d4d4fd1289148",
+          "excerpt": "multiple times I crashed when in my inventory",
+          "appids": [
+            397540
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        }
+      ]
+    },
+    {
+      "topic_id": "T04",
+      "name_zh": "剧情与角色",
+      "name_en": "story_characters",
+      "definition": "故事、叙事结构、人物塑造、对白和剧情表达。",
+      "include": [
+        "明确评价故事或叙事",
+        "明确评价角色或人物塑造"
+      ],
+      "exclude": [
+        "只有角色名、台词或无法解释的引用"
+      ],
+      "confidence": "high",
+      "validation_priority": "medium",
+      "list_decision": "retain_v1_scope",
+      "candidate_evidence": [
+        {
+          "unit_id": "Sadb794573f1877dfecae",
+          "excerpt": "但故事线还是没有写完",
+          "appids": [
+            1245620
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "S3b91b97cf1f1954b03ca",
+          "excerpt": "some characters not being fully fleshed out",
+          "appids": [
+            1687950
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        }
+      ]
+    },
+    {
+      "topic_id": "T05",
+      "name_zh": "画面、美术、音乐与音效",
+      "name_en": "audiovisual",
+      "definition": "视觉风格、美术质量、动画、音乐、音效和整体视听表现。",
+      "include": [
+        "画面和美术",
+        "音乐和音效",
+        "明确的视听风格评价"
+      ],
+      "exclude": [
+        "没有视听证据的沉浸感或整体好评"
+      ],
+      "confidence": "medium",
+      "validation_priority": "high",
+      "list_decision": "retain_v1_scope",
+      "candidate_evidence": [
+        {
+          "unit_id": "S1e4d7eddbc4bebdcc28e",
+          "excerpt": "游戏音乐初听很好听",
+          "appids": [
+            367520
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "S41a94f583317a3d48fee",
+          "excerpt": "Graphics: Beautiful",
+          "appids": [
+            588650,
+            534380,
+            1687950,
+            1086940
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        }
+      ]
+    },
+    {
+      "topic_id": "T06",
+      "name_zh": "联机、匹配、作弊与社区",
+      "name_en": "multiplayer_community",
+      "definition": "合作、对战、匹配、公平性、外挂、玩家互动和社区体验。",
+      "include": [
+        "朋友同玩或合作",
+        "对战和匹配",
+        "作弊和玩家社区"
+      ],
+      "exclude": [
+        "没有联机语境的骂人",
+        "单独的网络技术故障"
+      ],
+      "confidence": "high",
+      "validation_priority": "medium",
+      "list_decision": "retain_v1_scope",
+      "candidate_evidence": [
+        {
+          "unit_id": "S5c7c9a3b69c297f2ba3f",
+          "excerpt": "和朋友一起玩也很有趣",
+          "appids": [
+            739630
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "Sefda513dd2a9949bf8e8",
+          "excerpt": "friends were playing via LAN",
+          "appids": [
+            813780
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        }
+      ]
+    },
+    {
+      "topic_id": "T07",
+      "name_zh": "价格、付费与 DLC 收费",
+      "name_en": "price_monetization",
+      "definition": "价格、性价比、内购、付费公平、购买成本和 DLC 收费。",
+      "include": [
+        "价格和价值",
+        "内购或购买成本",
+        "DLC 收费和付费公平"
+      ],
+      "exclude": [
+        "DLC 内容量和任务质量本身"
+      ],
+      "confidence": "medium",
+      "validation_priority": "high",
+      "list_decision": "retain_v1_scope",
+      "candidate_evidence": [
+        {
+          "unit_id": "S813e59149e94f6449379",
+          "excerpt": "终于遇到这么良心的价格",
+          "appids": [
+            489830
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "S84109d4d4257c3a322d3",
+          "excerpt": "Price: Worth the price",
+          "appids": [
+            588650,
+            1687950,
+            489830,
+            1086940,
+            1174180
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        }
+      ]
+    },
+    {
+      "topic_id": "T08",
+      "name_zh": "内容量、重玩、MOD 与更新维护",
+      "name_en": "content_support",
+      "definition": "内容数量、任务或地图规模、重玩价值、模组、DLC 内容和更新支持。",
+      "include": [
+        "内容量和任务规模",
+        "重玩价值",
+        "MOD",
+        "DLC 内容",
+        "更新和维护支持"
+      ],
+      "exclude": [
+        "只有游玩时长或上头表达",
+        "更新造成的技术故障本身"
+      ],
+      "confidence": "medium",
+      "validation_priority": "high",
+      "list_decision": "retain_v1_scope",
+      "candidate_evidence": [
+        {
+          "unit_id": "S4ac81611cb2133c65da1",
+          "excerpt": "模组前置的机制可以让mod身上再长出mod",
+          "appids": [
+            489830
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "S067fd43fc3c9d24a47fe",
+          "excerpt": "there are free updates very often that add lots of items",
+          "appids": [
+            275850
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        }
+      ]
+    }
+  ],
+  "auxiliary_routing": [
+    {
+      "id": "A01",
+      "name_zh": "泛评价",
+      "counts_as_primary_topic": false
+    },
+    {
+      "id": "A02",
+      "name_zh": "多方面综合评论",
+      "counts_as_primary_topic": false
+    },
+    {
+      "id": "A03",
+      "name_zh": "低信息、语境不足或语言不确定",
+      "counts_as_primary_topic": false
+    },
+    {
+      "id": "A04",
+      "name_zh": "其他具体方面",
+      "counts_as_primary_topic": false
+    }
+  ],
+  "proposed_subtopics": [
+    {
+      "parent_topic_id": "T01",
+      "candidate_id": "progression_grind",
+      "name_zh": "成长、资源获取与重复刷取",
+      "definition": "获取材料和装备、升级、重复执行刷取所需任务。由装备或资源带来的付费捷径可同时提供价格证据。",
+      "status": "semantic_review_pending",
+      "candidate_evidence": [
+        {
+          "unit_id": "Se60f5509723e292910cd",
+          "excerpt": "必须投入大量时间重复刷取",
+          "appids": [
+            230410
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "S3ec80e2365a121b4edd5",
+          "excerpt": "its endless resource grind and tedious bosses eventually wear out their welcome",
+          "appids": [
+            440900
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "S6b7ed931ce38aaa5a1f9",
+          "excerpt": "and reliance on repetitive grinding",
+          "appids": [
+            238960
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": false
+        }
+      ]
+    },
+    {
+      "parent_topic_id": "T02",
+      "candidate_id": "onboarding_learning_curve",
+      "name_zh": "新手引导与学习门槛",
+      "definition": "教程覆盖、界面或系统教学、初次上手的学习成本。",
+      "status": "semantic_review_pending",
+      "candidate_evidence": [
+        {
+          "unit_id": "S48df4a42e664c21a435e",
+          "excerpt": "新手门槛偏高",
+          "appids": [
+            1203220
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": false
+        },
+        {
+          "unit_id": "Sd4271eb92643734222e7",
+          "excerpt": "it has a legendary learning curve",
+          "appids": [
+            238960
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "Sefadfe3b66b6bc8eccaf",
+          "excerpt": "the beginning is totally a drag with the tutorials",
+          "appids": [
+            1687950
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": false
+        }
+      ]
+    },
+    {
+      "parent_topic_id": "T08",
+      "candidate_id": "content_replayability",
+      "name_zh": "内容量与重玩价值",
+      "definition": "任务、地图、可解锁内容，以及驱动再玩一轮的变化或路径。",
+      "status": "semantic_review_pending",
+      "candidate_evidence": [
+        {
+          "unit_id": "S5182eca137eb3b26ab36",
+          "excerpt": "玩两遍任务看到两种不同的结局",
+          "appids": [
+            489830
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "S0c925d7e7559e1447c65",
+          "excerpt": "its unbelievable replayability",
+          "appids": [
+            1086940
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "S0f574b4e6ac617c90dc7",
+          "excerpt": "endless unlocks, and good replayability",
+          "appids": [
+            588650
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "Sed7b3063e0e3229e2087",
+          "excerpt": "so much replayability due to the freedom it gives you to make builds",
+          "appids": [
+            1091500
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        }
+      ]
+    },
+    {
+      "parent_topic_id": "T08",
+      "candidate_id": "updates_long_term_support",
+      "name_zh": "版本更新与长期维护",
+      "definition": "更新与补丁的频率、赛季内容增加、停止维护或恢复支持。",
+      "status": "semantic_review_pending",
+      "candidate_evidence": [
+        {
+          "unit_id": "S84e1871fbd10bf611055",
+          "excerpt": "停止更新了也是让人非常遗憾",
+          "appids": [
+            588650
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "S067fd43fc3c9d24a47fe",
+          "excerpt": "there are free updates very often that add lots of items",
+          "appids": [
+            275850
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "Sa3014d9eb657197248a3",
+          "excerpt": "10 years of content updates added to the game for no additional charge",
+          "appids": [
+            275850
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "route": "A04",
+      "candidate_id": "localization_language_support",
+      "name_zh": "本地化与语言支持",
+      "definition": "可用语言、翻译质量、字幕和本地语言配音。",
+      "status": "watchlist",
+      "candidate_evidence": [
+        {
+          "unit_id": "S82f5b2b40577f7b20b34",
+          "excerpt": "有很简单的简体汉化mod",
+          "appids": [
+            489830
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "Sfb3b0aa64eed9a443b21",
+          "excerpt": "20 周年更新自带优质中文语音",
+          "appids": [
+            220
+          ],
+          "source_languages": [
+            "schinese"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": true
+        },
+        {
+          "unit_id": "Sd6fbbd36804039943103",
+          "excerpt": "urgently need Arabic language support",
+          "appids": [
+            1203220
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": true,
+          "lexical_hit": false
+        },
+        {
+          "unit_id": "Sc876c624ba498b8debfa",
+          "excerpt": "I hope they hire better English translateor",
+          "appids": [
+            2358720
+          ],
+          "source_languages": [
+            "english"
+          ],
+          "new_structural_unit": false,
+          "lexical_hit": true
+        }
+      ]
+    }
+  ],
+  "boundary_notes": [
+    "可从明确勾选项的标题与所选文本联合确认主题证据，例如 Graphics: Beautiful 和 Price: Worth the price。模板的总评、空标题和未勾选项不构成证据。",
+    "游戏内刷取动作或成长压力归 T01，内容变化与再次游玩的意愿归 T08。片段明确陈述两个方面时可同时标注。",
+    "购买门槛与额外收费归 T07，版本维护频率和 DLC 内容归 T08。联机技术故障归 T03，匹配公平、作弊、合作和社区体验归 T06。"
+  ],
+  "counts": {
+    "primary_topics": 8,
+    "proposed_subtopics": 4,
+    "units": 34491,
+    "fit_candidate_units": 5784,
+    "reviews": 19486,
+    "all_evidence_reviews": 5301,
+    "fit_evidence_reviews": 3996
+  },
+  "matching_policy": {
+    "minimum_score": 0.65,
+    "minimum_gap": 0.06,
+    "nearest_cluster_agreement_required": true,
+    "generic_rejection": "whole_fragment_only",
+    "original_units_use_frozen_v1_labels": true
+  },
+  "parent_topic_version": "topics-v1-exploratory-20261118",
+  "candidate_topic_version": "topics-structured-candidate-20261125",
+  "subtopic_assignments_available": false,
+  "frozen_for_final_semantic_analysis": false
+}
