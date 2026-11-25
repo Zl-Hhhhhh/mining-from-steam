@@ -37,11 +37,11 @@
 </style>
 <main>
   <h1>Steam 评论主题盲审 <span id="assignment"></span></h1>
-  <p class="muted">独立阅读整条评论。每个所选主题都要摘录一段原文作为证据。</p>
+  <p class="muted">独立阅读整条评论，判断原文语言和有无具体方面。有具体方面时可多选主题。</p>
   <details>
     <summary>标注口径</summary>
-    <p>一条评论可有多个主题。纯好评或差评选「泛评价」。纯符号、与游戏无关或空白可选「无具体方面」。语境、语言或含义无法判断时，选「不确定」并写明原因。</p>
-    <p>技术掉线或卡顿归性能，合作或匹配体验归联机。DLC 内容量归内容，收费归价格。勾选模板只使用已选项和作者自己的正文。「其他具体方面」请在备注里写明具体是什么。</p>
+    <p>一条评论可有多个主题。纯好评或差评选「泛评价」。纯符号、与游戏无关或空白可选「无具体方面」。语境、语言或含义无法判断时，选「不确定」。</p>
+    <p>技术掉线或卡顿归性能，合作或匹配体验归联机。DLC 内容量归内容，收费归价格。勾选模板只使用已选项和作者自己的正文。原文证据和备注均可选填。</p>
   </details>
   <section aria-labelledby="reviewHeading">
     <div class="toolbar">
@@ -67,8 +67,11 @@
         <option value="A03">不确定</option>
       </select>
     </label>
-    <fieldset id="topicFields" hidden><legend>选择主题并摘录原文</legend></fieldset>
-    <label class="field"><span>备注</span><textarea id="note" placeholder="不确定或选择其他具体方面时必填"></textarea></label>
+    <fieldset id="topicFields" hidden>
+      <legend>选择主题</legend>
+      <label class="field"><input id="showEvidence" type="checkbox"> 显示原文证据输入框（选填）</label>
+    </fieldset>
+    <label class="field"><span>备注（选填）</span><textarea id="note"></textarea></label>
     <p id="validation" class="muted" aria-live="polite"></p>
     <button id="advance" class="primary">下一条</button>
   </section>
@@ -90,7 +93,6 @@ const pack = JSON.parse(element("payload").textContent);
 const storageKey = [pack.package_id, pack.assignment, pack.sample_sha256].join(":");
 const validLanguages = ["english", "schinese", "mixed", "other", "uncertain"];
 const validJudgments = ["concrete", "A01", "no_aspect", "A03"];
-const normalize = value => value.trim().replace(/\s+/gu, " ");
 const blank = () => ({ language: "", judgment: "", evidence: {}, note: "" });
 let answers = {};
 let position = 0;
@@ -136,19 +138,10 @@ const fields = Object.fromEntries(pack.topics.map(topic => {
   return [topic.id, { box, quote, evidenceRow }];
 }));
 
-function issue(review, answer = blank()) {
+function issue(answer = blank()) {
   if (!answer.language || !answer.judgment) return "请选择原文语言和方面判断。";
-  if (answer.judgment === "A03" && !answer.note.trim()) return "请在备注注明不确定的原因。";
-  if (answer.judgment !== "concrete") return "";
-  const chosen = Object.entries(answer.evidence);
-  if (!chosen.length) return "请至少选一个具体主题。";
-  const text = normalize(review.text);
-  for (const [topic, quote] of chosen) {
-    const title = pack.topics.find(item => item.id === topic).label;
-    if (!normalize(quote)) return "请为「" + title + "」填写原文证据。";
-    if (!text.includes(normalize(quote))) return "请为「" + title + "」复制可在原文找到的证据。";
-  }
-  return "A04" in answer.evidence && !answer.note.trim() ? "请在备注中说明其他具体方面。" : "";
+  if (answer.judgment === "concrete" && !Object.keys(answer.evidence).length) return "请至少选一个具体主题。";
+  return "";
 }
 
 function response(complete) {
@@ -167,13 +160,14 @@ function persist() {
 function update() {
   const current = pack.cases[position];
   const answer = answers[current.id] ?? blank();
-  const completed = pack.cases.filter(row => !issue(row, answers[row.id])).length;
+  const completed = pack.cases.filter(row => !issue(answers[row.id])).length;
   element("progress").value = completed;
   element("progress").max = pack.cases.length;
   element("reviewHeading").textContent = current.id + " · 第 " + (position + 1) + " 条 · 已完成 " + completed + "/" + pack.cases.length;
   element("topicFields").hidden = answer.judgment !== "concrete";
-  for (const field of Object.values(fields)) field.evidenceRow.hidden = !field.box.checked;
-  element("validation").textContent = issue(current, answer) || "本条已完成。";
+  const showEvidence = element("showEvidence").checked;
+  for (const field of Object.values(fields)) field.evidenceRow.hidden = !showEvidence || !field.box.checked;
+  element("validation").textContent = issue(answer) || "本条已完成。";
 }
 
 function saveCurrent() {
@@ -216,7 +210,7 @@ function go(index) {
 }
 
 function nextIncomplete() {
-  const index = pack.cases.findIndex(row => issue(row, answers[row.id]));
+  const index = pack.cases.findIndex(row => issue(answers[row.id]));
   if (index >= 0) go(index);
   return index;
 }
@@ -253,6 +247,7 @@ element("nextIncomplete").onclick = () => {
   if (nextIncomplete() < 0) element("message").textContent = "全部评论已完成。";
 };
 element("language").onchange = element("judgment").onchange = element("note").oninput = saveCurrent;
+element("showEvidence").onchange = update;
 element("saveDraft").onclick = () => download(false);
 element("saveComplete").onclick = () => download(true);
 element("restore").onchange = async event => {

@@ -77,7 +77,7 @@
     "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/topic-seed-units.json": "ca721c8c6bcf5ced911228d5d6e4a9174452178a57e9c531358eb1cfd4eff0d8",
     "output/topic_selection/topics-v1-exploratory-20261118/review_topic_weights.jsonl": "eaecacd6aa43b34d328704d7c346c26c7910b2570773dbab0e038136f2147689",
     "output/topic_selection/task12-20261114/topic-list-draft.json": "5975c4d0024724ff9d034b21143a6f6ef628c9c4666f6fde36c5a4383e3e6e71",
-    "scripts/prepare_relaxed_topic_blind_review.html": "bcb506f8bd7e977ab7d0dae6f1c5699fa66d6e4389134c8a537f649d23f65697",
+    "scripts/prepare_relaxed_topic_blind_review.html": "05187642a7b8971675c07de8f3c11d773d0721603da6c8ebc573c8a7faeab6e5",
     "scripts/prepare_relaxed_topic_blind_review.py": "c8dc2abedc0d773c6c2cd86ea34c134da1f23f410d1676122a58b7a23925f371",
     ".cache-topic/lexical-relaxed-20261125/topic-matching-probe/audit_reviewed.csv": "100c47c7f3d577f9095be43e788af2aa763ec9cad0db30b97310a4d6ca3c20c7",
     ".cache-topic/lexical-relaxed-20261125/topic-matching-probe/new_unit_matches.jsonl": "1503c1d5aeab63e5c488bc6b70979a268732bbf4c858b381b37d06d6bb087f08",
