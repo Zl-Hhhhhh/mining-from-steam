@@ -1,0 +1,1197 @@
+{
+  "package_id": "task12-relaxed-blind-20261125",
+  "assignment": "A",
+  "sample_sha256": "5fb6e6848332a5e1588666709c9e46af346de95aedea981e4389eeae19b8bb1f",
+  "complete": true,
+  "position": 159,
+  "answers": {
+    "R097": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": "",
+        "T03": "",
+        "T04": "",
+        "T05": "",
+        "T07": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R024": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R007": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R147": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T04": "",
+        "T05": ""
+      },
+      "note": ""
+    },
+    "R038": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T03": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R004": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R102": {
+      "language": "english",
+      "judgment": "A03",
+      "evidence": {},
+      "note": ""
+    },
+    "R142": {
+      "language": "english",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R053": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R118": {
+      "language": "other",
+      "judgment": "A03",
+      "evidence": {},
+      "note": ""
+    },
+    "R070": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T04": ""
+      },
+      "note": ""
+    },
+    "R130": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R087": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": ""
+      },
+      "note": ""
+    },
+    "R036": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R113": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T06": ""
+      },
+      "note": ""
+    },
+    "R039": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T04": "",
+        "T07": ""
+      },
+      "note": ""
+    },
+    "R151": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R022": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": "",
+        "T04": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R126": {
+      "language": "other",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T07": ""
+      },
+      "note": ""
+    },
+    "R019": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R132": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T04": ""
+      },
+      "note": ""
+    },
+    "R096": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": ""
+      },
+      "note": ""
+    },
+    "R084": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T07": ""
+      },
+      "note": ""
+    },
+    "R154": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": "",
+        "T03": "",
+        "T04": "",
+        "T05": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R089": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R055": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T07": ""
+      },
+      "note": ""
+    },
+    "R114": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R092": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R116": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": "",
+        "T04": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R013": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": ""
+      },
+      "note": ""
+    },
+    "R101": {
+      "language": "english",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R138": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R131": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": "",
+        "T03": ""
+      },
+      "note": ""
+    },
+    "R085": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R136": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R021": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T03": ""
+      },
+      "note": ""
+    },
+    "R048": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T06": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R067": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R041": {
+      "language": "english",
+      "judgment": "A03",
+      "evidence": {},
+      "note": ""
+    },
+    "R095": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R009": {
+      "language": "english",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R155": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R027": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R094": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R077": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R075": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T07": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R157": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "A04": ""
+      },
+      "note": ""
+    },
+    "R106": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R012": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R074": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R042": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R080": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T04": ""
+      },
+      "note": ""
+    },
+    "R014": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R026": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R112": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": ""
+      },
+      "note": ""
+    },
+    "R025": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": ""
+      },
+      "note": ""
+    },
+    "R043": {
+      "language": "other",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R120": {
+      "language": "other",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R121": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T04": ""
+      },
+      "note": ""
+    },
+    "R051": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T05": "",
+        "T07": ""
+      },
+      "note": ""
+    },
+    "R062": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R145": {
+      "language": "english",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R018": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": "",
+        "T07": ""
+      },
+      "note": ""
+    },
+    "R117": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R066": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": ""
+      },
+      "note": ""
+    },
+    "R140": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R015": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": ""
+      },
+      "note": ""
+    },
+    "R104": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R031": {
+      "language": "other",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R023": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R143": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R061": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R148": {
+      "language": "other",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R156": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R029": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R065": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R134": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T04": "",
+        "T07": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R005": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R160": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R056": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R034": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R153": {
+      "language": "other",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": ""
+      },
+      "note": ""
+    },
+    "R150": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R146": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T03": ""
+      },
+      "note": ""
+    },
+    "R028": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R052": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R081": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": "",
+        "T05": ""
+      },
+      "note": ""
+    },
+    "R127": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R033": {
+      "language": "mixed",
+      "judgment": "concrete",
+      "evidence": {
+        "T06": ""
+      },
+      "note": ""
+    },
+    "R122": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R010": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R011": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T04": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R105": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R159": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R100": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T03": ""
+      },
+      "note": ""
+    },
+    "R135": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T03": ""
+      },
+      "note": ""
+    },
+    "R054": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R109": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": "",
+        "T06": ""
+      },
+      "note": ""
+    },
+    "R139": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R063": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": ""
+      },
+      "note": ""
+    },
+    "R103": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": "",
+        "T03": "",
+        "T05": "",
+        "T07": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R058": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": "",
+        "T04": "",
+        "T06": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R082": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R006": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": "",
+        "T06": "",
+        "T07": ""
+      },
+      "note": ""
+    },
+    "R137": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R069": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": ""
+      },
+      "note": ""
+    },
+    "R064": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R158": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": ""
+      },
+      "note": ""
+    },
+    "R059": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T05": ""
+      },
+      "note": ""
+    },
+    "R099": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R071": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R016": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R083": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R128": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R107": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R003": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R123": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T03": ""
+      },
+      "note": ""
+    },
+    "R030": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R072": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R090": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R108": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R152": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T03": "",
+        "T04": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R046": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": "",
+        "T05": ""
+      },
+      "note": ""
+    },
+    "R111": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R057": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T06": ""
+      },
+      "note": ""
+    },
+    "R002": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R076": {
+      "language": "schinese",
+      "judgment": "A03",
+      "evidence": {},
+      "note": ""
+    },
+    "R125": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": ""
+      },
+      "note": ""
+    },
+    "R119": {
+      "language": "other",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": ""
+      },
+      "note": ""
+    },
+    "R047": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": ""
+      },
+      "note": ""
+    },
+    "R017": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R098": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T03": ""
+      },
+      "note": ""
+    },
+    "R050": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R049": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T06": ""
+      },
+      "note": ""
+    },
+    "R093": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T03": ""
+      },
+      "note": ""
+    },
+    "R129": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R068": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": ""
+      },
+      "note": ""
+    },
+    "R091": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R078": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": "",
+        "T06": "",
+        "T07": ""
+      },
+      "note": ""
+    },
+    "R040": {
+      "language": "english",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R045": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": "",
+        "T03": "",
+        "T05": "",
+        "T07": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R115": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": "",
+        "T04": "",
+        "T05": "",
+        "T07": ""
+      },
+      "note": ""
+    },
+    "R149": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T06": ""
+      },
+      "note": ""
+    },
+    "R020": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R044": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": "",
+        "T06": ""
+      },
+      "note": ""
+    },
+    "R073": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": "",
+        "T06": "",
+        "T07": ""
+      },
+      "note": ""
+    },
+    "R079": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T03": ""
+      },
+      "note": ""
+    },
+    "R086": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R088": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R001": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T01": "",
+        "T02": "",
+        "T05": "",
+        "T06": ""
+      },
+      "note": ""
+    },
+    "R037": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R133": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R124": {
+      "language": "english",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R035": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": "",
+        "T04": "",
+        "T06": ""
+      },
+      "note": ""
+    },
+    "R144": {
+      "language": "other",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R110": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T07": "",
+        "T08": ""
+      },
+      "note": ""
+    },
+    "R060": {
+      "language": "schinese",
+      "judgment": "A01",
+      "evidence": {},
+      "note": ""
+    },
+    "R141": {
+      "language": "schinese",
+      "judgment": "no_aspect",
+      "evidence": {},
+      "note": ""
+    },
+    "R032": {
+      "language": "english",
+      "judgment": "concrete",
+      "evidence": {
+        "T07": ""
+      },
+      "note": ""
+    },
+    "R008": {
+      "language": "schinese",
+      "judgment": "concrete",
+      "evidence": {
+        "T02": ""
+      },
+      "note": ""
+    }
+  },
+  "exported_at": "2026-11-25T10:27:57.945Z"
+}
