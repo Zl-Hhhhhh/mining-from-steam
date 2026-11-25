@@ -99,7 +99,14 @@ def load_encoder(c,model_snapshot=None):
     import torch
     if model_snapshot is None:
         from huggingface_hub import snapshot_download
-        model_snapshot=Path(snapshot_download(c['model_name'],revision=c['model_revision'],cache_dir=ROOT/c['model_cache_dir'],local_files_only=True,token=False))
+        model_snapshot = snapshot_download(
+            c['model_name'],
+            revision=c['model_revision'],
+            cache_dir=ROOT / c['model_cache_dir'],
+            allow_patterns=list(c['model_files_sha256']),
+            local_files_only=True,
+            token=False,
+        )
     model_snapshot=Path(model_snapshot).resolve()
     if model_snapshot.name!=c['model_revision']:raise ValueError('Snapshot folder must identify the pinned model revision')
     started=time.perf_counter()

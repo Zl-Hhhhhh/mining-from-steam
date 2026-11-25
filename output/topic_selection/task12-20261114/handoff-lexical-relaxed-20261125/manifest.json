@@ -1,0 +1,83 @@
+{
+  "status": "sentence_inputs_ready_encoding_not_run",
+  "sources": {
+    "output/topic_review/steam-review-20261107-v1/source_mapping/group_source_mapping.json": "3e32638682d83cec3b846a28c1407d246c4beea827af02bc4a8655e8eef8705d",
+    "output/topic_review/steam-review-20261107-v1/adjudicated-20261114/adjudication.json": "5569f2fbd39b119e3e5ebd0770c3001ba459a46854ced0df571aa2bee8ce12cb",
+    "output/topic_selection/task12-20261114/resampling_results.json": "e8d6f9ec7a3d8b12e60bd34c16c55ad2c75770bd6b8ad01a508a619ab9755c05",
+    "output/topic_selection/task12-20261114/unsupervised_rework/rework_results.json": "91542b5ed7b11ba6a478240b05660a8ec06e727c25014c15b7f17699b23814e3",
+    "output/topic_selection/task12-20261114/unsupervised_residual/rework_results.json": "00bbfaf15f95df331268390beca06fdc5db91037e93a181f00cd9b7f6a0cfd81",
+    "output/topic_selection/task12-20261114/nmf_rework/rework_results.json": "96b6024dbcbc5f3885c8b57a57557c1919e8e3e1f5c0914fb9d3c919fd2bc887",
+    "config/topic_rework_residual.json": "2edf38cc20200a00e5c8bbcc2ed61018690976e29b34ecf12b6ae1dddec34174",
+    "data/derived/embedding-bge/freeze_20261101-v1/model_reviews.jsonl": "ae68672beffbb8f424450296f9f418ad4c856125724fae80013e4a370aedcbde",
+    "data/derived/embedding-bge/freeze_20261101-v1/master_index.jsonl": "6f3f3855adc8a90e386435a4c4b919eb61fd40d8a2634cff3e9ba7044df328cc",
+    "scripts/prepare_task12_handoff.py": "77fd8891647bb87196b6fff760c1a97cee24dfd26f43eaaae8fd2d0f434380f9",
+    "config/embedding_bge.json": "383e6803d740301716c64db815baab799237a7820b917569748b332ec181cc04"
+  },
+  "unit_count": 31856,
+  "fit_candidate_units": 7269,
+  "master_review_count": 19486,
+  "reviews_with_units": 16896,
+  "human_labels_used_for_training": false,
+  "recommendation_labels_used": false,
+  "old_whole_review_vectors_reused_for_sentence_units": false,
+  "task12_topics_frozen": false,
+  "next_experiment": {
+    "representation": "BGE-M3 same fixed revision on sentence texts",
+    "cpu_threads": 2,
+    "cluster_counts": [
+      6,
+      8,
+      10
+    ],
+    "seeds": [
+      17,
+      42
+    ],
+    "subsampling_fraction": 0.8,
+    "resamples": 5,
+    "aggregation": "retain multiple unit topics per review; report no-evidence and ambiguous units separately"
+  },
+  "notes": [
+    "Unmatched units are application-only candidates. Whole-fragment generic matches go to A01, outside the encoding input.",
+    "No units does not establish that a review has no concrete aspect.",
+    "Checkbox templates are withheld to avoid treating unselected options as opinions.",
+    "Sentence source IDs and exact text are preserved; recommendation remains a review-level outcome."
+  ],
+  "local_encoding_prerequisites": {
+    "missing_packages": [
+      "torch",
+      "sentence_transformers",
+      "transformers"
+    ],
+    "model_cache_present": false
+  },
+  "screening": {
+    "policy": "allow_unmatched_application_units",
+    "unmatched_application_units": 22877,
+    "reviews_with_only_unmatched_units": 12011,
+    "generic_auxiliary_units": 157,
+    "reviews_with_generic_auxiliary_units": 2159
+  },
+  "outputs": [
+    {
+      "path": "sentence_units.jsonl",
+      "sha256": "824ec146558d65e8ce9f79e9447efdbf5549a98847da3b938d4366ae1f2ce7d1"
+    },
+    {
+      "path": "auxiliary_units.jsonl",
+      "sha256": "991ddd0321620b29ffa9c261ae0dd990d918cb845f982d363ea8ad1dcb54e509"
+    },
+    {
+      "path": "review_to_units.json",
+      "sha256": "4275461d1ce9b2dc8f508192abeedfe72f99f54c59e900cb881f65a89682ce2d"
+    },
+    {
+      "path": "candidate_actions.json",
+      "sha256": "5e011a082cad8acfbd1811f8d3f0a12767b205ae2d28d1f32c6c06eee2a7a41f"
+    },
+    {
+      "path": "encoding_request.json",
+      "sha256": "8d7f02f10975ee26b94e97b079868f1f748fa06949af3ee87834d516c1d1fe07"
+    }
+  ]
+}

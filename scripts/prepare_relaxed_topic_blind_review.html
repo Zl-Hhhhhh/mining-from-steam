@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Steam 评论主题盲审</title>
+<style>
+  * { box-sizing: border-box }
+  body { margin: 0; background: #f0f4f7; color: #172739; font: 16px/1.6 system-ui, "Microsoft YaHei", sans-serif }
+  main { max-width: 880px; padding: 28px 18px 52px; margin: auto }
+  h1 { margin: 0 0 8px; font-size: clamp(24px, 5vw, 33px) }
+  h2 { font-size: 17px; margin: 0 0 10px }
+  p { margin: 0 0 12px }
+  section, details { background: white; border: 1px solid #d3dce3; border-radius: 8px; padding: 18px 22px; margin: 14px 0 }
+  summary { cursor: pointer; font-weight: 650 }
+  button, select, textarea { font: inherit; color: inherit; border: 1px solid #8c9dab; border-radius: 5px; background: white; padding: 7px 11px }
+  button { cursor: pointer }
+  button[disabled] { opacity: .45; cursor: default }
+  button.primary { color: white; background: #185878; border-color: #185878 }
+  :focus-visible { outline: 3px solid #11739c; outline-offset: 2px }
+  .toolbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap }
+  .toolbar label { display: flex; align-items: center; gap: 6px }
+  .muted, small { color: #44566a }
+  .message { min-height: 1.6em; margin-top: 10px; color: #7b3106 }
+  progress { width: 100%; display: block; margin: 8px 0 13px; accent-color: #185878 }
+  .review { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 45vh; overflow: auto; margin: 0 }
+  .field { display: block; margin: 12px 0 }
+  .field > span { display: block; font-weight: 600 }
+  textarea { width: 100%; min-height: 54px; resize: vertical }
+  fieldset { padding: 0; border: 0; margin: 14px 0 }
+  legend { font-weight: 650; padding: 0 }
+  .topic { padding: 8px 0; border-top: 1px solid #e6ebef }
+  .topic label { cursor: pointer }
+  .topic small { display: block; margin-left: 24px }
+  .topic .field { margin: 6px 0 0 24px }
+  [hidden] { display: none !important }
+  @media (max-width: 600px) { main { padding: 16px 12px 36px } section, details { padding: 14px } }
+</style>
+<main>
+  <h1>Steam 评论主题盲审 <span id="assignment"></span></h1>
+  <p class="muted">独立阅读整条评论。每个所选主题都要摘录一段原文作为证据。</p>
+  <details>
+    <summary>标注口径</summary>
+    <p>一条评论可有多个主题。纯好评或差评选「泛评价」。纯符号、与游戏无关或空白可选「无具体方面」。语境、语言或含义无法判断时，选「不确定」并写明原因。</p>
+    <p>技术掉线或卡顿归性能，合作或匹配体验归联机。DLC 内容量归内容，收费归价格。勾选模板只使用已选项和作者自己的正文。「其他具体方面」请在备注里写明具体是什么。</p>
+  </details>
+  <section aria-labelledby="reviewHeading">
+    <div class="toolbar">
+      <button id="previous">上一条</button><button id="next">下一条</button>
+      <label>跳到 <select id="caseSelect"></select></label>
+      <button id="nextIncomplete">定位未完成</button>
+    </div>
+    <progress id="progress" aria-label="标注完成进度"></progress>
+    <h2 id="reviewHeading" tabindex="-1"></h2>
+    <p id="reviewText" class="review" tabindex="0"></p>
+  </section>
+  <section aria-label="标注">
+    <label class="field"><span>原文实际语言</span>
+      <select id="language">
+        <option value="">请选择</option><option value="english">英语</option><option value="schinese">中文</option>
+        <option value="mixed">混合</option><option value="other">其他</option><option value="uncertain">无法判断</option>
+      </select>
+    </label>
+    <label class="field"><span>方面判断</span>
+      <select id="judgment">
+        <option value="">请选择</option><option value="concrete">有具体方面</option>
+        <option value="A01">只有泛评价</option><option value="no_aspect">无具体方面</option>
+        <option value="A03">不确定</option>
+      </select>
+    </label>
+    <fieldset id="topicFields" hidden><legend>选择主题并摘录原文</legend></fieldset>
+    <label class="field"><span>备注</span><textarea id="note" placeholder="不确定或选择其他具体方面时必填"></textarea></label>
+    <p id="validation" class="muted" aria-live="polite"></p>
+    <button id="advance" class="primary">下一条</button>
+  </section>
+  <section aria-label="保存与导出">
+    <p class="muted">页面尝试自动保存到本机浏览器。离开前导出草稿，以便稍后导入继续。</p>
+    <div class="toolbar">
+      <button id="saveDraft">导出草稿 JSON</button>
+      <button id="saveComplete" class="primary">检查并导出完成 JSON</button>
+      <label>导入草稿 <input type="file" id="restore" accept=".json,application/json"></label>
+    </div>
+    <p id="message" class="message" role="status"></p>
+  </section>
+</main>
+<script id="payload" type="application/json">__REVIEW_PAYLOAD__</script>
+<script>
+"use strict";
+const element = id => document.getElementById(id);
+const pack = JSON.parse(element("payload").textContent);
+const storageKey = [pack.package_id, pack.assignment, pack.sample_sha256].join(":");
+const validLanguages = ["english", "schinese", "mixed", "other", "uncertain"];
+const validJudgments = ["concrete", "A01", "no_aspect", "A03"];
+const normalize = value => value.trim().replace(/\s+/gu, " ");
+const blank = () => ({ language: "", judgment: "", evidence: {}, note: "" });
+let answers = {};
+let position = 0;
+
+function restoreAnswers(data) {
+  if (data.package_id !== pack.package_id || data.assignment !== pack.assignment ||
+      data.sample_sha256 !== pack.sample_sha256 || !data.answers || typeof data.answers !== "object") {
+    throw new Error("答卷与当前标注份或样本版本不一致");
+  }
+  return Object.fromEntries(pack.cases.flatMap(({ id }) => {
+    const row = data.answers[id];
+    if (!row || typeof row !== "object") return [];
+    const evidence = Object.fromEntries(pack.topics
+      .filter(({ id: topic }) => typeof row.evidence?.[topic] === "string")
+      .map(({ id: topic }) => [topic, row.evidence[topic]]));
+    return [[id, {
+      language: validLanguages.includes(row.language) ? row.language : "",
+      judgment: validJudgments.includes(row.judgment) ? row.judgment : "",
+      evidence, note: typeof row.note === "string" ? row.note : "",
+    }]];
+  }));
+}
+
+const fields = Object.fromEntries(pack.topics.map(topic => {
+  const row = document.createElement("div");
+  row.className = "topic";
+  const option = document.createElement("label");
+  const box = document.createElement("input");
+  box.type = "checkbox";
+  option.append(box, " " + topic.label);
+  const definition = document.createElement("small");
+  definition.textContent = topic.definition;
+  const evidenceRow = document.createElement("label");
+  evidenceRow.className = "field";
+  const quote = document.createElement("textarea");
+  quote.setAttribute("aria-label", topic.label + "的原文证据");
+  quote.placeholder = "粘贴原文证据";
+  evidenceRow.append(quote);
+  row.append(option, definition, evidenceRow);
+  element("topicFields").append(row);
+  box.onchange = saveCurrent;
+  quote.oninput = saveCurrent;
+  return [topic.id, { box, quote, evidenceRow }];
+}));
+
+function issue(review, answer = blank()) {
+  if (!answer.language || !answer.judgment) return "请选择原文语言和方面判断。";
+  if (answer.judgment === "A03" && !answer.note.trim()) return "请在备注注明不确定的原因。";
+  if (answer.judgment !== "concrete") return "";
+  const chosen = Object.entries(answer.evidence);
+  if (!chosen.length) return "请至少选一个具体主题。";
+  const text = normalize(review.text);
+  for (const [topic, quote] of chosen) {
+    const title = pack.topics.find(item => item.id === topic).label;
+    if (!normalize(quote)) return "请为「" + title + "」填写原文证据。";
+    if (!text.includes(normalize(quote))) return "请为「" + title + "」复制可在原文找到的证据。";
+  }
+  return "A04" in answer.evidence && !answer.note.trim() ? "请在备注中说明其他具体方面。" : "";
+}
+
+function response(complete) {
+  const { package_id, assignment, sample_sha256 } = pack;
+  return { package_id, assignment, sample_sha256, complete, position, answers };
+}
+
+function persist() {
+  try {
+    localStorage.setItem(storageKey, JSON.stringify(response(false)));
+  } catch {
+    element("message").textContent = "浏览器无法自动保存，请导出草稿 JSON。";
+  }
+}
+
+function update() {
+  const current = pack.cases[position];
+  const answer = answers[current.id] ?? blank();
+  const completed = pack.cases.filter(row => !issue(row, answers[row.id])).length;
+  element("progress").value = completed;
+  element("progress").max = pack.cases.length;
+  element("reviewHeading").textContent = current.id + " · 第 " + (position + 1) + " 条 · 已完成 " + completed + "/" + pack.cases.length;
+  element("topicFields").hidden = answer.judgment !== "concrete";
+  for (const field of Object.values(fields)) field.evidenceRow.hidden = !field.box.checked;
+  element("validation").textContent = issue(current, answer) || "本条已完成。";
+}
+
+function saveCurrent() {
+  const judgment = element("judgment").value;
+  const evidence = judgment === "concrete"
+    ? Object.fromEntries(Object.entries(fields).filter(([, controls]) => controls.box.checked)
+      .map(([id, controls]) => [id, controls.quote.value.trim()]))
+    : {};
+  answers[pack.cases[position].id] = {
+    language: element("language").value, judgment, evidence, note: element("note").value.trim(),
+  };
+  persist();
+  update();
+}
+
+function render() {
+  const review = pack.cases[position];
+  const answer = answers[review.id] ?? blank();
+  element("reviewText").textContent = review.text.trim() ? review.text : "（原评论为空）";
+  element("caseSelect").value = String(position);
+  element("language").value = answer.language;
+  element("judgment").value = answer.judgment;
+  element("note").value = answer.note;
+  for (const [id, field] of Object.entries(fields)) {
+    field.box.checked = id in answer.evidence;
+    field.quote.value = answer.evidence[id] ?? "";
+  }
+  element("previous").disabled = position === 0;
+  element("next").disabled = position === pack.cases.length - 1;
+  element("advance").disabled = element("next").disabled;
+  update();
+}
+
+function go(index) {
+  saveCurrent();
+  position = Math.max(0, Math.min(pack.cases.length - 1, index));
+  render();
+  persist();
+  element("reviewHeading").focus();
+}
+
+function nextIncomplete() {
+  const index = pack.cases.findIndex(row => issue(row, answers[row.id]));
+  if (index >= 0) go(index);
+  return index;
+}
+
+function download(complete) {
+  saveCurrent();
+  if (complete && nextIncomplete() >= 0) {
+    element("message").textContent = "已定位到尚未填写完整的评论。";
+    return;
+  }
+  const data = { ...response(complete), exported_at: new Date().toISOString() };
+  const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2) + "\n"], { type: "application/json" }));
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = [pack.package_id, pack.assignment, complete ? "complete" : "draft"].join("_") + ".json";
+  document.body.append(anchor);
+  anchor.click();
+  anchor.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  element("message").textContent = complete ? "已导出完成答卷。" : "已导出草稿备份。";
+}
+
+element("assignment").textContent = pack.assignment;
+pack.cases.forEach(({ id }, index) => {
+  const option = document.createElement("option");
+  option.value = String(index);
+  option.textContent = id;
+  element("caseSelect").append(option);
+});
+element("previous").onclick = () => go(position - 1);
+element("next").onclick = element("advance").onclick = () => go(position + 1);
+element("caseSelect").onchange = event => go(Number(event.target.value));
+element("nextIncomplete").onclick = () => {
+  if (nextIncomplete() < 0) element("message").textContent = "全部评论已完成。";
+};
+element("language").onchange = element("judgment").onchange = element("note").oninput = saveCurrent;
+element("saveDraft").onclick = () => download(false);
+element("saveComplete").onclick = () => download(true);
+element("restore").onchange = async event => {
+  const file = event.target.files[0];
+  if (!file) return;
+  try {
+    const data = JSON.parse(await file.text());
+    answers = restoreAnswers(data);
+    position = Number.isInteger(data.position) && data.position >= 0 && data.position < pack.cases.length ? data.position : 0;
+    render();
+    persist();
+    element("message").textContent = "已恢复导入的答卷。";
+  } catch (error) {
+    element("message").textContent = "导入失败 · " + error.message;
+  }
+  event.target.value = "";
+};
+try {
+  const local = localStorage.getItem(storageKey);
+  if (local) {
+    const data = JSON.parse(local);
+    answers = restoreAnswers(data);
+    if (Number.isInteger(data.position) && data.position >= 0 && data.position < pack.cases.length) position = data.position;
+  }
+} catch {
+  element("message").textContent = "未恢复本地答卷，可导入此前导出的草稿。";
+}
+render();
+</script>
+</html>

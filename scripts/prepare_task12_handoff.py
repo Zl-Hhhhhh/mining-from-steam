@@ -6,7 +6,7 @@ import hashlib
 import importlib.util
 import json
 import re
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 
 import analysis_common as common
@@ -16,6 +16,12 @@ from rework_unsupervised_topics import lexical_flags
 ROOT = common.ROOT
 BASE = ROOT / "output/topic_selection/task12-20261114"
 REVIEW = ROOT / "output/topic_review/steam-review-20261107-v1"
+GENERIC_REVIEW = re.compile(
+    r"好玩|很好玩|非常好玩|不错|很不错|很棒|好评|差评|推荐|强烈推荐|不推荐|值得一玩|神作|垃圾游戏"
+    r"|(?:(?:very|really) )?(?:good|great|nice|fun|awesome|amazing|excellent|bad|terrible)(?: game)?"
+    r"|(?:highly )?recommend(?:ed| it)?|would recommend(?: it)?|not recommended|worth playing|worth it"
+    r"|(?:[0-9](?:\.[0-9]+)?|10)\s*/\s*10|(?:[0-4](?:\.[0-9]+)?|5)\s*/\s*5"
+)
 
 
 def split_units(text):
@@ -24,7 +30,49 @@ def split_units(text):
     return [re.sub(r"\s+", " ", p).strip() for p in pieces if re.sub(r"\s+", " ", p).strip()]
 
 
-def run(destination):
+def prepare_units(source, master, gate, *, allow_unmatched=False):
+    units, review_map, generic_units = {}, {}, {}
+    for row in source:
+        review_id = row["recommendationid"]
+        selected = review_map[review_id] = []
+        if lexical_flags(row["text_clean"], gate)["template"]:
+            continue
+        for text in split_units(row["text_clean"]):
+            generic = allow_unmatched and GENERIC_REVIEW.fullmatch(text.casefold().strip(" .!?。！？…"))
+            flags = lexical_flags(text, gate)
+            matched = bool(flags["matches"])
+            if not generic and (not any(c.isalpha() for c in text) or not (matched or allow_unmatched)):
+                continue
+
+            digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
+            key = "S" + digest[:20]
+            if generic:
+                target = generic_units
+                classification = {"auxiliary_route": "A01"}
+            else:
+                target = units
+                classification = {
+                    "lexical_categories_diagnostic": list(flags["matches"]),
+                    "fit_candidate": matched and not flags["template"] and not flags["long_or_many_aspects"],
+                }
+                if key not in selected:
+                    selected.append(key)
+            item = target.setdefault(key, {
+                "unit_id": key, "text": text, "text_sha256": digest, "review_ids": [], "appids": [],
+                "source_languages": [], **classification,
+            })
+            if item["text"] != text:
+                raise ValueError("Unit ID hash collision")
+            for field, value in (("review_ids", review_id), ("appids", row["appid"]),
+                                 ("source_languages", row["language"])):
+                if value not in item[field]:
+                    item[field].append(value)
+    for row in master:
+        review_map.setdefault(str(row["recommendationid"]), [])
+    return units, review_map, generic_units
+
+
+def run(destination, *, allow_unmatched=False):
     destination = Path(destination)
     if destination.exists():
         raise FileExistsError("Use a new handoff directory")
@@ -47,34 +95,17 @@ def run(destination):
                               "do_not_transfer_whole_cluster_as_one_aspect; refit_on_content_units"})
     source = [json.loads(line) for line in paths[7].read_text(encoding="utf-8").splitlines()]
     master = [json.loads(line) for line in paths[8].read_text(encoding="utf-8").splitlines()]
-    units, review_map = {}, {}
-    for row in source:
-        selected = []
-        if not lexical_flags(row["text_clean"], gate)["template"]:
-            for text in split_units(row["text_clean"]):
-                flags = lexical_flags(text, gate)
-                if not flags["matches"] or not any(c.isalpha() for c in text):
-                    continue
-                digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
-                key = "S" + digest[:20]
-                if key not in units:
-                    units[key] = {"unit_id": key, "text": text, "text_sha256": digest, "review_ids": [], "appids": [],
-                        "source_languages": [], "lexical_categories_diagnostic": list(flags["matches"]),
-                        "fit_candidate": not flags["template"] and not flags["long_or_many_aspects"]}
-                item = units[key]
-                if item["text"] != text:
-                    raise ValueError("Unit ID hash collision")
-                for field, value in (("review_ids", row["recommendationid"]), ("appids", row["appid"]), ("source_languages", row["language"])):
-                    if value not in item[field]: item[field].append(value)
-                if key not in selected: selected.append(key)
-        review_map[row["recommendationid"]] = selected
-    for row in master:
-        review_map.setdefault(str(row["recommendationid"]), [])
+    units, review_map, generic_units = prepare_units(source, master, gate, allow_unmatched=allow_unmatched)
     destination.mkdir(parents=True)
     stability.write(destination / "candidate_actions.json", {"status": "adjudication_applied_to_candidate_catalog",
         "rows": actions, "counts": dict(Counter(x["action"] for x in actions)), "task12_topics_frozen": False})
-    with (destination / "sentence_units.jsonl").open("w",encoding="utf-8",newline="\n") as handle:
-        for key in sorted(units):handle.write(json.dumps(units[key],ensure_ascii=False,allow_nan=False)+"\n")
+    unit_files = {"sentence_units.jsonl": units}
+    if allow_unmatched:
+        unit_files["auxiliary_units.jsonl"] = generic_units
+    for filename, records in unit_files.items():
+        with (destination / filename).open("w", encoding="utf-8", newline="\n") as handle:
+            for key in sorted(records):
+                handle.write(json.dumps(records[key], ensure_ascii=False, allow_nan=False) + "\n")
     stability.write(destination / "review_to_units.json", review_map)
     embedding_config = common.read_json(ROOT / "config/embedding_bge.json")
     encoding_request = {"input": "sentence_units.jsonl", "input_sha256": common.sha256(destination / "sentence_units.jsonl"),
@@ -103,8 +134,19 @@ def run(destination):
             "Sentence source IDs and exact text are preserved; recommendation remains a review-level outcome."]}
     manifest["local_encoding_prerequisites"] = {"missing_packages": [p for p in ("torch", "sentence_transformers", "transformers") if importlib.util.find_spec(p) is None],
         "model_cache_present": (ROOT / embedding_config["model_cache_dir"]).exists()}
-    for p in (destination / "sentence_units.jsonl", destination / "review_to_units.json", destination / "candidate_actions.json", destination / "encoding_request.json"):
-        manifest.setdefault("outputs", []).append({"path": p.name, "sha256": common.sha256(p)})
+    if allow_unmatched:
+        unmatched_ids = {key for key, unit in units.items() if not unit["lexical_categories_diagnostic"]}
+        screening = {
+            "policy": "allow_unmatched_application_units",
+            "unmatched_application_units": len(unmatched_ids),
+            "reviews_with_only_unmatched_units": sum(bool(keys) and unmatched_ids.issuperset(keys) for keys in review_map.values()),
+            "generic_auxiliary_units": len(generic_units),
+            "reviews_with_generic_auxiliary_units": len({rid for unit in generic_units.values() for rid in unit["review_ids"]}),
+        }
+        manifest["screening"] = screening
+        manifest["notes"][0] = "Unmatched units are application-only candidates. Whole-fragment generic matches go to A01, outside the encoding input."
+    output_names = [*unit_files, "review_to_units.json", "candidate_actions.json", "encoding_request.json"]
+    manifest["outputs"] = [{"path": name, "sha256": common.sha256(destination / name)} for name in output_names]
     stability.write(destination / "manifest.json", manifest)
 
     lines = ["# Task12 检查结果", "", "结论：当前暂不冻结。30组意见已对应到模型处理表，已完成重采样及纯无监督重做对照。", "",
@@ -132,12 +174,24 @@ def run(destination):
         "本机日常环境缺少torch、sentence-transformers及模型权重，句子编码尚未运行。",
         "C负责句子向量；B继续做聚类比较与稳定性；全员确认主题定义、反例及低置信度处理后，再冻结topics-v1。", "",
         "本轮没有生成正式主题比例或RQ2/RQ4结果；全量最终主题、权重与置信度须在有效主方案确定后输出。", ""]
+    if allow_unmatched:
+        lines.extend([
+            "## 放宽词表筛选的候选", "",
+            f"- 无词表命中的新增候选共 {screening['unmatched_application_units']:,} 个去重片段，全部仅供主题应用。",
+            f"- {screening['reviews_with_only_unmatched_units']:,} 条评论只有无词表命中的候选。",
+            f"- [A01 泛评片段](auxiliary_units.jsonl)共 {screening['generic_auxiliary_units']:,} 个去重片段，不进入编码。",
+            "",
+        ])
     (destination / "README.md").write_text("\n".join(lines),encoding="utf-8",newline="\n")
     if any(common.sha256(ROOT/path)!=digest for path,digest in hashes.items()):raise RuntimeError("Source changed")
-    print(json.dumps({k:manifest[k] for k in ('unit_count','fit_candidate_units','master_review_count','reviews_with_units')},ensure_ascii=False))
+    fields = ("unit_count", "fit_candidate_units", "master_review_count", "reviews_with_units", "screening")
+    print(json.dumps({key: manifest[key] for key in fields if key in manifest}, ensure_ascii=False))
     return manifest
 
 
 if __name__=="__main__":
-    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument("--output",type=Path,default=BASE/"handoff")
-    args=parser.parse_args();run(args.output)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output", type=Path, default=BASE / "handoff")
+    parser.add_argument("--allow-unmatched", action="store_true", help="Retain unmatched text for topic application and export A01 generic fragments.")
+    args = parser.parse_args()
+    run(args.output, allow_unmatched=args.allow_unmatched)

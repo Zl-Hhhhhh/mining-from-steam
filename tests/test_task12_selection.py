@@ -62,5 +62,34 @@ class StabilityTests(unittest.TestCase):
         self.assertEqual(labels.tolist(),[-1,0])
         self.assertEqual(weights[0].sum(),0)
 
+    def test_relaxed_handoff_keeps_unmatched_units_for_application_and_routes_generic_text(self):
+        config = common.read_json(common.ROOT / "config/topic_rework_residual.json")
+        unmatched = "每次进城就只剩十几帧"
+        source = [
+            {"recommendationid": "1", "appid": 101, "language": "schinese",
+             "text_clean": f"好玩。{unmatched}。{unmatched}。剧情很好。"},
+            {"recommendationid": "2", "appid": 102, "language": "english",
+             "text_clean": f"10/10! Great combat! {unmatched}! 1234!"},
+            {"recommendationid": "3", "appid": 103, "language": "english",
+             "text_clean": "☐Good story ☑bad story"},
+        ]
+        master = [*source, {"recommendationid": "4"}]
+        baseline, _, baseline_generic = handoff.prepare_units(source, master, config)
+        units, review_map, generic = handoff.prepare_units(source, master, config, allow_unmatched=True)
+
+        by_text = {row["text"]: row for row in units.values()}
+        self.assertFalse(baseline_generic)
+        self.assertEqual({row["text"] for row in baseline.values()}, {"剧情很好", "Great combat"})
+        self.assertEqual(set(by_text), {"剧情很好", "Great combat", unmatched})
+        self.assertTrue(by_text["Great combat"]["fit_candidate"])
+        self.assertEqual(by_text[unmatched]["lexical_categories_diagnostic"], [])
+        self.assertFalse(by_text[unmatched]["fit_candidate"])
+        self.assertEqual(by_text[unmatched]["review_ids"], ["1", "2"])
+        self.assertEqual(review_map["1"].count(by_text[unmatched]["unit_id"]), 1)
+        self.assertEqual(review_map["3"], [])
+        self.assertEqual(review_map["4"], [])
+        self.assertEqual({row["text"] for row in generic.values()}, {"好玩", "10/10"})
+        self.assertTrue(all(row["auxiliary_route"] == "A01" for row in generic.values()))
+
 
 if __name__=='__main__':unittest.main()

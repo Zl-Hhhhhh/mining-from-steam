@@ -1,7 +1,8 @@
 """Synthetic-only safety tests for the sentence contract, caching and row order."""
 import contextlib,hashlib,importlib.util,io,json,sys,tempfile,unittest
 from pathlib import Path
-from unittest.mock import patch
+from types import SimpleNamespace
+from unittest.mock import MagicMock, Mock, patch
 import numpy as np
 R=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('sentence_encoder',R/'scripts/embedding_bge_sentences.py');m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
@@ -28,6 +29,35 @@ class Fake:
         return v
 
 class SentenceTests(unittest.TestCase):
+    def test_offline_model_lookup_is_limited_to_the_pinned_files(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            snapshot = root / "fixed-revision"
+            m.write_json(snapshot / "modules.json", [
+                {"type": f"sentence_transformers.models.{name}"}
+                for name in ("Transformer", "Pooling", "Normalize")
+            ])
+            m.write_json(snapshot / "1_Pooling/config.json", {"pooling_mode_cls_token": True})
+            files = {name: m.sha_file(snapshot / name) for name in ("modules.json", "1_Pooling/config.json")}
+            config = {
+                "model_name": "TEST/model", "model_revision": snapshot.name, "model_cache_dir": "cache",
+                "model_files_sha256": files, "cpu_threads": 2, "max_seq_length": 8192,
+            }
+            lookup = Mock(return_value=str(snapshot))
+            model = MagicMock()
+            model[1].pooling_mode = "cls"
+            modules = {
+                "huggingface_hub": SimpleNamespace(snapshot_download=lookup),
+                "sentence_transformers": SimpleNamespace(SentenceTransformer=Mock(return_value=model)),
+                "torch": SimpleNamespace(set_num_threads=Mock(), float32=object()),
+            }
+            with patch.object(m, "ROOT", root), patch.dict(sys.modules, modules), patch.dict(m.os.environ):
+                with contextlib.redirect_stdout(io.StringIO()):
+                    self.assertIs(m.load_encoder(config), model)
+            lookup.assert_called_once_with("TEST/model", revision=snapshot.name,
+                                           cache_dir=root / "cache", allow_patterns=list(files),
+                                           local_files_only=True, token=False)
+
     def test_resume_avoids_reencoding_and_preserves_source_id_order(self):
         with tempfile.TemporaryDirectory() as td:
             root=Path(td);cp,c,units=fixture(root);fake=Fake();fake.fail_on=2
