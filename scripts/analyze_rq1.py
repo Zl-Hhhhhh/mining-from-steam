@@ -128,14 +128,15 @@ def aggregate_topics(frame: pd.DataFrame, group_columns: list[str], weight_prefi
     return pd.DataFrame(records)
 
 
-def build_coverage_table(frame: pd.DataFrame) -> pd.DataFrame:
+def build_coverage_table(frame: pd.DataFrame, primary_scope: str = "fit") -> pd.DataFrame:
     rows = []
     grouping = ["appid", "game", "language", "sample_status", "project_primary_genre"]
     for key, group in frame.groupby(grouping, sort=True, observed=False):
         row = dict(zip(grouping, key))
-        row.update(_group_metrics(group, "fit"))
-        row["all_topic_evidence_reviews"] = int(group["all_has_topic"].sum())
-        row["all_topic_coverage"] = float(group["all_has_topic"].mean()) if len(group) else 0.0
+        row.update(_group_metrics(group, primary_scope))
+        for scope in ("fit", "all"):
+            row[f"{scope}_topic_evidence_reviews"] = int(group[f"{scope}_has_topic"].sum())
+            row[f"{scope}_topic_coverage"] = float(group[f"{scope}_has_topic"].mean()) if len(group) else 0.0
         row["high_confidence_reviews"] = int((group["confidence"] == "high").sum())
         row["medium_confidence_reviews"] = int((group["confidence"] == "medium").sum())
         row["low_confidence_reviews"] = int((group["confidence"] == "low").sum())
@@ -146,23 +147,25 @@ def build_coverage_table(frame: pd.DataFrame) -> pd.DataFrame:
 def build_sensitivity(frame: pd.DataFrame, topic_names: dict) -> pd.DataFrame:
     records = []
     variants = {
-        "fit": frame,
-        "all": frame,
-        "fit_high_confidence": frame[frame["confidence"] == "high"],
+        "fit": (frame, "fit"),
+        "all": (frame, "all"),
+        "all_same_fit_sample": (frame[frame["fit_has_topic"]], "all"),
+        "fit_high_confidence": (frame[frame["confidence"] == "high"], "fit"),
+        "all_high_confidence": (frame[frame["confidence"] == "high"], "all"),
     }
-    for variant, subset in variants.items():
-        prefix = "all" if variant == "all" else "fit"
+    for variant, (subset, prefix) in variants.items():
         table = aggregate_topics(subset, [], prefix, topic_names)
         table.insert(0, "analysis_variant", variant)
         records.append(table)
     return pd.concat(records, ignore_index=True)
 
 
-def representative_comments(frame: pd.DataFrame, assignments: list[dict], topic_names: dict) -> pd.DataFrame:
+def representative_comments(frame: pd.DataFrame, assignments: list[dict], topic_names: dict,
+                            weight_prefix: str = "fit") -> pd.DataFrame:
     review_lookup = frame.set_index("recommendationid")
     candidates = []
     for unit in assignments:
-        if unit.get("assignment_scope") != "fit_candidate":
+        if weight_prefix == "fit" and unit.get("assignment_scope") != "fit_candidate":
             continue
         topic_scores = unit.get("topic_scores", {})
         for topic_id in unit.get("topic_ids", []):
@@ -186,7 +189,7 @@ def representative_comments(frame: pd.DataFrame, assignments: list[dict], topic_
                     "confidence": unit.get("confidence", "low"),
                     "confidence_rank": confidence_rank(unit.get("confidence", "low")),
                     "sentence_score": score,
-                    "review_topic_weight": float(review.get(f"fit_{topic_id}", 0.0)),
+                    "review_topic_weight": float(review.get(f"{weight_prefix}_{topic_id}", 0.0)),
                     "text": unit.get("text", ""),
                 })
     if not candidates:
@@ -259,19 +262,19 @@ def plot_results(overall: pd.DataFrame, game: pd.DataFrame, genre: pd.DataFrame,
     plt.close(fig)
 
 
-def write_readme(output: Path, frame: pd.DataFrame, topic_definition: dict, args: argparse.Namespace, sensitivity: pd.DataFrame) -> None:
+def write_readme(output: Path, frame: pd.DataFrame, topic_definition: dict, primary_scope: str) -> None:
     fit_count = int(frame["fit_has_topic"].sum())
     all_count = int(frame["all_has_topic"].sum())
     lines = [
         "# RQ1 主题发现与分布",
         "",
-        "本目录是基于 `topics-v1-exploratory-20261118` 的探索性结果。主题包仍未完成最终语义冻结，因此结果用于 RQ1 试运行和图表准备。",
+        f"本目录记录 `{topic_definition['topic_version']}` 的探索性结果。",
         "",
         "## 输入与口径",
         "",
         f"- 评论总数：{len(frame):,}。游戏数：{frame.appid.nunique()}。语言：{', '.join(sorted(frame.language.unique()))}。",
-        f"- 主结果使用 `fit_T01`–`fit_T08`。有主题证据评论：{fit_count:,}，覆盖率：{fit_count / len(frame):.1%}。",
-        f"- `all_T01`–`all_T08` 敏感性结果有主题证据评论：{all_count:,}，覆盖率：{all_count / len(frame):.1%}。",
+        f"- 主结果使用 `{primary_scope}_T01`–`{primary_scope}_T08`。",
+        f"- `fit` 有主题证据评论 {fit_count:,} 条（{fit_count / len(frame):.1%}），`all` 有 {all_count:,} 条（{all_count / len(frame):.1%}）。",
         "- 主题比例在有主题证据的评论内归一化。无主题评论保留在覆盖率诊断中。",
         "- 游戏类型主口径为项目配置中的 `project_primary_genre`。",
         "- 主题生成没有使用推荐标签或游玩时长。本目录不支持因果解释。",
@@ -284,11 +287,11 @@ def write_readme(output: Path, frame: pd.DataFrame, topic_definition: dict, args
         "- `language_topic_distribution.csv` 语言—主题长表。",
         "- `coverage_diagnostics.csv` 游戏和语言的覆盖率、置信度及样本状态。",
         "- `representative_comments.csv` 每个主题和语言的代表句子。",
-        "- `sensitivity_overall.csv` fit、all 和高置信度子集的总体比较。",
+        "- `sensitivity_overall.csv` fit、all、固定 fit 样本的 all 权重和高置信度子集的总体比较。",
         "",
         "## 解释限制",
         "",
-        "- 当前 `fit` 覆盖率较低，不能把无主题证据评论解释为不涉及八个主题。",
+        "- 覆盖率表示当前主题规则能识别到证据的评论比例。",
         "- 主题权重是句子证据的归一化贡献，不是概率或人工确认概率。",
         "- 当前主题包中的低置信度记录需要在正式主题冻结后重新检查。",
         "- 主题版本冻结后，应使用相同脚本重新生成正式 RQ1 结果。",
@@ -305,13 +308,14 @@ def run(args: argparse.Namespace) -> Path:
     output.mkdir(parents=True, exist_ok=True)
     frame, topic_definition, auxiliary = load_inputs(args.topic_package.resolve(), args.clean_master.resolve(), args.game_meta.resolve())
     topic_names = auxiliary["definitions"]
+    scope = args.primary_scope
 
-    overall = aggregate_topics(frame, [], "fit", topic_names)
-    game = aggregate_topics(frame, ["appid", "game", "sample_status", "partial_languages", "project_primary_genre"], "fit", topic_names)
-    language = aggregate_topics(frame, ["language", "language_label"], "fit", topic_names)
-    genre = aggregate_topics(frame, ["project_primary_genre"], "fit", topic_names)
-    coverage = build_coverage_table(frame)
-    representatives = representative_comments(frame, auxiliary["assignments"], topic_names)
+    overall = aggregate_topics(frame, [], scope, topic_names)
+    game = aggregate_topics(frame, ["appid", "game", "sample_status", "partial_languages", "project_primary_genre"], scope, topic_names)
+    language = aggregate_topics(frame, ["language", "language_label"], scope, topic_names)
+    genre = aggregate_topics(frame, ["project_primary_genre"], scope, topic_names)
+    coverage = build_coverage_table(frame, scope)
+    representatives = representative_comments(frame, auxiliary["assignments"], topic_names, scope)
     sensitivity = build_sensitivity(frame, topic_names)
 
     common.write_csv(output / "overall_topic_distribution.csv", overall)
@@ -323,7 +327,7 @@ def run(args: argparse.Namespace) -> Path:
     common.write_csv(output / "sensitivity_overall.csv", sensitivity)
     common.write_csv(output / "topic_definitions.csv", pd.DataFrame(topic_definition["topics"]))
     plot_results(overall, game, genre, language, topic_names, output)
-    write_readme(output, frame, topic_definition, args, sensitivity)
+    write_readme(output, frame, topic_definition, scope)
 
     source_paths = [args.topic_package / "topic_v1.json", args.topic_package / "review_topic_weights.csv",
                     args.topic_package / "unit_topic_assignments.jsonl", args.clean_master, args.game_meta]
@@ -332,8 +336,8 @@ def run(args: argparse.Namespace) -> Path:
         "analysis": "RQ1 topic discovery and distribution",
         "topic_version": topic_definition["topic_version"],
         "topic_status": topic_definition["status"],
-        "primary_weight_prefix": "fit",
-        "sensitivity_weight_prefix": "all",
+        "primary_weight_prefix": scope,
+        "sensitivity_weight_prefix": "fit" if scope == "all" else "all",
         "counts": {
             "reviews": len(frame),
             "games": int(frame.appid.nunique()),
@@ -348,11 +352,11 @@ def run(args: argparse.Namespace) -> Path:
             "language_labels": LANGUAGE_LABELS,
         },
         "sources": [{"path": common.relative(path), "sha256": common.sha256(path)} for path in source_paths],
-        "outputs": [{"path": common.relative(path), "sha256": common.sha256(path)} for path in sorted(output.iterdir()) if path.is_file()],
+        "outputs": [{"path": common.relative(path), "sha256": common.sha256(path)}
+                    for path in sorted(output.iterdir()) if path.is_file() and path.name != "rq1_manifest.json"],
         "runtime": common.runtime_versions(),
     }
     common.save_json(output / "rq1_manifest.json", manifest)
-    write_readme(output, frame, topic_definition, args, sensitivity)
     return output
 
 
@@ -362,6 +366,7 @@ def main() -> None:
     parser.add_argument("--clean-master", type=Path, default=DEFAULT_CLEAN_MASTER)
     parser.add_argument("--game-meta", type=Path, default=DEFAULT_GAME_META)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--primary-scope", choices=("fit", "all"), default="fit")
     parser.add_argument("--overwrite", action="store_true")
     args = parser.parse_args()
     print(run(args))

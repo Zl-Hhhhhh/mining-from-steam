@@ -16,29 +16,40 @@ def digest_ids(ids):
 
 def variants(frame, weights, config):
     base = frame.association_eligible.copy()
+    scope = config.get('primary_scope', 'fit')
+    primary = weights[scope]
+    secondary = 'fit' if scope == 'all' else 'all'
+    minimum = config['minimum_topic_reviews_per_language']
     common = frame.loc[base & frame.in_common_language_window]
     n = common.groupby(['appid','language']).size().unstack(fill_value=0).reindex(columns=LANGUAGES, fill_value=0)
-    evidence = common.loc[weights['fit'].loc[common.index].sum(axis=1).gt(0)]
+    evidence = common.loc[primary.loc[common.index].sum(axis=1).gt(0)]
     e = evidence.groupby(['appid','language']).size().unstack(fill_value=0).reindex(index=n.index, columns=LANGUAGES, fill_value=0)
     fixed_games = n.index[n.ge(config['minimum_reviews_per_language']).all(axis=1)
                          & e.ge(config['minimum_topic_reviews_per_language']).all(axis=1)]
+    high = base & frame.confidence.eq('high')
+    high_topics = tuple(t for t in TOPICS if primary.loc[high, t].gt(0).any())
+    high_name = 'high_confidence' if scope == 'all' else 'high_confidence_T02_T06'
+    fit_evidence = weights['fit'].sum(axis=1).gt(0)
+    fixed_fit = (base, weights['all'].mul(fit_evidence, axis=0)) if scope == 'all' else (
+        base & fit_evidence, weights['all'],
+    )
     return {
-        'primary_fit': (base, weights['fit'], 20, TOPICS),
-        'all_units': (base, weights['all'], 20, TOPICS),
-        'all_same_fit_population': (base & weights['fit'].sum(axis=1).gt(0), weights['all'], 20, TOPICS),
-        'common_window': (base & frame.in_common_language_window, weights['fit'], 20, TOPICS),
-        'original_same_common_games': (base & frame.appid.isin(fixed_games), weights['fit'], 20, TOPICS),
-        'unique_text': (base & frame.is_text_canonical, weights['fit'], 20, TOPICS),
-        'one_per_author': (base & frame.one_per_author, weights['fit'], 20, TOPICS),
-        'complete_games': (base & frame.complete_game, weights['fit'], 20, TOPICS),
-        'exclude_short': (base & ~frame.is_short_text, weights['fit'], 20, TOPICS),
-        'script_consistent': (base & ~frame.script_mismatch & ~frame.mixed_script, weights['fit'], 20, TOPICS),
-        'no_auxiliary': (base, weights['no_auxiliary'], 20, TOPICS),
-        'high_confidence_T02_T06': (base & frame.confidence.eq('high'), weights['fit'], 20, ('T02', 'T06')),
-        'support_30': (base, weights['fit'], config['strict_topic_minimum'], TOPICS),
-        'unrestricted_seeds': (base, weights['unrestricted_seeds'], 20, TOPICS),
-        'k8_overlap_proxy': (base, weights['k8_overlap_proxy'], 20, TOPICS),
-        'raw_master_denominator': (pd.Series(True, index=frame.index), weights['fit'], 20, TOPICS),
+        f'primary_{scope}': (base, primary, minimum, TOPICS),
+        f'{secondary}_units': (base, weights[secondary], minimum, TOPICS),
+        'all_same_fit_population': (*fixed_fit, minimum, TOPICS),
+        'common_window': (base & frame.in_common_language_window, primary, minimum, TOPICS),
+        'original_same_common_games': (base & frame.appid.isin(fixed_games), primary, minimum, TOPICS),
+        'unique_text': (base & frame.is_text_canonical, primary, minimum, TOPICS),
+        'one_per_author': (base & frame.one_per_author, primary, minimum, TOPICS),
+        'complete_games': (base & frame.complete_game, primary, minimum, TOPICS),
+        'exclude_short': (base & ~frame.is_short_text, primary, minimum, TOPICS),
+        'script_consistent': (base & ~frame.script_mismatch & ~frame.mixed_script, primary, minimum, TOPICS),
+        'no_auxiliary': (base, weights['no_auxiliary'], minimum, TOPICS),
+        high_name: (high, primary, minimum, high_topics if scope == 'all' else ('T02', 'T06')),
+        'support_30': (base, primary, config['strict_topic_minimum'], TOPICS),
+        'unrestricted_seeds': (base, weights['unrestricted_seeds'], minimum, TOPICS),
+        'k8_overlap_proxy': (base, weights['k8_overlap_proxy'], minimum, TOPICS),
+        'raw_master_denominator': (pd.Series(True, index=frame.index), primary, minimum, TOPICS),
     }
 
 
@@ -124,7 +135,7 @@ def run(config_path, output=None):
     out = Path(output).resolve() if output else ROOT / cfg['output']
     if out.exists():
         raise FileExistsError('Preserve existing analysis; use --verify-output or a new --output directory')
-    if cfg['confidence_level'] != .95 or cfg['primary_scope'] != 'fit' or cfg['topic_reference'] != 'T01':
+    if cfg['confidence_level'] != .95 or cfg['primary_scope'] not in ('fit', 'all') or cfg['topic_reference'] != 'T01':
         raise ValueError('Unsupported analysis protocol')
     print(json.dumps({'phase': 'loading_verified_inputs'}), flush=True)
     config, frame, weight_variants, sources, diagnostics = load(config_path)
@@ -134,11 +145,10 @@ def run(config_path, output=None):
                   'is_text_canonical', 'one_per_author', 'is_short_text', 'script_mismatch', 'mixed_script', 'confidence']
     inclusion = frame[audit_cols].copy(); inclusion['fit_evidence'] = weight_variants['fit'].sum(axis=1).gt(0)
     inclusion['all_evidence'] = weight_variants['all'].sum(axis=1).gt(0)
-    interaction_scenarios = {'primary_fit', 'all_units', 'common_window', 'unique_text', 'complete_games', 'script_consistent', 'no_auxiliary'}
+    interaction_scenarios = {f"primary_{config['primary_scope']}", 'fit_units', 'all_units', 'common_window',
+                             'unique_text', 'complete_games', 'script_consistent', 'no_auxiliary'}
     sample_stats = {}
     for name, (mask, w, minimum, active) in variants(frame, weight_variants, config).items():
-        if minimum == 20:
-            minimum = config['minimum_topic_reviews_per_language']
         subset = frame.loc[mask]
         estimates, games, support, flow, cov_ids, topic_ids = describe_scenario(name, subset, w, minimum, active, config)
         all_estimates.extend(estimates); all_games.append(games); all_support.append(support); flows.extend(flow)
@@ -178,11 +188,13 @@ def run(config_path, output=None):
     common.save_json(out / 'diagnostics.json', diagnostics)
     from rq3_report import render
     render(out, config, frame, pd.DataFrame(all_estimates), pd.concat(all_games, ignore_index=True),
-           pd.DataFrame(interaction_rows), diagnostics)
+           pd.DataFrame(interaction_rows), diagnostics, common.relative(config_path))
     generators = [Path(__file__), ROOT / 'scripts/rq3_inputs.py', ROOT / 'scripts/rq3_statistics.py', ROOT / 'scripts/rq3_report.py',
-                  ROOT / 'scripts/analysis_common.py', ROOT / 'scripts/assign_topics_v1_cluster_derived.py']
+                  ROOT / 'scripts/analysis_common.py', ROOT / 'scripts/assign_topics_v1_cluster_derived.py',
+                  ROOT / 'scripts/structured_rq_weights.py']
     manifest = {'analysis_version': config['analysis_version'], 'topic_version': config['topic_version'],
-                'source_commit': config['source_commit'], 'config_sha256': common.sha256(config_path),
+                'source_commit': config['source_commit'], 'primary_scope': config['primary_scope'],
+                'config_sha256': common.sha256(config_path),
                 'inputs': sources, 'generators': [{'path': common.relative(p), 'sha256': common.sha256(p)} for p in generators],
                 'runtime': {'python': platform.python_version(), **{p: importlib.metadata.version(p) for p in ['numpy', 'pandas', 'scipy', 'statsmodels', 'matplotlib', 'scikit-learn', 'threadpoolctl']}},
                 'output_scope': 'Exploratory RQ3; source language is not nationality, theme weights are not probabilities.',

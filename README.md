@@ -1,6 +1,6 @@
 # mining-from-steam
 
-[RQ1–RQ4 研究结果与敏感性汇总（任务 17）](docs/rq1-rq4-summary.md)列出四项研究的主要发现、不同设定下发生的变化，以及可以写入报告的结论。
+[RQ1–RQ4 新版主题权重结果](docs/rq1-rq4-summary.md)汇总 2026-11-25 结构化主题权重的主分析、敏感性对照及复现命令。[上一版结果](docs/explore_summary.md)可用于比较。
 
 AIAA3111 课程项目：通过 Steam 官方接口、GitHub 开源工具和研究数据集获取游戏数据。默认目标为 **CS2 / appid 730**。
 

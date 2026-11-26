@@ -55,6 +55,8 @@
 # RQ3 reproducible analysis and checksummed results.
 /scripts/*rq3*.py -text
 /config/rq3_exploratory.json -text
+/config/rq3_structured_exploratory.json -text
+/scripts/structured_rq_weights.py -text
 /tests/test_rq3_analysis.py -text
 /docs/rq3-exploratory.md -text
 /requirements-rq3-lock.txt -text
@@ -66,3 +68,5 @@
 /scripts/rq24_models.py -text
 /output/rq2_rq4/** -text
 /output/rq2_rq4/**/*.png -diff
+/output/rq1/topics-v1-structured-exploratory-20261125/** -text
+/output/rq1/topics-v1-structured-exploratory-20261125/*.png -diff

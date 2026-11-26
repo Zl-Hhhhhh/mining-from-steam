@@ -11,6 +11,7 @@ import pandas as pd
 
 import analysis_common as common
 import assign_topics_v1_cluster_derived as assignment
+import structured_rq_weights as structured
 
 
 ROOT = common.ROOT
@@ -98,7 +99,7 @@ def annotation_sample(unit_labels, seed_package):
     } for row in ordered]
 
 
-def load():
+def load(topic_version=TOPIC_VERSION):
     provenance = {}
 
     def record(path, expected=None):
@@ -139,6 +140,32 @@ def load():
     if not np.isfinite(valid_hours).all() or (valid_hours < 0).any():
         raise ValueError("Unexpected playtime after eligibility filter")
 
+    if topic_version == structured.TOPIC_VERSION:
+        config = common.read_json(record(structured.CONFIG))
+        paths = {name: record(ROOT / item["path"], item["sha256"]) for name, item in config["inputs"].items()}
+        if paths["master"] != clean_path or paths["metadata"] != meta_path:
+            raise ValueError("Structured configuration and data manifests refer to different inputs")
+        reviews, labels, variants, seed_package, reaggregate, diagnostics = structured.load(
+            paths, master.index, k8_cluster_policy,
+        )
+        for column, key in (("confidence", "confidence"), ("fit_units", "fit_unit_count"), ("all_units", "unit_count")):
+            master[column] = pd.Series({row["review_id"]: row[key] for row in reviews})
+        variants["no_time_mentions"] = reaggregate([row for row in labels if not TIME_EXPRESSION.search(row["text"])])
+        scope = config["primary_scope"]
+        weights = {
+            "primary": weight_matrix(reviews, scope),
+            "fit_units": weight_matrix(reviews, "fit"),
+            "k8_s17": weight_matrix(variants["k8_overlap_proxy"], scope),
+            "no_a01_a02": weight_matrix(variants["no_auxiliary"], scope),
+            "no_time_mentions": weight_matrix(variants["no_time_mentions"], scope),
+        }
+        diagnostics.update(topic_source=topic_version, primary_scope=scope,
+                           seed_units_excluded_from_annotation_sample=len(seed_package["seed_units"]),
+                           ordered_review_ids_sha256=hashlib.sha256(("\n".join(master.index) + "\n").encode()).hexdigest())
+        return master, weights, provenance, diagnostics, annotation_sample(labels, seed_package)
+
+    if topic_version != TOPIC_VERSION:
+        raise ValueError(f"Unsupported topic version: {topic_version}")
     manifest = common.read_json(record(TOPIC_ROOT / "topic_v1.json"))
     contract = common.read_json(record(TOPIC_ROOT / "analysis_input_contract.json"))
     if manifest["topic_version"] != TOPIC_VERSION or contract["topic_version"] != TOPIC_VERSION:

@@ -1,0 +1,101 @@
+﻿appid,game,language,sample_status,project_primary_genre,total_reviews,topic_evidence_reviews,no_topic_evidence_reviews,topic_coverage,topic_weight_denominator,fit_topic_evidence_reviews,fit_topic_coverage,all_topic_evidence_reviews,all_topic_coverage,high_confidence_reviews,medium_confidence_reviews,low_confidence_reviews
+220,Half-Life 2,english,complete,Action,200,40,160,0.2,39.999999,28,0.14,40,0.2,1,0,199
+220,Half-Life 2,schinese,complete,Action,200,37,163,0.185,36.999999,29,0.145,37,0.185,0,0,200
+570,Dota 2,english,complete,Strategy,200,40,160,0.2,40.000001,31,0.155,40,0.2,4,1,195
+570,Dota 2,schinese,complete,Strategy,200,53,147,0.265,53.0,34,0.17,53,0.265,0,1,199
+730,Counter-Strike 2,english,complete,Action,200,44,156,0.22,44.000001,39,0.195,44,0.22,5,0,195
+730,Counter-Strike 2,schinese,complete,Action,200,26,174,0.13,26.0,21,0.105,26,0.13,1,0,199
+4000,Garry's Mod,english,complete,Sandbox,200,42,158,0.21,42.000001,39,0.195,42,0.21,5,0,195
+4000,Garry's Mod,schinese,complete,Sandbox,200,34,166,0.17,34.000001,25,0.125,34,0.17,2,1,197
+8930,Sid Meier's Civilization V,english,partial,Strategy,200,46,154,0.23,46.000004000000004,33,0.165,46,0.23,2,1,197
+8930,Sid Meier's Civilization V,schinese,partial,Strategy,79,21,58,0.26582278481012656,21.0,13,0.16455696202531644,21,0.26582278481012656,0,0,79
+105600,Terraria,english,complete,Adventure,200,41,159,0.205,41.000001,30,0.15,41,0.205,0,1,199
+105600,Terraria,schinese,complete,Adventure,200,27,173,0.135,27.0,22,0.11,27,0.135,4,2,194
+230410,Warframe,english,complete,Action,200,61,139,0.305,60.999999,51,0.255,61,0.305,0,0,200
+230410,Warframe,schinese,complete,Action,200,33,167,0.165,33.000001,19,0.095,33,0.165,1,0,199
+236390,War Thunder,english,complete,Simulation,200,30,170,0.15,30.0,18,0.09,30,0.15,2,1,197
+236390,War Thunder,schinese,complete,Simulation,200,39,161,0.195,39.0,24,0.12,39,0.195,2,1,197
+238960,Path of Exile,english,partial,RPG,200,56,144,0.28,56.000002,42,0.21,56,0.28,1,0,199
+238960,Path of Exile,schinese,partial,RPG,22,7,15,0.3181818181818182,7.0,6,0.2727272727272727,7,0.3181818181818182,0,0,22
+244850,Space Engineers,english,partial,Simulation,200,82,118,0.41,81.99999700000001,66,0.33,82,0.41,4,3,193
+244850,Space Engineers,schinese,partial,Simulation,35,13,22,0.37142857142857144,12.999998999999999,10,0.2857142857142857,13,0.37142857142857144,0,0,35
+250900,The Binding of Isaac: Rebirth,english,complete,Action,200,38,162,0.19,37.999998,28,0.14,38,0.19,3,0,197
+250900,The Binding of Isaac: Rebirth,schinese,complete,Action,200,30,170,0.15,30.0,19,0.095,30,0.15,1,1,198
+252490,Rust,english,complete,Survival,200,47,153,0.235,47.000001,38,0.19,47,0.235,3,1,196
+252490,Rust,schinese,complete,Survival,200,51,149,0.255,51.0,40,0.2,51,0.255,3,1,196
+261550,Mount & Blade II: Bannerlord,english,complete,Strategy,200,64,136,0.32,64.000001,49,0.245,64,0.32,0,1,199
+261550,Mount & Blade II: Bannerlord,schinese,complete,Strategy,200,40,160,0.2,40.0,33,0.165,40,0.2,0,0,200
+262060,Darkest Dungeon,english,complete,Strategy,200,67,133,0.335,67.00000299999999,50,0.25,67,0.335,2,1,197
+262060,Darkest Dungeon,schinese,complete,Strategy,200,53,147,0.265,53.000002,40,0.2,53,0.265,3,2,195
+271590,Grand Theft Auto V,english,complete,Action,200,28,172,0.14,28.000001,19,0.095,28,0.14,0,2,198
+271590,Grand Theft Auto V,schinese,complete,Action,200,23,177,0.115,23.0,20,0.1,23,0.115,3,1,196
+275850,No Man's Sky,english,complete,Adventure,200,94,106,0.47,94.00000299999999,73,0.365,94,0.47,0,1,199
+275850,No Man's Sky,schinese,complete,Adventure,200,53,147,0.265,53.0,39,0.195,53,0.265,0,0,200
+289070,Sid Meier's Civilization VI,english,complete,Strategy,200,48,152,0.24,48.0,33,0.165,48,0.24,1,0,199
+289070,Sid Meier's Civilization VI,schinese,complete,Strategy,200,37,163,0.185,37.0,33,0.165,37,0.185,1,0,199
+291550,Brawlhalla,english,partial,Fighting,200,41,159,0.205,41.0,27,0.135,41,0.205,3,1,196
+291550,Brawlhalla,schinese,partial,Fighting,150,61,89,0.4066666666666667,61.000001,48,0.32,61,0.4066666666666667,0,0,150
+292030,The Witcher 3: Wild Hunt,english,complete,RPG,200,77,123,0.385,76.999999,53,0.265,77,0.385,0,0,200
+292030,The Witcher 3: Wild Hunt,schinese,complete,RPG,200,85,115,0.425,85.000002,53,0.265,85,0.425,0,0,200
+322330,Don't Starve Together,english,complete,Survival,200,59,141,0.295,59.0,47,0.235,59,0.295,9,3,188
+322330,Don't Starve Together,schinese,complete,Survival,200,47,153,0.235,47.000002,37,0.185,47,0.235,8,1,191
+346110,ARK: Survival Evolved,english,complete,Survival,200,61,139,0.305,61.0,45,0.225,61,0.305,4,3,193
+346110,ARK: Survival Evolved,schinese,complete,Survival,200,35,165,0.175,35.000001,30,0.15,35,0.175,0,0,200
+367520,Hollow Knight,english,complete,Action,200,64,136,0.32,64.0,49,0.245,64,0.32,5,0,195
+367520,Hollow Knight,schinese,complete,Action,200,34,166,0.17,34.0,26,0.13,34,0.17,1,1,198
+381210,Dead by Daylight,english,complete,Horror,200,64,136,0.32,64.000002,48,0.24,64,0.32,1,0,199
+381210,Dead by Daylight,schinese,complete,Horror,200,56,144,0.28,56.0,38,0.19,56,0.28,1,1,198
+397540,Borderlands 3,english,complete,Action,200,86,114,0.43,86.00000600000001,71,0.355,86,0.43,2,2,196
+397540,Borderlands 3,schinese,complete,Action,200,66,134,0.33,66.000002,49,0.245,66,0.33,1,0,199
+413150,Stardew Valley,english,complete,Simulation,200,63,137,0.315,63.0,43,0.215,63,0.315,6,0,194
+413150,Stardew Valley,schinese,complete,Simulation,200,19,181,0.095,19.0,14,0.07,19,0.095,4,1,195
+440900,Conan Exiles,english,complete,Survival,200,108,92,0.54,108.00000700000001,95,0.475,108,0.54,3,0,197
+440900,Conan Exiles,schinese,complete,Survival,200,108,92,0.54,108.0,73,0.365,108,0.54,0,1,199
+447040,Watch Dogs 2,english,complete,Action,200,74,126,0.37,74.000001,56,0.28,74,0.37,1,0,199
+447040,Watch Dogs 2,schinese,complete,Action,200,46,154,0.23,46.0,28,0.14,46,0.23,0,0,200
+489830,The Elder Scrolls V: Skyrim Special Edition,english,complete,RPG,200,59,141,0.295,58.999999,45,0.225,59,0.295,2,0,198
+489830,The Elder Scrolls V: Skyrim Special Edition,schinese,complete,RPG,200,62,138,0.31,62.000006,48,0.24,62,0.31,0,0,200
+504230,Celeste,english,complete,Platformer,200,70,130,0.35,69.99999700000001,57,0.285,70,0.35,8,0,192
+504230,Celeste,schinese,complete,Platformer,200,67,133,0.335,67.000001,43,0.215,67,0.335,1,5,194
+534380,Dying Light 2,english,complete,Action,200,94,106,0.47,94.0,72,0.36,94,0.47,4,0,196
+534380,Dying Light 2,schinese,complete,Action,200,84,116,0.42,84.0,57,0.285,84,0.42,0,0,200
+582010,Monster Hunter: World,english,complete,Action,200,45,155,0.225,45.000002,32,0.16,45,0.225,3,0,197
+582010,Monster Hunter: World,schinese,complete,Action,200,31,169,0.155,31.0,20,0.1,31,0.155,2,1,197
+588650,Dead Cells,english,complete,Action,200,71,129,0.355,70.999999,59,0.295,71,0.355,3,1,196
+588650,Dead Cells,schinese,complete,Action,200,42,158,0.21,42.000001,34,0.17,42,0.21,1,0,199
+646570,Slay the Spire,english,complete,Strategy,200,70,130,0.35,69.999999,57,0.285,70,0.35,1,0,199
+646570,Slay the Spire,schinese,complete,Strategy,200,28,172,0.14,28.0,21,0.105,28,0.14,1,1,198
+648800,Raft,english,complete,Survival,200,72,128,0.36,72.000003,63,0.315,72,0.36,14,2,184
+648800,Raft,schinese,complete,Survival,200,43,157,0.215,43.000002,33,0.165,43,0.215,6,0,194
+739630,Phasmophobia,english,complete,Horror,200,56,144,0.28,56.0,46,0.23,56,0.28,13,3,184
+739630,Phasmophobia,schinese,complete,Horror,200,47,153,0.235,47.0,41,0.205,47,0.235,14,1,185
+813780,Age of Empires II: Definitive Edition,english,complete,Strategy,200,35,165,0.175,35.0,27,0.135,35,0.175,1,1,198
+813780,Age of Empires II: Definitive Edition,schinese,complete,Strategy,200,49,151,0.245,49.0,42,0.21,49,0.245,2,0,198
+976730,Halo: The Master Chief Collection,english,complete,Action,200,57,143,0.285,57.0,47,0.235,57,0.285,4,0,196
+976730,Halo: The Master Chief Collection,schinese,complete,Action,200,74,126,0.37,74.0,53,0.265,74,0.37,0,1,199
+1086940,Baldur's Gate 3,english,complete,RPG,200,63,137,0.315,63.0,40,0.2,63,0.315,0,0,200
+1086940,Baldur's Gate 3,schinese,complete,RPG,200,44,156,0.22,44.0,32,0.16,44,0.22,1,0,199
+1091500,Cyberpunk 2077,english,complete,RPG,200,67,133,0.335,66.999999,55,0.275,67,0.335,1,0,199
+1091500,Cyberpunk 2077,schinese,complete,RPG,200,49,151,0.245,49.0,38,0.19,49,0.245,0,0,200
+1144200,Ready or Not,english,complete,Action,200,55,145,0.275,55.000004000000004,47,0.235,55,0.275,1,0,199
+1144200,Ready or Not,schinese,complete,Action,200,56,144,0.28,56.000001,44,0.22,56,0.28,4,1,195
+1145360,Hades,english,complete,Action,200,77,123,0.385,77.000002,55,0.275,77,0.385,1,0,199
+1145360,Hades,schinese,complete,Action,200,63,137,0.315,63.0,42,0.21,63,0.315,0,1,199
+1172470,Apex Legends,english,complete,Action,200,45,155,0.225,45.0,36,0.18,45,0.225,3,0,197
+1172470,Apex Legends,schinese,complete,Action,200,45,155,0.225,45.0,24,0.12,45,0.225,1,1,198
+1174180,Red Dead Redemption 2,english,complete,Action,200,59,141,0.295,59.000002,43,0.215,59,0.295,0,0,200
+1174180,Red Dead Redemption 2,schinese,complete,Action,200,38,162,0.19,38.0,35,0.175,38,0.19,3,0,197
+1203220,NARAKA: BLADEPOINT,english,complete,Action,200,71,129,0.355,71.000004,55,0.275,71,0.355,0,0,200
+1203220,NARAKA: BLADEPOINT,schinese,complete,Action,200,46,154,0.23,45.999999,30,0.15,46,0.23,0,0,200
+1245620,Elden Ring,english,complete,RPG,200,55,145,0.275,55.0,40,0.2,55,0.275,3,0,197
+1245620,Elden Ring,schinese,complete,RPG,200,33,167,0.165,33.000001,25,0.125,33,0.165,0,1,199
+1426210,It Takes Two,english,complete,Adventure,200,79,121,0.395,79.000002,63,0.315,79,0.395,9,1,190
+1426210,It Takes Two,schinese,complete,Adventure,200,46,154,0.23,46.000001,36,0.18,46,0.23,13,2,185
+1517290,Battlefield 2042,english,complete,Action,200,63,137,0.315,63.000001,47,0.235,63,0.315,0,1,199
+1517290,Battlefield 2042,schinese,complete,Action,200,70,130,0.35,70.000001,53,0.265,70,0.35,0,0,200
+1623730,Palworld,english,complete,Survival,200,65,135,0.325,64.999999,55,0.275,65,0.325,2,0,198
+1623730,Palworld,schinese,complete,Survival,200,35,165,0.175,35.0,25,0.125,35,0.175,3,1,196
+1687950,Persona 5 Royal,english,complete,RPG,200,51,149,0.255,51.000001,34,0.17,51,0.255,0,0,200
+1687950,Persona 5 Royal,schinese,complete,RPG,200,47,153,0.235,47.000003,33,0.165,47,0.235,0,0,200
+2358720,Black Myth: Wukong,english,complete,Action,200,81,119,0.405,81.000001,55,0.275,81,0.405,3,0,197
+2358720,Black Myth: Wukong,schinese,complete,Action,200,43,157,0.215,43.0,33,0.165,43,0.215,1,0,199

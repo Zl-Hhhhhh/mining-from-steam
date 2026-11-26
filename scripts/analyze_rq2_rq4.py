@@ -4,7 +4,8 @@ from __future__ import annotations
 import argparse
 import os
 from pathlib import Path
-from tempfile import TemporaryDirectory
+from shutil import rmtree
+from uuid import uuid4
 
 for variable in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS"):
     os.environ.setdefault(variable, "2")
@@ -79,13 +80,18 @@ def topic_population(data, weights):
 
 def topic_scenarios(data, weights):
     main_data, main_weights = topic_population(data, weights["primary"])
+    secondary = "fit_units" if "fit_units" in weights else "all_units"
     yield "primary", main_data, main_weights
-    for key in ("all_units", "k8_s17", "no_a01_a02", "no_time_mentions"):
+    for key in (secondary, "k8_s17", "no_a01_a02", "no_time_mentions"):
         cohort, selected = topic_population(data, weights[key])
         yield key, cohort, selected
         if key == "no_a01_a02":
             yield "a01_a02_same_sample_baseline", main_data.loc[cohort.index], main_weights.loc[cohort.index]
-    yield "all_units_same_sample", main_data, weights["all_units"].loc[main_data.index]
+    if secondary == "fit_units":
+        fit_data, _ = topic_population(data, weights[secondary])
+        yield "all_units_same_fit_sample", fit_data, main_weights.loc[fit_data.index]
+    else:
+        yield "all_units_same_sample", main_data, weights["all_units"].loc[main_data.index]
     yield "high_confidence", *topic_population(data.loc[data.confidence.eq("high")], weights["primary"])
     for name, column in {**SAMPLE_FILTERS, "no_short_low_information": "not_short_or_low_information",
                          "one_review_per_author": "first_author_review"}.items():
@@ -95,9 +101,9 @@ def topic_scenarios(data, weights):
     yield "trim_p99", *topic_population(data.loc[data.hours.le(data.p99_hours)], weights["primary"])
 
 
-def recommendation_scenarios(data, topic_data):
+def recommendation_scenarios(data, topic_data, primary_scope):
     yield "primary", data
-    yield "fit_topic_sample", topic_data
+    yield f"{primary_scope}_topic_sample", topic_data
     for name, column in {**SAMPLE_FILTERS, "no_short_low_information": "not_short_or_low_information",
                          "one_review_per_author": "first_author_review"}.items():
         yield name, data.loc[data[column]]
@@ -109,7 +115,7 @@ def recommendation_scenarios(data, topic_data):
 def coverage(master, weights):
     data = master.loc[master.association_eligible]
     summaries = []
-    for scope in ("primary", "all_units"):
+    for scope in ("primary", "fit_units" if "fit_units" in weights else "all_units"):
         available = weights[scope].loc[data.index].sum(axis=1).gt(0)
         scoped = data.assign(topic_evidence=available)
         for (language, present), rows in scoped.groupby(["language", "topic_evidence"]):
@@ -155,7 +161,7 @@ def grouped_summary(data, weights, scope):
     return rows
 
 
-def run_models(data, weights, association):
+def run_models(data, weights, association, primary_scope="fit"):
     rq2_rows, rq4_rows, support, diagnostics = [], [], [], []
     main_data, main_weights = topic_population(data, weights["primary"])
     for scenario, frame, selected in topic_scenarios(data, weights):
@@ -180,7 +186,7 @@ def run_models(data, weights, association):
             rows, diags = models.rq4(frame, controls=controls, scenario=scenario, check_separation=True)
             rq4_rows.extend(rows)
             diagnostics.extend(diags)
-    for scenario, frame in recommendation_scenarios(data, main_data):
+    for scenario, frame in recommendation_scenarios(data, main_data, primary_scope):
         print(f"Playtime recommendation scenario: {scenario} ({len(frame)} reviews)", flush=True)
         for group in ((False,) if scenario == "cap_p99" else (False, True)):
             rows, diags = models.rq4(frame, group=group, scenario=scenario, check_separation=True)
@@ -250,25 +256,28 @@ def save_figures(output, rq2, groups):
     plt.close(fig)
 
 
-def run(destination):
+def run(destination, topic_version=inputs.TOPIC_VERSION):
     destination = destination.resolve()
     if destination.exists():
         raise FileExistsError(f"Choose a new output directory: {destination}")
     with threadpool_limits(limits=2):
-        master, weights, provenance, checks, annotation = inputs.load()
+        master, weights, provenance, checks, annotation = inputs.load(topic_version)
+        scope = checks.get("primary_scope", "fit")
+        secondary = "fit_units" if "fit_units" in weights else "all_units"
         data, cutoffs, playtime = prepare_playtime(master)
-        rq2, rq4, support, diagnostics = run_models(data, weights, master.loc[master.association_eligible])
+        rq2, rq4, support, diagnostics = run_models(data, weights, master.loc[master.association_eligible], scope)
         groups = grouped_summary(data, weights["primary"], "primary")
-        groups += grouped_summary(data, weights["all_units"], "all_units")
+        groups += grouped_summary(data, weights[secondary], secondary)
     for name in ("rq2_weight_base", "rq2_weight_time", "rq2_dominant_base", "rq2_dominant_time",
                  "rq4_recommend_time", "rq4_recommend_tertile"):
         if not any(row["model"] == name and row["scenario"] == "primary" and row["status"] == "ok"
                    for row in rq2 + rq4):
             raise ValueError(f"Primary model failed: {name}")
     destination.parent.mkdir(parents=True, exist_ok=True)
-    with TemporaryDirectory(prefix=".rq24-", dir=destination.parent) as temporary:
-        stage = Path(temporary) / "results"
-        stage.mkdir()
+    # A sibling directory inherits the output parent's Windows access rules.
+    stage = destination.parent / f".rq24-{uuid4().hex}"
+    stage.mkdir()
+    try:
         for filename, rows in {
             "rq2_models.csv": rq2, "rq2_topic_support.csv": support, "rq4_models.csv": rq4,
             "rq4_groups.csv": groups, "rq4_tertile_cutoffs.csv": cutoffs,
@@ -282,22 +291,30 @@ def run(destination):
             "model_covariance": "game-clustered with finite G and N corrections; t(G-1)",
         })
         common.save_json(stage / "manifest.json", {
-            "topic_version": inputs.TOPIC_VERSION,
+            "topic_version": topic_version,
+            "primary_scope": scope,
             "status": "exploratory",
             "inputs": provenance,
             "code_sha256": {p: common.sha256(ROOT / p) for p in (
                 "scripts/analyze_rq2_rq4.py", "scripts/rq24_inputs.py", "scripts/rq24_models.py",
                 "scripts/analysis_common.py", "scripts/assign_topics_v1_cluster_derived.py",
+                "scripts/structured_rq_weights.py",
                 "requirements-analysis.txt",
             )},
             "outputs_sha256": {p.name: common.sha256(p) for p in sorted(stage.iterdir())},
             "runtime": common.runtime_versions(),
         })
         stage.rename(destination)
+    finally:
+        if stage.exists():
+            rmtree(stage)
     print(f"Reproduced exploratory results in {destination}", flush=True)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
-    run(parser.parse_args().output)
+    parser.add_argument("--topic-version", choices=(inputs.TOPIC_VERSION, inputs.structured.TOPIC_VERSION),
+                        default=inputs.TOPIC_VERSION)
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+    run(args.output or DEFAULT_OUTPUT.parent / args.topic_version, args.topic_version)

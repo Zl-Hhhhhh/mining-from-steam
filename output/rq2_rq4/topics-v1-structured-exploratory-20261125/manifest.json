@@ -1,0 +1,149 @@
+{
+  "topic_version": "topics-v1-structured-exploratory-20261125",
+  "primary_scope": "all",
+  "status": "exploratory",
+  "inputs": {
+    "data/cleaned/freeze_20261101/cleaning_manifest.json": {
+      "sha256": "442f7e9884745a0bc17ce6a85af2e6a576edd00bac8373c3fb8455f11021b57a",
+      "recorded_sha256": "d88a7ef548666f0b8120a0bd673403bf2f30d4860cfb3b0fc7d4caab01f11420",
+      "match": "LF-equivalent"
+    },
+    "data/cleaned/freeze_20261101/clean_master.jsonl": {
+      "sha256": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26",
+      "recorded_sha256": "901090cb65ae6796ae3ee98cce81cdccd63328e6f069619896caa867d5fb2e26",
+      "match": "exact"
+    },
+    "data/metadata/freeze_20261101/metadata_manifest.json": {
+      "sha256": "0de0e9f26e269cedc291e6a1b7e270ba5b5277154f6214ac4de6e357c76fb4b3",
+      "recorded_sha256": "46103171ebf6a12844d665138a3631effdd53c8f93d27ec6c671dbb5dd0e45f2",
+      "match": "LF-equivalent"
+    },
+    "data/metadata/freeze_20261101/game_meta.csv": {
+      "sha256": "f10d70b21d39a3e5871a04cdc636ee31900b52c3c258f2b9c6bfdc443b32b546",
+      "recorded_sha256": "f369a0d5e5f02a5b802f3bbc607c7754a50fe5fd80f7a7b8a1441100c89b4204",
+      "match": "LF-equivalent"
+    },
+    "config/rq3_structured_exploratory.json": {
+      "sha256": "6c1bc0c09e3645f366dc152637962aa0bc2d1c2a93c38040de58099cba971f4d",
+      "recorded_sha256": null,
+      "match": "snapshot"
+    },
+    "data/freeze_20261101/freeze_manifest.json": {
+      "sha256": "b688696c15ea6f626f788dad113beacf2618ff15c455ea21509550ba7e501f26",
+      "recorded_sha256": "fe31e19f1d002b038b09e33f9b8abdcf84e07c9c43bdf4c4e43d5cf806482bbd",
+      "match": "LF-equivalent"
+    },
+    "output/topic_selection/topics-v1-structured-exploratory-20261125/topic_v1.json": {
+      "sha256": "636679b03ac32034b07a23b37804d14c3c3359cce3e72946b1af236f4f0a0d04",
+      "recorded_sha256": "636679b03ac32034b07a23b37804d14c3c3359cce3e72946b1af236f4f0a0d04",
+      "match": "exact"
+    },
+    "output/topic_selection/topics-v1-structured-exploratory-20261125/delivery_manifest.json": {
+      "sha256": "f6bcec5c1db2e24b3287e0bef45e82a30e9c9f93897b62f72df5026989291753",
+      "recorded_sha256": "f6bcec5c1db2e24b3287e0bef45e82a30e9c9f93897b62f72df5026989291753",
+      "match": "exact"
+    },
+    "output/topic_selection/topics-v1-structured-exploratory-20261125/review_topic_weights.jsonl": {
+      "sha256": "d9372e3ef5fd1c923035f5bc5d6e961774a0080ac7576cbba7c4c24292ec2eda",
+      "recorded_sha256": "d9372e3ef5fd1c923035f5bc5d6e961774a0080ac7576cbba7c4c24292ec2eda",
+      "match": "exact"
+    },
+    "output/topic_selection/topics-v1-structured-exploratory-20261125/unit_topic_assignments.jsonl": {
+      "sha256": "7f6200d611a1aadc7030fc718a93f59675577dc347854e9cf79aeb2f3816a63c",
+      "recorded_sha256": "7f6200d611a1aadc7030fc718a93f59675577dc347854e9cf79aeb2f3816a63c",
+      "match": "exact"
+    },
+    "config/topics_v1_exploratory.json": {
+      "sha256": "0535a90d55d8a7b0267895e992e666a9365e62ff0f1a1f80c00be0dec5c79542",
+      "recorded_sha256": "0535a90d55d8a7b0267895e992e666a9365e62ff0f1a1f80c00be0dec5c79542",
+      "match": "exact"
+    },
+    "output/topic_selection/task12-20261114/handoff-structured-20261125/review_to_units.json": {
+      "sha256": "3a84a75a441555248a5b423dc86ca379812484a50629a0419d33e41e3eb86bb9",
+      "recorded_sha256": "3a84a75a441555248a5b423dc86ca379812484a50629a0419d33e41e3eb86bb9",
+      "match": "exact"
+    },
+    "output/topic_selection/task12-20261114/topic-list-draft.json": {
+      "sha256": "5975c4d0024724ff9d034b21143a6f6ef628c9c4666f6fde36c5a4383e3e6e71",
+      "recorded_sha256": "5975c4d0024724ff9d034b21143a6f6ef628c9c4666f6fde36c5a4383e3e6e71",
+      "match": "exact"
+    },
+    "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/topic-seed-units.json": {
+      "sha256": "ca721c8c6bcf5ced911228d5d6e4a9174452178a57e9c531358eb1cfd4eff0d8",
+      "recorded_sha256": "ca721c8c6bcf5ced911228d5d6e4a9174452178a57e9c531358eb1cfd4eff0d8",
+      "match": "exact"
+    },
+    "output/embedding-bge-sentences/task12-20261117-v1/sentence_embedding_manifest.json": {
+      "sha256": "46f983005195b328a86e7edc4e8ed72ea68ffc9d691067f28981c94a325a3a31",
+      "recorded_sha256": "46f983005195b328a86e7edc4e8ed72ea68ffc9d691067f28981c94a325a3a31",
+      "match": "exact"
+    },
+    "output/embedding-bge-sentences/task12-20261117-v1/unit_ids.json": {
+      "sha256": "73207e17a2ada4367c01c2fa46a4b412547f96e0e3762debc03fb2371e75de2f",
+      "recorded_sha256": "73207e17a2ada4367c01c2fa46a4b412547f96e0e3762debc03fb2371e75de2f",
+      "match": "exact"
+    },
+    "output/embedding-bge-sentences/task12-20261117-v1/sentence_vectors.npy": {
+      "sha256": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd",
+      "recorded_sha256": "ef23af3fd72e0efd765fb5e3d1bfdaa7b8723c9206b02ced09cd266d888c0dfd",
+      "match": "exact"
+    },
+    "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k10_s42/assignments.csv": {
+      "sha256": "a04b0feb141c1603b2c800ad24da2eb39036916fc4132265fb181ace65fe9609",
+      "recorded_sha256": "a04b0feb141c1603b2c800ad24da2eb39036916fc4132265fb181ace65fe9609",
+      "match": "exact"
+    },
+    "output/topic_selection/task12-20261118-sentence-clustering-v1/sentence_k8_s17/assignments.csv": {
+      "sha256": "a76543634fd3760b3a04e3cb56d4538a95ecca61b85340a8b174577fa449349d",
+      "recorded_sha256": "a76543634fd3760b3a04e3cb56d4538a95ecca61b85340a8b174577fa449349d",
+      "match": "exact"
+    },
+    "output/topic_selection/task12-20261114/handoff/sentence_units.jsonl": {
+      "sha256": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+      "recorded_sha256": "93190000aac4c60ff39ed24d50a6a8d9130937da85d40c1ca500c68030ccea29",
+      "match": "exact"
+    },
+    "output/topic_selection/topics-v1-structured-exploratory-20261125/review_topic_weights.csv": {
+      "sha256": "08149d63eb01ea26c63f5b1ff20c6f0e3cff6dc35bdfa0f6ce379b35add78e34",
+      "recorded_sha256": "08149d63eb01ea26c63f5b1ff20c6f0e3cff6dc35bdfa0f6ce379b35add78e34",
+      "match": "exact"
+    },
+    "output/topic_selection/task12-20261114/handoff-structured-20261125/sentence_units.jsonl": {
+      "sha256": "b38d7454bdf4a5ff3d8161c895b71128c11fdbff1e09575706f514c13aeeb512",
+      "recorded_sha256": "b38d7454bdf4a5ff3d8161c895b71128c11fdbff1e09575706f514c13aeeb512",
+      "match": "exact"
+    }
+  },
+  "code_sha256": {
+    "scripts/analyze_rq2_rq4.py": "9b5b60ebef002aff168dc3fc7b688a318e991033bc745e7750ce4999e6a9fc59",
+    "scripts/rq24_inputs.py": "0cc9279401ce2e83759b853595cf130718769b1f30b452cbc87608e5dd348411",
+    "scripts/rq24_models.py": "e740e06444795a9600eaf465da7217a39a1e5992057ae12921576d02285c0edc",
+    "scripts/analysis_common.py": "0395246da340610d78101365aa3713f1f46be73243c6c0f946fd776f7412df3e",
+    "scripts/assign_topics_v1_cluster_derived.py": "dff0631e7e1504b271da09202644c6b16eb6445583cf69be8cb53814ca0c4d0c",
+    "scripts/structured_rq_weights.py": "07d80a00b69f6f42ed340336b90d867eaa4d685718e2d23ee5182f4e3da26e45",
+    "requirements-analysis.txt": "906c2a0102f401e62a275029b5279019932dfeb21facb898649e8b64ee55d5ff"
+  },
+  "outputs_sha256": {
+    "annotation_sample.csv": "4a619aebb4d022b00c2f8073dfa0d9c815d3dade0dcfe47aaf024ff649f75788",
+    "diagnostics.json": "3fab8a29ddc310318a4dada363fea4a6c0eda4f3c73e6d12a78193f275cc58cf",
+    "review_coverage.csv": "2762fa6965001951568ab4775a7b0bb9a88303bd6886056294e13deeb09a4ba5",
+    "rq2_models.csv": "9ec01b1d1b825a5acc2377d7aa81b599adbcbd74bf691342da3ca3d63f3bf545",
+    "rq2_topic_odds.png": "1251991b34750756e4610f122a667309d9adb9c396535b75186920aa9313825f",
+    "rq2_topic_support.csv": "9b973ef961f03ecf8a76966fe17f9cf5010a6eaf8a8b23eeda91735091ff9db4",
+    "rq4_groups.csv": "08c9d9ad386076cd95a8f156eb674db2b288528c8232b89469e0a078cfb0ff37",
+    "rq4_models.csv": "7283af098d0185a50a912da434779438381384279616f6ccb48a198d15434cae",
+    "rq4_playtime_groups.png": "ba0a0c0bd3409a7231b7ce37caec3d17eff7a0eb27955340e2fbf0f0b89f1d41",
+    "rq4_tertile_cutoffs.csv": "9fcd6be09687270439966954e3740a36abda4a09e43c5052e9e1e6a71ee807dc"
+  },
+  "runtime": {
+    "python": "3.13.14",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "statsmodels": "0.15.0",
+    "jieba": "0.42.1",
+    "joblib": "1.6.0"
+  }
+}

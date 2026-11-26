@@ -1,0 +1,8 @@
+﻿scenario,status,n_input,n_used,games_used,parameters,rank,separation,converged
+primary_all,ok,5061,5061,47,63,63,none,True
+fit_units,ok,3571,3571,42,58,58,none,True
+common_window,ok,2576,2576,27,43,43,none,True
+unique_text,ok,5050,5050,47,63,63,none,True
+complete_games,ok,4892,4892,45,61,61,none,True
+script_consistent,ok,4974,4974,47,63,63,none,True
+no_auxiliary,ok,2309,2309,30,46,46,none,True

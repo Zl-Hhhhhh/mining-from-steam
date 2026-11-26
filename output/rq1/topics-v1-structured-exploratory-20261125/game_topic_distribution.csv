@@ -1,0 +1,401 @@
+﻿appid,game,sample_status,partial_languages,project_primary_genre,topic_id,topic_name_zh,topic_name_en,total_reviews,topic_evidence_reviews,no_topic_evidence_reviews,topic_coverage,topic_weight_denominator,topic_weight_sum,topic_share
+220,Half-Life 2,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,77,323,0.1925,76.999998,9.077380999999999,0.11788806799709266
+220,Half-Life 2,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,77,323,0.1925,76.999998,4.733333,0.0614718587395288
+220,Half-Life 2,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,77,323,0.1925,76.999998,4.083333,0.05303030007870908
+220,Half-Life 2,complete,,Action,T04,剧情与角色,story_characters,400,77,323,0.1925,76.999998,18.920237,0.24571737001863297
+220,Half-Life 2,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,77,323,0.1925,76.999998,18.383333,0.2387445906167426
+220,Half-Life 2,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,77,323,0.1925,76.999998,3.166667,0.04112554652274147
+220,Half-Life 2,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,77,323,0.1925,76.999998,4.583333,0.05952380674087809
+220,Half-Life 2,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,77,323,0.1925,76.999998,14.052381,0.18249845928567426
+570,Dota 2,complete,,Strategy,T01,玩法与机制,gameplay_mechanics,400,93,307,0.2325,93.000001,11.3,0.12150537503757662
+570,Dota 2,complete,,Strategy,T02,操作、难度与平衡,controls_difficulty,400,93,307,0.2325,93.000001,10.869047,0.11687147186159708
+570,Dota 2,complete,,Strategy,T03,性能、稳定性与故障,performance_stability,400,93,307,0.2325,93.000001,22.375,0.24059139526245812
+570,Dota 2,complete,,Strategy,T04,剧情与角色,story_characters,400,93,307,0.2325,93.000001,6.691667,0.07195340782845798
+570,Dota 2,complete,,Strategy,T05,画面、美术、音乐与音效,audiovisual,400,93,307,0.2325,93.000001,2.6,0.027956988946699044
+570,Dota 2,complete,,Strategy,T06,联机、匹配、作弊与社区,multiplayer_community,400,93,307,0.2325,93.000001,21.533334,0.23154122331676105
+570,Dota 2,complete,,Strategy,T07,价格、付费与 DLC 收费,price_monetization,400,93,307,0.2325,93.000001,3.125,0.03360215017632097
+570,Dota 2,complete,,Strategy,T08,内容量、重玩、MOD 与更新维护,content_support,400,93,307,0.2325,93.000001,14.505953,0.15597798757012918
+730,Counter-Strike 2,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,70,330,0.175,70.000001,3.625,0.05178571354591838
+730,Counter-Strike 2,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,70,330,0.175,70.000001,2.166667,0.030952385272108782
+730,Counter-Strike 2,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,70,330,0.175,70.000001,14.0,0.19999999714285718
+730,Counter-Strike 2,complete,,Action,T04,剧情与角色,story_characters,400,70,330,0.175,70.000001,2.75,0.03928571372448981
+730,Counter-Strike 2,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,70,330,0.175,70.000001,2.166667,0.030952385272108782
+730,Counter-Strike 2,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,70,330,0.175,70.000001,23.666667,0.3380952380272109
+730,Counter-Strike 2,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,70,330,0.175,70.000001,9.208333,0.13154761240646268
+730,Counter-Strike 2,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,70,330,0.175,70.000001,12.416667,0.1773809546088435
+4000,Garry's Mod,complete,,Sandbox,T01,玩法与机制,gameplay_mechanics,400,76,324,0.19,76.000002,10.75,0.14144736469875357
+4000,Garry's Mod,complete,,Sandbox,T02,操作、难度与平衡,controls_difficulty,400,76,324,0.19,76.000002,3.166667,0.04166666995614027
+4000,Garry's Mod,complete,,Sandbox,T03,性能、稳定性与故障,performance_stability,400,76,324,0.19,76.000002,9.833334,0.1293859702793166
+4000,Garry's Mod,complete,,Sandbox,T04,剧情与角色,story_characters,400,76,324,0.19,76.000002,2.166667,0.028508775565558538
+4000,Garry's Mod,complete,,Sandbox,T05,画面、美术、音乐与音效,audiovisual,400,76,324,0.19,76.000002,7.666667,0.10087719471375804
+4000,Garry's Mod,complete,,Sandbox,T06,联机、匹配、作弊与社区,multiplayer_community,400,76,324,0.19,76.000002,9.833334,0.1293859702793166
+4000,Garry's Mod,complete,,Sandbox,T07,价格、付费与 DLC 收费,price_monetization,400,76,324,0.19,76.000002,7.833333,0.10307016834025873
+4000,Garry's Mod,complete,,Sandbox,T08,内容量、重玩、MOD 与更新维护,content_support,400,76,324,0.19,76.000002,24.75,0.3256578861668978
+8930,Sid Meier's Civilization V,partial,schinese,Strategy,T01,玩法与机制,gameplay_mechanics,279,67,212,0.24014336917562723,67.000004,12.183334,0.18184079511398238
+8930,Sid Meier's Civilization V,partial,schinese,Strategy,T02,操作、难度与平衡,controls_difficulty,279,67,212,0.24014336917562723,67.000004,5.933334,0.08855721859359889
+8930,Sid Meier's Civilization V,partial,schinese,Strategy,T03,性能、稳定性与故障,performance_stability,279,67,212,0.24014336917562723,67.000004,14.825,0.22126864350634962
+8930,Sid Meier's Civilization V,partial,schinese,Strategy,T04,剧情与角色,story_characters,279,67,212,0.24014336917562723,67.000004,7.283334,0.10870647112200171
+8930,Sid Meier's Civilization V,partial,schinese,Strategy,T05,画面、美术、音乐与音效,audiovisual,279,67,212,0.24014336917562723,67.000004,6.666667,0.09950248659686647
+8930,Sid Meier's Civilization V,partial,schinese,Strategy,T06,联机、匹配、作弊与社区,multiplayer_community,279,67,212,0.24014336917562723,67.000004,5.641667,0.08420398004752358
+8930,Sid Meier's Civilization V,partial,schinese,Strategy,T07,价格、付费与 DLC 收费,price_monetization,279,67,212,0.24014336917562723,67.000004,4.166667,0.06218905598871308
+8930,Sid Meier's Civilization V,partial,schinese,Strategy,T08,内容量、重玩、MOD 与更新维护,content_support,279,67,212,0.24014336917562723,67.000004,10.300001,0.15373134903096422
+105600,Terraria,complete,,Adventure,T01,玩法与机制,gameplay_mechanics,400,68,332,0.17,68.000001,14.875,0.2187499967830883
+105600,Terraria,complete,,Adventure,T02,操作、难度与平衡,controls_difficulty,400,68,332,0.17,68.000001,4.333333,0.06372548435697817
+105600,Terraria,complete,,Adventure,T03,性能、稳定性与故障,performance_stability,400,68,332,0.17,68.000001,6.916667,0.10171568968065163
+105600,Terraria,complete,,Adventure,T04,剧情与角色,story_characters,400,68,332,0.17,68.000001,4.416667,0.06495098433895612
+105600,Terraria,complete,,Adventure,T05,画面、美术、音乐与音效,audiovisual,400,68,332,0.17,68.000001,12.333334,0.18137255615628595
+105600,Terraria,complete,,Adventure,T06,联机、匹配、作弊与社区,multiplayer_community,400,68,332,0.17,68.000001,9.0,0.13235293923010383
+105600,Terraria,complete,,Adventure,T07,价格、付费与 DLC 收费,price_monetization,400,68,332,0.17,68.000001,4.25,0.06249999908088237
+105600,Terraria,complete,,Adventure,T08,内容量、重玩、MOD 与更新维护,content_support,400,68,332,0.17,68.000001,11.875,0.1746323503730537
+230410,Warframe,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,94,306,0.235,94.0,22.241666000000002,0.23661346808510642
+230410,Warframe,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,94,306,0.235,94.0,4.3333330000000005,0.04609928723404256
+230410,Warframe,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,94,306,0.235,94.0,10.041667,0.10682624468085107
+230410,Warframe,complete,,Action,T04,剧情与角色,story_characters,400,94,306,0.235,94.0,15.341666,0.16320921276595746
+230410,Warframe,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,94,306,0.235,94.0,11.100000000000001,0.11808510638297874
+230410,Warframe,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,94,306,0.235,94.0,9.533333,0.10141843617021278
+230410,Warframe,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,94,306,0.235,94.0,3.458334,0.03679078723404255
+230410,Warframe,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,94,306,0.235,94.0,17.950001,0.1909574574468085
+236390,War Thunder,complete,,Simulation,T01,玩法与机制,gameplay_mechanics,400,69,331,0.1725,69.0,9.0,0.13043478260869565
+236390,War Thunder,complete,,Simulation,T02,操作、难度与平衡,controls_difficulty,400,69,331,0.1725,69.0,7.25,0.10507246376811594
+236390,War Thunder,complete,,Simulation,T03,性能、稳定性与故障,performance_stability,400,69,331,0.1725,69.0,18.833333,0.27294685507246375
+236390,War Thunder,complete,,Simulation,T04,剧情与角色,story_characters,400,69,331,0.1725,69.0,3.0,0.043478260869565216
+236390,War Thunder,complete,,Simulation,T05,画面、美术、音乐与音效,audiovisual,400,69,331,0.1725,69.0,6.125,0.08876811594202899
+236390,War Thunder,complete,,Simulation,T06,联机、匹配、作弊与社区,multiplayer_community,400,69,331,0.1725,69.0,12.875,0.18659420289855072
+236390,War Thunder,complete,,Simulation,T07,价格、付费与 DLC 收费,price_monetization,400,69,331,0.1725,69.0,3.5,0.050724637681159424
+236390,War Thunder,complete,,Simulation,T08,内容量、重玩、MOD 与更新维护,content_support,400,69,331,0.1725,69.0,8.416667,0.12198068115942029
+238960,Path of Exile,partial,schinese,RPG,T01,玩法与机制,gameplay_mechanics,222,63,159,0.28378378378378377,63.000002,15.734224000000001,0.24974957937302925
+238960,Path of Exile,partial,schinese,RPG,T02,操作、难度与平衡,controls_difficulty,222,63,159,0.28378378378378377,63.000002,8.194444,0.13007053555331635
+238960,Path of Exile,partial,schinese,RPG,T03,性能、稳定性与故障,performance_stability,222,63,159,0.28378378378378377,63.000002,2.625,0.04166666534391539
+238960,Path of Exile,partial,schinese,RPG,T04,剧情与角色,story_characters,222,63,159,0.28378378378378377,63.000002,7.846795999999999,0.12455231350627576
+238960,Path of Exile,partial,schinese,RPG,T05,画面、美术、音乐与音效,audiovisual,222,63,159,0.28378378378378377,63.000002,10.522722,0.16702732803087847
+238960,Path of Exile,partial,schinese,RPG,T06,联机、匹配、作弊与社区,multiplayer_community,222,63,159,0.28378378378378377,63.000002,3.500534,0.05556402998209428
+238960,Path of Exile,partial,schinese,RPG,T07,价格、付费与 DLC 收费,price_monetization,222,63,159,0.28378378378378377,63.000002,3.695976,0.058666283851864
+238960,Path of Exile,partial,schinese,RPG,T08,内容量、重玩、MOD 与更新维护,content_support,222,63,159,0.28378378378378377,63.000002,10.880306000000001,0.17270326435862654
+244850,Space Engineers,partial,schinese,Simulation,T01,玩法与机制,gameplay_mechanics,235,95,140,0.40425531914893614,94.999996,21.874999,0.23026315706371187
+244850,Space Engineers,partial,schinese,Simulation,T02,操作、难度与平衡,controls_difficulty,235,95,140,0.40425531914893614,94.999996,10.916666,0.11491227852262226
+244850,Space Engineers,partial,schinese,Simulation,T03,性能、稳定性与故障,performance_stability,235,95,140,0.40425531914893614,94.999996,12.687498999999999,0.13355262667590007
+244850,Space Engineers,partial,schinese,Simulation,T04,剧情与角色,story_characters,235,95,140,0.40425531914893614,94.999996,3.395833,0.035745612031394196
+244850,Space Engineers,partial,schinese,Simulation,T05,画面、美术、音乐与音效,audiovisual,235,95,140,0.40425531914893614,94.999996,12.666667,0.13333334245614076
+244850,Space Engineers,partial,schinese,Simulation,T06,联机、匹配、作弊与社区,multiplayer_community,235,95,140,0.40425531914893614,94.999996,8.458333,0.08903508795937212
+244850,Space Engineers,partial,schinese,Simulation,T07,价格、付费与 DLC 收费,price_monetization,235,95,140,0.40425531914893614,94.999996,8.166666,0.085964908882733
+244850,Space Engineers,partial,schinese,Simulation,T08,内容量、重玩、MOD 与更新维护,content_support,235,95,140,0.40425531914893614,94.999996,16.833333,0.17719298640812575
+250900,The Binding of Isaac: Rebirth,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,68,332,0.17,67.999998,9.458333,0.13909313644391577
+250900,The Binding of Isaac: Rebirth,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,68,332,0.17,67.999998,7.027777,0.1033496648044019
+250900,The Binding of Isaac: Rebirth,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,68,332,0.17,67.999998,4.0,0.05882353114186856
+250900,The Binding of Isaac: Rebirth,complete,,Action,T04,剧情与角色,story_characters,400,68,332,0.17,67.999998,6.333333,0.09313725273933095
+250900,The Binding of Isaac: Rebirth,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,68,332,0.17,67.999998,10.652777,0.1566584899017203
+250900,The Binding of Isaac: Rebirth,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,68,332,0.17,67.999998,7.5,0.11029412089100354
+250900,The Binding of Isaac: Rebirth,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,68,332,0.17,67.999998,6.680556,0.09824347347774921
+250900,The Binding of Isaac: Rebirth,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,68,332,0.17,67.999998,16.347222000000002,0.24040033060000973
+252490,Rust,complete,,Survival,T01,玩法与机制,gameplay_mechanics,400,98,302,0.245,98.000001,11.041666,0.1126700600747953
+252490,Rust,complete,,Survival,T02,操作、难度与平衡,controls_difficulty,400,98,302,0.245,98.000001,8.541667,0.08715986645755239
+252490,Rust,complete,,Survival,T03,性能、稳定性与故障,performance_stability,400,98,302,0.245,98.000001,33.097222,0.3377267516558495
+252490,Rust,complete,,Survival,T04,剧情与角色,story_characters,400,98,302,0.245,98.000001,4.833334,0.04931973419061496
+252490,Rust,complete,,Survival,T05,画面、美术、音乐与音效,audiovisual,400,98,302,0.245,98.000001,4.041667,0.041241499579168374
+252490,Rust,complete,,Survival,T06,联机、匹配、作弊与社区,multiplayer_community,400,98,302,0.245,98.000001,17.763888,0.18126416141567184
+252490,Rust,complete,,Survival,T07,价格、付费与 DLC 收费,price_monetization,400,98,302,0.245,98.000001,1.055556,0.01077097948192878
+252490,Rust,complete,,Survival,T08,内容量、重玩、MOD 与更新维护,content_support,400,98,302,0.245,98.000001,17.625001,0.17984694714441893
+261550,Mount & Blade II: Bannerlord,complete,,Strategy,T01,玩法与机制,gameplay_mechanics,400,104,296,0.26,104.000001,15.675,0.150721152396912
+261550,Mount & Blade II: Bannerlord,complete,,Strategy,T02,操作、难度与平衡,controls_difficulty,400,104,296,0.26,104.000001,2.604762,0.025045788220713575
+261550,Mount & Blade II: Bannerlord,complete,,Strategy,T03,性能、稳定性与故障,performance_stability,400,104,296,0.26,104.000001,16.164285999999997,0.1554258254285978
+261550,Mount & Blade II: Bannerlord,complete,,Strategy,T04,剧情与角色,story_characters,400,104,296,0.26,104.000001,8.8,0.08461538380177516
+261550,Mount & Blade II: Bannerlord,complete,,Strategy,T05,画面、美术、音乐与音效,audiovisual,400,104,296,0.26,104.000001,8.666667,0.08333333573717946
+261550,Mount & Blade II: Bannerlord,complete,,Strategy,T06,联机、匹配、作弊与社区,multiplayer_community,400,104,296,0.26,104.000001,5.740079,0.05519306677698974
+261550,Mount & Blade II: Bannerlord,complete,,Strategy,T07,价格、付费与 DLC 收费,price_monetization,400,104,296,0.26,104.000001,9.061508,0.08712988377759727
+261550,Mount & Blade II: Bannerlord,complete,,Strategy,T08,内容量、重玩、MOD 与更新维护,content_support,400,104,296,0.26,104.000001,37.287699,0.358535563860235
+262060,Darkest Dungeon,complete,,Strategy,T01,玩法与机制,gameplay_mechanics,400,120,280,0.3,120.00000499999999,22.843698000000003,0.1903641420681608
+262060,Darkest Dungeon,complete,,Strategy,T02,操作、难度与平衡,controls_difficulty,400,120,280,0.3,120.00000499999999,29.362637,0.24468863147130704
+262060,Darkest Dungeon,complete,,Strategy,T03,性能、稳定性与故障,performance_stability,400,120,280,0.3,120.00000499999999,4.7777780000000005,0.039814815007716046
+262060,Darkest Dungeon,complete,,Strategy,T04,剧情与角色,story_characters,400,120,280,0.3,120.00000499999999,16.82346,0.1401954941585211
+262060,Darkest Dungeon,complete,,Strategy,T05,画面、美术、音乐与音效,audiovisual,400,120,280,0.3,120.00000499999999,19.070407,0.1589200517116645
+262060,Darkest Dungeon,complete,,Strategy,T06,联机、匹配、作弊与社区,multiplayer_community,400,120,280,0.3,120.00000499999999,5.5047619999999995,0.045873014755291056
+262060,Darkest Dungeon,complete,,Strategy,T07,价格、付费与 DLC 收费,price_monetization,400,120,280,0.3,120.00000499999999,3.464957,0.02887464046355665
+262060,Darkest Dungeon,complete,,Strategy,T08,内容量、重玩、MOD 与更新维护,content_support,400,120,280,0.3,120.00000499999999,18.152306,0.1512692103637829
+271590,Grand Theft Auto V,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,51,349,0.1275,51.000001,2.365385,0.04638009712980202
+271590,Grand Theft Auto V,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,51,349,0.1275,51.000001,1.115385,0.021870293688817773
+271590,Grand Theft Auto V,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,51,349,0.1275,51.000001,10.75,0.21078430959246452
+271590,Grand Theft Auto V,complete,,Action,T04,剧情与角色,story_characters,400,51,349,0.1275,51.000001,9.836538000000001,0.19287329033581788
+271590,Grand Theft Auto V,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,51,349,0.1275,51.000001,5.326923,0.10444946854020651
+271590,Grand Theft Auto V,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,51,349,0.1275,51.000001,7.615385,0.14932127158193587
+271590,Grand Theft Auto V,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,51,349,0.1275,51.000001,2.5,0.04901960688196849
+271590,Grand Theft Auto V,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,51,349,0.1275,51.000001,11.490385,0.225301662248987
+275850,No Man's Sky,complete,,Adventure,T01,玩法与机制,gameplay_mechanics,400,147,253,0.3675,147.000003,31.059433,0.21128865555193221
+275850,No Man's Sky,complete,,Adventure,T02,操作、难度与平衡,controls_difficulty,400,147,253,0.3675,147.000003,2.621429,0.01783284997620034
+275850,No Man's Sky,complete,,Adventure,T03,性能、稳定性与故障,performance_stability,400,147,253,0.3675,147.000003,13.226189999999999,0.08997407979644735
+275850,No Man's Sky,complete,,Adventure,T04,剧情与角色,story_characters,400,147,253,0.3675,147.000003,17.881684999999997,0.12164411316372557
+275850,No Man's Sky,complete,,Adventure,T05,画面、美术、音乐与音效,audiovisual,400,147,253,0.3675,147.000003,28.160348,0.1915669892877485
+275850,No Man's Sky,complete,,Adventure,T06,联机、匹配、作弊与社区,multiplayer_community,400,147,253,0.3675,147.000003,5.817857,0.03957725769570223
+275850,No Man's Sky,complete,,Adventure,T07,价格、付费与 DLC 收费,price_monetization,400,147,253,0.3675,147.000003,8.952290000000001,0.060899930729933396
+275850,No Man's Sky,complete,,Adventure,T08,内容量、重玩、MOD 与更新维护,content_support,400,147,253,0.3675,147.000003,39.280771,0.26721612379831045
+289070,Sid Meier's Civilization VI,complete,,Strategy,T01,玩法与机制,gameplay_mechanics,400,85,315,0.2125,85.0,15.935714,0.18747898823529413
+289070,Sid Meier's Civilization VI,complete,,Strategy,T02,操作、难度与平衡,controls_difficulty,400,85,315,0.2125,85.0,9.383333,0.11039215294117648
+289070,Sid Meier's Civilization VI,complete,,Strategy,T03,性能、稳定性与故障,performance_stability,400,85,315,0.2125,85.0,9.409524,0.11070028235294117
+289070,Sid Meier's Civilization VI,complete,,Strategy,T04,剧情与角色,story_characters,400,85,315,0.2125,85.0,6.559524,0.0771708705882353
+289070,Sid Meier's Civilization VI,complete,,Strategy,T05,画面、美术、音乐与音效,audiovisual,400,85,315,0.2125,85.0,9.309524,0.10952381176470588
+289070,Sid Meier's Civilization VI,complete,,Strategy,T06,联机、匹配、作弊与社区,multiplayer_community,400,85,315,0.2125,85.0,9.833333,0.11568627058823529
+289070,Sid Meier's Civilization VI,complete,,Strategy,T07,价格、付费与 DLC 收费,price_monetization,400,85,315,0.2125,85.0,7.309524000000001,0.08599440000000001
+289070,Sid Meier's Civilization VI,complete,,Strategy,T08,内容量、重玩、MOD 与更新维护,content_support,400,85,315,0.2125,85.0,17.259524,0.20305322352941174
+291550,Brawlhalla,partial,schinese,Fighting,T01,玩法与机制,gameplay_mechanics,350,102,248,0.2914285714285714,102.000001,22.380953,0.21942110569194997
+291550,Brawlhalla,partial,schinese,Fighting,T02,操作、难度与平衡,controls_difficulty,350,102,248,0.2914285714285714,102.000001,7.2380960000000005,0.0709617247944929
+291550,Brawlhalla,partial,schinese,Fighting,T03,性能、稳定性与故障,performance_stability,350,102,248,0.2914285714285714,102.000001,9.55119,0.09363911672902828
+291550,Brawlhalla,partial,schinese,Fighting,T04,剧情与角色,story_characters,350,102,248,0.2914285714285714,102.000001,13.922619,0.1364962633676837
+291550,Brawlhalla,partial,schinese,Fighting,T05,画面、美术、音乐与音效,audiovisual,350,102,248,0.2914285714285714,102.000001,10.116667,0.09918300883153913
+291550,Brawlhalla,partial,schinese,Fighting,T06,联机、匹配、作弊与社区,multiplayer_community,350,102,248,0.2914285714285714,102.000001,26.22619,0.2571195072831421
+291550,Brawlhalla,partial,schinese,Fighting,T07,价格、付费与 DLC 收费,price_monetization,350,102,248,0.2914285714285714,102.000001,1.85,0.018137254724144562
+291550,Brawlhalla,partial,schinese,Fighting,T08,内容量、重玩、MOD 与更新维护,content_support,350,102,248,0.2914285714285714,102.000001,10.714286,0.10504201857801942
+292030,The Witcher 3: Wild Hunt,complete,,RPG,T01,玩法与机制,gameplay_mechanics,400,162,238,0.405,162.000001,23.802778000000004,0.14693072748808195
+292030,The Witcher 3: Wild Hunt,complete,,RPG,T02,操作、难度与平衡,controls_difficulty,400,162,238,0.405,162.000001,4.8763890000000005,0.030101166480857002
+292030,The Witcher 3: Wild Hunt,complete,,RPG,T03,性能、稳定性与故障,performance_stability,400,162,238,0.405,162.000001,17.9625,0.11087962894518746
+292030,The Witcher 3: Wild Hunt,complete,,RPG,T04,剧情与角色,story_characters,400,162,238,0.405,162.000001,50.294444999999996,0.31045953512062013
+292030,The Witcher 3: Wild Hunt,complete,,RPG,T05,画面、美术、音乐与音效,audiovisual,400,162,238,0.405,162.000001,28.7,0.1771604927335772
+292030,The Witcher 3: Wild Hunt,complete,,RPG,T06,联机、匹配、作弊与社区,multiplayer_community,400,162,238,0.405,162.000001,3.0749999999999997,0.018981481364311843
+292030,The Witcher 3: Wild Hunt,complete,,RPG,T07,价格、付费与 DLC 收费,price_monetization,400,162,238,0.405,162.000001,4.941667,0.030504117095653597
+292030,The Witcher 3: Wild Hunt,complete,,RPG,T08,内容量、重玩、MOD 与更新维护,content_support,400,162,238,0.405,162.000001,28.347222,0.1749828507717108
+322330,Don't Starve Together,complete,,Survival,T01,玩法与机制,gameplay_mechanics,400,106,294,0.265,106.000002,12.188096,0.11498203556637669
+322330,Don't Starve Together,complete,,Survival,T02,操作、难度与平衡,controls_difficulty,400,106,294,0.265,106.000002,11.702381,0.11039981867170155
+322330,Don't Starve Together,complete,,Survival,T03,性能、稳定性与故障,performance_stability,400,106,294,0.265,106.000002,11.338096,0.10696316779314778
+322330,Don't Starve Together,complete,,Survival,T04,剧情与角色,story_characters,400,106,294,0.265,106.000002,8.226191,0.077605574007442
+322330,Don't Starve Together,complete,,Survival,T05,画面、美术、音乐与音效,audiovisual,400,106,294,0.265,106.000002,10.059524,0.09490116802073267
+322330,Don't Starve Together,complete,,Survival,T06,联机、匹配、作弊与社区,multiplayer_community,400,106,294,0.265,106.000002,29.133333,0.27484275896523097
+322330,Don't Starve Together,complete,,Survival,T07,价格、付费与 DLC 收费,price_monetization,400,106,294,0.265,106.000002,4.533333,0.04276729164590016
+322330,Don't Starve Together,complete,,Survival,T08,内容量、重玩、MOD 与更新维护,content_support,400,106,294,0.265,106.000002,18.819048000000002,0.17753818532946822
+346110,ARK: Survival Evolved,complete,,Survival,T01,玩法与机制,gameplay_mechanics,400,96,304,0.24,96.000001,13.0,0.1354166652560764
+346110,ARK: Survival Evolved,complete,,Survival,T02,操作、难度与平衡,controls_difficulty,400,96,304,0.24,96.000001,3.291667,0.03428819755949794
+346110,ARK: Survival Evolved,complete,,Survival,T03,性能、稳定性与故障,performance_stability,400,96,304,0.24,96.000001,33.391667,0.3478298609601056
+346110,ARK: Survival Evolved,complete,,Survival,T04,剧情与角色,story_characters,400,96,304,0.24,96.000001,3.433334,0.035763895460792755
+346110,ARK: Survival Evolved,complete,,Survival,T05,画面、美术、音乐与音效,audiovisual,400,96,304,0.24,96.000001,9.683333,0.10086805103262446
+346110,ARK: Survival Evolved,complete,,Survival,T06,联机、匹配、作弊与社区,multiplayer_community,400,96,304,0.24,96.000001,11.0,0.11458333213975697
+346110,ARK: Survival Evolved,complete,,Survival,T07,价格、付费与 DLC 收费,price_monetization,400,96,304,0.24,96.000001,3.0333330000000003,0.031597218420862314
+346110,ARK: Survival Evolved,complete,,Survival,T08,内容量、重玩、MOD 与更新维护,content_support,400,96,304,0.24,96.000001,19.166666999999997,0.1996527791702835
+367520,Hollow Knight,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,98,302,0.245,98.0,14.964286,0.15269679591836735
+367520,Hollow Knight,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,98,302,0.245,98.0,15.091269,0.15399254081632655
+367520,Hollow Knight,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,98,302,0.245,98.0,4.111111,0.04195011224489796
+367520,Hollow Knight,complete,,Action,T04,剧情与角色,story_characters,400,98,302,0.245,98.0,11.390873000000001,0.11623339795918368
+367520,Hollow Knight,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,98,302,0.245,98.0,34.521825,0.3522635204081633
+367520,Hollow Knight,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,98,302,0.245,98.0,1.916667,0.019557826530612245
+367520,Hollow Knight,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,98,302,0.245,98.0,2.583333,0.026360540816326532
+367520,Hollow Knight,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,98,302,0.245,98.0,13.420636000000002,0.13694526530612247
+381210,Dead by Daylight,complete,,Horror,T01,玩法与机制,gameplay_mechanics,400,120,280,0.3,120.000002,12.809524,0.1067460315542328
+381210,Dead by Daylight,complete,,Horror,T02,操作、难度与平衡,controls_difficulty,400,120,280,0.3,120.000002,7.995832999999999,0.06663194055613432
+381210,Dead by Daylight,complete,,Horror,T03,性能、稳定性与故障,performance_stability,400,120,280,0.3,120.000002,24.296429,0.2024702382921627
+381210,Dead by Daylight,complete,,Horror,T04,剧情与角色,story_characters,400,120,280,0.3,120.000002,8.725,0.0727083321215278
+381210,Dead by Daylight,complete,,Horror,T05,画面、美术、音乐与音效,audiovisual,400,120,280,0.3,120.000002,2.196429,0.018303574694940424
+381210,Dead by Daylight,complete,,Horror,T06,联机、匹配、作弊与社区,multiplayer_community,400,120,280,0.3,120.000002,37.317263,0.31097718648371353
+381210,Dead by Daylight,complete,,Horror,T07,价格、付费与 DLC 收费,price_monetization,400,120,280,0.3,120.000002,6.116667,0.05097222415046293
+381210,Dead by Daylight,complete,,Horror,T08,内容量、重玩、MOD 与更新维护,content_support,400,120,280,0.3,120.000002,20.542857,0.17119047214682548
+397540,Borderlands 3,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,152,248,0.38,152.000008,20.08889,0.13216374304401352
+397540,Borderlands 3,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,152,248,0.38,152.000008,7.543652,0.049629286861616474
+397540,Borderlands 3,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,152,248,0.38,152.000008,17.253968,0.11351294139405571
+397540,Borderlands 3,complete,,Action,T04,剧情与角色,story_characters,400,152,248,0.38,152.000008,56.332541,0.37060880286269454
+397540,Borderlands 3,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,152,248,0.38,152.000008,7.375,0.048519734288435035
+397540,Borderlands 3,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,152,248,0.38,152.000008,16.322224000000002,0.10738304697983964
+397540,Borderlands 3,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,152,248,0.38,152.000008,10.440874,0.0686899569110549
+397540,Borderlands 3,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,152,248,0.38,152.000008,16.642859,0.10949248765829013
+413150,Stardew Valley,complete,,Simulation,T01,玩法与机制,gameplay_mechanics,400,82,318,0.205,82.0,12.583333,0.15345528048780488
+413150,Stardew Valley,complete,,Simulation,T02,操作、难度与平衡,controls_difficulty,400,82,318,0.205,82.0,1.416667,0.01727642682926829
+413150,Stardew Valley,complete,,Simulation,T03,性能、稳定性与故障,performance_stability,400,82,318,0.205,82.0,0.916667,0.011178865853658536
+413150,Stardew Valley,complete,,Simulation,T04,剧情与角色,story_characters,400,82,318,0.205,82.0,9.916667,0.12093496341463415
+413150,Stardew Valley,complete,,Simulation,T05,画面、美术、音乐与音效,audiovisual,400,82,318,0.205,82.0,24.5,0.29878048780487804
+413150,Stardew Valley,complete,,Simulation,T06,联机、匹配、作弊与社区,multiplayer_community,400,82,318,0.205,82.0,17.833333,0.21747967073170732
+413150,Stardew Valley,complete,,Simulation,T07,价格、付费与 DLC 收费,price_monetization,400,82,318,0.205,82.0,2.583333,0.03150406097560976
+413150,Stardew Valley,complete,,Simulation,T08,内容量、重玩、MOD 与更新维护,content_support,400,82,318,0.205,82.0,12.25,0.14939024390243902
+440900,Conan Exiles,complete,,Survival,T01,玩法与机制,gameplay_mechanics,400,216,184,0.54,216.000007,36.547385,0.16920085099812054
+440900,Conan Exiles,complete,,Survival,T02,操作、难度与平衡,controls_difficulty,400,216,184,0.54,216.000007,7.955808,0.03683244325080045
+440900,Conan Exiles,complete,,Survival,T03,性能、稳定性与故障,performance_stability,400,216,184,0.54,216.000007,64.05378900000001,0.2965453098341798
+440900,Conan Exiles,complete,,Survival,T04,剧情与角色,story_characters,400,216,184,0.54,216.000007,14.219284,0.06583001638513836
+440900,Conan Exiles,complete,,Survival,T05,画面、美术、音乐与音效,audiovisual,400,216,184,0.54,216.000007,15.796777,0.07313322448179364
+440900,Conan Exiles,complete,,Survival,T06,联机、匹配、作弊与社区,multiplayer_community,400,216,184,0.54,216.000007,14.58029,0.06750134040504915
+440900,Conan Exiles,complete,,Survival,T07,价格、付费与 DLC 收费,price_monetization,400,216,184,0.54,216.000007,10.346709,0.04790142900319443
+440900,Conan Exiles,complete,,Survival,T08,内容量、重玩、MOD 与更新维护,content_support,400,216,184,0.54,216.000007,52.499964999999996,0.24305538564172358
+447040,Watch Dogs 2,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,120,280,0.3,120.000001,14.025119999999998,0.11687599902603332
+447040,Watch Dogs 2,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,120,280,0.3,120.000001,4.645,0.03870833301076389
+447040,Watch Dogs 2,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,120,280,0.3,120.000001,26.426666,0.22022221483148155
+447040,Watch Dogs 2,complete,,Action,T04,剧情与角色,story_characters,400,120,280,0.3,120.000001,27.965358000000002,0.2330446480579613
+447040,Watch Dogs 2,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,120,280,0.3,120.000001,15.758453000000001,0.13132044057232967
+447040,Watch Dogs 2,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,120,280,0.3,120.000001,5.10119,0.042509916312417365
+447040,Watch Dogs 2,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,120,280,0.3,120.000001,10.882857,0.09069047424424605
+447040,Watch Dogs 2,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,120,280,0.3,120.000001,15.195357000000001,0.1266279739447669
+489830,The Elder Scrolls V: Skyrim Special Edition,complete,,RPG,T01,玩法与机制,gameplay_mechanics,400,121,279,0.3025,121.000005,14.57536,0.12045751568357373
+489830,The Elder Scrolls V: Skyrim Special Edition,complete,,RPG,T02,操作、难度与平衡,controls_difficulty,400,121,279,0.3025,121.000005,5.160676,0.04265021311362755
+489830,The Elder Scrolls V: Skyrim Special Edition,complete,,RPG,T03,性能、稳定性与故障,performance_stability,400,121,279,0.3025,121.000005,16.277311,0.1345232258461477
+489830,The Elder Scrolls V: Skyrim Special Edition,complete,,RPG,T04,剧情与角色,story_characters,400,121,279,0.3025,121.000005,20.753269,0.17151461274733004
+489830,The Elder Scrolls V: Skyrim Special Edition,complete,,RPG,T05,画面、美术、音乐与音效,audiovisual,400,121,279,0.3025,121.000005,15.827693,0.13080737476002582
+489830,The Elder Scrolls V: Skyrim Special Edition,complete,,RPG,T06,联机、匹配、作弊与社区,multiplayer_community,400,121,279,0.3025,121.000005,4.684096,0.03871153559043242
+489830,The Elder Scrolls V: Skyrim Special Edition,complete,,RPG,T07,价格、付费与 DLC 收费,price_monetization,400,121,279,0.3025,121.000005,5.327343,0.04402762627985015
+489830,The Elder Scrolls V: Skyrim Special Edition,complete,,RPG,T08,内容量、重玩、MOD 与更新维护,content_support,400,121,279,0.3025,121.000005,38.394256999999996,0.31730789597901254
+504230,Celeste,complete,,Platformer,T01,玩法与机制,gameplay_mechanics,400,137,263,0.3425,136.999998,17.093056,0.12476683393820195
+504230,Celeste,complete,,Platformer,T02,操作、难度与平衡,controls_difficulty,400,137,263,0.3425,136.999998,36.179165,0.2640815002055693
+504230,Celeste,complete,,Platformer,T03,性能、稳定性与故障,performance_stability,400,137,263,0.3425,136.999998,5.111111,0.037307380106677085
+504230,Celeste,complete,,Platformer,T04,剧情与角色,story_characters,400,137,263,0.3425,136.999998,25.966665,0.18953770349690077
+504230,Celeste,complete,,Platformer,T05,画面、美术、音乐与音效,audiovisual,400,137,263,0.3425,136.999998,27.508333,0.20079075475606942
+504230,Celeste,complete,,Platformer,T06,联机、匹配、作弊与社区,multiplayer_community,400,137,263,0.3425,136.999998,5.0,0.03649635089775695
+504230,Celeste,complete,,Platformer,T07,价格、付费与 DLC 收费,price_monetization,400,137,263,0.3425,136.999998,2.3888890000000003,0.017437146239958342
+504230,Celeste,complete,,Platformer,T08,内容量、重玩、MOD 与更新维护,content_support,400,137,263,0.3425,136.999998,17.752779,0.12958233035886613
+534380,Dying Light 2,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,178,222,0.445,178.0,23.138292999999997,0.12999041011235954
+534380,Dying Light 2,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,178,222,0.445,178.0,7.4448419999999995,0.04182495505617977
+534380,Dying Light 2,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,178,222,0.445,178.0,24.383929,0.13698836516853932
+534380,Dying Light 2,complete,,Action,T04,剧情与角色,story_characters,400,178,222,0.445,178.0,50.102776000000006,0.2814762696629214
+534380,Dying Light 2,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,178,222,0.445,178.0,17.261508,0.09697476404494382
+534380,Dying Light 2,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,178,222,0.445,178.0,14.374604,0.080756202247191
+534380,Dying Light 2,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,178,222,0.445,178.0,9.817063,0.05515203932584269
+534380,Dying Light 2,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,178,222,0.445,178.0,31.476985,0.17683699438202247
+582010,Monster Hunter: World,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,76,324,0.19,76.000002,17.426751,0.2292993492289645
+582010,Monster Hunter: World,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,76,324,0.19,76.000002,5.117647,0.06733745875427741
+582010,Monster Hunter: World,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,76,324,0.19,76.000002,5.0,0.06578947195290864
+582010,Monster Hunter: World,complete,,Action,T04,剧情与角色,story_characters,400,76,324,0.19,76.000002,11.262325,0.14818848294240836
+582010,Monster Hunter: World,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,76,324,0.19,76.000002,9.408824,0.12380031253157071
+582010,Monster Hunter: World,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,76,324,0.19,76.000002,10.568348,0.1390572068669156
+582010,Monster Hunter: World,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,76,324,0.19,76.000002,7.104762,0.09348370806621821
+582010,Monster Hunter: World,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,76,324,0.19,76.000002,10.111345,0.1330440096567366
+588650,Dead Cells,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,113,287,0.2825,113.0,27.383333,0.24233038053097344
+588650,Dead Cells,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,113,287,0.2825,113.0,16.6,0.14690265486725665
+588650,Dead Cells,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,113,287,0.2825,113.0,8.0,0.07079646017699115
+588650,Dead Cells,complete,,Action,T04,剧情与角色,story_characters,400,113,287,0.2825,113.0,9.966667000000001,0.088200592920354
+588650,Dead Cells,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,113,287,0.2825,113.0,21.625,0.1913716814159292
+588650,Dead Cells,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,113,287,0.2825,113.0,3.133333,0.027728610619469025
+588650,Dead Cells,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,113,287,0.2825,113.0,7.75,0.06858407079646017
+588650,Dead Cells,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,113,287,0.2825,113.0,18.541667,0.16408554867256636
+646570,Slay the Spire,complete,,Strategy,T01,玩法与机制,gameplay_mechanics,400,98,302,0.245,97.999999,27.416666,0.27976190081389696
+646570,Slay the Spire,complete,,Strategy,T02,操作、难度与平衡,controls_difficulty,400,98,302,0.245,97.999999,10.333333,0.10544217454532831
+646570,Slay the Spire,complete,,Strategy,T03,性能、稳定性与故障,performance_stability,400,98,302,0.245,97.999999,3.5,0.035714286078717204
+646570,Slay the Spire,complete,,Strategy,T04,剧情与角色,story_characters,400,98,302,0.245,97.999999,10.958333,0.11181972563081352
+646570,Slay the Spire,complete,,Strategy,T05,画面、美术、音乐与音效,audiovisual,400,98,302,0.245,97.999999,15.875,0.16198979757132445
+646570,Slay the Spire,complete,,Strategy,T06,联机、匹配、作弊与社区,multiplayer_community,400,98,302,0.245,97.999999,5.0,0.05102040868388172
+646570,Slay the Spire,complete,,Strategy,T07,价格、付费与 DLC 收费,price_monetization,400,98,302,0.245,97.999999,10.5,0.1071428582361516
+646570,Slay the Spire,complete,,Strategy,T08,内容量、重玩、MOD 与更新维护,content_support,400,98,302,0.245,97.999999,14.416667,0.1471088484398862
+648800,Raft,complete,,Survival,T01,玩法与机制,gameplay_mechanics,400,115,285,0.2875,115.00000500000002,15.411966999999999,0.1340170985209957
+648800,Raft,complete,,Survival,T02,操作、难度与平衡,controls_difficulty,400,115,285,0.2875,115.00000500000002,4.326924,0.0376254244510685
+648800,Raft,complete,,Survival,T03,性能、稳定性与故障,performance_stability,400,115,285,0.2875,115.00000500000002,16.442308,0.14297658508797453
+648800,Raft,complete,,Survival,T04,剧情与角色,story_characters,400,115,285,0.2875,115.00000500000002,17.500001,0.15217391512287323
+648800,Raft,complete,,Survival,T05,画面、美术、音乐与音效,audiovisual,400,115,285,0.2875,115.00000500000002,6.605556,0.05743961489392978
+648800,Raft,complete,,Survival,T06,联机、匹配、作弊与社区,multiplayer_community,400,115,285,0.2875,115.00000500000002,36.643589000000006,0.31863989049391783
+648800,Raft,complete,,Survival,T07,价格、付费与 DLC 收费,price_monetization,400,115,285,0.2875,115.00000500000002,4.927352,0.042846537267541854
+648800,Raft,complete,,Survival,T08,内容量、重玩、MOD 与更新维护,content_support,400,115,285,0.2875,115.00000500000002,13.142308,0.1142809341616985
+739630,Phasmophobia,complete,,Horror,T01,玩法与机制,gameplay_mechanics,400,103,297,0.2575,103.0,7.033334,0.06828479611650486
+739630,Phasmophobia,complete,,Horror,T02,操作、难度与平衡,controls_difficulty,400,103,297,0.2575,103.0,7.683333,0.07459546601941748
+739630,Phasmophobia,complete,,Horror,T03,性能、稳定性与故障,performance_stability,400,103,297,0.2575,103.0,14.9,0.14466019417475728
+739630,Phasmophobia,complete,,Horror,T04,剧情与角色,story_characters,400,103,297,0.2575,103.0,4.916667,0.04773463106796117
+739630,Phasmophobia,complete,,Horror,T05,画面、美术、音乐与音效,audiovisual,400,103,297,0.2575,103.0,1.833333,0.017799349514563106
+739630,Phasmophobia,complete,,Horror,T06,联机、匹配、作弊与社区,multiplayer_community,400,103,297,0.2575,103.0,45.749999,0.44417474757281555
+739630,Phasmophobia,complete,,Horror,T07,价格、付费与 DLC 收费,price_monetization,400,103,297,0.2575,103.0,0.333334,0.0032362524271844664
+739630,Phasmophobia,complete,,Horror,T08,内容量、重玩、MOD 与更新维护,content_support,400,103,297,0.2575,103.0,20.55,0.19951456310679613
+813780,Age of Empires II: Definitive Edition,complete,,Strategy,T01,玩法与机制,gameplay_mechanics,400,84,316,0.21,84.0,10.066666999999999,0.1198412738095238
+813780,Age of Empires II: Definitive Edition,complete,,Strategy,T02,操作、难度与平衡,controls_difficulty,400,84,316,0.21,84.0,3.333333,0.03968253571428572
+813780,Age of Empires II: Definitive Edition,complete,,Strategy,T03,性能、稳定性与故障,performance_stability,400,84,316,0.21,84.0,22.683333,0.2700396785714286
+813780,Age of Empires II: Definitive Edition,complete,,Strategy,T04,剧情与角色,story_characters,400,84,316,0.21,84.0,10.866667,0.12936508333333332
+813780,Age of Empires II: Definitive Edition,complete,,Strategy,T05,画面、美术、音乐与音效,audiovisual,400,84,316,0.21,84.0,11.416667,0.13591270238095238
+813780,Age of Empires II: Definitive Edition,complete,,Strategy,T06,联机、匹配、作弊与社区,multiplayer_community,400,84,316,0.21,84.0,8.683333000000001,0.10337301190476192
+813780,Age of Empires II: Definitive Edition,complete,,Strategy,T07,价格、付费与 DLC 收费,price_monetization,400,84,316,0.21,84.0,2.75,0.03273809523809524
+813780,Age of Empires II: Definitive Edition,complete,,Strategy,T08,内容量、重玩、MOD 与更新维护,content_support,400,84,316,0.21,84.0,14.2,0.16904761904761903
+976730,Halo: The Master Chief Collection,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,131,269,0.3275,131.0,21.307575999999997,0.16265325190839694
+976730,Halo: The Master Chief Collection,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,131,269,0.3275,131.0,7.807575999999999,0.059599816793893125
+976730,Halo: The Master Chief Collection,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,131,269,0.3275,131.0,31.356818,0.23936502290076336
+976730,Halo: The Master Chief Collection,complete,,Action,T04,剧情与角色,story_characters,400,131,269,0.3275,131.0,23.483333000000002,0.17926208396946566
+976730,Halo: The Master Chief Collection,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,131,269,0.3275,131.0,7.8901520000000005,0.0602301679389313
+976730,Halo: The Master Chief Collection,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,131,269,0.3275,131.0,7.0454550000000005,0.05378209923664123
+976730,Halo: The Master Chief Collection,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,131,269,0.3275,131.0,8.911363999999999,0.06802567938931296
+976730,Halo: The Master Chief Collection,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,131,269,0.3275,131.0,23.197726,0.1770818778625954
+1086940,Baldur's Gate 3,complete,,RPG,T01,玩法与机制,gameplay_mechanics,400,107,293,0.2675,107.0,15.393407999999997,0.14386362616822426
+1086940,Baldur's Gate 3,complete,,RPG,T02,操作、难度与平衡,controls_difficulty,400,107,293,0.2675,107.0,3.0554029999999996,0.02855516822429906
+1086940,Baldur's Gate 3,complete,,RPG,T03,性能、稳定性与故障,performance_stability,400,107,293,0.2675,107.0,1.6,0.014953271028037384
+1086940,Baldur's Gate 3,complete,,RPG,T04,剧情与角色,story_characters,400,107,293,0.2675,107.0,33.888636,0.31671622429906543
+1086940,Baldur's Gate 3,complete,,RPG,T05,画面、美术、音乐与音效,audiovisual,400,107,293,0.2675,107.0,24.237344,0.22651723364485982
+1086940,Baldur's Gate 3,complete,,RPG,T06,联机、匹配、作弊与社区,multiplayer_community,400,107,293,0.2675,107.0,7.317589999999999,0.06838869158878504
+1086940,Baldur's Gate 3,complete,,RPG,T07,价格、付费与 DLC 收费,price_monetization,400,107,293,0.2675,107.0,5.009722,0.04681983177570093
+1086940,Baldur's Gate 3,complete,,RPG,T08,内容量、重玩、MOD 与更新维护,content_support,400,107,293,0.2675,107.0,16.497897000000002,0.15418595327102805
+1091500,Cyberpunk 2077,complete,,RPG,T01,玩法与机制,gameplay_mechanics,400,116,284,0.29,115.999999,8.397457,0.07239187131372302
+1091500,Cyberpunk 2077,complete,,RPG,T02,操作、难度与平衡,controls_difficulty,400,116,284,0.29,115.999999,4.962121,0.042776905541180216
+1091500,Cyberpunk 2077,complete,,RPG,T03,性能、稳定性与故障,performance_stability,400,116,284,0.29,115.999999,15.4375,0.13308189769898188
+1091500,Cyberpunk 2077,complete,,RPG,T04,剧情与角色,story_characters,400,116,284,0.29,115.999999,29.533008,0.25459489874650776
+1091500,Cyberpunk 2077,complete,,RPG,T05,画面、美术、音乐与音效,audiovisual,400,116,284,0.29,115.999999,18.14421,0.15641560479668626
+1091500,Cyberpunk 2077,complete,,RPG,T06,联机、匹配、作弊与社区,multiplayer_community,400,116,284,0.29,115.999999,4.1875,0.03609913824223395
+1091500,Cyberpunk 2077,complete,,RPG,T07,价格、付费与 DLC 收费,price_monetization,400,116,284,0.29,115.999999,6.719697,0.057928422913176056
+1091500,Cyberpunk 2077,complete,,RPG,T08,内容量、重玩、MOD 与更新维护,content_support,400,116,284,0.29,115.999999,28.618506,0.24671126074751087
+1144200,Ready or Not,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,111,289,0.2775,111.000005,12.53837,0.11295828320007734
+1144200,Ready or Not,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,111,289,0.2775,111.000005,8.768499,0.0789954829281314
+1144200,Ready or Not,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,111,289,0.2775,111.000005,25.318224999999998,0.22809210684269787
+1144200,Ready or Not,complete,,Action,T04,剧情与角色,story_characters,400,111,289,0.2775,111.000005,9.555129,0.0860822393656649
+1144200,Ready or Not,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,111,289,0.2775,111.000005,8.038461999999999,0.07241857331447867
+1144200,Ready or Not,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,111,289,0.2775,111.000005,18.520696,0.16685310960121127
+1144200,Ready or Not,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,111,289,0.2775,111.000005,5.385715,0.048519952769371495
+1144200,Ready or Not,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,111,289,0.2775,111.000005,22.874909000000002,0.20608025197836705
+1145360,Hades,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,140,260,0.35,140.000002,31.188462,0.2227747253889325
+1145360,Hades,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,140,260,0.35,140.000002,7.491666,0.0535118992355443
+1145360,Hades,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,140,260,0.35,140.000002,0.75,0.005357142780612246
+1145360,Hades,complete,,Action,T04,剧情与角色,story_characters,400,140,260,0.35,140.000002,40.142307,0.2867307601895606
+1145360,Hades,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,140,260,0.35,140.000002,29.415386,0.21010989699843005
+1145360,Hades,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,140,260,0.35,140.000002,3.2884629999999997,0.023489021093013984
+1145360,Hades,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,140,260,0.35,140.000002,8.408334,0.06005952771343532
+1145360,Hades,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,140,260,0.35,140.000002,19.315384,0.13796702660047105
+1172470,Apex Legends,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,90,310,0.225,90.0,12.833333,0.14259258888888887
+1172470,Apex Legends,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,90,310,0.225,90.0,6.666667,0.07407407777777777
+1172470,Apex Legends,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,90,310,0.225,90.0,33.791667000000004,0.37546296666666673
+1172470,Apex Legends,complete,,Action,T04,剧情与角色,story_characters,400,90,310,0.225,90.0,5.825,0.06472222222222222
+1172470,Apex Legends,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,90,310,0.225,90.0,2.3,0.025555555555555554
+1172470,Apex Legends,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,90,310,0.225,90.0,15.833333,0.17592592222222223
+1172470,Apex Legends,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,90,310,0.225,90.0,3.0,0.03333333333333333
+1172470,Apex Legends,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,90,310,0.225,90.0,9.75,0.10833333333333334
+1174180,Red Dead Redemption 2,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,97,303,0.2425,97.000002,9.555953,0.09851497735020666
+1174180,Red Dead Redemption 2,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,97,303,0.2425,97.000002,3.7,0.03814432911042621
+1174180,Red Dead Redemption 2,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,97,303,0.2425,97.000002,5.708333,0.05884879260105582
+1174180,Red Dead Redemption 2,complete,,Action,T04,剧情与角色,story_characters,400,97,303,0.2425,97.000002,28.989286,0.2988586123946678
+1174180,Red Dead Redemption 2,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,97,303,0.2425,97.000002,29.125,0.30025772576788196
+1174180,Red Dead Redemption 2,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,97,303,0.2425,97.000002,5.125,0.05283505045700927
+1174180,Red Dead Redemption 2,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,97,303,0.2425,97.000002,1.041667,0.010738834830127117
+1174180,Red Dead Redemption 2,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,97,303,0.2425,97.000002,13.754763,0.1418016774886252
+1203220,NARAKA: BLADEPOINT,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,117,283,0.2925,117.000003,22.282937,0.19045244810805687
+1203220,NARAKA: BLADEPOINT,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,117,283,0.2925,117.000003,9.702380999999999,0.08292633120701713
+1203220,NARAKA: BLADEPOINT,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,117,283,0.2925,117.000003,30.166666,0.2578347455256048
+1203220,NARAKA: BLADEPOINT,complete,,Action,T04,剧情与角色,story_characters,400,117,283,0.2925,117.000003,8.290477,0.07085877596088608
+1203220,NARAKA: BLADEPOINT,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,117,283,0.2925,117.000003,19.125794,0.16346832059482938
+1203220,NARAKA: BLADEPOINT,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,117,283,0.2925,117.000003,5.4043660000000004,0.046191161208773646
+1203220,NARAKA: BLADEPOINT,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,117,283,0.2925,117.000003,2.871429,0.02454212757584288
+1203220,NARAKA: BLADEPOINT,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,117,283,0.2925,117.000003,19.155953,0.16372608981898915
+1245620,Elden Ring,complete,,RPG,T01,玩法与机制,gameplay_mechanics,400,88,312,0.22,88.000001,13.141024999999999,0.14932982784852467
+1245620,Elden Ring,complete,,RPG,T02,操作、难度与平衡,controls_difficulty,400,88,312,0.22,88.000001,9.858975000000001,0.1120338055450704
+1245620,Elden Ring,complete,,RPG,T03,性能、稳定性与故障,performance_stability,400,88,312,0.22,88.000001,5.0,0.05681818117252067
+1245620,Elden Ring,complete,,RPG,T04,剧情与角色,story_characters,400,88,312,0.22,88.000001,12.032051000000001,0.1367278507190017
+1245620,Elden Ring,complete,,RPG,T05,画面、美术、音乐与音效,audiovisual,400,88,312,0.22,88.000001,23.012819999999998,0.2615093152101214
+1245620,Elden Ring,complete,,RPG,T06,联机、匹配、作弊与社区,multiplayer_community,400,88,312,0.22,88.000001,6.288462,0.07145979464250234
+1245620,Elden Ring,complete,,RPG,T07,价格、付费与 DLC 收费,price_monetization,400,88,312,0.22,88.000001,5.5,0.062499999289772734
+1245620,Elden Ring,complete,,RPG,T08,内容量、重玩、MOD 与更新维护,content_support,400,88,312,0.22,88.000001,13.166668000000001,0.14962122557248608
+1426210,It Takes Two,complete,,Adventure,T01,玩法与机制,gameplay_mechanics,400,125,275,0.3125,125.00000299999999,7.770834999999999,0.062166678507999715
+1426210,It Takes Two,complete,,Adventure,T02,操作、难度与平衡,controls_difficulty,400,125,275,0.3125,125.00000299999999,3.895834,0.03116667125199989
+1426210,It Takes Two,complete,,Adventure,T03,性能、稳定性与故障,performance_stability,400,125,275,0.3125,125.00000299999999,7.541667,0.060333334551999976
+1426210,It Takes Two,complete,,Adventure,T04,剧情与角色,story_characters,400,125,275,0.3125,125.00000299999999,23.916667,0.19133333140800007
+1426210,It Takes Two,complete,,Adventure,T05,画面、美术、音乐与音效,audiovisual,400,125,275,0.3125,125.00000299999999,26.541667,0.21233333090400008
+1426210,It Takes Two,complete,,Adventure,T06,联机、匹配、作弊与社区,multiplayer_community,400,125,275,0.3125,125.00000299999999,46.645832999999996,0.37316665504400026
+1426210,It Takes Two,complete,,Adventure,T07,价格、付费与 DLC 收费,price_monetization,400,125,275,0.3125,125.00000299999999,0.875,0.006999999832000004
+1426210,It Takes Two,complete,,Adventure,T08,内容量、重玩、MOD 与更新维护,content_support,400,125,275,0.3125,125.00000299999999,7.8125,0.06249999850000004
+1517290,Battlefield 2042,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,133,267,0.3325,133.000002,22.740873999999998,0.17098401246640582
+1517290,Battlefield 2042,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,133,267,0.3325,133.000002,5.103968,0.038375698671042124
+1517290,Battlefield 2042,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,133,267,0.3325,133.000002,48.078572,0.36149301712040577
+1517290,Battlefield 2042,complete,,Action,T04,剧情与角色,story_characters,400,133,267,0.3325,133.000002,8.141667,0.06121554043284902
+1517290,Battlefield 2042,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,133,267,0.3325,133.000002,6.35,0.047744360184295336
+1517290,Battlefield 2042,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,133,267,0.3325,133.000002,7.25,0.054511277375770266
+1517290,Battlefield 2042,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,133,267,0.3325,133.000002,11.166667,0.0839599009930842
+1517290,Battlefield 2042,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,133,267,0.3325,133.000002,24.168254000000005,0.18171619275614753
+1623730,Palworld,complete,,Survival,T01,玩法与机制,gameplay_mechanics,400,100,300,0.25,99.999999,30.333332,0.3033333230333332
+1623730,Palworld,complete,,Survival,T02,操作、难度与平衡,controls_difficulty,400,100,300,0.25,99.999999,1.583334,0.0158333401583334
+1623730,Palworld,complete,,Survival,T03,性能、稳定性与故障,performance_stability,400,100,300,0.25,99.999999,7.6,0.07600000076
+1623730,Palworld,complete,,Survival,T04,剧情与角色,story_characters,400,100,300,0.25,99.999999,14.166668,0.1416666814166668
+1623730,Palworld,complete,,Survival,T05,画面、美术、音乐与音效,audiovisual,400,100,300,0.25,99.999999,13.333333,0.1333333313333333
+1623730,Palworld,complete,,Survival,T06,联机、匹配、作弊与社区,multiplayer_community,400,100,300,0.25,99.999999,13.416666,0.1341666613416666
+1623730,Palworld,complete,,Survival,T07,价格、付费与 DLC 收费,price_monetization,400,100,300,0.25,99.999999,2.916666,0.029166660291666605
+1623730,Palworld,complete,,Survival,T08,内容量、重玩、MOD 与更新维护,content_support,400,100,300,0.25,99.999999,16.65,0.166500001665
+1687950,Persona 5 Royal,complete,,RPG,T01,玩法与机制,gameplay_mechanics,400,98,302,0.245,98.00000399999999,8.630130000000001,0.08806254742601849
+1687950,Persona 5 Royal,complete,,RPG,T02,操作、难度与平衡,controls_difficulty,400,98,302,0.245,98.00000399999999,3.825,0.03903061065181181
+1687950,Persona 5 Royal,complete,,RPG,T03,性能、稳定性与故障,performance_stability,400,98,302,0.245,98.00000399999999,4.883333,0.049829926537554026
+1687950,Persona 5 Royal,complete,,RPG,T04,剧情与角色,story_characters,400,98,302,0.245,98.00000399999999,35.412178,0.36134874035311265
+1687950,Persona 5 Royal,complete,,RPG,T05,画面、美术、音乐与音效,audiovisual,400,98,302,0.245,98.00000399999999,20.9,0.21326529741774297
+1687950,Persona 5 Royal,complete,,RPG,T06,联机、匹配、作弊与社区,multiplayer_community,400,98,302,0.245,98.00000399999999,6.695514,0.06832156863993598
+1687950,Persona 5 Royal,complete,,RPG,T07,价格、付费与 DLC 收费,price_monetization,400,98,302,0.245,98.00000399999999,4.321795,0.04409994717959399
+1687950,Persona 5 Royal,complete,,RPG,T08,内容量、重玩、MOD 与更新维护,content_support,400,98,302,0.245,98.00000399999999,13.332054000000001,0.13604136179423015
+2358720,Black Myth: Wukong,complete,,Action,T01,玩法与机制,gameplay_mechanics,400,124,276,0.31,124.000001,21.428131999999998,0.17280751473542325
+2358720,Black Myth: Wukong,complete,,Action,T02,操作、难度与平衡,controls_difficulty,400,124,276,0.31,124.000001,18.414958,0.14850772460880868
+2358720,Black Myth: Wukong,complete,,Action,T03,性能、稳定性与故障,performance_stability,400,124,276,0.31,124.000001,2.666667,0.02150537885882759
+2358720,Black Myth: Wukong,complete,,Action,T04,剧情与角色,story_characters,400,124,276,0.31,124.000001,27.147800000000004,0.21893386920214625
+2358720,Black Myth: Wukong,complete,,Action,T05,画面、美术、音乐与音效,audiovisual,400,124,276,0.31,124.000001,31.209085,0.25168616732511156
+2358720,Black Myth: Wukong,complete,,Action,T06,联机、匹配、作弊与社区,multiplayer_community,400,124,276,0.31,124.000001,1.625,0.013104838603993238
+2358720,Black Myth: Wukong,complete,,Action,T07,价格、付费与 DLC 收费,price_monetization,400,124,276,0.31,124.000001,5.230072,0.04217799965985484
+2358720,Black Myth: Wukong,complete,,Action,T08,内容量、重玩、MOD 与更新维护,content_support,400,124,276,0.31,124.000001,16.278287,0.13127650700583463

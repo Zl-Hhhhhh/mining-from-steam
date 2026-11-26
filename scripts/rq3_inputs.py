@@ -10,6 +10,7 @@ import json
 import numpy as np
 import pandas as pd
 import analysis_common as common
+import structured_rq_weights as structured
 
 ROOT = Path(__file__).resolve().parents[1]
 TOPICS = tuple(f'T{i:02d}' for i in range(1, 9))
@@ -136,6 +137,17 @@ def load(config_path, root=None):
     derived_window = common_window_mask(master)
     if not np.array_equal(derived_window.to_numpy(), master.in_common_language_window.to_numpy()):
         raise ValueError('Common date-window flags and UTC bounds disagree')
+    if config['topic_version'] == structured.TOPIC_VERSION:
+        reviews, _, variants, _, _, diagnostics = structured.load(paths, master.index, k8_policy)
+        weights = {scope: checked_weights(reviews, scope, master.index) for scope in ('fit', 'all')}
+        weights.update({name: checked_weights(rows, config['primary_scope'], master.index)
+                        for name, rows in variants.items()})
+        by_review = {row['review_id']: row for row in reviews}
+        for field, key in (('confidence', 'confidence'), ('fit_units', 'fit_unit_count'), ('all_units', 'unit_count')):
+            master[field] = [by_review[rid][key] for rid in master.index]
+        diagnostics['script_diagnostic_is_language_identification'] = False
+        return config, master, weights, sources, diagnostics
+
     topic = common.read_json(paths['topic_manifest']); contract = common.read_json(paths['contract'])
     if topic['topic_version'] != config['topic_version'] or contract['topic_version'] != config['topic_version']:
         raise ValueError('Topic version mismatch')

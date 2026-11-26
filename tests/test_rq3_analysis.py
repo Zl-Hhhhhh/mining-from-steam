@@ -6,7 +6,7 @@ import pandas as pd
 from scipy.special import expit
 from threadpoolctl import threadpool_limits
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from rq3_inputs import checked_weights, aggregate_units, common_window_mask, TOPICS
+from rq3_inputs import checked_weights, aggregate_units, common_window_mask, LANGUAGES, TOPICS
 from rq3_statistics import paired_estimate, separation, fit_interaction
 from analyze_rq3 import describe_scenario, variants
 
@@ -76,6 +76,31 @@ class RQ3Tests(unittest.TestCase):
         b=variants(frame.assign(recommend=1-frame.recommend),weights,cfg)['original_same_common_games'][0]
         self.assertEqual(set(frame.loc[a,'appid']),{'a'});self.assertEqual(int(a.sum()),120)
         self.assertTrue(a.equals(b))
+
+    def test_structured_all_on_fit_cohort_preserves_paired_games_and_reviews(self):
+        n = 120
+        frame = pd.DataFrame({'appid': 'a', 'game': 'Game', 'language': np.repeat(LANGUAGES, 60),
+                              'association_eligible': True, 'in_common_language_window': True,
+                              'is_text_canonical': True, 'one_per_author': True, 'complete_game': True,
+                              'is_short_text': False, 'script_mismatch': False, 'mixed_script': False,
+                              'confidence': 'low', 'recommend': np.arange(n) % 2})
+        all_weights = pd.DataFrame(0., index=frame.index, columns=TOPICS)
+        all_weights['T02'] = 1.
+        fit = all_weights.mul(np.tile(np.arange(60) < 20, 2), axis=0)
+        weights = {key: all_weights for key in ['all', 'no_auxiliary', 'unrestricted_seeds', 'k8_overlap_proxy']}
+        weights['fit'] = fit
+        config = {'primary_scope': 'all', 'minimum_reviews_per_language': 50,
+                  'minimum_topic_reviews_per_language': 20, 'strict_topic_minimum': 30,
+                  'seed': 42, 'bootstrap_replicates': 200}
+        scenarios = variants(frame, weights, config)
+        ids = []
+        for name in ('fit_units', 'all_same_fit_population'):
+            mask, matrix, minimum, topics = scenarios[name]
+            *_, coverage_ids, topic_ids = describe_scenario(name, frame.loc[mask], matrix, minimum, topics, config)
+            self.assertEqual(len(coverage_ids), 120)
+            self.assertEqual(len(topic_ids), 40)
+            ids.append(topic_ids)
+        self.assertTrue(ids[0].equals(ids[1]))
 
     def test_interaction_direct_contrast_equals_chinese_minus_english_log_or(self):
         rng=np.random.default_rng(2504);n=1600
