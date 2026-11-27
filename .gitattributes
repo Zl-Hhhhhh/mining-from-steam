@@ -1,7 +1,6 @@
 # Task10 fixed inputs, cache and evidence must keep their checksummed bytes.
 /.gitattributes -text
-/task10/README.md -text
-/docs/task10-bge-m3.md -text
+/docs/task10-bge-m3.md -text whitespace=trailing-space,space-before-tab,cr-at-eol
 /data/derived/embedding-bge/** -text
 /output/embedding-bge/** -text
 /output/clustering-bge/** -text
@@ -13,8 +12,7 @@
 /config/clustering_bge.json -text
 /tests/test_embedding_bge_pipeline.py -text
 /requirements-embedding-lock.txt -text
-/requirements-clustering.txt -text
-/docs/embedding-bge.md -text
+/docs/embedding-bge.md -text whitespace=trailing-space,space-before-tab,cr-at-eol
 /docs/task10-handoff-status.md -text
 /docs/task10-handoff-status.html -text
 /output/embedding-bge/**/*.npy -diff
@@ -59,10 +57,10 @@
 /scripts/structured_rq_weights.py -text
 /tests/test_rq3_analysis.py -text
 /docs/rq3-exploratory.md -text
-/requirements-rq3-lock.txt -text
 /output/rq3/** -text
 /output/rq3/**/*.png -diff
 # RQ2/RQ4 exploratory results retain the bytes recorded in the analysis manifest.
+/requirements.txt text eol=lf
 /scripts/analyze_rq2_rq4.py -text
 /scripts/rq24_inputs.py -text
 /scripts/rq24_models.py -text

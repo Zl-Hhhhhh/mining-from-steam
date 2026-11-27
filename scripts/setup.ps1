@@ -20,10 +20,8 @@ if (-not $SkipGitHub) {
         & git -C external/download-steam-reviews checkout --detach $sources.github.commit
         if ($LASTEXITCODE -ne 0) { throw 'Pinned GitHub revision checkout failed.' }
     }
-    & ./.venv/Scripts/python.exe -m pip install ./external/download-steam-reviews
+    & ./.venv/Scripts/python.exe -m pip install --constraint requirements.txt ./external/download-steam-reviews
     if ($LASTEXITCODE -ne 0) { throw 'steamreviews installation failed.' }
     & git -C external/download-steam-reviews rev-parse HEAD | Set-Content -Encoding utf8 external/steamreviews-commit.txt
-    $frozenPackages = & ./.venv/Scripts/python.exe -m pip freeze
-    $frozenPackages -replace '^steamreviews @.*$', 'steamreviews==0.9.6.1' | Set-Content -Encoding utf8 requirements-lock.txt
 }
 Write-Output 'Setup complete. Run ./.venv/Scripts/python.exe scripts/steam_data.py collect'

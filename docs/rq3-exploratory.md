@@ -46,15 +46,15 @@
 
 ## 复现入口
 
-建议使用 Python 3.12；在仓库根目录或附带输入快照的交付包根目录：
+日常复现使用 `requirements.txt` 对应的项目环境。在仓库根目录运行以下命令。
 
 ```powershell
-python -m venv .venv-rq3
-.\.venv-rq3\Scripts\python.exe -m pip install -r requirements-rq3-lock.txt
-.\.venv-rq3\Scripts\python.exe -B scripts/analyze_rq3.py --verify-output
-.\.venv-rq3\Scripts\python.exe -B scripts/analyze_rq3.py --output output/rq3/reproduced
-.\.venv-rq3\Scripts\python.exe -B -m unittest discover -s tests -p test_rq3_analysis.py -v
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup-local.ps1
+.\.venv\Scripts\python.exe -B scripts/analyze_rq3.py --output output/rq3/reproduced
+.\.venv\Scripts\python.exe -B -m unittest discover -s tests -p test_rq3_analysis.py -v
 ```
+
+核对 2026-11-18 报告记录的生成脚本哈希时，在 Windows 上以 `core.autocrlf=true` 检出 Git 提交 `34c28fe`，再运行 `python -B scripts/analyze_rq3.py --verify-output`。该提交包含原 Python 3.12 锁定清单 `requirements-rq3-lock.txt`，其中 `cloudpickle`、`narwhals` 和 `wrapt` 的版本与当前项目环境不同。
 
 未生成过结果时可直接运行 `python scripts/analyze_rq3.py`；已有结果不覆盖，重新计算须另给输出目录。运行时限制为2个数值计算线程。
 

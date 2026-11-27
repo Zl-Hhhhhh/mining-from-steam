@@ -44,7 +44,7 @@
 
 ## 运行与缓存
 
-在仓库根目录运行。实际编码使用现有 Python 3.12 编码环境；下例 `.venv-topic` 代表已安装锁定依赖的环境。`verify` 只需要 NumPy，无需模型权重、Torch 或 GPU。
+在仓库根目录运行。实际编码使用 [BGE 编码环境安装说明](embedding-bge.md#确需重新编码时)中的 Python 3.12 `.venv-topic`。`verify` 只需要 NumPy，也可以用安装了 `requirements.txt` 的 `.venv` 运行。
 
 ```powershell
 .\.venv-topic\Scripts\python.exe -B scripts/embedding_bge_sentences.py preflight

@@ -69,7 +69,7 @@
 
 K8 与开放全部候选主题的对照只重判新版中保留的历史片段，沿用新版的评论关联和新增片段标签。主题包仍待独立语义复核，权重表示各主题在单条评论中的相对证据贡献。各分析报告的是探索性关联。
 
-在仓库根目录使用 `requirements-analysis.txt` 对应的 Python 环境运行。
+在仓库根目录使用已安装 `requirements.txt` 的 Python 环境运行。
 
 ```powershell
 $version = 'topics-v1-structured-exploratory-20261125'

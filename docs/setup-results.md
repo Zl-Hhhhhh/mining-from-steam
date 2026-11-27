@@ -8,7 +8,7 @@
 - Git 2.53.0.windows.1。
 - GitHub 工具：[`woctezuma/download-steam-reviews`](https://github.com/woctezuma/download-steam-reviews)，包版本 0.9.6.1，MIT。
 - 源码 commit：`27adb12737b2169117dfddd9092e3dc6f5934307`，下载至 `external/download-steam-reviews/`。
-- 所需依赖已安装，版本在 `requirements-lock.txt`。官方采集器自身仅使用 Python 标准库。
+- 采集器的固定依赖版本已并入 `requirements.txt`。官方采集器自身仅使用 Python 标准库。
 
 ## Steam 官方接口：CS2 / 730
 

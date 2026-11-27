@@ -6,9 +6,32 @@ AIAA3111 课程项目：通过 Steam 官方接口、GitHub 开源工具和研究
 
 ## Task10：共享多语言Embedding与聚类（2026-11-13目录整合）
 
-先读[完整目录与运行说明](docs/embedding-bge.md)、[逐项交付状态](docs/task10-handoff-status.md)或[简要索引](docs/task10-bge-m3.md)。代码/配置归入scripts与config，规范化输入归入data/derived/embedding-bge，19392条实际向量与15组聚类候选分别归入output/embedding-bge和output/clustering-bge。
+Task10 已交付 19,392 条 BGE-M3 向量和 15 组聚类候选。现有模型、向量和历史结果沿用已交付版本。[完整目录与运行说明](docs/embedding-bge.md) · [逐项交付状态](docs/task10-handoff-status.md) · [简要索引](docs/task10-bge-m3.md)
 
-[交互聚类报告](output/clustering-bge/freeze_20261101-v1/report.html)下载到本地后用Edge/Chrome打开。原[task10/](task10/README.md)保留迁移索引。现有模型、向量及历史结果沿用已交付版本；Task11后续进度见下节。
+将[交互聚类报告](output/clustering-bge/freeze_20261101-v1/report.html)下载到本地后，可用 Edge 或 Chrome 打开。主题核验与裁决进度见下节。
+
+### 旧目录迁移与复现
+
+| 旧入口 | 当前入口 |
+| --- | --- |
+| `code/task10.py` | [scripts/embedding_bge.py](scripts/embedding_bge.py) |
+| `code/cluster_bge_portable.py` | [scripts/cluster_bge.py](scripts/cluster_bge.py) |
+| `code/export_review_status.py` | [scripts/export_bge_review_status.py](scripts/export_bge_review_status.py) |
+| `config/` | [编码配置](config/embedding_bge.json)、[聚类配置](config/clustering_bge.json) |
+| `inputs/` | [规范化输入](data/derived/embedding-bge/freeze_20261101-v1/) |
+| `artifacts/` | [向量缓存](output/embedding-bge/freeze_20261101-v1/cache/) |
+| `results/encoding/` | [编码结果](output/embedding-bge/freeze_20261101-v1/) |
+| `results/clustering/` | [聚类结果](output/clustering-bge/freeze_20261101-v1/) |
+| `validation/` | [回归测试](tests/test_embedding_bge_pipeline.py)、[验证记录](output/task10-validation/freeze_20261101-v1/) |
+
+安装项目环境后，在仓库根目录验证向量缓存并重跑聚类。
+
+```powershell
+.\.venv\Scripts\python.exe -B scripts/embedding_bge.py verify
+.\.venv\Scripts\python.exe -B scripts/embedding_bge.py cluster --output output/clustering-bge/my-reproduction
+```
+
+原独立目录见[交付提交 `0f22b97`](https://github.com/Zl-Hhhhhh/mining-from-steam/tree/0f22b97a7c0d1b1766ea449a84e1802017e2837b/task10)。
 
 ## Task11：双人核验与裁决（2026-11-14）
 
@@ -45,22 +68,21 @@ A/B的300条标注和30组命名已导入[docs/review/](docs/review/README.md)�
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup-local.ps1
 .\.venv\Scripts\python.exe -m pip check
-.\.venv\Scripts\python.exe -X utf8 -m unittest discover -s tests -v
 ```
 
-新入口会查找 Python 3.13 并创建隔离环境，按 `requirements-local-lock.txt` 安装采集、分析及其间接依赖；已有环境会复用。也可以传入 `-PythonExecutable 'C:\path\to\python.exe'`。直接调用上述解释器即可，无需激活或修改全局 PATH。详细使用方法、Task10 检查命令及可选编码依赖见[本机独立环境说明](docs/local-environment.md)。
+脚本会查找 Python 3.13，创建或复用 `.venv`，并按 `requirements.txt` 安装采集、分析和缓存聚类的固定版本。也可以传入 `-PythonExecutable 'C:\path\to\python.exe'`。需要重新编码 BGE 向量时，使用单独的 `requirements-embedding-lock.txt`。安装细节见[本机独立环境说明](docs/local-environment.md)。
 
 若需要安装固定 GitHub 提交的原版采集器，继续使用原入口（需要 Git 和 `py` 启动器）：
 
 ```powershell
 ./scripts/setup.ps1
 # 若使用其他 Python 版本：
-./scripts/setup.ps1 -PythonVersion 3.11
+./scripts/setup.ps1 -PythonVersion 3.12
 ```
 
-脚本在项目内创建虚拟环境，将 [GitHub 工具](https://github.com/woctezuma/download-steam-reviews) 下载到 `external/download-steam-reviews` 并安装。源码固定至 `config/sources.json` 中的 commit；依赖快照见 `requirements-lock.txt`。不会自动更新到最新源码。
+脚本将 [GitHub 工具](https://github.com/woctezuma/download-steam-reviews) 下载到 `external/download-steam-reviews`，按 `config/sources.json` 固定源码提交，并使用 `requirements.txt` 约束采集器的依赖版本。
 
-只使用官方采集器无需安装第三方包：`./scripts/setup.ps1 -SkipGitHub`。也可使用 `pip install -r requirements-lock.txt` 从 PyPI 安装相同包版本，但这不代表使用了相同 GitHub 源码提交。
+只使用官方采集器时，运行 `./scripts/setup.ps1 -SkipGitHub` 即可。仅需 PyPI 版 GitHub 采集器时，可在已有环境中运行 `python -m pip install -c requirements.txt steamreviews`。
 
 本项目已实现的接口均无需 key。`.env.example` 仅作未来用户统计接口的配置提示，目前脚本不读取 `.env`。如果需要读取指定玩家的统计、库存或游戏库，仍需分别核实接口权限、key 和玩家隐私设置。
 

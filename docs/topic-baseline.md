@@ -26,7 +26,7 @@
 在仓库根目录执行：
 
 ```powershell
-.\.venv\Scripts\python.exe -m pip install -r requirements-analysis.txt
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -X utf8 scripts\nmf_baseline.py --config config\nmf_baseline_aspect.json
 .\.venv\Scripts\python.exe -X utf8 scripts\report_nmf.py
 .\.venv\Scripts\python.exe -X utf8 -m unittest discover -s tests -v

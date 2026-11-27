@@ -35,18 +35,18 @@ output/clustering-bge/freeze_20261101-v1/
     provisional_assignment_status.csv    全量暂定状态；人工字段为空
 output/task10-validation/freeze_20261101-v1/                              迁移前及迁移后的验证证据
 tests/test_embedding_bge_pipeline.py      缓存复用、恢复/去重/ID和长度检查
-requirements-clustering.txt              复用缓存的聚类依赖
+requirements.txt                         日常分析和缓存聚类依赖
 requirements-embedding-lock.txt          原CPU编码环境依赖快照
 ```
 
-旧[task10/](../task10/README.md)仅保留迁移索引；原独立交付完整保存在[0f22b97提交](https://github.com/Zl-Hhhhhh/mining-from-steam/tree/0f22b97a7c0d1b1766ea449a84e1802017e2837b/task10)。缓存没有在两个活动目录中重复保存。
+旧目录的路径对应表见[仓库 README](../README.md#旧目录迁移与复现)。原独立交付完整保存在[提交 `0f22b97`](https://github.com/Zl-Hhhhhh/mining-from-steam/tree/0f22b97a7c0d1b1766ea449a84e1802017e2837b/task10)。
 
 ## 直接复用缓存
 
-原编码环境Python3.12；验证仅需numpy，重跑聚类安装以下依赖，无需GPU或模型权重：
+验证仅需 NumPy。重跑聚类使用日常分析环境，无需 GPU 或模型权重。
 
 ```powershell
-python -m pip install -r requirements-clustering.txt
+python -m pip install -r requirements.txt
 python -B scripts/embedding_bge.py verify
 python -B scripts/embedding_bge.py cluster --output output/clustering-bge/my-reproduction
 ```
@@ -61,7 +61,7 @@ python -B scripts/export_bge_review_status.py --out output/clustering-bge/status
 python -B -m unittest discover -s tests -p test_embedding_bge_pipeline.py -v
 ```
 
-`export_bge_review_status.py`默认基于已交付的全量KMeans K=10、seed17；不把层次聚类之外的评论当作有标签。已有NMF依赖仍在requirements-analysis.txt，完整回归测试需同时具备该文件所列依赖。
+`export_bge_review_status.py`默认基于已交付的全量KMeans K=10、seed17；不把层次聚类之外的评论当作有标签。`requirements.txt` 也涵盖 NMF 依赖。全量测试命令见[环境验证说明](local-environment.md#验证)。
 
 ## 模型、数据与实验范围
 
@@ -75,12 +75,20 @@ python -B -m unittest discover -s tests -p test_embedding_bge_pipeline.py -v
 
 ## 确需重新编码时
 
-已经有实际缓存，通常直接复用。重新编码另建环境并参考requirements-embedding-lock.txt；CPU版torch需对应CPU包源，原环境快照不保证其他平台逐版本可安装。先保留原缓存与manifest证据，再将原review_vectors.npy移出活动cache目录，随后执行：
+原编码环境使用 Windows x64 和 Python 3.12。在独立环境中先从 PyTorch CPU 软件源安装固定版 `torch`，再安装完整编码依赖。
 
 ```powershell
-python -B scripts/embedding_bge.py download
-python -B scripts/embedding_bge.py encode --offline
-python -B scripts/embedding_bge.py cluster --cluster-config config/clustering_bge_reproduced.json --output output/clustering-bge/new-cache-run
+py -3.12 -m venv .venv-topic
+.\.venv-topic\Scripts\python.exe -m pip install --no-deps --index-url https://download.pytorch.org/whl/cpu 'torch==2.15.0+cpu'
+.\.venv-topic\Scripts\python.exe -m pip install -r requirements-embedding-lock.txt
+```
+
+先保留原缓存和 manifest，再将原 `review_vectors.npy` 移出活动缓存目录，随后运行以下命令。
+
+```powershell
+.\.venv-topic\Scripts\python.exe -B scripts/embedding_bge.py download
+.\.venv-topic\Scripts\python.exe -B scripts/embedding_bge.py encode --offline
+.\.venv-topic\Scripts\python.exe -B scripts/embedding_bge.py cluster --cluster-config config/clustering_bge_reproduced.json --output output/clustering-bge/new-cache-run
 ```
 
 已有向量时encode只校验并复用。权重放在被忽略的.cache-topic/models-bge/，检查点放在.cache-topic/encoding-bge/。编码固定模型修订、精确文本去重、按长度组批（最多8条，4096 padded token预算；单条可到8192），支持恢复并映射全部ID，不静默截断超长输入。新环境数值哈希可能不同，使用新生成的clustering_bge_reproduced.json并另存结果。

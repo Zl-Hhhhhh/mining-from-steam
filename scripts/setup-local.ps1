@@ -38,7 +38,7 @@ if (-not (Test-Path -LiteralPath $venvPython)) {
 
 & $venvPython -c "import site, sys; assert sys.prefix != sys.base_prefix and not site.ENABLE_USER_SITE, 'An isolated virtual environment is required'; print(sys.executable); print(sys.version)"
 if ($LASTEXITCODE -ne 0) { throw 'Virtual environment isolation check failed.' }
-& $venvPython -m pip install --disable-pip-version-check --cache-dir (Join-Path $projectRoot '.cache\pip') -r (Join-Path $projectRoot 'requirements-local-lock.txt')
+& $venvPython -m pip install --disable-pip-version-check --cache-dir (Join-Path $projectRoot '.cache\pip') -r (Join-Path $projectRoot 'requirements.txt')
 if ($LASTEXITCODE -ne 0) { throw 'Project dependency installation failed.' }
 & $venvPython -m pip check
 if ($LASTEXITCODE -ne 0) { throw 'Project dependency check failed.' }

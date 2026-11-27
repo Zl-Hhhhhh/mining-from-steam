@@ -299,7 +299,7 @@ def run(destination, topic_version=inputs.TOPIC_VERSION):
                 "scripts/analyze_rq2_rq4.py", "scripts/rq24_inputs.py", "scripts/rq24_models.py",
                 "scripts/analysis_common.py", "scripts/assign_topics_v1_cluster_derived.py",
                 "scripts/structured_rq_weights.py",
-                "requirements-analysis.txt",
+                "requirements.txt",
             )},
             "outputs_sha256": {p.name: common.sha256(p) for p in sorted(stage.iterdir())},
             "runtime": common.runtime_versions(),
