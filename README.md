@@ -1,6 +1,6 @@
 # mining-from-steam
 
-[RQ1–RQ4 新版主题权重结果](docs/rq1-rq4-summary.md)汇总 2026-11-25 结构化主题权重的主分析、敏感性对照及复现命令。[上一版结果](docs/explore_summary.md)可用于比较。
+[RQ1–RQ4 新版主题权重结果](docs/rq1-rq4-summary.md)汇总 2026-11-25 结构化主题权重的主分析、敏感性对照及复现命令（[上一版结果](docs/explore_summary.md)可用于比较）；可选扩展 [RQ5 可行性审计与推荐标签预测](docs/rq5-exploratory.md)（任务 18–19）及已同步新结果的 [Poster 说明](poster/README.md) 亦已更新。
 
 AIAA3111 课程项目：通过 Steam 官方接口、GitHub 开源工具和研究数据集获取游戏数据。默认目标为 **CS2 / appid 730**。
 

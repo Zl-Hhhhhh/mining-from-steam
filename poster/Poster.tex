@@ -29,7 +29,7 @@
 \node[inner sep=0pt] at (738,65){\includegraphics[height=65mm]{HKUSTGZ-emblem.png}};
 
 \txt{30}{176}{740}{navy}{53}{\bfseries Reviews about technical problems were less likely to recommend}
-\txt{30}{206}{735}{ink}{40}{Content, gameplay and story had the largest topic shares. Compared with gameplay, more emphasis on bugs went with fewer recommendations. More emphasis on visuals or sound went with more. Both patterns held across alternative analyses.}
+\txt{30}{206}{735}{ink}{40}{Content, gameplay and story led topic shares. Compared with gameplay, more emphasis on bugs went with fewer recommendations; visuals \& sound and story went with more. All three held in 14 checks.}
 
 % Aligned measures use the same topic row and different analysis populations.
 \txt{30}{281}{157}{navy}{36}{\bfseries Review topic}
@@ -37,29 +37,30 @@
 \txt{365}{281}{193}{navy}{36}{\bfseries Language gap}
 \txt{564}{281}{205}{navy}{36}{\bfseries Recommendation odds}
 \txt{30}{300}{160}{ink}{29}{By topic weight}
-\txt{203}{300}{155}{ink}{29}{4,218 reviews}
+\txt{203}{300}{155}{ink}{29}{5,301 reviews}
 \txt{365}{300}{191}{ink}{29}{Chinese minus English (pp)}
 \txt{564}{300}{208}{ink}{29}{Ratio [95\% CI]}
 \draw[navy,line width=1.8pt] (30,319)--(770,319);
 \foreach \row/\topic/\share/\gap/\odds/\lo/\hi in {
-  0/{Content \& updates}/20.0/+7.3/0.95/0.91/1.00,
-  1/{Gameplay}/17.1/+0.9/1.00/1.00/1.00,
-  2/{Story \& characters}/16.3/+3.5/1.09/1.04/1.15,
-  3/{Performance \& bugs}/11.7/+11.5/0.75/0.72/0.78,
-  4/{Multiplayer \& community}/11.6/-8.0/1.00/0.95/1.06,
-  5/{Visuals \& sound}/10.4/-8.0/1.32/1.21/1.43,
-  6/{Controls \& difficulty}/8.0/-4.7/0.98/0.94/1.02,
-  7/{Price \& purchases}/4.8/-2.5/0.94/0.89/1.00}{
+  0/{Content \& updates}/17.5/+8.5/0.94/0.90/0.99,
+  1/{Gameplay}/15.4/+2.4/1.00/1.00/1.00,
+  2/{Story \& characters}/15.3/+3.2/1.12/1.06/1.18,
+  3/{Performance \& bugs}/14.2/+15.1/0.75/0.73/0.78,
+  4/{Visuals \& sound}/13.6/-14.0/1.31/1.23/1.40,
+  5/{Multiplayer \& community}/11.5/-9.0/0.97/0.92/1.02,
+  6/{Controls \& difficulty}/7.3/-4.0/0.99/0.95/1.04,
+  7/{Price \& purchases}/5.1/-2.2/0.97/0.93/1.02}{
   \pgfmathsetmacro{\yy}{336+28*\row}
   \def\topicweight{}\def\pointcolor{muted}
+  \ifnum\row=2 \fill[ice] (30,\yy-12) rectangle (770,\yy+12);\def\topicweight{\bfseries}\def\pointcolor{navy}\fi
   \ifnum\row=3 \fill[ice] (30,\yy-12) rectangle (770,\yy+12);\def\topicweight{\bfseries}\def\pointcolor{navy}\fi
-  \ifnum\row=5 \fill[ice] (30,\yy-12) rectangle (770,\yy+12);\def\topicweight{\bfseries}\def\pointcolor{navy}\fi
+  \ifnum\row=4 \fill[ice] (30,\yy-12) rectangle (770,\yy+12);\def\topicweight{\bfseries}\def\pointcolor{navy}\fi
   \markat{33}{\yy}{west}{34}{\topicweight\topic}
   \fill[blue] (203,\yy-2.6) rectangle ({203+4.05*\share},\yy+2.6);
   \markat{335}{\yy}{east}{33}{\share\%}
   \draw[rulegray,line width=1.5pt] (429,\yy-12)--(429,\yy+12);
   \ifdim\gap pt>0pt \def\gapcolor{ochre}\else\def\gapcolor{blue}\fi
-  \fill[\gapcolor] (429,\yy-2.6) rectangle ({429+5.1*(\gap)},\yy+2.6);
+  \fill[\gapcolor] (429,\yy-2.6) rectangle ({429+3.8*(\gap)},\yy+2.6);
   \markat{539}{\yy}{east}{33}{\gap}
   \draw[rulegray,line width=1.5pt] (603,\yy-12)--(603,\yy+12);
   \ifnum\row=1
@@ -71,8 +72,8 @@
   \fi
 }
 \draw[navy,line width=1.4pt] (30,550)--(770,550);
-\txt{30}{563}{350}{ink}{35}{\bfseries Comparing languages.\ \normalfont Gaps show percentage-point differences in topic weight. Each of 43 games counts equally (3,841 reviews).}
-\txt{417}{563}{350}{ink}{35}{\bfseries Comparing votes.\ \normalfont Ratios compare reviews with 10 points more weight on each topic and 10 less on gameplay, adjusting for game, language and playtime (4,156 reviews, 49 games).}
+\txt{30}{563}{350}{ink}{35}{\bfseries Comparing languages.\ \normalfont Gaps show percentage-point differences in topic weight across 47 equal-weight games (5,061 reviews). Bugs, content and visuals held in 14 checks.}
+\txt{417}{563}{350}{ink}{35}{\bfseries Comparing votes.\ \normalfont Ratios compare reviews with 10 points more weight on each topic and 10 less on gameplay, adjusting for game, language and playtime (5,301 reviews, 50 games).}
 
 \fill[ice] (0,632) rectangle (800,806);
 \txt{30}{653}{740}{navy}{46}{\bfseries Recommendation rates peaked in the middle playtime group}
@@ -82,12 +83,12 @@
   \txt{\xx}{720}{120}{navy}{52}{\bfseries \rate\%}
   \txt{\xx}{751}{120}{ink}{29}{Median \hours\ hours}
 }
-\txt{370}{774}{398}{ink}{31}{After multiple testing, no topic clearly varied with playtime.}
+\txt{370}{773}{400}{ink}{29}{High-playtime reviews cited content more (+3.7 pp) and price less (--1.8 pp); attenuated in fit-only weights.}
 
 \txt{30}{830}{346}{navy}{41}{\bfseries How the topics were identified}
-\txt{30}{854}{345}{ink}{36}{We compared word-based NMF with BGE-M3 clustering of 8,979 review fragments. Ten clusters were most stable under resampling. We mapped fragments to eight topics using 37 reference examples.}
+\txt{30}{854}{345}{ink}{36}{We compared word-based NMF with BGE-M3 clustering of 34,491 structured review fragments. Ten clusters were most stable under resampling; 37 reference seeds mapped fragments to eight topics while rejecting generic praise.}
 \txt{416}{830}{354}{navy}{41}{\bfseries Whose reviews are represented?}
-\txt{416}{854}{352}{ink}{36}{Only 21.6\% of 19,486 reviews had usable topic evidence. Across 48 matched games, coverage was 17.9\% for Chinese and 25.2\% for English sources. Some audiovisual labels include general praise.}
+\txt{416}{854}{352}{ink}{36}{Only 27.2\% of 19,486 reviews (5,301) had usable topic evidence. Across 48 matched games, coverage was 24.1\% for Chinese and 30.2\% for English sources. Some audiovisual labels still absorb general praise.}
 \draw[rulegray,line width=1.2pt] (30,952)--(770,952);
 \txt{30}{967}{740}{ink}{29}{Steam user reviews \quad / \quad Group 4 analysis \quad / \quad Exploratory topics, November 2026}
 \end{tikzpicture}

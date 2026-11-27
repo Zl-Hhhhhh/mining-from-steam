@@ -1,0 +1,558 @@
+{
+  "task18_decision": {
+    "selected_task": "recommendation_label_prediction",
+    "rejected_task": "personalized_game_recommendation",
+    "rationale": "Cross-game author overlap is too sparse for personalized recommendation: 98.52% of eligible authors (18727/19008) reviewed only 1 game; only 232 eligible authors (57 with topic evidence) have >=2 distinct recommended games, and unified time-cutoff evaluation leaves fewer than 80 evaluable authors. In contrast, author-grouped recommendation label prediction has 5301 topic-evidenced reviews (5218 authors) and 19395 eligible reviews (19008 authors) with substantial positive and negative class support.",
+    "scope_boundary": "Using review-derived topic weights or playtime at review to predict voted_up is a post-review label prediction task, not pre-purchase recommendation or causal inference."
+  },
+  "cv_design": {
+    "outer_splits": 5,
+    "inner_splits": 3,
+    "seed": 20261127,
+    "bootstrap_reps": 2000,
+    "logreg_c_grid": [
+      0.05,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      5.0
+    ]
+  },
+  "validation": {
+    "review_weights_reaggregated": true,
+    "csv_jsonl_weights_match": true,
+    "master_reviews": 19486,
+    "fit_evidence_reviews": 3996,
+    "all_evidence_reviews": 5301,
+    "unit_confidence_counts": {
+      "low": 33651,
+      "high": 640,
+      "medium": 200
+    },
+    "high_confidence_topics": {
+      "T06": 360,
+      "T02": 280
+    },
+    "k8_proxy_mapping": {
+      "0": {
+        "fit_units": 957,
+        "k10_cluster_counts": {
+          "0": 8,
+          "3": 5,
+          "4": 7,
+          "6": 18,
+          "7": 908,
+          "9": 11
+        },
+        "k10_clusters_used": [
+          "7"
+        ],
+        "policy": {
+          "topic_ids": [
+            "T01",
+            "T02",
+            "T04",
+            "T05",
+            "T08"
+          ],
+          "confidence": "low",
+          "route": "multi_candidate"
+        }
+      },
+      "1": {
+        "fit_units": 770,
+        "k10_cluster_counts": {
+          "0": 79,
+          "2": 655,
+          "3": 1,
+          "5": 31,
+          "8": 4
+        },
+        "k10_clusters_used": [
+          "2"
+        ],
+        "policy": {
+          "topic_ids": [
+            "T03",
+            "T08"
+          ],
+          "confidence": "medium",
+          "route": "multi_candidate"
+        }
+      },
+      "2": {
+        "fit_units": 1076,
+        "k10_cluster_counts": {
+          "0": 13,
+          "1": 3,
+          "3": 887,
+          "4": 118,
+          "6": 8,
+          "7": 41,
+          "9": 6
+        },
+        "k10_clusters_used": [
+          "3"
+        ],
+        "policy": {
+          "topic_ids": [
+            "T01",
+            "T02",
+            "T04",
+            "T05",
+            "T08"
+          ],
+          "confidence": "low",
+          "route": "multi_candidate"
+        }
+      },
+      "3": {
+        "fit_units": 866,
+        "k10_cluster_counts": {
+          "0": 75,
+          "1": 1,
+          "3": 4,
+          "4": 6,
+          "6": 42,
+          "7": 3,
+          "9": 735
+        },
+        "k10_clusters_used": [
+          "9"
+        ],
+        "policy": {
+          "topic_ids": [
+            "T04",
+            "T05"
+          ],
+          "confidence": "medium",
+          "route": "multi_candidate"
+        }
+      },
+      "4": {
+        "fit_units": 390,
+        "k10_cluster_counts": {
+          "0": 1,
+          "1": 381,
+          "2": 1,
+          "3": 1,
+          "4": 4,
+          "6": 2
+        },
+        "k10_clusters_used": [
+          "1"
+        ],
+        "policy": {
+          "topic_ids": [
+            "T06"
+          ],
+          "confidence": "high",
+          "route": "single"
+        }
+      },
+      "5": {
+        "fit_units": 1017,
+        "k10_cluster_counts": {
+          "0": 2,
+          "2": 32,
+          "3": 8,
+          "4": 83,
+          "5": 46,
+          "6": 24,
+          "8": 822
+        },
+        "k10_clusters_used": [
+          "8"
+        ],
+        "policy": {
+          "topic_ids": [
+            "T01",
+            "T02",
+            "T04",
+            "T08"
+          ],
+          "confidence": "low",
+          "route": "multi_candidate"
+        }
+      },
+      "6": {
+        "fit_units": 1004,
+        "k10_cluster_counts": {
+          "0": 31,
+          "1": 2,
+          "2": 11,
+          "4": 13,
+          "5": 770,
+          "6": 171,
+          "8": 5,
+          "9": 1
+        },
+        "k10_clusters_used": [
+          "5"
+        ],
+        "policy": {
+          "topic_ids": [
+            "T01",
+            "T02",
+            "T03",
+            "T04",
+            "T05",
+            "T06",
+            "T07",
+            "T08"
+          ],
+          "confidence": "low",
+          "route": "multi_candidate"
+        }
+      },
+      "7": {
+        "fit_units": 1189,
+        "k10_cluster_counts": {
+          "0": 543,
+          "1": 6,
+          "2": 2,
+          "3": 2,
+          "4": 522,
+          "5": 6,
+          "6": 92,
+          "7": 11,
+          "9": 5
+        },
+        "k10_clusters_used": [
+          "0",
+          "4"
+        ],
+        "policy": {
+          "topic_ids": [
+            "T01",
+            "T07",
+            "T08"
+          ],
+          "confidence": "low",
+          "route": "multi_candidate"
+        }
+      }
+    },
+    "alternative_mapping_scope": "Retained legacy fragments only; structured links and added fragment labels stay fixed.",
+    "legacy_fragments_retained": 7016,
+    "structured_fragments": 34491,
+    "alternative_mapping_uses_outcomes": false,
+    "topic_source": "topics-v1-structured-exploratory-20261125",
+    "primary_scope": "all",
+    "seed_units_excluded_from_annotation_sample": 37,
+    "ordered_review_ids_sha256": "998221842b9e7039d6a500690cf63d217054cf97524ce33c57d424e9d2803035"
+  },
+  "folds": {
+    "topic_evidence::majority_baseline": [
+      {
+        "fold": 0,
+        "best_param": "most_frequent",
+        "n_test": 1060
+      },
+      {
+        "fold": 1,
+        "best_param": "most_frequent",
+        "n_test": 1060
+      },
+      {
+        "fold": 2,
+        "best_param": "most_frequent",
+        "n_test": 1061
+      },
+      {
+        "fold": 3,
+        "best_param": "most_frequent",
+        "n_test": 1061
+      },
+      {
+        "fold": 4,
+        "best_param": "most_frequent",
+        "n_test": 1059
+      }
+    ],
+    "topic_evidence::structured_game_lang": [
+      {
+        "fold": 0,
+        "best_param": "C=5.0",
+        "inner_bal_acc": 0.6948,
+        "n_test": 1060
+      },
+      {
+        "fold": 1,
+        "best_param": "C=0.2",
+        "inner_bal_acc": 0.6986,
+        "n_test": 1060
+      },
+      {
+        "fold": 2,
+        "best_param": "C=1.0",
+        "inner_bal_acc": 0.7077,
+        "n_test": 1061
+      },
+      {
+        "fold": 3,
+        "best_param": "C=0.2",
+        "inner_bal_acc": 0.697,
+        "n_test": 1061
+      },
+      {
+        "fold": 4,
+        "best_param": "C=1.0",
+        "inner_bal_acc": 0.6922,
+        "n_test": 1059
+      }
+    ],
+    "topic_evidence::structured_plus_playtime": [
+      {
+        "fold": 0,
+        "best_param": "C=5.0",
+        "inner_bal_acc": 0.6921,
+        "n_test": 1060
+      },
+      {
+        "fold": 1,
+        "best_param": "C=1.0",
+        "inner_bal_acc": 0.6927,
+        "n_test": 1060
+      },
+      {
+        "fold": 2,
+        "best_param": "C=0.2",
+        "inner_bal_acc": 0.7012,
+        "n_test": 1061
+      },
+      {
+        "fold": 3,
+        "best_param": "C=2.0",
+        "inner_bal_acc": 0.7006,
+        "n_test": 1061
+      },
+      {
+        "fold": 4,
+        "best_param": "C=1.0",
+        "inner_bal_acc": 0.6975,
+        "n_test": 1059
+      }
+    ],
+    "topic_evidence::structured_plus_topics_logreg": [
+      {
+        "fold": 0,
+        "best_param": "C=1.0",
+        "inner_bal_acc": 0.7664,
+        "n_test": 1060
+      },
+      {
+        "fold": 1,
+        "best_param": "C=1.0",
+        "inner_bal_acc": 0.7707,
+        "n_test": 1060
+      },
+      {
+        "fold": 2,
+        "best_param": "C=0.2",
+        "inner_bal_acc": 0.7735,
+        "n_test": 1061
+      },
+      {
+        "fold": 3,
+        "best_param": "C=5.0",
+        "inner_bal_acc": 0.7715,
+        "n_test": 1061
+      },
+      {
+        "fold": 4,
+        "best_param": "C=0.5",
+        "inner_bal_acc": 0.7776,
+        "n_test": 1059
+      }
+    ],
+    "topic_evidence::structured_plus_playtime_hgb": [
+      {
+        "fold": 0,
+        "best_param": "{'max_depth': 4, 'learning_rate': 0.05, 'max_iter': 200, 'min_samples_leaf': 20}",
+        "inner_bal_acc": 0.692,
+        "n_test": 1060
+      },
+      {
+        "fold": 1,
+        "best_param": "{'max_depth': 4, 'learning_rate': 0.05, 'max_iter': 200, 'min_samples_leaf': 20}",
+        "inner_bal_acc": 0.6993,
+        "n_test": 1060
+      },
+      {
+        "fold": 2,
+        "best_param": "{'max_depth': 4, 'learning_rate': 0.05, 'max_iter': 200, 'min_samples_leaf': 20}",
+        "inner_bal_acc": 0.7051,
+        "n_test": 1061
+      },
+      {
+        "fold": 3,
+        "best_param": "{'max_depth': 4, 'learning_rate': 0.05, 'max_iter': 200, 'min_samples_leaf': 20}",
+        "inner_bal_acc": 0.6949,
+        "n_test": 1061
+      },
+      {
+        "fold": 4,
+        "best_param": "{'max_depth': 4, 'learning_rate': 0.05, 'max_iter': 200, 'min_samples_leaf': 20}",
+        "inner_bal_acc": 0.6975,
+        "n_test": 1059
+      }
+    ],
+    "topic_evidence::structured_plus_topics_hgb": [
+      {
+        "fold": 0,
+        "best_param": "{'max_depth': 4, 'learning_rate': 0.05, 'max_iter': 200, 'min_samples_leaf': 20}",
+        "inner_bal_acc": 0.7904,
+        "n_test": 1060
+      },
+      {
+        "fold": 1,
+        "best_param": "{'max_depth': 4, 'learning_rate': 0.05, 'max_iter': 200, 'min_samples_leaf': 20}",
+        "inner_bal_acc": 0.79,
+        "n_test": 1060
+      },
+      {
+        "fold": 2,
+        "best_param": "{'max_depth': 4, 'learning_rate': 0.05, 'max_iter': 200, 'min_samples_leaf': 20}",
+        "inner_bal_acc": 0.794,
+        "n_test": 1061
+      },
+      {
+        "fold": 3,
+        "best_param": "{'max_depth': 4, 'learning_rate': 0.05, 'max_iter': 200, 'min_samples_leaf': 20}",
+        "inner_bal_acc": 0.7794,
+        "n_test": 1061
+      },
+      {
+        "fold": 4,
+        "best_param": "{'max_depth': 4, 'learning_rate': 0.05, 'max_iter': 200, 'min_samples_leaf': 20}",
+        "inner_bal_acc": 0.7857,
+        "n_test": 1059
+      }
+    ],
+    "full_eligible::majority_baseline": [
+      {
+        "fold": 0,
+        "best_param": "most_frequent",
+        "n_test": 3878
+      },
+      {
+        "fold": 1,
+        "best_param": "most_frequent",
+        "n_test": 3880
+      },
+      {
+        "fold": 2,
+        "best_param": "most_frequent",
+        "n_test": 3879
+      },
+      {
+        "fold": 3,
+        "best_param": "most_frequent",
+        "n_test": 3879
+      },
+      {
+        "fold": 4,
+        "best_param": "most_frequent",
+        "n_test": 3879
+      }
+    ],
+    "full_eligible::structured_plus_playtime": [
+      {
+        "fold": 0,
+        "best_param": "C=0.2",
+        "inner_bal_acc": 0.6745,
+        "n_test": 3878
+      },
+      {
+        "fold": 1,
+        "best_param": "C=1.0",
+        "inner_bal_acc": 0.6753,
+        "n_test": 3880
+      },
+      {
+        "fold": 2,
+        "best_param": "C=2.0",
+        "inner_bal_acc": 0.6766,
+        "n_test": 3879
+      },
+      {
+        "fold": 3,
+        "best_param": "C=5.0",
+        "inner_bal_acc": 0.6747,
+        "n_test": 3879
+      },
+      {
+        "fold": 4,
+        "best_param": "C=0.5",
+        "inner_bal_acc": 0.6798,
+        "n_test": 3879
+      }
+    ],
+    "full_eligible::structured_plus_coverage_flag": [
+      {
+        "fold": 0,
+        "best_param": "C=0.2",
+        "inner_bal_acc": 0.7063,
+        "n_test": 3878
+      },
+      {
+        "fold": 1,
+        "best_param": "C=0.2",
+        "inner_bal_acc": 0.7087,
+        "n_test": 3880
+      },
+      {
+        "fold": 2,
+        "best_param": "C=2.0",
+        "inner_bal_acc": 0.7012,
+        "n_test": 3879
+      },
+      {
+        "fold": 3,
+        "best_param": "C=5.0",
+        "inner_bal_acc": 0.7091,
+        "n_test": 3879
+      },
+      {
+        "fold": 4,
+        "best_param": "C=0.5",
+        "inner_bal_acc": 0.7111,
+        "n_test": 3879
+      }
+    ],
+    "full_eligible::structured_plus_coverage_and_topics": [
+      {
+        "fold": 0,
+        "best_param": "C=0.2",
+        "inner_bal_acc": 0.7299,
+        "n_test": 3878
+      },
+      {
+        "fold": 1,
+        "best_param": "C=0.2",
+        "inner_bal_acc": 0.7356,
+        "n_test": 3880
+      },
+      {
+        "fold": 2,
+        "best_param": "C=0.2",
+        "inner_bal_acc": 0.7245,
+        "n_test": 3879
+      },
+      {
+        "fold": 3,
+        "best_param": "C=2.0",
+        "inner_bal_acc": 0.734,
+        "n_test": 3879
+      },
+      {
+        "fold": 4,
+        "best_param": "C=0.5",
+        "inner_bal_acc": 0.7365,
+        "n_test": 3879
+      }
+    ]
+  }
+}

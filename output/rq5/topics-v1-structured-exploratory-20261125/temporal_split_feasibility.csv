@@ -1,0 +1,10 @@
+﻿cohort,cutoff_quantile,cutoff_utc,evaluable_authors_future_rec,evaluable_author_share,unseen_positive_test_pairs
+clean_master,0.5,2026-10-29T04:57:49Z,29,0.001518563125098183,35
+clean_master,0.7,2026-10-31T08:20:51Z,25,0.0013091061423260199,31
+clean_master,0.8,2026-10-31T22:28:04Z,20,0.001047284913860816,25
+association_eligible,0.5,2026-10-29T04:57:08Z,29,0.0015256734006734007,35
+association_eligible,0.7,2026-10-31T08:22:06Z,25,0.0013152356902356903,31
+association_eligible,0.8,2026-10-31T22:27:32Z,19,0.0009995791245791246,23
+eligible_with_topic_evidence,0.5,2026-10-28T08:49:48Z,10,0.0019164430816404753,11
+eligible_with_topic_evidence,0.7,2026-10-31T01:10:14Z,7,0.0013415101571483327,10
+eligible_with_topic_evidence,0.8,2026-10-31T18:20:36Z,7,0.0013415101571483327,8

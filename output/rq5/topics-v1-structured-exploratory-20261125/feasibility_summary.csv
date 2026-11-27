@@ -1,0 +1,4 @@
+﻿cohort,reviews,games,unique_authors,single_game_authors,single_game_author_share,authors_ge2_games,authors_ge2_games_share,authors_ge3_games,authors_ge2_positive_games,authors_ge2_positive_games_share,authors_ge3_positive_games,authors_with_pos_and_neg,recommended_reviews,not_recommended_reviews,recommend_rate,max_games_per_author
+clean_master,19486,50,19097,18815,0.9852332827145625,282,0.014766717285437504,68,233,0.012200869246478504,53,52,16442,3044,0.843785281740737,10
+association_eligible,19395,50,19008,18727,0.9852167508417509,281,0.014783249158249159,67,232,0.012205387205387205,52,52,16355,3040,0.8432585717968548,10
+eligible_with_topic_evidence,5301,50,5218,5153,0.9875431199693369,65,0.01245688003066309,12,57,0.01092372556535071,11,9,3834,1467,0.7232597623089984,6
